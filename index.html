@@ -1,484 +1,794 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>JRM Private Security — Lobby Display</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JRM Security — Lobby Playlist</title>
+<!--
+  ============================================================================
+  JRM SECURITY — LOBBY "PLAYLIST" KIOSK
+  Adapted from the SmartProd Consulting mockup into the production build.
+  Data comes from data.json, written hourly by scripts/sync.js from two
+  Airtable bases: JRM Marketing (Lobby Callouts / Team Bios / Asset Library)
+  and JRM's ops base (aggregate job-log metrics, offices, REMs only — no
+  employee, invoicing, or financial fields are ever read).
+
+  KIOSK CONTROLS (for review sessions)
+  SPACE ........ pause/resume the playlist
+  ← / → ........ previous/next scene
+  Click a chip . jump to that scene
+  ============================================================================
+-->
 <style>
-  :root {
-    --navy: #211D51;
-    --navy-dark: #171340;
-    --gold: #AE832E;
-    --gold-dark: #946E23;
-    --white: #FFFFFF;
-    --blue: #1E73BE;
+  :root{
+    --ink-000:#07090D; --ink-100:#0B0F16; --ink-200:#111826; --ink-300:#1B2536;
+    --line:   #23304433;
+    --text-hi:#EAEDF2; --text-lo:#8C97A8;
+    --gold:   #E8B44A; --gold-hot:#FF8A3D;
+    --steel:  #6FA8C9; --ember:  #E85D4A;
+    --font-display:'Saira Condensed', 'Arial Narrow', sans-serif;
+    --font-body:'IBM Plex Sans', system-ui, sans-serif;
+    --font-mono:'IBM Plex Mono', ui-monospace, monospace;
   }
 
-  * { box-sizing: border-box; }
+  @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
-  html, body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    background: var(--navy);
-    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
-    color: var(--white);
+  *{ margin:0; padding:0; box-sizing:border-box; }
+
+  html,body{
+    height:100%; background:#000; color:var(--text-hi);
+    font-family:var(--font-body); overflow:hidden;
   }
 
-  body.idle { cursor: none; }
-
-  #app {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+  #tv{
+    position:fixed; top:50%; left:50%;
+    width:1920px; height:1080px;
+    transform:translate(-50%,-50%) scale(1);
+    transform-origin:center center;
+    background:var(--ink-000);
+    box-shadow:0 0 80px #000;
   }
 
-  /* ---------- Header ---------- */
-  header {
-    flex: 0 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2.2vh 3vw 1.6vh 3vw;
+  #stage{
+    position:absolute; inset:0 0 64px 0;
+    background:
+      radial-gradient(1200px 700px at 70% -10%, #14203055 0%, transparent 60%),
+      var(--ink-100);
   }
 
-  header .logo img {
-    height: 8vh;
-    max-height: 90px;
-    width: auto;
-    display: block;
+  .scene{
+    position:absolute; inset:0;
+    opacity:0; visibility:hidden;
+    transition:opacity 1.1s ease;
+    padding:56px 64px 40px 64px;
+    display:flex; flex-direction:column;
+  }
+  .scene.active{ opacity:1; visibility:visible; }
+
+  .scene-head{ margin-bottom:36px; }
+  .eyebrow{
+    font-family:var(--font-mono);
+    font-size:12px; letter-spacing:.32em;
+    color:var(--gold);
+    text-transform:uppercase;
+    display:flex; align-items:center; gap:14px;
+  }
+  .eyebrow::before{ content:''; width:34px; height:1px; background:var(--gold); }
+  .scene-title{
+    font-family:var(--font-display);
+    font-weight:700; text-transform:uppercase;
+    font-size:clamp(34px, 4.2vw, 58px);
+    letter-spacing:.02em; line-height:1.02;
+    margin-top:10px;
+  }
+  .scene-sub{ color:var(--text-lo); font-size:15px; margin-top:8px; max-width:640px; }
+
+  /* Scene 1 — metrics */
+  .metric-grid{ flex:1; display:grid; grid-template-columns:repeat(3, 1fr); grid-auto-rows:1fr; gap:18px; }
+  .metric{
+    background:linear-gradient(160deg, var(--ink-200) 0%, #0D1420 100%);
+    border:1px solid var(--line); border-radius:10px;
+    padding:28px 30px; display:flex; flex-direction:column; justify-content:flex-end;
+    position:relative; overflow:hidden;
+  }
+  .metric::after{
+    content:''; position:absolute; top:14px; right:14px; width:12px; height:12px;
+    border-top:2px solid var(--gold); border-right:2px solid var(--gold); opacity:.55;
+  }
+  .metric .num{
+    font-family:var(--font-mono); font-size:clamp(44px, 5.4vw, 84px);
+    font-weight:500; color:var(--text-hi); line-height:1; font-variant-numeric:tabular-nums;
+  }
+  .metric .num .unit{ font-size:.42em; color:var(--gold); margin-left:6px; }
+  .metric .label{
+    font-family:var(--font-display); font-weight:600; text-transform:uppercase;
+    letter-spacing:.14em; font-size:15px; color:var(--text-lo); margin-top:12px;
+  }
+  .metric.feature{ grid-row:span 2; justify-content:center; align-items:flex-start;
+    background:linear-gradient(160deg,#16202f 0%, #0D1420 90%); border-color:#e8b44a33; }
+  .metric.feature .num{ font-size:clamp(72px, 9vw, 148px); color:var(--gold); }
+  .metric .sub{
+    font-family:var(--font-mono); font-size:14px; color:var(--gold);
+    letter-spacing:.08em; margin-top:14px; border-top:1px solid #e8b44a33; padding-top:12px;
   }
 
-  header .logo .logo-fallback {
-    font-size: clamp(22px, 3vw, 40px);
-    font-weight: 600;
-    color: var(--gold);
-    letter-spacing: 0.04em;
+  .mix-head{ font-family:var(--font-mono); font-size:10px; letter-spacing:.24em; color:var(--text-lo); text-transform:uppercase; margin-top:10px; }
+
+  /* Scene 6 — quote cards */
+  .quote-grid{ flex:1; display:grid; grid-template-columns:repeat(3,1fr); gap:18px; align-content:center; }
+  .quote-card{
+    background:linear-gradient(165deg, var(--ink-200), #0C1220);
+    border:1px solid var(--line); border-radius:10px;
+    padding:30px 28px; display:flex; flex-direction:column; position:relative;
+  }
+  .quote-card::before{
+    content:'"'; font-family:var(--font-display); font-weight:700;
+    font-size:64px; color:var(--gold); line-height:.6; margin-bottom:14px;
+  }
+  .quote-card .q-text{ font-size:19px; line-height:1.5; flex:1; }
+  .quote-card .q-who{ margin-top:22px; padding-top:14px; border-top:1px solid var(--line); }
+  .quote-card .q-author{ font-family:var(--font-display); font-weight:600; text-transform:uppercase; letter-spacing:.08em; font-size:16px; }
+  .quote-card .q-role{ font-family:var(--font-mono); font-size:11.5px; color:var(--text-lo); letter-spacing:.08em; margin-top:4px; }
+  .quote-card .q-date{ position:absolute; top:22px; right:24px; font-family:var(--font-mono); font-size:11px; color:var(--steel); letter-spacing:.14em; }
+  .quote-empty{ grid-column:1/-1; text-align:center; color:var(--text-lo); font-family:var(--font-mono); font-size:14px; letter-spacing:.1em; }
+
+  .ticker-wrap{
+    margin-top:16px; overflow:hidden; white-space:nowrap;
+    border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:10px 0;
+  }
+  .ticker{
+    display:inline-block; white-space:nowrap; font-family:var(--font-mono); font-size:14px;
+    letter-spacing:.1em; color:var(--text-lo); text-transform:uppercase; animation:marquee 45s linear infinite;
+  }
+  .ticker b{ color:var(--gold); font-weight:500; }
+  @keyframes marquee{ from{ transform:translateX(0); } to{ transform:translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce){ .ticker{ animation:none; } }
+
+  /* Scene 2 — heatmap */
+  .map-wrap{ flex:1; position:relative; display:flex; }
+  #opsmap{ flex:1; height:100%; }
+  .map-side{ width:280px; margin-left:28px; display:flex; flex-direction:column; gap:12px; justify-content:center; }
+  .region-row{
+    background:var(--ink-200); border:1px solid var(--line); border-radius:8px; padding:14px 18px;
+    display:flex; justify-content:space-between; align-items:baseline;
+  }
+  .region-row .r-name{ font-family:var(--font-display); font-weight:600; text-transform:uppercase; letter-spacing:.1em; font-size:15px; }
+  .region-row .r-count{ font-family:var(--font-mono); font-size:26px; color:var(--gold); }
+  .map-legend{
+    font-family:var(--font-mono); font-size:11px; color:var(--text-lo);
+    letter-spacing:.12em; text-transform:uppercase; display:flex; align-items:center; gap:10px; margin-top:8px;
+  }
+  .legend-bar{ flex:1; height:6px; border-radius:3px; background:linear-gradient(90deg, var(--steel), var(--gold), var(--ember)); }
+
+  /* Scene 3 — REM spotlight */
+  .rem-wrap{ flex:1; display:grid; grid-template-columns:1fr 1.3fr; gap:56px; align-items:center; }
+  .rem-card{ border-left:4px solid var(--rem-color, var(--gold)); padding-left:34px; }
+  .rem-name{ font-family:var(--font-display); font-weight:700; text-transform:uppercase; font-size:clamp(44px,5vw,72px); line-height:1; }
+  .rem-role{ font-family:var(--font-mono); color:var(--text-lo); letter-spacing:.22em; text-transform:uppercase; font-size:13px; margin-top:12px; }
+  .rem-stats{ display:flex; gap:44px; margin-top:36px; }
+  .rem-stat .num{ font-family:var(--font-mono); font-size:44px; color:var(--rem-color, var(--gold)); }
+  .rem-stat .label{ font-size:12px; color:var(--text-lo); text-transform:uppercase; letter-spacing:.16em; margin-top:6px; }
+  .rem-events{ display:flex; flex-direction:column; gap:14px; }
+  .rem-event{ background:var(--ink-200); border:1px solid var(--line); border-radius:8px; padding:18px 22px; display:flex; align-items:center; gap:20px; }
+  .rem-event .dot{ width:9px; height:9px; border-radius:50%; background:var(--rem-color, var(--gold)); flex:none; }
+  .rem-event .e-name{ font-weight:600; font-size:18px; flex:1; }
+  .rem-event .e-meta{ font-family:var(--font-mono); font-size:13px; color:var(--text-lo); }
+  .rem-empty{ text-align:center; color:var(--text-lo); font-family:var(--font-mono); font-size:14px; letter-spacing:.1em; grid-column:1/-1; }
+
+  /* Scene 4 — events */
+  .event-grid{ flex:1; display:grid; grid-template-columns:repeat(3,1fr); grid-auto-rows:1fr; gap:18px; }
+  .event-card{
+    background:linear-gradient(165deg, var(--ink-200), #0C1220);
+    border:1px solid var(--line); border-radius:10px; padding:24px 26px;
+    display:flex; flex-direction:column; gap:10px; position:relative;
+  }
+  .badge-row{ display:flex; gap:8px; flex-wrap:wrap; }
+  .badge{
+    font-family:var(--font-mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase;
+    padding:4px 10px; border-radius:3px; border:1px solid var(--gold); color:var(--gold);
+  }
+  .event-card .e-title{
+    font-family:var(--font-display); font-weight:600; text-transform:uppercase;
+    font-size:clamp(18px,1.7vw,25px); letter-spacing:.02em; line-height:1.1; margin-top:auto;
+  }
+  .event-card .e-client{ color:var(--gold); font-size:14px; font-weight:600; }
+  .event-card .e-venue{ color:var(--text-lo); font-size:13px; font-family:var(--font-mono); }
+  .event-card.upcoming{ border-color:#6fa8c94d; }
+  .event-card.upcoming::before{
+    content:'UPCOMING'; position:absolute; top:16px; right:16px;
+    font-family:var(--font-mono); font-size:10px; letter-spacing:.2em; color:var(--steel);
   }
 
-  header .clock-block {
-    text-align: right;
+  /* Scene 5 — photo reel */
+  .photo-stage{ flex:1; position:relative; border-radius:12px; overflow:hidden; border:1px solid var(--line); }
+  .photo{ position:absolute; inset:0; opacity:0; transition:opacity 1.4s ease; }
+  .photo.showing{ opacity:1; }
+  .photo svg{ width:100%; height:100%; display:block; }
+  .photo .art img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .photo .art{ position:absolute; inset:-6%; animation:kenburns 26s ease-in-out infinite alternate; }
+  @keyframes kenburns{ from{ transform:scale(1) translate(0,0); } to{ transform:scale(1.12) translate(-2.5%, -1.5%); } }
+  .caption{
+    position:absolute; left:0; right:0; bottom:0; padding:26px 34px;
+    background:linear-gradient(0deg, #07090de6 10%, transparent);
+    display:flex; align-items:baseline; gap:18px;
   }
+  .caption .c-title{ font-family:var(--font-display); font-weight:700; text-transform:uppercase; font-size:30px; letter-spacing:.02em; }
+  .caption .c-meta{ font-family:var(--font-mono); font-size:13px; color:var(--gold); letter-spacing:.1em; }
 
-  header .clock {
-    font-size: clamp(28px, 3.4vw, 52px);
-    font-weight: 500;
-    color: var(--white);
-    line-height: 1;
-    font-variant-numeric: tabular-nums;
+  /* Scene 7 — team */
+  .team-grid{ flex:1; display:grid; grid-template-columns:repeat(4,1fr); grid-auto-rows:1fr; gap:16px; }
+  .team-card{
+    background:linear-gradient(165deg, var(--ink-200), #0C1220);
+    border:1px solid var(--line); border-radius:10px; padding:20px;
+    display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:10px;
   }
+  .team-photo{
+    width:96px; height:96px; border-radius:50%; border:2px solid var(--gold);
+    overflow:hidden; background:var(--ink-300); display:flex; align-items:center; justify-content:center; flex:none;
+  }
+  .team-photo img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .team-photo .mono{ font-family:var(--font-display); font-weight:700; font-size:28px; color:var(--gold); }
+  .team-name{ font-family:var(--font-display); font-weight:600; text-transform:uppercase; font-size:18px; letter-spacing:.02em; }
+  .team-title{ font-family:var(--font-mono); font-size:11px; color:var(--text-lo); letter-spacing:.1em; text-transform:uppercase; }
 
-  header .date {
-    margin-top: 0.4vh;
-    font-size: clamp(14px, 1.4vw, 22px);
-    color: var(--gold);
-    letter-spacing: 0.03em;
+  /* Status rail */
+  #rail{
+    position:absolute; left:0; right:0; bottom:0; height:64px;
+    background:#05070B; border-top:1px solid #1b2536; display:flex; align-items:center; z-index:50;
   }
+  #brand{ display:flex; align-items:center; gap:14px; padding:0 26px; height:100%; border-right:1px solid #1b2536; flex:none; }
+  #brand .mark{
+    width:30px; height:30px; border:2px solid var(--gold); border-radius:4px;
+    display:grid; place-items:center; font-family:var(--font-display); font-weight:700; font-size:13px; color:var(--gold);
+    overflow:hidden;
+  }
+  #brand .mark img{ width:100%; height:100%; object-fit:contain; }
+  #brand .word{ font-family:var(--font-display); font-weight:700; letter-spacing:.18em; text-transform:uppercase; font-size:16px; }
+  #brand .word small{ display:block; font-family:var(--font-mono); font-weight:400; font-size:9px; letter-spacing:.3em; color:var(--text-lo); margin-top:2px; }
 
-  .gold-rule {
-    flex: 0 0 auto;
-    height: 2px;
-    margin: 0 3vw;
-    background: linear-gradient(90deg, var(--gold), var(--gold-dark) 60%, transparent);
+  #playlist{ flex:1; display:flex; align-items:center; gap:8px; padding:0 20px; overflow:hidden; }
+  .chip{
+    position:relative; overflow:hidden; font-family:var(--font-mono); font-size:11px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--text-lo); border:1px solid #1b2536; border-radius:4px;
+    padding:9px 16px; cursor:pointer; background:transparent; white-space:nowrap;
   }
+  .chip .fill{ position:absolute; inset:0; width:0%; background:#e8b44a1f; border-right:1px solid var(--gold); }
+  .chip span{ position:relative; }
+  .chip.current{ color:var(--text-hi); border-color:var(--gold); }
 
-  /* ---------- Stage ---------- */
-  #stage {
-    position: relative;
-    flex: 1 1 auto;
-    overflow: hidden;
+  #clock{
+    flex:none; padding:0 26px; height:100%; border-left:1px solid #1b2536;
+    display:flex; flex-direction:column; justify-content:center; align-items:flex-end; font-family:var(--font-mono);
   }
+  #clock .time{ font-size:19px; letter-spacing:.06em; }
+  #clock .zone{ font-size:9.5px; color:var(--text-lo); letter-spacing:.28em; }
 
-  .slide {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4vh 6vw;
-    opacity: 0;
-    transition: opacity 1.1s ease-in-out;
-    pointer-events: none;
+  #freshbadge{
+    position:absolute; top:18px; right:20px; z-index:60; font-family:var(--font-mono); font-size:10px;
+    letter-spacing:.24em; color:var(--text-lo); border:1px solid var(--line); border-radius:3px;
+    padding:5px 10px; opacity:.85; text-transform:uppercase;
   }
+  #paused{
+    position:absolute; top:18px; left:20px; z-index:60; display:none; font-family:var(--font-mono); font-size:10px;
+    letter-spacing:.24em; color:var(--gold); border:1px solid var(--gold); border-radius:3px; padding:5px 10px; text-transform:uppercase;
+  }
+  body.paused #paused{ display:block; }
+  body.idle{ cursor:none; }
 
-  .slide.active {
-    opacity: 1;
-    pointer-events: auto;
-  }
-
-  /* Callout slide */
-  .callout-slide {
-    flex-direction: column;
-    text-align: center;
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-
-  .callout-byline {
-    font-size: clamp(34px, 4.4vw, 68px);
-    font-weight: 400;
-    color: var(--gold);
-    margin: 0 0 3vh 0;
-    line-height: 1.15;
-  }
-
-  .callout-text {
-    font-size: clamp(20px, 2.3vw, 34px);
-    font-weight: 400;
-    color: var(--white);
-    line-height: 1.5;
-    margin: 0;
-    max-width: 60ch;
-  }
-
-  .callout-author {
-    margin-top: 3.5vh;
-    font-size: clamp(14px, 1.3vw, 20px);
-    color: var(--gold);
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-  }
-
-  /* Bio slide */
-  .bio-slide {
-    justify-content: center;
-    gap: 6vw;
-    max-width: 1600px;
-    margin: 0 auto;
-  }
-
-  .bio-photo-wrap {
-    flex: 0 0 auto;
-    width: clamp(220px, 22vw, 420px);
-    height: clamp(280px, 28vw, 520px);
-    border-radius: 18px;
-    border: 2px solid var(--gold);
-    overflow: hidden;
-    background: var(--navy-dark);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .bio-photo-wrap img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-
-  .bio-monogram {
-    font-size: clamp(60px, 8vw, 140px);
-    font-weight: 600;
-    color: var(--gold);
-    letter-spacing: 0.05em;
-  }
-
-  .bio-info {
-    flex: 0 1 640px;
-    max-width: 640px;
-  }
-
-  .bio-name {
-    font-size: clamp(30px, 3.6vw, 56px);
-    font-weight: 500;
-    color: var(--gold);
-    margin: 0 0 0.6vh 0;
-    line-height: 1.1;
-  }
-
-  .bio-title {
-    font-size: clamp(16px, 1.6vw, 24px);
-    font-weight: 400;
-    color: var(--white);
-    font-variant: small-caps;
-    letter-spacing: 0.08em;
-    margin: 0 0 2.6vh 0;
-    opacity: 0.9;
-  }
-
-  .bio-text {
-    font-size: clamp(16px, 1.5vw, 24px);
-    line-height: 1.5;
-    color: var(--white);
-    margin: 0;
-    display: -webkit-box;
-    -webkit-line-clamp: 6;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  /* Empty state */
-  .empty-slide {
-    text-align: center;
-    color: var(--gold);
-    font-size: clamp(20px, 2vw, 30px);
-  }
-
-  /* ---------- Progress dots ---------- */
-  #dots {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 2.4vh;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    z-index: 5;
-  }
-
-  #dots .dot {
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.25);
-    transition: background 0.4s ease, transform 0.4s ease;
-  }
-
-  #dots .dot.active {
-    background: var(--gold);
-    transform: scale(1.3);
-  }
+  @media (prefers-reduced-motion: reduce){ .photo .art{ animation:none; } .scene{ transition:none; } }
 </style>
 </head>
 <body>
-  <div id="app">
-    <header>
-      <div class="logo">
-        <img id="logo-img" src="assets/brand/JRM_FULL_LOGO_LIGHT-300x244.png" alt="JRM Private Security"
-             onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='block';" />
-        <div class="logo-fallback" id="logo-fallback" style="display:none;">JRM PRIVATE SECURITY</div>
-      </div>
-      <div class="clock-block">
-        <div class="clock" id="clock">--:--</div>
-        <div class="date" id="date">&nbsp;</div>
-      </div>
-    </header>
-    <div class="gold-rule"></div>
 
-    <div id="stage"></div>
-    <div id="dots"></div>
+<div id="tv">
+
+<div id="freshbadge">Starting up…</div>
+<div id="paused">Paused — space to resume</div>
+
+<div id="stage">
+
+  <section class="scene" id="scene-metrics">
+    <div class="scene-head">
+      <div class="eyebrow">National Operations</div>
+      <h1 class="scene-title">Event Security, Coast to Coast.</h1>
+    </div>
+    <div class="metric-grid">
+      <div class="metric feature">
+        <div class="num"><span data-count="0">0</span></div>
+        <div class="label">Events Secured · YTD</div>
+        <div class="sub" id="perday-sub">&nbsp;</div>
+      </div>
+      <div class="metric"><div class="num"><span data-count="0">0</span></div><div class="label">Events · Last 30 Days</div></div>
+      <div class="metric"><div class="num"><span data-count="0">0</span></div><div class="label">Guards Deployed · 30 Days</div></div>
+      <div class="metric"><div class="num"><span data-count="0">0</span></div><div class="label">Cities Covered · YTD</div></div>
+      <div class="metric"><div class="num"><span data-count="0">0</span></div><div class="label">Already on the Board · Next 30 Days</div></div>
+    </div>
+  </section>
+
+  <section class="scene" id="scene-heatmap">
+    <div class="scene-head">
+      <div class="eyebrow">Deployment Density · Rolling 30 Days · By JRM Office</div>
+      <h1 class="scene-title">Where We've Stood Post</h1>
+    </div>
+    <div class="map-wrap">
+      <canvas id="opsmap"></canvas>
+      <div class="map-side" id="mapside">
+        <div class="map-legend"><span>Low</span><div class="legend-bar"></div><span>High</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene" id="scene-rem">
+    <div class="scene-head">
+      <div class="eyebrow">Regional Event Manager · Spotlight</div>
+      <h1 class="scene-title">On Point This Month</h1>
+    </div>
+    <div class="rem-wrap" id="remwrap"></div>
+  </section>
+
+  <section class="scene" id="scene-events">
+    <div class="scene-head">
+      <div class="eyebrow">Recent &amp; Upcoming · Marquee Detail</div>
+      <h1 class="scene-title">Event Highlights</h1>
+    </div>
+    <div class="event-grid" id="eventgrid"></div>
+    <div class="ticker-wrap"><div class="ticker" id="ticker"></div></div>
+  </section>
+
+  <section class="scene" id="scene-photos">
+    <div class="scene-head">
+      <div class="eyebrow">From the Field · Curated</div>
+      <h1 class="scene-title">Recent Deployments</h1>
+    </div>
+    <div class="photo-stage" id="photostage"></div>
+  </section>
+
+  <section class="scene" id="scene-linkedin">
+    <div class="scene-head">
+      <div class="eyebrow">From LinkedIn · Curated</div>
+      <h1 class="scene-title">On the Record</h1>
+    </div>
+    <div class="quote-grid" id="quotegrid"></div>
+  </section>
+
+  <section class="scene" id="scene-team">
+    <div class="scene-head">
+      <div class="eyebrow">Leadership</div>
+      <h1 class="scene-title">The JRM Team</h1>
+    </div>
+    <div class="team-grid" id="teamgrid"></div>
+  </section>
+
+</div>
+
+<div id="rail">
+  <div id="brand">
+    <div class="mark" id="brand-mark">JRM</div>
+    <div class="word">JRM Security<small>S&amp;S Labor Force Inc.</small></div>
   </div>
+  <div id="playlist"></div>
+  <div id="clock">
+    <div class="time" id="clocktime">--:--:--</div>
+    <div class="zone">Los Angeles · PT</div>
+  </div>
+</div>
+
+</div><!-- /#tv -->
 
 <script>
-(function () {
-  "use strict";
+/* ============================================================================
+   FALLBACK DATA — shown until data.json loads for the first time (or if a
+   sync outage leaves it stale/unreachable). Keeps the wall from ever going
+   blank; matches the exact shape scripts/sync.js writes to data.json.
+   ========================================================================== */
+const MOCK_DATA = {
+  metrics: { eventsYTD: 0, events30: 0, guards30: 0, citiesYTD: 0, upcoming30: 0, perDay: 0 },
+  heatPoints: [],
+  rems: [],
+  events: [],
+  ticker: [],
+  linkedin: [],
+  photos: [],
+  team: []
+};
 
-  var SLIDE_INTERVAL_MS = 12000;
-  var DATA_REFRESH_MS = 10 * 60 * 1000;
-  var IDLE_CURSOR_MS = 5000;
-  var DAILY_RELOAD_HOUR = 4; // 04:00 local time
+const PLAYLIST = [
+  { id:'scene-metrics',  label:'01 Metrics',    seconds:14, onEnter: runCountUps },
+  { id:'scene-heatmap',  label:'02 Heatmap',    seconds:16, onEnter: null },
+  { id:'scene-rem',      label:'03 REM',        seconds:14, onEnter: nextRem },
+  { id:'scene-events',   label:'04 Events',     seconds:14, onEnter: null },
+  { id:'scene-photos',   label:'05 Photo Reel', seconds:18, onEnter: startReel },
+  { id:'scene-linkedin', label:'06 LinkedIn',   seconds:14, onEnter: null },
+  { id:'scene-team',     label:'07 Team',       seconds:16, onEnter: null }
+];
 
-  var stage = document.getElementById("stage");
-  var dotsEl = document.getElementById("dots");
+let currentIndex = 0;
+let sceneTimer   = null;
+let chipRAF      = null;
+let sceneStarted = 0;
+let paused       = false;
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const esc = v => (v === null || v === undefined) ? '' : String(v)
+  .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 
-  var slides = [];
-  var slideEls = [];
-  var currentIndex = -1;
-  var rotateTimer = null;
+/* ---- playlist chips ------------------------------------------------------ */
+const playlistEl = document.getElementById('playlist');
+PLAYLIST.forEach((item, i) => {
+  const btn = document.createElement('button');
+  btn.className = 'chip';
+  btn.innerHTML = `<div class="fill"></div><span>${item.label}</span>`;
+  btn.addEventListener('click', () => goTo(i));
+  playlistEl.appendChild(btn);
+});
+const chips = [...playlistEl.children];
 
-  // ---------- Clock ----------
-  function pad(n) { return String(n).padStart(2, "0"); }
+function goTo(index){
+  clearTimeout(sceneTimer);
+  cancelAnimationFrame(chipRAF);
+  document.querySelectorAll('.scene').forEach(s => s.classList.remove('active'));
+  chips.forEach(c => { c.classList.remove('current'); c.querySelector('.fill').style.width = '0%'; });
+  currentIndex = (index + PLAYLIST.length) % PLAYLIST.length;
+  const item = PLAYLIST[currentIndex];
+  document.getElementById(item.id).classList.add('active');
+  chips[currentIndex].classList.add('current');
+  if (item.onEnter) item.onEnter();
+  sceneStarted = performance.now();
+  if (!paused) armTimer();
+  tickChip();
+}
+function armTimer(){
+  const item = PLAYLIST[currentIndex];
+  const elapsed = performance.now() - sceneStarted;
+  sceneTimer = setTimeout(() => goTo(currentIndex + 1), item.seconds * 1000 - elapsed);
+}
+function tickChip(){
+  const item = PLAYLIST[currentIndex];
+  const fill = chips[currentIndex].querySelector('.fill');
+  const step = () => {
+    if (!paused){
+      const pct = Math.min(100, (performance.now() - sceneStarted) / (item.seconds * 1000) * 100);
+      fill.style.width = pct + '%';
+    }
+    chipRAF = requestAnimationFrame(step);
+  };
+  chipRAF = requestAnimationFrame(step);
+}
 
-  function updateClock() {
-    var now = new Date();
-    var h = now.getHours();
-    var ampm = h >= 12 ? "PM" : "AM";
-    var h12 = h % 12 || 12;
-    document.getElementById("clock").textContent = h12 + ":" + pad(now.getMinutes()) + " " + ampm;
-    document.getElementById("date").textContent = now.toLocaleDateString(undefined, {
-      weekday: "long", month: "long", day: "numeric", year: "numeric"
-    });
-  }
-  updateClock();
-  setInterval(updateClock, 15000);
+/* ---- TV-frame scaler ------------------------------------------------------ */
+const tv = document.getElementById('tv');
+function fitTV(){
+  const scale = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+  tv.style.transform = `translate(-50%,-50%) scale(${scale})`;
+}
+window.addEventListener('resize', fitTV);
+window.addEventListener('orientationchange', fitTV);
+fitTV();
 
-  // ---------- Idle cursor ----------
-  var idleTimer = null;
-  function resetIdle() {
-    document.body.classList.remove("idle");
-    clearTimeout(idleTimer);
-    idleTimer = setTimeout(function () {
-      document.body.classList.add("idle");
-    }, IDLE_CURSOR_MS);
-  }
-  ["mousemove", "mousedown", "keydown", "touchstart"].forEach(function (evt) {
-    window.addEventListener(evt, resetIdle, { passive: true });
+/* ---- pause + controls ----------------------------------------------------- */
+function togglePause(){
+  paused = !paused;
+  document.body.classList.toggle('paused', paused);
+  if (paused) clearTimeout(sceneTimer);
+  else { sceneStarted = performance.now(); armTimer(); }
+}
+document.addEventListener('keydown', e => {
+  if (e.code === 'Space'){ e.preventDefault(); togglePause(); }
+  if (e.code === 'ArrowRight') goTo(currentIndex + 1);
+  if (e.code === 'ArrowLeft')  goTo(currentIndex - 1);
+});
+document.addEventListener('pointerdown', e => {
+  if (e.target.closest('.chip')) return;
+  if (e.pointerType === 'mouse' && e.button !== 0) return;
+  const x = e.clientX / window.innerWidth;
+  if (x < 0.33)      goTo(currentIndex - 1);
+  else if (x > 0.67) goTo(currentIndex + 1);
+  else               togglePause();
+});
+
+/* ---- idle cursor ----------------------------------------------------------- */
+let idleTimer = null;
+function resetIdle(){
+  document.body.classList.remove('idle');
+  clearTimeout(idleTimer);
+  idleTimer = setTimeout(() => document.body.classList.add('idle'), 5000);
+}
+['mousemove','mousedown','keydown','touchstart'].forEach(evt => window.addEventListener(evt, resetIdle, { passive:true }));
+resetIdle();
+
+/* ============================================================================
+   SCENE 1 — metrics count-up
+   ========================================================================== */
+function runCountUps(){
+  document.querySelectorAll('#scene-metrics [data-count]').forEach(el => {
+    const target = +el.dataset.count;
+    if (reduceMotion){ el.textContent = target.toLocaleString(); return; }
+    const dur = 1400, t0 = performance.now();
+    const step = now => {
+      const p = Math.min(1, (now - t0) / dur);
+      const eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(target * eased).toLocaleString();
+      if (p < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
   });
-  resetIdle();
+}
+function renderMetrics(m){
+  if (!m) return;
+  const nums = document.querySelectorAll('#scene-metrics [data-count]');
+  const order = [m.eventsYTD, m.events30, m.guards30, m.citiesYTD, m.upcoming30];
+  nums.forEach((el, i) => { el.dataset.count = order[i] || 0; });
+  const sub = document.getElementById('perday-sub');
+  if (sub) sub.textContent = m.perDay ? `≈ ${Math.round(m.perDay)} EVENTS SECURED EVERY DAY THIS YEAR` : '';
+}
 
-  // ---------- Daily reload ----------
-  function scheduleDailyReload() {
-    var now = new Date();
-    var next = new Date(now);
-    next.setHours(DAILY_RELOAD_HOUR, 0, 0, 0);
-    if (next <= now) next.setDate(next.getDate() + 1);
-    var ms = next - now;
-    setTimeout(function () { location.reload(); }, ms);
-  }
-  scheduleDailyReload();
+/* ============================================================================
+   SCENE 2 — vector U.S. ops map with weighted heat blooms
+   ========================================================================== */
+const US_OUTLINE = [
+  [-124.7,48.4],[-124.2,42.0],[-124.4,40.4],[-122.0,37.2],[-120.6,34.6],
+  [-117.1,32.5],[-114.8,32.6],[-111.0,31.3],[-108.2,31.3],[-106.5,31.8],
+  [-104.9,30.6],[-104.0,29.3],[-102.4,29.8],[-99.5,27.5],[-97.1,25.9],
+  [-97.4,27.9],[-93.8,29.7],[-90.1,29.2],[-89.0,30.4],[-87.5,30.3],
+  [-84.9,29.7],[-83.0,29.0],[-81.5,25.2],[-80.0,26.8],[-81.4,30.7],
+  [-79.0,33.2],[-75.5,35.2],[-76.0,37.0],[-74.0,40.5],[-71.9,41.3],
+  [-70.0,41.7],[-70.8,43.1],[-67.0,44.8],[-69.2,47.5],[-71.5,45.0],
+  [-75.0,45.0],[-76.8,43.6],[-79.0,43.3],[-82.4,41.7],[-82.7,45.3],
+  [-84.8,46.5],[-88.0,48.3],[-95.2,49.0],[-104.0,49.0],[-124.7,48.4]
+];
+const LON = { min:-126, max:-66 };
+const LAT = { min:24,  max:50  };
+const mapCanvas = document.getElementById('opsmap');
+const mctx = mapCanvas.getContext('2d');
 
-  // ---------- Build slides ----------
-  function initials(name) {
-    if (!name) return "?";
-    var parts = name.trim().split(/\s+/);
-    var first = parts[0] ? parts[0][0] : "";
-    var last = parts.length > 1 ? parts[parts.length - 1][0] : "";
-    return (first + last).toUpperCase();
-  }
+function project(lon, lat, w, h){
+  const x = (lon - LON.min) / (LON.max - LON.min) * w;
+  const y = (1 - (lat - LAT.min) / (LAT.max - LAT.min)) * h;
+  return [x, y];
+}
+function drawMap(pulsePhase){
+  const w = mapCanvas.width  = mapCanvas.offsetWidth  || 1200;
+  const h = mapCanvas.height = mapCanvas.offsetHeight || 560;
+  mctx.clearRect(0, 0, w, h);
+  mctx.strokeStyle = 'rgba(35,48,68,0.35)'; mctx.lineWidth = 1;
+  for (let gx = 0; gx < w; gx += w/14){ mctx.beginPath(); mctx.moveTo(gx,0); mctx.lineTo(gx,h); mctx.stroke(); }
+  for (let gy = 0; gy < h; gy += h/8) { mctx.beginPath(); mctx.moveTo(0,gy); mctx.lineTo(w,gy); mctx.stroke(); }
+  mctx.beginPath();
+  US_OUTLINE.forEach(([lon,lat], i) => { const [x,y] = project(lon, lat, w, h); i ? mctx.lineTo(x,y) : mctx.moveTo(x,y); });
+  mctx.closePath();
+  mctx.fillStyle = 'rgba(17,24,38,0.9)'; mctx.fill();
+  mctx.strokeStyle = 'rgba(111,168,201,0.35)'; mctx.lineWidth = 1.4; mctx.stroke();
 
-  function buildCalloutSlide(c) {
-    var el = document.createElement("div");
-    el.className = "slide callout-slide";
-    var byline = document.createElement("p");
-    byline.className = "callout-byline";
-    byline.textContent = c.byline || "";
-    var text = document.createElement("p");
-    text.className = "callout-text";
-    text.textContent = c.text || "";
-    el.appendChild(byline);
-    el.appendChild(text);
-    if (c.author) {
-      var author = document.createElement("div");
-      author.className = "callout-author";
-      author.textContent = c.author;
-      el.appendChild(author);
+  mctx.globalCompositeOperation = 'lighter';
+  (DATA.heatPoints || []).forEach(p => {
+    const [x,y] = project(p.lon, p.lat, w, h);
+    const radius = 18 + p.w * 62;
+    const g = mctx.createRadialGradient(x, y, 0, x, y, radius);
+    if (p.w > 0.75){ g.addColorStop(0,'rgba(232,93,74,0.85)'); g.addColorStop(0.35,'rgba(255,138,61,0.45)'); g.addColorStop(1,'rgba(232,180,74,0)'); }
+    else if (p.w > 0.45){ g.addColorStop(0,'rgba(232,180,74,0.75)'); g.addColorStop(1,'rgba(232,180,74,0)'); }
+    else { g.addColorStop(0,'rgba(111,168,201,0.6)'); g.addColorStop(1,'rgba(111,168,201,0)'); }
+    mctx.fillStyle = g;
+    mctx.beginPath(); mctx.arc(x, y, radius, 0, Math.PI*2); mctx.fill();
+    if (p.w > 0.75 && !reduceMotion){
+      const ring = radius * (0.6 + 0.5 * pulsePhase);
+      mctx.strokeStyle = `rgba(232,180,74,${0.5 * (1 - pulsePhase)})`;
+      mctx.lineWidth = 1.5;
+      mctx.beginPath(); mctx.arc(x, y, ring, 0, Math.PI*2); mctx.stroke();
     }
-    return el;
+  });
+  mctx.globalCompositeOperation = 'source-over';
+
+  mctx.font = '11px "IBM Plex Mono", monospace';
+  (DATA.heatPoints || []).forEach(p => {
+    const [x,y] = project(p.lon, p.lat, w, h);
+    mctx.fillStyle = '#EAEDF2';
+    if (p.hq){ mctx.strokeStyle = '#E8B44A'; mctx.lineWidth = 1.5; mctx.strokeRect(x-4, y-4, 8, 8); }
+    mctx.fillRect(x-1.5, y-1.5, 3, 3);
+    mctx.fillStyle = 'rgba(234,237,242,0.8)';
+    mctx.fillText(`${p.name.toUpperCase()} · ${p.ev}`, x + 10, y + 4);
+  });
+}
+(function mapLoop(){
+  const visible = document.getElementById('scene-heatmap').classList.contains('active');
+  if (visible){
+    const phase = reduceMotion ? 0 : (performance.now() % 2400) / 2400;
+    drawMap(phase);
   }
-
-  function buildBioSlide(m) {
-    var el = document.createElement("div");
-    el.className = "slide bio-slide";
-
-    var photoWrap = document.createElement("div");
-    photoWrap.className = "bio-photo-wrap";
-    if (m.photo) {
-      var img = document.createElement("img");
-      img.src = m.photo;
-      img.alt = m.name || "";
-      img.onerror = function () {
-        photoWrap.innerHTML = "";
-        var mono = document.createElement("div");
-        mono.className = "bio-monogram";
-        mono.textContent = initials(m.name);
-        photoWrap.appendChild(mono);
-      };
-      photoWrap.appendChild(img);
-    } else {
-      var mono2 = document.createElement("div");
-      mono2.className = "bio-monogram";
-      mono2.textContent = initials(m.name);
-      photoWrap.appendChild(mono2);
-    }
-
-    var info = document.createElement("div");
-    info.className = "bio-info";
-    var name = document.createElement("p");
-    name.className = "bio-name";
-    name.textContent = m.name || "";
-    var title = document.createElement("p");
-    title.className = "bio-title";
-    title.textContent = m.title || "";
-    var bio = document.createElement("p");
-    bio.className = "bio-text";
-    bio.textContent = m.bio || "";
-    info.appendChild(name);
-    info.appendChild(title);
-    info.appendChild(bio);
-
-    el.appendChild(photoWrap);
-    el.appendChild(info);
-    return el;
-  }
-
-  function buildEmptySlide() {
-    var el = document.createElement("div");
-    el.className = "slide empty-slide";
-    var p = document.createElement("p");
-    p.textContent = "JRM PRIVATE SECURITY";
-    el.appendChild(p);
-    return el;
-  }
-
-  function interleave(bios, callouts) {
-    // Alternate callout / bio slides. If one list is empty, just use the other.
-    var out = [];
-    var i = 0, j = 0;
-    while (i < callouts.length || j < bios.length) {
-      if (j < bios.length) out.push({ type: "bio", data: bios[j++] });
-      if (i < callouts.length) out.push({ type: "callout", data: callouts[i++] });
-    }
-    return out;
-  }
-
-  function render(data) {
-    stage.innerHTML = "";
-    dotsEl.innerHTML = "";
-    slideEls = [];
-    clearInterval(rotateTimer);
-
-    var callouts = Array.isArray(data.callouts) ? data.callouts : [];
-    var team = Array.isArray(data.team) ? data.team : [];
-
-    var queue = interleave(team, callouts);
-
-    if (queue.length === 0) {
-      var empty = buildEmptySlide();
-      empty.classList.add("active");
-      stage.appendChild(empty);
-      return;
-    }
-
-    queue.forEach(function (item) {
-      var el = item.type === "callout" ? buildCalloutSlide(item.data) : buildBioSlide(item.data);
-      stage.appendChild(el);
-      slideEls.push(el);
-
-      var dot = document.createElement("div");
-      dot.className = "dot";
-      dotsEl.appendChild(dot);
-    });
-
-    currentIndex = -1;
-    advance();
-    if (slideEls.length > 1) {
-      rotateTimer = setInterval(advance, SLIDE_INTERVAL_MS);
-    }
-  }
-
-  function advance() {
-    if (slideEls.length === 0) return;
-    if (currentIndex >= 0) {
-      slideEls[currentIndex].classList.remove("active");
-      dotsEl.children[currentIndex].classList.remove("active");
-    }
-    currentIndex = (currentIndex + 1) % slideEls.length;
-    slideEls[currentIndex].classList.add("active");
-    dotsEl.children[currentIndex].classList.add("active");
-  }
-
-  // ---------- Data loading ----------
-  function loadData() {
-    fetch("data.json", { cache: "no-store" })
-      .then(function (res) {
-        if (!res.ok) throw new Error("data.json fetch failed: " + res.status);
-        return res.json();
-      })
-      .then(render)
-      .catch(function (err) {
-        console.error(err);
-        if (slideEls.length === 0) render({ callouts: [], team: [] });
-      });
-  }
-
-  loadData();
-  setInterval(loadData, DATA_REFRESH_MS);
+  requestAnimationFrame(mapLoop);
 })();
+function renderMapSide(){
+  const side = document.getElementById('mapside');
+  const legend = side.querySelector('.map-legend');
+  const rows = (DATA.heatPoints || [])
+    .slice().sort((a,b) => b.ev - a.ev).slice(0, 5)
+    .map(p => `<div class="region-row"><span class="r-name">${esc(p.name)}</span><span class="r-count">${esc(p.ev)}</span></div>`)
+    .join('');
+  side.innerHTML = rows + legend.outerHTML;
+}
+
+/* ============================================================================
+   SCENE 3 — REM spotlight
+   ========================================================================== */
+let remIndex = -1;
+function nextRem(){
+  const rems = DATA.rems || [];
+  const wrap = document.getElementById('remwrap');
+  if (!rems.length){ wrap.innerHTML = `<div class="rem-empty">NO 30-DAY REM ACTIVITY YET</div>`; return; }
+  remIndex = (remIndex + 1) % rems.length;
+  const r = rems[remIndex];
+  wrap.style.setProperty('--rem-color', r.color);
+  wrap.innerHTML = `
+    <div class="rem-card" style="--rem-color:${r.color}">
+      <div class="rem-name">${esc(r.name)}</div>
+      <div class="rem-role">Regional Event Manager${r.office ? ' · ' + esc(r.office) : ''}</div>
+      <div class="rem-stats">
+        <div class="rem-stat"><div class="num" style="--rem-color:${r.color}">${esc(r.events30)}</div><div class="label">Events · Last 30d</div></div>
+        <div class="rem-stat"><div class="num" style="--rem-color:${r.color}">${(r.career ?? 0).toLocaleString()}</div><div class="label">Career Events · JRM</div></div>
+      </div>
+    </div>
+    <div class="rem-events">
+      ${(r.recent || []).map(e => `
+        <div class="rem-event" style="--rem-color:${r.color}">
+          <div class="dot"></div>
+          <div class="e-name">${esc(e.name)}</div>
+          <div class="e-meta">${esc(e.meta)}</div>
+        </div>`).join('')}
+    </div>`;
+}
+
+/* ============================================================================
+   SCENE 4 — event highlight cards + ticker
+   ========================================================================== */
+function renderEvents(){
+  document.getElementById('eventgrid').innerHTML = (DATA.events || []).map(e => `
+    <div class="event-card ${e.upcoming ? 'upcoming' : ''}">
+      <div class="badge-row">${(e.badges || []).map(b => `<span class="badge">${esc(b)}</span>`).join('')}</div>
+      <div class="e-title">${esc(e.title)}</div>
+      <div class="e-client">${esc(e.client)}</div>
+      <div class="e-venue">${esc(e.venue)}</div>
+    </div>`).join('') || `<div class="rem-empty">NO RECENT EVENTS SYNCED YET</div>`;
+  const items = (DATA.ticker && DATA.ticker.length) ? DATA.ticker : ['Also on post — check back after the next sync.'];
+  const t = items.join(' &nbsp;·&nbsp; ') + ' &nbsp;·&nbsp; ';
+  document.getElementById('ticker').innerHTML = t + t;
+}
+
+/* ============================================================================
+   SCENE 5 — photo reel (real photos, Ken Burns pan)
+   ========================================================================== */
+const stage = document.getElementById('photostage');
+function renderPhotos(){
+  const photos = DATA.photos || [];
+  if (!photos.length){
+    stage.innerHTML = `<div class="photo showing" style="display:flex;align-items:center;justify-content:center;">
+      <div style="font-family:var(--font-mono);color:var(--text-lo);letter-spacing:.1em;">PHOTO LIBRARY SYNCING</div></div>`;
+    return;
+  }
+  stage.innerHTML = photos.map((p,i) => `
+    <div class="photo ${i===0?'showing':''}" data-i="${i}">
+      <div class="art">${p.photo || p.path ? `<img src="${esc(p.photo || p.path)}" alt="">` : ''}</div>
+      <div class="caption">
+        <div class="c-title">${esc(p.title || p.name)}</div>
+        <div class="c-meta">${esc(p.meta || '')}</div>
+      </div>
+    </div>`).join('');
+}
+let reelTimer = null, reelIndex = 0;
+function startReel(){
+  clearInterval(reelTimer);
+  const photos = [...stage.querySelectorAll('.photo')];
+  if (photos.length < 2) return;
+  reelIndex = 0;
+  photos.forEach((p,i)=>p.classList.toggle('showing', i===0));
+  reelTimer = setInterval(() => {
+    if (paused) return;
+    reelIndex = (reelIndex + 1) % photos.length;
+    photos.forEach((p,i)=>p.classList.toggle('showing', i===reelIndex));
+  }, 6000);
+}
+
+/* ============================================================================
+   SCENE 6 — "On the Record" quote cards (from approved Lobby Callouts)
+   ========================================================================== */
+function renderQuotes(){
+  const grid = document.getElementById('quotegrid');
+  const posts = (DATA.linkedin || []).slice(0, 3);
+  if (!posts.length){
+    grid.innerHTML = `<div class="quote-empty">AWAITING CURATED POSTS — ADD APPROVED ENTRIES TO THE LOBBY CALLOUTS TABLE</div>`;
+    return;
+  }
+  grid.innerHTML = posts.map(p => `
+    <div class="quote-card">
+      <div class="q-date">${esc(p.date)}</div>
+      <div class="q-text">${esc(p.quote)}</div>
+      <div class="q-who">
+        <div class="q-author">${esc(p.author)}</div>
+        <div class="q-role">${esc(p.role)}</div>
+      </div>
+    </div>`).join('');
+}
+
+/* ============================================================================
+   SCENE 7 — team bios (from Team Bios table, Show on Display only)
+   ========================================================================== */
+function initials(name){
+  if (!name) return '?';
+  const parts = name.trim().split(/\s+/);
+  return ((parts[0]?.[0] || '') + (parts.length > 1 ? parts[parts.length-1][0] : '')).toUpperCase();
+}
+function renderTeam(){
+  const grid = document.getElementById('teamgrid');
+  const team = DATA.team || [];
+  if (!team.length){ grid.innerHTML = `<div class="rem-empty">TEAM ROSTER SYNCING</div>`; return; }
+  grid.innerHTML = team.map(m => `
+    <div class="team-card">
+      <div class="team-photo">${m.photo ? `<img src="${esc(m.photo)}" alt="">` : `<div class="mono">${esc(initials(m.name))}</div>`}</div>
+      <div class="team-name">${esc(m.name)}</div>
+      <div class="team-title">${esc(m.title)}</div>
+    </div>`).join('');
+}
+
+/* ============================================================================
+   LIVE DATA LOADER
+   ========================================================================== */
+let DATA = MOCK_DATA;
+
+function applyData(d){
+  DATA = Object.assign({}, MOCK_DATA, d || {});
+  renderMetrics(DATA.metrics);
+  renderMapSide();
+  remIndex = -1;
+  renderEvents();
+  renderPhotos();
+  renderQuotes();
+  renderTeam();
+  if (document.getElementById('scene-photos').classList.contains('active')) startReel();
+  if (document.getElementById('scene-rem').classList.contains('active')) nextRem();
+
+  const brandMark = document.getElementById('brand-mark');
+  if (DATA.brand && DATA.brand.headerLogo){
+    brandMark.innerHTML = `<img src="${esc(DATA.brand.headerLogo)}" alt="JRM">`;
+  }
+
+  const badge = document.getElementById('freshbadge');
+  if (d && d.generatedAt){
+    const when = new Date(d.generatedAt);
+    badge.textContent = 'Synced ' + when.toLocaleTimeString('en-US', { hour:'numeric', minute:'2-digit', timeZone:'America/Los_Angeles' });
+  } else {
+    badge.textContent = 'Awaiting first sync';
+  }
+}
+
+async function loadData(){
+  try{
+    const resp = await fetch('data.json?t=' + Date.now(), { cache:'no-store' });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    applyData(await resp.json());
+  }catch(err){
+    console.warn('data.json unavailable — showing fallback', err);
+    if (DATA === MOCK_DATA) applyData(MOCK_DATA);
+  }
+}
+loadData();
+setInterval(loadData, 10 * 60 * 1000);
+
+/* daily reload safety net, matches the rest of the JRM display fleet */
+(function scheduleDailyReload(){
+  const now = new Date();
+  const next = new Date(now);
+  next.setHours(4, 0, 0, 0);
+  if (next <= now) next.setDate(next.getDate() + 1);
+  setTimeout(() => location.reload(), next - now);
+})();
+
+/* ============================================================================
+   STATUS RAIL CLOCK
+   ========================================================================== */
+function tickClock(){
+  document.getElementById('clocktime').textContent =
+    new Date().toLocaleTimeString('en-US', { hour12:false, timeZone:'America/Los_Angeles' });
+}
+setInterval(tickClock, 1000); tickClock();
+
+goTo(0);
 </script>
 </body>
 </html>
