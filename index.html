@@ -231,10 +231,11 @@
   .team-name{ font-family:var(--font-display); font-weight:600; text-transform:uppercase; font-size:17px; letter-spacing:.02em; }
   .team-title{ font-family:var(--font-mono); font-size:10.5px; color:var(--gold); letter-spacing:.1em; text-transform:uppercase; }
   .team-bio{
-    font-family:var(--font-body); font-size:12.5px; line-height:1.5; color:var(--text-lo);
-    text-align:left; margin-top:4px; overflow:hidden; white-space:pre-line;
-    display:-webkit-box; -webkit-line-clamp:9; -webkit-box-orient:vertical;
+    font-family:var(--font-body); font-size:13px; line-height:1.55; color:var(--text-lo);
+    text-align:left; margin-top:4px; overflow-y:auto; white-space:pre-line; flex:1;
   }
+  .team-bio::-webkit-scrollbar{ width:4px; }
+  .team-bio::-webkit-scrollbar-thumb{ background:var(--line); border-radius:2px; }
 
   /* Status rail */
   #rail{
