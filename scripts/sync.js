@@ -24,6 +24,9 @@ const OPS_TABLES = {
   jobLog: "tblIqTqZvNwAhlKBA",
   offices: "tbl0EEPJZ08X6oedl",
   rems: "tblODdyjhYoGBNFde",
+  cities: "tblqqbpqljsQ4xZEh",
+  venues: "tblHgKEEwhbsrJlsJ",
+  clients: "tbllsVoaqBoUP0KIN",
 };
 const OPS_FIELDS = {
   jobLog: [
@@ -43,6 +46,12 @@ const OPS_FIELDS = {
   ],
   offices: ["Office", "Region"],
   rems: ["REMS", "Colors", "Branch", "Count Events"],
+  // Lookup tables: name field ONLY. These tables also hold client/venue POC
+  // contacts, phone numbers, and revenue figures — never request more than
+  // the single display-name field below from them.
+  cities: ["Name"],
+  venues: ["VenueName"],
+  clients: ["Client Name"],
 };
 
 // Static geo anchors for JRM's real offices (Airtable has no lat/lon of its
@@ -95,9 +104,22 @@ async function fetchAllRecords(tableId, baseId = BASE_ID, opts = {}) {
   return records;
 }
 
-function linkName(val) {
-  if (Array.isArray(val) && val[0]) return val[0].name || "";
-  return "";
+// The raw Airtable REST API (unlike some higher-level clients) returns
+// "link to another record" fields as a bare array of record ID strings, e.g.
+// ["recXXXX"], never pre-resolved names. resolveLink() takes that array plus
+// an id->name map (built once per table, see buildIdNameMap) and returns the
+// first linked record's display name, or "" if unresolved/empty.
+function resolveLink(val, idMap) {
+  if (!Array.isArray(val) || !val[0]) return "";
+  const id = typeof val[0] === "string" ? val[0] : val[0].id;
+  return (idMap && idMap[id]) || "";
+}
+
+async function buildIdNameMap(tableId, baseId, nameField) {
+  const records = await fetchAllRecords(tableId, baseId, { fields: [nameField] });
+  const map = {};
+  for (const r of records) map[r.id] = r.fields[nameField] || "";
+  return map;
 }
 
 function daysAgo(n) {
@@ -114,6 +136,20 @@ async function fetchOpsMetrics() {
   const now = new Date();
   const yearStart = new Date(now.getFullYear(), 0, 1);
 
+  console.log("  Building office/city/venue/client name lookups...");
+  const [officeMap, cityMap, venueMap, clientMap] = await Promise.all([
+    buildIdNameMap(OPS_TABLES.offices, OPS_BASE_ID, "Office"),
+    buildIdNameMap(OPS_TABLES.cities, OPS_BASE_ID, "Name"),
+    buildIdNameMap(OPS_TABLES.venues, OPS_BASE_ID, "VenueName"),
+    buildIdNameMap(OPS_TABLES.clients, OPS_BASE_ID, "Client Name"),
+  ]);
+  // REM names are looked up from REMS/Accounts itself (fetched again below
+  // for color/career data), but the job log only needs the id->name half
+  // here, cheaply reused from that same fetch.
+  const remRecordsForNames = await fetchAllRecords(OPS_TABLES.rems, OPS_BASE_ID, { fields: OPS_FIELDS.rems });
+  const remMap = {};
+  for (const r of remRecordsForNames) remMap[r.id] = r.fields.REMS || "";
+
   // All windows we need (YTD, last 30d, next 30d) fall inside the current
   // calendar year, so one filtered fetch covers every metric below.
   const jobs = await fetchAllRecords(OPS_TABLES.jobLog, OPS_BASE_ID, {
@@ -126,12 +162,12 @@ async function fetchOpsMetrics() {
     .map((f) => ({
       name: f["JOB NAME"] || "",
       start: f["START DATE"] ? new Date(f["START DATE"]) : null,
-      office: linkName(f["JRM Office"]),
-      rem: linkName(f["REM *"]),
+      office: resolveLink(f["JRM Office"], officeMap),
+      rem: resolveLink(f["REM *"], remMap),
       guards: typeof f["# of Guards Requested"] === "number" ? f["# of Guards Requested"] : 0,
-      venue: linkName(f["VENUE NAME"]),
-      client: linkName(f["CLIENT NAME"]),
-      city: f.City || "",
+      venue: resolveLink(f["VENUE NAME"], venueMap),
+      client: resolveLink(f["CLIENT NAME"], clientMap),
+      city: resolveLink(f.City, cityMap),
       badges: [f["EVENT TYPE **"], f["CATEGORY **"]].filter(Boolean),
     }))
     .filter((j) => j.start);
@@ -180,16 +216,15 @@ async function fetchOpsMetrics() {
     remCounts[j.rem] = (remCounts[j.rem] || 0) + 1;
     (remRecent[j.rem] = remRecent[j.rem] || []).push(j);
   }
-  const remRecords = await fetchAllRecords(OPS_TABLES.rems, OPS_BASE_ID, { fields: OPS_FIELDS.rems });
   const remInfo = {};
-  for (const r of remRecords) {
+  for (const r of remRecordsForNames) {
     const f = r.fields;
     const name = f.REMS || "";
     if (!name) continue;
     remInfo[name] = {
       color: f.Colors && f.Colors.name === name ? colorHex(f.Colors.color) : null,
       career: typeof f["Count Events"] === "number" ? f["Count Events"] : 0,
-      office: linkName(f.Branch),
+      office: resolveLink(f.Branch, officeMap),
     };
   }
   const rems = Object.entries(remCounts)
