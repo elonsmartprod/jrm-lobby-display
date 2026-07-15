@@ -10,6 +10,14 @@ on:
 permissions:
   contents: write
 
+# Runs are queued one-at-a-time (not cancelled) so an hourly sync landing
+# right after a manual push can't race it and get its push rejected as
+# non-fast-forward. Each queued run still checks out main fresh, so it
+# always starts from the latest commit once its turn comes.
+concurrency:
+  group: sync-airtable
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -37,4 +45,7 @@ jobs:
           # A commit here re-triggers this workflow too, but it's a no-op
           # (nothing left to diff), so it doesn't loop.
           git diff --quiet --cached || git commit -m "Sync content from Airtable"
-          git push
+          # Belt-and-suspenders on top of the concurrency group above: if the
+          # remote still moved since checkout, rebase onto it and retry once
+          # rather than failing the whole run.
+          git push || (git pull --rebase origin main && git push)

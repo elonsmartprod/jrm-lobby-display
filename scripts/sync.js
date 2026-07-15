@@ -58,7 +58,9 @@ const OPS_FIELDS = {
 // own — these are metro-center approximations, same approach as the mockup).
 const OFFICE_GEO = {
   "Los Angeles": [-118.24, 34.05],
-  "National Ops": [-118.24, 34.05],
+  // National Ops isn't a physical branch office — plotted in open plains
+  // space (near Kansas) instead of stacking it on top of the LA pin.
+  "National Ops": [-98.5, 39.0],
   "New York": [-74.0, 40.71],
   "Northern California": [-122.42, 37.77],
   Tennessee: [-86.78, 36.16],
