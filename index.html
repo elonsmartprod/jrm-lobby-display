@@ -216,20 +216,25 @@
   .caption .c-meta{ font-family:var(--font-mono); font-size:13px; color:var(--gold); letter-spacing:.1em; }
 
   /* Scene 7 — team */
-  .team-grid{ flex:1; display:grid; grid-template-columns:repeat(4,1fr); grid-auto-rows:1fr; gap:16px; }
+  .team-grid{ flex:1; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); grid-auto-rows:1fr; gap:16px; }
   .team-card{
     background:linear-gradient(165deg, var(--ink-200), #0C1220);
-    border:1px solid var(--line); border-radius:10px; padding:20px;
-    display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:10px;
+    border:1px solid var(--line); border-radius:10px; padding:22px 24px;
+    display:flex; flex-direction:column; align-items:center; text-align:center; gap:8px; overflow:hidden;
   }
   .team-photo{
-    width:96px; height:96px; border-radius:50%; border:2px solid var(--gold);
+    width:84px; height:84px; border-radius:50%; border:2px solid var(--gold);
     overflow:hidden; background:var(--ink-300); display:flex; align-items:center; justify-content:center; flex:none;
   }
   .team-photo img{ width:100%; height:100%; object-fit:cover; display:block; }
-  .team-photo .mono{ font-family:var(--font-display); font-weight:700; font-size:28px; color:var(--gold); }
-  .team-name{ font-family:var(--font-display); font-weight:600; text-transform:uppercase; font-size:18px; letter-spacing:.02em; }
-  .team-title{ font-family:var(--font-mono); font-size:11px; color:var(--text-lo); letter-spacing:.1em; text-transform:uppercase; }
+  .team-photo .mono{ font-family:var(--font-display); font-weight:700; font-size:24px; color:var(--gold); }
+  .team-name{ font-family:var(--font-display); font-weight:600; text-transform:uppercase; font-size:17px; letter-spacing:.02em; }
+  .team-title{ font-family:var(--font-mono); font-size:10.5px; color:var(--gold); letter-spacing:.1em; text-transform:uppercase; }
+  .team-bio{
+    font-family:var(--font-body); font-size:12.5px; line-height:1.5; color:var(--text-lo);
+    text-align:left; margin-top:4px; overflow:hidden; white-space:pre-line;
+    display:-webkit-box; -webkit-line-clamp:9; -webkit-box-orient:vertical;
+  }
 
   /* Status rail */
   #rail{
@@ -723,6 +728,7 @@ function renderTeam(){
       <div class="team-photo">${m.photo ? `<img src="${esc(m.photo)}" alt="">` : `<div class="mono">${esc(initials(m.name))}</div>`}</div>
       <div class="team-name">${esc(m.name)}</div>
       <div class="team-title">${esc(m.title)}</div>
+      ${m.bio ? `<div class="team-bio">${esc(m.bio)}</div>` : ''}
     </div>`).join('');
 }
 
