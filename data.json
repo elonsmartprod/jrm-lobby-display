@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T22:19:38.543Z",
+  "generatedAt": "2026-07-15T22:43:02.242Z",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -96,7 +96,7 @@
     "events30": 158,
     "guards30": 2486,
     "citiesYTD": 98,
-    "upcoming30": 70,
+    "upcoming30": 71,
     "perDay": 7.127551020408164
   },
   "heatPoints": [
@@ -255,7 +255,7 @@
       "office": "Tennessee",
       "color": "#E8B44A",
       "events30": 10,
-      "career": 68,
+      "career": 69,
       "recent": [
         {
           "name": "Protos-TJ MAXX-Springhill",
