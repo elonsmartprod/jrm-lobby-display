@@ -1,6 +1,57 @@
 {
-  "generatedAt": "2026-07-15T22:07:53.104Z",
-  "callouts": [],
+  "generatedAt": "2026-07-15T22:14:22.833Z",
+  "callouts": [
+    {
+      "byline": "18 Years at the Grammys",
+      "text": "JRM has managed security operations for the Grammy Awards for 18 consecutive years, most recently for the 68th Grammy Awards at Crypto.com Arena — trusted with one of music's biggest nights, year after year.",
+      "author": "JRM Marketing"
+    },
+    {
+      "byline": "12 Years at the Golden Globes",
+      "text": "JRM proudly completed its 12th consecutive year providing security for the Golden Globe Awards at the Beverly Hilton, continuing a trusted partnership built on precision and discretion.",
+      "author": "JRM Marketing"
+    },
+    {
+      "byline": "16 Years with BET",
+      "text": "Our partnership with BET spans 16 years, most recently securing the NAACP Image Awards at the Pasadena Civic Auditorium and the Image Awards at the Shrine Auditorium — thank you for trusting JRM.",
+      "author": "JRM Marketing"
+    },
+    {
+      "byline": "Giving Back to Our Communities",
+      "text": "One of the most gratifying parts of our work is investing in our communities and schools. Thank you to every School Resource Officer nationwide protecting our most precious assets.",
+      "author": "JRM Marketing"
+    },
+    {
+      "byline": "Honoring Harry McKillop's Legacy",
+      "text": "JRM is proud to carry forward Harry McKillop's lifetime of selfless service — a legacy honored by President Bush with the Secretary of Defense Medal of Exceptional Public Service.",
+      "author": "JRM Marketing"
+    },
+    {
+      "byline": "Next-Generation Emergency Response",
+      "text": "JRM has partnered with Titan HST, a leading provider of next-generation emergency-response systems, to strengthen safety at live television events nationwide.",
+      "author": "JRM Marketing"
+    },
+    {
+      "byline": "6 Major Events, 2 Weeks",
+      "text": "Our LA events team recently pulled off six major productions in just two weeks — a testament to the planning, teamwork, and readiness behind every JRM deployment.",
+      "author": "JRM Marketing"
+    },
+    {
+      "byline": "On the Ground at Comic-Con",
+      "text": "From red carpets to convention floors, JRM's team brings the same standard of readiness to every environment — including securing one of the world's largest fan events, Comic-Con.",
+      "author": "JRM Marketing"
+    },
+    {
+      "byline": "Hip Hop's 50th, Coast to Coast",
+      "text": "JRM's team supported Hip Hop's 50th anniversary celebration at Marquee New York alongside Tao Group and Apple — proof that our reach extends well beyond Los Angeles.",
+      "author": "JRM Marketing"
+    },
+    {
+      "byline": "Founded on 40 Years of Experience",
+      "text": "S&S Labor Force, dba JRM, was built on President John McKillop's 40-year career in law enforcement and private security — a foundation that still guides every event we protect today.",
+      "author": "JRM Marketing"
+    }
+  ],
   "team": [
     {
       "name": "John McKillop",
@@ -317,7 +368,68 @@
     "<b>Black Chamber 6/16</b> · Residence",
     "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center"
   ],
-  "linkedin": [],
+  "linkedin": [
+    {
+      "quote": "JRM has managed security operations for the Grammy Awards for 18 consecutive years, most recently for the 68th Grammy Awards at Crypto.com Arena — trusted with one of music's biggest nights, year after year.",
+      "author": "JRM Marketing",
+      "role": "Company Page · LinkedIn",
+      "date": ""
+    },
+    {
+      "quote": "JRM proudly completed its 12th consecutive year providing security for the Golden Globe Awards at the Beverly Hilton, continuing a trusted partnership built on precision and discretion.",
+      "author": "JRM Marketing",
+      "role": "Company Page · LinkedIn",
+      "date": ""
+    },
+    {
+      "quote": "Our partnership with BET spans 16 years, most recently securing the NAACP Image Awards at the Pasadena Civic Auditorium and the Image Awards at the Shrine Auditorium — thank you for trusting JRM.",
+      "author": "JRM Marketing",
+      "role": "Company Page · LinkedIn",
+      "date": ""
+    },
+    {
+      "quote": "One of the most gratifying parts of our work is investing in our communities and schools. Thank you to every School Resource Officer nationwide protecting our most precious assets.",
+      "author": "JRM Marketing",
+      "role": "Company Page · LinkedIn",
+      "date": ""
+    },
+    {
+      "quote": "JRM is proud to carry forward Harry McKillop's lifetime of selfless service — a legacy honored by President Bush with the Secretary of Defense Medal of Exceptional Public Service.",
+      "author": "JRM Marketing",
+      "role": "Company Page · LinkedIn",
+      "date": ""
+    },
+    {
+      "quote": "JRM has partnered with Titan HST, a leading provider of next-generation emergency-response systems, to strengthen safety at live television events nationwide.",
+      "author": "JRM Marketing",
+      "role": "Company Page · LinkedIn",
+      "date": ""
+    },
+    {
+      "quote": "Our LA events team recently pulled off six major productions in just two weeks — a testament to the planning, teamwork, and readiness behind every JRM deployment.",
+      "author": "JRM Marketing",
+      "role": "Company Page · LinkedIn",
+      "date": ""
+    },
+    {
+      "quote": "From red carpets to convention floors, JRM's team brings the same standard of readiness to every environment — including securing one of the world's largest fan events, Comic-Con.",
+      "author": "JRM Marketing",
+      "role": "Company Page · LinkedIn",
+      "date": ""
+    },
+    {
+      "quote": "JRM's team supported Hip Hop's 50th anniversary celebration at Marquee New York alongside Tao Group and Apple — proof that our reach extends well beyond Los Angeles.",
+      "author": "JRM Marketing",
+      "role": "Company Page · LinkedIn",
+      "date": ""
+    },
+    {
+      "quote": "S&S Labor Force, dba JRM, was built on President John McKillop's 40-year career in law enforcement and private security — a foundation that still guides every event we protect today.",
+      "author": "JRM Marketing",
+      "role": "Company Page · LinkedIn",
+      "date": ""
+    }
+  ],
   "photos": [
     {
       "title": "Event Photo - Generic 2",
