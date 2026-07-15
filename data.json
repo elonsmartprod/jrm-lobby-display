@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-07-15T20:26:00.938Z",
+  "generatedAt": "2026-07-15T21:45:50.910Z",
   "callouts": [],
   "team": [
-    {
-      "name": "Andy Sanders",
-      "title": "Chief of Staff",
-      "bio": "Andy has 20 years’ experience in event security and facility protection with a specialty in venue ingress and weapons detection technology.  His current role capitalizes on his extensive experience in Corporate America and has him oversee a vast portfolio of projects and company wide initiatives.  Andy is responsible for managing the day-to-day operations of the executive office and serving as a trusted advisor to the CEO. His ability to anticipate needs and proactively address challenges allows her to streamline processes, optimize resources, and drive efficient decision-making.",
-      "photo": null
-    },
     {
       "name": "John McKillop",
       "title": "CEO & President",
@@ -21,28 +15,153 @@
       "photo": null
     },
     {
-      "name": "Robert Paul Schwartz",
-      "title": "CFO",
-      "bio": "Results-orientated accounting professional with broad experience in a deadline-driven environment. Proven track record in consistently and effectively delivering accounting services that enhance the company's purpose and profitability. Strong technical accounting, tax and computer skills. Excellent research and financial analysis abilities. In-depth management reporting.Developing and implementing financial systems and controls. Budgeting and forecasting. Facilitation of internal and external auditing procedures. Regulatory compliance. Staff management and development. In-depth knowledge of accounting regulations and standards. Robert is an active Certified Public Accountant in California and Oregon with over 40 years of accounting experience. Robert has also held positions as Controller and Chief Financial Officer for a variety of privately held companies.",
-      "photo": null
-    },
-    {
       "name": "Sean McKillop",
       "title": "SVP - Global Events & Development ",
       "bio": "Sean is a highly accomplished and dynamic individual serving as the Vice President of Business Development. With over a decade of experience in the corporate world, he has established himself as a strategic leader in driving growth and forging successful partnerships. His impressive track record includes successfully spearheading numerous business initiatives and expansion projects across the globe. Known for his exceptional networking skills, he has a knack for identifying new opportunities and cultivating strong relationships with key stakeholders. As Vice President of Business Development, Sean is responsible for envisioning and executing innovative strategies to expand the company's market presence and drive revenue growth. Leveraging his deep understanding of market trends and customer needs, he plays a pivotal role in shaping the organization's long-term growth trajectory.",
       "photo": null
+    }
+  ],
+  "brand": {
+    "headerLogo": "assets/synced/recUdFRRIam3BO8mC-attAM7gOKEZzNKzBf.png",
+    "fullLogoLight": "assets/synced/recwy1j4ho86eOMtb-attEo7pDUzjwIkeGr.png",
+    "fullLogoDark": "assets/synced/recbPDfaqhzSpX0Yx-attZGY9plFhjodMMJ.png"
+  },
+  "gallery": [
+    {
+      "name": "Event Photo - Generic 2",
+      "photo": "assets/synced/rec8p8KB7BeNeSuwr-attN9j1fhYWf5b0rM.png"
     },
     {
-      "name": "Sevan Ohanians",
-      "title": "VP - Event Operations",
-      "bio": "Sevan Ohanians is an action-oriented and result-focused professional, offering 20+ years of experience in project management and operations management in fast paced environments. An expert in organization, completion, and project follow through. Extensive experience in managing high-profile clientele, risk assessment, and threat mitigation and leads our Events team on the West Coast. Sevan’s creative thinking and analytical mindset enable him to identify untapped markets and develop tailored solutions to meet customer demands. He thrives on building high-performing teams, fostering a collaborative work environment, and empowering his colleagues to achieve their full potential.",
-      "photo": null
+      "name": "Titan HST Partnership (Press Photo)",
+      "photo": "assets/synced/recHwOVgsboXRUZCF-attc57slZfVRmrAsR.jpg"
     },
     {
-      "name": "Tony D'Gracia",
-      "title": "EVP - Northeast Operations",
-      "bio": "Drawing on more than two decades of distinguished experience in law enforcement, investigations, and high-level security operations, Tony brings unparalleled expertise and strategic insight to the private security sector. During his extensive career in law enforcement and the private sector, Tony honed critical skills in tactical response, threat assessment, crisis management, and complex investigations. This foundation in public safety provided a deep understanding of proactive security measures and regulatory compliance that few in the private sector can match. Tony obtained a Bachelor’s degree in Criminal Justice from John Jay College of Criminal Justice, and holds multiple certifications including Certified Fraud Examiner (CFE) and NYS Security Guard Instructor.",
-      "photo": null
+      "name": "Event Photo - Generic 1",
+      "photo": "assets/synced/recUsyCIkiQnpCEGl-atttocgkf8yuVpVqV.png"
+    }
+  ],
+  "metrics": {
+    "eventsYTD": 1397,
+    "events30": 158,
+    "guards30": 2486,
+    "citiesYTD": 1250,
+    "upcoming30": 69,
+    "perDay": 7.127551020408164
+  },
+  "heatPoints": [],
+  "rems": [],
+  "events": [
+    {
+      "client": "",
+      "title": "Olivia Dean Concert- LA Live",
+      "venue": "recS9YBL67mak8Qve",
+      "badges": [
+        "Concert"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "",
+      "title": "Open AI-IL",
+      "venue": "recaxr52HEDRKGSR7",
+      "badges": [
+        "Private Party/Event"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "",
+      "title": "TVA Screening Room",
+      "venue": "recTeDkpa7F1Q6ptD",
+      "badges": [
+        "Screening"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "",
+      "title": "7.15 AAS x Chelsea Triangle",
+      "venue": "recZvVtqsTpw29k2I",
+      "badges": [
+        "Private Party/Event"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "",
+      "title": "Olivia Dean Concert",
+      "venue": "recS9YBL67mak8Qve",
+      "badges": [
+        "Concert"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "",
+      "title": "Guitar Center-Summer School Tour-Chicago",
+      "venue": "recltb6jUnN9WaWSU",
+      "badges": [
+        "Exec Protection"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "",
+      "title": "We Are Osos Premiere",
+      "venue": "recFrpE6hy1yNansT",
+      "badges": [
+        "Premiere"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "",
+      "title": "Super Trooper 3-Press Tour-St Louis",
+      "venue": "",
+      "badges": [
+        "Exec Protection"
+      ],
+      "upcoming": true
+    }
+  ],
+  "ticker": [
+    "<b>Open Table-Michelin After Party-Oma Loves Fun</b>",
+    "<b>6.24 TJ Max TN</b>",
+    "<b>7.12 Pickwick Vintage San Francisco</b>",
+    "<b>The Aster Spotify Happy Hour</b>",
+    "<b>BET Red Carpet  2026</b>",
+    "<b>AZ Protos Coach 7.5</b>",
+    "<b>Claude SMB Workshop - Baltimore</b>",
+    "<b>Beverly Hilton Hotel Wedding</b>",
+    "<b>Los Angeles Sparks vs Indiana Fever</b>",
+    "<b>The One Qualifiers</b>",
+    "<b>Nike All Hands Meeting </b>",
+    "<b>Nike JDI Day</b>",
+    "<b>6.16-Growth CEO Dinner</b>",
+    "<b>6.18 Third Thursday</b>",
+    "<b>Netflix HRD Ice Cream Truck Tour-Philadelphia</b>",
+    "<b>7.14 Nike x World Cup Watch Party</b>",
+    "<b>Black Myth- LA Live Coverage</b>",
+    "<b>TVA Toy Story 5 Screening</b>",
+    "<b>Black Chamber 6/16</b>",
+    "<b>Guitar Center-Summer School Tour-Boston</b>"
+  ],
+  "linkedin": [],
+  "photos": [
+    {
+      "title": "Event Photo - Generic 2",
+      "meta": "",
+      "path": "assets/synced/rec8p8KB7BeNeSuwr-attN9j1fhYWf5b0rM.png"
+    },
+    {
+      "title": "Titan HST Partnership (Press Photo)",
+      "meta": "",
+      "path": "assets/synced/recHwOVgsboXRUZCF-attc57slZfVRmrAsR.jpg"
+    },
+    {
+      "title": "Event Photo - Generic 1",
+      "meta": "",
+      "path": "assets/synced/recUsyCIkiQnpCEGl-atttocgkf8yuVpVqV.png"
     }
   ]
 }
