@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T03:39:52.212Z",
+  "generatedAt": "2026-07-16T06:33:33.187Z",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -108,7 +108,7 @@
     "events30": 158,
     "guards30": 2180,
     "citiesYTD": 98,
-    "upcoming30": 62,
+    "upcoming30": 65,
     "perDay": 7.178571428571429
   },
   "heatPoints": [
@@ -204,7 +204,7 @@
       "office": "National Ops",
       "color": "#E8B44A",
       "events30": 30,
-      "career": 472,
+      "career": 473,
       "recent": [
         {
           "name": "Guitar Center-Summer School Tour-Chicago",
@@ -225,7 +225,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 20,
-      "career": 303,
+      "career": 306,
       "recent": [
         {
           "name": "UFC Fanatics",
