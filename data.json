@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T22:46:09.834Z",
+  "generatedAt": "2026-07-16T00:12:48.693Z",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -70,6 +70,12 @@
       "title": "SVP - Global Events & Development ",
       "bio": "Sean is a highly accomplished and dynamic individual serving as the Vice President of Business Development. With over a decade of experience in the corporate world, he has established himself as a strategic leader in driving growth and forging successful partnerships. His impressive track record includes successfully spearheading numerous business initiatives and expansion projects across the globe. Known for his exceptional networking skills, he has a knack for identifying new opportunities and cultivating strong relationships with key stakeholders. As Vice President of Business Development, Sean is responsible for envisioning and executing innovative strategies to expand the company's market presence and drive revenue growth. Leveraging his deep understanding of market trends and customer needs, he plays a pivotal role in shaping the organization's long-term growth trajectory.",
       "photo": "assets/synced/recm9g2u87RkDnOT8-att3VyoJVmhsJ2WZ6.jpeg"
+    },
+    {
+      "name": "Sevan Ohanians",
+      "title": "VP - Event Operations",
+      "bio": "Sevan Ohanians is an action-oriented and result-focused professional, offering 20+ years of experience in project management and operations management in fast paced environments. An expert in organization, completion, and project follow through. Extensive experience in managing high-profile clientele, risk assessment, and threat mitigation and leads our Events team on the West Coast. Sevan’s creative thinking and analytical mindset enable him to identify untapped markets and develop tailored solutions to meet customer demands. He thrives on building high-performing teams, fostering a collaborative work environment, and empowering his colleagues to achieve their full potential.",
+      "photo": "assets/synced/recgwu8yzDURNivqR-attCOmQkPofl3YbJB.jpeg"
     }
   ],
   "brand": {
@@ -92,12 +98,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1397,
+    "eventsYTD": 1407,
     "events30": 158,
-    "guards30": 2486,
+    "guards30": 2180,
     "citiesYTD": 98,
-    "upcoming30": 71,
-    "perDay": 7.127551020408164
+    "upcoming30": 62,
+    "perDay": 7.178571428571429
   },
   "heatPoints": [
     {
@@ -112,8 +118,8 @@
       "name": "Northern California",
       "lon": -122.42,
       "lat": 37.77,
-      "ev": 12,
-      "w": 0.17391304347826086,
+      "ev": 11,
+      "w": 0.15942028985507245,
       "hq": false
     },
     {
@@ -126,26 +132,18 @@
     },
     {
       "name": "National Ops",
-      "lon": -118.24,
-      "lat": 34.05,
-      "ev": 28,
-      "w": 0.4057971014492754,
+      "lon": -98.5,
+      "lat": 39,
+      "ev": 30,
+      "w": 0.43478260869565216,
       "hq": true
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 20,
-      "w": 0.2898550724637681,
-      "hq": false
-    },
-    {
-      "name": "Utah",
-      "lon": -111.89,
-      "lat": 40.76,
-      "ev": 5,
-      "w": 0.07246376811594203,
+      "ev": 21,
+      "w": 0.30434782608695654,
       "hq": false
     },
     {
@@ -163,6 +161,14 @@
       "ev": 6,
       "w": 0.08695652173913043,
       "hq": false
+    },
+    {
+      "name": "Utah",
+      "lon": -111.89,
+      "lat": 40.76,
+      "ev": 3,
+      "w": 0.043478260869565216,
+      "hq": false
     }
   ],
   "rems": [
@@ -170,20 +176,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 31,
+      "events30": 34,
       "career": 2276,
       "recent": [
         {
-          "name": "Olivia Dean Concert- LA Live",
-          "meta": "JUL 15"
+          "name": "We Are Osos Premiere",
+          "meta": "JUL 16"
         },
         {
-          "name": "Olivia Dean Concert",
-          "meta": "JUL 15"
+          "name": "Apple Sam Smith EP",
+          "meta": "JUL 16"
         },
         {
-          "name": "Olivia Dean Concert- LA Live",
-          "meta": "JUL 14"
+          "name": "Lord of the Rings- LA Live",
+          "meta": "JUL 16"
         }
       ]
     },
@@ -191,20 +197,20 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 28,
+      "events30": 30,
       "career": 472,
       "recent": [
         {
+          "name": "Guitar Center-Summer School Tour-Chicago",
+          "meta": "JUL 16"
+        },
+        {
+          "name": "Super Trooper 3-Press Tour-St Louis",
+          "meta": "JUL 16"
+        },
+        {
           "name": "Open AI-IL",
           "meta": "JUL 15"
-        },
-        {
-          "name": "Super Troops Press Tour-Denver",
-          "meta": "JUL 14"
-        },
-        {
-          "name": "Anduril_Baltimore",
-          "meta": "JUL 13"
         }
       ]
     },
@@ -212,20 +218,41 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 19,
+      "events30": 20,
       "career": 303,
       "recent": [
         {
+          "name": "UFC Fanatics",
+          "meta": "JUL 16"
+        },
+        {
+          "name": "Drum-Off Regionals-NY",
+          "meta": "JUL 16"
+        },
+        {
           "name": "7.15 AAS x Chelsea Triangle",
           "meta": "JUL 15"
+        }
+      ]
+    },
+    {
+      "name": "Kyle Crowther",
+      "office": "Tennessee",
+      "color": "#E8B44A",
+      "events30": 11,
+      "career": 69,
+      "recent": [
+        {
+          "name": "Drum-Off Regionals-TN",
+          "meta": "JUL 16"
         },
         {
-          "name": "7.14 Nike x World Cup Watch Party",
-          "meta": "JUL 14"
+          "name": "Protos-TJ MAXX-Springhill",
+          "meta": "JUL 12"
         },
         {
-          "name": "7.14-The Dink-Hudson Yards",
-          "meta": "JUL 14"
+          "name": "AZ Protos Coach 7.5",
+          "meta": "JUL 05"
         }
       ]
     },
@@ -233,7 +260,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 12,
+      "events30": 11,
       "career": 259,
       "recent": [
         {
@@ -249,75 +276,9 @@
           "meta": "JUL 01"
         }
       ]
-    },
-    {
-      "name": "Kyle Crowther",
-      "office": "Tennessee",
-      "color": "#E8B44A",
-      "events30": 10,
-      "career": 69,
-      "recent": [
-        {
-          "name": "Protos-TJ MAXX-Springhill",
-          "meta": "JUL 12"
-        },
-        {
-          "name": "AZ Protos Coach 7.5",
-          "meta": "JUL 05"
-        },
-        {
-          "name": "Whiskey River Saloon",
-          "meta": "JUL 04"
-        }
-      ]
     }
   ],
   "events": [
-    {
-      "client": "AEG",
-      "title": "Olivia Dean Concert- LA Live",
-      "venue": "LA Live · Los Angeles",
-      "badges": [
-        "Concert"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "OpenAI",
-      "title": "Open AI-IL",
-      "venue": "Hyatt Regency-Schaumburg IL · Schaumburg",
-      "badges": [
-        "Private Party/Event"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Television Academy",
-      "title": "TVA Screening Room",
-      "venue": "Saban Media Center [TVA] · North Hollywood",
-      "badges": [
-        "Screening"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Another A Story",
-      "title": "7.15 AAS x Chelsea Triangle",
-      "venue": "Chelsea Triangle · New York",
-      "badges": [
-        "Private Party/Event"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Crypto.com Arena",
-      "title": "Olivia Dean Concert",
-      "venue": "Crypto.com Arena · Los Angeles",
-      "badges": [
-        "Concert"
-      ],
-      "upcoming": false
-    },
     {
       "client": "Guitar Center",
       "title": "Guitar Center-Summer School Tour-Chicago",
@@ -325,7 +286,7 @@
       "badges": [
         "Exec Protection"
       ],
-      "upcoming": true
+      "upcoming": false
     },
     {
       "client": "Shannon Warner Events",
@@ -334,7 +295,7 @@
       "badges": [
         "Premiere"
       ],
-      "upcoming": true
+      "upcoming": false
     },
     {
       "client": "Disney",
@@ -342,6 +303,51 @@
       "venue": "Delmar Hall",
       "badges": [
         "Exec Protection"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Apple",
+      "title": "Apple Sam Smith EP",
+      "venue": "Apple Music · Culver City",
+      "badges": [
+        "Exec Protection"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "UFC",
+      "title": "UFC Fanatics",
+      "venue": "Jacob Javits Convention Center-NY",
+      "badges": [
+        "Exec Protection"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Nike",
+      "title": "Nike SCI Kick Around ",
+      "venue": "Pecan Park",
+      "badges": [
+        "Sports Event"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "AEG",
+      "title": "Monster Jam- LA Live",
+      "venue": "LA Live · Los Angeles",
+      "badges": [
+        "Sports Event"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "Doyle Security Services Inc.",
+      "title": "7.17 Doyle EP-Oakhust",
+      "venue": "Hillview Water Co.",
+      "badges": [
+        "Monitoring - GSOC"
       ],
       "upcoming": true
     }
@@ -357,16 +363,16 @@
     "<b>Beverly Hilton Hotel Wedding</b> · Beverly Hilton Hotel",
     "<b>Los Angeles Sparks vs Indiana Fever</b> · Crypto.com Arena",
     "<b>The One Qualifiers</b> · NYC",
-    "<b>Nike All Hands Meeting </b> · Los Angeles Nike Headquarters",
     "<b>Nike JDI Day</b> · 309 Esplanade, Redondo Beach, CA 90277",
-    "<b>6.16-Growth CEO Dinner</b> · Taverna Portola Valley",
     "<b>6.18 Third Thursday</b> · The Mint San Francisco",
     "<b>Netflix HRD Ice Cream Truck Tour-Philadelphia</b> · Ritterhouse Square",
     "<b>7.14 Nike x World Cup Watch Party</b> · The Ground",
     "<b>Black Myth- LA Live Coverage</b> · LA Live",
     "<b>TVA Toy Story 5 Screening</b> · Saban Media Center [TVA]",
-    "<b>Black Chamber 6/16</b> · Residence",
-    "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center"
+    "<b>Olivia Dean Concert- LA Live</b> · LA Live",
+    "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center",
+    "<b>6.17 NBCU AP Detail-MD</b> · Dionne Warwick Theater-Bowie St University",
+    "<b>This That Monaleo-ATL</b> · Atlanta"
   ],
   "linkedin": [
     {
