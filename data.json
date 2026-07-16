@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T16:43:01.139Z",
+  "generatedAt": "2026-07-16T18:20:50.856Z",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -92,12 +92,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1407,
-    "events30": 158,
-    "guards30": 2180,
+    "eventsYTD": 1405,
+    "events30": 156,
+    "guards30": 2170,
     "citiesYTD": 98,
-    "upcoming30": 65,
-    "perDay": 7.1421319796954315
+    "upcoming30": 66,
+    "perDay": 7.131979695431472
   },
   "heatPoints": [
     {
@@ -105,7 +105,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 15,
-      "w": 0.21739130434782608,
+      "w": 0.22388059701492538,
       "hq": false
     },
     {
@@ -113,14 +113,14 @@
       "lon": -122.42,
       "lat": 37.77,
       "ev": 11,
-      "w": 0.15942028985507245,
+      "w": 0.16417910447761194,
       "hq": false
     },
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 69,
+      "ev": 67,
       "w": 1,
       "hq": true
     },
@@ -129,7 +129,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 30,
-      "w": 0.43478260869565216,
+      "w": 0.44776119402985076,
       "hq": true
     },
     {
@@ -137,7 +137,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 21,
-      "w": 0.30434782608695654,
+      "w": 0.31343283582089554,
       "hq": false
     },
     {
@@ -145,7 +145,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 3,
-      "w": 0.043478260869565216,
+      "w": 0.04477611940298507,
       "hq": false
     },
     {
@@ -153,7 +153,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 6,
-      "w": 0.08695652173913043,
+      "w": 0.08955223880597014,
       "hq": false
     },
     {
@@ -161,7 +161,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 3,
-      "w": 0.043478260869565216,
+      "w": 0.04477611940298507,
       "hq": false
     }
   ],
@@ -170,7 +170,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 34,
+      "events30": 32,
       "career": 2276,
       "recent": [
         {
@@ -361,12 +361,12 @@
     "<b>6.18 Third Thursday</b> · The Mint San Francisco",
     "<b>Netflix HRD Ice Cream Truck Tour-Philadelphia</b> · Ritterhouse Square",
     "<b>7.14 Nike x World Cup Watch Party</b> · The Ground",
-    "<b>Black Myth- LA Live Coverage</b> · LA Live",
     "<b>TVA Toy Story 5 Screening</b> · Saban Media Center [TVA]",
     "<b>Olivia Dean Concert- LA Live</b> · LA Live",
     "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center",
     "<b>6.17 NBCU AP Detail-MD</b> · Dionne Warwick Theater-Bowie St University",
-    "<b>This That Monaleo-ATL</b> · Atlanta"
+    "<b>This That Monaleo-ATL</b> · Atlanta",
+    "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL"
   ],
   "linkedin": [
     {
