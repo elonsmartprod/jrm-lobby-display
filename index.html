@@ -146,7 +146,7 @@
 
   /* Scene 2 — heatmap */
   .map-wrap{ flex:1; position:relative; display:flex; }
-  #opsmap{ flex:1; height:100%; }
+  #opsmap{ flex:1; height:100%; min-width:0; min-height:0; display:block; }
   .map-side{ width:280px; margin-left:28px; display:flex; flex-direction:column; gap:12px; justify-content:center; }
   .region-row{
     background:var(--ink-200); border:1px solid var(--line); border-radius:8px; padding:14px 18px;
@@ -552,8 +552,14 @@ function project(lon, lat, w, h){
   return [x, y];
 }
 function drawMap(pulsePhase){
-  const w = mapCanvas.width  = mapCanvas.offsetWidth  || 1200;
-  const h = mapCanvas.height = mapCanvas.offsetHeight || 560;
+  const w = mapCanvas.offsetWidth  || 1200;
+  const h = mapCanvas.offsetHeight || 560;
+  // Only touch the backing-store size when it actually changes. Canvas is a
+  // flex child, and rewriting width/height every frame (60x/sec) feeds its
+  // own content size back into layout, which is what caused the map to
+  // visibly stretch on load before this + the CSS min-width:0 fix.
+  if (mapCanvas.width !== w) mapCanvas.width = w;
+  if (mapCanvas.height !== h) mapCanvas.height = h;
   mctx.clearRect(0, 0, w, h);
   mctx.strokeStyle = 'rgba(35,48,68,0.35)'; mctx.lineWidth = 1;
   for (let gx = 0; gx < w; gx += w/14){ mctx.beginPath(); mctx.moveTo(gx,0); mctx.lineTo(gx,h); mctx.stroke(); }
