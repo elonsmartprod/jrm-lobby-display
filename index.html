@@ -154,6 +154,11 @@
   }
   .region-row .r-name{ font-family:var(--font-display); font-weight:600; text-transform:uppercase; letter-spacing:.1em; font-size:15px; }
   .region-row .r-count{ font-family:var(--font-mono); font-size:26px; color:var(--gold); }
+  .map-caption{
+    font-family:var(--font-mono); font-size:12px; color:var(--steel);
+    letter-spacing:.1em; text-transform:uppercase; display:flex; align-items:center; gap:8px; padding:0 2px;
+  }
+  .map-caption .dot{ width:7px; height:7px; border-radius:50%; background:var(--steel); flex:none; }
   .map-legend{
     font-family:var(--font-mono); font-size:11px; color:var(--text-lo);
     letter-spacing:.12em; text-transform:uppercase; display:flex; align-items:center; gap:10px; margin-top:8px;
@@ -313,7 +318,7 @@
 
   <section class="scene" id="scene-heatmap">
     <div class="scene-head">
-      <div class="eyebrow">Deployment Density · Rolling 30 Days · By JRM Office</div>
+      <div class="eyebrow">Deployment Density · By JRM Office · Venue Markets YTD</div>
       <h1 class="scene-title">Where We've Stood Post</h1>
     </div>
     <div class="map-wrap">
@@ -390,6 +395,7 @@
 const MOCK_DATA = {
   metrics: { eventsYTD: 0, events30: 0, guards30: 0, citiesYTD: 0, upcoming30: 0, perDay: 0 },
   heatPoints: [],
+  venuePoints: [],
   rems: [],
   events: [],
   ticker: [],
@@ -570,6 +576,24 @@ function drawMap(pulsePhase){
   mctx.fillStyle = 'rgba(17,24,38,0.9)'; mctx.fill();
   mctx.strokeStyle = 'rgba(111,168,201,0.35)'; mctx.lineWidth = 1.4; mctx.stroke();
 
+  // Venue dispersal layer — a small, unlabeled marker per venue market
+  // (grouped + capped server-side in sync.js). Sits underneath the bigger
+  // labeled office blooms so it reads as texture — "we're everywhere" —
+  // rather than competing with the headline density numbers.
+  mctx.globalCompositeOperation = 'lighter';
+  (DATA.venuePoints || []).forEach(p => {
+    const [x, y] = project(p.lon, p.lat, w, h);
+    const r = 2 + Math.min(p.count, 6) * 0.55;
+    const g = mctx.createRadialGradient(x, y, 0, x, y, r * 4.5);
+    g.addColorStop(0, 'rgba(111,168,201,0.5)');
+    g.addColorStop(1, 'rgba(111,168,201,0)');
+    mctx.fillStyle = g;
+    mctx.beginPath(); mctx.arc(x, y, r * 4.5, 0, Math.PI * 2); mctx.fill();
+    mctx.fillStyle = 'rgba(190,218,235,0.85)';
+    mctx.beginPath(); mctx.arc(x, y, r * 0.55, 0, Math.PI * 2); mctx.fill();
+  });
+  mctx.globalCompositeOperation = 'source-over';
+
   mctx.globalCompositeOperation = 'lighter';
   (DATA.heatPoints || []).forEach(p => {
     const [x,y] = project(p.lon, p.lat, w, h);
@@ -619,7 +643,11 @@ function renderMapSide(){
     .slice().sort((a,b) => b.ev - a.ev).slice(0, 5)
     .map(p => `<div class="region-row"><span class="r-name">${esc(p.name)}</span><span class="r-count">${esc(p.ev)}</span></div>`)
     .join('');
-  side.innerHTML = rows + legend.outerHTML;
+  const marketCount = (DATA.venuePoints || []).length;
+  const caption = marketCount
+    ? `<div class="map-caption"><span class="dot"></span>${marketCount} venue market${marketCount === 1 ? '' : 's'} plotted · YTD</div>`
+    : '';
+  side.innerHTML = rows + caption + legend.outerHTML;
 }
 
 /* ============================================================================

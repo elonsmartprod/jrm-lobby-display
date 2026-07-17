@@ -52,7 +52,18 @@ const OPS_FIELDS = {
   cities: ["Name"],
   venues: ["VenueName"],
   clients: ["Client Name"],
+  // Dedicated venue-map fetch: adds only the geo/city/state fields needed
+  // to plot venue markets on "Where We've Stood Post". Lat/Long/City/State
+  // are non-sensitive (no POC, contact, or revenue data on this table) —
+  // see the geocode-venues.js backfill for how Lat/Long get populated.
+  venuesGeo: ["VenueName", "Lat", "Long", "City", "State"],
 };
+
+// Server-side cap on how many distinct venue markets (grouped by city+state)
+// get plotted as dispersal dots on the ops map. Keeps the map reading as
+// "we're everywhere" texture rather than a wall of pins as coverage grows —
+// the top N by YTD job count are always the most meaningful to show anyway.
+const VENUE_POINT_CAP = 60;
 
 // Static geo anchors for JRM's real offices (Airtable has no lat/lon of its
 // own — these are metro-center approximations, same approach as the mockup).
@@ -117,6 +128,13 @@ function resolveLink(val, idMap) {
   return (idMap && idMap[id]) || "";
 }
 
+// Same shape as resolveLink but returns the raw linked record id instead of
+// a resolved name — needed to join a job's venue link against venue geo data.
+function linkId(val) {
+  if (!Array.isArray(val) || !val[0]) return null;
+  return typeof val[0] === "string" ? val[0] : val[0].id;
+}
+
 async function buildIdNameMap(tableId, baseId, nameField) {
   const records = await fetchAllRecords(tableId, baseId, { fields: [nameField] });
   const map = {};
@@ -134,6 +152,34 @@ function isoDate(d) {
   return d.toISOString().slice(0, 10);
 }
 
+// Fetches VENUES with just enough fields to plot a market on the map:
+// coordinates (from the geocode-venues.js backfill) plus City+State so
+// multiple venues in the same market group into one dot. Venues without a
+// Lat/Long yet are returned with lat/long: null and simply won't plot —
+// no office-centroid guess for this decorative layer, since stacking
+// ungeocoded venues onto their office pin would just re-hide them under
+// the big blooms this layer exists to complement.
+async function fetchVenueGeo(cityMap) {
+  const records = await fetchAllRecords(OPS_TABLES.venues, OPS_BASE_ID, {
+    fields: OPS_FIELDS.venuesGeo,
+  });
+  const map = {};
+  for (const r of records) {
+    const f = r.fields;
+    const lat = f.Lat ? parseFloat(f.Lat) : null;
+    const long = f.Long ? parseFloat(f.Long) : null;
+    const cityName = resolveLink(f.City, cityMap);
+    const state = (f.State && f.State.name) || "";
+    map[r.id] = {
+      name: f.VenueName || "",
+      lat: Number.isFinite(lat) ? lat : null,
+      long: Number.isFinite(long) ? long : null,
+      cityState: [cityName, state].filter(Boolean).join(", "),
+    };
+  }
+  return map;
+}
+
 async function fetchOpsMetrics() {
   const now = new Date();
   const yearStart = new Date(now.getFullYear(), 0, 1);
@@ -145,6 +191,8 @@ async function fetchOpsMetrics() {
     buildIdNameMap(OPS_TABLES.venues, OPS_BASE_ID, "VenueName"),
     buildIdNameMap(OPS_TABLES.clients, OPS_BASE_ID, "Client Name"),
   ]);
+  console.log("  Fetching venue geo (Lat/Long) for the dispersal map...");
+  const venueGeo = await fetchVenueGeo(cityMap);
   // REM names are looked up from REMS/Accounts itself (fetched again below
   // for color/career data), but the job log only needs the id->name half
   // here, cheaply reused from that same fetch.
@@ -168,6 +216,7 @@ async function fetchOpsMetrics() {
       rem: resolveLink(f["REM *"], remMap),
       guards: typeof f["# of Guards Requested"] === "number" ? f["# of Guards Requested"] : 0,
       venue: resolveLink(f["VENUE NAME"], venueMap),
+      venueId: linkId(f["VENUE NAME"]),
       client: resolveLink(f["CLIENT NAME"], clientMap),
       city: resolveLink(f.City, cityMap),
       badges: [f["EVENT TYPE **"], f["CATEGORY **"]].filter(Boolean),
@@ -190,6 +239,34 @@ async function fetchOpsMetrics() {
     upcoming30: upcoming30.length,
     perDay: ytd.length / daysElapsed,
   };
+
+  // Venue dispersal layer: YTD job count per venue, grouped by City+State
+  // (a market can have several venues — e.g. multiple LA soundstages —
+  // which should read as one dot, not a cluster). Only venues with a real
+  // geocoded Lat/Long contribute; see fetchVenueGeo() above. Averaging
+  // coordinates across a market's venues keeps the dot centered on the
+  // market rather than snapping to whichever venue happened first.
+  const venueJobCounts = {};
+  for (const j of ytd) {
+    if (!j.venueId) continue;
+    venueJobCounts[j.venueId] = (venueJobCounts[j.venueId] || 0) + 1;
+  }
+  const marketGroups = {};
+  for (const [venueId, count] of Object.entries(venueJobCounts)) {
+    const g = venueGeo[venueId];
+    if (!g || g.lat == null || g.long == null) continue;
+    const key = g.cityState || g.name;
+    if (!marketGroups[key]) marketGroups[key] = { name: key, lonSum: 0, latSum: 0, venues: 0, count: 0 };
+    const grp = marketGroups[key];
+    grp.lonSum += g.long;
+    grp.latSum += g.lat;
+    grp.venues += 1;
+    grp.count += count;
+  }
+  let venuePoints = Object.values(marketGroups)
+    .map((g) => ({ name: g.name, lon: g.lonSum / g.venues, lat: g.latSum / g.venues, count: g.count }))
+    .sort((a, b) => b.count - a.count);
+  if (venuePoints.length > VENUE_POINT_CAP) venuePoints = venuePoints.slice(0, VENUE_POINT_CAP);
 
   // Heatmap: last-30-day event count per office, mapped onto static geo.
   const officeCounts = {};
@@ -263,7 +340,7 @@ async function fetchOpsMetrics() {
     .slice(0, 20)
     .map((j) => `<b>${escapeHtml(j.name)}</b>${j.venue ? " · " + escapeHtml(j.venue) : ""}`);
 
-  return { metrics, heatPoints, rems, events, ticker };
+  return { metrics, heatPoints, venuePoints, rems, events, ticker };
 }
 
 // Airtable single-select "color" tokens (e.g. "orangeBright") -> hex, close
@@ -410,6 +487,7 @@ async function main() {
     gallery,
     metrics: ops.metrics,
     heatPoints: ops.heatPoints,
+    venuePoints: ops.venuePoints,
     rems: ops.rems,
     events: ops.events,
     ticker: ops.ticker,
@@ -420,7 +498,7 @@ async function main() {
   fs.writeFileSync(path.join(REPO_ROOT, "data.json"), JSON.stringify(data, null, 2) + "\n");
   console.log(
     `Wrote data.json — ${callouts.length} callout(s), ${bios.length} bio(s), ${gallery.length} gallery photo(s), ` +
-      `${ops.metrics.eventsYTD} events YTD, ${ops.rems.length} REM(s).`
+      `${ops.metrics.eventsYTD} events YTD, ${ops.rems.length} REM(s), ${ops.venuePoints.length} venue market(s) on the map.`
   );
 }
 
