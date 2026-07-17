@@ -387,7 +387,10 @@ async function fetchOpsMetrics() {
   console.log("  Fetching fixed accounts (standing venues)...");
   const fixedAccounts = await fetchFixedAccounts(officeMap, venueMap);
 
-  return { metrics, heatPoints, venuePoints, rems, events, ticker, fixedAccounts };
+  console.log("  Fetching today's live post roster...");
+  const todayPosts = await fetchTodayPosts(remMap, venueMap, clientMap, cityMap);
+
+  return { metrics, heatPoints, venuePoints, rems, events, ticker, fixedAccounts, todayPosts };
 }
 
 // Standing engagements — not one-off events. Reads whatever the "Fixed
@@ -407,6 +410,23 @@ async function fetchFixedAccounts(officeMap, venueMap) {
     }))
     .filter((a) => a.name);
   return dedupeByName(accounts).sort((a, b) => a.name.localeCompare(b.name));
+}
+
+// Live "who's on post right now" roster — same view-owns-the-filter pattern
+// as fetchFixedAccounts, pointed at the separate "Today's Posts" view
+// (viwJ4vtjfEUahzU2u) instead of re-deriving a start/end-date window here.
+async function fetchTodayPosts(remMap, venueMap, clientMap, cityMap) {
+  const jobs = await fetchAllRecords(OPS_TABLES.jobLog, OPS_BASE_ID, {
+    fields: ["REM *", "VENUE NAME", "CLIENT NAME", "JOB NAME", "City"],
+    view: "viwJ4vtjfEUahzU2u",
+  });
+  return jobs.map((r) => ({
+    rem: resolveLink(r.fields["REM *"], remMap),
+    venue: resolveLink(r.fields["VENUE NAME"], venueMap),
+    client: resolveLink(r.fields["CLIENT NAME"], clientMap),
+    job: r.fields["JOB NAME"] || "",
+    city: resolveLink(r.fields.City, cityMap),
+  }));
 }
 
 function dedupeByName(jobs) {
@@ -562,6 +582,7 @@ async function main() {
     heatPoints: ops.heatPoints,
     venuePoints: ops.venuePoints,
     fixedAccounts: ops.fixedAccounts,
+    todayPosts: ops.todayPosts,
     rems: ops.rems,
     events: ops.events,
     ticker: ops.ticker,
@@ -584,7 +605,7 @@ async function main() {
   console.log(
     `Wrote data.json — ${callouts.length} callout(s), ${bios.length} bio(s), ${gallery.length} gallery photo(s), ` +
       `${ops.metrics.eventsYTD} events YTD, ${ops.rems.length} REM(s), ${ops.venuePoints.length} venue market(s), ` +
-      `${ops.fixedAccounts.length} fixed account(s)${swept ? `, swept ${swept} orphaned asset(s)` : ""}.`
+      `${ops.fixedAccounts.length} fixed account(s), ${ops.todayPosts.length} live post(s)${swept ? `, swept ${swept} orphaned asset(s)` : ""}.`
   );
 }
 

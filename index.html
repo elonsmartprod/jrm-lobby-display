@@ -165,12 +165,33 @@
   }
   .legend-bar{ flex:1; height:6px; border-radius:3px; background:linear-gradient(90deg, var(--steel), var(--gold), var(--ember)); }
 
-  /* Scene 3 — fixed accounts (reuses .region-row's chip look) */
-  .account-grid{ flex:1; display:grid; grid-template-columns:repeat(auto-fill, minmax(230px,1fr)); grid-auto-rows:min-content; gap:14px; align-content:start; overflow:hidden; }
-  .account-chip{ background:var(--ink-200); border:1px solid var(--line); border-radius:8px; padding:16px 18px; }
-  .account-chip .a-name{ font-family:var(--font-display); font-weight:600; text-transform:uppercase; letter-spacing:.04em; font-size:16px; }
-  .account-chip .a-meta{ font-family:var(--font-mono); font-size:11px; color:var(--text-lo); letter-spacing:.08em; text-transform:uppercase; margin-top:6px; }
-  .account-chip.more{ display:flex; align-items:center; justify-content:center; color:var(--text-lo); font-family:var(--font-mono); letter-spacing:.1em; }
+  /* Scene 3 — fixed accounts: split-flap ops board. Rows flip in like an
+     airport departure board on scene entry (JS re-renders on every onEnter,
+     which restarts the CSS entrance animation for free — no separate replay
+     trigger needed). */
+  .board-wrap{ flex:1; display:flex; flex-direction:column; overflow:hidden; }
+  .board-head-row{
+    display:grid; grid-template-columns:1fr 150px 90px; gap:0 20px;
+    font-family:var(--font-mono); font-size:10.5px; letter-spacing:.2em; text-transform:uppercase;
+    color:var(--text-lo); padding:0 4px 10px 4px; border-bottom:1px solid var(--line);
+  }
+  .board-cols{ flex:1; display:grid; grid-template-columns:repeat(2,1fr); gap:0 48px; align-content:start; perspective:900px; }
+  .board-col{ display:flex; flex-direction:column; }
+  .board-row{
+    display:grid; grid-template-columns:1fr 150px 90px; gap:0 20px; align-items:baseline;
+    padding:11px 4px; border-bottom:1px solid var(--line);
+    transform-origin:top center; opacity:0;
+    animation:boardFlap .5s cubic-bezier(.2,.7,.3,1) forwards;
+  }
+  .board-row .b-venue{ font-family:var(--font-display); font-weight:600; text-transform:uppercase; letter-spacing:.02em; font-size:16px; }
+  .board-row .b-office{ font-family:var(--font-mono); font-size:12px; color:var(--steel); letter-spacing:.06em; text-transform:uppercase; }
+  .board-row .b-since{ font-family:var(--font-mono); font-size:12px; color:var(--gold); text-align:right; }
+  @keyframes boardFlap{
+    0%{ transform:rotateX(-90deg); opacity:0; }
+    55%{ transform:rotateX(14deg); opacity:1; }
+    100%{ transform:rotateX(0deg); opacity:1; }
+  }
+  @media (prefers-reduced-motion: reduce){ .board-row{ animation:none; opacity:1; } }
 
   /* Scene 3 — REM spotlight */
   .rem-wrap{ flex:1; display:grid; grid-template-columns:1fr 1.3fr; gap:56px; align-items:center; }
@@ -337,12 +358,21 @@
     </div>
   </section>
 
+  <section class="scene" id="scene-today">
+    <div class="scene-head">
+      <div class="eyebrow">Live Roster · Today's Deployments</div>
+      <h1 class="scene-title">Where We're Posted Today</h1>
+    </div>
+    <div class="event-grid" id="todaygrid"></div>
+  </section>
+
   <section class="scene" id="scene-fixed">
     <div class="scene-head">
       <div class="eyebrow">Standing Posts · Fixed Accounts</div>
-      <h1 class="scene-title">Where We're Posted Today</h1>
+      <h1 class="scene-title">Always On Post, Year-Round</h1>
+      <div class="scene-sub" id="fixedsub"></div>
     </div>
-    <div class="account-grid" id="accountgrid"></div>
+    <div class="board-wrap" id="fixedboard"></div>
   </section>
 
   <section class="scene" id="scene-rem">
@@ -413,6 +443,7 @@ const MOCK_DATA = {
   heatPoints: [],
   venuePoints: [],
   fixedAccounts: [],
+  todayPosts: [],
   rems: [],
   events: [],
   ticker: [],
@@ -425,12 +456,13 @@ const MOCK_DATA = {
 const PLAYLIST = [
   { id:'scene-metrics',  label:'01 Metrics',    seconds:14, onEnter: runCountUps },
   { id:'scene-heatmap',  label:'02 Heatmap',    seconds:16, onEnter: null },
-  { id:'scene-fixed',    label:'03 Fixed Accts',seconds:14, onEnter: null },
-  { id:'scene-rem',      label:'04 REM',        seconds:14, onEnter: nextRem },
-  { id:'scene-events',   label:'05 Events',     seconds:14, onEnter: null },
-  { id:'scene-photos',   label:'06 Photo Reel', seconds:18, onEnter: startReel },
-  { id:'scene-linkedin', label:'07 LinkedIn',   seconds:14, onEnter: null },
-  { id:'scene-team',     label:'08 Team',       seconds:16, onEnter: null }
+  { id:'scene-today',    label:'03 Today',      seconds:16, onEnter: renderTodayPosts },
+  { id:'scene-fixed',    label:'04 Fixed Accts',seconds:14, onEnter: renderFixedAccounts },
+  { id:'scene-rem',      label:'05 REM',        seconds:14, onEnter: nextRem },
+  { id:'scene-events',   label:'06 Events',     seconds:14, onEnter: null },
+  { id:'scene-photos',   label:'07 Photo Reel', seconds:18, onEnter: startReel },
+  { id:'scene-linkedin', label:'08 LinkedIn',   seconds:14, onEnter: null },
+  { id:'scene-team',     label:'09 Team',       seconds:16, onEnter: renderTeam }
 ];
 
 let currentIndex = 0;
@@ -441,6 +473,18 @@ let paused       = false;
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const esc = v => (v === null || v === undefined) ? '' : String(v)
   .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+// Splits a list into balanced pages (last page isn't a lonely leftover) so a
+// scene with unbounded Airtable data can't overflow a fixed 1080p canvas.
+// Shared by the Team and Today's Posts scenes, each owns its own rotation timer.
+function paginate(items, maxPerPage){
+  if (!items.length) return [];
+  const pageCount = Math.max(1, Math.ceil(items.length / maxPerPage));
+  const perPage = Math.ceil(items.length / pageCount);
+  const pages = [];
+  for (let i = 0; i < items.length; i += perPage) pages.push(items.slice(i, i + perPage));
+  return pages;
+}
 
 /* ---- playlist chips ------------------------------------------------------ */
 const playlistEl = document.getElementById('playlist');
@@ -670,27 +714,71 @@ function renderMapSide(){
 }
 
 /* ============================================================================
-   SCENE 3 — fixed accounts (standing posts, rotates as part of the carousel)
+   SCENE 3 — today's live post roster (auto-paginates + rotates if it
+   overflows a single 3x3 grid, same pattern as the Team scene below)
    ========================================================================== */
-function renderFixedAccounts(){
-  const grid = document.getElementById('accountgrid');
-  const accounts = DATA.fixedAccounts || [];
-  if (!accounts.length){ grid.innerHTML = `<div class="rem-empty">NO ACTIVE FIXED ACCOUNTS SYNCED</div>`; return; }
-  // ponytail: cap to what a 1080p grid actually fits instead of paginating
-  // within the scene — add in-scene rotation if the list regularly exceeds this.
-  const CAP = 24;
-  const shown = accounts.slice(0, CAP);
-  const chips = shown.map(a => `
-    <div class="account-chip">
-      <div class="a-name">${esc(a.name)}</div>
-      <div class="a-meta">${esc(a.office || '—')}${a.since ? ' · SINCE ' + esc(a.since) : ''}</div>
+let todayTimer = null, todayPageIdx = 0, todayPages = [];
+function renderTodayPosts(){
+  const grid = document.getElementById('todaygrid');
+  const posts = DATA.todayPosts || [];
+  clearInterval(todayTimer);
+  if (!posts.length){ grid.innerHTML = `<div class="rem-empty">NO ACTIVE POSTS SYNCED FOR TODAY</div>`; return; }
+  todayPages = paginate(posts, 9); // 3x3 — same safe capacity as the Events scene grid
+  todayPageIdx = 0;
+  showTodayPage();
+  if (todayPages.length > 1){
+    todayTimer = setInterval(() => {
+      if (paused) return;
+      todayPageIdx = (todayPageIdx + 1) % todayPages.length;
+      showTodayPage();
+    }, 6000);
+  }
+}
+function showTodayPage(){
+  document.getElementById('todaygrid').innerHTML = todayPages[todayPageIdx].map(p => `
+    <div class="event-card">
+      <div class="badge-row"><span class="badge">${esc(p.rem || 'UNASSIGNED')}</span></div>
+      <div class="e-title">${esc(p.venue || p.job || 'Untitled Post')}</div>
+      <div class="e-client">${esc(p.client)}</div>
+      <div class="e-venue">${esc([p.job, p.city].filter(Boolean).join(' · '))}</div>
     </div>`).join('');
-  const more = accounts.length > CAP ? `<div class="account-chip more">+${accounts.length - CAP} MORE</div>` : '';
-  grid.innerHTML = chips + more;
 }
 
 /* ============================================================================
-   SCENE 4 — REM spotlight
+   SCENE 4 — fixed accounts (standing posts, rotates as part of the carousel)
+   ========================================================================== */
+function renderFixedAccounts(){
+  const grid = document.getElementById('fixedboard');
+  const sub = document.getElementById('fixedsub');
+  const accounts = DATA.fixedAccounts || [];
+  if (sub){
+    const offices = new Set(accounts.map(a => a.office).filter(Boolean)).size;
+    sub.textContent = accounts.length
+      ? `${accounts.length} standing post${accounts.length === 1 ? '' : 's'} across ${offices} office${offices === 1 ? '' : 's'} — live from Airtable`
+      : '';
+  }
+  if (!accounts.length){ grid.innerHTML = `<div class="rem-empty">NO ACTIVE FIXED ACCOUNTS SYNCED</div>`; return; }
+  // ponytail: fixed 2-column split-flap layout, capped at 24 rows (12/col) —
+  // what a 1080p board actually fits. Add real in-scene pagination if the
+  // account count regularly exceeds this.
+  const CAP = 24;
+  const shown = accounts.slice(0, CAP).map((a, i) => ({ ...a, i }));
+  const cols = [[], []];
+  shown.forEach((a) => cols[a.i % 2].push(a));
+  if (accounts.length > CAP) cols[1].push({ name: `+${accounts.length - CAP} MORE`, office: '', since: null, i: CAP, more: true });
+  const row = (a) => `
+    <div class="board-row" style="animation-delay:${a.i * 45}ms">
+      <div class="b-venue"${a.more ? ' style="color:var(--text-lo)"' : ''}>${esc(a.name)}</div>
+      <div class="b-office">${esc(a.office || '')}</div>
+      <div class="b-since">${a.since ? 'SINCE ' + esc(a.since) : ''}</div>
+    </div>`;
+  grid.innerHTML = `
+    <div class="board-head-row"><span>Standing Post</span><span>Office</span><span style="text-align:right">Since</span></div>
+    <div class="board-cols">${cols.map((c) => `<div class="board-col">${c.map(row).join('')}</div>`).join('')}</div>`;
+}
+
+/* ============================================================================
+   SCENE 5 — REM spotlight
    ========================================================================== */
 let remIndex = -1;
 function nextRem(){
@@ -720,7 +808,7 @@ function nextRem(){
 }
 
 /* ============================================================================
-   SCENE 5 — event highlight cards + ticker
+   SCENE 6 — event highlight cards + ticker
    ========================================================================== */
 function renderEvents(){
   document.getElementById('eventgrid').innerHTML = (DATA.events || []).map(e => `
@@ -736,7 +824,7 @@ function renderEvents(){
 }
 
 /* ============================================================================
-   SCENE 6 — photo reel (real photos, Ken Burns pan)
+   SCENE 7 — photo reel (real photos, Ken Burns pan)
    ========================================================================== */
 const stage = document.getElementById('photostage');
 function renderPhotos(){
@@ -770,7 +858,7 @@ function startReel(){
 }
 
 /* ============================================================================
-   SCENE 7 — "On the Record" quote cards (from approved Lobby Callouts)
+   SCENE 8 — "On the Record" quote cards (from approved Lobby Callouts)
    ========================================================================== */
 function renderQuotes(){
   const grid = document.getElementById('quotegrid');
@@ -791,18 +879,37 @@ function renderQuotes(){
 }
 
 /* ============================================================================
-   SCENE 8 — team bios (from Team Bios table, Show on Display only)
+   SCENE 9 — team bios (from Team Bios table, Show on Display only)
    ========================================================================== */
 function initials(name){
   if (!name) return '?';
   const parts = name.trim().split(/\s+/);
   return ((parts[0]?.[0] || '') + (parts.length > 1 ? parts[parts.length-1][0] : '')).toUpperCase();
 }
+// 6 cards is what one row of the team grid actually fits at 1920x1080 (see
+// .team-grid's minmax(280px,1fr)) — beyond that, cards were wrapping to a
+// second compressed row and getting cut off by the scene's overflow:hidden.
+// Paginate + rotate instead, same pattern as the Today's Posts scene above.
+let teamTimer = null, teamPageIdx = 0, teamPages = [];
 function renderTeam(){
   const grid = document.getElementById('teamgrid');
   const team = DATA.team || [];
+  clearInterval(teamTimer);
   if (!team.length){ grid.innerHTML = `<div class="rem-empty">TEAM ROSTER SYNCING</div>`; return; }
-  grid.innerHTML = team.map(m => `
+  teamPages = paginate(team, 6);
+  teamPageIdx = 0;
+  showTeamPage();
+  if (teamPages.length > 1){
+    teamTimer = setInterval(() => {
+      if (paused) return;
+      teamPageIdx = (teamPageIdx + 1) % teamPages.length;
+      showTeamPage();
+    }, 6000);
+  }
+}
+function showTeamPage(){
+  const grid = document.getElementById('teamgrid');
+  grid.innerHTML = teamPages[teamPageIdx].map(m => `
     <div class="team-card">
       <div class="team-photo">${m.photo ? `<img src="${esc(m.photo)}" alt="">` : `<div class="mono">${esc(initials(m.name))}</div>`}</div>
       <div class="team-name">${esc(m.name)}</div>
@@ -837,6 +944,7 @@ function applyData(d){
   DATA = Object.assign({}, MOCK_DATA, d || {});
   renderMetrics(DATA.metrics);
   renderMapSide();
+  renderTodayPosts();
   renderFixedAccounts();
   remIndex = -1;
   renderEvents();
