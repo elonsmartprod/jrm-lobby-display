@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T21:08:51.195Z",
-  "commit": "06586b4",
+  "generatedAt": "2026-07-17T22:07:43.080Z",
+  "commit": "265ed1b",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -117,12 +117,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1411,
-    "events30": 157,
-    "guards30": 2193,
+    "eventsYTD": 1412,
+    "events30": 158,
+    "guards30": 2194,
     "citiesYTD": 98,
-    "upcoming30": 60,
-    "perDay": 7.126262626262626
+    "upcoming30": 61,
+    "perDay": 7.1313131313131315
   },
   "heatPoints": [
     {
@@ -1286,9 +1286,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 13,
-      "career": 259,
+      "events30": 14,
+      "career": 260,
       "recent": [
+        {
+          "name": "7.17 Emerald x Elena",
+          "meta": "JUL 17"
+        },
         {
           "name": "7.17 Doyle EP-Oakhust",
           "meta": "JUL 17"
@@ -1296,10 +1300,6 @@
         {
           "name": "AGI Summit 2026",
           "meta": "JUL 17"
-        },
-        {
-          "name": "7.12 Pickwick Vintage San Francisco",
-          "meta": "JUL 12"
         }
       ]
     },
@@ -1336,6 +1336,15 @@
       "upcoming": false
     },
     {
+      "client": "Emerald Americas LLC",
+      "title": "7.17 Emerald x Elena",
+      "venue": "Multiple Venues",
+      "badges": [
+        "Exec Protection"
+      ],
+      "upcoming": false
+    },
+    {
       "client": "AEG",
       "title": "Monster Jam- LA Live",
       "venue": "LA Live · Los Angeles",
@@ -1359,15 +1368,6 @@
       "venue": "Palace of Fine Arts San Francisco · San Francisco",
       "badges": [
         "Other"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Crypto.com Arena",
-      "title": "Monster Jam",
-      "venue": "Crypto.com Arena · Los Angeles",
-      "badges": [
-        "Sports Event"
       ],
       "upcoming": false
     },
