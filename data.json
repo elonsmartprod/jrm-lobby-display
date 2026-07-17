@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T15:42:49.754Z",
+  "generatedAt": "2026-07-17T16:21:22.990Z",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -70,6 +70,30 @@
       "title": "COO",
       "bio": "Michael is a retired law enforcement officer from Southern California.  He brings over 30 years of law enforcement and security experience to the table.  His law enforcement career helped shape his critical thinking skills and strong tactical and analytical skills.  Michael is based out of our Las Vegas, NV office.  He has direct oversight of our national operations and branch offices.  His responsibilities include carrying out the strategic goals set by our CEO and Board of Directors.  He works closely with the V.P’s of the company to set our strategy and goals for business growth and development and to look out for the financial health of our company.  Working alongside our CEO, Michael has helped the company become the best and largest live broadcast security company in the U.S. ",
       "photo": "assets/synced/recAgQThuYKvrO5Gr-attRY8OFAJhXz9TDp.jpeg"
+    },
+    {
+      "name": "Robert Paul Schwartz",
+      "title": "CFO",
+      "bio": "Results-orientated accounting professional with broad experience in a deadline-driven environment. Proven track record in consistently and effectively delivering accounting services that enhance the company's purpose and profitability. Strong technical accounting, tax and computer skills. Excellent research and financial analysis abilities. In-depth management reporting.Developing and implementing financial systems and controls. Budgeting and forecasting. Facilitation of internal and external auditing procedures. Regulatory compliance. Staff management and development. In-depth knowledge of accounting regulations and standards. Robert is an active Certified Public Accountant in California and Oregon with over 40 years of accounting experience. Robert has also held positions as Controller and Chief Financial Officer for a variety of privately held companies.",
+      "photo": null
+    },
+    {
+      "name": "Sean McKillop",
+      "title": "SVP - Global Events & Development ",
+      "bio": "Sean is a highly accomplished and dynamic individual serving as the Vice President of Business Development. With over a decade of experience in the corporate world, he has established himself as a strategic leader in driving growth and forging successful partnerships. His impressive track record includes successfully spearheading numerous business initiatives and expansion projects across the globe. Known for his exceptional networking skills, he has a knack for identifying new opportunities and cultivating strong relationships with key stakeholders. As Vice President of Business Development, Sean is responsible for envisioning and executing innovative strategies to expand the company's market presence and drive revenue growth. Leveraging his deep understanding of market trends and customer needs, he plays a pivotal role in shaping the organization's long-term growth trajectory.",
+      "photo": "assets/synced/recm9g2u87RkDnOT8-att3VyoJVmhsJ2WZ6.jpeg"
+    },
+    {
+      "name": "Sevan Ohanians",
+      "title": "VP - Event Operations",
+      "bio": "Sevan Ohanians is an action-oriented and result-focused professional, offering 20+ years of experience in project management and operations management in fast paced environments. An expert in organization, completion, and project follow through. Extensive experience in managing high-profile clientele, risk assessment, and threat mitigation and leads our Events team on the West Coast. Sevan’s creative thinking and analytical mindset enable him to identify untapped markets and develop tailored solutions to meet customer demands. He thrives on building high-performing teams, fostering a collaborative work environment, and empowering his colleagues to achieve their full potential.",
+      "photo": "assets/synced/recgwu8yzDURNivqR-attCOmQkPofl3YbJB.jpeg"
+    },
+    {
+      "name": "Tony D'Gracia",
+      "title": "EVP - Northeast Operations",
+      "bio": "Drawing on more than two decades of distinguished experience in law enforcement, investigations, and high-level security operations, Tony brings unparalleled expertise and strategic insight to the private security sector. During his extensive career in law enforcement and the private sector, Tony honed critical skills in tactical response, threat assessment, crisis management, and complex investigations. This foundation in public safety provided a deep understanding of proactive security measures and regulatory compliance that few in the private sector can match. Tony obtained a Bachelor’s degree in Criminal Justice from John Jay College of Criminal Justice, and holds multiple certifications including Certified Fraud Examiner (CFE) and NYS Security Guard Instructor.",
+      "photo": null
     }
   ],
   "brand": {
@@ -276,7 +300,7 @@
     {
       "client": "Nike",
       "title": "Nike SCI Kick Around ",
-      "venue": "Pecan Park",
+      "venue": "Pecan Park · Los Angeles",
       "badges": [
         "Sports Event"
       ],
