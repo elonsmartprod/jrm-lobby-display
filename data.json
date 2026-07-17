@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T23:12:19.873Z",
+  "generatedAt": "2026-07-17T00:13:45.142Z",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -92,30 +92,14 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1405,
-    "events30": 156,
-    "guards30": 2170,
+    "eventsYTD": 1411,
+    "events30": 157,
+    "guards30": 2193,
     "citiesYTD": 98,
-    "upcoming30": 66,
-    "perDay": 7.131979695431472
+    "upcoming30": 60,
+    "perDay": 7.16243654822335
   },
   "heatPoints": [
-    {
-      "name": "Tennessee",
-      "lon": -86.78,
-      "lat": 36.16,
-      "ev": 15,
-      "w": 0.22388059701492538,
-      "hq": false
-    },
-    {
-      "name": "Northern California",
-      "lon": -122.42,
-      "lat": 37.77,
-      "ev": 11,
-      "w": 0.16417910447761194,
-      "hq": false
-    },
     {
       "name": "Los Angeles",
       "lon": -118.24,
@@ -123,6 +107,22 @@
       "ev": 67,
       "w": 1,
       "hq": true
+    },
+    {
+      "name": "Tennessee",
+      "lon": -86.78,
+      "lat": 36.16,
+      "ev": 14,
+      "w": 0.208955223880597,
+      "hq": false
+    },
+    {
+      "name": "Northern California",
+      "lon": -122.42,
+      "lat": 37.77,
+      "ev": 13,
+      "w": 0.19402985074626866,
+      "hq": false
     },
     {
       "name": "National Ops",
@@ -170,19 +170,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 32,
+      "events30": 33,
       "career": 2279,
       "recent": [
         {
+          "name": "Monster Jam- LA Live",
+          "meta": "JUL 17"
+        },
+        {
+          "name": "Monster Jam",
+          "meta": "JUL 17"
+        },
+        {
           "name": "We Are Osos Premiere",
-          "meta": "JUL 16"
-        },
-        {
-          "name": "Apple Sam Smith EP",
-          "meta": "JUL 16"
-        },
-        {
-          "name": "Lord of the Rings- LA Live",
           "meta": "JUL 16"
         }
       ]
@@ -195,16 +195,16 @@
       "career": 473,
       "recent": [
         {
+          "name": "Super Trooper 3-Press Tour-Chicago",
+          "meta": "JUL 17"
+        },
+        {
           "name": "Guitar Center-Summer School Tour-Chicago",
           "meta": "JUL 16"
         },
         {
           "name": "Super Trooper 3-Press Tour-St Louis",
           "meta": "JUL 16"
-        },
-        {
-          "name": "Open AI-IL",
-          "meta": "JUL 15"
         }
       ]
     },
@@ -230,6 +230,27 @@
       ]
     },
     {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 13,
+      "career": 259,
+      "recent": [
+        {
+          "name": "7.17 Doyle EP-Oakhust",
+          "meta": "JUL 17"
+        },
+        {
+          "name": "AGI Summit 2026",
+          "meta": "JUL 17"
+        },
+        {
+          "name": "7.12 Pickwick Vintage San Francisco",
+          "meta": "JUL 12"
+        }
+      ]
+    },
+    {
       "name": "Kyle Crowther",
       "office": "Tennessee",
       "color": "#E8B44A",
@@ -249,75 +270,9 @@
           "meta": "JUL 05"
         }
       ]
-    },
-    {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
-      "color": "#E8B44A",
-      "events30": 11,
-      "career": 259,
-      "recent": [
-        {
-          "name": "7.12 Pickwick Vintage San Francisco",
-          "meta": "JUL 12"
-        },
-        {
-          "name": "7.12 Hackathon-OpenAI ",
-          "meta": "JUL 12"
-        },
-        {
-          "name": "ABC FIFA WC",
-          "meta": "JUL 01"
-        }
-      ]
     }
   ],
   "events": [
-    {
-      "client": "Guitar Center",
-      "title": "Guitar Center-Summer School Tour-Chicago",
-      "venue": "Guitar Center-Chicago · Chicago",
-      "badges": [
-        "Exec Protection"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Shannon Warner Events",
-      "title": "We Are Osos Premiere",
-      "venue": "Pacific Design Center · West Hollywood",
-      "badges": [
-        "Premiere"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Disney",
-      "title": "Super Trooper 3-Press Tour-St Louis",
-      "venue": "Delmar Hall",
-      "badges": [
-        "Exec Protection"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Apple",
-      "title": "Apple Sam Smith EP",
-      "venue": "Apple Music · Culver City",
-      "badges": [
-        "Exec Protection"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "UFC",
-      "title": "UFC Fanatics",
-      "venue": "Jacob Javits Convention Center-NY",
-      "badges": [
-        "Exec Protection"
-      ],
-      "upcoming": false
-    },
     {
       "client": "Nike",
       "title": "Nike SCI Kick Around ",
@@ -325,7 +280,7 @@
       "badges": [
         "Sports Event"
       ],
-      "upcoming": true
+      "upcoming": false
     },
     {
       "client": "AEG",
@@ -334,7 +289,7 @@
       "badges": [
         "Sports Event"
       ],
-      "upcoming": true
+      "upcoming": false
     },
     {
       "client": "Doyle Security Services Inc.",
@@ -342,6 +297,51 @@
       "venue": "Hillview Water Co.",
       "badges": [
         "Monitoring - GSOC"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "BayAI Circle/NexAI Inc.",
+      "title": "AGI Summit 2026",
+      "venue": "Palace of Fine Arts San Francisco · San Francisco",
+      "badges": [
+        "Other"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Crypto.com Arena",
+      "title": "Monster Jam",
+      "venue": "Crypto.com Arena · Los Angeles",
+      "badges": [
+        "Sports Event"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "AEG",
+      "title": "Monster Jam- LA Live",
+      "venue": "LA Live · Los Angeles",
+      "badges": [
+        "Other"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "Nike",
+      "title": "7.18 Nike x Zucasa",
+      "venue": "The Ground · New York",
+      "badges": [
+        "Private Party/Event"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "UFC",
+      "title": "UFC ATL-Meet and Greet",
+      "venue": "Dave & Busters · Marietta",
+      "badges": [
+        "Exec Protection"
       ],
       "upcoming": true
     }
@@ -364,9 +364,9 @@
     "<b>TVA Toy Story 5 Screening</b> · Saban Media Center [TVA]",
     "<b>Olivia Dean Concert- LA Live</b> · LA Live",
     "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center",
-    "<b>6.17 NBCU AP Detail-MD</b> · Dionne Warwick Theater-Bowie St University",
     "<b>This That Monaleo-ATL</b> · Atlanta",
-    "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL"
+    "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
+    "<b>Grammy Museum - Chingona Program &amp; Reception</b> · Grammy Museum"
   ],
   "linkedin": [
     {
