@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T14:04:58.842Z",
+  "generatedAt": "2026-07-17T15:42:49.754Z",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -96,7 +96,7 @@
     "events30": 157,
     "guards30": 2193,
     "citiesYTD": 98,
-    "upcoming30": 60,
+    "upcoming30": 61,
     "perDay": 7.126262626262626
   },
   "heatPoints": [
@@ -213,7 +213,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 20,
-      "career": 306,
+      "career": 307,
       "recent": [
         {
           "name": "UFC Fanatics",
