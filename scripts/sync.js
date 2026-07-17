@@ -115,6 +115,7 @@ async function fetchAllRecords(tableId, baseId = BASE_ID, opts = {}) {
     if (offset) url.searchParams.set("offset", offset);
     if (opts.fields) opts.fields.forEach((f) => url.searchParams.append("fields[]", f));
     if (opts.filterByFormula) url.searchParams.set("filterByFormula", opts.filterByFormula);
+    if (opts.view) url.searchParams.set("view", opts.view);
     const res = await fetchWithRetry(url, {
       headers: { Authorization: `Bearer ${TOKEN}` },
     });
@@ -389,16 +390,14 @@ async function fetchOpsMetrics() {
   return { metrics, heatPoints, venuePoints, rems, events, ticker, fixedAccounts };
 }
 
-// Standing engagements — not one-off events. Excludes the "Active" records
-// whose END DATE has already passed (Airtable has several of these; see the
-// Phase 2 build notes) so a stale record doesn't show as a current post.
-// Fixed accounts predate the current calendar year, so this is its own
-// fetch rather than filtered from the YTD `jobs` query above.
+// Standing engagements — not one-off events. Reads whatever the "Fixed
+// Accounts" Airtable view already filters to (viwMjWdWE0PoAWHmu on the job
+// log), instead of re-deriving the same conditions here — if the definition
+// of "currently active" changes, edit the view in Airtable, not this file.
 async function fetchFixedAccounts(officeMap, venueMap) {
   const jobs = await fetchAllRecords(OPS_TABLES.jobLog, OPS_BASE_ID, {
     fields: ["VENUE NAME", "JRM Office", "START DATE"],
-    filterByFormula:
-      "AND({CATEGORY **} = 'Fixed Accts', FIND('Active', ARRAYJOIN({JOB STATUS})), IS_AFTER({END DATE}, TODAY()))",
+    view: "viwMjWdWE0PoAWHmu",
   });
   const accounts = jobs
     .map((r) => ({
