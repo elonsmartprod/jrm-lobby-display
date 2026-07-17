@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T17:32:14.218Z",
-  "commit": "f61b34c",
+  "generatedAt": "2026-07-17T17:59:04.386Z",
+  "commit": "8e93fa1",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -551,9 +551,19 @@
       "since": 2023
     },
     {
+      "name": "Boxable",
+      "office": "JRM-Nevada",
+      "since": 2026
+    },
+    {
       "name": "Catherine Apartments",
       "office": "Los Angeles",
       "since": 2024
+    },
+    {
+      "name": "Century Woods",
+      "office": "Los Angeles",
+      "since": 2026
     },
     {
       "name": "Cityplace",
@@ -571,6 +581,16 @@
       "since": 2023
     },
     {
+      "name": "ESA Austin - Downtown Town Lake",
+      "office": "Texas",
+      "since": 2024
+    },
+    {
+      "name": "Evani 3223 Wilshire",
+      "office": "Los Angeles",
+      "since": 2025
+    },
+    {
       "name": "Fashion Nova Corporate Office",
       "office": "Los Angeles",
       "since": 2025
@@ -578,7 +598,12 @@
     {
       "name": "Fear of God Buildings",
       "office": "Los Angeles",
-      "since": 2023
+      "since": 2025
+    },
+    {
+      "name": "Hillview Water Co.",
+      "office": "Northern California",
+      "since": 2026
     },
     {
       "name": "Jardine Apartments",
@@ -599,6 +624,16 @@
       "name": "Living at Santa Monica Entire Complex",
       "office": "Los Angeles",
       "since": 2021
+    },
+    {
+      "name": "MW Lofts",
+      "office": "Los Angeles",
+      "since": 2023
+    },
+    {
+      "name": "Neptune Marina",
+      "office": "Los Angeles",
+      "since": 2023
     },
     {
       "name": "Next on Lex",
@@ -624,6 +659,11 @@
       "name": "Residence at West Edge",
       "office": "Los Angeles",
       "since": 2023
+    },
+    {
+      "name": "Santa Monica Collection ",
+      "office": "Los Angeles",
+      "since": 2026
     },
     {
       "name": "Santal Thousand Oaks",
@@ -661,9 +701,521 @@
       "since": 2025
     },
     {
+      "name": "Vernon City Hall",
+      "office": "Los Angeles",
+      "since": 2021
+    },
+    {
+      "name": "Vernon Power Plant",
+      "office": "Los Angeles",
+      "since": 2021
+    },
+    {
+      "name": "Vinz on Fairfax",
+      "office": "Los Angeles",
+      "since": 2023
+    },
+    {
+      "name": "Warner Music Warehouse ",
+      "office": "Los Angeles",
+      "since": 2026
+    },
+    {
       "name": "Wayfaerer",
       "office": "Los Angeles",
       "since": 2024
+    }
+  ],
+  "todayPosts": [
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "Jacob Javits Convention Center-NY",
+      "client": "UFC",
+      "job": "UFC Fanatics",
+      "city": "New York"
+    },
+    {
+      "rem": "Sevan Ohanians",
+      "venue": "Grammy Museum",
+      "client": "Grammy Museum",
+      "job": "GRAMMY MUSEUM - In House",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Various",
+      "client": "Disney - Searchlight",
+      "job": "Super Troopers-Press Tour-TX",
+      "city": ""
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "TBD",
+      "client": "Unknown",
+      "job": "Retail Pop-up",
+      "city": ""
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "Boxable",
+      "client": "City Wide",
+      "job": "Boxable LV",
+      "city": "Las Vegas"
+    },
+    {
+      "rem": "Patrick J McKillop",
+      "venue": "TJMAXX",
+      "client": "Protos Security",
+      "job": "Protos TJMAX 6/22",
+      "city": ""
+    },
+    {
+      "rem": "Sevan Ohanians",
+      "venue": "Belles Beach House",
+      "client": "3rd Generation Hospitality",
+      "job": "Belles Beach House World Cup Activation",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Santa Monica Collection ",
+      "client": "Taylor Lefebvre",
+      "job": "Santa Monica Collection ",
+      "city": "Santa Monica"
+    },
+    {
+      "rem": "Eric Frederick",
+      "venue": "Barnsdall Art Park",
+      "client": "Barnsdall Art Park Foundation",
+      "job": "Barnsdall Wine Tasting",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "2397 Montauk Highway Bridgehampton NY",
+      "client": "Vivrelle",
+      "job": "Vivrelle Bridgehampton 2026",
+      "city": "Bridgehampton"
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "The Aster",
+      "client": "The Aster LA",
+      "job": "The Aster LA  Hotel",
+      "city": "Hollywood"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "Long Island Aquarium",
+      "client": "Long Island Aquarium",
+      "job": "LI Aquarium Parking - Summer 2026",
+      "city": "Riverhead"
+    },
+    {
+      "rem": "Patrick J McKillop",
+      "venue": "Delta Center",
+      "client": "Delta Center",
+      "job": "Delta Center Renovations",
+      "city": "Salt Lake City"
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "San Francisco",
+      "client": "Doyle Security Services Inc.",
+      "job": "Doyle x LinkedIn San Francisco",
+      "city": "San Francisco"
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "Crypto.com Arena",
+      "client": "Crypto.com Arena",
+      "job": "Lakers Tunnel Suites",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "Crypto.com Arena",
+      "client": "Crypto.com Arena",
+      "job": "Kings Tunnel Suites",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "Crypto.com Arena",
+      "client": "Crypto.com Arena",
+      "job": "Sparks Tunnel Suites",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Warner Music Warehouse ",
+      "client": "Dennis Mukweso",
+      "job": "Warner Warehouse N. Hollywood",
+      "city": ""
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "New York City",
+      "client": "Tishman Speyer Properties, L.P.",
+      "job": "NY Background Checks",
+      "city": "New York"
+    },
+    {
+      "rem": "Ed McKillop",
+      "venue": "Century Woods",
+      "client": "Lori Tamboline",
+      "job": "Century woods H.O.A.",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "New York City",
+      "client": "Vivrelle",
+      "job": "Vivrelle Showroom 44 E 32nd St",
+      "city": "New York"
+    },
+    {
+      "rem": "Sevan Ohanians",
+      "venue": "Toms Watch Bar",
+      "client": "Tom's Watch Bar Sofi",
+      "job": "Toms Watch Bar SoFi",
+      "city": "Inglewood"
+    },
+    {
+      "rem": "Kyle Crowther",
+      "venue": "Arizona State Fairgrounds",
+      "client": "Crossroads Gun Shows",
+      "job": "Crossroads Gun Show 12/2025-12/7/2026",
+      "city": "Phoenix"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Greater Bethel AME Church",
+      "client": "Delta Sigma Theta",
+      "job": "Sigma Delta TN",
+      "city": "Nashville"
+    },
+    {
+      "rem": "Sevan Ohanians",
+      "venue": "Fashion Nova Corporate Office",
+      "client": "Fashion Nova",
+      "job": "Fashion Nova",
+      "city": "Beverly Hills"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "New York City",
+      "client": "Libertas Protection Group",
+      "job": "Sabrina Carpenter Residental NY",
+      "city": "New York"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Evani 3223 Wilshire",
+      "client": "Tyler Mc Crary",
+      "job": " EVANI 3223 ",
+      "city": "Santa Monica"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Heart Christian Academy - Carlsbad",
+      "client": "Heart Christian Academy",
+      "job": "HCA - Carlsbad, CA Campus",
+      "city": "Carlsbad"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Heart Christian Academy",
+      "client": "Heart Christian Academy",
+      "job": "HCA - San Juan Capistrano, CA Campus",
+      "city": "San Juan Capistrano"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "",
+      "client": "Tyler Mc Crary",
+      "job": "EVANI 3223 Wilshire ",
+      "city": ""
+    },
+    {
+      "rem": "Sevan Ohanians",
+      "venue": "Belles Beach House",
+      "client": "Belles: 24 Windward LLC ",
+      "job": "Belles Beach House",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Sevan Ohanians",
+      "venue": "Toms Watch Bar",
+      "client": "Toms Watch Bar",
+      "job": "Toms Watch Bar",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Kyle Crowther",
+      "venue": "Elephante Scottsdale",
+      "client": "Élephante SFS LLC",
+      "job": "Elephante Scottsdale",
+      "city": "Scottsdale"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "NINE THOUSAND ONE APARTMENTS",
+      "client": "Lino Capozz",
+      "job": "NINE THOUSAND ONE APARTMENTS",
+      "city": "West Hollywood"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "NINE THOUSAND ONE APARTMENTS",
+      "client": "Lino Capozz",
+      "job": "NINE THOUSAND ONE Apartments West Hollywood",
+      "city": "West Hollywood"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "Birdies",
+      "client": "Birdies",
+      "job": "Birdies Golf Simulator & Bar",
+      "city": "Patchogue"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "Long Island Aquarium",
+      "client": "Long Island Aquarium",
+      "job": "Long Island Aquarium Overnight",
+      "city": "Riverhead"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Pasadena- Gateway Villas",
+      "client": "Stephen Garza",
+      "job": "Gateway Villas ",
+      "city": "Pasadena"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Fear of God Buildings",
+      "client": "Fear of God",
+      "job": "FOG# 1",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "Virgin Hotel ",
+      "client": "Virgin Hotel",
+      "job": "Virgin Hotel ",
+      "city": "Las Vegas"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Fear of God Buildings",
+      "client": "Fear of God",
+      "job": "FOG #3 ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Verdosa- Apartments DTLA ",
+      "client": "Angel Regalado",
+      "job": "VERDOSA - DTLA ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Ole Smokey Distillery & Yee-Haw Brewing Company",
+      "client": "6th & Peabody",
+      "job": "Ole Smokey",
+      "city": "Nashville"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Park East Apartments",
+      "client": "Starlina McKinny",
+      "job": "PARK EAST APARTMENTS",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Sentral -Apartment",
+      "client": "Angeline Barragan",
+      "job": "Sentral- Extra Coverage ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "La Plaza Village- China Town ",
+      "client": "",
+      "job": "La Plaza Village ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Sentral -Apartment",
+      "client": "Angeline Barragan",
+      "job": "Sentral- Apts DTLA",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Greater Bethel AME Church",
+      "client": "Dr. Arie Nettles",
+      "job": "Deltas Meeting - AME Church",
+      "city": "Nashville"
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "Salt Church ",
+      "client": "Salt Church International",
+      "job": "Armed Salt Church",
+      "city": "Las Vegas"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Wayfaerer",
+      "client": "Sarah Tanner",
+      "job": "WAYFARER -Aps",
+      "city": "Marina del Rey"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Goodman Data Facility",
+      "client": "Goodman",
+      "job": "Goodman Courtesy Patrol",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Greater Bethel AME Church",
+      "client": "Greater Bethel AME Church",
+      "job": "Greater Bethel AME Church",
+      "city": "Nashville"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Catherine Apartments",
+      "client": "",
+      "job": "Catherine-1",
+      "city": "Santa Monica"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "West Haven",
+      "client": "West Haven HOA",
+      "job": "West Haven Patrol",
+      "city": "Franklin"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Heart Christian Academy - Murfreesboro, TN Campus",
+      "client": "Heart Christian Academy",
+      "job": "Heart Christian Academy - Murfreesboro, TN Campus",
+      "city": "Murfreesboro"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Darrell Waltrip Automotive",
+      "client": "Darrell Waltrip Automotive",
+      "job": "Darrell Waltrip Automotive",
+      "city": "Franklin"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Cityplace",
+      "client": "Caravan, LLC",
+      "job": "City Place",
+      "city": "Pasadena"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Aston at Gateway",
+      "client": "",
+      "job": "Aston at Gateway",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "South Park Studios",
+      "client": "South Park Studios",
+      "job": "South Park Studios",
+      "city": "Culver City"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Residence at West Edge",
+      "client": "",
+      "job": "Residence at West Edge  ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Santal Thousand Oaks",
+      "client": "",
+      "job": "Santal Thousand Oaks",
+      "city": "Thousand Oaks"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Fear of God Buildings",
+      "client": "Fear of God",
+      "job": "Fear of God (buildings)",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Next on Lex",
+      "client": "Next on Lex and Brio",
+      "job": "Next on Lex and Brio",
+      "city": "Glendale"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "JRM Headquarters",
+      "client": "The Recording Academy",
+      "job": "GSOC Monitoring TRA (901017)",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Jardine Apartments",
+      "client": "Jardine Apartments",
+      "job": "Jardine Apts (900895)",
+      "city": "Hollywood"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "St Regis Condominiums",
+      "client": "St Regis Apartments",
+      "job": "St Regis Apts (900899)",
+      "city": "Long Beach"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Columbia Square Apartments",
+      "client": "Residences at Columbia Square",
+      "job": "Columbia Square  (900892)",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Sway Apartments",
+      "client": "Sway Apartments",
+      "job": "Sway Apts (900901)",
+      "city": "Santa Monica"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "Living at Santa Monica Entire Complex",
+      "client": "Living at Santa Monica",
+      "job": "Living at Santa Monica (900900)",
+      "city": "Santa Monica"
+    },
+    {
+      "rem": "Dani Sanchez",
+      "venue": "The Recording Academy",
+      "client": "The Recording Academy",
+      "job": "TRA Security (900893)",
+      "city": "Santa Monica"
     }
   ],
   "rems": [
