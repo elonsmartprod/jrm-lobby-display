@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-07-17T16:53:50.713Z",
+  "generatedAt": "2026-07-17T17:16:34.807Z",
+  "commit": "379a8c4",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -162,14 +163,6 @@
       "lat": 40.76,
       "ev": 34,
       "w": 0.04151404151404151,
-      "hq": false
-    },
-    {
-      "name": "Northern California",
-      "lon": -122.42,
-      "lat": 37.77,
-      "ev": 130,
-      "w": 0.15873015873015872,
       "hq": false
     },
     {
@@ -549,6 +542,128 @@
       "lon": -111.7428009,
       "lat": 33.3099412,
       "count": 1
+    }
+  ],
+  "fixedAccounts": [
+    {
+      "name": "Aston at Gateway",
+      "office": "Los Angeles",
+      "since": 2023
+    },
+    {
+      "name": "Catherine Apartments",
+      "office": "Los Angeles",
+      "since": 2024
+    },
+    {
+      "name": "Cityplace",
+      "office": "Los Angeles",
+      "since": 2023
+    },
+    {
+      "name": "Columbia Square Apartments",
+      "office": "Los Angeles",
+      "since": 2021
+    },
+    {
+      "name": "Darrell Waltrip Automotive",
+      "office": "Tennessee",
+      "since": 2023
+    },
+    {
+      "name": "Fashion Nova Corporate Office",
+      "office": "Los Angeles",
+      "since": 2025
+    },
+    {
+      "name": "Fear of God Buildings",
+      "office": "Los Angeles",
+      "since": 2023
+    },
+    {
+      "name": "Jardine Apartments",
+      "office": "Los Angeles",
+      "since": 2021
+    },
+    {
+      "name": "JRM Headquarters",
+      "office": "Los Angeles",
+      "since": 2022
+    },
+    {
+      "name": "La Plaza Village- China Town ",
+      "office": "Los Angeles",
+      "since": 2024
+    },
+    {
+      "name": "Living at Santa Monica Entire Complex",
+      "office": "Los Angeles",
+      "since": 2021
+    },
+    {
+      "name": "Next on Lex",
+      "office": "Los Angeles",
+      "since": 2022
+    },
+    {
+      "name": "NINE THOUSAND ONE APARTMENTS",
+      "office": "Los Angeles",
+      "since": 2025
+    },
+    {
+      "name": "Park East Apartments",
+      "office": "Los Angeles",
+      "since": 2025
+    },
+    {
+      "name": "Pasadena- Gateway Villas",
+      "office": "Los Angeles",
+      "since": 2025
+    },
+    {
+      "name": "Residence at West Edge",
+      "office": "Los Angeles",
+      "since": 2023
+    },
+    {
+      "name": "Santal Thousand Oaks",
+      "office": "Los Angeles",
+      "since": 2023
+    },
+    {
+      "name": "Sentral -Apartment",
+      "office": "Los Angeles",
+      "since": 2024
+    },
+    {
+      "name": "South Park Studios",
+      "office": "Los Angeles",
+      "since": 2023
+    },
+    {
+      "name": "St Regis Condominiums",
+      "office": "Los Angeles",
+      "since": 2021
+    },
+    {
+      "name": "Sway Apartments",
+      "office": "Los Angeles",
+      "since": 2021
+    },
+    {
+      "name": "The Recording Academy",
+      "office": "Los Angeles",
+      "since": 2021
+    },
+    {
+      "name": "Verdosa- Apartments DTLA ",
+      "office": "Los Angeles",
+      "since": 2025
+    },
+    {
+      "name": "Wayfaerer",
+      "office": "Los Angeles",
+      "since": 2024
     }
   ],
   "rems": [
