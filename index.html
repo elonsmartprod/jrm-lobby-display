@@ -318,7 +318,7 @@
 
   <section class="scene" id="scene-heatmap">
     <div class="scene-head">
-      <div class="eyebrow">Deployment Density · By JRM Office · Venue Markets YTD</div>
+      <div class="eyebrow">Deployment Density · By JRM Office &amp; Venue Market · YTD</div>
       <h1 class="scene-title">Where We've Stood Post</h1>
     </div>
     <div class="map-wrap">
@@ -640,7 +640,7 @@ function renderMapSide(){
   const side = document.getElementById('mapside');
   const legend = side.querySelector('.map-legend');
   const rows = (DATA.heatPoints || [])
-    .slice().sort((a,b) => b.ev - a.ev).slice(0, 5)
+    .slice().sort((a,b) => b.ev - a.ev)
     .map(p => `<div class="region-row"><span class="r-name">${esc(p.name)}</span><span class="r-count">${esc(p.ev)}</span></div>`)
     .join('');
   const marketCount = (DATA.venuePoints || []).length;

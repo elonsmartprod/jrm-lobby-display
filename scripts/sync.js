@@ -268,9 +268,11 @@ async function fetchOpsMetrics() {
     .sort((a, b) => b.count - a.count);
   if (venuePoints.length > VENUE_POINT_CAP) venuePoints = venuePoints.slice(0, VENUE_POINT_CAP);
 
-  // Heatmap: last-30-day event count per office, mapped onto static geo.
+  // Heatmap: full-YTD event count per office, mapped onto static geo. (Was
+  // rolling-30-day; switched to YTD so the number on each bloom matches the
+  // same YTD window as the venue dispersal layer and the headline metrics.)
   const officeCounts = {};
-  for (const j of recent30) {
+  for (const j of ytd) {
     if (!j.office) continue;
     officeCounts[j.office] = (officeCounts[j.office] || 0) + 1;
   }
@@ -425,8 +427,8 @@ async function main() {
   const bios = [];
   for (const r of bioSource.sort(
     (a, b) =>
-      (typeof a.fields["Display Order"] === "number" ? a.fields["Display Order"] : Number.MAX_SAFE_INTEGER) -
-        (typeof b.fields["Display Order"] === "number" ? b.fields["Display Order"] : Number.MAX_SAFE_INTEGER) ||
+      (typeof a.fields["Order"] === "number" ? a.fields["Order"] : Number.MAX_SAFE_INTEGER) -
+        (typeof b.fields["Order"] === "number" ? b.fields["Order"] : Number.MAX_SAFE_INTEGER) ||
       String(a.fields.Name || "").localeCompare(String(b.fields.Name || ""))
   )) {
     const f = r.fields;
