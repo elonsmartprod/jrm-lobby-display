@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T16:43:19.756Z",
+  "generatedAt": "2026-07-17T16:53:50.713Z",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -54,12 +54,6 @@
   ],
   "team": [
     {
-      "name": "Andy Sanders",
-      "title": "Chief of Staff",
-      "bio": "Andy has 20 years’ experience in event security and facility protection with a specialty in venue ingress and weapons detection technology.  His current role capitalizes on his extensive experience in Corporate America and has him oversee a vast portfolio of projects and company wide initiatives.  Andy is responsible for managing the day-to-day operations of the executive office and serving as a trusted advisor to the CEO. His ability to anticipate needs and proactively address challenges allows her to streamline processes, optimize resources, and drive efficient decision-making.",
-      "photo": null
-    },
-    {
       "name": "John McKillop",
       "title": "CEO & President",
       "bio": "John has over 40 years of experience related to law enforcement and private industry security management.  John’s law enforcement career spanned 20 years of overseeing high level investigations relating to organized crime, gang activity and ended his career supervising the Robbery-Homicide division.  In 2002 he was awarded the honor of being one the top police officer awards in the international law enforcement community by the International Association of Chiefs of Police ( IACP) for his work overseeing and successful prosecution of one of the nation’s most prolific serial killers.\n\nAfter his law enforcement career John has been serving the private industry and has specialized in entertainment security.  John has been instrumental in creating and implementing security plans for some of the nations largest annual events such as Grammys, Emmys, Billboard Awards, American Music Awards and more.  As CEO and President of S&S Labor Force Inc. Dba JRM, John and his executive team have created a diverse portfolio of security services and is now one of the largest privately owned security companies in the region operating in major markets in the U.S. and other countries.",
@@ -78,22 +72,28 @@
       "photo": null
     },
     {
+      "name": "Andy Sanders",
+      "title": "Chief of Staff",
+      "bio": "Andy has 20 years’ experience in event security and facility protection with a specialty in venue ingress and weapons detection technology.  His current role capitalizes on his extensive experience in Corporate America and has him oversee a vast portfolio of projects and company wide initiatives.  Andy is responsible for managing the day-to-day operations of the executive office and serving as a trusted advisor to the CEO. His ability to anticipate needs and proactively address challenges allows her to streamline processes, optimize resources, and drive efficient decision-making.",
+      "photo": null
+    },
+    {
       "name": "Sean McKillop",
       "title": "SVP - Global Events & Development ",
       "bio": "Sean is a highly accomplished and dynamic individual serving as the Vice President of Business Development. With over a decade of experience in the corporate world, he has established himself as a strategic leader in driving growth and forging successful partnerships. His impressive track record includes successfully spearheading numerous business initiatives and expansion projects across the globe. Known for his exceptional networking skills, he has a knack for identifying new opportunities and cultivating strong relationships with key stakeholders. As Vice President of Business Development, Sean is responsible for envisioning and executing innovative strategies to expand the company's market presence and drive revenue growth. Leveraging his deep understanding of market trends and customer needs, he plays a pivotal role in shaping the organization's long-term growth trajectory.",
       "photo": "assets/synced/recm9g2u87RkDnOT8-att3VyoJVmhsJ2WZ6.jpeg"
     },
     {
-      "name": "Sevan Ohanians",
-      "title": "VP - Event Operations",
-      "bio": "Sevan Ohanians is an action-oriented and result-focused professional, offering 20+ years of experience in project management and operations management in fast paced environments. An expert in organization, completion, and project follow through. Extensive experience in managing high-profile clientele, risk assessment, and threat mitigation and leads our Events team on the West Coast. Sevan’s creative thinking and analytical mindset enable him to identify untapped markets and develop tailored solutions to meet customer demands. He thrives on building high-performing teams, fostering a collaborative work environment, and empowering his colleagues to achieve their full potential.",
-      "photo": "assets/synced/recgwu8yzDURNivqR-attCOmQkPofl3YbJB.jpeg"
-    },
-    {
       "name": "Tony D'Gracia",
       "title": "EVP - Northeast Operations",
       "bio": "Drawing on more than two decades of distinguished experience in law enforcement, investigations, and high-level security operations, Tony brings unparalleled expertise and strategic insight to the private security sector. During his extensive career in law enforcement and the private sector, Tony honed critical skills in tactical response, threat assessment, crisis management, and complex investigations. This foundation in public safety provided a deep understanding of proactive security measures and regulatory compliance that few in the private sector can match. Tony obtained a Bachelor’s degree in Criminal Justice from John Jay College of Criminal Justice, and holds multiple certifications including Certified Fraud Examiner (CFE) and NYS Security Guard Instructor.",
       "photo": null
+    },
+    {
+      "name": "Sevan Ohanians",
+      "title": "VP - Event Operations",
+      "bio": "Sevan Ohanians is an action-oriented and result-focused professional, offering 20+ years of experience in project management and operations management in fast paced environments. An expert in organization, completion, and project follow through. Extensive experience in managing high-profile clientele, risk assessment, and threat mitigation and leads our Events team on the West Coast. Sevan’s creative thinking and analytical mindset enable him to identify untapped markets and develop tailored solutions to meet customer demands. He thrives on building high-performing teams, fostering a collaborative work environment, and empowering his colleagues to achieve their full potential.",
+      "photo": "assets/synced/recgwu8yzDURNivqR-attCOmQkPofl3YbJB.jpeg"
     }
   ],
   "brand": {
@@ -128,65 +128,65 @@
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 67,
+      "ev": 819,
       "w": 1,
       "hq": true
     },
     {
-      "name": "Tennessee",
-      "lon": -86.78,
-      "lat": 36.16,
-      "ev": 14,
-      "w": 0.208955223880597,
+      "name": "JRM-Nevada",
+      "lon": -115.14,
+      "lat": 36.17,
+      "ev": 65,
+      "w": 0.07936507936507936,
       "hq": false
-    },
-    {
-      "name": "Northern California",
-      "lon": -122.42,
-      "lat": 37.77,
-      "ev": 13,
-      "w": 0.19402985074626866,
-      "hq": false
-    },
-    {
-      "name": "National Ops",
-      "lon": -98.5,
-      "lat": 39,
-      "ev": 30,
-      "w": 0.44776119402985076,
-      "hq": true
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 21,
-      "w": 0.31343283582089554,
+      "ev": 131,
+      "w": 0.15995115995115994,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 3,
-      "w": 0.04477611940298507,
-      "hq": false
-    },
-    {
-      "name": "JRM-Nevada",
-      "lon": -115.14,
-      "lat": 36.17,
-      "ev": 6,
-      "w": 0.08955223880597014,
+      "ev": 92,
+      "w": 0.11233211233211234,
       "hq": false
     },
     {
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 3,
-      "w": 0.04477611940298507,
+      "ev": 34,
+      "w": 0.04151404151404151,
       "hq": false
+    },
+    {
+      "name": "Northern California",
+      "lon": -122.42,
+      "lat": 37.77,
+      "ev": 130,
+      "w": 0.15873015873015872,
+      "hq": false
+    },
+    {
+      "name": "Tennessee",
+      "lon": -86.78,
+      "lat": 36.16,
+      "ev": 49,
+      "w": 0.05982905982905983,
+      "hq": false
+    },
+    {
+      "name": "National Ops",
+      "lon": -98.5,
+      "lat": 39,
+      "ev": 89,
+      "w": 0.10866910866910867,
+      "hq": true
     }
   ],
   "venuePoints": [
