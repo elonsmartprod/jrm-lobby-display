@@ -1,0 +1,26 @@
+name: Geocode Venues
+
+on:
+  schedule:
+    - cron: "0 13 * * 1" # Mondays, 6am Pacific
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  geocode:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run geocode backfill
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+        run: node scripts/geocode-venues.js
