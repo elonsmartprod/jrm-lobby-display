@@ -165,6 +165,13 @@
   }
   .legend-bar{ flex:1; height:6px; border-radius:3px; background:linear-gradient(90deg, var(--steel), var(--gold), var(--ember)); }
 
+  /* Scene 3 — fixed accounts (reuses .region-row's chip look) */
+  .account-grid{ flex:1; display:grid; grid-template-columns:repeat(auto-fill, minmax(230px,1fr)); grid-auto-rows:min-content; gap:14px; align-content:start; overflow:hidden; }
+  .account-chip{ background:var(--ink-200); border:1px solid var(--line); border-radius:8px; padding:16px 18px; }
+  .account-chip .a-name{ font-family:var(--font-display); font-weight:600; text-transform:uppercase; letter-spacing:.04em; font-size:16px; }
+  .account-chip .a-meta{ font-family:var(--font-mono); font-size:11px; color:var(--text-lo); letter-spacing:.08em; text-transform:uppercase; margin-top:6px; }
+  .account-chip.more{ display:flex; align-items:center; justify-content:center; color:var(--text-lo); font-family:var(--font-mono); letter-spacing:.1em; }
+
   /* Scene 3 — REM spotlight */
   .rem-wrap{ flex:1; display:grid; grid-template-columns:1fr 1.3fr; gap:56px; align-items:center; }
   .rem-card{ border-left:4px solid var(--rem-color, var(--gold)); padding-left:34px; }
@@ -279,6 +286,7 @@
     letter-spacing:.24em; color:var(--text-lo); border:1px solid var(--line); border-radius:3px;
     padding:5px 10px; opacity:.85; text-transform:uppercase;
   }
+  #freshbadge.stale{ color:var(--ember); border-color:var(--ember); opacity:1; }
   #paused{
     position:absolute; top:18px; left:20px; z-index:60; display:none; font-family:var(--font-mono); font-size:10px;
     letter-spacing:.24em; color:var(--gold); border:1px solid var(--gold); border-radius:3px; padding:5px 10px; text-transform:uppercase;
@@ -327,6 +335,14 @@
         <div class="map-legend"><span>Low</span><div class="legend-bar"></div><span>High</span></div>
       </div>
     </div>
+  </section>
+
+  <section class="scene" id="scene-fixed">
+    <div class="scene-head">
+      <div class="eyebrow">Standing Posts · Fixed Accounts</div>
+      <h1 class="scene-title">Where We're Posted Today</h1>
+    </div>
+    <div class="account-grid" id="accountgrid"></div>
   </section>
 
   <section class="scene" id="scene-rem">
@@ -396,22 +412,25 @@ const MOCK_DATA = {
   metrics: { eventsYTD: 0, events30: 0, guards30: 0, citiesYTD: 0, upcoming30: 0, perDay: 0 },
   heatPoints: [],
   venuePoints: [],
+  fixedAccounts: [],
   rems: [],
   events: [],
   ticker: [],
   linkedin: [],
   photos: [],
-  team: []
+  team: [],
+  commit: ''
 };
 
 const PLAYLIST = [
   { id:'scene-metrics',  label:'01 Metrics',    seconds:14, onEnter: runCountUps },
   { id:'scene-heatmap',  label:'02 Heatmap',    seconds:16, onEnter: null },
-  { id:'scene-rem',      label:'03 REM',        seconds:14, onEnter: nextRem },
-  { id:'scene-events',   label:'04 Events',     seconds:14, onEnter: null },
-  { id:'scene-photos',   label:'05 Photo Reel', seconds:18, onEnter: startReel },
-  { id:'scene-linkedin', label:'06 LinkedIn',   seconds:14, onEnter: null },
-  { id:'scene-team',     label:'07 Team',       seconds:16, onEnter: null }
+  { id:'scene-fixed',    label:'03 Fixed Accts',seconds:14, onEnter: null },
+  { id:'scene-rem',      label:'04 REM',        seconds:14, onEnter: nextRem },
+  { id:'scene-events',   label:'05 Events',     seconds:14, onEnter: null },
+  { id:'scene-photos',   label:'06 Photo Reel', seconds:18, onEnter: startReel },
+  { id:'scene-linkedin', label:'07 LinkedIn',   seconds:14, onEnter: null },
+  { id:'scene-team',     label:'08 Team',       seconds:16, onEnter: null }
 ];
 
 let currentIndex = 0;
@@ -651,7 +670,27 @@ function renderMapSide(){
 }
 
 /* ============================================================================
-   SCENE 3 — REM spotlight
+   SCENE 3 — fixed accounts (standing posts, rotates as part of the carousel)
+   ========================================================================== */
+function renderFixedAccounts(){
+  const grid = document.getElementById('accountgrid');
+  const accounts = DATA.fixedAccounts || [];
+  if (!accounts.length){ grid.innerHTML = `<div class="rem-empty">NO ACTIVE FIXED ACCOUNTS SYNCED</div>`; return; }
+  // ponytail: cap to what a 1080p grid actually fits instead of paginating
+  // within the scene — add in-scene rotation if the list regularly exceeds this.
+  const CAP = 24;
+  const shown = accounts.slice(0, CAP);
+  const chips = shown.map(a => `
+    <div class="account-chip">
+      <div class="a-name">${esc(a.name)}</div>
+      <div class="a-meta">${esc(a.office || '—')}${a.since ? ' · SINCE ' + esc(a.since) : ''}</div>
+    </div>`).join('');
+  const more = accounts.length > CAP ? `<div class="account-chip more">+${accounts.length - CAP} MORE</div>` : '';
+  grid.innerHTML = chips + more;
+}
+
+/* ============================================================================
+   SCENE 4 — REM spotlight
    ========================================================================== */
 let remIndex = -1;
 function nextRem(){
@@ -681,7 +720,7 @@ function nextRem(){
 }
 
 /* ============================================================================
-   SCENE 4 — event highlight cards + ticker
+   SCENE 5 — event highlight cards + ticker
    ========================================================================== */
 function renderEvents(){
   document.getElementById('eventgrid').innerHTML = (DATA.events || []).map(e => `
@@ -697,7 +736,7 @@ function renderEvents(){
 }
 
 /* ============================================================================
-   SCENE 5 — photo reel (real photos, Ken Burns pan)
+   SCENE 6 — photo reel (real photos, Ken Burns pan)
    ========================================================================== */
 const stage = document.getElementById('photostage');
 function renderPhotos(){
@@ -731,7 +770,7 @@ function startReel(){
 }
 
 /* ============================================================================
-   SCENE 6 — "On the Record" quote cards (from approved Lobby Callouts)
+   SCENE 7 — "On the Record" quote cards (from approved Lobby Callouts)
    ========================================================================== */
 function renderQuotes(){
   const grid = document.getElementById('quotegrid');
@@ -752,7 +791,7 @@ function renderQuotes(){
 }
 
 /* ============================================================================
-   SCENE 7 — team bios (from Team Bios table, Show on Display only)
+   SCENE 8 — team bios (from Team Bios table, Show on Display only)
    ========================================================================== */
 function initials(name){
   if (!name) return '?';
@@ -770,6 +809,23 @@ function renderTeam(){
       <div class="team-title">${esc(m.title)}</div>
       ${m.bio ? `<div class="team-bio">${esc(m.bio)}</div>` : ''}
     </div>`).join('');
+  // Nobody can scroll a lobby TV — auto-scroll any bio that overflows its
+  // card instead of silently truncating it (e.g. John McKillop's).
+  if (!reduceMotion) grid.querySelectorAll('.team-bio').forEach((el) => autoScrollOverflow(el));
+}
+
+// Slow ping-pong auto-scroll for an overflowing element. No-op if it fits.
+function autoScrollOverflow(el, pxPerSec = 18){
+  if (el.scrollHeight <= el.clientHeight + 4) return;
+  let dir = 1, last = performance.now();
+  (function step(now){
+    if (!document.body.contains(el)) return; // card was re-rendered away
+    const dt = (now - last) / 1000; last = now;
+    el.scrollTop += dir * pxPerSec * dt;
+    if (el.scrollTop <= 0) dir = 1;
+    if (el.scrollTop + el.clientHeight >= el.scrollHeight) dir = -1;
+    requestAnimationFrame(step);
+  })(last);
 }
 
 /* ============================================================================
@@ -781,6 +837,7 @@ function applyData(d){
   DATA = Object.assign({}, MOCK_DATA, d || {});
   renderMetrics(DATA.metrics);
   renderMapSide();
+  renderFixedAccounts();
   remIndex = -1;
   renderEvents();
   renderPhotos();
@@ -794,12 +851,22 @@ function applyData(d){
     brandMark.innerHTML = `<img src="${esc(DATA.brand.headerLogo)}" alt="JRM">`;
   }
 
+  // Freshness badge: sync time + commit short-SHA (which deploy this data
+  // came from — makes CDN propagation lag obvious instead of a mystery), and
+  // a stale flag if a sync run has silently stopped landing.
   const badge = document.getElementById('freshbadge');
+  const STALE_AFTER_MS = 2 * 60 * 60 * 1000;
   if (d && d.generatedAt){
     const when = new Date(d.generatedAt);
-    badge.textContent = 'Synced ' + when.toLocaleTimeString('en-US', { hour:'numeric', minute:'2-digit', timeZone:'America/Los_Angeles' });
+    const ageMs = Date.now() - when.getTime();
+    const stale = ageMs > STALE_AFTER_MS;
+    badge.textContent = (stale ? 'STALE — ' : '') + 'Synced ' +
+      when.toLocaleTimeString('en-US', { hour:'numeric', minute:'2-digit', timeZone:'America/Los_Angeles' }) +
+      (d.commit ? ' · ' + d.commit : '');
+    badge.classList.toggle('stale', stale);
   } else {
     badge.textContent = 'Awaiting first sync';
+    badge.classList.remove('stale');
   }
 }
 

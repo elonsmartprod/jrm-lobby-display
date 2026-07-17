@@ -8,21 +8,23 @@
 const BASE_ID = "appYl3aTmmFojcBIK"; // JRM Ops
 const VENUES_TABLE_ID = "tblHgKEEwhbsrJlsJ";
 
-const FIELDS = {
-  venueName: "fld3eRB2KInc8Cyj4",
-  address: "fldlEtscLdf9ojzM0",
-  state: "fldAEeYwCvnIKVR6V",
-  lat: "fldymPgNBymv7bbbN",
-  long: "fldXGcnYbmQbDtwLi",
-};
-
 const CENSUS_GEOCODER =
   "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress";
 
 const AIRTABLE_TOKEN = process.env.AIRTABLE_TOKEN;
 
+// Retries transient failures (429 rate-limit, 5xx) with a short linear
+// backoff — same pattern as sync.js. Doesn't retry 4xx (bad token/field).
+async function fetchWithRetry(url, opts = {}, retries = 3) {
+  for (let attempt = 1; ; attempt++) {
+    const res = await fetch(url, opts);
+    if (res.ok || attempt > retries || (res.status !== 429 && res.status < 500)) return res;
+    await new Promise((r) => setTimeout(r, attempt * 500));
+  }
+}
+
 async function airtableFetch(path, options = {}) {
-  const res = await fetch(`https://api.airtable.com/v0/${BASE_ID}${path}`, {
+  const res = await fetchWithRetry(`https://api.airtable.com/v0/${BASE_ID}${path}`, {
     ...options,
     headers: {
       Authorization: `Bearer ${AIRTABLE_TOKEN}`,
@@ -57,7 +59,7 @@ async function geocodeAddress(address) {
   const url = `${CENSUS_GEOCODER}?address=${encodeURIComponent(
     address
   )}&benchmark=Public_AR_Current&format=json`;
-  const res = await fetch(url);
+  const res = await fetchWithRetry(url);
   if (!res.ok) return null;
   const data = await res.json();
   const match = data?.result?.addressMatches?.[0];

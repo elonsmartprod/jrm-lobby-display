@@ -44,16 +44,15 @@ const OPS_FIELDS = {
     "City",
     "Flag Job as Cancelled",
   ],
-  offices: ["Office", "Region"],
+  offices: ["Office", "Appear on Interface"],
   rems: ["REMS", "Colors", "Branch", "Count Events"],
-  // Lookup tables: name field ONLY. These tables also hold client/venue POC
+  // Lookup tables: name field ONLY. These tables also hold client POC
   // contacts, phone numbers, and revenue figures — never request more than
   // the single display-name field below from them.
   cities: ["Name"],
-  venues: ["VenueName"],
   clients: ["Client Name"],
-  // Dedicated venue-map fetch: adds only the geo/city/state fields needed
-  // to plot venue markets on "Where We've Stood Post". Lat/Long/City/State
+  // VENUES fetch: one call covers both the plain id->name lookup (event
+  // cards) and the geo/city/state fields the map needs. Lat/Long/City/State
   // are non-sensitive (no POC, contact, or revenue data on this table) —
   // see the geocode-venues.js backfill for how Lat/Long get populated.
   venuesGeo: ["VenueName", "Lat", "Long", "City", "State"],
@@ -95,6 +94,18 @@ if (!TOKEN) {
 const REPO_ROOT = path.resolve(__dirname, "..");
 const SYNCED_DIR = path.join(REPO_ROOT, "assets", "synced");
 
+// Retries transient failures (429 rate-limit, 5xx) with a short linear
+// backoff. Doesn't retry 4xx (bad token, bad field name, etc.) — those need
+// a human, not a retry. ponytail: fixed 3 attempts, no jitter/config; add if
+// this ever needs to survive a longer Airtable outage than ~1.5s covers.
+async function fetchWithRetry(url, opts = {}, retries = 3) {
+  for (let attempt = 1; ; attempt++) {
+    const res = await fetch(url, opts);
+    if (res.ok || attempt > retries || (res.status !== 429 && res.status < 500)) return res;
+    await new Promise((r) => setTimeout(r, attempt * 500));
+  }
+}
+
 async function fetchAllRecords(tableId, baseId = BASE_ID, opts = {}) {
   const records = [];
   let offset;
@@ -104,7 +115,7 @@ async function fetchAllRecords(tableId, baseId = BASE_ID, opts = {}) {
     if (offset) url.searchParams.set("offset", offset);
     if (opts.fields) opts.fields.forEach((f) => url.searchParams.append("fields[]", f));
     if (opts.filterByFormula) url.searchParams.set("filterByFormula", opts.filterByFormula);
-    const res = await fetch(url, {
+    const res = await fetchWithRetry(url, {
       headers: { Authorization: `Bearer ${TOKEN}` },
     });
     if (!res.ok) {
@@ -140,6 +151,23 @@ async function buildIdNameMap(tableId, baseId, nameField) {
   const map = {};
   for (const r of records) map[r.id] = r.fields[nameField] || "";
   return map;
+}
+
+// Offices need more than a name: heatPoints should only plot offices someone
+// has explicitly flagged for the display (Offices."Appear on Interface"),
+// not just whichever office happens to have coordinates in OFFICE_GEO.
+// OFFICE_GEO stays the coordinate source (Airtable has no lat/lon of its
+// own); this flag is now the single visibility switch instead of two.
+async function fetchOffices() {
+  const records = await fetchAllRecords(OPS_TABLES.offices, OPS_BASE_ID, { fields: OPS_FIELDS.offices });
+  const officeMap = {};
+  const appear = new Set();
+  for (const r of records) {
+    const name = r.fields.Office || "";
+    officeMap[r.id] = name;
+    if (r.fields["Appear on Interface"] && name) appear.add(name);
+  }
+  return { officeMap, appear };
 }
 
 function daysAgo(n) {
@@ -185,14 +213,17 @@ async function fetchOpsMetrics() {
   const yearStart = new Date(now.getFullYear(), 0, 1);
 
   console.log("  Building office/city/venue/client name lookups...");
-  const [officeMap, cityMap, venueMap, clientMap] = await Promise.all([
-    buildIdNameMap(OPS_TABLES.offices, OPS_BASE_ID, "Office"),
+  const [{ officeMap, appear: appearOffices }, cityMap, clientMap] = await Promise.all([
+    fetchOffices(),
     buildIdNameMap(OPS_TABLES.cities, OPS_BASE_ID, "Name"),
-    buildIdNameMap(OPS_TABLES.venues, OPS_BASE_ID, "VenueName"),
     buildIdNameMap(OPS_TABLES.clients, OPS_BASE_ID, "Client Name"),
   ]);
   console.log("  Fetching venue geo (Lat/Long) for the dispersal map...");
   const venueGeo = await fetchVenueGeo(cityMap);
+  // Plain id->name lookup (event cards, ticker) — same VENUES fetch as the
+  // geo map above, just reading the .name every record already carries.
+  const venueMap = {};
+  for (const [id, v] of Object.entries(venueGeo)) venueMap[id] = v.name;
   // REM names are looked up from REMS/Accounts itself (fetched again below
   // for color/career data), but the job log only needs the id->name half
   // here, cheaply reused from that same fetch.
@@ -278,7 +309,7 @@ async function fetchOpsMetrics() {
   }
   const maxCount = Math.max(1, ...Object.values(officeCounts));
   const heatPoints = Object.entries(officeCounts)
-    .filter(([name]) => OFFICE_GEO[name])
+    .filter(([name]) => OFFICE_GEO[name] && appearOffices.has(name))
     .map(([name, ev]) => ({
       name,
       lon: OFFICE_GEO[name][0],
@@ -323,10 +354,20 @@ async function fetchOpsMetrics() {
         .map((j) => ({ name: j.name, meta: j.start.toLocaleDateString("en-US", { month: "short", day: "2-digit" }).toUpperCase() })),
     }));
 
+  // Event highlight cards + ticker both read from the last-30/next-30 lists,
+  // deduped by job name — MASTER JOB LOG has occasional true duplicate rows
+  // (same job re-entered), and showing "Monster Jam" twice back-to-back
+  // reads as a display glitch even when the underlying rows are real. This
+  // is a display-only dedup: recent30/upcoming30 (and the metrics built from
+  // them above) keep every row, since guards/event counts should reflect
+  // what's actually in the log.
+  const recent30Shown = dedupeByName(recent30);
+  const upcoming30Shown = dedupeByName(upcoming30);
+
   // Event highlight cards: mix of the most recent completed + soonest upcoming.
   const events = [
-    ...recent30.slice().sort((a, b) => b.start - a.start).slice(0, 5).map((j) => ({ ...j, upcoming: false })),
-    ...upcoming30.slice().sort((a, b) => a.start - b.start).slice(0, 3).map((j) => ({ ...j, upcoming: true })),
+    ...recent30Shown.slice().sort((a, b) => b.start - a.start).slice(0, 5).map((j) => ({ ...j, upcoming: false })),
+    ...upcoming30Shown.slice().sort((a, b) => a.start - b.start).slice(0, 3).map((j) => ({ ...j, upcoming: true })),
   ].map((j) => ({
     client: j.client,
     title: j.name,
@@ -337,12 +378,41 @@ async function fetchOpsMetrics() {
 
   // Ticker: everything else from the last 30 days not already in the grid.
   const highlighted = new Set(events.map((e) => e.title));
-  const ticker = recent30
+  const ticker = recent30Shown
     .filter((j) => !highlighted.has(j.name))
     .slice(0, 20)
     .map((j) => `<b>${escapeHtml(j.name)}</b>${j.venue ? " · " + escapeHtml(j.venue) : ""}`);
 
-  return { metrics, heatPoints, venuePoints, rems, events, ticker };
+  console.log("  Fetching fixed accounts (standing venues)...");
+  const fixedAccounts = await fetchFixedAccounts(officeMap, venueMap);
+
+  return { metrics, heatPoints, venuePoints, rems, events, ticker, fixedAccounts };
+}
+
+// Standing engagements — not one-off events. Excludes the "Active" records
+// whose END DATE has already passed (Airtable has several of these; see the
+// Phase 2 build notes) so a stale record doesn't show as a current post.
+// Fixed accounts predate the current calendar year, so this is its own
+// fetch rather than filtered from the YTD `jobs` query above.
+async function fetchFixedAccounts(officeMap, venueMap) {
+  const jobs = await fetchAllRecords(OPS_TABLES.jobLog, OPS_BASE_ID, {
+    fields: ["VENUE NAME", "JRM Office", "START DATE"],
+    filterByFormula:
+      "AND({CATEGORY **} = 'Fixed Accts', FIND('Active', ARRAYJOIN({JOB STATUS})), IS_AFTER({END DATE}, TODAY()))",
+  });
+  const accounts = jobs
+    .map((r) => ({
+      name: resolveLink(r.fields["VENUE NAME"], venueMap),
+      office: resolveLink(r.fields["JRM Office"], officeMap),
+      since: r.fields["START DATE"] ? new Date(r.fields["START DATE"]).getFullYear() : null,
+    }))
+    .filter((a) => a.name);
+  return dedupeByName(accounts).sort((a, b) => a.name.localeCompare(b.name));
+}
+
+function dedupeByName(jobs) {
+  const seen = new Set();
+  return jobs.filter((j) => (seen.has(j.name) ? false : (seen.add(j.name), true)));
 }
 
 // Airtable single-select "color" tokens (e.g. "orangeBright") -> hex, close
@@ -366,19 +436,18 @@ function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
-function slugify(str) {
-  return String(str || "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
-}
+// Every filename downloadAttachment writes this run — used at the end of
+// main() to delete anything left over in assets/synced/ from a since-removed
+// or since-swapped attachment, so the folder doesn't grow forever.
+const touchedFiles = new Set();
 
 async function downloadAttachment(recordId, attachment) {
   const ext = path.extname(attachment.filename || "") || guessExt(attachment.type);
   const filename = `${recordId}-${attachment.id}${ext}`;
   const dest = path.join(SYNCED_DIR, filename);
+  touchedFiles.add(filename);
 
-  const res = await fetch(attachment.url);
+  const res = await fetchWithRetry(attachment.url);
   if (!res.ok) {
     console.warn(`  ! failed to download attachment ${attachment.filename}: ${res.status}`);
     return null;
@@ -483,6 +552,9 @@ async function main() {
 
   const data = {
     generatedAt: new Date().toISOString(),
+    // GITHUB_SHA is only set when this runs in Actions; local runs get
+    // "local" so the on-screen badge still makes sense during dev.
+    commit: (process.env.GITHUB_SHA || "local").slice(0, 7),
     callouts,
     team: bios,
     brand,
@@ -490,6 +562,7 @@ async function main() {
     metrics: ops.metrics,
     heatPoints: ops.heatPoints,
     venuePoints: ops.venuePoints,
+    fixedAccounts: ops.fixedAccounts,
     rems: ops.rems,
     events: ops.events,
     ticker: ops.ticker,
@@ -498,9 +571,21 @@ async function main() {
   };
 
   fs.writeFileSync(path.join(REPO_ROOT, "data.json"), JSON.stringify(data, null, 2) + "\n");
+
+  // Sweep anything in assets/synced/ this run didn't touch — a swapped
+  // headshot or removed gallery photo otherwise lingers on disk forever.
+  let swept = 0;
+  for (const existing of fs.readdirSync(SYNCED_DIR)) {
+    if (!touchedFiles.has(existing)) {
+      fs.unlinkSync(path.join(SYNCED_DIR, existing));
+      swept++;
+    }
+  }
+
   console.log(
     `Wrote data.json — ${callouts.length} callout(s), ${bios.length} bio(s), ${gallery.length} gallery photo(s), ` +
-      `${ops.metrics.eventsYTD} events YTD, ${ops.rems.length} REM(s), ${ops.venuePoints.length} venue market(s) on the map.`
+      `${ops.metrics.eventsYTD} events YTD, ${ops.rems.length} REM(s), ${ops.venuePoints.length} venue market(s), ` +
+      `${ops.fixedAccounts.length} fixed account(s)${swept ? `, swept ${swept} orphaned asset(s)` : ""}.`
   );
 }
 
