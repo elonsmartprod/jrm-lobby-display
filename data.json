@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T23:10:20.532Z",
-  "commit": "7adc904",
+  "generatedAt": "2026-07-18T00:11:02.979Z",
+  "commit": "c47cfeb",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -117,19 +117,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1412,
-    "events30": 158,
-    "guards30": 2194,
-    "citiesYTD": 98,
-    "upcoming30": 61,
-    "perDay": 7.1313131313131315
+    "eventsYTD": 1417,
+    "events30": 151,
+    "guards30": 2155,
+    "citiesYTD": 99,
+    "upcoming30": 56,
+    "perDay": 7.156565656565657
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 819,
+      "ev": 822,
       "w": 1,
       "hq": true
     },
@@ -137,16 +137,16 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 65,
-      "w": 0.07936507936507936,
+      "ev": 66,
+      "w": 0.08029197080291971,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 131,
-      "w": 0.15995115995115994,
+      "ev": 132,
+      "w": 0.16058394160583941,
       "hq": false
     },
     {
@@ -154,7 +154,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 92,
-      "w": 0.11233211233211234,
+      "w": 0.11192214111922141,
       "hq": false
     },
     {
@@ -162,7 +162,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 34,
-      "w": 0.04151404151404151,
+      "w": 0.0413625304136253,
       "hq": false
     },
     {
@@ -170,7 +170,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 49,
-      "w": 0.05982905982905983,
+      "w": 0.05961070559610705,
       "hq": false
     },
     {
@@ -178,7 +178,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 89,
-      "w": 0.10866910866910867,
+      "w": 0.10827250608272507,
       "hq": true
     }
   ],
@@ -187,19 +187,19 @@
       "name": "Los Angeles",
       "lon": -118.31690242651335,
       "lat": 34.06172991511665,
-      "count": 416
+      "count": 418
     },
     {
       "name": "North Hollywood",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 79
+      "count": 80
     },
     {
       "name": "New York",
       "lon": -73.98904338251215,
       "lat": 40.74430684920196,
-      "count": 70
+      "count": 71
     },
     {
       "name": "San Francisco",
@@ -728,6 +728,20 @@
   ],
   "todayPosts": [
     {
+      "rem": "Miguel Ruezga",
+      "venue": "Pecan Park",
+      "client": "Nike",
+      "job": "Nike SCI Kick Around ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "Palace of Fine Arts San Francisco",
+      "client": "BayAI Circle/NexAI Inc.",
+      "job": "AGI Summit 2026",
+      "city": "San Francisco"
+    },
+    {
       "rem": "Tony D’Gracia",
       "venue": "Jacob Javits Convention Center-NY",
       "client": "UFC",
@@ -1228,15 +1242,15 @@
       "recent": [
         {
           "name": "Monster Jam- LA Live",
-          "meta": "JUL 17"
+          "meta": "JUL 18"
         },
         {
           "name": "Monster Jam",
-          "meta": "JUL 17"
+          "meta": "JUL 18"
         },
         {
-          "name": "We Are Osos Premiere",
-          "meta": "JUL 16"
+          "name": "Monster Jam- LA Live",
+          "meta": "JUL 17"
         }
       ]
     },
@@ -1244,7 +1258,7 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 30,
+      "events30": 27,
       "career": 473,
       "recent": [
         {
@@ -1265,9 +1279,13 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 20,
+      "events30": 19,
       "career": 307,
       "recent": [
+        {
+          "name": "7.18 Nike x Zucasa",
+          "meta": "JUL 18"
+        },
         {
           "name": "UFC Fanatics",
           "meta": "JUL 16"
@@ -1275,10 +1293,6 @@
         {
           "name": "Drum-Off Regionals-NY",
           "meta": "JUL 16"
-        },
-        {
-          "name": "7.15 AAS x Chelsea Triangle",
-          "meta": "JUL 15"
         }
       ]
     },
@@ -1286,7 +1300,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 14,
+      "events30": 13,
       "career": 260,
       "recent": [
         {
@@ -1307,7 +1321,7 @@
       "name": "Kyle Crowther",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 11,
+      "events30": 10,
       "career": 69,
       "recent": [
         {
@@ -1328,6 +1342,33 @@
   "events": [
     {
       "client": "Nike",
+      "title": "7.18 Nike x Zucasa",
+      "venue": "The Ground · New York",
+      "badges": [
+        "Private Party/Event"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "UFC",
+      "title": "UFC ATL-Meet and Greet",
+      "venue": "Dave & Busters · Marietta",
+      "badges": [
+        "Exec Protection"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Television Academy",
+      "title": "TVA Moana Screening Room",
+      "venue": "Saban Media Center [TVA] · North Hollywood",
+      "badges": [
+        "Screening"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Nike",
       "title": "Nike SCI Kick Around ",
       "venue": "Pecan Park · Los Angeles",
       "badges": [
@@ -1345,56 +1386,29 @@
       "upcoming": false
     },
     {
-      "client": "AEG",
-      "title": "Monster Jam- LA Live",
-      "venue": "LA Live · Los Angeles",
-      "badges": [
-        "Sports Event"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Doyle Security Services Inc.",
-      "title": "7.17 Doyle EP-Oakhust",
-      "venue": "Hillview Water Co.",
-      "badges": [
-        "Monitoring - GSOC"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "BayAI Circle/NexAI Inc.",
-      "title": "AGI Summit 2026",
-      "venue": "Palace of Fine Arts San Francisco · San Francisco",
-      "badges": [
-        "Other"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "AEG",
-      "title": "Monster Jam- LA Live",
-      "venue": "LA Live · Los Angeles",
-      "badges": [
-        "Other"
-      ],
-      "upcoming": true
-    },
-    {
-      "client": "Nike",
-      "title": "7.18 Nike x Zucasa",
-      "venue": "The Ground · New York",
-      "badges": [
-        "Private Party/Event"
-      ],
-      "upcoming": true
-    },
-    {
-      "client": "UFC",
-      "title": "UFC ATL-Meet and Greet",
-      "venue": "Dave & Busters · Marietta",
+      "client": "Guitar Center",
+      "title": "Guitar Center-Summer School Tour-CO",
+      "venue": "Guitar Center-CO · Denver",
       "badges": [
         "Exec Protection"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "Crypto.com Arena",
+      "title": "Monster Jam",
+      "venue": "Crypto.com Arena · Los Angeles",
+      "badges": [
+        "Other"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "Grammy Museum",
+      "title": "GRAMMY MUSEUM - Keith Putney/Peter Asher",
+      "venue": "Grammy Museum · Los Angeles",
+      "badges": [
+        "Concert"
       ],
       "upcoming": true
     }
@@ -1403,15 +1417,12 @@
     "<b>Open Table-Michelin After Party-Oma Loves Fun</b> · Lou Lou&#39;s Jungle Room",
     "<b>6.24 TJ Max TN</b> · TJ Maxx",
     "<b>7.12 Pickwick Vintage San Francisco</b> · The Ferry Building ",
-    "<b>The Aster Spotify Happy Hour</b> · The Aster",
     "<b>BET Red Carpet  2026</b> · Peacock Theater",
     "<b>AZ Protos Coach 7.5</b> · Coach",
-    "<b>Claude SMB Workshop - Baltimore</b> · The Assembly Room",
     "<b>Beverly Hilton Hotel Wedding</b> · Beverly Hilton Hotel",
+    "<b>Monster Jam- LA Live</b> · LA Live",
     "<b>Los Angeles Sparks vs Indiana Fever</b> · Crypto.com Arena",
     "<b>The One Qualifiers</b> · NYC",
-    "<b>Nike JDI Day</b> · 309 Esplanade, Redondo Beach, CA 90277",
-    "<b>6.18 Third Thursday</b> · The Mint San Francisco",
     "<b>Netflix HRD Ice Cream Truck Tour-Philadelphia</b> · Ritterhouse Square",
     "<b>7.14 Nike x World Cup Watch Party</b> · The Ground",
     "<b>TVA Toy Story 5 Screening</b> · Saban Media Center [TVA]",
@@ -1419,7 +1430,10 @@
     "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center",
     "<b>This That Monaleo-ATL</b> · Atlanta",
     "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
-    "<b>Grammy Museum - Chingona Program &amp; Reception</b> · Grammy Museum"
+    "<b>Grammy Museum - Chingona Program &amp; Reception</b> · Grammy Museum",
+    "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO",
+    "<b>LA Events 7/6-7/12</b> · LA Live",
+    "<b>UFC PPV 329</b> · T mobile Arena"
   ],
   "linkedin": [
     {
