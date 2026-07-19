@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-19T15:16:47.945Z",
-  "commit": "a947a75",
+  "generatedAt": "2026-07-19T16:14:51.851Z",
+  "commit": "fdab2e6",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -121,7 +121,7 @@
     "events30": 152,
     "guards30": 2151,
     "citiesYTD": 99,
-    "upcoming30": 53,
+    "upcoming30": 54,
     "perDay": 7.11
   },
   "heatPoints": [
