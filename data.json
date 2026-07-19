@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-19T22:10:11.832Z",
-  "commit": "3240b9c",
+  "generatedAt": "2026-07-19T23:13:24.991Z",
+  "commit": "7da1436",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -117,12 +117,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1422,
-    "events30": 152,
-    "guards30": 2151,
+    "eventsYTD": 1423,
+    "events30": 153,
+    "guards30": 2155,
     "citiesYTD": 99,
-    "upcoming30": 55,
-    "perDay": 7.11
+    "upcoming30": 57,
+    "perDay": 7.115
   },
   "heatPoints": [
     {
@@ -169,8 +169,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 90,
-      "w": 0.10909090909090909,
+      "ev": 91,
+      "w": 0.1103030303030303,
       "hq": true
     },
     {
@@ -1232,20 +1232,20 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 26,
-      "career": 473,
+      "events30": 27,
+      "career": 475,
       "recent": [
         {
           "name": "Guitar Center-Summer School Tour-CO",
           "meta": "JUL 19"
         },
         {
-          "name": "Super Trooper 3-Press Tour-Chicago",
-          "meta": "JUL 17"
+          "name": "FA26 NFL Rivalries Photo Shoot-Chicago",
+          "meta": "JUL 19"
         },
         {
-          "name": "Guitar Center-Summer School Tour-Chicago",
-          "meta": "JUL 16"
+          "name": "Super Trooper 3-Press Tour-Chicago",
+          "meta": "JUL 17"
         }
       ]
     },
@@ -1254,7 +1254,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 20,
-      "career": 307,
+      "career": 308,
       "recent": [
         {
           "name": "7.19 Nike x World Cup Finals",
@@ -1352,10 +1352,10 @@
     },
     {
       "client": "Nike",
-      "title": "7.18 Nike x Zucasa",
-      "venue": "The Ground · New York",
+      "title": "FA26 NFL Rivalries Photo Shoot-Chicago",
+      "venue": "Chicago, IL · Chicago",
       "badges": [
-        "Private Party/Event"
+        "Product Activation"
       ],
       "upcoming": false
     },
