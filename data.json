@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-19T23:13:24.991Z",
-  "commit": "7da1436",
+  "generatedAt": "2026-07-20T02:56:44.163Z",
+  "commit": "e946db4",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -117,12 +117,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1423,
-    "events30": 153,
-    "guards30": 2155,
-    "citiesYTD": 99,
+    "eventsYTD": 1425,
+    "events30": 150,
+    "guards30": 2146,
+    "citiesYTD": 100,
     "upcoming30": 57,
-    "perDay": 7.115
+    "perDay": 7.125
   },
   "heatPoints": [
     {
@@ -137,16 +137,16 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 66,
-      "w": 0.08,
+      "ev": 65,
+      "w": 0.07878787878787878,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 133,
-      "w": 0.16121212121212122,
+      "ev": 134,
+      "w": 0.16242424242424242,
       "hq": false
     },
     {
@@ -169,8 +169,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 91,
-      "w": 0.1103030303030303,
+      "ev": 93,
+      "w": 0.11272727272727273,
       "hq": true
     },
     {
@@ -723,24 +723,10 @@
   ],
   "todayPosts": [
     {
-      "rem": "Mathias Gibson",
-      "venue": "Palace of Fine Arts San Francisco",
-      "client": "BayAI Circle/NexAI Inc.",
-      "job": "AGI Summit 2026",
-      "city": "San Francisco"
-    },
-    {
       "rem": "Sean McKillop",
       "venue": "Various",
       "client": "Disney - Searchlight",
       "job": "Super Troopers-Press Tour-TX",
-      "city": ""
-    },
-    {
-      "rem": "Chris Estrada",
-      "venue": "TBD",
-      "client": "Unknown",
-      "job": "Retail Pop-up",
       "city": ""
     },
     {
@@ -1211,7 +1197,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 35,
+      "events30": 33,
       "career": 2279,
       "recent": [
         {
@@ -1232,9 +1218,13 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 27,
+      "events30": 28,
       "career": 475,
       "recent": [
+        {
+          "name": "Super Trooper 3-Press Tour-Cleveland",
+          "meta": "JUL 20"
+        },
         {
           "name": "Guitar Center-Summer School Tour-CO",
           "meta": "JUL 19"
@@ -1242,10 +1232,6 @@
         {
           "name": "FA26 NFL Rivalries Photo Shoot-Chicago",
           "meta": "JUL 19"
-        },
-        {
-          "name": "Super Trooper 3-Press Tour-Chicago",
-          "meta": "JUL 17"
         }
       ]
     },
@@ -1253,9 +1239,13 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 20,
-      "career": 308,
+      "events30": 21,
+      "career": 309,
       "recent": [
+        {
+          "name": "7.20 BTS Photoshoot",
+          "meta": "JUL 20"
+        },
         {
           "name": "7.19 Nike x World Cup Finals",
           "meta": "JUL 19"
@@ -1263,10 +1253,6 @@
         {
           "name": "7.18 Nike x Zucasa",
           "meta": "JUL 18"
-        },
-        {
-          "name": "UFC Fanatics",
-          "meta": "JUL 16"
         }
       ]
     },
@@ -1292,28 +1278,46 @@
       ]
     },
     {
-      "name": "Alejandra Ruezga",
-      "office": "Los Angeles",
+      "name": "Kyle Crowther",
+      "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 10,
-      "career": 266,
+      "events30": 9,
+      "career": 70,
       "recent": [
         {
-          "name": "TVA Moana Screening Room",
-          "meta": "JUL 18"
+          "name": "Drum-Off Regionals-TN",
+          "meta": "JUL 16"
         },
         {
-          "name": "TVA Screening Room",
-          "meta": "JUL 15"
-        },
-        {
-          "name": "TVA Screening Room ",
+          "name": "Protos-TJ MAXX-Springhill",
           "meta": "JUL 12"
+        },
+        {
+          "name": "AZ Protos Coach 7.5",
+          "meta": "JUL 05"
         }
       ]
     }
   ],
   "events": [
+    {
+      "client": "Disney",
+      "title": "Super Trooper 3-Press Tour-Cleveland",
+      "venue": "Music Box Supper Club · Cleveland",
+      "badges": [
+        "Exec Protection"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Nike",
+      "title": "7.20 BTS Photoshoot",
+      "venue": "NYC · New York",
+      "badges": [
+        "Photo Shoot"
+      ],
+      "upcoming": false
+    },
     {
       "client": "Guitar Center",
       "title": "Guitar Center-Summer School Tour-CO",
@@ -1342,47 +1346,29 @@
       "upcoming": false
     },
     {
-      "client": "Nike",
-      "title": "7.19 Nike x World Cup Finals",
-      "venue": "The Ground · New York",
-      "badges": [
-        "Private Party/Event"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Nike",
-      "title": "FA26 NFL Rivalries Photo Shoot-Chicago",
-      "venue": "Chicago, IL · Chicago",
-      "badges": [
-        "Product Activation"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Disney",
-      "title": "Super Trooper 3-Press Tour-Cleveland",
-      "venue": "Music Box Supper Club · Cleveland",
-      "badges": [
-        "Exec Protection"
-      ],
-      "upcoming": true
-    },
-    {
-      "client": "Nike",
-      "title": "7.20 BTS Photoshoot",
-      "venue": "NYC · New York",
-      "badges": [
-        "Photo Shoot"
-      ],
-      "upcoming": true
-    },
-    {
       "client": "Disney",
       "title": "Super Troopers 3 Press Tour-Seattle",
       "venue": "Block 41",
       "badges": [
         "Exec Protection"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "Rex Group",
+      "title": "Zuffa Boxing",
+      "venue": "Madison Square Garden · New York",
+      "badges": [
+        "Sports Event"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "Grammy Museum",
+      "title": "GRAMMY MUSEUM - Autodesk Reception ",
+      "venue": "Grammy Museum · Los Angeles",
+      "badges": [
+        "Private Party/Event"
       ],
       "upcoming": true
     }
@@ -1395,7 +1381,6 @@
     "<b>BET Red Carpet  2026</b> · Peacock Theater",
     "<b>AZ Protos Coach 7.5</b> · Coach",
     "<b>7.17 Emerald x Elena</b> · Multiple Venues",
-    "<b>Beverly Hilton Hotel Wedding</b> · Beverly Hilton Hotel",
     "<b>Monster Jam- LA Live</b> · LA Live",
     "<b>Los Angeles Sparks vs Indiana Fever</b> · Crypto.com Arena",
     "<b>The One Qualifiers</b> · NYC",
@@ -1406,8 +1391,9 @@
     "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center",
     "<b>This That Monaleo-ATL</b> · Atlanta",
     "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
-    "<b>Grammy Museum - Chingona Program &amp; Reception</b> · Grammy Museum",
-    "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO"
+    "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO",
+    "<b>LA Events 7/6-7/12</b> · LA Live",
+    "<b>UFC PPV 329</b> · T mobile Arena"
   ],
   "linkedin": [
     {
