@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T15:32:20.374Z",
-  "commit": "2a4b8fa",
+  "generatedAt": "2026-07-20T16:02:53.075Z",
+  "commit": "0ff5b7a",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -117,12 +117,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1425,
-    "events30": 150,
-    "guards30": 2146,
+    "eventsYTD": 1424,
+    "events30": 149,
+    "guards30": 2137,
     "citiesYTD": 100,
-    "upcoming30": 57,
-    "perDay": 7.08955223880597
+    "upcoming30": 59,
+    "perDay": 7.08457711442786
   },
   "heatPoints": [
     {
@@ -169,8 +169,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 93,
-      "w": 0.11272727272727273,
+      "ev": 92,
+      "w": 0.11151515151515151,
       "hq": true
     },
     {
@@ -1218,7 +1218,7 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 28,
+      "events30": 27,
       "career": 475,
       "recent": [
         {
