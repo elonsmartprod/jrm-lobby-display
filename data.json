@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T18:21:45.809Z",
-  "commit": "f21d509",
+  "generatedAt": "2026-07-20T20:42:38.430Z",
+  "commit": "9b4c7df",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -121,7 +121,7 @@
     "events30": 150,
     "guards30": 2138,
     "citiesYTD": 100,
-    "upcoming30": 60,
+    "upcoming30": 64,
     "perDay": 7.08955223880597
   },
   "heatPoints": [
@@ -1240,7 +1240,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 21,
-      "career": 309,
+      "career": 310,
       "recent": [
         {
           "name": "7.20 BTS Photoshoot",
