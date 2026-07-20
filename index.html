@@ -165,6 +165,40 @@
   }
   .legend-bar{ flex:1; height:6px; border-radius:3px; background:linear-gradient(90deg, var(--steel), var(--gold), var(--ember)); }
 
+  /* Scene 3 — today's live post roster. Distinct from the plain Events
+     grid on purpose: this is "what JRM is doing right now", so it leads
+     with a live-pulse indicator and puts the city front and center. */
+  .post-grid{ flex:1; display:grid; grid-template-columns:repeat(3,1fr); grid-auto-rows:1fr; gap:18px; }
+  .post-card{
+    background:linear-gradient(165deg, var(--ink-200), #0C1220);
+    border:1px solid var(--line); border-left:3px solid var(--ember);
+    border-radius:10px; padding:22px 24px; position:relative;
+    display:flex; flex-direction:column; gap:8px;
+    opacity:0; animation:postIn .5s ease forwards;
+  }
+  .post-card .p-live{
+    display:flex; align-items:center; gap:8px;
+    font-family:var(--font-mono); font-size:10.5px; letter-spacing:.2em;
+    text-transform:uppercase; color:var(--ember);
+  }
+  .post-card .p-live .dot{
+    width:7px; height:7px; border-radius:50%; background:var(--ember);
+    animation:pulseLive 1.6s ease-in-out infinite;
+  }
+  .post-card .p-city{
+    font-family:var(--font-display); font-weight:700; text-transform:uppercase;
+    font-size:clamp(22px,2vw,30px); line-height:1.05; margin-top:auto;
+  }
+  .post-card .p-client{ color:var(--gold); font-size:14px; font-weight:600; }
+  .post-card .p-job{ color:var(--text-lo); font-size:13px; font-family:var(--font-mono); }
+  .post-card .p-rem{
+    position:absolute; top:20px; right:22px;
+    font-family:var(--font-mono); font-size:11px; color:var(--steel); text-align:right;
+  }
+  @keyframes pulseLive{ 0%,100%{ opacity:1; } 50%{ opacity:.25; } }
+  @keyframes postIn{ from{ opacity:0; transform:translateY(10px); } to{ opacity:1; transform:translateY(0); } }
+  @media (prefers-reduced-motion: reduce){ .post-card{ animation:none; opacity:1; } .post-card .p-live .dot{ animation:none; } }
+
   /* Scene 3 — fixed accounts: split-flap ops board. Rows flip in like an
      airport departure board on scene entry (JS re-renders on every onEnter,
      which restarts the CSS entrance animation for free — no separate replay
@@ -362,8 +396,9 @@
     <div class="scene-head">
       <div class="eyebrow">Live Roster · Today's Deployments</div>
       <h1 class="scene-title">Where We're Posted Today</h1>
+      <div class="scene-sub" id="todaysub"></div>
     </div>
-    <div class="event-grid" id="todaygrid"></div>
+    <div class="post-grid" id="todaygrid"></div>
   </section>
 
   <section class="scene" id="scene-fixed">
@@ -720,8 +755,15 @@ function renderMapSide(){
 let todayTimer = null, todayPageIdx = 0, todayPages = [];
 function renderTodayPosts(){
   const grid = document.getElementById('todaygrid');
+  const sub = document.getElementById('todaysub');
   const posts = DATA.todayPosts || [];
   clearInterval(todayTimer);
+  if (sub){
+    const cities = new Set(posts.map(p => p.city || p.venue).filter(Boolean)).size;
+    sub.textContent = posts.length
+      ? `${posts.length} crew${posts.length === 1 ? '' : 's'} on post right now${cities ? ' across ' + cities + ' cit' + (cities === 1 ? 'y' : 'ies') : ''} — live from Airtable`
+      : '';
+  }
   if (!posts.length){ grid.innerHTML = `<div class="rem-empty">NO ACTIVE POSTS SYNCED FOR TODAY</div>`; return; }
   todayPages = paginate(posts, 9); // 3x3 — same safe capacity as the Events scene grid
   todayPageIdx = 0;
@@ -735,12 +777,13 @@ function renderTodayPosts(){
   }
 }
 function showTodayPage(){
-  document.getElementById('todaygrid').innerHTML = todayPages[todayPageIdx].map(p => `
-    <div class="event-card">
-      <div class="badge-row"><span class="badge">${esc(p.rem || 'UNASSIGNED')}</span></div>
-      <div class="e-title">${esc(p.venue || p.job || 'Untitled Post')}</div>
-      <div class="e-client">${esc(p.client)}</div>
-      <div class="e-venue">${esc([p.job, p.city].filter(Boolean).join(' · '))}</div>
+  document.getElementById('todaygrid').innerHTML = todayPages[todayPageIdx].map((p, i) => `
+    <div class="post-card" style="animation-delay:${i * 60}ms">
+      <div class="p-rem">${esc(p.rem || 'UNASSIGNED')}</div>
+      <div class="p-live"><span class="dot"></span>ON POST</div>
+      <div class="p-city">${esc(p.city || p.venue || p.job || 'Untitled Post')}</div>
+      <div class="p-client">${esc(p.client)}</div>
+      <div class="p-job">${esc([p.job, p.venue !== p.city ? p.venue : null].filter(Boolean).join(' · '))}</div>
     </div>`).join('');
 }
 
