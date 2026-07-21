@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-21T18:42:02.569Z",
-  "commit": "90cd6eb",
+  "generatedAt": "2026-07-21T20:37:27.688Z",
+  "commit": "0e04296",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -121,7 +121,7 @@
     "events30": 153,
     "guards30": 2140,
     "citiesYTD": 100,
-    "upcoming30": 64,
+    "upcoming30": 65,
     "perDay": 7.084158415841584
   },
   "heatPoints": [
@@ -1233,7 +1233,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 12,
-      "career": 262,
+      "career": 263,
       "recent": [
         {
           "name": "7.17 Emerald x Elena",
