@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-21T16:44:07.939Z",
-  "commit": "50d4dc4",
+  "generatedAt": "2026-07-21T18:42:02.569Z",
+  "commit": "90cd6eb",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -121,7 +121,7 @@
     "events30": 153,
     "guards30": 2140,
     "citiesYTD": 100,
-    "upcoming30": 63,
+    "upcoming30": 64,
     "perDay": 7.084158415841584
   },
   "heatPoints": [
@@ -153,8 +153,8 @@
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 92,
-      "w": 0.1111111111111111,
+      "ev": 93,
+      "w": 0.11231884057971014,
       "hq": false
     },
     {
@@ -169,8 +169,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 93,
-      "w": 0.11231884057971014,
+      "ev": 92,
+      "w": 0.1111111111111111,
       "hq": true
     },
     {
@@ -1170,7 +1170,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 34,
-      "career": 2280,
+      "career": 2281,
       "recent": [
         {
           "name": "SIGGRAPH AP",
@@ -1190,7 +1190,7 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 27,
+      "events30": 26,
       "career": 477,
       "recent": [
         {
@@ -1233,7 +1233,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 12,
-      "career": 261,
+      "career": 262,
       "recent": [
         {
           "name": "7.17 Emerald x Elena",
