@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-21T22:13:20.283Z",
-  "commit": "ac5fc90",
+  "generatedAt": "2026-07-21T23:14:23.943Z",
+  "commit": "9dd8634",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -121,7 +121,7 @@
     "events30": 153,
     "guards30": 2140,
     "citiesYTD": 100,
-    "upcoming30": 66,
+    "upcoming30": 67,
     "perDay": 7.084158415841584
   },
   "heatPoints": [
@@ -1170,7 +1170,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 34,
-      "career": 2281,
+      "career": 2282,
       "recent": [
         {
           "name": "SIGGRAPH AP",
