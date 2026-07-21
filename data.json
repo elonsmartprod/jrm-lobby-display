@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T23:17:33.101Z",
-  "commit": "e326df5",
+  "generatedAt": "2026-07-21T00:15:41.181Z",
+  "commit": "7b3edf4",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -117,19 +117,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1425,
-    "events30": 150,
-    "guards30": 2138,
+    "eventsYTD": 1431,
+    "events30": 153,
+    "guards30": 2140,
     "citiesYTD": 100,
-    "upcoming30": 64,
-    "perDay": 7.08955223880597
+    "upcoming30": 63,
+    "perDay": 7.119402985074627
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 825,
+      "ev": 828,
       "w": 1,
       "hq": true
     },
@@ -138,15 +138,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 65,
-      "w": 0.07878787878787878,
+      "w": 0.0785024154589372,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 134,
-      "w": 0.16242424242424242,
+      "ev": 135,
+      "w": 0.16304347826086957,
       "hq": false
     },
     {
@@ -154,7 +154,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 92,
-      "w": 0.11151515151515151,
+      "w": 0.1111111111111111,
       "hq": false
     },
     {
@@ -162,23 +162,23 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 35,
-      "w": 0.04242424242424243,
+      "w": 0.042270531400966184,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 92,
-      "w": 0.11151515151515151,
+      "ev": 93,
+      "w": 0.11231884057971014,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 49,
-      "w": 0.059393939393939395,
+      "ev": 50,
+      "w": 0.06038647342995169,
       "hq": false
     }
   ],
@@ -187,7 +187,7 @@
       "name": "Los Angeles",
       "lon": -118.31690242651335,
       "lat": 34.06172991511665,
-      "count": 421
+      "count": 423
     },
     {
       "name": "North Hollywood",
@@ -197,9 +197,9 @@
     },
     {
       "name": "New York",
-      "lon": -73.98904338251215,
-      "lat": 40.74430684920196,
-      "count": 72
+      "lon": -73.98915989613025,
+      "lat": 40.744471461065075,
+      "count": 73
     },
     {
       "name": "San Francisco",
@@ -744,13 +744,6 @@
       "city": ""
     },
     {
-      "rem": "Sevan Ohanians",
-      "venue": "Belles Beach House",
-      "client": "3rd Generation Hospitality",
-      "job": "Belles Beach House World Cup Activation",
-      "city": "Los Angeles"
-    },
-    {
       "rem": "Dani Sanchez",
       "venue": "Santa Monica Collection ",
       "client": "Taylor Lefebvre",
@@ -1197,20 +1190,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 33,
+      "events30": 34,
       "career": 2280,
       "recent": [
         {
+          "name": "SIGGRAPH AP",
+          "meta": "JUL 21"
+        },
+        {
+          "name": "Amazon Spaceballs Costume SDCC",
+          "meta": "JUL 21"
+        },
+        {
           "name": "Monster Jam",
           "meta": "JUL 19"
-        },
-        {
-          "name": "Monster Jam- LA Live",
-          "meta": "JUL 19"
-        },
-        {
-          "name": "Monster Jam- LA Live",
-          "meta": "JUL 18"
         }
       ]
     },
@@ -1222,15 +1215,15 @@
       "career": 477,
       "recent": [
         {
+          "name": "Super Troopers 3 Press Tour-Seattle",
+          "meta": "JUL 21"
+        },
+        {
           "name": "Super Trooper 3-Press Tour-Cleveland",
           "meta": "JUL 20"
         },
         {
           "name": "Guitar Center-Summer School Tour-CO",
-          "meta": "JUL 19"
-        },
-        {
-          "name": "FA26 NFL Rivalries Photo Shoot-Chicago",
           "meta": "JUL 19"
         }
       ]
@@ -1243,16 +1236,16 @@
       "career": 310,
       "recent": [
         {
+          "name": "Zuffa Boxing",
+          "meta": "JUL 21"
+        },
+        {
           "name": "7.20 BTS Photoshoot",
           "meta": "JUL 20"
         },
         {
           "name": "7.19 Nike x World Cup Finals",
           "meta": "JUL 19"
-        },
-        {
-          "name": "7.18 Nike x Zucasa",
-          "meta": "JUL 18"
         }
       ]
     },
@@ -1261,7 +1254,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 12,
-      "career": 260,
+      "career": 261,
       "recent": [
         {
           "name": "7.17 Emerald x Elena",
@@ -1281,9 +1274,13 @@
       "name": "Kyle Crowther",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 9,
+      "events30": 10,
       "career": 70,
       "recent": [
+        {
+          "name": "CNN PHX 7.21",
+          "meta": "JUL 21"
+        },
         {
           "name": "Drum-Off Regionals-TN",
           "meta": "JUL 16"
@@ -1291,10 +1288,6 @@
         {
           "name": "Protos-TJ MAXX-Springhill",
           "meta": "JUL 12"
-        },
-        {
-          "name": "AZ Protos Coach 7.5",
-          "meta": "JUL 05"
         }
       ]
     }
@@ -1302,57 +1295,12 @@
   "events": [
     {
       "client": "Disney",
-      "title": "Super Trooper 3-Press Tour-Cleveland",
-      "venue": "Music Box Supper Club · Cleveland",
-      "badges": [
-        "Exec Protection"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Nike",
-      "title": "7.20 BTS Photoshoot",
-      "venue": "NYC · New York",
-      "badges": [
-        "Photo Shoot"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Guitar Center",
-      "title": "Guitar Center-Summer School Tour-CO",
-      "venue": "Guitar Center-CO · Denver",
-      "badges": [
-        "Exec Protection"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Crypto.com Arena",
-      "title": "Monster Jam",
-      "venue": "Crypto.com Arena · Los Angeles",
-      "badges": [
-        "Other"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Grammy Museum",
-      "title": "GRAMMY MUSEUM - Keith Putney/Peter Asher",
-      "venue": "Grammy Museum · Los Angeles",
-      "badges": [
-        "Concert"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Disney",
       "title": "Super Troopers 3 Press Tour-Seattle",
       "venue": "Block 41",
       "badges": [
         "Exec Protection"
       ],
-      "upcoming": true
+      "upcoming": false
     },
     {
       "client": "Rex Group",
@@ -1361,7 +1309,7 @@
       "badges": [
         "Sports Event"
       ],
-      "upcoming": true
+      "upcoming": false
     },
     {
       "client": "Amazon Studios",
@@ -1370,11 +1318,57 @@
       "badges": [
         "Anti-Piracy"
       ],
+      "upcoming": false
+    },
+    {
+      "client": "Grammy Museum",
+      "title": "GRAMMY MUSEUM - Autodesk Reception ",
+      "venue": "Grammy Museum · Los Angeles",
+      "badges": [
+        "Private Party/Event"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Emerald Americas LLC",
+      "title": "CNN PHX 7.21",
+      "venue": "Maricopa Ballot Tabulation Center",
+      "badges": [
+        "Media Coverage"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Apple",
+      "title": "Apple San Diego Comic Con Activation",
+      "venue": "TBD",
+      "badges": [
+        "Other"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "OpenAI",
+      "title": "San Bernardino Event",
+      "venue": "TBD",
+      "badges": [
+        "Other"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "The Impact Agency",
+      "title": "Hope Screening",
+      "venue": "NYA Studios West · Los Angeles",
+      "badges": [
+        "Screening"
+      ],
       "upcoming": true
     }
   ],
   "ticker": [
     "<b>Nike SCI Kick Around </b> · Pecan Park",
+    "<b>Guitar Center-Summer School Tour-CO</b> · Guitar Center-CO",
     "<b>Open Table-Michelin After Party-Oma Loves Fun</b> · Lou Lou&#39;s Jungle Room",
     "<b>6.24 TJ Max TN</b> · TJ Maxx",
     "<b>7.12 Pickwick Vintage San Francisco</b> · The Ferry Building ",
@@ -1382,6 +1376,7 @@
     "<b>AZ Protos Coach 7.5</b> · Coach",
     "<b>7.17 Emerald x Elena</b> · Multiple Venues",
     "<b>ABC News Utah</b> · ABC7/KGO",
+    "<b>Monster Jam</b> · Crypto.com Arena",
     "<b>Monster Jam- LA Live</b> · LA Live",
     "<b>Los Angeles Sparks vs Indiana Fever</b> · Crypto.com Arena",
     "<b>The One Qualifiers</b> · NYC",
@@ -1391,9 +1386,7 @@
     "<b>Olivia Dean Concert- LA Live</b> · LA Live",
     "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center",
     "<b>This That Monaleo-ATL</b> · Atlanta",
-    "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
-    "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO",
-    "<b>LA Events 7/6-7/12</b> · LA Live"
+    "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL"
   ],
   "linkedin": [
     {
