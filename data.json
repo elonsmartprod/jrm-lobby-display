@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-21T14:24:34.219Z",
-  "commit": "c7bee6d",
+  "generatedAt": "2026-07-21T16:44:07.939Z",
+  "commit": "50d4dc4",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -884,20 +884,6 @@
       "city": "Santa Monica"
     },
     {
-      "rem": "Justin McKillop",
-      "venue": "Heart Christian Academy - Carlsbad",
-      "client": "Heart Christian Academy",
-      "job": "HCA - Carlsbad, CA Campus",
-      "city": "Carlsbad"
-    },
-    {
-      "rem": "Justin McKillop",
-      "venue": "Heart Christian Academy",
-      "client": "Heart Christian Academy",
-      "job": "HCA - San Juan Capistrano, CA Campus",
-      "city": "San Juan Capistrano"
-    },
-    {
       "rem": "Dani Sanchez",
       "venue": "",
       "client": "Tyler Mc Crary",
@@ -1071,13 +1057,6 @@
       "client": "West Haven HOA",
       "job": "West Haven Patrol",
       "city": "Franklin"
-    },
-    {
-      "rem": "Justin McKillop",
-      "venue": "Heart Christian Academy - Murfreesboro, TN Campus",
-      "client": "Heart Christian Academy",
-      "job": "Heart Christian Academy - Murfreesboro, TN Campus",
-      "city": "Murfreesboro"
     },
     {
       "rem": "Justin McKillop",
