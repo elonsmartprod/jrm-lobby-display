@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-07-22T14:24:08.966Z",
+  "commit": "8bee6d5",
+  "callouts": [
+    { "byline": "18 Years at the Grammys", "text": "text", "author": "JRM Marketing" }
+  ],
+  "team": [
+    { "name": "John McKillop", "title": "CEO & President", "bio": "bio text", "photo": null },
+    { "name": "Mike Izquierdo", "title": "COO", "bio": "bio text", "photo": "assets/synced/x.jpeg" }
+  ],
+  "brand": { "headerLogo": "assets/synced/x.png", "fullLogoLight": null, "fullLogoDark": null },
+  "gallery": [ { "name": "Event Photo - Generic 2", "photo": "assets/synced/x.png" } ],
+  "metrics": { "eventsYTD": 1439, "events30": 155, "guards30": 1874, "citiesYTD": 100, "upcoming30": 63, "perDay": 7.09 },
+  "heatPoints": [ { "name": "Los Angeles", "lon": -118.24, "lat": 34.05, "ev": 835, "w": 1, "hq": true } ],
+  "venuePoints": [ { "name": "Los Angeles", "lon": -118.3, "lat": 34.06, "count": 425 } ],
+  "fixedAccounts": [ { "name": "Aston at Gateway", "office": "Los Angeles", "since": 2023 } ],
+  "todayPosts": [
+    { "rem": "Chris Estrada", "venue": "TBD", "client": "Amazon Studios", "job": "Amazon Spaceballs Costume SDCC", "city": "" },
+    { "rem": "Dani Sanchez", "venue": "", "client": "Tyler Mc Crary", "job": "EVANI 3223 Wilshire ", "city": "" }
+  ],
+  "rems": [ { "name": "Chris Estrada", "office": "Los Angeles", "color": "#E8B44A", "events30": 38, "career": 2283, "recent": [ { "name": "Apple SDCC", "meta": "JUL 22" } ] } ],
+  "events": [ { "client": "Apple", "title": "Apple SDCC", "venue": "TBD", "badges": ["Other"], "upcoming": false } ],
+  "ticker": ["<b>Nike SCI Kick Around </b> · Pecan Park"],
+  "linkedin": [
+    { "quote": "JRM has managed security operations for the Grammy Awards for 18 consecutive years.", "author": "JRM Marketing", "role": "Company Page · LinkedIn", "date": "" }
+  ],
+  "photos": [ { "title": "Event Photo - Generic 2", "meta": "", "path": "assets/synced/x.png" } ]
+}
