@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T18:35:36.833Z",
-  "commit": "1877710",
+  "generatedAt": "2026-07-22T20:32:48.995Z",
+  "commit": "66f30be",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -1274,7 +1274,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 38,
-      "career": 2283,
+      "career": 2285,
       "recent": [
         {
           "name": "Apple San Diego Comic Con Activation",
