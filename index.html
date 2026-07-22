@@ -140,8 +140,14 @@
     font-family:var(--font-display); font-weight:600; text-transform:uppercase; letter-spacing:.04em; font-size:15px;
   }
   .quote-card .qc-byline{ font-family:var(--font-display); font-weight:600; font-size:17px; color:var(--gold); line-height:1.3; }
-  .quote-card .qc-photo{ flex:none; width:100%; aspect-ratio:16/9; border-radius:8px; overflow:hidden; background:var(--ink-300); }
-  .quote-card .qc-photo img{ width:100%; height:100%; object-fit:cover; display:block; }
+  /* No fixed aspect-ratio box: fits the photo's own proportions instead of
+     cropping to one, up to a height cap so one unusually tall portrait
+     photo can't blow out the whole scene's row height. */
+  .quote-card .qc-photo{
+    flex:none; width:100%; max-height:420px; border-radius:8px; overflow:hidden;
+    background:var(--ink-300); display:flex; align-items:center; justify-content:center;
+  }
+  .quote-card .qc-photo img{ width:auto; height:auto; max-width:100%; max-height:420px; object-fit:contain; display:block; }
   .quote-card .qc-text{ font-size:15px; line-height:1.55; color:var(--text-lo); flex:1; }
   .quote-empty{ grid-column:1/-1; text-align:center; color:var(--text-lo); font-family:var(--font-mono); font-size:14px; letter-spacing:.1em; }
 
