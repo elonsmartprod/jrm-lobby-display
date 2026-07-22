@@ -945,7 +945,7 @@ function renderQuotes(){
    SCENE 9 — team bios (from Team Bios table, Show on Display only)
    ========================================================================== */
 function initials(name){
-  if (!name) return '?';
+  if (!name || typeof name !== 'string') return '?';
   const parts = name.trim().split(/\s+/);
   return ((parts[0]?.[0] || '') + (parts.length > 1 ? parts[parts.length-1][0] : '')).toUpperCase();
 }

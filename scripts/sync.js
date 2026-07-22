@@ -147,6 +147,19 @@ function linkId(val) {
   return typeof val[0] === "string" ? val[0] : val[0].id;
 }
 
+// Lobby Callouts' Author field is usually plain text ("JRM Marketing"), but
+// Airtable returns a Collaborator field as a single {id, email, name} object
+// instead of a string — crashed the front end's initials() (name.trim is
+// not a function) the first time an Author was set to a tagged person
+// instead of typed text. Normalize once here so every consumer downstream
+// can assume author is always a plain string.
+function authorName(val) {
+  if (typeof val === "string") return val;
+  if (Array.isArray(val)) return authorName(val[0]);
+  if (val && typeof val === "object") return val.name || "";
+  return "";
+}
+
 async function buildIdNameMap(tableId, baseId, nameField) {
   const records = await fetchAllRecords(tableId, baseId, { fields: [nameField] });
   const map = {};
@@ -513,7 +526,7 @@ async function main() {
     callouts.push({
       byline: f.Byline || "",
       text: f.Text || "",
-      author: f.Author || "",
+      author: authorName(f.Author),
       photo,
       _order: typeof f["Display Order"] === "number" ? f["Display Order"] : Number.MAX_SAFE_INTEGER,
     });
