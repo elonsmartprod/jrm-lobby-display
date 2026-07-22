@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T17:17:04.149Z",
-  "commit": "5a68e33",
+  "generatedAt": "2026-07-22T17:37:25.229Z",
+  "commit": "8979016",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -96,22 +96,114 @@
     }
   ],
   "brand": {
-    "headerLogo": "assets/synced/recUdFRRIam3BO8mC-attAM7gOKEZzNKzBf.png",
-    "fullLogoLight": "assets/synced/recwy1j4ho86eOMtb-attEo7pDUzjwIkeGr.png",
-    "fullLogoDark": "assets/synced/recbPDfaqhzSpX0Yx-attZGY9plFhjodMMJ.png"
+    "headerLogo": null,
+    "fullLogoLight": null,
+    "fullLogoDark": null
   },
   "gallery": [
     {
-      "name": "Event Photo - Generic 2",
-      "photo": "assets/synced/rec8p8KB7BeNeSuwr-attN9j1fhYWf5b0rM.png"
+      "name": "Autodesk",
+      "photo": "assets/synced/rec1Jbqj1DQD2JZOO-attJaRcgskmeuoIkF.jpeg"
     },
     {
-      "name": "Titan HST Partnership (Press Photo)",
-      "photo": "assets/synced/recHwOVgsboXRUZCF-attc57slZfVRmrAsR.jpg"
+      "name": "Opengate Line",
+      "photo": "assets/synced/rec3Vg21VdZaUQdEh-atthkUDS7lsi3ObrY.jpeg"
     },
     {
-      "name": "Event Photo - Generic 1",
-      "photo": "assets/synced/recUsyCIkiQnpCEGl-atttocgkf8yuVpVqV.png"
+      "name": "TVA Black Cars",
+      "photo": "assets/synced/rec6M0nnKb3QdYu6B-attMiUGhIzsbAzunE.jpeg"
+    },
+    {
+      "name": "Guard Force Large",
+      "photo": "assets/synced/rec7Ul8aLln4tknyS-attcMcODT5Me7UGvt.jpeg"
+    },
+    {
+      "name": "Milken 2026 Execs",
+      "photo": "assets/synced/rec8JPris7oAafP4B-attLpfGgAMnB6kenI.jpeg"
+    },
+    {
+      "name": "JRM Uniform",
+      "photo": "assets/synced/rec9XXDrYiisGSst1-att8NUEJIjUF6BRM0.jpeg"
+    },
+    {
+      "name": "Bag Check in Texas",
+      "photo": "assets/synced/rec9nmjBnizXDSvHM-att20uguAlgbbypHc.jpeg"
+    },
+    {
+      "name": "Guard Force",
+      "photo": "assets/synced/rec9p9tuOFHyb4i20-att669G3pmbfKWdQk.jpeg"
+    },
+    {
+      "name": "TEM",
+      "photo": "assets/synced/recHCKStmRaR6ETN2-attHQLLPEtahylcHn.jpeg"
+    },
+    {
+      "name": "Executives at Grammys",
+      "photo": "assets/synced/recHvqMbbtbCoAqlq-attQnCWcTdK6nvZIK.jpeg"
+    },
+    {
+      "name": "AMA Tent",
+      "photo": "assets/synced/recKRy7bXOfB7BH4e-attt26XbRAteClstg.jpeg"
+    },
+    {
+      "name": "Execs at Event",
+      "photo": "assets/synced/recQXeUHxxTnw2Gd2-attqyPAN3An3uCF3j.jpeg"
+    },
+    {
+      "name": "Grammys Stage",
+      "photo": "assets/synced/recRPaOMhwWHmhqtC-attgUUuT5KRL6vrv9.jpeg"
+    },
+    {
+      "name": "Chinese Theater Stantions",
+      "photo": "assets/synced/recVj9hjsExLj8tbU-attAG3haI23myrXBr.jpeg"
+    },
+    {
+      "name": "JRM Security Line Check",
+      "photo": "assets/synced/recWFSlCX9nKfFuRW-att2A5GVGwj5LIRve.jpeg"
+    },
+    {
+      "name": "Discovery Stage Badge Pickup",
+      "photo": "assets/synced/recXgvYzWbx9IF718-attVq1op3NKd4NrhR.jpeg"
+    },
+    {
+      "name": "Latin Grammys 2025",
+      "photo": "assets/synced/recaREgSWg3AOtaKw-attcucrMr5TT6ix4W.jpeg"
+    },
+    {
+      "name": "Guard at Concert",
+      "photo": "assets/synced/recarhgywqgXGZJGL-attL2fMDFsVIzjRIY.jpeg"
+    },
+    {
+      "name": "UFC 239",
+      "photo": "assets/synced/recb6fvWbvWZ9EgKs-attuEoks7iCAv9sqE.jpeg"
+    },
+    {
+      "name": "Football and Guard",
+      "photo": "assets/synced/recbAv3mof37jrujY-attFVstALWggwAsyo.jpeg"
+    },
+    {
+      "name": "Executive Team 2026",
+      "photo": "assets/synced/recdmlmJ9emOqMmZB-att3qlRd4KQ1e6BGu.jpeg"
+    },
+    {
+      "name": "Anime Expo 2026 with Team",
+      "photo": "assets/synced/recdoEv3MjEvgbcub-attw5ZENrYUsiAwos.jpeg"
+    },
+    {
+      "name": "NBA All Star Fest 2026",
+      "photo": "assets/synced/recjW9cR7hpPRumIo-att7GwvUtDiwULxBl.jpeg"
+    },
+    {
+      "name": "Event Black Car Line",
+      "photo": "assets/synced/recplabPJRhxxq6or-att4dkw0BAME02vuE.jpeg"
+    },
+    {
+      "name": "Spotify Event with Team",
+      "photo": "assets/synced/recqyhqG8BhzhQGAj-attmZvFAa5JzZ2Itt.jpeg"
+    },
+    {
+      "name": "MGM Grand Garden",
+      "photo": "assets/synced/recs93JmPT9oGSOxk-attMvR4jxnY99jutO.jpeg"
     }
   ],
   "metrics": {
@@ -1431,19 +1523,134 @@
   ],
   "photos": [
     {
-      "title": "Event Photo - Generic 2",
+      "title": "Autodesk",
       "meta": "",
-      "path": "assets/synced/rec8p8KB7BeNeSuwr-attN9j1fhYWf5b0rM.png"
+      "path": "assets/synced/rec1Jbqj1DQD2JZOO-attJaRcgskmeuoIkF.jpeg"
     },
     {
-      "title": "Titan HST Partnership (Press Photo)",
+      "title": "Opengate Line",
       "meta": "",
-      "path": "assets/synced/recHwOVgsboXRUZCF-attc57slZfVRmrAsR.jpg"
+      "path": "assets/synced/rec3Vg21VdZaUQdEh-atthkUDS7lsi3ObrY.jpeg"
     },
     {
-      "title": "Event Photo - Generic 1",
+      "title": "TVA Black Cars",
       "meta": "",
-      "path": "assets/synced/recUsyCIkiQnpCEGl-atttocgkf8yuVpVqV.png"
+      "path": "assets/synced/rec6M0nnKb3QdYu6B-attMiUGhIzsbAzunE.jpeg"
+    },
+    {
+      "title": "Guard Force Large",
+      "meta": "",
+      "path": "assets/synced/rec7Ul8aLln4tknyS-attcMcODT5Me7UGvt.jpeg"
+    },
+    {
+      "title": "Milken 2026 Execs",
+      "meta": "",
+      "path": "assets/synced/rec8JPris7oAafP4B-attLpfGgAMnB6kenI.jpeg"
+    },
+    {
+      "title": "JRM Uniform",
+      "meta": "",
+      "path": "assets/synced/rec9XXDrYiisGSst1-att8NUEJIjUF6BRM0.jpeg"
+    },
+    {
+      "title": "Bag Check in Texas",
+      "meta": "",
+      "path": "assets/synced/rec9nmjBnizXDSvHM-att20uguAlgbbypHc.jpeg"
+    },
+    {
+      "title": "Guard Force",
+      "meta": "",
+      "path": "assets/synced/rec9p9tuOFHyb4i20-att669G3pmbfKWdQk.jpeg"
+    },
+    {
+      "title": "TEM",
+      "meta": "",
+      "path": "assets/synced/recHCKStmRaR6ETN2-attHQLLPEtahylcHn.jpeg"
+    },
+    {
+      "title": "Executives at Grammys",
+      "meta": "",
+      "path": "assets/synced/recHvqMbbtbCoAqlq-attQnCWcTdK6nvZIK.jpeg"
+    },
+    {
+      "title": "AMA Tent",
+      "meta": "",
+      "path": "assets/synced/recKRy7bXOfB7BH4e-attt26XbRAteClstg.jpeg"
+    },
+    {
+      "title": "Execs at Event",
+      "meta": "",
+      "path": "assets/synced/recQXeUHxxTnw2Gd2-attqyPAN3An3uCF3j.jpeg"
+    },
+    {
+      "title": "Grammys Stage",
+      "meta": "",
+      "path": "assets/synced/recRPaOMhwWHmhqtC-attgUUuT5KRL6vrv9.jpeg"
+    },
+    {
+      "title": "Chinese Theater Stantions",
+      "meta": "",
+      "path": "assets/synced/recVj9hjsExLj8tbU-attAG3haI23myrXBr.jpeg"
+    },
+    {
+      "title": "JRM Security Line Check",
+      "meta": "",
+      "path": "assets/synced/recWFSlCX9nKfFuRW-att2A5GVGwj5LIRve.jpeg"
+    },
+    {
+      "title": "Discovery Stage Badge Pickup",
+      "meta": "",
+      "path": "assets/synced/recXgvYzWbx9IF718-attVq1op3NKd4NrhR.jpeg"
+    },
+    {
+      "title": "Latin Grammys 2025",
+      "meta": "",
+      "path": "assets/synced/recaREgSWg3AOtaKw-attcucrMr5TT6ix4W.jpeg"
+    },
+    {
+      "title": "Guard at Concert",
+      "meta": "",
+      "path": "assets/synced/recarhgywqgXGZJGL-attL2fMDFsVIzjRIY.jpeg"
+    },
+    {
+      "title": "UFC 239",
+      "meta": "",
+      "path": "assets/synced/recb6fvWbvWZ9EgKs-attuEoks7iCAv9sqE.jpeg"
+    },
+    {
+      "title": "Football and Guard",
+      "meta": "",
+      "path": "assets/synced/recbAv3mof37jrujY-attFVstALWggwAsyo.jpeg"
+    },
+    {
+      "title": "Executive Team 2026",
+      "meta": "",
+      "path": "assets/synced/recdmlmJ9emOqMmZB-att3qlRd4KQ1e6BGu.jpeg"
+    },
+    {
+      "title": "Anime Expo 2026 with Team",
+      "meta": "",
+      "path": "assets/synced/recdoEv3MjEvgbcub-attw5ZENrYUsiAwos.jpeg"
+    },
+    {
+      "title": "NBA All Star Fest 2026",
+      "meta": "",
+      "path": "assets/synced/recjW9cR7hpPRumIo-att7GwvUtDiwULxBl.jpeg"
+    },
+    {
+      "title": "Event Black Car Line",
+      "meta": "",
+      "path": "assets/synced/recplabPJRhxxq6or-att4dkw0BAME02vuE.jpeg"
+    },
+    {
+      "title": "Spotify Event with Team",
+      "meta": "",
+      "path": "assets/synced/recqyhqG8BhzhQGAj-attmZvFAa5JzZ2Itt.jpeg"
+    },
+    {
+      "title": "MGM Grand Garden",
+      "meta": "",
+      "path": "assets/synced/recs93JmPT9oGSOxk-attMvR4jxnY99jutO.jpeg"
     }
   ]
 }
