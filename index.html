@@ -510,13 +510,13 @@ const MOCK_DATA = {
 const PLAYLIST = [
   { id:'scene-metrics',  label:'01 Metrics',    seconds:14, onEnter: runCountUps },
   { id:'scene-heatmap',  label:'02 Heatmap',    seconds:16, onEnter: null },
-  { id:'scene-today',    label:'03 Today',      seconds:16, onEnter: renderTodayPosts },
+  { id:'scene-today',    label:'03 Today',      seconds:22, onEnter: renderTodayPosts },
   { id:'scene-fixed',    label:'04 Fixed Accts',seconds:14, onEnter: renderFixedAccounts },
   { id:'scene-rem',      label:'05 REM',        seconds:14, onEnter: nextRem },
   { id:'scene-events',   label:'06 Events',     seconds:14, onEnter: null },
   { id:'scene-photos',   label:'07 Photo Reel', seconds:18, onEnter: startReel },
-  { id:'scene-linkedin', label:'08 Highlights',seconds:14, onEnter: null },
-  { id:'scene-team',     label:'09 Team',       seconds:16, onEnter: renderTeam }
+  { id:'scene-linkedin', label:'08 Highlights',seconds:20, onEnter: renderQuotes },
+  { id:'scene-team',     label:'09 Team',       seconds:22, onEnter: renderTeam }
 ];
 
 let currentIndex = 0;
@@ -538,6 +538,18 @@ function paginate(items, maxPerPage){
   const pages = [];
   for (let i = 0; i < items.length; i += perPage) pages.push(items.slice(i, i + perPage));
   return pages;
+}
+
+// Fisher-Yates. Called fresh on every render (each scene visit, and every
+// data refresh) so Today/Highlights/Team don't always lead with the same
+// first N records out of Airtable — the deck reshuffles instead.
+function shuffle(items){
+  const arr = items.slice();
+  for (let i = arr.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
 }
 
 /* ---- playlist chips ------------------------------------------------------ */
@@ -784,7 +796,7 @@ function renderTodayPosts(){
       : '';
   }
   if (!posts.length){ grid.innerHTML = `<div class="rem-empty">NO ACTIVE POSTS SYNCED FOR TODAY</div>`; return; }
-  todayPages = paginate(posts, 9); // 3x3 — same safe capacity as the Events scene grid
+  todayPages = paginate(shuffle(posts), 9); // 3x3 — same safe capacity as the Events scene grid
   todayPageIdx = 0;
   showTodayPage();
   if (todayPages.length > 1){
@@ -920,16 +932,32 @@ function startReel(){
 }
 
 /* ============================================================================
-   SCENE 8 — "On the Record" quote cards (from approved Lobby Callouts)
+   SCENE 8 — "On the Record" quote cards (from approved Lobby Callouts).
+   Same shuffle+paginate+rotate pattern as Today's Posts and Team, so the
+   set of 3 shown isn't always the same 3 — reshuffles on every scene visit.
    ========================================================================== */
+let quoteTimer = null, quotePageIdx = 0, quotePages = [];
 function renderQuotes(){
   const grid = document.getElementById('quotegrid');
-  const posts = (DATA.linkedin || []).slice(0, 3);
+  const posts = DATA.linkedin || [];
+  clearInterval(quoteTimer);
   if (!posts.length){
     grid.innerHTML = `<div class="quote-empty">AWAITING CURATED POSTS — ADD APPROVED ENTRIES TO THE LOBBY CALLOUTS TABLE</div>`;
     return;
   }
-  grid.innerHTML = posts.map(p => `
+  quotePages = paginate(shuffle(posts), 3); // 3-up grid — same capacity the scene has always shown
+  quotePageIdx = 0;
+  showQuotePage();
+  if (quotePages.length > 1){
+    quoteTimer = setInterval(() => {
+      if (paused) return;
+      quotePageIdx = (quotePageIdx + 1) % quotePages.length;
+      showQuotePage();
+    }, 6000);
+  }
+}
+function showQuotePage(){
+  document.getElementById('quotegrid').innerHTML = quotePages[quotePageIdx].map(p => `
     <div class="quote-card">
       <div class="qc-body">
         <div class="qc-head">
@@ -963,7 +991,7 @@ function renderTeam(){
   const team = DATA.team || [];
   clearInterval(teamTimer);
   if (!team.length){ grid.innerHTML = `<div class="rem-empty">TEAM ROSTER SYNCING</div>`; return; }
-  teamPages = paginate(team, 6);
+  teamPages = paginate(shuffle(team), 6);
   teamPageIdx = 0;
   showTeamPage();
   if (teamPages.length > 1){
