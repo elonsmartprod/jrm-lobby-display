@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-21T23:14:23.943Z",
-  "commit": "9dd8634",
+  "generatedAt": "2026-07-22T00:10:26.164Z",
+  "commit": "b45c7bd",
   "callouts": [
     {
       "byline": "18 Years at the Grammys",
@@ -117,19 +117,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1431,
-    "events30": 153,
-    "guards30": 2140,
+    "eventsYTD": 1439,
+    "events30": 155,
+    "guards30": 1874,
     "citiesYTD": 100,
-    "upcoming30": 67,
-    "perDay": 7.084158415841584
+    "upcoming30": 60,
+    "perDay": 7.123762376237623
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 828,
+      "ev": 835,
       "w": 1,
       "hq": true
     },
@@ -138,7 +138,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 65,
-      "w": 0.0785024154589372,
+      "w": 0.07784431137724551,
       "hq": false
     },
     {
@@ -146,7 +146,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 135,
-      "w": 0.16304347826086957,
+      "w": 0.16167664670658682,
       "hq": false
     },
     {
@@ -154,7 +154,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 93,
-      "w": 0.11231884057971014,
+      "w": 0.11137724550898204,
       "hq": false
     },
     {
@@ -162,15 +162,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 35,
-      "w": 0.042270531400966184,
+      "w": 0.041916167664670656,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 92,
-      "w": 0.1111111111111111,
+      "ev": 93,
+      "w": 0.11137724550898204,
       "hq": true
     },
     {
@@ -178,7 +178,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 50,
-      "w": 0.06038647342995169,
+      "w": 0.059880239520958084,
       "hq": false
     }
   ],
@@ -187,7 +187,7 @@
       "name": "Los Angeles",
       "lon": -118.31690242651335,
       "lat": 34.06172991511665,
-      "count": 423
+      "count": 425
     },
     {
       "name": "North Hollywood",
@@ -340,6 +340,12 @@
       "count": 3
     },
     {
+      "name": "San Diego",
+      "lon": -117.18494766666667,
+      "lat": 32.75715066666667,
+      "count": 3
+    },
+    {
       "name": "Pasadena",
       "lon": -104.6818294011085,
       "lat": 36.2730293705965,
@@ -421,12 +427,6 @@
       "name": "Park City",
       "lon": -111.496941233666,
       "lat": 40.656708990783,
-      "count": 2
-    },
-    {
-      "name": "San Diego",
-      "lon": -117.19677300000001,
-      "lat": 32.77742885,
       "count": 2
     },
     {
@@ -723,11 +723,25 @@
   ],
   "todayPosts": [
     {
-      "rem": "Sean McKillop",
-      "venue": "Various",
-      "client": "Disney - Searchlight",
-      "job": "Super Troopers-Press Tour-TX",
+      "rem": "Chris Estrada",
+      "venue": "TBD",
+      "client": "Amazon Studios",
+      "job": "Amazon Spaceballs Costume SDCC",
       "city": ""
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "LA Convention Center",
+      "client": "Amazon Studios",
+      "job": "SIGGRAPH AP",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "Madison Square Garden",
+      "client": "Rex Group",
+      "job": "Zuffa Boxing",
+      "city": "New York"
     },
     {
       "rem": "Jessica Hernandez",
@@ -1169,20 +1183,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 34,
-      "career": 2282,
+      "events30": 38,
+      "career": 2283,
       "recent": [
         {
-          "name": "SIGGRAPH AP",
-          "meta": "JUL 21"
+          "name": "Apple San Diego Comic Con Activation",
+          "meta": "JUL 22"
         },
         {
-          "name": "Amazon Spaceballs Costume SDCC",
-          "meta": "JUL 21"
+          "name": "Dr Nader Milkhail Private Event",
+          "meta": "JUL 22"
         },
         {
-          "name": "Monster Jam",
-          "meta": "JUL 19"
+          "name": "Los Angeles Sparks vs Phoenix Mercury",
+          "meta": "JUL 22"
         }
       ]
     },
@@ -1190,9 +1204,13 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 26,
+      "events30": 27,
       "career": 477,
       "recent": [
+        {
+          "name": "Map 360 SDCC 2026",
+          "meta": "JUL 22"
+        },
         {
           "name": "Super Troopers 3 Press Tour-Seattle",
           "meta": "JUL 21"
@@ -1200,10 +1218,6 @@
         {
           "name": "Super Trooper 3-Press Tour-Cleveland",
           "meta": "JUL 20"
-        },
-        {
-          "name": "Guitar Center-Summer School Tour-CO",
-          "meta": "JUL 19"
         }
       ]
     },
@@ -1232,7 +1246,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 12,
+      "events30": 11,
       "career": 263,
       "recent": [
         {
@@ -1273,58 +1287,22 @@
   ],
   "events": [
     {
-      "client": "Disney",
-      "title": "Super Troopers 3 Press Tour-Seattle",
-      "venue": "Block 41",
-      "badges": [
-        "Exec Protection"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Rex Group",
-      "title": "Zuffa Boxing",
-      "venue": "Madison Square Garden · New York",
-      "badges": [
-        "Sports Event"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Amazon Studios",
-      "title": "SIGGRAPH AP",
-      "venue": "LA Convention Center · Los Angeles",
-      "badges": [
-        "Anti-Piracy"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Grammy Museum",
-      "title": "GRAMMY MUSEUM - Autodesk Reception ",
-      "venue": "Grammy Museum · Los Angeles",
-      "badges": [
-        "Private Party/Event"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Emerald Americas LLC",
-      "title": "CNN PHX 7.21",
-      "venue": "Maricopa Ballot Tabulation Center",
-      "badges": [
-        "Media Coverage"
-      ],
-      "upcoming": false
-    },
-    {
       "client": "Apple",
       "title": "Apple San Diego Comic Con Activation",
       "venue": "TBD",
       "badges": [
         "Other"
       ],
-      "upcoming": true
+      "upcoming": false
+    },
+    {
+      "client": "RVRS Dr. Nader Mikhail",
+      "title": "Dr Nader Milkhail Private Event",
+      "venue": "3084 Taylor Way Costa Mesa Ca 92626",
+      "badges": [
+        "Private Party/Event"
+      ],
+      "upcoming": false
     },
     {
       "client": "OpenAI",
@@ -1333,7 +1311,7 @@
       "badges": [
         "Other"
       ],
-      "upcoming": true
+      "upcoming": false
     },
     {
       "client": "The Impact Agency",
@@ -1341,6 +1319,42 @@
       "venue": "NYA Studios West · Los Angeles",
       "badges": [
         "Screening"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "MAP360",
+      "title": "Map 360 SDCC 2026",
+      "venue": "Children's Park-San Diego",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Nike",
+      "title": "FA26 NFL Rivalries Photo Shoot - Houston",
+      "venue": "Houston, TX · Houston",
+      "badges": [
+        "Production Shoot"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "Unknown",
+      "title": "Indie feature Salsa Sangre",
+      "venue": "TBD",
+      "badges": [
+        "Photo Shoot"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "Amazon Studios",
+      "title": "Amazon SDCC Amazon Hospitality Suite and Blue Room",
+      "venue": "The Pendry · San Diego",
+      "badges": [
+        "Other"
       ],
       "upcoming": true
     }
@@ -1351,7 +1365,6 @@
     "<b>Open Table-Michelin After Party-Oma Loves Fun</b> · Lou Lou&#39;s Jungle Room",
     "<b>6.24 TJ Max TN</b> · TJ Maxx",
     "<b>7.12 Pickwick Vintage San Francisco</b> · The Ferry Building ",
-    "<b>BET Red Carpet  2026</b> · Peacock Theater",
     "<b>AZ Protos Coach 7.5</b> · Coach",
     "<b>7.17 Emerald x Elena</b> · Multiple Venues",
     "<b>ABC News Utah</b> · ABC7/KGO",
@@ -1365,7 +1378,8 @@
     "<b>Olivia Dean Concert- LA Live</b> · LA Live",
     "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center",
     "<b>This That Monaleo-ATL</b> · Atlanta",
-    "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL"
+    "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
+    "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO"
   ],
   "linkedin": [
     {
