@@ -114,22 +114,36 @@
 
   .mix-head{ font-family:var(--font-mono); font-size:10px; letter-spacing:.24em; color:var(--text-lo); text-transform:uppercase; margin-top:10px; }
 
-  /* Scene 6 — quote cards */
+  /* Scene 6 — quote cards, styled as social posts (LinkedIn-like header:
+     avatar + name + role + timestamp), with an optional photo attachment
+     rendered full-bleed at the bottom of the card when the Lobby Callouts
+     record has one. Cards without a photo just don't render that part —
+     same card, same grid, no separate layout to maintain. */
   .quote-grid{ flex:1; display:grid; grid-template-columns:repeat(3,1fr); gap:18px; align-content:center; }
   .quote-card{
     background:linear-gradient(165deg, var(--ink-200), #0C1220);
     border:1px solid var(--line); border-radius:10px;
-    padding:30px 28px; display:flex; flex-direction:column; position:relative;
+    display:flex; flex-direction:column; position:relative; overflow:hidden;
   }
-  .quote-card::before{
-    content:'"'; font-family:var(--font-display); font-weight:700;
-    font-size:64px; color:var(--gold); line-height:.6; margin-bottom:14px;
+  .quote-card .qc-body{ padding:24px 26px 22px; display:flex; flex-direction:column; gap:14px; flex:1; }
+  .quote-card .qc-head{ display:flex; align-items:center; gap:12px; }
+  .quote-card .qc-avatar{
+    width:44px; height:44px; border-radius:50%; flex:none; overflow:hidden;
+    background:var(--ink-300); border:2px solid var(--gold);
+    display:flex; align-items:center; justify-content:center;
   }
-  .quote-card .q-text{ font-size:19px; line-height:1.5; flex:1; }
-  .quote-card .q-who{ margin-top:22px; padding-top:14px; border-top:1px solid var(--line); }
-  .quote-card .q-author{ font-family:var(--font-display); font-weight:600; text-transform:uppercase; letter-spacing:.08em; font-size:16px; }
-  .quote-card .q-role{ font-family:var(--font-mono); font-size:11.5px; color:var(--text-lo); letter-spacing:.08em; margin-top:4px; }
-  .quote-card .q-date{ position:absolute; top:22px; right:24px; font-family:var(--font-mono); font-size:11px; color:var(--steel); letter-spacing:.14em; }
+  .quote-card .qc-avatar .mono{ font-family:var(--font-display); font-weight:700; font-size:16px; color:var(--gold); }
+  .quote-card .qc-who{ flex:1; min-width:0; }
+  .quote-card .qc-name{
+    display:flex; align-items:center; gap:6px;
+    font-family:var(--font-display); font-weight:600; text-transform:uppercase; letter-spacing:.04em; font-size:15px;
+  }
+  .quote-card .qc-name .badge-check{ width:14px; height:14px; color:var(--steel); flex:none; }
+  .quote-card .qc-role{ font-family:var(--font-mono); font-size:11px; color:var(--text-lo); letter-spacing:.06em; margin-top:2px; }
+  .quote-card .qc-date{ font-family:var(--font-mono); font-size:11px; color:var(--steel); letter-spacing:.1em; flex:none; }
+  .quote-card .qc-text{ font-size:16px; line-height:1.55; flex:1; }
+  .quote-card .qc-photo{ flex:none; height:150px; background:var(--ink-300); }
+  .quote-card .qc-photo img{ width:100%; height:100%; object-fit:cover; display:block; }
   .quote-empty{ grid-column:1/-1; text-align:center; color:var(--text-lo); font-family:var(--font-mono); font-size:14px; letter-spacing:.1em; }
 
   .ticker-wrap{
@@ -912,12 +926,18 @@ function renderQuotes(){
   }
   grid.innerHTML = posts.map(p => `
     <div class="quote-card">
-      <div class="q-date">${esc(p.date)}</div>
-      <div class="q-text">${esc(p.quote)}</div>
-      <div class="q-who">
-        <div class="q-author">${esc(p.author)}</div>
-        <div class="q-role">${esc(p.role)}</div>
+      <div class="qc-body">
+        <div class="qc-head">
+          <div class="qc-avatar"><div class="mono">${esc(initials(p.author))}</div></div>
+          <div class="qc-who">
+            <div class="qc-name">${esc(p.author)}<svg class="badge-check" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="currentColor"/><path d="M7.5 12.5l3 3 6-6.5" stroke="var(--ink-200)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <div class="qc-role">${esc(p.role)}</div>
+          </div>
+          ${p.date ? `<div class="qc-date">${esc(p.date)}</div>` : ''}
+        </div>
+        <div class="qc-text">${esc(p.quote)}</div>
       </div>
+      ${p.photo ? `<div class="qc-photo"><img src="${esc(p.photo)}" alt=""></div>` : ''}
     </div>`).join('');
 }
 

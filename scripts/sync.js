@@ -496,17 +496,30 @@ async function main() {
   const assetRecords = await fetchAllRecords(TABLES.assets);
 
   // Callouts: only Approved === true, sorted by Display Order then Byline.
-  let callouts = calloutRecords
-    .map((r) => r.fields)
-    .filter((f) => f.Approved === true && (f.Byline || f.Text))
-    .map((f) => ({
+  // Optional Attachments field (same pattern as Bios' Headshot and Asset
+  // Library's Attachments) lets a callout carry a photo — rendered as a
+  // LinkedIn-style post card when present, plain quote card when not.
+  const approvedCalloutRows = calloutRecords.filter(
+    (r) => r.fields.Approved === true && (r.fields.Byline || r.fields.Text)
+  );
+  const callouts = [];
+  for (const r of approvedCalloutRows) {
+    const f = r.fields;
+    let photo = null;
+    const atts = f.Attachments;
+    if (Array.isArray(atts) && atts.length > 0) {
+      photo = await downloadAttachment(r.id, atts[0]);
+    }
+    callouts.push({
       byline: f.Byline || "",
       text: f.Text || "",
       author: f.Author || "",
+      photo,
       _order: typeof f["Display Order"] === "number" ? f["Display Order"] : Number.MAX_SAFE_INTEGER,
-    }))
-    .sort((a, b) => a._order - b._order || a.byline.localeCompare(b.byline))
-    .map(({ _order, ...rest }) => rest);
+    });
+  }
+  callouts.sort((a, b) => a._order - b._order || a.byline.localeCompare(b.byline));
+  callouts.forEach((c) => delete c._order);
 
   // Bios: prefer Show on Display === true; fail open to all bios if none are checked.
   const shown = bioRecords.filter((r) => r.fields["Show on Display"] === true);
@@ -567,6 +580,7 @@ async function main() {
     author: c.author || "JRM Security",
     role: "Company Page · LinkedIn",
     date: "",
+    photo: c.photo || null,
   }));
 
   const data = {
