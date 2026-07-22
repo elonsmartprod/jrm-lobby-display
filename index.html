@@ -114,36 +114,35 @@
 
   .mix-head{ font-family:var(--font-mono); font-size:10px; letter-spacing:.24em; color:var(--text-lo); text-transform:uppercase; margin-top:10px; }
 
-  /* Scene 6 — quote cards, styled as social posts (LinkedIn-like header:
-     avatar + name + role + timestamp), with an optional photo attachment
-     rendered full-bleed at the bottom of the card when the Lobby Callouts
-     record has one. Cards without a photo just don't render that part —
-     same card, same grid, no separate layout to maintain. */
+  /* Scene 6 — "On the Record" callout cards. Internal company/team
+     highlights — deliberately NOT framed as social-platform posts (no
+     "Company Page · LinkedIn" line, no verified badge). Header is just
+     avatar + author name, then the byline as a headline, then an optional
+     photo, then the body text. The photo uses aspect-ratio instead of a
+     fixed pixel height so it scales with the card's actual width rather
+     than cropping to an arbitrarily short strip. */
   .quote-grid{ flex:1; display:grid; grid-template-columns:repeat(3,1fr); gap:18px; align-content:center; }
   .quote-card{
     background:linear-gradient(165deg, var(--ink-200), #0C1220);
     border:1px solid var(--line); border-radius:10px;
     display:flex; flex-direction:column; position:relative; overflow:hidden;
   }
-  .quote-card .qc-body{ padding:24px 26px 22px; display:flex; flex-direction:column; gap:14px; flex:1; }
+  .quote-card .qc-body{ padding:24px 26px 22px; display:flex; flex-direction:column; gap:12px; flex:1; }
   .quote-card .qc-head{ display:flex; align-items:center; gap:12px; }
   .quote-card .qc-avatar{
-    width:44px; height:44px; border-radius:50%; flex:none; overflow:hidden;
+    width:40px; height:40px; border-radius:50%; flex:none; overflow:hidden;
     background:var(--ink-300); border:2px solid var(--gold);
     display:flex; align-items:center; justify-content:center;
   }
-  .quote-card .qc-avatar .mono{ font-family:var(--font-display); font-weight:700; font-size:16px; color:var(--gold); }
-  .quote-card .qc-who{ flex:1; min-width:0; }
-  .quote-card .qc-name{
-    display:flex; align-items:center; gap:6px;
+  .quote-card .qc-avatar img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .quote-card .qc-avatar .mono{ font-family:var(--font-display); font-weight:700; font-size:14px; color:var(--gold); }
+  .quote-card .qc-author{
     font-family:var(--font-display); font-weight:600; text-transform:uppercase; letter-spacing:.04em; font-size:15px;
   }
-  .quote-card .qc-name .badge-check{ width:14px; height:14px; color:var(--steel); flex:none; }
-  .quote-card .qc-role{ font-family:var(--font-mono); font-size:11px; color:var(--text-lo); letter-spacing:.06em; margin-top:2px; }
-  .quote-card .qc-date{ font-family:var(--font-mono); font-size:11px; color:var(--steel); letter-spacing:.1em; flex:none; }
-  .quote-card .qc-text{ font-size:16px; line-height:1.55; flex:1; }
-  .quote-card .qc-photo{ flex:none; height:150px; background:var(--ink-300); }
+  .quote-card .qc-byline{ font-family:var(--font-display); font-weight:600; font-size:17px; color:var(--gold); line-height:1.3; }
+  .quote-card .qc-photo{ flex:none; width:100%; aspect-ratio:16/9; border-radius:8px; overflow:hidden; background:var(--ink-300); }
   .quote-card .qc-photo img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .quote-card .qc-text{ font-size:15px; line-height:1.55; color:var(--text-lo); flex:1; }
   .quote-empty{ grid-column:1/-1; text-align:center; color:var(--text-lo); font-family:var(--font-mono); font-size:14px; letter-spacing:.1em; }
 
   .ticker-wrap{
@@ -451,7 +450,7 @@
 
   <section class="scene" id="scene-linkedin">
     <div class="scene-head">
-      <div class="eyebrow">From LinkedIn · Curated</div>
+      <div class="eyebrow">Team &amp; Company Highlights</div>
       <h1 class="scene-title">On the Record</h1>
     </div>
     <div class="quote-grid" id="quotegrid"></div>
@@ -510,7 +509,7 @@ const PLAYLIST = [
   { id:'scene-rem',      label:'05 REM',        seconds:14, onEnter: nextRem },
   { id:'scene-events',   label:'06 Events',     seconds:14, onEnter: null },
   { id:'scene-photos',   label:'07 Photo Reel', seconds:18, onEnter: startReel },
-  { id:'scene-linkedin', label:'08 LinkedIn',   seconds:14, onEnter: null },
+  { id:'scene-linkedin', label:'08 Highlights',seconds:14, onEnter: null },
   { id:'scene-team',     label:'09 Team',       seconds:16, onEnter: renderTeam }
 ];
 
@@ -928,16 +927,15 @@ function renderQuotes(){
     <div class="quote-card">
       <div class="qc-body">
         <div class="qc-head">
-          <div class="qc-avatar"><div class="mono">${esc(initials(p.author))}</div></div>
-          <div class="qc-who">
-            <div class="qc-name">${esc(p.author)}<svg class="badge-check" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="currentColor"/><path d="M7.5 12.5l3 3 6-6.5" stroke="var(--ink-200)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-            <div class="qc-role">${esc(p.role)}</div>
-          </div>
-          ${p.date ? `<div class="qc-date">${esc(p.date)}</div>` : ''}
+          <div class="qc-avatar">${p.authorPhoto
+            ? `<img src="${esc(p.authorPhoto)}" alt="">`
+            : `<div class="mono">${esc(p.authorInitials || initials(p.author))}</div>`}</div>
+          <div class="qc-author">${esc(p.author)}</div>
         </div>
-        <div class="qc-text">${esc(p.quote)}</div>
+        ${p.byline ? `<div class="qc-byline">${esc(p.byline)}</div>` : ''}
+        ${p.photo ? `<div class="qc-photo"><img src="${esc(p.photo)}" alt=""></div>` : ''}
+        ${p.text ? `<div class="qc-text">${esc(p.text)}</div>` : ''}
       </div>
-      ${p.photo ? `<div class="qc-photo"><img src="${esc(p.photo)}" alt=""></div>` : ''}
     </div>`).join('');
 }
 

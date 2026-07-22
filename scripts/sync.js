@@ -147,17 +147,26 @@ function linkId(val) {
   return typeof val[0] === "string" ? val[0] : val[0].id;
 }
 
-// Lobby Callouts' Author field is usually plain text ("JRM Marketing"), but
-// Airtable returns a Collaborator field as a single {id, email, name} object
-// instead of a string — crashed the front end's initials() (name.trim is
-// not a function) the first time an Author was set to a tagged person
-// instead of typed text. Normalize once here so every consumer downstream
-// can assume author is always a plain string.
-function authorName(val) {
-  if (typeof val === "string") return val;
-  if (Array.isArray(val)) return authorName(val[0]);
-  if (val && typeof val === "object") return val.name || "";
-  return "";
+// Lobby Callouts' Author is a link to Team Bios, so the raw field is just a
+// bare record ID array (Airtable never inlines linked-record names) — that's
+// what showed a literal "RECM9G2U87RKDNOT8" on screen instead of a person's
+// name. Author is never read directly for display; use the "Name/Initials/
+// Headshot (from Author)" lookup fields below instead, which Airtable
+// resolves to the real values.
+//
+// A lookup's value is one array entry per linked record (single-link fields
+// still return a 1-element array). If the *source* field on Team Bios is
+// itself a multi-attachment field (Headshot), the lookup nests one more
+// level: an array of that record's attachment array. firstLookup() unwraps
+// the outer per-record layer; firstOfNested() unwraps both for attachments.
+function firstLookup(val) {
+  if (!Array.isArray(val) || !val.length) return null;
+  return val[0];
+}
+function firstNestedLookup(val) {
+  const first = firstLookup(val);
+  if (Array.isArray(first)) return first.length ? first[0] : null;
+  return first;
 }
 
 async function buildIdNameMap(tableId, baseId, nameField) {
@@ -510,8 +519,8 @@ async function main() {
 
   // Callouts: only Approved === true, sorted by Display Order then Byline.
   // Optional Attachments field (same pattern as Bios' Headshot and Asset
-  // Library's Attachments) lets a callout carry a photo — rendered as a
-  // LinkedIn-style post card when present, plain quote card when not.
+  // Library's Attachments) lets a callout carry its own photo, separate
+  // from the author's headshot pulled in via the Author lookups below.
   const approvedCalloutRows = calloutRecords.filter(
     (r) => r.fields.Approved === true && (r.fields.Byline || r.fields.Text)
   );
@@ -523,10 +532,17 @@ async function main() {
     if (Array.isArray(atts) && atts.length > 0) {
       photo = await downloadAttachment(r.id, atts[0]);
     }
+    let authorPhoto = null;
+    const headshotAtt = firstNestedLookup(f["Headshot (from Author)"]);
+    if (headshotAtt) {
+      authorPhoto = await downloadAttachment(r.id, headshotAtt);
+    }
     callouts.push({
       byline: f.Byline || "",
       text: f.Text || "",
-      author: authorName(f.Author),
+      author: firstLookup(f["Name (from Author)"]) || "",
+      authorInitials: firstLookup(f["Initials (from Author)"]) || "",
+      authorPhoto,
       photo,
       _order: typeof f["Display Order"] === "number" ? f["Display Order"] : Number.MAX_SAFE_INTEGER,
     });
@@ -586,13 +602,16 @@ async function main() {
   console.log("Fetching ops metrics (job log, offices, REMs)...");
   const ops = await fetchOpsMetrics();
 
-  // "On the record" quote cards reuse the same approved Lobby Callouts —
-  // byline becomes the quote, author stays the author.
+  // "On the record" callout cards reuse the same approved Lobby Callouts.
+  // Deliberately not attributed to any social platform — these are internal
+  // company/team highlights, not reposted LinkedIn content, even though the
+  // original mockup treated them that way.
   const linkedin = callouts.map((c) => ({
-    quote: c.text || c.byline,
     author: c.author || "JRM Security",
-    role: "Company Page · LinkedIn",
-    date: "",
+    authorInitials: c.authorInitials || "",
+    authorPhoto: c.authorPhoto || null,
+    byline: c.byline || "",
+    text: c.text || "",
     photo: c.photo || null,
   }));
 
