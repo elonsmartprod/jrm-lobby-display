@@ -44,7 +44,7 @@ const OPS_FIELDS = {
     "City",
     "Flag Job as Cancelled",
     "Total Invoiced Amount",
-    "Job Cost Estimate",
+    "JOB COST ESTIMATE",
   ],
   offices: ["Office", "Appear on Interface"],
   rems: ["REMS", "Colors", "Branch", "Count Events"],
@@ -154,7 +154,7 @@ const COUNTRY_REGIONS = {
   // Oceania
   australia: { region: "Oceania", lon: 145, lat: -28 }, sydney: { region: "Oceania", lon: 145, lat: -28 },
   melbourne: { region: "Oceania", lon: 145, lat: -28 }, "new zealand": { region: "Oceania", lon: 145, lat: -28 },
-  auckland: { region: "Oceania", lon: 145, lat: -28 },
+  auckland: { region: "Oceania", lon: 145, lat: -28 }, nz: { region: "Oceania", lon: 145, lat: -28 },
 
   // Canada (its own region, not "North America" generally, since JRM is US-based)
   canada: { region: "Canada", lon: -95, lat: 56 }, toronto: { region: "Canada", lon: -95, lat: 56 },
@@ -164,6 +164,11 @@ const COUNTRY_REGIONS = {
   mexico: { region: "Latin America", lon: -102, lat: 20 }, "mexico city": { region: "Latin America", lon: -102, lat: 20 },
   brazil: { region: "Latin America", lon: -102, lat: 20 }, "sao paulo": { region: "Latin America", lon: -102, lat: 20 },
   argentina: { region: "Latin America", lon: -102, lat: 20 }, colombia: { region: "Latin America", lon: -102, lat: 20 },
+  // "Antioquia" is a Colombian department (capital: Medellín) — confirmed as
+  // an actual VENUES.State choice, used directly instead of the generic
+  // "International" flag. See isInternational() below for why State needs
+  // to be checked this way instead of a single literal match.
+  antioquia: { region: "Latin America", lon: -102, lat: 20 }, medellin: { region: "Latin America", lon: -102, lat: 20 },
   bahamas: { region: "Caribbean", lon: -75, lat: 20 }, jamaica: { region: "Caribbean", lon: -75, lat: 20 },
   "dominican republic": { region: "Caribbean", lon: -75, lat: 20 }, "cayman islands": { region: "Caribbean", lon: -75, lat: 20 },
 };
@@ -172,19 +177,44 @@ const COUNTRY_REGIONS = {
 // shorter overlapping key would.
 const COUNTRY_REGION_KEYS = Object.keys(COUNTRY_REGIONS).sort((a, b) => b.length - a.length);
 
-function matchIntlRegion(address) {
-  if (!address) return null;
-  const lower = address.toLowerCase();
+function matchIntlRegion(text) {
+  if (!text) return null;
+  const lower = text.toLowerCase();
   for (const key of COUNTRY_REGION_KEYS) {
     if (lower.includes(key)) return COUNTRY_REGIONS[key];
   }
   return null;
 }
 
-// State is always a single-select on VENUES, so Airtable's API always
-// returns {id, name, color} — never a bare string — for it.
+// VENUES.State is NOT just a US-state-or-"International" flag in practice —
+// real records use direct country/city values instead of the generic
+// "International" choice (confirmed against the live field config: "Delhi",
+// "Antioquia" [Colombia], and "NZ" all sit alongside the 2-letter US state
+// codes as their own choices). Checking only for the literal string
+// "International" would silently miss those and let them fall through to
+// the domestic US map instead. So: anything that ISN'T a recognized US
+// state/territory code is treated as international.
+const US_STATE_CODES = new Set([
+  "AK", "AZ", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "IA", "ID", "IL", "IN",
+  "KS", "KY", "LA", "MA", "MD", "MI", "MN", "MO", "NC", "NE", "NJ", "NM", "NV", "NY",
+  "OH", "OK", "OR", "PA", "SC", "TN", "TX", "UT", "VA", "WA", "WI",
+  // ponytail: "LV" isn't a real state code (Nevada is "NV", already listed)
+  // and could mean either Las Vegas shorthand or Latvia — defaulting to
+  // domestic/Las Vegas since that's overwhelmingly more likely for a
+  // US-based guard company. Flip this if it turns out to mean Latvia.
+  "LV",
+]);
 function isInternational(state) {
-  return !!(state && state.name === "International");
+  const name = (state && state.name) || "";
+  return !!name && !US_STATE_CODES.has(name);
+}
+
+// For a venue already flagged international, prefer matching directly off
+// the State choice itself (covers "Delhi"/"Antioquia"/"NZ" reliably, since
+// that's structured data) before falling back to free-text VenueAddress1
+// (the only signal left for venues generically flagged "International").
+function regionForVenue(state, address) {
+  return matchIntlRegion((state && state.name) || "") || matchIntlRegion(address || "");
 }
 
 // Asset Library records whose Name should never end up in the on-screen photo
@@ -332,10 +362,10 @@ async function fetchVenueGeo(cityMap) {
       lat: Number.isFinite(lat) ? lat : null,
       long: Number.isFinite(long) ? long : null,
       cityState: [cityName, state].filter(Boolean).join(", "),
-      intl: isInternational(f.State) ? matchIntlRegion(f.VenueAddress1 || "") : null,
+      intl: isInternational(f.State) ? regionForVenue(f.State, f.VenueAddress1) : null,
       // Kept only for the unmatched-venue console warning below — never
       // written to data.json.
-      isIntlUnmatched: isInternational(f.State) && !matchIntlRegion(f.VenueAddress1 || ""),
+      isIntlUnmatched: isInternational(f.State) && !regionForVenue(f.State, f.VenueAddress1),
       address: f.VenueAddress1 || "",
     };
   }
@@ -398,7 +428,7 @@ async function fetchOpsMetrics() {
       city: resolveLink(f.City, cityMap),
       badges: [f["EVENT TYPE **"], f["CATEGORY **"]].filter(Boolean),
       invoiced: typeof f["Total Invoiced Amount"] === "number" ? f["Total Invoiced Amount"] : 0,
-      estimate: typeof f["Job Cost Estimate"] === "number" ? f["Job Cost Estimate"] : 0,
+      estimate: typeof f["JOB COST ESTIMATE"] === "number" ? f["JOB COST ESTIMATE"] : 0,
     }))
     .filter((j) => j.start);
 
