@@ -164,9 +164,22 @@
   @media (prefers-reduced-motion: reduce){ .ticker{ animation:none; } }
 
   /* Scene 2 — heatmap */
-  .map-wrap{ flex:1; position:relative; display:flex; }
+  .map-wrap{ flex:2.2; position:relative; display:flex; min-height:0; }
   #opsmap{ flex:1; height:100%; min-width:0; min-height:0; display:block; }
   .map-side{ width:280px; margin-left:28px; display:flex; flex-direction:column; gap:12px; justify-content:center; }
+
+  /* Scene 2, card 2 — International Deployments. Same visual language as the
+     US map above (canvas + side list) but its own small canvas with a
+     dynamically-computed bounding box (see projectIntl in JS) instead of a
+     fixed US-shaped one — only ever shows the specific region(s) with a job
+     this run, never the whole world. */
+  .intl-wrap{ flex:1; position:relative; display:flex; min-height:0; margin-top:22px; padding-top:20px; border-top:1px solid var(--line); }
+  #intlmap{ flex:1; height:100%; min-width:0; min-height:0; display:block; }
+  .intl-side{ width:280px; margin-left:28px; display:flex; flex-direction:column; gap:10px; justify-content:center; overflow:hidden; }
+  .intl-head{
+    font-family:var(--font-mono); font-size:11px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--text-lo); margin-bottom:2px;
+  }
   .region-row{
     background:var(--ink-200); border:1px solid var(--line); border-radius:8px; padding:14px 18px;
     display:flex; justify-content:space-between; align-items:baseline;
@@ -409,6 +422,12 @@
         <div class="map-legend"><span>Low</span><div class="legend-bar"></div><span>High</span></div>
       </div>
     </div>
+    <div class="intl-wrap" id="intlwrap">
+      <canvas id="intlmap"></canvas>
+      <div class="intl-side" id="intlside">
+        <div class="intl-head">International Deployments · YTD</div>
+      </div>
+    </div>
   </section>
 
   <section class="scene" id="scene-today">
@@ -439,7 +458,7 @@
 
   <section class="scene" id="scene-events">
     <div class="scene-head">
-      <div class="eyebrow">Recent &amp; Upcoming · Marquee Detail</div>
+      <div class="eyebrow">Top 20 · Trailing 12 Months</div>
       <h1 class="scene-title">Event Highlights</h1>
     </div>
     <div class="event-grid" id="eventgrid"></div>
@@ -500,6 +519,7 @@ const MOCK_DATA = {
   todayPosts: [],
   rems: [],
   events: [],
+  intlPoints: [],
   ticker: [],
   linkedin: [],
   photos: [],
@@ -513,7 +533,7 @@ const PLAYLIST = [
   { id:'scene-today',    label:'03 Today',      seconds:22, onEnter: renderTodayPosts },
   { id:'scene-fixed',    label:'04 Fixed Accts',seconds:14, onEnter: renderFixedAccounts },
   { id:'scene-rem',      label:'05 REM',        seconds:14, onEnter: nextRem },
-  { id:'scene-events',   label:'06 Events',     seconds:14, onEnter: null },
+  { id:'scene-events',   label:'06 Events',     seconds:24, onEnter: renderEvents },
   { id:'scene-photos',   label:'07 Photo Reel', seconds:18, onEnter: startReel },
   { id:'scene-linkedin', label:'08 Highlights',seconds:20, onEnter: renderQuotes },
   { id:'scene-team',     label:'09 Team',       seconds:22, onEnter: renderTeam }
@@ -762,6 +782,7 @@ function drawMap(pulsePhase){
   if (visible){
     const phase = reduceMotion ? 0 : (performance.now() % 2400) / 2400;
     drawMap(phase);
+    drawIntlMap(phase);
   }
   requestAnimationFrame(mapLoop);
 })();
@@ -777,6 +798,120 @@ function renderMapSide(){
     ? `<div class="map-caption"><span class="dot"></span>${marketCount} venue market${marketCount === 1 ? '' : 's'} plotted · YTD</div>`
     : '';
   side.innerHTML = rows + caption + legend.outerHTML;
+}
+
+/* ============================================================================
+   SCENE 2, card 2 — International Deployments. Same rendering approach as
+   the US map above, but the bounding box is computed fresh each draw from
+   whichever regions actually have a job this run (see boundsForIntl) — never
+   a fixed world extent, so the card only ever shows where we're actually
+   working. Regions with a hand-authored outline below get a real shape;
+   anything else gets a soft glow at its representative point instead of a
+   fabricated coastline — see COUNTRY_REGIONS in scripts/sync.js for the
+   full list of matched countries/cities, and add an outline here as a new
+   region becomes common enough to warrant one.
+   ========================================================================== */
+const REGION_OUTLINES = {
+  'Western Europe': [
+    [-8,58],[-5,51],[-10,43],[-9,36],[-2,36],[3,39],[8,44],[10,42],
+    [14,38],[18,40],[14,46],[16,49],[15,54],[11,55],[5,53],[-3,51],[-5,56],[-8,58]
+  ],
+  'India': [
+    [77,35],[97,28],[92,22],[80,13],[77,8],[73,15],[68,24],[70,30],[74,33],[77,35]
+  ]
+};
+const intlCanvas = document.getElementById('intlmap');
+const ictx = intlCanvas.getContext('2d');
+
+// Union of every active region's outline (or its bare point, if it has no
+// outline yet), padded 15%. Enforces a minimum span so a single point with
+// no outline doesn't project to a zero-size box.
+function boundsForIntl(points){
+  const lons = [], lats = [];
+  points.forEach(p => {
+    const outline = REGION_OUTLINES[p.name];
+    if (outline) outline.forEach(([lon,lat]) => { lons.push(lon); lats.push(lat); });
+    else { lons.push(p.lon); lats.push(p.lat); }
+  });
+  let lonMin = Math.min(...lons), lonMax = Math.max(...lons);
+  let latMin = Math.min(...lats), latMax = Math.max(...lats);
+  if (lonMax - lonMin < 20){ const c = (lonMax + lonMin) / 2; lonMin = c - 10; lonMax = c + 10; }
+  if (latMax - latMin < 15){ const c = (latMax + latMin) / 2; latMin = c - 7.5; latMax = c + 7.5; }
+  const padLon = (lonMax - lonMin) * 0.15, padLat = (latMax - latMin) * 0.15;
+  return { lonMin: lonMin - padLon, lonMax: lonMax + padLon, latMin: latMin - padLat, latMax: latMax + padLat };
+}
+function projectIntl(lon, lat, w, h, b){
+  const x = (lon - b.lonMin) / (b.lonMax - b.lonMin) * w;
+  const y = (1 - (lat - b.latMin) / (b.latMax - b.latMin)) * h;
+  return [x, y];
+}
+function drawIntlMap(pulsePhase){
+  const w = intlCanvas.offsetWidth  || 900;
+  const h = intlCanvas.offsetHeight || 200;
+  if (intlCanvas.width !== w) intlCanvas.width = w;
+  if (intlCanvas.height !== h) intlCanvas.height = h;
+  ictx.clearRect(0, 0, w, h);
+  const points = DATA.intlPoints || [];
+  if (!points.length) return;
+
+  const b = boundsForIntl(points);
+  ictx.strokeStyle = 'rgba(35,48,68,0.35)'; ictx.lineWidth = 1;
+  for (let gx = 0; gx < w; gx += w/14){ ictx.beginPath(); ictx.moveTo(gx,0); ictx.lineTo(gx,h); ictx.stroke(); }
+  for (let gy = 0; gy < h; gy += h/6) { ictx.beginPath(); ictx.moveTo(0,gy); ictx.lineTo(w,gy); ictx.stroke(); }
+
+  points.forEach(p => {
+    const outline = REGION_OUTLINES[p.name];
+    if (!outline) return;
+    ictx.beginPath();
+    outline.forEach(([lon,lat], i) => { const [x,y] = projectIntl(lon, lat, w, h, b); i ? ictx.lineTo(x,y) : ictx.moveTo(x,y); });
+    ictx.closePath();
+    ictx.fillStyle = 'rgba(17,24,38,0.9)'; ictx.fill();
+    ictx.strokeStyle = 'rgba(111,168,201,0.35)'; ictx.lineWidth = 1.4; ictx.stroke();
+  });
+
+  const maxEv = Math.max(1, ...points.map(p => p.ev));
+  ictx.globalCompositeOperation = 'lighter';
+  points.forEach(p => {
+    const [x, y] = projectIntl(p.lon, p.lat, w, h, b);
+    const w8 = p.ev / maxEv;
+    const radius = 26 + w8 * 70;
+    const g = ictx.createRadialGradient(x, y, 0, x, y, radius);
+    g.addColorStop(0, 'rgba(232,180,74,0.75)'); g.addColorStop(1, 'rgba(232,180,74,0)');
+    ictx.fillStyle = g;
+    ictx.beginPath(); ictx.arc(x, y, radius, 0, Math.PI*2); ictx.fill();
+    if (w8 > 0.6 && !reduceMotion){
+      const ring = radius * (0.6 + 0.5 * pulsePhase);
+      ictx.strokeStyle = `rgba(232,180,74,${0.5 * (1 - pulsePhase)})`;
+      ictx.lineWidth = 1.5;
+      ictx.beginPath(); ictx.arc(x, y, ring, 0, Math.PI*2); ictx.stroke();
+    }
+  });
+  ictx.globalCompositeOperation = 'source-over';
+
+  ictx.font = '600 15px "IBM Plex Mono", monospace';
+  ictx.textBaseline = 'middle';
+  points.forEach(p => {
+    const [x,y] = projectIntl(p.lon, p.lat, w, h, b);
+    ictx.fillStyle = '#EAEDF2';
+    ictx.fillRect(x-3, y-3, 6, 6);
+    const label = `${p.name.toUpperCase()} · ${p.ev}`;
+    const tw = ictx.measureText(label).width;
+    ictx.fillStyle = 'rgba(7,9,13,0.72)';
+    ictx.fillRect(x + 12, y - 12, tw + 12, 24);
+    ictx.fillStyle = '#EAEDF2';
+    ictx.fillText(label, x + 18, y + 1);
+  });
+}
+function renderIntlSide(){
+  const side = document.getElementById('intlside');
+  const head = side.querySelector('.intl-head');
+  const points = DATA.intlPoints || [];
+  const rows = points.length
+    ? points.slice().sort((a,b) => b.ev - a.ev)
+        .map(p => `<div class="region-row"><span class="r-name">${esc(p.name)}</span><span class="r-count">${esc(p.ev)}</span></div>`)
+        .join('')
+    : `<div class="rem-empty">NO INTERNATIONAL JOBS SYNCED YTD</div>`;
+  side.innerHTML = head.outerHTML + rows;
 }
 
 /* ============================================================================
@@ -884,17 +1019,38 @@ function nextRem(){
 /* ============================================================================
    SCENE 6 — event highlight cards + ticker
    ========================================================================== */
+// Up to 20 cards now (top-20-by-value leaderboard, see sync.js), same 3x3
+// safe page size as Today/Team. Not shuffled — order is the ranking itself.
+let eventTimer = null, eventPageIdx = 0, eventPages = [];
 function renderEvents(){
-  document.getElementById('eventgrid').innerHTML = (DATA.events || []).map(e => `
+  const events = DATA.events || [];
+  clearInterval(eventTimer);
+  if (!events.length){
+    document.getElementById('eventgrid').innerHTML = `<div class="rem-empty">NO RECENT EVENTS SYNCED YET</div>`;
+  } else {
+    eventPages = paginate(events, 9);
+    eventPageIdx = 0;
+    showEventPage();
+    if (eventPages.length > 1){
+      eventTimer = setInterval(() => {
+        if (paused) return;
+        eventPageIdx = (eventPageIdx + 1) % eventPages.length;
+        showEventPage();
+      }, 6000);
+    }
+  }
+  const items = (DATA.ticker && DATA.ticker.length) ? DATA.ticker : ['Also on post — check back after the next sync.'];
+  const t = items.join(' &nbsp;·&nbsp; ') + ' &nbsp;·&nbsp; ';
+  document.getElementById('ticker').innerHTML = t + t;
+}
+function showEventPage(){
+  document.getElementById('eventgrid').innerHTML = eventPages[eventPageIdx].map(e => `
     <div class="event-card ${e.upcoming ? 'upcoming' : ''}">
       <div class="badge-row">${(e.badges || []).map(b => `<span class="badge">${esc(b)}</span>`).join('')}</div>
       <div class="e-title">${esc(e.title)}</div>
       <div class="e-client">${esc(e.client)}</div>
       <div class="e-venue">${esc(e.venue)}</div>
-    </div>`).join('') || `<div class="rem-empty">NO RECENT EVENTS SYNCED YET</div>`;
-  const items = (DATA.ticker && DATA.ticker.length) ? DATA.ticker : ['Also on post — check back after the next sync.'];
-  const t = items.join(' &nbsp;·&nbsp; ') + ' &nbsp;·&nbsp; ';
-  document.getElementById('ticker').innerHTML = t + t;
+    </div>`).join('');
 }
 
 /* ============================================================================
@@ -1039,6 +1195,7 @@ function applyData(d){
   DATA = Object.assign({}, MOCK_DATA, d || {});
   renderMetrics(DATA.metrics);
   renderMapSide();
+  renderIntlSide();
   renderTodayPosts();
   renderFixedAccounts();
   remIndex = -1;

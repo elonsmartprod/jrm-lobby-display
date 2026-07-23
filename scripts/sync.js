@@ -43,6 +43,8 @@ const OPS_FIELDS = {
     "EVENT TYPE **",
     "City",
     "Flag Job as Cancelled",
+    "Total Invoiced Amount",
+    "Job Cost Estimate",
   ],
   offices: ["Office", "Appear on Interface"],
   rems: ["REMS", "Colors", "Branch", "Count Events"],
@@ -55,7 +57,10 @@ const OPS_FIELDS = {
   // cards) and the geo/city/state fields the map needs. Lat/Long/City/State
   // are non-sensitive (no POC, contact, or revenue data on this table) —
   // see the geocode-venues.js backfill for how Lat/Long get populated.
-  venuesGeo: ["VenueName", "Lat", "Long", "City", "State"],
+  // VenueAddress1 is included only to text-match a country/region for the
+  // International Deployments card (see matchIntlRegion) — never surfaced
+  // to the display as a literal street address.
+  venuesGeo: ["VenueName", "Lat", "Long", "City", "State", "VenueAddress1"],
 };
 
 // Server-side cap on how many distinct venue markets (grouped by city+state)
@@ -80,6 +85,107 @@ const OFFICE_GEO = {
   Arizona: [-112.07, 33.45],
   Washington: [-122.33, 47.61],
 };
+
+// International Deployments card: VENUES has no Country field and Lat/Long
+// is never populated for these (geocode-venues.js explicitly skips anything
+// flagged State="International" — the free Census geocoder is US-only), so
+// the only signal available is a free-text match against VenueAddress1.
+// Keyed by lowercase country/city keyword -> the named region it rolls up
+// into, plus a representative center point (used for the fallback glow when
+// index.html has no hand-drawn outline for that region yet).
+//
+// ponytail: seeded with common countries/cities a US security-guard company
+// is plausibly likely to work in, not an exhaustive world gazetteer. Add a
+// keyword here (and log output will tell you when one's missing — see the
+// "unmatched" warning in fetchOpsMetrics) rather than guessing silently.
+const COUNTRY_REGIONS = {
+  // Western Europe
+  "united kingdom": { region: "Western Europe", lon: 5, lat: 48 }, uk: { region: "Western Europe", lon: 5, lat: 48 },
+  england: { region: "Western Europe", lon: 5, lat: 48 }, scotland: { region: "Western Europe", lon: 5, lat: 48 },
+  wales: { region: "Western Europe", lon: 5, lat: 48 }, london: { region: "Western Europe", lon: 5, lat: 48 },
+  manchester: { region: "Western Europe", lon: 5, lat: 48 }, edinburgh: { region: "Western Europe", lon: 5, lat: 48 },
+  ireland: { region: "Western Europe", lon: 5, lat: 48 }, dublin: { region: "Western Europe", lon: 5, lat: 48 },
+  france: { region: "Western Europe", lon: 5, lat: 48 }, paris: { region: "Western Europe", lon: 5, lat: 48 },
+  germany: { region: "Western Europe", lon: 5, lat: 48 }, berlin: { region: "Western Europe", lon: 5, lat: 48 },
+  munich: { region: "Western Europe", lon: 5, lat: 48 }, frankfurt: { region: "Western Europe", lon: 5, lat: 48 },
+  netherlands: { region: "Western Europe", lon: 5, lat: 48 }, amsterdam: { region: "Western Europe", lon: 5, lat: 48 },
+  belgium: { region: "Western Europe", lon: 5, lat: 48 }, brussels: { region: "Western Europe", lon: 5, lat: 48 },
+  switzerland: { region: "Western Europe", lon: 5, lat: 48 }, zurich: { region: "Western Europe", lon: 5, lat: 48 },
+  geneva: { region: "Western Europe", lon: 5, lat: 48 }, austria: { region: "Western Europe", lon: 5, lat: 48 },
+  vienna: { region: "Western Europe", lon: 5, lat: 48 }, italy: { region: "Western Europe", lon: 5, lat: 48 },
+  rome: { region: "Western Europe", lon: 5, lat: 48 }, milan: { region: "Western Europe", lon: 5, lat: 48 },
+  spain: { region: "Western Europe", lon: 5, lat: 48 }, madrid: { region: "Western Europe", lon: 5, lat: 48 },
+  barcelona: { region: "Western Europe", lon: 5, lat: 48 }, portugal: { region: "Western Europe", lon: 5, lat: 48 },
+  lisbon: { region: "Western Europe", lon: 5, lat: 48 }, monaco: { region: "Western Europe", lon: 5, lat: 48 },
+
+  // India (its own region, not bucketed into wider South Asia)
+  india: { region: "India", lon: 78, lat: 22 }, mumbai: { region: "India", lon: 78, lat: 22 },
+  delhi: { region: "India", lon: 78, lat: 22 }, "new delhi": { region: "India", lon: 78, lat: 22 },
+  bangalore: { region: "India", lon: 78, lat: 22 }, bengaluru: { region: "India", lon: 78, lat: 22 },
+  chennai: { region: "India", lon: 78, lat: 22 }, hyderabad: { region: "India", lon: 78, lat: 22 },
+  kolkata: { region: "India", lon: 78, lat: 22 },
+
+  // Middle East (MENA-style grouping — includes Egypt/Turkey by convention)
+  "united arab emirates": { region: "Middle East", lon: 50, lat: 25 }, uae: { region: "Middle East", lon: 50, lat: 25 },
+  dubai: { region: "Middle East", lon: 50, lat: 25 }, "abu dhabi": { region: "Middle East", lon: 50, lat: 25 },
+  "saudi arabia": { region: "Middle East", lon: 50, lat: 25 }, riyadh: { region: "Middle East", lon: 50, lat: 25 },
+  jeddah: { region: "Middle East", lon: 50, lat: 25 }, qatar: { region: "Middle East", lon: 50, lat: 25 },
+  doha: { region: "Middle East", lon: 50, lat: 25 }, kuwait: { region: "Middle East", lon: 50, lat: 25 },
+  bahrain: { region: "Middle East", lon: 50, lat: 25 }, oman: { region: "Middle East", lon: 50, lat: 25 },
+  jordan: { region: "Middle East", lon: 50, lat: 25 }, lebanon: { region: "Middle East", lon: 50, lat: 25 },
+  israel: { region: "Middle East", lon: 50, lat: 25 }, "tel aviv": { region: "Middle East", lon: 50, lat: 25 },
+  turkey: { region: "Middle East", lon: 50, lat: 25 }, istanbul: { region: "Middle East", lon: 50, lat: 25 },
+  egypt: { region: "Middle East", lon: 50, lat: 25 }, cairo: { region: "Middle East", lon: 50, lat: 25 },
+
+  // Southeast Asia
+  singapore: { region: "Southeast Asia", lon: 108, lat: 8 }, thailand: { region: "Southeast Asia", lon: 108, lat: 8 },
+  bangkok: { region: "Southeast Asia", lon: 108, lat: 8 }, vietnam: { region: "Southeast Asia", lon: 108, lat: 8 },
+  malaysia: { region: "Southeast Asia", lon: 108, lat: 8 }, "kuala lumpur": { region: "Southeast Asia", lon: 108, lat: 8 },
+  indonesia: { region: "Southeast Asia", lon: 108, lat: 8 }, jakarta: { region: "Southeast Asia", lon: 108, lat: 8 },
+  philippines: { region: "Southeast Asia", lon: 108, lat: 8 }, manila: { region: "Southeast Asia", lon: 108, lat: 8 },
+
+  // East Asia
+  china: { region: "East Asia", lon: 115, lat: 32 }, beijing: { region: "East Asia", lon: 115, lat: 32 },
+  shanghai: { region: "East Asia", lon: 115, lat: 32 }, "hong kong": { region: "East Asia", lon: 115, lat: 32 },
+  japan: { region: "East Asia", lon: 115, lat: 32 }, tokyo: { region: "East Asia", lon: 115, lat: 32 },
+  osaka: { region: "East Asia", lon: 115, lat: 32 }, "south korea": { region: "East Asia", lon: 115, lat: 32 },
+  seoul: { region: "East Asia", lon: 115, lat: 32 }, taiwan: { region: "East Asia", lon: 115, lat: 32 },
+
+  // Oceania
+  australia: { region: "Oceania", lon: 145, lat: -28 }, sydney: { region: "Oceania", lon: 145, lat: -28 },
+  melbourne: { region: "Oceania", lon: 145, lat: -28 }, "new zealand": { region: "Oceania", lon: 145, lat: -28 },
+  auckland: { region: "Oceania", lon: 145, lat: -28 },
+
+  // Canada (its own region, not "North America" generally, since JRM is US-based)
+  canada: { region: "Canada", lon: -95, lat: 56 }, toronto: { region: "Canada", lon: -95, lat: 56 },
+  vancouver: { region: "Canada", lon: -95, lat: 56 }, montreal: { region: "Canada", lon: -95, lat: 56 },
+
+  // Latin America & Caribbean
+  mexico: { region: "Latin America", lon: -102, lat: 20 }, "mexico city": { region: "Latin America", lon: -102, lat: 20 },
+  brazil: { region: "Latin America", lon: -102, lat: 20 }, "sao paulo": { region: "Latin America", lon: -102, lat: 20 },
+  argentina: { region: "Latin America", lon: -102, lat: 20 }, colombia: { region: "Latin America", lon: -102, lat: 20 },
+  bahamas: { region: "Caribbean", lon: -75, lat: 20 }, jamaica: { region: "Caribbean", lon: -75, lat: 20 },
+  "dominican republic": { region: "Caribbean", lon: -75, lat: 20 }, "cayman islands": { region: "Caribbean", lon: -75, lat: 20 },
+};
+
+// Sorted longest-keyword-first so "new delhi" matches before a hypothetical
+// shorter overlapping key would.
+const COUNTRY_REGION_KEYS = Object.keys(COUNTRY_REGIONS).sort((a, b) => b.length - a.length);
+
+function matchIntlRegion(address) {
+  if (!address) return null;
+  const lower = address.toLowerCase();
+  for (const key of COUNTRY_REGION_KEYS) {
+    if (lower.includes(key)) return COUNTRY_REGIONS[key];
+  }
+  return null;
+}
+
+// State is always a single-select on VENUES, so Airtable's API always
+// returns {id, name, color} — never a bare string — for it.
+function isInternational(state) {
+  return !!(state && state.name === "International");
+}
 
 // Asset Library records whose Name should never end up in the on-screen photo
 // gallery (personal/staff photos used elsewhere, not brand/event imagery).
@@ -226,6 +332,11 @@ async function fetchVenueGeo(cityMap) {
       lat: Number.isFinite(lat) ? lat : null,
       long: Number.isFinite(long) ? long : null,
       cityState: [cityName, state].filter(Boolean).join(", "),
+      intl: isInternational(f.State) ? matchIntlRegion(f.VenueAddress1 || "") : null,
+      // Kept only for the unmatched-venue console warning below — never
+      // written to data.json.
+      isIntlUnmatched: isInternational(f.State) && !matchIntlRegion(f.VenueAddress1 || ""),
+      address: f.VenueAddress1 || "",
     };
   }
   return map;
@@ -234,6 +345,11 @@ async function fetchVenueGeo(cityMap) {
 async function fetchOpsMetrics() {
   const now = new Date();
   const yearStart = new Date(now.getFullYear(), 0, 1);
+  // Rolling window for the Event Highlights leaderboard: 12 months back and
+  // 12 months forward, so a big upcoming job can still compete on Job Cost
+  // Estimate (see the events block below) without a separate fetch.
+  const rollingStart = daysAgo(365);
+  const rollingEnd = new Date(now.getTime() + 365 * 86400000);
 
   console.log("  Building office/city/venue/client name lookups...");
   const [{ officeMap, appear: appearOffices }, cityMap, clientMap] = await Promise.all([
@@ -254,11 +370,18 @@ async function fetchOpsMetrics() {
   const remMap = {};
   for (const r of remRecordsForNames) remMap[r.id] = r.fields.REMS || "";
 
-  // All windows we need (YTD, last 30d, next 30d) fall inside the current
-  // calendar year, so one filtered fetch covers every metric below.
+  console.log("  Fetching fixed accounts (standing venues)...");
+  // Needed before the main job fetch below so Event Highlights can exclude
+  // fixed-account venues by id.
+  const { list: fixedAccounts, venueIds: fixedVenueIds } = await fetchFixedAccounts(officeMap, venueMap);
+
+  // Fetch window covers a year either side of today: YTD/last-30/next-30
+  // metrics all fall inside it (subsets, filtered below), and it's also the
+  // full candidate pool for the Event Highlights leaderboard (rolling past
+  // 12mo + upcoming, see the events block further down).
   const jobs = await fetchAllRecords(OPS_TABLES.jobLog, OPS_BASE_ID, {
     fields: OPS_FIELDS.jobLog,
-    filterByFormula: `AND(IS_AFTER({START DATE}, '${isoDate(new Date(yearStart.getTime() - 86400000))}'), NOT({Flag Job as Cancelled}))`,
+    filterByFormula: `AND(IS_AFTER({START DATE}, '${isoDate(new Date(rollingStart.getTime() - 86400000))}'), IS_BEFORE({START DATE}, '${isoDate(new Date(rollingEnd.getTime() + 86400000))}'), NOT({Flag Job as Cancelled}))`,
   });
 
   const parsed = jobs
@@ -274,6 +397,8 @@ async function fetchOpsMetrics() {
       client: resolveLink(f["CLIENT NAME"], clientMap),
       city: resolveLink(f.City, cityMap),
       badges: [f["EVENT TYPE **"], f["CATEGORY **"]].filter(Boolean),
+      invoiced: typeof f["Total Invoiced Amount"] === "number" ? f["Total Invoiced Amount"] : 0,
+      estimate: typeof f["Job Cost Estimate"] === "number" ? f["Job Cost Estimate"] : 0,
     }))
     .filter((j) => j.start);
 
@@ -321,6 +446,30 @@ async function fetchOpsMetrics() {
     .map((g) => ({ name: g.name, lon: g.lonSum / g.venues, lat: g.latSum / g.venues, count: g.count }))
     .sort((a, b) => b.count - a.count);
   if (venuePoints.length > VENUE_POINT_CAP) venuePoints = venuePoints.slice(0, VENUE_POINT_CAP);
+
+  // International Deployments: same YTD job-count-per-venue tally as the
+  // dispersal layer above, grouped by matched region instead of venue. Only
+  // regions with at least one job this run ever appear — index.html decides
+  // per region whether to draw a hand-authored outline (Western Europe,
+  // India) or a plain glow (everything else), never the whole world.
+  const intlRegionCounts = {};
+  const unmatchedIntlVenues = new Set();
+  for (const [venueId, count] of Object.entries(venueJobCounts)) {
+    const g = venueGeo[venueId];
+    if (!g) continue;
+    if (g.isIntlUnmatched) unmatchedIntlVenues.add(`${g.name} (${g.address})`);
+    if (!g.intl) continue;
+    const key = g.intl.region;
+    if (!intlRegionCounts[key]) intlRegionCounts[key] = { name: key, lon: g.intl.lon, lat: g.intl.lat, ev: 0 };
+    intlRegionCounts[key].ev += count;
+  }
+  const intlPoints = Object.values(intlRegionCounts).sort((a, b) => b.ev - a.ev);
+  if (unmatchedIntlVenues.size) {
+    console.warn(
+      `  ! ${unmatchedIntlVenues.size} venue(s) flagged International but VenueAddress1 didn't match any known country/city — add a keyword to COUNTRY_REGIONS:`
+    );
+    unmatchedIntlVenues.forEach((v) => console.warn(`      - ${v}`));
+  }
 
   // Heatmap: full-YTD event count per office, mapped onto static geo. (Was
   // rolling-30-day; switched to YTD so the number on each bloom matches the
@@ -377,27 +526,35 @@ async function fetchOpsMetrics() {
         .map((j) => ({ name: j.name, meta: j.start.toLocaleDateString("en-US", { month: "short", day: "2-digit" }).toUpperCase() })),
     }));
 
-  // Event highlight cards + ticker both read from the last-30/next-30 lists,
-  // deduped by job name — MASTER JOB LOG has occasional true duplicate rows
-  // (same job re-entered), and showing "Monster Jam" twice back-to-back
-  // reads as a display glitch even when the underlying rows are real. This
-  // is a display-only dedup: recent30/upcoming30 (and the metrics built from
-  // them above) keep every row, since guards/event counts should reflect
-  // what's actually in the log.
+  // Ticker reads from the last-30 list, deduped by job name — MASTER JOB LOG
+  // has occasional true duplicate rows (same job re-entered), and showing
+  // "Monster Jam" twice back-to-back reads as a display glitch even when the
+  // underlying rows are real. Display-only dedup: recent30 (and the metrics
+  // built from it above) keeps every row, since guards/event counts should
+  // reflect what's actually in the log.
   const recent30Shown = dedupeByName(recent30);
-  const upcoming30Shown = dedupeByName(upcoming30);
 
-  // Event highlight cards: mix of the most recent completed + soonest upcoming.
-  const events = [
-    ...recent30Shown.slice().sort((a, b) => b.start - a.start).slice(0, 5).map((j) => ({ ...j, upcoming: false })),
-    ...upcoming30Shown.slice().sort((a, b) => a.start - b.start).slice(0, 3).map((j) => ({ ...j, upcoming: true })),
-  ].map((j) => ({
-    client: j.client,
-    title: j.name,
-    venue: [j.venue, j.city].filter(Boolean).join(" · "),
-    badges: j.badges.slice(0, 1),
-    upcoming: j.upcoming,
-  }));
+  // Event Highlights: top 20 by dollar value over the rolling past+next 12
+  // months, fixed-account venues excluded (those are standing posts, not
+  // "events" — they get their own scene). A job's value is its Total
+  // Invoiced Amount once it's been billed; upcoming/not-yet-invoiced jobs
+  // fall back to Job Cost Estimate, so a big upcoming job can still earn a
+  // slot on its own merits rather than a reserved quota.
+  const eventCandidates = dedupeByName(
+    parsed.filter((j) => j.start >= rollingStart && j.start <= rollingEnd && !(j.venueId && fixedVenueIds.has(j.venueId)))
+  );
+  const rankValue = (j) => (j.invoiced > 0 ? j.invoiced : j.estimate);
+  const events = eventCandidates
+    .filter((j) => rankValue(j) > 0)
+    .sort((a, b) => rankValue(b) - rankValue(a))
+    .slice(0, 20)
+    .map((j) => ({
+      client: j.client,
+      title: j.name,
+      venue: [j.venue, j.city].filter(Boolean).join(" · "),
+      badges: j.badges.slice(0, 1),
+      upcoming: j.start > now,
+    }));
 
   // Ticker: everything else from the last 30 days not already in the grid.
   const highlighted = new Set(events.map((e) => e.title));
@@ -406,24 +563,25 @@ async function fetchOpsMetrics() {
     .slice(0, 20)
     .map((j) => `<b>${escapeHtml(j.name)}</b>${j.venue ? " · " + escapeHtml(j.venue) : ""}`);
 
-  console.log("  Fetching fixed accounts (standing venues)...");
-  const fixedAccounts = await fetchFixedAccounts(officeMap, venueMap);
-
   console.log("  Fetching today's live post roster...");
   const todayPosts = await fetchTodayPosts(remMap, venueMap, clientMap, cityMap);
 
-  return { metrics, heatPoints, venuePoints, rems, events, ticker, fixedAccounts, todayPosts };
+  return { metrics, heatPoints, venuePoints, intlPoints, rems, events, ticker, fixedAccounts, todayPosts };
 }
 
 // Standing engagements — not one-off events. Reads whatever the "Fixed
 // Accounts" Airtable view already filters to (viwMjWdWE0PoAWHmu on the job
 // log), instead of re-deriving the same conditions here — if the definition
 // of "currently active" changes, edit the view in Airtable, not this file.
+// Also returns the raw venue-id set (not just names) so Event Highlights can
+// exclude these venues without a name-matching risk (two venues sharing a
+// display name would otherwise cross-contaminate).
 async function fetchFixedAccounts(officeMap, venueMap) {
   const jobs = await fetchAllRecords(OPS_TABLES.jobLog, OPS_BASE_ID, {
     fields: ["VENUE NAME", "JRM Office", "START DATE"],
     view: "viwMjWdWE0PoAWHmu",
   });
+  const venueIds = new Set(jobs.map((r) => linkId(r.fields["VENUE NAME"])).filter(Boolean));
   const accounts = jobs
     .map((r) => ({
       name: resolveLink(r.fields["VENUE NAME"], venueMap),
@@ -431,7 +589,8 @@ async function fetchFixedAccounts(officeMap, venueMap) {
       since: r.fields["START DATE"] ? new Date(r.fields["START DATE"]).getFullYear() : null,
     }))
     .filter((a) => a.name);
-  return dedupeByName(accounts).sort((a, b) => a.name.localeCompare(b.name));
+  const list = dedupeByName(accounts).sort((a, b) => a.name.localeCompare(b.name));
+  return { list, venueIds };
 }
 
 // Live "who's on post right now" roster — same view-owns-the-filter pattern
@@ -627,6 +786,7 @@ async function main() {
     metrics: ops.metrics,
     heatPoints: ops.heatPoints,
     venuePoints: ops.venuePoints,
+    intlPoints: ops.intlPoints,
     fixedAccounts: ops.fixedAccounts,
     todayPosts: ops.todayPosts,
     rems: ops.rems,
@@ -651,7 +811,8 @@ async function main() {
   console.log(
     `Wrote data.json — ${callouts.length} callout(s), ${bios.length} bio(s), ${gallery.length} gallery photo(s), ` +
       `${ops.metrics.eventsYTD} events YTD, ${ops.rems.length} REM(s), ${ops.venuePoints.length} venue market(s), ` +
-      `${ops.fixedAccounts.length} fixed account(s), ${ops.todayPosts.length} live post(s)${swept ? `, swept ${swept} orphaned asset(s)` : ""}.`
+      `${ops.intlPoints.length} int'l region(s), ${ops.fixedAccounts.length} fixed account(s), ` +
+      `${ops.todayPosts.length} live post(s)${swept ? `, swept ${swept} orphaned asset(s)` : ""}.`
   );
 }
 
