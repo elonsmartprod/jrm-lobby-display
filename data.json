@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T23:27:03.556Z",
-  "commit": "4e247b9",
+  "generatedAt": "2026-07-23T03:47:02.168Z",
+  "commit": "db95726",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -207,19 +207,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1439,
-    "events30": 155,
-    "guards30": 1874,
+    "eventsYTD": 1450,
+    "events30": 159,
+    "guards30": 1860,
     "citiesYTD": 100,
-    "upcoming30": 64,
-    "perDay": 7.088669950738916
+    "upcoming30": 54,
+    "perDay": 7.142857142857143
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 835,
+      "ev": 844,
       "w": 1,
       "hq": true
     },
@@ -228,7 +228,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 65,
-      "w": 0.07784431137724551,
+      "w": 0.07701421800947868,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 135,
-      "w": 0.16167664670658682,
+      "w": 0.15995260663507108,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 93,
-      "w": 0.11137724550898204,
+      "w": 0.11018957345971564,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 35,
-      "w": 0.041916167664670656,
+      "w": 0.041469194312796206,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 93,
-      "w": 0.11137724550898204,
+      "ev": 94,
+      "w": 0.11137440758293839,
       "hq": true
     },
     {
@@ -268,7 +268,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 50,
-      "w": 0.059880239520958084,
+      "w": 0.05924170616113744,
       "hq": false
     }
   ],
@@ -277,7 +277,7 @@
       "name": "Los Angeles",
       "lon": -118.31690242651335,
       "lat": 34.06172991511665,
-      "count": 425
+      "count": 426
     },
     {
       "name": "North Hollywood",
@@ -295,7 +295,7 @@
       "name": "San Francisco",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 69
+      "count": 70
     },
     {
       "name": "West Hollywood",
@@ -325,7 +325,7 @@
       "name": "Culver City",
       "lon": -118.39045209121825,
       "lat": 34.0242194781745,
-      "count": 28
+      "count": 30
     },
     {
       "name": "Hollywood Hills",
@@ -382,6 +382,12 @@
       "count": 8
     },
     {
+      "name": "San Diego",
+      "lon": -117.16806476463698,
+      "lat": 32.745997205141144,
+      "count": 7
+    },
+    {
       "name": "Brooklyn",
       "lon": -73.97153746666666,
       "lat": 40.69991893333333,
@@ -427,12 +433,6 @@
       "name": "RT Bistro",
       "lon": -122.4229511,
       "lat": 37.7748399,
-      "count": 3
-    },
-    {
-      "name": "San Diego",
-      "lon": -117.18494766666667,
-      "lat": 32.75715066666667,
       "count": 3
     },
     {
@@ -815,16 +815,37 @@
     {
       "rem": "Chris Estrada",
       "venue": "TBD",
-      "client": "Amazon Studios",
-      "job": "Amazon Spaceballs Costume SDCC",
+      "client": "Apple",
+      "job": "Apple San Diego Comic Con Activation",
       "city": ""
     },
     {
       "rem": "Chris Estrada",
-      "venue": "LA Convention Center",
+      "venue": "Hard Rock Hotel San Diego",
       "client": "Amazon Studios",
-      "job": "SIGGRAPH AP",
-      "city": "Los Angeles"
+      "job": "Amazon Influencer EP SDCC",
+      "city": ""
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Children's Park-San Diego",
+      "client": "MAP360",
+      "job": "Map 360 SDCC 2026",
+      "city": ""
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "US Grant Hotel",
+      "client": "HBO",
+      "job": "HBO SDCC EP",
+      "city": "San Diego"
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "TBD",
+      "client": "Amazon Studios",
+      "job": "Amazon Spaceballs Costume SDCC",
+      "city": ""
     },
     {
       "rem": "Tony D’Gracia",
@@ -1273,20 +1294,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 38,
+      "events30": 43,
       "career": 2285,
       "recent": [
         {
-          "name": "Apple San Diego Comic Con Activation",
-          "meta": "JUL 22"
+          "name": "Indie feature Salsa Sangre",
+          "meta": "JUL 23"
         },
         {
-          "name": "Dr Nader Milkhail Private Event",
-          "meta": "JUL 22"
+          "name": "Amazon SDCC Amazon Hospitality Suite and Blue Room",
+          "meta": "JUL 23"
         },
         {
-          "name": "Los Angeles Sparks vs Phoenix Mercury",
-          "meta": "JUL 22"
+          "name": "Super Trooper 3 Premiere",
+          "meta": "JUL 23"
         }
       ]
     },
@@ -1294,9 +1315,13 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 27,
+      "events30": 28,
       "career": 477,
       "recent": [
+        {
+          "name": "FA26 NFL Rivalries Photo Shoot - Houston",
+          "meta": "JUL 23"
+        },
         {
           "name": "Map 360 SDCC 2026",
           "meta": "JUL 22"
@@ -1304,10 +1329,6 @@
         {
           "name": "Super Troopers 3 Press Tour-Seattle",
           "meta": "JUL 21"
-        },
-        {
-          "name": "Super Trooper 3-Press Tour-Cleveland",
-          "meta": "JUL 20"
         }
       ]
     },
@@ -1315,7 +1336,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 21,
+      "events30": 18,
       "career": 311,
       "recent": [
         {
@@ -1336,19 +1357,19 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 11,
+      "events30": 12,
       "career": 263,
       "recent": [
+        {
+          "name": "7.23 Jack's x Latham & Watkins Retirement Dinner",
+          "meta": "JUL 23"
+        },
         {
           "name": "7.17 Emerald x Elena",
           "meta": "JUL 17"
         },
         {
           "name": "7.17 Doyle EP-Oakhust",
-          "meta": "JUL 17"
-        },
-        {
-          "name": "AGI Summit 2026",
           "meta": "JUL 17"
         }
       ]
@@ -1377,58 +1398,13 @@
   ],
   "events": [
     {
-      "client": "Apple",
-      "title": "Apple San Diego Comic Con Activation",
-      "venue": "TBD",
-      "badges": [
-        "Other"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "RVRS Dr. Nader Mikhail",
-      "title": "Dr Nader Milkhail Private Event",
-      "venue": "3084 Taylor Way Costa Mesa Ca 92626",
-      "badges": [
-        "Private Party/Event"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "OpenAI",
-      "title": "San Bernardino Event",
-      "venue": "TBD",
-      "badges": [
-        "Other"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "The Impact Agency",
-      "title": "Hope Screening",
-      "venue": "NYA Studios West · Los Angeles",
-      "badges": [
-        "Screening"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "MAP360",
-      "title": "Map 360 SDCC 2026",
-      "venue": "Children's Park-San Diego",
-      "badges": [
-        "Convention"
-      ],
-      "upcoming": false
-    },
-    {
       "client": "Nike",
       "title": "FA26 NFL Rivalries Photo Shoot - Houston",
       "venue": "Houston, TX · Houston",
       "badges": [
         "Production Shoot"
       ],
-      "upcoming": true
+      "upcoming": false
     },
     {
       "client": "Unknown",
@@ -1437,7 +1413,7 @@
       "badges": [
         "Photo Shoot"
       ],
-      "upcoming": true
+      "upcoming": false
     },
     {
       "client": "Amazon Studios",
@@ -1445,6 +1421,51 @@
       "venue": "The Pendry · San Diego",
       "badges": [
         "Other"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "SKYLIGHT",
+      "title": "7.23 Jack's x Latham & Watkins Retirement Dinner",
+      "venue": "Jack's Restaurant · San Francisco",
+      "badges": [
+        "Private Party/Event"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Disney",
+      "title": "Super Trooper 3 ComicCon Premiere",
+      "venue": "AMC Mission Valley 20 · San Diego",
+      "badges": [
+        "Premiere"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Grammy Museum",
+      "title": "GRAMMY MUSEUM - DreamSphere",
+      "venue": "Grammy Museum · Los Angeles",
+      "badges": [
+        "Private Party/Event"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "Protos Security",
+      "title": "Protos Lowes 7/24",
+      "venue": "Lowes- Clinton",
+      "badges": [
+        "Other"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "Dallas Cowboys Cheerleaders",
+      "title": "7.24 DCC x Photoshoot ",
+      "venue": "NYC · New York",
+      "badges": [
+        "Photo Shoot"
       ],
       "upcoming": true
     }
