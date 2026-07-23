@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-23T18:38:33.078Z",
-  "commit": "ab519a6",
+  "generatedAt": "2026-07-23T20:27:31.441Z",
+  "commit": "04845ae",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -634,6 +634,7 @@
       "count": 1
     }
   ],
+  "intlPoints": [],
   "fixedAccounts": [
     {
       "name": "Aston at Gateway",
@@ -1398,76 +1399,184 @@
   ],
   "events": [
     {
-      "client": "Nike",
-      "title": "FA26 NFL Rivalries Photo Shoot - Houston",
-      "venue": "Houston, TX · Houston",
+      "client": "Warner Brothers",
+      "title": "Warner Brothers Multi Day Event",
+      "venue": "TBD",
       "badges": [
-        "Production Shoot"
+        "Other"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "Paramount",
+      "title": "BET Awards 2026",
+      "venue": "Peacock Theater · Los Angeles",
+      "badges": [
+        "Awards Show"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Milken Institute  ",
+      "title": "Milken Conference 2026",
+      "venue": "Beverly Hilton Hotel · Beverly Hills",
+      "badges": [
+        "Other"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "NBA Entertainment",
+      "title": "NBA All Star Fan Fest",
+      "venue": "Los Angeles Convention Center · Los Angeles",
+      "badges": [
+        "Other"
       ],
       "upcoming": false
     },
     {
       "client": "Unknown",
-      "title": "Indie feature Salsa Sangre",
-      "venue": "TBD",
+      "title": "BET X 2026",
+      "venue": "The Beehive · Los Angeles",
       "badges": [
-        "Photo Shoot"
+        "Convention"
       ],
       "upcoming": false
     },
     {
-      "client": "Amazon Studios",
-      "title": "Amazon SDCC Amazon Hospitality Suite and Blue Room",
-      "venue": "The Pendry · San Diego",
+      "client": "SPJA",
+      "title": "Anime Expo 2026",
+      "venue": "Los Angeles Convention Center · Los Angeles",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "AutoDesk",
+      "title": "Autodesk - AU 2026 - Las Vegas, NV",
+      "venue": "100 Thieves",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": true
+    },
+    {
+      "client": "Jack Morton",
+      "title": "Sephoria",
+      "venue": "Magic Box · Los Angeles",
+      "badges": [
+        "Product Activation"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "",
+      "title": "AutoDesk 2025",
+      "venue": "Music City Center · Nashville",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Doyle Security Services Inc.",
+      "title": "Doyle x LinkedIn San Francisco",
+      "venue": "San Francisco · San Francisco",
       "badges": [
         "Other"
       ],
       "upcoming": false
     },
     {
-      "client": "SKYLIGHT",
-      "title": "7.23 Jack's x Latham & Watkins Retirement Dinner",
-      "venue": "Jack's Restaurant · San Francisco",
+      "client": "The Recording Academy",
+      "title": "Grammys 2026",
+      "venue": "Crypto.com Arena · Los Angeles",
       "badges": [
-        "Private Party/Event"
+        "Awards Show"
       ],
       "upcoming": false
     },
     {
-      "client": "Disney",
-      "title": "Super Trooper 3 ComicCon Premiere",
-      "venue": "AMC Mission Valley 20 · San Diego",
-      "badges": [
-        "Premiere"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Grammy Museum",
-      "title": "GRAMMY MUSEUM - DreamSphere",
-      "venue": "Grammy Museum · Los Angeles",
-      "badges": [
-        "Private Party/Event"
-      ],
-      "upcoming": true
-    },
-    {
-      "client": "Protos Security",
-      "title": "Protos Lowes 7/24",
-      "venue": "Lowes- Clinton",
+      "client": "Belles: 24 Windward LLC ",
+      "title": "Belles Beach House",
+      "venue": "Belles Beach House · Los Angeles",
       "badges": [
         "Other"
       ],
+      "upcoming": false
+    },
+    {
+      "client": "Paramount",
+      "title": "NAACP Awards 2026",
+      "venue": "Pasadena Civic Auditorium · Pasadena",
+      "badges": [
+        "Awards Show"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Swiss Xmas INC",
+      "title": "Swiss Holiday Market-Santa Monica",
+      "venue": "Santa Monica Pier · Santa Monica",
+      "badges": [
+        "Holiday Event"
+      ],
       "upcoming": true
     },
     {
-      "client": "Dallas Cowboys Cheerleaders",
-      "title": "7.24 DCC x Photoshoot ",
-      "venue": "NYC · New York",
+      "client": "Dick Clark Productions",
+      "title": "Golden Globes 2026",
+      "venue": "Beverly Hilton Hotel · Beverly Hills",
       "badges": [
-        "Photo Shoot"
+        "Awards Show"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "INVNT",
+      "title": "INVNT x Samsung SF",
+      "venue": "Palace of Fine Arts San Francisco · San Francisco",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Symbiotic Event Services",
+      "title": "LA Comic Con",
+      "venue": "Los Angeles Convention Center · Los Angeles",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Élephante: The Pelican, LLC",
+      "title": "Elephante Santa Monica",
+      "venue": "Elephante · Santa Monica",
+      "badges": [
+        "Other"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Swiss Xmas INC",
+      "title": "Swiss Holiday Market-SD",
+      "venue": "Liberty Station-SD",
+      "badges": [
+        "Holiday Event"
       ],
       "upcoming": true
+    },
+    {
+      "client": "Delta Center",
+      "title": "Delta Center Renovations",
+      "venue": "Delta Center · Salt Lake City",
+      "badges": [
+        "Other"
+      ],
+      "upcoming": false
     }
   ],
   "ticker": [
