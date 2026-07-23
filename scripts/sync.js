@@ -484,16 +484,28 @@ async function fetchOpsMetrics() {
   // India) or a plain glow (everything else), never the whole world.
   const intlRegionCounts = {};
   const unmatchedIntlVenues = new Set();
+  const matchedIntlVenues = new Set();
+  let intlCandidateVenueCount = 0;
   for (const [venueId, count] of Object.entries(venueJobCounts)) {
     const g = venueGeo[venueId];
     if (!g) continue;
-    if (g.isIntlUnmatched) unmatchedIntlVenues.add(`${g.name} (${g.address})`);
-    if (!g.intl) continue;
+    if (!g.intl && !g.isIntlUnmatched) continue; // domestic venue, not relevant here
+    intlCandidateVenueCount++;
+    if (g.isIntlUnmatched) { unmatchedIntlVenues.add(`${g.name} (${g.address})`); continue; }
+    matchedIntlVenues.add(`${g.name} -> ${g.intl.region}`);
     const key = g.intl.region;
     if (!intlRegionCounts[key]) intlRegionCounts[key] = { name: key, lon: g.intl.lon, lat: g.intl.lat, ev: 0 };
     intlRegionCounts[key].ev += count;
   }
   const intlPoints = Object.values(intlRegionCounts).sort((a, b) => b.ev - a.ev);
+  // Always logged (not just on a mismatch) so a run that finds ZERO
+  // international venues in the YTD window is visibly distinguishable from
+  // one that found some but couldn't match them to a region.
+  console.log(
+    `  International Deployments: ${intlCandidateVenueCount} venue(s) with a YTD job flagged International, ` +
+      `${matchedIntlVenues.size} matched to a region, ${unmatchedIntlVenues.size} unmatched.`
+  );
+  if (matchedIntlVenues.size) matchedIntlVenues.forEach((v) => console.log(`      - ${v}`));
   if (unmatchedIntlVenues.size) {
     console.warn(
       `  ! ${unmatchedIntlVenues.size} venue(s) flagged International but VenueAddress1 didn't match any known country/city — add a keyword to COUNTRY_REGIONS:`
