@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-24T00:29:59.367Z",
-  "commit": "38bb6d2",
+  "generatedAt": "2026-07-24T03:47:33.282Z",
+  "commit": "dc86b3b",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -41,14 +41,6 @@
       "authorInitials": "MI",
       "authorPhoto": "assets/synced/recJVKCKeCeY8cOcM-attRY8OFAJhXz9TDp.jpeg",
       "photo": "assets/synced/recJVKCKeCeY8cOcM-attdma05KrmWXlwX5.jpeg"
-    },
-    {
-      "byline": "18 Years at the Grammys",
-      "text": "JRM has managed security operations for the Grammy Awards for 18 consecutive years, most recently for the 68th Grammy Awards at Crypto.com Arena — trusted with one of music's biggest nights, year after year.",
-      "author": "JRM Marketing",
-      "authorInitials": "JRM",
-      "authorPhoto": null,
-      "photo": null
     }
   ],
   "team": [
@@ -1680,14 +1672,6 @@
       "byline": "What an epic weekend!",
       "text": "JRM-NV concluded a very busy weekend supporting the Rex Group and UFC in the security efforts for Power Slap at the Cosmopolitan and for UFC 329 at T-Mobile Arena.\n\nThank you JRM-NV staff for your continued dedication and professionalism! ",
       "photo": "assets/synced/recJVKCKeCeY8cOcM-attdma05KrmWXlwX5.jpeg"
-    },
-    {
-      "author": "JRM Marketing",
-      "authorInitials": "JRM",
-      "authorPhoto": null,
-      "byline": "18 Years at the Grammys",
-      "text": "JRM has managed security operations for the Grammy Awards for 18 consecutive years, most recently for the 68th Grammy Awards at Crypto.com Arena — trusted with one of music's biggest nights, year after year.",
-      "photo": null
     }
   ],
   "photos": [
