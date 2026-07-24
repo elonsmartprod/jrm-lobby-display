@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-24T00:14:23.623Z",
-  "commit": "692eb99",
+  "generatedAt": "2026-07-24T00:29:59.367Z",
+  "commit": "38bb6d2",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -274,367 +274,392 @@
   ],
   "venuePoints": [
     {
-      "name": "Los Angeles",
+      "name": "Los Angeles, CA",
       "lon": -118.31690242651335,
       "lat": 34.06172991511665,
       "count": 427
     },
     {
-      "name": "North Hollywood",
+      "name": "CA",
+      "lon": -119.06961561556137,
+      "lat": 35.5852464243633,
+      "count": 81
+    },
+    {
+      "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
       "count": 80
     },
     {
-      "name": "New York",
+      "name": "New York, NY",
       "lon": -73.98915989613025,
       "lat": 40.744471461065075,
       "count": 74
     },
     {
-      "name": "San Francisco",
+      "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
       "count": 70
     },
     {
-      "name": "West Hollywood",
+      "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
       "count": 66
     },
     {
-      "name": "Las Vegas",
+      "name": "Las Vegas, NV",
       "lon": -115.16091227485441,
       "lat": 36.1133307003479,
       "count": 56
     },
     {
-      "name": "Hollywood",
+      "name": "Hollywood, CA",
       "lon": -118.33277580612615,
       "lat": 34.097870581608326,
       "count": 44
     },
     {
-      "name": "Beverly Hills",
+      "name": "Beverly Hills, CA",
       "lon": -118.40086844605668,
       "lat": 34.068454553929,
       "count": 32
     },
     {
-      "name": "Culver City",
+      "name": "Culver City, CA",
       "lon": -118.39045209121825,
       "lat": 34.0242194781745,
       "count": 30
     },
     {
-      "name": "Hollywood Hills",
+      "name": "Hollywood Hills, CA",
       "lon": -118.3377778,
       "lat": 34.1077778,
       "count": 24
     },
     {
-      "name": "Dallas",
+      "name": "Dallas, TX",
       "lon": -96.80460389999998,
       "lat": 32.80861900000001,
       "count": 16
     },
     {
-      "name": "Nashville",
+      "name": "Nashville, TN",
       "lon": -86.72942341700772,
       "lat": 36.10218930443827,
       "count": 15
     },
     {
-      "name": "Santa Monica",
+      "name": "Santa Monica, CA",
       "lon": -118.48273099122325,
       "lat": 34.01786263865675,
       "count": 14
     },
     {
-      "name": "100 Thieves",
-      "lon": -118.3806667,
-      "lat": 34.0204737,
-      "count": 11
-    },
-    {
-      "name": "Salt Lake City",
+      "name": "Salt Lake City, UT",
       "lon": -111.90004345055044,
       "lat": 40.75082211438022,
       "count": 10
     },
     {
-      "name": "Century City",
+      "name": "Century City, CA",
       "lon": -118.41705353333334,
       "lat": 34.0562655,
       "count": 9
     },
     {
-      "name": "Miami",
+      "name": "Miami, FL",
       "lon": -80.15913806977244,
       "lat": 25.800135794700115,
       "count": 9
     },
     {
-      "name": "Seattle",
+      "name": "UT",
+      "lon": -111.85628192407114,
+      "lat": 40.608921902956126,
+      "count": 9
+    },
+    {
+      "name": "Seattle, WA",
       "lon": -122.330826425,
       "lat": 47.6140752375,
       "count": 8
     },
     {
-      "name": "Brooklyn",
+      "name": "Brooklyn, NY",
       "lon": -73.97153746666666,
       "lat": 40.69991893333333,
       "count": 8
     },
     {
-      "name": "San Diego",
+      "name": "San Diego, CA",
       "lon": -117.16806476463698,
       "lat": 32.745997205141144,
       "count": 7
     },
     {
-      "name": "Chicago",
+      "name": "Chicago, IL",
       "lon": -87.64210333011249,
       "lat": 41.90254882497967,
       "count": 7
     },
     {
-      "name": "Thermal",
+      "name": "Thermal, CA",
       "lon": -116.2023098,
       "lat": 33.6485353,
       "count": 5
     },
     {
-      "name": "Malibu",
+      "name": "Malibu, CA",
       "lon": -118.81201097499999,
       "lat": 34.0479904,
       "count": 4
     },
     {
-      "name": "Atlanta",
+      "name": "Atlanta, GA",
       "lon": -84.36799646666667,
       "lat": 33.79154066666666,
       "count": 4
     },
     {
-      "name": "Indio",
+      "name": "Indio, CA",
       "lon": -116.228001825,
       "lat": 33.71127635,
       "count": 4
     },
     {
-      "name": "Denver",
+      "name": "Denver, CO",
       "lon": -104.970397377045,
       "lat": 39.708691521729,
       "count": 3
     },
     {
-      "name": "RT Bistro",
-      "lon": -122.4229511,
-      "lat": 37.7748399,
-      "count": 3
-    },
-    {
-      "name": "Pasadena",
+      "name": "Pasadena, CA",
       "lon": -104.6818294011085,
       "lat": 36.2730293705965,
       "count": 3
     },
     {
-      "name": "Long Beach",
+      "name": "Long Beach, CA",
       "lon": -118.19101813187,
       "lat": 33.76556901741066,
       "count": 3
     },
     {
-      "name": "Philadelphia",
+      "name": "Philadelphia, PA",
       "lon": -75.16586395737566,
       "lat": 39.977081246135,
       "count": 3
     },
     {
-      "name": "Wedding Venue",
-      "lon": -118.1873442,
-      "lat": 33.7723944,
-      "count": 3
-    },
-    {
-      "name": "Universal City",
+      "name": "Universal City, CA",
       "lon": -118.352547,
       "lat": 34.1371163,
       "count": 3
     },
     {
-      "name": "Houston",
+      "name": "Houston, TX",
       "lon": -95.36136619999999,
       "lat": 29.75116055,
       "count": 3
     },
     {
-      "name": "TCL Chinese Theater",
-      "lon": -118.34094,
-      "lat": 34.1021166,
-      "count": 3
-    },
-    {
-      "name": "Santa Barbara",
+      "name": "Santa Barbara, CA",
       "lon": -119.7067795,
       "lat": 34.4389,
       "count": 3
     },
     {
-      "name": "Pura Padel",
-      "lon": -118.437094271788,
-      "lat": 34.157547847717,
-      "count": 3
-    },
-    {
-      "name": "Woodland Hills",
+      "name": "Woodland Hills, CA",
       "lon": -118.63578993594,
       "lat": 34.158020018066,
       "count": 3
     },
     {
-      "name": "Washington DC",
+      "name": "VA",
+      "lon": -77.91118441348333,
+      "lat": 38.40360231315133,
+      "count": 3
+    },
+    {
+      "name": "Washington DC, DC",
       "lon": -77.04713597427,
       "lat": 38.927391158228,
       "count": 3
     },
     {
-      "name": "Wayfare Tavern",
-      "lon": -122.3999415,
-      "lat": 37.7921145,
-      "count": 3
-    },
-    {
-      "name": "Via Aurelia",
-      "lon": -122.3886534,
-      "lat": 37.7757734,
-      "count": 3
-    },
-    {
-      "name": "Park City",
+      "name": "Park City, UT",
       "lon": -111.496941233666,
       "lat": 40.656708990783,
       "count": 2
     },
     {
-      "name": "Lombardi House",
-      "lon": -118.318309,
-      "lat": 34.1022139,
-      "count": 2
-    },
-    {
-      "name": "Burbank",
+      "name": "Burbank, CA",
       "lon": -118.3120395,
       "lat": 34.1818707,
       "count": 2
     },
     {
-      "name": "Baltimore",
+      "name": "Baltimore, MD",
       "lon": -76.62387985000001,
       "lat": 39.3050409,
       "count": 2
     },
     {
-      "name": "ABC7/KGO",
-      "lon": -122.3994771,
-      "lat": 37.80013599999999,
-      "count": 2
-    },
-    {
-      "name": "Oakland",
+      "name": "Oakland, CA",
       "lon": -122.2674687924605,
       "lat": 37.800773221927,
       "count": 2
     },
     {
-      "name": "Boston",
+      "name": "TN",
+      "lon": -87.1158837,
+      "lat": 36.42290575,
+      "count": 2
+    },
+    {
+      "name": "Boston, MA",
       "lon": -71.07852689999999,
       "lat": 42.3494563,
       "count": 2
     },
     {
-      "name": "Anaheim",
+      "name": "Anaheim, CA",
       "lon": -117.9196541,
       "lat": 33.8001266,
       "count": 2
     },
     {
-      "name": "Henderson",
+      "name": "Henderson, NV",
       "lon": -115.08555035,
       "lat": 36.04779575,
       "count": 2
     },
     {
-      "name": "Los Feliz",
+      "name": "Los Feliz, CA",
       "lon": -118.3004219,
       "lat": 34.118407,
       "count": 2
     },
     {
-      "name": "Janus ",
-      "lon": -111.9010701,
-      "lat": 40.6940693,
-      "count": 2
-    },
-    {
-      "name": "Buda",
+      "name": "Buda, TX",
       "lon": -97.8275718,
       "lat": 30.0854113,
       "count": 2
     },
     {
-      "name": "Kansas City",
+      "name": "Kansas City, MO",
       "lon": -94.5854524574685,
       "lat": 39.09234505527,
       "count": 2
     },
     {
-      "name": "Little Elm",
+      "name": "NY",
+      "lon": -75.20490330553599,
+      "lat": 42.08112675835399,
+      "count": 2
+    },
+    {
+      "name": "Little Elm, TX",
       "lon": -96.8792593,
       "lat": 33.17833330000001,
       "count": 2
     },
     {
-      "name": "Austin",
+      "name": "Austin, TX",
       "lon": -97.719098684263,
       "lat": 30.28564236639,
       "count": 2
     },
     {
-      "name": "Costa Mesa",
+      "name": "Costa Mesa, CA",
       "lon": -117.9026252,
       "lat": 33.6662566,
       "count": 2
     },
     {
-      "name": "Riverhead",
+      "name": "Riverhead, NY",
       "lon": -72.6563066,
       "lat": 40.9183512,
       "count": 2
     },
     {
-      "name": "Cambridge",
+      "name": "Cambridge, MA",
       "lon": -71.10128619999999,
       "lat": 42.36362159999999,
       "count": 1
     },
     {
-      "name": "Grand Theater San Francisco",
-      "lon": -122.418426,
-      "lat": 37.7543988,
+      "name": "Gilbert, AZ",
+      "lon": -111.7428009,
+      "lat": 33.3099412,
       "count": 1
     },
     {
-      "name": "Beverly Vista Middle School",
-      "lon": -118.3941285,
-      "lat": 34.0643313,
+      "name": "Antioch, TN",
+      "lon": -86.6149649,
+      "lat": 36.0534411,
+      "count": 1
+    },
+    {
+      "name": "Redondo Beach, CA",
+      "lon": -118.3895713,
+      "lat": 33.8375968,
+      "count": 1
+    },
+    {
+      "name": "Tuscon, AZ",
+      "lon": -111.052318061403,
+      "lat": 32.214073026448,
+      "count": 1
+    },
+    {
+      "name": "Redmond, WA",
+      "lon": -122.096240808996,
+      "lat": 47.660582319296,
+      "count": 1
+    },
+    {
+      "name": "Dana Point, CA",
+      "lon": -117.719542610758,
+      "lat": 33.475458993407,
+      "count": 1
+    },
+    {
+      "name": "Bowie, MD",
+      "lon": -76.761358621476,
+      "lat": 39.015954812119,
       "count": 1
     }
   ],
-  "intlPoints": [],
+  "intlPoints": [
+    {
+      "name": "Western Europe",
+      "lon": 5,
+      "lat": 48,
+      "ev": 4
+    },
+    {
+      "name": "India",
+      "lon": 78,
+      "lat": 22,
+      "ev": 1
+    },
+    {
+      "name": "Canada",
+      "lon": -95,
+      "lat": 56,
+      "ev": 1
+    },
+    {
+      "name": "Caribbean",
+      "lon": -66,
+      "lat": 18,
+      "ev": 1
+    }
+  ],
   "fixedAccounts": [
     {
       "name": "Aston at Gateway",
