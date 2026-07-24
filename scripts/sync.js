@@ -100,7 +100,10 @@ const OFFICE_GEO = {
 // "unmatched" warning in fetchOpsMetrics) rather than guessing silently.
 const COUNTRY_REGIONS = {
   // Western Europe
-  "united kingdom": { region: "Western Europe", lon: 5, lat: 48 }, uk: { region: "Western Europe", lon: 5, lat: 48 },
+  // ponytail: no bare "uk" key — a 2-char substring false-matches inside
+  // ordinary words ("Duke", "Paducah"). "united kingdom"/"england"/"london"
+  // plus the structured City field (see regionForVenue) cover UK venues.
+  "united kingdom": { region: "Western Europe", lon: 5, lat: 48 }, britain: { region: "Western Europe", lon: 5, lat: 48 },
   england: { region: "Western Europe", lon: 5, lat: 48 }, scotland: { region: "Western Europe", lon: 5, lat: 48 },
   wales: { region: "Western Europe", lon: 5, lat: 48 }, london: { region: "Western Europe", lon: 5, lat: 48 },
   manchester: { region: "Western Europe", lon: 5, lat: 48 }, edinburgh: { region: "Western Europe", lon: 5, lat: 48 },
@@ -117,6 +120,10 @@ const COUNTRY_REGIONS = {
   spain: { region: "Western Europe", lon: 5, lat: 48 }, madrid: { region: "Western Europe", lon: 5, lat: 48 },
   barcelona: { region: "Western Europe", lon: 5, lat: 48 }, portugal: { region: "Western Europe", lon: 5, lat: 48 },
   lisbon: { region: "Western Europe", lon: 5, lat: 48 }, monaco: { region: "Western Europe", lon: 5, lat: 48 },
+  // Bare "Europe" placeholder venue (e.g. the KubeCon EU 2027 site visit) —
+  // gate keeps this from ever matching a US address (only reached for venues
+  // already flagged non-US, see regionForVenue).
+  europe: { region: "Western Europe", lon: 5, lat: 48 },
 
   // India (its own region, not bucketed into wider South Asia)
   india: { region: "India", lon: 78, lat: 22 }, mumbai: { region: "India", lon: 78, lat: 22 },
@@ -171,6 +178,9 @@ const COUNTRY_REGIONS = {
   antioquia: { region: "Latin America", lon: -102, lat: 20 }, medellin: { region: "Latin America", lon: -102, lat: 20 },
   bahamas: { region: "Caribbean", lon: -75, lat: 20 }, jamaica: { region: "Caribbean", lon: -75, lat: 20 },
   "dominican republic": { region: "Caribbean", lon: -75, lat: 20 }, "cayman islands": { region: "Caribbean", lon: -75, lat: 20 },
+  // Puerto Rico is a US territory but is tagged State="International" in the
+  // job data, so it's surfaced here as Caribbean per that tagging.
+  "puerto rico": { region: "Caribbean", lon: -66, lat: 18 }, "san juan": { region: "Caribbean", lon: -66, lat: 18 },
 };
 
 // Sorted longest-keyword-first so "new delhi" matches before a hypothetical
@@ -184,6 +194,20 @@ function matchIntlRegion(text) {
     if (lower.includes(key)) return COUNTRY_REGIONS[key];
   }
   return null;
+}
+
+// Airtable's REST API (what fetchAllRecords uses) returns a single-select
+// field as the plain choice-name STRING — e.g. "International" — NOT the
+// {id, name, color} object that Airtable's newer MCP tools and some SDKs
+// surface. Every single-select read here goes through selName so both shapes
+// work; assuming the object shape is exactly what left isInternational always
+// false and the whole International Deployments card empty.
+//   Side note: this is also why REM option colors can't resolve from the REST
+//   payload — that API returns a choice's NAME but never its color token, so
+//   colorHex(f.Colors.color) has nothing to read regardless of shape.
+function selName(v) {
+  if (!v) return "";
+  return typeof v === "object" ? v.name || "" : String(v);
 }
 
 // VENUES.State is NOT just a US-state-or-"International" flag in practice —
@@ -205,16 +229,17 @@ const US_STATE_CODES = new Set([
   "LV",
 ]);
 function isInternational(state) {
-  const name = (state && state.name) || "";
+  const name = selName(state);
   return !!name && !US_STATE_CODES.has(name);
 }
 
-// For a venue already flagged international, prefer matching directly off
-// the State choice itself (covers "Delhi"/"Antioquia"/"NZ" reliably, since
-// that's structured data) before falling back to free-text VenueAddress1
-// (the only signal left for venues generically flagged "International").
-function regionForVenue(state, address) {
-  return matchIntlRegion((state && state.name) || "") || matchIntlRegion(address || "");
+// For a venue already flagged international, match off structured data first
+// — the State choice ("Delhi"/"Antioquia"/"NZ") then the linked City name
+// ("New Delhi"/"London") — before the free-text VenueAddress1, which is the
+// noisiest signal and the last resort. City catches venues whose address is
+// just a street ("Sector 25 Dwarka") with the country only in the city link.
+function regionForVenue(state, city, address) {
+  return matchIntlRegion(selName(state)) || matchIntlRegion(city || "") || matchIntlRegion(address || "");
 }
 
 // Asset Library records whose Name should never end up in the on-screen photo
@@ -356,16 +381,16 @@ async function fetchVenueGeo(cityMap) {
     const lat = f.Lat ? parseFloat(f.Lat) : null;
     const long = f.Long ? parseFloat(f.Long) : null;
     const cityName = resolveLink(f.City, cityMap);
-    const state = (f.State && f.State.name) || "";
+    const state = selName(f.State);
     map[r.id] = {
       name: f.VenueName || "",
       lat: Number.isFinite(lat) ? lat : null,
       long: Number.isFinite(long) ? long : null,
       cityState: [cityName, state].filter(Boolean).join(", "),
-      intl: isInternational(f.State) ? regionForVenue(f.State, f.VenueAddress1) : null,
+      intl: isInternational(f.State) ? regionForVenue(f.State, cityName, f.VenueAddress1) : null,
       // Kept only for the unmatched-venue console warning below — never
       // written to data.json.
-      isIntlUnmatched: isInternational(f.State) && !regionForVenue(f.State, f.VenueAddress1),
+      isIntlUnmatched: isInternational(f.State) && !regionForVenue(f.State, cityName, f.VenueAddress1),
       address: f.VenueAddress1 || "",
     };
   }
