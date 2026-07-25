@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-24T23:17:24.768Z",
-  "commit": "9a535e1",
+  "generatedAt": "2026-07-25T00:57:38.362Z",
+  "commit": "aadf0a1",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1456,
-    "events30": 160,
-    "guards30": 1871,
+    "eventsYTD": 1462,
+    "events30": 159,
+    "guards30": 1806,
     "citiesYTD": 100,
-    "upcoming30": 49,
-    "perDay": 7.102439024390244
+    "upcoming30": 47,
+    "perDay": 7.131707317073171
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 846,
+      "ev": 849,
       "w": 1,
       "hq": true
     },
@@ -219,16 +219,16 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 65,
-      "w": 0.0768321513002364,
+      "ev": 66,
+      "w": 0.07773851590106007,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 138,
-      "w": 0.16312056737588654,
+      "ev": 139,
+      "w": 0.16372202591283863,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 93,
-      "w": 0.1099290780141844,
+      "w": 0.10954063604240283,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 36,
-      "w": 0.0425531914893617,
+      "w": 0.04240282685512368,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 94,
-      "w": 0.1111111111111111,
+      "w": 0.11071849234393404,
       "hq": true
     },
     {
@@ -260,22 +260,22 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 50,
-      "w": 0.0591016548463357,
+      "w": 0.05889281507656066,
       "hq": false
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.31690242651335,
-      "lat": 34.06172991511665,
-      "count": 427
+      "lon": -118.31828807505472,
+      "lat": 34.06223570323404,
+      "count": 428
     },
     {
       "name": "CA",
-      "lon": -119.06961561556137,
-      "lat": 35.5852464243633,
-      "count": 81
+      "lon": -119.037224284235,
+      "lat": 35.53646653087442,
+      "count": 82
     },
     {
       "name": "North Hollywood, CA",
@@ -293,7 +293,7 @@
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 70
+      "count": 71
     },
     {
       "name": "West Hollywood, CA",
@@ -305,7 +305,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.16091227485441,
       "lat": 36.1133307003479,
-      "count": 56
+      "count": 57
     },
     {
       "name": "Hollywood, CA",
@@ -831,6 +831,27 @@
   ],
   "todayPosts": [
     {
+      "rem": "Patrick J McKillop",
+      "venue": "Lowes- Clinton",
+      "client": "Protos Security",
+      "job": "Protos Lowes 7/24",
+      "city": ""
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "Duggal Greenhouse at Brooklyn Navy Yard",
+      "client": "SV Productions",
+      "job": "Duggal Greenhouse 7.24",
+      "city": "Brooklyn"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "Starrett-Lehigh",
+      "client": "SPACE Productions",
+      "job": "Shoppe Object - Summer 2026",
+      "city": "New York"
+    },
+    {
       "rem": "Chris Estrada",
       "venue": "TBD",
       "client": "Unknown",
@@ -1326,19 +1347,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 42,
+      "events30": 40,
       "career": 2286,
       "recent": [
+        {
+          "name": "Amazon Blerd and Bougie Party SDCC",
+          "meta": "JUL 25"
+        },
         {
           "name": "Indie feature Salsa Sangre",
           "meta": "JUL 23"
         },
         {
           "name": "Amazon SDCC Amazon Hospitality Suite and Blue Room",
-          "meta": "JUL 23"
-        },
-        {
-          "name": "Super Trooper 3 Premiere",
           "meta": "JUL 23"
         }
       ]
@@ -1372,15 +1393,15 @@
       "career": 311,
       "recent": [
         {
+          "name": "Amazon Music Filming",
+          "meta": "JUL 25"
+        },
+        {
           "name": "7.24 DCC x Photoshoot ",
           "meta": "JUL 24"
         },
         {
           "name": "Shoppe Object - Summer 2026",
-          "meta": "JUL 24"
-        },
-        {
-          "name": "Duggal Greenhouse 7.24",
           "meta": "JUL 24"
         }
       ]
@@ -1389,9 +1410,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 11,
+      "events30": 12,
       "career": 263,
       "recent": [
+        {
+          "name": "7.25 Polyglamourous",
+          "meta": "JUL 25"
+        },
         {
           "name": "7.23 Jack's x Latham & Watkins Retirement Dinner",
           "meta": "JUL 23"
@@ -1399,31 +1424,27 @@
         {
           "name": "7.17 Emerald x Elena",
           "meta": "JUL 17"
-        },
-        {
-          "name": "7.17 Doyle EP-Oakhust",
-          "meta": "JUL 17"
         }
       ]
     },
     {
-      "name": "Kyle Crowther",
-      "office": "Tennessee",
+      "name": "Alejandra Ruezga",
+      "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 9,
-      "career": 70,
+      "events30": 10,
+      "career": 266,
       "recent": [
         {
-          "name": "CNN PHX 7.21",
-          "meta": "JUL 21"
+          "name": "78th Los Angeles Area Emmy Awards",
+          "meta": "JUL 25"
         },
         {
-          "name": "Drum-Off Regionals-TN",
-          "meta": "JUL 16"
+          "name": "TVA Moana Screening Room",
+          "meta": "JUL 18"
         },
         {
-          "name": "Protos-TJ MAXX-Springhill",
-          "meta": "JUL 12"
+          "name": "TVA Screening Room",
+          "meta": "JUL 15"
         }
       ]
     }
