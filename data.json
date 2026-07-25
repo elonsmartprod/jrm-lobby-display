@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-25T04:30:14.076Z",
-  "commit": "41ddbcf",
+  "generatedAt": "2026-07-25T07:29:31.919Z",
+  "commit": "37db621",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1462,
-    "events30": 159,
-    "guards30": 1806,
+    "eventsYTD": 1463,
+    "events30": 160,
+    "guards30": 1814,
     "citiesYTD": 100,
     "upcoming30": 48,
-    "perDay": 7.131707317073171
+    "perDay": 7.136585365853659
   },
   "heatPoints": [
     {
@@ -1410,9 +1410,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 12,
-      "career": 263,
+      "events30": 13,
+      "career": 264,
       "recent": [
+        {
+          "name": "7.25-7.28 Overton EP",
+          "meta": "JUL 25"
+        },
         {
           "name": "7.25 Polyglamourous",
           "meta": "JUL 25"
@@ -1420,10 +1424,6 @@
         {
           "name": "7.23 Jack's x Latham & Watkins Retirement Dinner",
           "meta": "JUL 23"
-        },
-        {
-          "name": "7.17 Emerald x Elena",
-          "meta": "JUL 17"
         }
       ]
     },
