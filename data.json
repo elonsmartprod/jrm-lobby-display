@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-25T23:14:44.890Z",
-  "commit": "4f7cafb",
+  "generatedAt": "2026-07-26T00:16:20.465Z",
+  "commit": "f7ae977",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1463,
-    "events30": 160,
-    "guards30": 1814,
+    "eventsYTD": 1466,
+    "events30": 157,
+    "guards30": 1709,
     "citiesYTD": 100,
-    "upcoming30": 48,
-    "perDay": 7.101941747572815
+    "upcoming30": 50,
+    "perDay": 7.116504854368932
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 849,
+      "ev": 851,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 66,
-      "w": 0.07773851590106007,
+      "w": 0.07755581668625147,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 139,
-      "w": 0.16372202591283863,
+      "w": 0.16333725029377202,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 93,
-      "w": 0.10954063604240283,
+      "w": 0.10928319623971798,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 36,
-      "w": 0.04240282685512368,
+      "w": 0.04230317273795535,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 94,
-      "w": 0.11071849234393404,
+      "w": 0.11045828437132785,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 50,
-      "w": 0.05889281507656066,
+      "w": 0.05875440658049354,
       "hq": false
     }
   ],
@@ -281,7 +281,7 @@
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 80
+      "count": 81
     },
     {
       "name": "New York, NY",
@@ -293,7 +293,7 @@
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 71
+      "count": 72
     },
     {
       "name": "West Hollywood, CA",
@@ -831,18 +831,18 @@
   ],
   "todayPosts": [
     {
+      "rem": "Mathias Gibson",
+      "venue": "Various",
+      "client": "Overton Security",
+      "job": "7.25-7.28 Overton EP",
+      "city": ""
+    },
+    {
       "rem": "Patrick J McKillop",
       "venue": "Lowes- Clinton",
       "client": "Protos Security",
       "job": "Protos Lowes 7/24",
       "city": ""
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "Duggal Greenhouse at Brooklyn Navy Yard",
-      "client": "SV Productions",
-      "job": "Duggal Greenhouse 7.24",
-      "city": "Brooklyn"
     },
     {
       "rem": "Tony D’Gracia",
@@ -857,13 +857,6 @@
       "client": "Unknown",
       "job": "Indie feature Salsa Sangre",
       "city": ""
-    },
-    {
-      "rem": "Chris Estrada",
-      "venue": "The Pendry",
-      "client": "Amazon Studios",
-      "job": "Amazon SDCC Amazon Hospitality Suite and Blue Room",
-      "city": "San Diego"
     },
     {
       "rem": "Chris Estrada",
@@ -892,13 +885,6 @@
       "client": "HBO",
       "job": "HBO SDCC EP",
       "city": "San Diego"
-    },
-    {
-      "rem": "Chris Estrada",
-      "venue": "TBD",
-      "client": "Amazon Studios",
-      "job": "Amazon Spaceballs Costume SDCC",
-      "city": ""
     },
     {
       "rem": "Tony D’Gracia",
@@ -1347,7 +1333,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 40,
+      "events30": 38,
       "career": 2286,
       "recent": [
         {
@@ -1410,9 +1396,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 13,
+      "events30": 14,
       "career": 264,
       "recent": [
+        {
+          "name": "7.26 Deviants",
+          "meta": "JUL 26"
+        },
         {
           "name": "7.25-7.28 Overton EP",
           "meta": "JUL 25"
@@ -1420,10 +1410,6 @@
         {
           "name": "7.25 Polyglamourous",
           "meta": "JUL 25"
-        },
-        {
-          "name": "7.23 Jack's x Latham & Watkins Retirement Dinner",
-          "meta": "JUL 23"
         }
       ]
     },
@@ -1431,9 +1417,13 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 10,
+      "events30": 11,
       "career": 266,
       "recent": [
+        {
+          "name": "TVA The Odyssey Screening",
+          "meta": "JUL 26"
+        },
         {
           "name": "78th Los Angeles Area Emmy Awards",
           "meta": "JUL 25"
@@ -1441,10 +1431,6 @@
         {
           "name": "TVA Moana Screening Room",
           "meta": "JUL 18"
-        },
-        {
-          "name": "TVA Screening Room",
-          "meta": "JUL 15"
         }
       ]
     }
