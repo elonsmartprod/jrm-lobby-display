@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-26T22:14:57.009Z",
-  "commit": "cb0d6e8",
+  "generatedAt": "2026-07-26T23:15:22.156Z",
+  "commit": "a90d434",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1466,
-    "events30": 157,
-    "guards30": 1709,
+    "eventsYTD": 1465,
+    "events30": 156,
+    "guards30": 1708,
     "citiesYTD": 100,
     "upcoming30": 50,
-    "perDay": 7.082125603864735
+    "perDay": 7.0772946859903385
   },
   "heatPoints": [
     {
@@ -227,8 +227,8 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 139,
-      "w": 0.16333725029377202,
+      "ev": 138,
+      "w": 0.16216216216216217,
       "hq": false
     },
     {
@@ -1375,7 +1375,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 21,
+      "events30": 20,
       "career": 311,
       "recent": [
         {
@@ -1383,11 +1383,11 @@
           "meta": "JUL 25"
         },
         {
-          "name": "7.24 DCC x Photoshoot ",
+          "name": "Shoppe Object - Summer 2026",
           "meta": "JUL 24"
         },
         {
-          "name": "Shoppe Object - Summer 2026",
+          "name": "Duggal Greenhouse 7.24",
           "meta": "JUL 24"
         }
       ]
