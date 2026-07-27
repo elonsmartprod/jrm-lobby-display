@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-27T20:44:46.292Z",
-  "commit": "c160545",
+  "generatedAt": "2026-07-27T22:20:18.933Z",
+  "commit": "a4a8460",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 155,
     "guards30": 1692,
     "citiesYTD": 100,
-    "upcoming30": 48,
+    "upcoming30": 57,
     "perDay": 7.072115384615385
   },
   "heatPoints": [
@@ -1313,7 +1313,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 39,
-      "career": 2286,
+      "career": 2295,
       "recent": [
         {
           "name": "Super Trooper 3 Family and Friends Screening",
