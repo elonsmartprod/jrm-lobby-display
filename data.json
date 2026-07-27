@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-27T15:15:46.232Z",
-  "commit": "3a71920",
+  "generatedAt": "2026-07-27T17:13:07.789Z",
+  "commit": "dd840af",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 155,
     "guards30": 1692,
     "citiesYTD": 100,
-    "upcoming30": 47,
+    "upcoming30": 48,
     "perDay": 7.0673076923076925
   },
   "heatPoints": [
@@ -273,9 +273,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.037224284235,
-      "lat": 35.53646653087442,
-      "count": 82
+      "lon": -119.01834104688959,
+      "lat": 35.505592618795035,
+      "count": 83
     },
     {
       "name": "North Hollywood, CA",
@@ -350,6 +350,12 @@
       "count": 14
     },
     {
+      "name": "UT",
+      "lon": -111.87940666441334,
+      "lat": 40.668274742085224,
+      "count": 10
+    },
+    {
       "name": "Salt Lake City, UT",
       "lon": -111.90004345055044,
       "lat": 40.75082211438022,
@@ -365,12 +371,6 @@
       "name": "Miami, FL",
       "lon": -80.15913806977244,
       "lat": 25.800135794700115,
-      "count": 9
-    },
-    {
-      "name": "UT",
-      "lon": -111.85628192407114,
-      "lat": 40.608921902956126,
       "count": 9
     },
     {
