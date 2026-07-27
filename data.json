@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-27T11:41:33.379Z",
-  "commit": "7460c99",
+  "generatedAt": "2026-07-27T15:15:46.232Z",
+  "commit": "3a71920",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1469,
-    "events30": 154,
-    "guards30": 1691,
+    "eventsYTD": 1470,
+    "events30": 155,
+    "guards30": 1692,
     "citiesYTD": 100,
-    "upcoming30": 46,
-    "perDay": 7.096618357487923
+    "upcoming30": 47,
+    "perDay": 7.0673076923076925
   },
   "heatPoints": [
     {
@@ -251,8 +251,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 94,
-      "w": 0.11032863849765258,
+      "ev": 95,
+      "w": 0.11150234741784038,
       "hq": true
     },
     {
@@ -1333,20 +1333,20 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 27,
-      "career": 477,
+      "events30": 28,
+      "career": 478,
       "recent": [
         {
           "name": "FA26 NFL Rivalries Photo Shoot - Houston",
           "meta": "JUL 23"
         },
         {
-          "name": "Map 360 SDCC 2026",
-          "meta": "JUL 22"
+          "name": "FAHO26 First String Lifestyle Photoshoot",
+          "meta": "JUL 23"
         },
         {
-          "name": "Super Troopers 3 Press Tour-Seattle",
-          "meta": "JUL 21"
+          "name": "Map 360 SDCC 2026",
+          "meta": "JUL 22"
         }
       ]
     },
