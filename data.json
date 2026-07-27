@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-26T23:15:22.156Z",
-  "commit": "a90d434",
+  "generatedAt": "2026-07-27T00:31:12.734Z",
+  "commit": "9668949",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1465,
-    "events30": 156,
-    "guards30": 1708,
+    "eventsYTD": 1469,
+    "events30": 154,
+    "guards30": 1691,
     "citiesYTD": 100,
-    "upcoming30": 50,
-    "perDay": 7.0772946859903385
+    "upcoming30": 46,
+    "perDay": 7.096618357487923
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 851,
+      "ev": 852,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 66,
-      "w": 0.07755581668625147,
+      "w": 0.07746478873239436,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 138,
-      "w": 0.16216216216216217,
+      "ev": 139,
+      "w": 0.16314553990610328,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 93,
-      "w": 0.10928319623971798,
+      "w": 0.10915492957746478,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 36,
-      "w": 0.04230317273795535,
+      "w": 0.04225352112676056,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 94,
-      "w": 0.11045828437132785,
+      "w": 0.11032863849765258,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 50,
-      "w": 0.05875440658049354,
+      "w": 0.05868544600938967,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31828807505472,
       "lat": 34.06223570323404,
-      "count": 428
+      "count": 429
     },
     {
       "name": "CA",
@@ -287,7 +287,7 @@
       "name": "New York, NY",
       "lon": -73.98915989613025,
       "lat": 40.744471461065075,
-      "count": 74
+      "count": 75
     },
     {
       "name": "San Francisco, CA",
@@ -831,6 +831,13 @@
   ],
   "todayPosts": [
     {
+      "rem": "Sevan Ohanians",
+      "venue": "TBD",
+      "client": "NVE Experience",
+      "job": "Spotify Record Release Party",
+      "city": ""
+    },
+    {
       "rem": "Mathias Gibson",
       "venue": "Various",
       "client": "Overton Security",
@@ -857,34 +864,6 @@
       "client": "Unknown",
       "job": "Indie feature Salsa Sangre",
       "city": ""
-    },
-    {
-      "rem": "Chris Estrada",
-      "venue": "TBD",
-      "client": "Apple",
-      "job": "Apple San Diego Comic Con Activation",
-      "city": ""
-    },
-    {
-      "rem": "Chris Estrada",
-      "venue": "Hard Rock Hotel San Diego",
-      "client": "Amazon Studios",
-      "job": "Amazon Influencer EP SDCC",
-      "city": ""
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Children's Park-San Diego",
-      "client": "MAP360",
-      "job": "Map 360 SDCC 2026",
-      "city": ""
-    },
-    {
-      "rem": "Chris Estrada",
-      "venue": "US Grant Hotel",
-      "client": "HBO",
-      "job": "HBO SDCC EP",
-      "city": "San Diego"
     },
     {
       "rem": "Tony D’Gracia",
@@ -1333,19 +1312,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 38,
+      "events30": 39,
       "career": 2286,
       "recent": [
+        {
+          "name": "Super Trooper 3 Family and Friends Screening",
+          "meta": "JUL 27"
+        },
         {
           "name": "Amazon Blerd and Bougie Party SDCC",
           "meta": "JUL 25"
         },
         {
           "name": "Indie feature Salsa Sangre",
-          "meta": "JUL 23"
-        },
-        {
-          "name": "Amazon SDCC Amazon Hospitality Suite and Blue Room",
           "meta": "JUL 23"
         }
       ]
@@ -1354,7 +1333,7 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 28,
+      "events30": 27,
       "career": 477,
       "recent": [
         {
@@ -1375,19 +1354,19 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 20,
+      "events30": 21,
       "career": 311,
       "recent": [
+        {
+          "name": "7.27 Wall St",
+          "meta": "JUL 27"
+        },
         {
           "name": "Amazon Music Filming",
           "meta": "JUL 25"
         },
         {
           "name": "Shoppe Object - Summer 2026",
-          "meta": "JUL 24"
-        },
-        {
-          "name": "Duggal Greenhouse 7.24",
           "meta": "JUL 24"
         }
       ]
@@ -1400,37 +1379,37 @@
       "career": 264,
       "recent": [
         {
+          "name": "7.27 Emerald EP",
+          "meta": "JUL 27"
+        },
+        {
+          "name": "7.27 Emerald EPxDriver",
+          "meta": "JUL 27"
+        },
+        {
           "name": "7.26 Deviants",
           "meta": "JUL 26"
-        },
-        {
-          "name": "7.25-7.28 Overton EP",
-          "meta": "JUL 25"
-        },
-        {
-          "name": "7.25 Polyglamourous",
-          "meta": "JUL 25"
         }
       ]
     },
     {
-      "name": "Alejandra Ruezga",
+      "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 11,
-      "career": 266,
+      "events30": 10,
+      "career": 853,
       "recent": [
         {
-          "name": "TVA The Odyssey Screening",
+          "name": "Spotify Record Release Party",
           "meta": "JUL 26"
         },
         {
-          "name": "78th Los Angeles Area Emmy Awards",
+          "name": "Charity Fundraising Stream Event",
           "meta": "JUL 25"
         },
         {
-          "name": "TVA Moana Screening Room",
-          "meta": "JUL 18"
+          "name": "GRAMMY MUSEUM - DreamSphere",
+          "meta": "JUL 24"
         }
       ]
     }
