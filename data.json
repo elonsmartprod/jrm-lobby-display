@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-28T03:38:31.899Z",
-  "commit": "82311bf",
+  "generatedAt": "2026-07-28T06:42:20.554Z",
+  "commit": "05669a2",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1475,
-    "events30": 150,
-    "guards30": 1651,
+    "eventsYTD": 1476,
+    "events30": 151,
+    "guards30": 1655,
     "citiesYTD": 100,
     "upcoming30": 53,
-    "perDay": 7.091346153846154
+    "perDay": 7.096153846153846
   },
   "heatPoints": [
     {
@@ -251,8 +251,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 95,
-      "w": 0.11085180863477247,
+      "ev": 96,
+      "w": 0.11201866977829639,
       "hq": true
     },
     {
@@ -1319,9 +1319,13 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 28,
-      "career": 478,
+      "events30": 29,
+      "career": 479,
       "recent": [
+        {
+          "name": "Nike x FA26 NFL Rivalries Photo Shoot - INDY",
+          "meta": "JUL 27"
+        },
         {
           "name": "FA26 NFL Rivalries Photo Shoot - Houston",
           "meta": "JUL 23"
@@ -1329,10 +1333,6 @@
         {
           "name": "FAHO26 First String Lifestyle Photoshoot",
           "meta": "JUL 23"
-        },
-        {
-          "name": "Map 360 SDCC 2026",
-          "meta": "JUL 22"
         }
       ]
     },
@@ -1594,6 +1594,7 @@
     "<b>NALC 74th Annual Convention</b> · Los Angeles Convention Center",
     "<b>Los Angeles Sparks vs Indiana Fever</b> · Crypto.com Arena",
     "<b>The One Qualifiers</b> · NYC",
+    "<b>Nike x FA26 NFL Rivalries Photo Shoot - INDY</b> · Indianapolis",
     "<b>Los Angeles Sparks vs New York Liberty</b> · Crypto.com Arena",
     "<b>Netflix HRD Ice Cream Truck Tour-Philadelphia</b> · Ritterhouse Square",
     "<b>7.14 Nike x World Cup Watch Party</b> · The Ground",
@@ -1601,8 +1602,7 @@
     "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center",
     "<b>This That Monaleo-ATL</b> · Atlanta",
     "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
-    "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO",
-    "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum"
+    "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO"
   ],
   "linkedin": [
     {
