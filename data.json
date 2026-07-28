@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-28T18:47:42.837Z",
-  "commit": "3b8680b",
+  "generatedAt": "2026-07-28T20:35:37.248Z",
+  "commit": "2b38e08",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 143,
     "guards30": 1625,
     "citiesYTD": 100,
-    "upcoming30": 54,
+    "upcoming30": 55,
     "perDay": 7.023923444976076
   },
   "heatPoints": [
@@ -1299,7 +1299,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 31,
-      "career": 2295,
+      "career": 2296,
       "recent": [
         {
           "name": "Los Angeles Sparks vs New York Liberty",
@@ -1383,7 +1383,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 9,
-      "career": 853,
+      "career": 855,
       "recent": [
         {
           "name": "Spotify Record Release Party",
