@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-27T22:20:18.933Z",
-  "commit": "a4a8460",
+  "generatedAt": "2026-07-28T00:12:40.911Z",
+  "commit": "28cfebe",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1471,
-    "events30": 155,
-    "guards30": 1692,
+    "eventsYTD": 1475,
+    "events30": 150,
+    "guards30": 1651,
     "citiesYTD": 100,
-    "upcoming30": 57,
-    "perDay": 7.072115384615385
+    "upcoming30": 53,
+    "perDay": 7.091346153846154
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 853,
+      "ev": 857,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 66,
-      "w": 0.07737397420867527,
+      "w": 0.07701283547257877,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 139,
-      "w": 0.16295427901524032,
+      "w": 0.16219369894982497,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 93,
-      "w": 0.10902696365767878,
+      "w": 0.10851808634772463,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 36,
-      "w": 0.04220398593200469,
+      "w": 0.042007001166861145,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 95,
-      "w": 0.11137162954279015,
+      "w": 0.11085180863477247,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 50,
-      "w": 0.05861664712778429,
+      "w": 0.058343057176196034,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3181769954324,
       "lat": 34.062236104047194,
-      "count": 430
+      "count": 432
     },
     {
       "name": "CA",
@@ -299,7 +299,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 66
+      "count": 67
     },
     {
       "name": "Las Vegas, NV",
@@ -323,7 +323,7 @@
       "name": "Culver City, CA",
       "lon": -118.39045209121825,
       "lat": 34.0242194781745,
-      "count": 30
+      "count": 31
     },
     {
       "name": "Hollywood Hills, CA",
@@ -831,13 +831,6 @@
   ],
   "todayPosts": [
     {
-      "rem": "Sevan Ohanians",
-      "venue": "TBD",
-      "client": "NVE Experience",
-      "job": "Spotify Record Release Party",
-      "city": ""
-    },
-    {
       "rem": "Mathias Gibson",
       "venue": "Various",
       "client": "Overton Security",
@@ -864,13 +857,6 @@
       "client": "Unknown",
       "job": "Indie feature Salsa Sangre",
       "city": ""
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "Madison Square Garden",
-      "client": "Rex Group",
-      "job": "Zuffa Boxing",
-      "city": "New York"
     },
     {
       "rem": "Jessica Hernandez",
@@ -1316,16 +1302,16 @@
       "career": 2295,
       "recent": [
         {
+          "name": "Los Angeles Sparks vs New York Liberty",
+          "meta": "JUL 28"
+        },
+        {
+          "name": "Amazon Devils Mouth Screening Culver Theater",
+          "meta": "JUL 28"
+        },
+        {
           "name": "Super Trooper 3 Family and Friends Screening",
           "meta": "JUL 27"
-        },
-        {
-          "name": "Amazon Blerd and Bougie Party SDCC",
-          "meta": "JUL 25"
-        },
-        {
-          "name": "Indie feature Salsa Sangre",
-          "meta": "JUL 23"
         }
       ]
     },
@@ -1354,7 +1340,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 21,
+      "events30": 20,
       "career": 311,
       "recent": [
         {
@@ -1375,7 +1361,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 14,
+      "events30": 12,
       "career": 265,
       "recent": [
         {
@@ -1396,7 +1382,7 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 10,
+      "events30": 9,
       "career": 853,
       "recent": [
         {
@@ -1605,18 +1591,18 @@
     "<b>ABC News Utah</b> · ABC7/KGO",
     "<b>Monster Jam</b> · Crypto.com Arena",
     "<b>Monster Jam- LA Live</b> · LA Live",
+    "<b>NALC 74th Annual Convention</b> · Los Angeles Convention Center",
     "<b>Los Angeles Sparks vs Indiana Fever</b> · Crypto.com Arena",
     "<b>The One Qualifiers</b> · NYC",
+    "<b>Los Angeles Sparks vs New York Liberty</b> · Crypto.com Arena",
     "<b>Netflix HRD Ice Cream Truck Tour-Philadelphia</b> · Ritterhouse Square",
     "<b>7.14 Nike x World Cup Watch Party</b> · The Ground",
-    "<b>TVA Toy Story 5 Screening</b> · Saban Media Center [TVA]",
     "<b>Olivia Dean Concert- LA Live</b> · LA Live",
     "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center",
     "<b>This That Monaleo-ATL</b> · Atlanta",
     "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
     "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO",
-    "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
-    "<b>LA Events 7/6-7/12</b> · LA Live"
+    "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum"
   ],
   "linkedin": [
     {
