@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-28T14:43:08.478Z",
-  "commit": "3785e7b",
+  "generatedAt": "2026-07-28T16:52:10.860Z",
+  "commit": "9912142",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1476,
-    "events30": 151,
-    "guards30": 1655,
+    "eventsYTD": 1468,
+    "events30": 143,
+    "guards30": 1625,
     "citiesYTD": 100,
     "upcoming30": 53,
-    "perDay": 7.062200956937799
+    "perDay": 7.023923444976076
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 857,
+      "ev": 849,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 66,
-      "w": 0.07701283547257877,
+      "w": 0.07773851590106007,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 139,
-      "w": 0.16219369894982497,
+      "w": 0.16372202591283863,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 93,
-      "w": 0.10851808634772463,
+      "w": 0.10954063604240283,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 36,
-      "w": 0.042007001166861145,
+      "w": 0.04240282685512368,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 96,
-      "w": 0.11201866977829639,
+      "w": 0.11307420494699646,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 50,
-      "w": 0.058343057176196034,
+      "w": 0.05889281507656066,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3181769954324,
       "lat": 34.062236104047194,
-      "count": 432
+      "count": 426
     },
     {
       "name": "CA",
@@ -386,16 +386,16 @@
       "count": 8
     },
     {
-      "name": "San Diego, CA",
-      "lon": -117.16806476463698,
-      "lat": 32.745997205141144,
-      "count": 7
-    },
-    {
       "name": "Chicago, IL",
       "lon": -87.64210333011249,
       "lat": 41.90254882497967,
       "count": 7
+    },
+    {
+      "name": "San Diego, CA",
+      "lon": -117.17105989752933,
+      "lat": 32.742518380958835,
+      "count": 6
     },
     {
       "name": "Thermal, CA",
@@ -1298,7 +1298,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 39,
+      "events30": 31,
       "career": 2295,
       "recent": [
         {
@@ -1590,7 +1590,6 @@
     "<b>7.17 Emerald x Elena</b> · Multiple Venues",
     "<b>ABC News Utah</b> · ABC7/KGO",
     "<b>Monster Jam</b> · Crypto.com Arena",
-    "<b>Monster Jam- LA Live</b> · LA Live",
     "<b>NALC 74th Annual Convention</b> · Los Angeles Convention Center",
     "<b>Los Angeles Sparks vs Indiana Fever</b> · Crypto.com Arena",
     "<b>The One Qualifiers</b> · NYC",
@@ -1598,11 +1597,12 @@
     "<b>Los Angeles Sparks vs New York Liberty</b> · Crypto.com Arena",
     "<b>Netflix HRD Ice Cream Truck Tour-Philadelphia</b> · Ritterhouse Square",
     "<b>7.14 Nike x World Cup Watch Party</b> · The Ground",
-    "<b>Olivia Dean Concert- LA Live</b> · LA Live",
     "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center",
     "<b>This That Monaleo-ATL</b> · Atlanta",
     "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
-    "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO"
+    "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO",
+    "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
+    "<b>LA Events 7/6-7/12</b> · LA Live"
   ],
   "linkedin": [
     {
