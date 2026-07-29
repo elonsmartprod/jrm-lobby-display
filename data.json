@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-29T15:20:27.266Z",
-  "commit": "d4a9520",
+  "generatedAt": "2026-07-29T17:40:14.776Z",
+  "commit": "8daf31e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 144,
     "guards30": 1461,
     "citiesYTD": 100,
-    "upcoming30": 70,
+    "upcoming30": 72,
     "perDay": 7.0095238095238095
   },
   "heatPoints": [
@@ -1348,7 +1348,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 19,
-      "career": 311,
+      "career": 312,
       "recent": [
         {
           "name": "7.27 Wall St",
