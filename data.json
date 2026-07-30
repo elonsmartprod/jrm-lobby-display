@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-29T23:17:03.947Z",
-  "commit": "bcec121",
+  "generatedAt": "2026-07-30T00:14:54.960Z",
+  "commit": "7493d60",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1472,
-    "events30": 144,
-    "guards30": 1461,
+    "eventsYTD": 1476,
+    "events30": 147,
+    "guards30": 1466,
     "citiesYTD": 100,
-    "upcoming30": 75,
-    "perDay": 7.0095238095238095
+    "upcoming30": 71,
+    "perDay": 7.0285714285714285
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 850,
+      "ev": 851,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 66,
-      "w": 0.07764705882352942,
+      "w": 0.07755581668625147,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 139,
-      "w": 0.1635294117647059,
+      "ev": 142,
+      "w": 0.16686251468860164,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 93,
-      "w": 0.10941176470588235,
+      "w": 0.10928319623971798,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 37,
-      "w": 0.04352941176470588,
+      "w": 0.043478260869565216,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 96,
-      "w": 0.11294117647058824,
+      "w": 0.1128084606345476,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 50,
-      "w": 0.058823529411764705,
+      "w": 0.05875440658049354,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3181769954324,
       "lat": 34.062236104047194,
-      "count": 426
+      "count": 427
     },
     {
       "name": "CA",
@@ -287,7 +287,7 @@
       "name": "New York, NY",
       "lon": -73.98915989613025,
       "lat": 40.744471461065075,
-      "count": 75
+      "count": 76
     },
     {
       "name": "San Francisco, CA",
@@ -831,6 +831,13 @@
   ],
   "todayPosts": [
     {
+      "rem": "Patrick J McKillop",
+      "venue": "Sephora- Fashion Place",
+      "client": "Protos Security",
+      "job": "Protos Sephora 7/29",
+      "city": ""
+    },
+    {
       "rem": "Eric Frederick",
       "venue": "Los Angeles Convention Center",
       "client": "NALC",
@@ -1347,20 +1354,20 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 19,
+      "events30": 22,
       "career": 313,
       "recent": [
         {
-          "name": "7.27 Wall St",
-          "meta": "JUL 27"
+          "name": "AAS x Astor Pl Plaza",
+          "meta": "JUL 30"
         },
         {
-          "name": "Amazon Music Filming",
-          "meta": "JUL 25"
+          "name": "7.30 TRA-Building Coverage",
+          "meta": "JUL 30"
         },
         {
-          "name": "Shoppe Object - Summer 2026",
-          "meta": "JUL 24"
+          "name": "7.30 Cartwheel-NYC ",
+          "meta": "JUL 30"
         }
       ]
     },
@@ -1389,9 +1396,13 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 9,
+      "events30": 10,
       "career": 856,
       "recent": [
+        {
+          "name": "Grammy Museum - Sublime - PP",
+          "meta": "JUL 30"
+        },
         {
           "name": "Spotify Record Release Party",
           "meta": "JUL 26"
@@ -1399,10 +1410,6 @@
         {
           "name": "Charity Fundraising Stream Event",
           "meta": "JUL 25"
-        },
-        {
-          "name": "GRAMMY MUSEUM - DreamSphere",
-          "meta": "JUL 24"
         }
       ]
     }
