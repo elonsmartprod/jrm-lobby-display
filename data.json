@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-30T20:36:32.010Z",
-  "commit": "ef67043",
+  "generatedAt": "2026-07-30T22:20:37.915Z",
+  "commit": "7d44826",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 147,
     "guards30": 1466,
     "citiesYTD": 100,
-    "upcoming30": 75,
+    "upcoming30": 78,
     "perDay": 6.995260663507109
   },
   "heatPoints": [
@@ -838,7 +838,7 @@
       "city": ""
     },
     {
-      "rem": "Eric Frederick",
+      "rem": "Seanie Wolf",
       "venue": "Los Angeles Convention Center",
       "client": "NALC",
       "job": "NALC 74th Annual Convention",
@@ -1313,7 +1313,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 31,
-      "career": 2313,
+      "career": 2316,
       "recent": [
         {
           "name": "Amazon Devils Mouth Screening Perry Beach Club",
@@ -1397,7 +1397,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 10,
-      "career": 856,
+      "career": 857,
       "recent": [
         {
           "name": "Grammy Museum - Sublime - PP",
