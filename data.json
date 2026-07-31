@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-30T22:20:37.915Z",
-  "commit": "7d44826",
+  "generatedAt": "2026-07-31T00:16:24.152Z",
+  "commit": "be819b8",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1476,
-    "events30": 147,
-    "guards30": 1466,
-    "citiesYTD": 100,
-    "upcoming30": 78,
-    "perDay": 6.995260663507109
+    "eventsYTD": 1479,
+    "events30": 145,
+    "guards30": 1454,
+    "citiesYTD": 101,
+    "upcoming30": 80,
+    "perDay": 7.009478672985782
   },
   "heatPoints": [
     {
@@ -227,16 +227,16 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 142,
-      "w": 0.16686251468860164,
+      "ev": 141,
+      "w": 0.16568742655699178,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 93,
-      "w": 0.10928319623971798,
+      "ev": 94,
+      "w": 0.11045828437132785,
       "hq": false
     },
     {
@@ -251,16 +251,16 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 96,
-      "w": 0.1128084606345476,
+      "ev": 98,
+      "w": 0.11515863689776733,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 50,
-      "w": 0.05875440658049354,
+      "ev": 51,
+      "w": 0.05992949471210341,
       "hq": false
     }
   ],
@@ -387,9 +387,9 @@
     },
     {
       "name": "Chicago, IL",
-      "lon": -87.64210333011249,
-      "lat": 41.90254882497967,
-      "count": 7
+      "lon": -87.65078531303514,
+      "lat": 41.883737707196424,
+      "count": 8
     },
     {
       "name": "San Diego, CA",
@@ -831,10 +831,10 @@
   ],
   "todayPosts": [
     {
-      "rem": "Patrick J McKillop",
-      "venue": "Sephora- Fashion Place",
-      "client": "Protos Security",
-      "job": "Protos Sephora 7/29",
+      "rem": "Tony D’Gracia",
+      "venue": "Astor Pl Plaza",
+      "client": "Another A Story",
+      "job": "AAS x Astor Pl Plaza",
       "city": ""
     },
     {
@@ -1309,11 +1309,32 @@
   ],
   "rems": [
     {
+      "name": "Sean McKillop",
+      "office": "National Ops",
+      "color": "#E8B44A",
+      "events30": 31,
+      "career": 482,
+      "recent": [
+        {
+          "name": "Chicago Community Event",
+          "meta": "JUL 31"
+        },
+        {
+          "name": "Nike x FA26 NFL Rivalries Photo Shoot - INDY",
+          "meta": "JUL 27"
+        },
+        {
+          "name": "FA26 NFL Rivalries Photo Shoot - Houston",
+          "meta": "JUL 23"
+        }
+      ]
+    },
+    {
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 31,
-      "career": 2316,
+      "career": 2317,
       "recent": [
         {
           "name": "Amazon Devils Mouth Screening Perry Beach Club",
@@ -1330,31 +1351,10 @@
       ]
     },
     {
-      "name": "Sean McKillop",
-      "office": "National Ops",
-      "color": "#E8B44A",
-      "events30": 29,
-      "career": 479,
-      "recent": [
-        {
-          "name": "Nike x FA26 NFL Rivalries Photo Shoot - INDY",
-          "meta": "JUL 27"
-        },
-        {
-          "name": "FA26 NFL Rivalries Photo Shoot - Houston",
-          "meta": "JUL 23"
-        },
-        {
-          "name": "FAHO26 First String Lifestyle Photoshoot",
-          "meta": "JUL 23"
-        }
-      ]
-    },
-    {
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 20,
       "career": 314,
       "recent": [
         {
@@ -1366,8 +1366,8 @@
           "meta": "JUL 30"
         },
         {
-          "name": "7.30 Cartwheel-NYC ",
-          "meta": "JUL 30"
+          "name": "7.27 Wall St",
+          "meta": "JUL 27"
         }
       ]
     },
@@ -1375,7 +1375,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 14,
+      "events30": 13,
       "career": 267,
       "recent": [
         {
@@ -1611,12 +1611,12 @@
     "<b>Netflix HRD Ice Cream Truck Tour-Philadelphia</b> · Ritterhouse Square",
     "<b>7.14 Nike x World Cup Watch Party</b> · The Ground",
     "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center",
-    "<b>This That Monaleo-ATL</b> · Atlanta",
     "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
     "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO",
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
     "<b>LA Events 7/6-7/12</b> · LA Live",
-    "<b>UFC PPV 329</b> · T mobile Arena"
+    "<b>UFC PPV 329</b> · T mobile Arena",
+    "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41"
   ],
   "linkedin": [
     {
