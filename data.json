@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-31T00:16:24.152Z",
-  "commit": "be819b8",
+  "generatedAt": "2026-07-31T03:55:49.434Z",
+  "commit": "da5fe7d",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -1533,15 +1533,6 @@
       "upcoming": false
     },
     {
-      "client": "Swiss Xmas INC",
-      "title": "Swiss Holiday Market-Santa Monica",
-      "venue": "Santa Monica Pier · Santa Monica",
-      "badges": [
-        "Holiday Event"
-      ],
-      "upcoming": true
-    },
-    {
       "client": "Dick Clark Productions",
       "title": "Golden Globes 2026",
       "venue": "Beverly Hilton Hotel · Beverly Hills",
@@ -1578,20 +1569,29 @@
       "upcoming": false
     },
     {
-      "client": "Swiss Xmas INC",
-      "title": "Swiss Holiday Market-SD",
-      "venue": "Liberty Station-SD",
-      "badges": [
-        "Holiday Event"
-      ],
-      "upcoming": true
-    },
-    {
       "client": "Delta Center",
       "title": "Delta Center Renovations",
       "venue": "Delta Center · Salt Lake City",
       "badges": [
         "Other"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "AutoDesk",
+      "title": "Autodesk - TechX - Seattle, WA",
+      "venue": "",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Fashion Nova",
+      "title": "Fashion Nova - Santa Fe Springs",
+      "venue": "Fashion Nova Distribution Center · Santa Fe Springs",
+      "badges": [
+        "Apts-Condos-Office Bldg"
       ],
       "upcoming": false
     }
