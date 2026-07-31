@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-31T17:54:18.029Z",
-  "commit": "56bdfb8",
+  "generatedAt": "2026-07-31T19:54:17.734Z",
+  "commit": "4b36d88",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 146,
     "guards30": 1456,
     "citiesYTD": 101,
-    "upcoming30": 82,
+    "upcoming30": 83,
     "perDay": 6.981132075471698
   },
   "heatPoints": [
@@ -1383,7 +1383,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 10,
-      "career": 857,
+      "career": 858,
       "recent": [
         {
           "name": "Grammy Museum - Sublime - PP",
