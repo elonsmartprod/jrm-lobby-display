@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-31T15:29:57.308Z",
-  "commit": "fdb52db",
+  "generatedAt": "2026-07-31T17:54:18.029Z",
+  "commit": "56bdfb8",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1479,
-    "events30": 145,
-    "guards30": 1454,
+    "eventsYTD": 1480,
+    "events30": 146,
+    "guards30": 1456,
     "citiesYTD": 101,
-    "upcoming30": 80,
-    "perDay": 6.976415094339623
+    "upcoming30": 82,
+    "perDay": 6.981132075471698
   },
   "heatPoints": [
     {
@@ -251,8 +251,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 98,
-      "w": 0.11515863689776733,
+      "ev": 99,
+      "w": 0.11633372502937721,
       "hq": true
     },
     {
@@ -1083,25 +1083,11 @@
       "city": "Pasadena"
     },
     {
-      "rem": "Dani Sanchez",
-      "venue": "Fear of God Buildings",
-      "client": "Fear of God",
-      "job": "FOG# 1",
-      "city": "Los Angeles"
-    },
-    {
       "rem": "Jessica Hernandez",
       "venue": "Virgin Hotel ",
       "client": "Virgin Hotel",
       "job": "Virgin Hotel ",
       "city": "Las Vegas"
-    },
-    {
-      "rem": "Dani Sanchez",
-      "venue": "Fear of God Buildings",
-      "client": "Fear of God",
-      "job": "FOG #3 ",
-      "city": "Los Angeles"
     },
     {
       "rem": "Dani Sanchez",
@@ -1312,8 +1298,8 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 31,
-      "career": 482,
+      "events30": 32,
+      "career": 485,
       "recent": [
         {
           "name": "Chicago Community Event",
@@ -1324,8 +1310,8 @@
           "meta": "JUL 27"
         },
         {
-          "name": "FA26 NFL Rivalries Photo Shoot - Houston",
-          "meta": "JUL 23"
+          "name": "BMW iX3 Ride and Drive-Seattle",
+          "meta": "JUL 27"
         }
       ]
     },
