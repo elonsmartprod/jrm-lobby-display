@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-01T23:13:08.767Z",
-  "commit": "7f40969",
+  "generatedAt": "2026-08-02T00:14:05.691Z",
+  "commit": "3c40431",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1483,
-    "events30": 148,
-    "guards30": 1451,
+    "eventsYTD": 1485,
+    "events30": 147,
+    "guards30": 1437,
     "citiesYTD": 101,
     "upcoming30": 89,
-    "perDay": 6.962441314553991
+    "perDay": 6.971830985915493
   },
   "heatPoints": [
     {
@@ -227,8 +227,8 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 141,
-      "w": 0.16549295774647887,
+      "ev": 142,
+      "w": 0.16666666666666666,
       "hq": false
     },
     {
@@ -251,8 +251,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 100,
-      "w": 0.11737089201877934,
+      "ev": 101,
+      "w": 0.11854460093896714,
       "hq": true
     },
     {
@@ -285,9 +285,9 @@
     },
     {
       "name": "New York, NY",
-      "lon": -73.98915989613025,
-      "lat": 40.744471461065075,
-      "count": 76
+      "lon": -73.989130134691,
+      "lat": 40.74441309283264,
+      "count": 77
     },
     {
       "name": "San Francisco, CA",
@@ -838,13 +838,6 @@
       "city": "Austin"
     },
     {
-      "rem": "Sean McKillop",
-      "venue": "Marquette Park",
-      "client": "The Inner-City Muslim Action Network (IMAN) ",
-      "job": "Chicago Community Event",
-      "city": "Chicago"
-    },
-    {
       "rem": "Seanie Wolf",
       "venue": "Los Angeles Convention Center",
       "client": "NALC",
@@ -1309,16 +1302,16 @@
       "career": 485,
       "recent": [
         {
+          "name": "BMW iX3 Ride and Drive-San Francisco",
+          "meta": "AUG 02"
+        },
+        {
           "name": "8.1 Emerald Drop-Chicago",
           "meta": "AUG 01"
         },
         {
           "name": "Chicago Community Event",
           "meta": "JUL 31"
-        },
-        {
-          "name": "Nike x FA26 NFL Rivalries Photo Shoot - INDY",
-          "meta": "JUL 27"
         }
       ]
     },
@@ -1351,16 +1344,16 @@
       "career": 314,
       "recent": [
         {
+          "name": "Nike x FA27 US Open Tennis AJFC Campaign Photoshoot",
+          "meta": "AUG 02"
+        },
+        {
           "name": "AAS x Astor Pl Plaza",
           "meta": "JUL 30"
         },
         {
           "name": "7.30 TRA-Building Coverage",
           "meta": "JUL 30"
-        },
-        {
-          "name": "7.27 Wall St",
-          "meta": "JUL 27"
         }
       ]
     },
