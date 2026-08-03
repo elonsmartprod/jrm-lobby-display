@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-02T23:14:08.669Z",
-  "commit": "399c010",
+  "generatedAt": "2026-08-03T00:14:48.921Z",
+  "commit": "42461a9",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1485,
+    "eventsYTD": 1491,
     "events30": 147,
-    "guards30": 1437,
+    "guards30": 1488,
     "citiesYTD": 101,
-    "upcoming30": 89,
-    "perDay": 6.9392523364485985
+    "upcoming30": 83,
+    "perDay": 6.9672897196261685
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 852,
+      "ev": 854,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 67,
-      "w": 0.07863849765258216,
+      "ev": 68,
+      "w": 0.07962529274004684,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 142,
-      "w": 0.16666666666666666,
+      "w": 0.16627634660421545,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 94,
-      "w": 0.11032863849765258,
+      "w": 0.11007025761124122,
       "hq": false
     },
     {
@@ -244,15 +244,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 37,
-      "w": 0.04342723004694836,
+      "w": 0.04332552693208431,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 101,
-      "w": 0.11854460093896714,
+      "ev": 104,
+      "w": 0.12177985948477751,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 51,
-      "w": 0.05985915492957746,
+      "w": 0.059718969555035126,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3181769954324,
       "lat": 34.062236104047194,
-      "count": 428
+      "count": 430
     },
     {
       "name": "CA",
@@ -831,6 +831,20 @@
   ],
   "todayPosts": [
     {
+      "rem": "Tony D’Gracia",
+      "venue": "Madison Square Park NYC",
+      "client": "Nike",
+      "job": "Nike x FA27 US Open Tennis AJFC Campaign Photoshoot",
+      "city": "New York"
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "San Francisco",
+      "client": "Czarnowski ",
+      "job": "BMW iX3 Ride and Drive-San Francisco",
+      "city": "San Francisco"
+    },
+    {
       "rem": "Ryan McKillop",
       "venue": "Austin TX",
       "client": "Recess Films",
@@ -1298,20 +1312,20 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 32,
+      "events30": 34,
       "career": 485,
       "recent": [
         {
-          "name": "BMW iX3 Ride and Drive-San Francisco",
-          "meta": "AUG 02"
+          "name": "Anduril_Baltimore",
+          "meta": "AUG 03"
         },
         {
-          "name": "8.1 Emerald Drop-Chicago",
-          "meta": "AUG 01"
+          "name": "Nike DSG x Back to Sport Weekend – University of South Carolina",
+          "meta": "AUG 03"
         },
         {
-          "name": "Chicago Community Event",
-          "meta": "JUL 31"
+          "name": "Nike DSG x Ronald Acuna Jr Cleat Launch-Georgia",
+          "meta": "AUG 03"
         }
       ]
     },
@@ -1319,19 +1333,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 31,
+      "events30": 32,
       "career": 2318,
       "recent": [
+        {
+          "name": "Mamba League Invitational 2026",
+          "meta": "AUG 03"
+        },
         {
           "name": "Amazon Devils Mouth Screening Perry Beach Club",
           "meta": "JUL 29"
         },
         {
           "name": "Los Angeles Sparks vs New York Liberty",
-          "meta": "JUL 28"
-        },
-        {
-          "name": "Amazon Devils Mouth Screening Culver Theater",
           "meta": "JUL 28"
         }
       ]
@@ -1382,9 +1396,13 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 11,
+      "events30": 12,
       "career": 863,
       "recent": [
+        {
+          "name": "Grammy Museum - 8/3/26 Event",
+          "meta": "AUG 03"
+        },
         {
           "name": "Grammy Museum - 8/1/26 Event",
           "meta": "AUG 01"
@@ -1392,10 +1410,6 @@
         {
           "name": "Grammy Museum - Sublime - PP",
           "meta": "JUL 30"
-        },
-        {
-          "name": "Spotify Record Release Party",
-          "meta": "JUL 26"
         }
       ]
     }
