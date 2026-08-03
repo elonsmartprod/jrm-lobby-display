@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-03T15:18:13.143Z",
-  "commit": "81c1a6d",
+  "generatedAt": "2026-08-03T18:07:40.955Z",
+  "commit": "99803b0",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -273,9 +273,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.01834104688959,
-      "lat": 35.505592618795035,
-      "count": 83
+      "lon": -119.12804488083191,
+      "lat": 35.57919942731218,
+      "count": 85
     },
     {
       "name": "North Hollywood, CA",
@@ -518,6 +518,12 @@
       "count": 2
     },
     {
+      "name": "WA",
+      "lon": -121.87317233226949,
+      "lat": 47.502285807781504,
+      "count": 2
+    },
+    {
       "name": "Anaheim, CA",
       "lon": -117.9196541,
       "lat": 33.8001266,
@@ -617,12 +623,6 @@
       "name": "Dana Point, CA",
       "lon": -117.719542610758,
       "lat": 33.475458993407,
-      "count": 1
-    },
-    {
-      "name": "Bowie, MD",
-      "lon": -76.761358621476,
-      "lat": 39.015954812119,
       "count": 1
     }
   ],
