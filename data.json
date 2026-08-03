@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-03T19:59:57.732Z",
-  "commit": "955d7dc",
+  "generatedAt": "2026-08-03T21:31:29.984Z",
+  "commit": "e681f0d",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 147,
     "guards30": 1488,
     "citiesYTD": 101,
-    "upcoming30": 83,
+    "upcoming30": 86,
     "perDay": 6.934883720930233
   },
   "heatPoints": [
@@ -1334,7 +1334,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 32,
-      "career": 2318,
+      "career": 2320,
       "recent": [
         {
           "name": "Mamba League Invitational 2026",
@@ -1397,7 +1397,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 12,
-      "career": 863,
+      "career": 864,
       "recent": [
         {
           "name": "Grammy Museum - 8/3/26 Event",
