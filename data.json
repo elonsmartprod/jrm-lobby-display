@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-03T23:20:38.671Z",
-  "commit": "5574633",
+  "generatedAt": "2026-08-04T03:39:21.974Z",
+  "commit": "21ebdce",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -200,8 +200,8 @@
   ],
   "metrics": {
     "eventsYTD": 1491,
-    "events30": 147,
-    "guards30": 1488,
+    "events30": 146,
+    "guards30": 1487,
     "citiesYTD": 101,
     "upcoming30": 86,
     "perDay": 6.934883720930233
@@ -831,11 +831,18 @@
   ],
   "todayPosts": [
     {
-      "rem": "Tony D’Gracia",
-      "venue": "Madison Square Park NYC",
+      "rem": "Jessica Hernandez",
+      "venue": "RIO Las Vegas",
+      "client": "Creation Entertainment",
+      "job": "Star Trek 60th Ann. LV ",
+      "city": "Las Vegas"
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "LA Live",
       "client": "Nike",
-      "job": "Nike x FA27 US Open Tennis AJFC Campaign Photoshoot",
-      "city": "New York"
+      "job": "Mamba League Invitational 2026",
+      "city": "Los Angeles"
     },
     {
       "rem": "Sean McKillop",
@@ -1397,7 +1404,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 12,
-      "career": 865,
+      "career": 866,
       "recent": [
         {
           "name": "Grammy Museum - 8/3/26 Event",
@@ -1600,7 +1607,6 @@
     "<b>Nike SCI Kick Around </b> · Pecan Park",
     "<b>Guitar Center-Summer School Tour-CO</b> · Guitar Center-CO",
     "<b>7.12 Pickwick Vintage San Francisco</b> · The Ferry Building ",
-    "<b>AZ Protos Coach 7.5</b> · Coach",
     "<b>7.17 Emerald x Elena</b> · Multiple Venues",
     "<b>ABC News Utah</b> · ABC7/KGO",
     "<b>Monster Jam</b> · Crypto.com Arena",
@@ -1616,7 +1622,8 @@
     "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO",
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
     "<b>LA Events 7/6-7/12</b> · LA Live",
-    "<b>UFC PPV 329</b> · T mobile Arena"
+    "<b>UFC PPV 329</b> · T mobile Arena",
+    "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41"
   ],
   "linkedin": [
     {
