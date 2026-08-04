@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-04T19:58:13.221Z",
-  "commit": "d01a9b6",
+  "generatedAt": "2026-08-04T21:40:05.947Z",
+  "commit": "ed3a27f",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1492,
-    "events30": 147,
-    "guards30": 1487,
+    "eventsYTD": 1493,
+    "events30": 148,
+    "guards30": 1491,
     "citiesYTD": 101,
-    "upcoming30": 85,
-    "perDay": 6.907407407407407
+    "upcoming30": 86,
+    "perDay": 6.912037037037037
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 854,
+      "ev": 855,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 69,
-      "w": 0.08079625292740047,
+      "w": 0.08070175438596491,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 142,
-      "w": 0.16627634660421545,
+      "w": 0.16608187134502925,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 94,
-      "w": 0.11007025761124122,
+      "w": 0.10994152046783626,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 37,
-      "w": 0.04332552693208431,
+      "w": 0.04327485380116959,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 104,
-      "w": 0.12177985948477751,
+      "w": 0.1216374269005848,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 51,
-      "w": 0.059718969555035126,
+      "w": 0.05964912280701754,
       "hq": false
     }
   ],
@@ -852,6 +852,13 @@
       "city": "San Francisco"
     },
     {
+      "rem": "Sevan Ohanians",
+      "venue": "BOBO Thai",
+      "client": "TTFB CA LLC DBA: Yabi Kitchen",
+      "job": "BOBO Thai & Shann Shann - TTFB",
+      "city": ""
+    },
+    {
       "rem": "Ryan McKillop",
       "venue": "Austin TX",
       "client": "Recess Films",
@@ -1362,7 +1369,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 20,
-      "career": 314,
+      "career": 315,
       "recent": [
         {
           "name": "Nike x FA27 US Open Tennis AJFC Campaign Photoshoot",
@@ -1403,20 +1410,20 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 12,
-      "career": 866,
+      "events30": 13,
+      "career": 867,
       "recent": [
         {
           "name": "Grammy Museum - 8/3/26 Event",
           "meta": "AUG 03"
         },
         {
-          "name": "Grammy Museum - 8/1/26 Event",
+          "name": "BOBO Thai & Shann Shann - TTFB",
           "meta": "AUG 01"
         },
         {
-          "name": "Grammy Museum - Sublime - PP",
-          "meta": "JUL 30"
+          "name": "Grammy Museum - 8/1/26 Event",
+          "meta": "AUG 01"
         }
       ]
     }
