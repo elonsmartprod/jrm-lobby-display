@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-04T21:40:05.947Z",
-  "commit": "ed3a27f",
+  "generatedAt": "2026-08-04T23:19:40.073Z",
+  "commit": "8900d46",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 148,
     "guards30": 1491,
     "citiesYTD": 101,
-    "upcoming30": 86,
+    "upcoming30": 87,
     "perDay": 6.912037037037037
   },
   "heatPoints": [
@@ -1348,7 +1348,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 32,
-      "career": 2320,
+      "career": 2321,
       "recent": [
         {
           "name": "Mamba League Invitational 2026",
