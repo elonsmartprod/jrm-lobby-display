@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-05T17:55:02.786Z",
-  "commit": "9046132",
+  "generatedAt": "2026-08-05T19:56:39.223Z",
+  "commit": "06cd7d1",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1497,
-    "events30": 148,
+    "eventsYTD": 1498,
+    "events30": 149,
     "guards30": 1474,
     "citiesYTD": 101,
     "upcoming30": 86,
-    "perDay": 6.8986175115207375
+    "perDay": 6.903225806451613
   },
   "heatPoints": [
     {
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 69,
-      "w": 0.08032596041909197,
+      "ev": 70,
+      "w": 0.08149010477299184,
       "hq": false
     },
     {
@@ -1473,6 +1473,15 @@
       "upcoming": false
     },
     {
+      "client": "Doyle Security Services Inc.",
+      "title": "Doyle x LinkedIn San Francisco",
+      "venue": "San Francisco · San Francisco",
+      "badges": [
+        "Other"
+      ],
+      "upcoming": false
+    },
+    {
       "client": "Unknown",
       "title": "BET X 2026",
       "venue": "The Beehive · Los Angeles",
@@ -1498,15 +1507,6 @@
         "Convention"
       ],
       "upcoming": true
-    },
-    {
-      "client": "Doyle Security Services Inc.",
-      "title": "Doyle x LinkedIn San Francisco",
-      "venue": "San Francisco · San Francisco",
-      "badges": [
-        "Other"
-      ],
-      "upcoming": false
     },
     {
       "client": "Jack Morton",
