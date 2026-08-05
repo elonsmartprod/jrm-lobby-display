@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-05T15:29:58.422Z",
-  "commit": "e6e5f69",
+  "generatedAt": "2026-08-05T17:55:02.786Z",
+  "commit": "9046132",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 148,
     "guards30": 1474,
     "citiesYTD": 101,
-    "upcoming30": 85,
+    "upcoming30": 86,
     "perDay": 6.8986175115207375
   },
   "heatPoints": [
@@ -1202,6 +1202,13 @@
       "city": "Santa Monica"
     },
     {
+      "rem": "Dani Sanchez",
+      "venue": "Neptune Marina",
+      "client": "Neptune Marina",
+      "job": "Neptune Marina ",
+      "city": "Los Angeles"
+    },
+    {
       "rem": "Justin McKillop",
       "venue": "West Haven",
       "client": "West Haven HOA",
@@ -1369,7 +1376,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 19,
-      "career": 315,
+      "career": 316,
       "recent": [
         {
           "name": "Nike x FA27 US Open Tennis AJFC Campaign Photoshoot",
