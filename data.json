@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-04T23:19:40.073Z",
-  "commit": "8900d46",
+  "generatedAt": "2026-08-05T03:34:56.718Z",
+  "commit": "02c73af",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1493,
+    "eventsYTD": 1497,
     "events30": 148,
-    "guards30": 1491,
+    "guards30": 1474,
     "citiesYTD": 101,
-    "upcoming30": 87,
-    "perDay": 6.912037037037037
+    "upcoming30": 84,
+    "perDay": 6.930555555555555
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 855,
+      "ev": 859,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 69,
-      "w": 0.08070175438596491,
+      "w": 0.08032596041909197,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 142,
-      "w": 0.16608187134502925,
+      "w": 0.16530849825378346,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 94,
-      "w": 0.10994152046783626,
+      "w": 0.10942956926658906,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 37,
-      "w": 0.04327485380116959,
+      "w": 0.04307334109429569,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 104,
-      "w": 0.1216374269005848,
+      "w": 0.1210710128055879,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 51,
-      "w": 0.05964912280701754,
+      "w": 0.059371362048894066,
       "hq": false
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.3181769954324,
       "lat": 34.062236104047194,
-      "count": 430
+      "count": 432
     },
     {
       "name": "CA",
-      "lon": -119.12804488083191,
-      "lat": 35.57919942731218,
-      "count": 85
+      "lon": -119.11443585879645,
+      "lat": 35.55643098593313,
+      "count": 86
     },
     {
       "name": "North Hollywood, CA",
@@ -1326,7 +1326,7 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 34,
+      "events30": 33,
       "career": 485,
       "recent": [
         {
@@ -1347,20 +1347,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 32,
-      "career": 2321,
+      "events30": 33,
+      "career": 2322,
       "recent": [
+        {
+          "name": "TNF Talent Seminar",
+          "meta": "AUG 05"
+        },
+        {
+          "name": "BINI- LA Live",
+          "meta": "AUG 05"
+        },
         {
           "name": "Mamba League Invitational 2026",
           "meta": "AUG 03"
-        },
-        {
-          "name": "Amazon Devils Mouth Screening Perry Beach Club",
-          "meta": "JUL 29"
-        },
-        {
-          "name": "Los Angeles Sparks vs New York Liberty",
-          "meta": "JUL 28"
         }
       ]
     },
@@ -1368,7 +1368,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 20,
+      "events30": 19,
       "career": 315,
       "recent": [
         {
@@ -1382,6 +1382,27 @@
         {
           "name": "7.30 TRA-Building Coverage",
           "meta": "JUL 30"
+        }
+      ]
+    },
+    {
+      "name": "Sevan Ohanians",
+      "office": "Los Angeles",
+      "color": "#E8B44A",
+      "events30": 14,
+      "career": 867,
+      "recent": [
+        {
+          "name": "Grammy Museum - 8/5/26 Event",
+          "meta": "AUG 05"
+        },
+        {
+          "name": "Grammy Museum - 8/3/26 Event",
+          "meta": "AUG 03"
+        },
+        {
+          "name": "BOBO Thai & Shann Shann - TTFB",
+          "meta": "AUG 01"
         }
       ]
     },
@@ -1403,27 +1424,6 @@
         {
           "name": "7.27 Emerald EP",
           "meta": "JUL 27"
-        }
-      ]
-    },
-    {
-      "name": "Sevan Ohanians",
-      "office": "Los Angeles",
-      "color": "#E8B44A",
-      "events30": 13,
-      "career": 867,
-      "recent": [
-        {
-          "name": "Grammy Museum - 8/3/26 Event",
-          "meta": "AUG 03"
-        },
-        {
-          "name": "BOBO Thai & Shann Shann - TTFB",
-          "meta": "AUG 01"
-        },
-        {
-          "name": "Grammy Museum - 8/1/26 Event",
-          "meta": "AUG 01"
         }
       ]
     }
@@ -1628,9 +1628,9 @@
     "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
     "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO",
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
-    "<b>LA Events 7/6-7/12</b> · LA Live",
     "<b>UFC PPV 329</b> · T mobile Arena",
-    "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41"
+    "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41",
+    "<b>Guitar Center-Summer School Tour-Chicago</b> · Guitar Center-Chicago"
   ],
   "linkedin": [
     {
