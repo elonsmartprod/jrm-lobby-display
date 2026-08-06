@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-05T23:18:52.522Z",
-  "commit": "9214540",
+  "generatedAt": "2026-08-06T03:40:45.934Z",
+  "commit": "f1d5a6e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1498,
-    "events30": 149,
+    "eventsYTD": 1502,
+    "events30": 151,
     "guards30": 1474,
     "citiesYTD": 101,
-    "upcoming30": 95,
-    "perDay": 6.903225806451613
+    "upcoming30": 93,
+    "perDay": 6.921658986175115
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 859,
+      "ev": 863,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 70,
-      "w": 0.08149010477299184,
+      "w": 0.08111239860950174,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 142,
-      "w": 0.16530849825378346,
+      "w": 0.1645422943221321,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 94,
-      "w": 0.10942956926658906,
+      "w": 0.10892236384704519,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 37,
-      "w": 0.04307334109429569,
+      "w": 0.04287369640787949,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 104,
-      "w": 0.1210710128055879,
+      "w": 0.1205098493626883,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 51,
-      "w": 0.059371362048894066,
+      "w": 0.05909617612977984,
       "hq": false
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.3181769954324,
       "lat": 34.062236104047194,
-      "count": 432
+      "count": 433
     },
     {
       "name": "CA",
-      "lon": -119.11443585879645,
-      "lat": 35.55643098593313,
-      "count": 86
+      "lon": -119.10154262037865,
+      "lat": 35.53340335192019,
+      "count": 87
     },
     {
       "name": "North Hollywood, CA",
@@ -833,6 +833,13 @@
     {
       "rem": "Jessica Hernandez",
       "venue": "RIO Las Vegas",
+      "client": "Picrow",
+      "job": "MTG x Star Trek ",
+      "city": "Las Vegas"
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "RIO Las Vegas",
       "client": "Creation Entertainment",
       "job": "Star Trek 60th Ann. LV ",
       "city": "Las Vegas"
@@ -1330,10 +1337,31 @@
   ],
   "rems": [
     {
+      "name": "Chris Estrada",
+      "office": "Los Angeles",
+      "color": "#E8B44A",
+      "events30": 34,
+      "career": 2322,
+      "recent": [
+        {
+          "name": "Megan Moroney Armed Coverage",
+          "meta": "AUG 06"
+        },
+        {
+          "name": "TNF Talent Seminar",
+          "meta": "AUG 05"
+        },
+        {
+          "name": "BINI- LA Live",
+          "meta": "AUG 05"
+        }
+      ]
+    },
+    {
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 33,
+      "events30": 31,
       "career": 485,
       "recent": [
         {
@@ -1346,27 +1374,6 @@
         },
         {
           "name": "Nike DSG x Ronald Acuna Jr Cleat Launch-Georgia",
-          "meta": "AUG 03"
-        }
-      ]
-    },
-    {
-      "name": "Chris Estrada",
-      "office": "Los Angeles",
-      "color": "#E8B44A",
-      "events30": 33,
-      "career": 2322,
-      "recent": [
-        {
-          "name": "TNF Talent Seminar",
-          "meta": "AUG 05"
-        },
-        {
-          "name": "BINI- LA Live",
-          "meta": "AUG 05"
-        },
-        {
-          "name": "Mamba League Invitational 2026",
           "meta": "AUG 03"
         }
       ]
@@ -1396,9 +1403,13 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 14,
+      "events30": 15,
       "career": 876,
       "recent": [
+        {
+          "name": "Private Event East Hollywood",
+          "meta": "AUG 06"
+        },
         {
           "name": "Grammy Museum - 8/5/26 Event",
           "meta": "AUG 05"
@@ -1406,10 +1417,6 @@
         {
           "name": "Grammy Museum - 8/3/26 Event",
           "meta": "AUG 03"
-        },
-        {
-          "name": "BOBO Thai & Shann Shann - TTFB",
-          "meta": "AUG 01"
         }
       ]
     },
@@ -1631,13 +1638,13 @@
     "<b>Netflix HRD Ice Cream Truck Tour-Philadelphia</b> · Ritterhouse Square",
     "<b>7.14 Nike x World Cup Watch Party</b> · The Ground",
     "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV",
-    "<b>Guitar Center-Summer School Tour-Boston</b> · Guitar Center",
     "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
     "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO",
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
     "<b>UFC PPV 329</b> · T mobile Arena",
     "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41",
-    "<b>Guitar Center-Summer School Tour-Chicago</b> · Guitar Center-Chicago"
+    "<b>Guitar Center-Summer School Tour-Chicago</b> · Guitar Center-Chicago",
+    "<b>Apple San Diego Comic Con Activation</b> · TBD"
   ],
   "linkedin": [
     {
