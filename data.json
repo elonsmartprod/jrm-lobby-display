@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-07T18:03:47.878Z",
-  "commit": "645dfb1",
+  "generatedAt": "2026-08-07T19:17:11.399Z",
+  "commit": "2b8d44f",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 155,
     "guards30": 1485,
     "citiesYTD": 101,
-    "upcoming30": 92,
+    "upcoming30": 96,
     "perDay": 6.890410958904109
   },
   "heatPoints": [
@@ -1334,7 +1334,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 36,
-      "career": 2323,
+      "career": 2324,
       "recent": [
         {
           "name": "Photoshoot at The ROW",
