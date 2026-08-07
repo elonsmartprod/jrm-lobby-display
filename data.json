@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-07T11:58:46.897Z",
-  "commit": "d6ff2bb",
+  "generatedAt": "2026-08-07T13:41:18.417Z",
+  "commit": "f43dd89",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,8 +203,8 @@
     "events30": 155,
     "guards30": 1485,
     "citiesYTD": 101,
-    "upcoming30": 91,
-    "perDay": 6.922018348623853
+    "upcoming30": 92,
+    "perDay": 6.890410958904109
   },
   "heatPoints": [
     {
@@ -1376,7 +1376,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 19,
-      "career": 317,
+      "career": 318,
       "recent": [
         {
           "name": "Nike x FA27 US Open Tennis AJFC Campaign Photoshoot",
