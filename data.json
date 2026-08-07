@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-07T20:03:14.864Z",
-  "commit": "cdc1e42",
+  "generatedAt": "2026-08-07T21:00:25.920Z",
+  "commit": "84cf022",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1510,
-    "events30": 156,
-    "guards30": 1485,
+    "eventsYTD": 1511,
+    "events30": 157,
+    "guards30": 1486,
     "citiesYTD": 101,
     "upcoming30": 96,
-    "perDay": 6.894977168949771
+    "perDay": 6.899543378995434
   },
   "heatPoints": [
     {
@@ -259,8 +259,8 @@
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 52,
-      "w": 0.059907834101382486,
+      "ev": 53,
+      "w": 0.06105990783410138,
       "hq": false
     }
   ],
@@ -1633,11 +1633,11 @@
     "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV",
     "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
     "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO",
+    "<b>TGA TN 8.7</b> · Harmony Senior Services",
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
     "<b>UFC PPV 329</b> · T mobile Arena",
     "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41",
-    "<b>Guitar Center-Summer School Tour-Chicago</b> · Guitar Center-Chicago",
-    "<b>Apple San Diego Comic Con Activation</b> · TBD"
+    "<b>Guitar Center-Summer School Tour-Chicago</b> · Guitar Center-Chicago"
   ],
   "linkedin": [
     {
