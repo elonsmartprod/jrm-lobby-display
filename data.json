@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-06T15:29:55.315Z",
-  "commit": "83ffd20",
+  "generatedAt": "2026-08-07T00:17:10.851Z",
+  "commit": "67e4e09",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1502,
-    "events30": 151,
-    "guards30": 1474,
+    "eventsYTD": 1509,
+    "events30": 155,
+    "guards30": 1485,
     "citiesYTD": 101,
-    "upcoming30": 93,
-    "perDay": 6.889908256880734
+    "upcoming30": 91,
+    "perDay": 6.922018348623853
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 863,
+      "ev": 868,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 70,
-      "w": 0.08111239860950174,
+      "w": 0.08064516129032258,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 142,
-      "w": 0.1645422943221321,
+      "w": 0.16359447004608296,
       "hq": false
     },
     {
@@ -236,15 +236,15 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 94,
-      "w": 0.10892236384704519,
+      "w": 0.10829493087557604,
       "hq": false
     },
     {
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 37,
-      "w": 0.04287369640787949,
+      "ev": 38,
+      "w": 0.04377880184331797,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 104,
-      "w": 0.1205098493626883,
+      "w": 0.11981566820276497,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 51,
-      "w": 0.05909617612977984,
+      "ev": 52,
+      "w": 0.059907834101382486,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3181769954324,
       "lat": 34.062236104047194,
-      "count": 433
+      "count": 437
     },
     {
       "name": "CA",
@@ -831,6 +831,13 @@
   ],
   "todayPosts": [
     {
+      "rem": "Chris Estrada",
+      "venue": "Blaine Lot",
+      "client": "Unknown",
+      "job": "Megan Moroney Armed Coverage",
+      "city": ""
+    },
+    {
       "rem": "Jessica Hernandez",
       "venue": "RIO Las Vegas",
       "client": "Picrow",
@@ -866,13 +873,6 @@
       "city": ""
     },
     {
-      "rem": "Ryan McKillop",
-      "venue": "Austin TX",
-      "client": "Recess Films",
-      "job": "Recess Films ",
-      "city": "Austin"
-    },
-    {
       "rem": "Seanie Wolf",
       "venue": "Los Angeles Convention Center",
       "client": "NALC",
@@ -885,13 +885,6 @@
       "client": "Protos Security",
       "job": "Protos Lowes 7/24",
       "city": ""
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "Starrett-Lehigh",
-      "client": "SPACE Productions",
-      "job": "Shoppe Object - Summer 2026",
-      "city": "New York"
     },
     {
       "rem": "Chris Estrada",
@@ -1340,20 +1333,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 34,
-      "career": 2322,
+      "events30": 36,
+      "career": 2323,
       "recent": [
         {
-          "name": "Megan Moroney Armed Coverage",
-          "meta": "AUG 06"
+          "name": "Photoshoot at The ROW",
+          "meta": "AUG 07"
         },
         {
-          "name": "TNF Talent Seminar",
-          "meta": "AUG 05"
+          "name": "Megan Moroney",
+          "meta": "AUG 07"
         },
         {
-          "name": "BINI- LA Live",
-          "meta": "AUG 05"
+          "name": "Megan Moroney- LA Live",
+          "meta": "AUG 07"
         }
       ]
     },
@@ -1362,7 +1355,7 @@
       "office": "National Ops",
       "color": "#E8B44A",
       "events30": 31,
-      "career": 485,
+      "career": 486,
       "recent": [
         {
           "name": "Anduril_Baltimore",
@@ -1383,7 +1376,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 19,
-      "career": 316,
+      "career": 317,
       "recent": [
         {
           "name": "Nike x FA27 US Open Tennis AJFC Campaign Photoshoot",
@@ -1403,9 +1396,13 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 15,
+      "events30": 16,
       "career": 876,
       "recent": [
+        {
+          "name": "Grammy Museum - 8/7/26 Event",
+          "meta": "AUG 07"
+        },
         {
           "name": "Private Event East Hollywood",
           "meta": "AUG 06"
@@ -1413,10 +1410,6 @@
         {
           "name": "Grammy Museum - 8/5/26 Event",
           "meta": "AUG 05"
-        },
-        {
-          "name": "Grammy Museum - 8/3/26 Event",
-          "meta": "AUG 03"
         }
       ]
     },
@@ -1507,15 +1500,6 @@
       "upcoming": false
     },
     {
-      "client": "AutoDesk",
-      "title": "Autodesk - AU 2026 - Las Vegas, NV",
-      "venue": "100 Thieves",
-      "badges": [
-        "Convention"
-      ],
-      "upcoming": true
-    },
-    {
       "client": "Jack Morton",
       "title": "Sephoria",
       "venue": "Magic Box · Los Angeles",
@@ -1559,6 +1543,15 @@
         "Awards Show"
       ],
       "upcoming": false
+    },
+    {
+      "client": "AutoDesk",
+      "title": "Autodesk - AU 2026 - Las Vegas, NV",
+      "venue": "100 Thieves",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": true
     },
     {
       "client": "Dick Clark Productions",
@@ -1632,8 +1625,8 @@
     "<b>ABC News Utah</b> · ABC7/KGO",
     "<b>Monster Jam</b> · Crypto.com Arena",
     "<b>NALC 74th Annual Convention</b> · Los Angeles Convention Center",
-    "<b>Los Angeles Sparks vs Indiana Fever</b> · Crypto.com Arena",
     "<b>Nike x FA26 NFL Rivalries Photo Shoot - INDY</b> · Indianapolis",
+    "<b>Tires S3 8.7</b> · Charleston Music Hall",
     "<b>Los Angeles Sparks vs New York Liberty</b> · Crypto.com Arena",
     "<b>Netflix HRD Ice Cream Truck Tour-Philadelphia</b> · Ritterhouse Square",
     "<b>7.14 Nike x World Cup Watch Party</b> · The Ground",
