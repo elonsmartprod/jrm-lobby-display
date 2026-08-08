@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-07T23:49:39.965Z",
-  "commit": "9d94d2c",
+  "generatedAt": "2026-08-08T02:22:57.787Z",
+  "commit": "6147bf5",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1511,
+    "eventsYTD": 1520,
     "events30": 157,
-    "guards30": 1486,
+    "guards30": 684,
     "citiesYTD": 101,
-    "upcoming30": 96,
-    "perDay": 6.899543378995434
+    "upcoming30": 89,
+    "perDay": 6.940639269406392
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 868,
+      "ev": 875,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 71,
-      "w": 0.08179723502304148,
+      "w": 0.08114285714285714,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 142,
-      "w": 0.16359447004608296,
+      "w": 0.16228571428571428,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 94,
-      "w": 0.10829493087557604,
+      "w": 0.10742857142857143,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 38,
-      "w": 0.04377880184331797,
+      "w": 0.04342857142857143,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 104,
-      "w": 0.11981566820276497,
+      "w": 0.11885714285714286,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 53,
-      "w": 0.06105990783410138,
+      "w": 0.060571428571428575,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3181769954324,
       "lat": 34.062236104047194,
-      "count": 437
+      "count": 442
     },
     {
       "name": "CA",
@@ -281,7 +281,7 @@
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 81
+      "count": 82
     },
     {
       "name": "New York, NY",
@@ -293,19 +293,19 @@
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 72
+      "count": 73
     },
     {
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 67
+      "count": 68
     },
     {
       "name": "Las Vegas, NV",
       "lon": -115.16193700781558,
       "lat": 36.11230155033209,
-      "count": 59
+      "count": 60
     },
     {
       "name": "Hollywood, CA",
@@ -831,6 +831,27 @@
   ],
   "todayPosts": [
     {
+      "rem": "Patrick J McKillop",
+      "venue": "Sprouts- Holladay",
+      "client": "Protos Security",
+      "job": "Protos Sprouts",
+      "city": ""
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Harmony Senior Services",
+      "client": "The Guard Alliance",
+      "job": "TGA TN 8.7",
+      "city": ""
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "Allegiant Stadium",
+      "client": "Live Nation",
+      "job": "Carol G",
+      "city": "Las Vegas"
+    },
+    {
       "rem": "Chris Estrada",
       "venue": "Blaine Lot",
       "client": "Unknown",
@@ -859,25 +880,11 @@
       "city": "Los Angeles"
     },
     {
-      "rem": "Sean McKillop",
-      "venue": "San Francisco",
-      "client": "Czarnowski ",
-      "job": "BMW iX3 Ride and Drive-San Francisco",
-      "city": "San Francisco"
-    },
-    {
       "rem": "Sevan Ohanians",
       "venue": "BOBO Thai",
       "client": "TTFB CA LLC DBA: Yabi Kitchen",
       "job": "BOBO Thai & Shann Shann - TTFB",
       "city": ""
-    },
-    {
-      "rem": "Seanie Wolf",
-      "venue": "Los Angeles Convention Center",
-      "client": "NALC",
-      "job": "NALC 74th Annual Convention",
-      "city": "Los Angeles"
     },
     {
       "rem": "Patrick J McKillop",
@@ -899,13 +906,6 @@
       "client": "City Wide",
       "job": "Boxable LV",
       "city": "Las Vegas"
-    },
-    {
-      "rem": "Patrick J McKillop",
-      "venue": "TJMAXX",
-      "client": "Protos Security",
-      "job": "Protos TJMAX 6/22",
-      "city": ""
     },
     {
       "rem": "Dani Sanchez",
@@ -1333,20 +1333,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 36,
+      "events30": 38,
       "career": 2324,
       "recent": [
         {
-          "name": "Photoshoot at The ROW",
-          "meta": "AUG 07"
+          "name": "FALLOUT – Los Angeles – Emmy Nominee Tastemaker Brunch (Mix & Mingle)  ",
+          "meta": "AUG 08"
+        },
+        {
+          "name": "Pickwick Vintage LA August ",
+          "meta": "AUG 08"
         },
         {
           "name": "Megan Moroney",
-          "meta": "AUG 07"
-        },
-        {
-          "name": "Megan Moroney- LA Live",
-          "meta": "AUG 07"
+          "meta": "AUG 08"
         }
       ]
     },
@@ -1354,7 +1354,7 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 31,
+      "events30": 27,
       "career": 486,
       "recent": [
         {
@@ -1375,7 +1375,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 19,
+      "events30": 17,
       "career": 319,
       "recent": [
         {
@@ -1396,9 +1396,13 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 16,
+      "events30": 17,
       "career": 876,
       "recent": [
+        {
+          "name": "Grammy Museum - 8/8/26 Event",
+          "meta": "AUG 08"
+        },
         {
           "name": "Grammy Museum - 8/7/26 Event",
           "meta": "AUG 07"
@@ -1406,10 +1410,6 @@
         {
           "name": "Private Event East Hollywood",
           "meta": "AUG 06"
-        },
-        {
-          "name": "Grammy Museum - 8/5/26 Event",
-          "meta": "AUG 05"
         }
       ]
     },
@@ -1417,9 +1417,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 13,
+      "events30": 14,
       "career": 268,
       "recent": [
+        {
+          "name": "8.8 AM Radio",
+          "meta": "AUG 08"
+        },
         {
           "name": "7.29 Emerald EPxClift Royal",
           "meta": "JUL 29"
@@ -1427,10 +1431,6 @@
         {
           "name": "7.29 A16zXOpenAi Tech Leadership Dinner",
           "meta": "JUL 29"
-        },
-        {
-          "name": "7.27 Emerald EP",
-          "meta": "JUL 27"
         }
       ]
     }
@@ -1632,12 +1632,12 @@
     "<b>7.14 Nike x World Cup Watch Party</b> · The Ground",
     "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV",
     "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
-    "<b>Guitar Center-Artist Event-CO</b> · Guitar Center-CO",
     "<b>TGA TN 8.7</b> · Harmony Senior Services",
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
-    "<b>UFC PPV 329</b> · T mobile Arena",
     "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41",
-    "<b>Guitar Center-Summer School Tour-Chicago</b> · Guitar Center-Chicago"
+    "<b>Guitar Center-Summer School Tour-Chicago</b> · Guitar Center-Chicago",
+    "<b>Apple San Diego Comic Con Activation</b> · TBD",
+    "<b>Dr Nader Milkhail Private Event</b> · 3084 Taylor Way Costa Mesa Ca 92626"
   ],
   "linkedin": [
     {
