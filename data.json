@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T18:04:54.938Z",
-  "commit": "7cca3f7",
+  "generatedAt": "2026-08-10T19:18:30.264Z",
+  "commit": "8311341",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1526,
-    "events30": 152,
-    "guards30": 692,
+    "eventsYTD": 1527,
+    "events30": 153,
+    "guards30": 693,
     "citiesYTD": 101,
     "upcoming30": 89,
-    "perDay": 6.873873873873874
+    "perDay": 6.878378378378378
   },
   "heatPoints": [
     {
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 71,
-      "w": 0.080773606370876,
+      "ev": 72,
+      "w": 0.08191126279863481,
       "hq": false
     },
     {
