@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T15:18:19.905Z",
-  "commit": "c26f808",
+  "generatedAt": "2026-08-10T17:10:34.380Z",
+  "commit": "10f06ce",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1528,
-    "events30": 154,
-    "guards30": 703,
+    "eventsYTD": 1526,
+    "events30": 152,
+    "guards30": 692,
     "citiesYTD": 101,
-    "upcoming30": 85,
-    "perDay": 6.882882882882883
+    "upcoming30": 89,
+    "perDay": 6.873873873873874
   },
   "heatPoints": [
     {
@@ -251,8 +251,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 104,
-      "w": 0.11831626848691695,
+      "ev": 102,
+      "w": 0.11604095563139932,
       "hq": true
     },
     {
@@ -512,12 +512,6 @@
       "count": 2
     },
     {
-      "name": "SC",
-      "lon": -80.54829694674899,
-      "lat": 33.428787808144506,
-      "count": 2
-    },
-    {
       "name": "Boston, MA",
       "lon": -71.07852689999999,
       "lat": 42.3494563,
@@ -605,6 +599,12 @@
       "name": "Antioch, TN",
       "lon": -86.6149649,
       "lat": 36.0534411,
+      "count": 1
+    },
+    {
+      "name": "SC",
+      "lon": -79.935981816273,
+      "lat": 32.78896777074,
       "count": 1
     },
     {
@@ -1340,20 +1340,20 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 25,
+      "events30": 23,
       "career": 486,
       "recent": [
         {
-          "name": "Anduril_Baltimore",
-          "meta": "AUG 03"
-        },
-        {
-          "name": "Nike DSG x Back to Sport Weekend – University of South Carolina",
-          "meta": "AUG 03"
-        },
-        {
           "name": "Nike DSG x Ronald Acuna Jr Cleat Launch-Georgia",
           "meta": "AUG 03"
+        },
+        {
+          "name": "BMW iX3 Ride and Drive-San Francisco",
+          "meta": "AUG 02"
+        },
+        {
+          "name": "8.1 Emerald Drop-Chicago",
+          "meta": "AUG 01"
         }
       ]
     },
@@ -1362,7 +1362,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 17,
-      "career": 270,
+      "career": 271,
       "recent": [
         {
           "name": "8.10 Emerald Executive Dinner",
@@ -1383,7 +1383,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 17,
-      "career": 319,
+      "career": 320,
       "recent": [
         {
           "name": "Nike x HO26 Project Galaxy Inspiration Shoot",
