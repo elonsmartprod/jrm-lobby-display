@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T02:36:02.671Z",
-  "commit": "de1ff1a",
+  "generatedAt": "2026-08-10T04:55:59.613Z",
+  "commit": "d2c9ca3",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1526,
-    "events30": 152,
-    "guards30": 701,
+    "eventsYTD": 1527,
+    "events30": 153,
+    "guards30": 702,
     "citiesYTD": 101,
     "upcoming30": 85,
-    "perDay": 6.904977375565611
+    "perDay": 6.909502262443439
   },
   "heatPoints": [
     {
@@ -1403,9 +1403,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 15,
-      "career": 268,
+      "events30": 16,
+      "career": 269,
       "recent": [
+        {
+          "name": "8.10 Disney Coverage",
+          "meta": "AUG 10"
+        },
         {
           "name": "Pickwick Vintage SF August",
           "meta": "AUG 09"
@@ -1413,10 +1417,6 @@
         {
           "name": "8.8 AM Radio",
           "meta": "AUG 08"
-        },
-        {
-          "name": "7.29 Emerald EPxClift Royal",
-          "meta": "JUL 29"
         }
       ]
     }
