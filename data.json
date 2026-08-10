@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T21:03:50.231Z",
-  "commit": "14d7b71",
+  "generatedAt": "2026-08-10T21:59:57.296Z",
+  "commit": "2e0a01e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 154,
     "guards30": 693,
     "citiesYTD": 101,
-    "upcoming30": 88,
+    "upcoming30": 89,
     "perDay": 6.882882882882883
   },
   "heatPoints": [
@@ -1404,7 +1404,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 17,
-      "career": 320,
+      "career": 321,
       "recent": [
         {
           "name": "Nike x HO26 Project Galaxy Inspiration Shoot",
@@ -1531,6 +1531,15 @@
       "upcoming": false
     },
     {
+      "client": "Linux Foundation",
+      "title": "KubeCon SLC",
+      "venue": "Salt Palace Convention Center · Salt Lake City",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": true
+    },
+    {
       "client": "Dick Clark Productions",
       "title": "Golden Globes 2026",
       "venue": "Beverly Hilton Hotel · Beverly Hills",
@@ -1590,15 +1599,6 @@
       "venue": "Fashion Nova Distribution Center · Santa Fe Springs",
       "badges": [
         "Apts-Condos-Office Bldg"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Amazon",
-      "title": "Amazon Ignite",
-      "venue": "Aria  · Las Vegas",
-      "badges": [
-        "Convention"
       ],
       "upcoming": false
     }
