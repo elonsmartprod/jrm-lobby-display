@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T21:59:57.296Z",
-  "commit": "2e0a01e",
+  "generatedAt": "2026-08-10T22:57:52.211Z",
+  "commit": "05c598a",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1528,
-    "events30": 154,
-    "guards30": 693,
+    "eventsYTD": 1530,
+    "events30": 155,
+    "guards30": 694,
     "citiesYTD": 101,
     "upcoming30": 89,
-    "perDay": 6.882882882882883
+    "perDay": 6.891891891891892
   },
   "heatPoints": [
     {
@@ -251,8 +251,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 102,
-      "w": 0.1159090909090909,
+      "ev": 103,
+      "w": 0.11704545454545455,
       "hq": true
     },
     {
@@ -305,7 +305,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.16193700781558,
       "lat": 36.11230155033209,
-      "count": 60
+      "count": 61
     },
     {
       "name": "Hollywood, CA",
@@ -358,8 +358,8 @@
     {
       "name": "Salt Lake City, UT",
       "lon": -111.90004345055044,
-      "lat": 40.75082211438022,
-      "count": 10
+      "lat": 40.75082211438023,
+      "count": 11
     },
     {
       "name": "Century City, CA",
@@ -894,6 +894,13 @@
       "city": "Las Vegas"
     },
     {
+      "rem": "Sean McKillop",
+      "venue": "Salt Palace Convention Center",
+      "client": "Linux Foundation",
+      "job": "KubeCon SLC 2026 - Consulting",
+      "city": "Salt Lake City"
+    },
+    {
       "rem": "Dani Sanchez",
       "venue": "Santa Monica Collection ",
       "client": "Taylor Lefebvre",
@@ -1341,7 +1348,7 @@
       "office": "National Ops",
       "color": "#E8B44A",
       "events30": 23,
-      "career": 486,
+      "career": 487,
       "recent": [
         {
           "name": "Nike DSG x Ronald Acuna Jr Cleat Launch-Georgia",
