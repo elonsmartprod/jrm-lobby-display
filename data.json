@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T13:46:28.167Z",
-  "commit": "b8328ed",
+  "generatedAt": "2026-08-10T15:18:19.905Z",
+  "commit": "c26f808",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -273,9 +273,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.11443585879645,
-      "lat": 35.55643098593313,
-      "count": 86
+      "lon": -119.1716510133485,
+      "lat": 35.55208922840936,
+      "count": 91
     },
     {
       "name": "North Hollywood, CA",
@@ -351,9 +351,9 @@
     },
     {
       "name": "UT",
-      "lon": -111.88038148865039,
-      "lat": 40.6650884675545,
-      "count": 11
+      "lon": -111.87681250419418,
+      "lat": 40.66516903823827,
+      "count": 12
     },
     {
       "name": "Salt Lake City, UT",
@@ -434,6 +434,12 @@
       "count": 3
     },
     {
+      "name": "TN",
+      "lon": -86.90081429171067,
+      "lat": 36.230738845838,
+      "count": 3
+    },
+    {
       "name": "Long Beach, CA",
       "lon": -118.19101813187,
       "lat": 33.76556901741066,
@@ -506,9 +512,9 @@
       "count": 2
     },
     {
-      "name": "TN",
-      "lon": -87.1158837,
-      "lat": 36.42290575,
+      "name": "SC",
+      "lon": -80.54829694674899,
+      "lat": 33.428787808144506,
       "count": 2
     },
     {
@@ -617,12 +623,6 @@
       "name": "Redmond, WA",
       "lon": -122.096240808996,
       "lat": 47.660582319296,
-      "count": 1
-    },
-    {
-      "name": "Dana Point, CA",
-      "lon": -117.719542610758,
-      "lat": 33.475458993407,
       "count": 1
     }
   ],
