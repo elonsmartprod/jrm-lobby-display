@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T22:57:52.211Z",
-  "commit": "05c598a",
+  "generatedAt": "2026-08-10T23:52:02.170Z",
+  "commit": "f787941",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1530,
-    "events30": 155,
+    "eventsYTD": 1531,
+    "events30": 156,
     "guards30": 694,
     "citiesYTD": 101,
-    "upcoming30": 89,
-    "perDay": 6.891891891891892
+    "upcoming30": 90,
+    "perDay": 6.896396396396397
   },
   "heatPoints": [
     {
@@ -235,8 +235,8 @@
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 94,
-      "w": 0.10681818181818181,
+      "ev": 95,
+      "w": 0.10795454545454546,
       "hq": false
     },
     {
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3181769954324,
       "lat": 34.062236104047194,
-      "count": 446
+      "count": 447
     },
     {
       "name": "CA",
@@ -1629,8 +1629,8 @@
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
     "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41",
     "<b>Guitar Center-Summer School Tour-Chicago</b> · Guitar Center-Chicago",
-    "<b>Apple San Diego Comic Con Activation</b> · TBD",
-    "<b>Dr Nader Milkhail Private Event</b> · 3084 Taylor Way Costa Mesa Ca 92626"
+    "<b>LA Live Events 8.3-8.9</b> · LA Live",
+    "<b>Apple San Diego Comic Con Activation</b> · TBD"
   ],
   "linkedin": [
     {
