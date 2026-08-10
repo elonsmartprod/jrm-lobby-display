@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T19:18:30.264Z",
-  "commit": "8311341",
+  "generatedAt": "2026-08-10T21:03:50.231Z",
+  "commit": "14d7b71",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1527,
-    "events30": 153,
+    "eventsYTD": 1528,
+    "events30": 154,
     "guards30": 693,
     "citiesYTD": 101,
-    "upcoming30": 89,
-    "perDay": 6.878378378378378
+    "upcoming30": 88,
+    "perDay": 6.882882882882883
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 879,
+      "ev": 880,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 72,
-      "w": 0.08191126279863481,
+      "w": 0.08181818181818182,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 143,
-      "w": 0.1626848691695108,
+      "w": 0.1625,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 94,
-      "w": 0.10693970420932879,
+      "w": 0.10681818181818181,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 38,
-      "w": 0.04323094425483504,
+      "w": 0.04318181818181818,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 102,
-      "w": 0.11604095563139932,
+      "w": 0.1159090909090909,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 53,
-      "w": 0.06029579067121729,
+      "w": 0.060227272727272727,
       "hq": false
     }
   ],
@@ -395,7 +395,7 @@
       "name": "San Diego, CA",
       "lon": -117.17105989752933,
       "lat": 32.742518380958835,
-      "count": 6
+      "count": 7
     },
     {
       "name": "Thermal, CA",
@@ -1358,6 +1358,27 @@
       ]
     },
     {
+      "name": "Sevan Ohanians",
+      "office": "Los Angeles",
+      "color": "#E8B44A",
+      "events30": 18,
+      "career": 876,
+      "recent": [
+        {
+          "name": "Grammy Museum Event - 8/9/26 - GA",
+          "meta": "AUG 09"
+        },
+        {
+          "name": "Grammy Museum - 8/8/26 Event",
+          "meta": "AUG 08"
+        },
+        {
+          "name": "Grammy Museum - 8/7/26 Event",
+          "meta": "AUG 07"
+        }
+      ]
+    },
+    {
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
@@ -1396,27 +1417,6 @@
         {
           "name": "AAS x Astor Pl Plaza",
           "meta": "JUL 30"
-        }
-      ]
-    },
-    {
-      "name": "Sevan Ohanians",
-      "office": "Los Angeles",
-      "color": "#E8B44A",
-      "events30": 17,
-      "career": 876,
-      "recent": [
-        {
-          "name": "Grammy Museum Event - 8/9/26 - GA",
-          "meta": "AUG 09"
-        },
-        {
-          "name": "Grammy Museum - 8/8/26 Event",
-          "meta": "AUG 08"
-        },
-        {
-          "name": "Grammy Museum - 8/7/26 Event",
-          "meta": "AUG 07"
         }
       ]
     }
