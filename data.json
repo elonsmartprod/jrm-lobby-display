@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-09T23:48:28.812Z",
-  "commit": "3b9c3c0",
+  "generatedAt": "2026-08-10T02:36:02.671Z",
+  "commit": "de1ff1a",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1524,
-    "events30": 155,
-    "guards30": 683,
+    "eventsYTD": 1526,
+    "events30": 152,
+    "guards30": 701,
     "citiesYTD": 101,
-    "upcoming30": 86,
-    "perDay": 6.895927601809955
+    "upcoming30": 85,
+    "perDay": 6.904977375565611
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 877,
+      "ev": 879,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 71,
-      "w": 0.08095781071835804,
+      "w": 0.080773606370876,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 143,
-      "w": 0.1630558722919042,
+      "w": 0.1626848691695108,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 94,
-      "w": 0.10718358038768529,
+      "w": 0.10693970420932879,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 38,
-      "w": 0.043329532497149374,
+      "w": 0.04323094425483504,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 104,
-      "w": 0.11858608893956671,
+      "w": 0.11831626848691695,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 53,
-      "w": 0.06043329532497149,
+      "w": 0.06029579067121729,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3181769954324,
       "lat": 34.062236104047194,
-      "count": 444
+      "count": 446
     },
     {
       "name": "CA",
@@ -831,6 +831,13 @@
   ],
   "todayPosts": [
     {
+      "rem": "Tony D’Gracia",
+      "venue": "Brooklyn NY",
+      "client": "Nike",
+      "job": "Nike x HO26 Project Galaxy Inspiration Shoot",
+      "city": "Brooklyn"
+    },
+    {
       "rem": "Patrick J McKillop",
       "venue": "Sprouts- Holladay",
       "client": "Protos Security",
@@ -849,13 +856,6 @@
       "venue": "RIO Las Vegas",
       "client": "Picrow",
       "job": "MTG x Star Trek ",
-      "city": "Las Vegas"
-    },
-    {
-      "rem": "Jessica Hernandez",
-      "venue": "RIO Las Vegas",
-      "client": "Creation Entertainment",
-      "job": "Star Trek 60th Ann. LV ",
       "city": "Las Vegas"
     },
     {
@@ -1319,20 +1319,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 38,
+      "events30": 39,
       "career": 2324,
       "recent": [
         {
+          "name": "Benson Boone",
+          "meta": "AUG 10"
+        },
+        {
+          "name": "Benson Boone- LA Live",
+          "meta": "AUG 10"
+        },
+        {
           "name": "Los Angeles Sparks vs Golden State Valkyries",
           "meta": "AUG 09"
-        },
-        {
-          "name": "FALLOUT – Los Angeles – Emmy Nominee Tastemaker Brunch (Mix & Mingle)  ",
-          "meta": "AUG 08"
-        },
-        {
-          "name": "Pickwick Vintage LA August ",
-          "meta": "AUG 08"
         }
       ]
     },
@@ -1361,7 +1361,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 18,
+      "events30": 17,
       "career": 319,
       "recent": [
         {
