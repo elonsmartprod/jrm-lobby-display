@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T04:55:59.613Z",
-  "commit": "d2c9ca3",
+  "generatedAt": "2026-08-10T06:43:30.029Z",
+  "commit": "f416297",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1527,
-    "events30": 153,
-    "guards30": 702,
+    "eventsYTD": 1528,
+    "events30": 154,
+    "guards30": 703,
     "citiesYTD": 101,
     "upcoming30": 85,
-    "perDay": 6.909502262443439
+    "perDay": 6.914027149321267
   },
   "heatPoints": [
     {
@@ -1358,6 +1358,27 @@
       ]
     },
     {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 17,
+      "career": 270,
+      "recent": [
+        {
+          "name": "8.10 Emerald Executive Dinner",
+          "meta": "AUG 10"
+        },
+        {
+          "name": "8.10 Disney Coverage",
+          "meta": "AUG 10"
+        },
+        {
+          "name": "Pickwick Vintage SF August",
+          "meta": "AUG 09"
+        }
+      ]
+    },
+    {
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
@@ -1396,27 +1417,6 @@
         {
           "name": "Grammy Museum - 8/7/26 Event",
           "meta": "AUG 07"
-        }
-      ]
-    },
-    {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
-      "color": "#E8B44A",
-      "events30": 16,
-      "career": 269,
-      "recent": [
-        {
-          "name": "8.10 Disney Coverage",
-          "meta": "AUG 10"
-        },
-        {
-          "name": "Pickwick Vintage SF August",
-          "meta": "AUG 09"
-        },
-        {
-          "name": "8.8 AM Radio",
-          "meta": "AUG 08"
         }
       ]
     }
