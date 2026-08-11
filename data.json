@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-11T21:06:08.573Z",
-  "commit": "ced0c69",
+  "generatedAt": "2026-08-11T22:06:29.830Z",
+  "commit": "07342b2",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 158,
     "guards30": 734,
     "citiesYTD": 101,
-    "upcoming30": 86,
+    "upcoming30": 88,
     "perDay": 6.9058295964125564
   },
   "heatPoints": [
@@ -1341,7 +1341,7 @@
       "office": "National Ops",
       "color": "#E8B44A",
       "events30": 22,
-      "career": 489,
+      "career": 490,
       "recent": [
         {
           "name": "ShowSouth - Amazon AP ATL",
