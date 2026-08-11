@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-10T23:52:02.170Z",
-  "commit": "f787941",
+  "generatedAt": "2026-08-11T02:29:10.021Z",
+  "commit": "0791e23",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1531,
+    "eventsYTD": 1538,
     "events30": 156,
-    "guards30": 694,
+    "guards30": 712,
     "citiesYTD": 101,
-    "upcoming30": 90,
-    "perDay": 6.896396396396397
+    "upcoming30": 84,
+    "perDay": 6.927927927927928
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 880,
+      "ev": 884,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 72,
-      "w": 0.08181818181818182,
+      "ev": 73,
+      "w": 0.08257918552036199,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 143,
-      "w": 0.1625,
+      "w": 0.16176470588235295,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 95,
-      "w": 0.10795454545454546,
+      "ev": 96,
+      "w": 0.1085972850678733,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 38,
-      "w": 0.04318181818181818,
+      "w": 0.042986425339366516,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 103,
-      "w": 0.11704545454545455,
+      "w": 0.1165158371040724,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 53,
-      "w": 0.060227272727272727,
+      "w": 0.05995475113122172,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3181769954324,
       "lat": 34.062236104047194,
-      "count": 447
+      "count": 450
     },
     {
       "name": "CA",
@@ -299,13 +299,13 @@
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 68
+      "count": 69
     },
     {
       "name": "Las Vegas, NV",
       "lon": -115.16193700781558,
       "lat": 36.11230155033209,
-      "count": 61
+      "count": 62
     },
     {
       "name": "Hollywood, CA",
@@ -831,6 +831,13 @@
   ],
   "todayPosts": [
     {
+      "rem": "Jessica Hernandez",
+      "venue": "Carvana Operations ",
+      "client": "Protos Security",
+      "job": "Protos Carvana LV",
+      "city": ""
+    },
+    {
       "rem": "Tony D’Gracia",
       "venue": "Brooklyn NY",
       "client": "Nike",
@@ -850,20 +857,6 @@
       "client": "The Guard Alliance",
       "job": "TGA TN 8.7",
       "city": ""
-    },
-    {
-      "rem": "Jessica Hernandez",
-      "venue": "RIO Las Vegas",
-      "client": "Picrow",
-      "job": "MTG x Star Trek ",
-      "city": "Las Vegas"
-    },
-    {
-      "rem": "Chris Estrada",
-      "venue": "LA Live",
-      "client": "Nike",
-      "job": "Mamba League Invitational 2026",
-      "city": "Los Angeles"
     },
     {
       "rem": "Sevan Ohanians",
@@ -1326,20 +1319,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 39,
+      "events30": 42,
       "career": 2324,
       "recent": [
         {
-          "name": "Benson Boone",
-          "meta": "AUG 10"
+          "name": "JURY DUTY – Los Angeles – Writer’s Peer Group Screening/Reception",
+          "meta": "AUG 11"
         },
         {
           "name": "Benson Boone- LA Live",
-          "meta": "AUG 10"
+          "meta": "AUG 11"
         },
         {
-          "name": "Los Angeles Sparks vs Golden State Valkyries",
-          "meta": "AUG 09"
+          "name": "Benson Boone",
+          "meta": "AUG 11"
         }
       ]
     },
@@ -1347,7 +1340,7 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 21,
       "career": 487,
       "recent": [
         {
@@ -1368,9 +1361,13 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 18,
+      "events30": 19,
       "career": 876,
       "recent": [
+        {
+          "name": "Grammy Museum Event - 8/11/26 - PP",
+          "meta": "AUG 11"
+        },
         {
           "name": "Grammy Museum Event - 8/9/26 - GA",
           "meta": "AUG 09"
@@ -1378,31 +1375,6 @@
         {
           "name": "Grammy Museum - 8/8/26 Event",
           "meta": "AUG 08"
-        },
-        {
-          "name": "Grammy Museum - 8/7/26 Event",
-          "meta": "AUG 07"
-        }
-      ]
-    },
-    {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
-      "color": "#E8B44A",
-      "events30": 17,
-      "career": 271,
-      "recent": [
-        {
-          "name": "8.10 Emerald Executive Dinner",
-          "meta": "AUG 10"
-        },
-        {
-          "name": "8.10 Disney Coverage",
-          "meta": "AUG 10"
-        },
-        {
-          "name": "Pickwick Vintage SF August",
-          "meta": "AUG 09"
         }
       ]
     },
@@ -1424,6 +1396,27 @@
         {
           "name": "AAS x Astor Pl Plaza",
           "meta": "JUL 30"
+        }
+      ]
+    },
+    {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 15,
+      "career": 271,
+      "recent": [
+        {
+          "name": "8.10 Emerald Executive Dinner",
+          "meta": "AUG 10"
+        },
+        {
+          "name": "8.10 Disney Coverage",
+          "meta": "AUG 10"
+        },
+        {
+          "name": "Pickwick Vintage SF August",
+          "meta": "AUG 09"
         }
       ]
     }
@@ -1613,7 +1606,6 @@
   "ticker": [
     "<b>Nike SCI Kick Around </b> · Pecan Park",
     "<b>Guitar Center-Summer School Tour-CO</b> · Guitar Center-CO",
-    "<b>7.12 Pickwick Vintage San Francisco</b> · The Ferry Building ",
     "<b>7.17 Emerald x Elena</b> · Multiple Venues",
     "<b>ABC News Utah</b> · ABC7/KGO",
     "<b>Monster Jam</b> · Crypto.com Arena",
@@ -1621,9 +1613,10 @@
     "<b>Nike x FA26 NFL Rivalries Photo Shoot - INDY</b> · Indianapolis",
     "<b>Tires S3 8.7</b> · Charleston Music Hall",
     "<b>Los Angeles Sparks vs New York Liberty</b> · Crypto.com Arena",
-    "<b>Netflix HRD Ice Cream Truck Tour-Philadelphia</b> · Ritterhouse Square",
     "<b>7.14 Nike x World Cup Watch Party</b> · The Ground",
+    "<b>JURY DUTY – Los Angeles – Writer’s Peer Group Screening/Reception</b> · San Vincente Bungalows West Hollywood",
     "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV",
+    "<b>Breakthrough Experiential Featuring Dasha</b> · Austin TX",
     "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
     "<b>TGA TN 8.7</b> · Harmony Senior Services",
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
