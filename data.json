@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-11T19:27:07.605Z",
-  "commit": "94a3670",
+  "generatedAt": "2026-08-11T21:06:08.573Z",
+  "commit": "ced0c69",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1539,
-    "events30": 157,
-    "guards30": 714,
+    "eventsYTD": 1540,
+    "events30": 158,
+    "guards30": 734,
     "citiesYTD": 101,
-    "upcoming30": 85,
-    "perDay": 6.901345291479821
+    "upcoming30": 86,
+    "perDay": 6.9058295964125564
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 884,
+      "ev": 885,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 73,
-      "w": 0.08257918552036199,
+      "w": 0.08248587570621468,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 143,
-      "w": 0.16176470588235295,
+      "w": 0.1615819209039548,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 96,
-      "w": 0.1085972850678733,
+      "w": 0.10847457627118644,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 38,
-      "w": 0.042986425339366516,
+      "w": 0.04293785310734463,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 104,
-      "w": 0.11764705882352941,
+      "w": 0.11751412429378531,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 53,
-      "w": 0.05995475113122172,
+      "w": 0.059887005649717516,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3181769954324,
       "lat": 34.062236104047194,
-      "count": 450
+      "count": 451
     },
     {
       "name": "CA",
@@ -1319,7 +1319,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 42,
+      "events30": 43,
       "career": 2324,
       "recent": [
         {
@@ -1331,7 +1331,7 @@
           "meta": "AUG 11"
         },
         {
-          "name": "Benson Boone",
+          "name": "TVA Televerse 2026",
           "meta": "AUG 11"
         }
       ]
