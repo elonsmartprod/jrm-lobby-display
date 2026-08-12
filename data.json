@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T23:03:05.518Z",
-  "commit": "52cf691",
+  "generatedAt": "2026-08-12T23:59:45.278Z",
+  "commit": "3d3d996",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -1586,6 +1586,15 @@
       "upcoming": false
     },
     {
+      "client": "Delta Center",
+      "title": "Delta Center Renovations",
+      "venue": "Delta Center · Salt Lake City",
+      "badges": [
+        "Other"
+      ],
+      "upcoming": false
+    },
+    {
       "client": "Symbiotic Event Services",
       "title": "LA Comic Con",
       "venue": "Los Angeles Convention Center · Los Angeles",
@@ -1598,15 +1607,6 @@
       "client": "Élephante: The Pelican, LLC",
       "title": "Elephante Santa Monica",
       "venue": "Elephante · Santa Monica",
-      "badges": [
-        "Other"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Delta Center",
-      "title": "Delta Center Renovations",
-      "venue": "Delta Center · Salt Lake City",
       "badges": [
         "Other"
       ],
