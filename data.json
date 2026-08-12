@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-11T23:05:10.522Z",
-  "commit": "82774b5",
+  "generatedAt": "2026-08-12T00:01:15.961Z",
+  "commit": "50e7fb8",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1540,
+    "eventsYTD": 1544,
     "events30": 158,
-    "guards30": 734,
+    "guards30": 748,
     "citiesYTD": 101,
-    "upcoming30": 88,
-    "perDay": 6.9058295964125564
+    "upcoming30": 87,
+    "perDay": 6.923766816143497
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 885,
+      "ev": 888,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 73,
-      "w": 0.08248587570621468,
+      "w": 0.08220720720720721,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 143,
-      "w": 0.1615819209039548,
+      "w": 0.16103603603603603,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 96,
-      "w": 0.10847457627118644,
+      "w": 0.10810810810810811,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 38,
-      "w": 0.04293785310734463,
+      "w": 0.04279279279279279,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 104,
-      "w": 0.11751412429378531,
+      "w": 0.11711711711711711,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 53,
-      "w": 0.059887005649717516,
+      "ev": 54,
+      "w": 0.060810810810810814,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3181769954324,
       "lat": 34.062236104047194,
-      "count": 451
+      "count": 452
     },
     {
       "name": "CA",
@@ -299,7 +299,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 69
+      "count": 70
     },
     {
       "name": "Las Vegas, NV",
@@ -329,7 +329,7 @@
       "name": "Hollywood Hills, CA",
       "lon": -118.3377778,
       "lat": 34.1077778,
-      "count": 24
+      "count": 25
     },
     {
       "name": "Dallas, TX",
@@ -404,6 +404,12 @@
       "count": 5
     },
     {
+      "name": "TN",
+      "lon": -86.77010835338851,
+      "lat": 36.162018124698996,
+      "count": 4
+    },
+    {
       "name": "Malibu, CA",
       "lon": -118.81201097499999,
       "lat": 34.0479904,
@@ -431,12 +437,6 @@
       "name": "Pasadena, CA",
       "lon": -104.6818294011085,
       "lat": 36.2730293705965,
-      "count": 3
-    },
-    {
-      "name": "TN",
-      "lon": -86.90081429171067,
-      "lat": 36.230738845838,
       "count": 3
     },
     {
@@ -1319,20 +1319,41 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 43,
+      "events30": 45,
       "career": 2324,
       "recent": [
         {
+          "name": "JOHN CANDY – Los Angeles – Tastemaker Panel / Reception ",
+          "meta": "AUG 12"
+        },
+        {
+          "name": "Swisher Production Premiere",
+          "meta": "AUG 12"
+        },
+        {
           "name": "JURY DUTY – Los Angeles – Writer’s Peer Group Screening/Reception",
           "meta": "AUG 11"
+        }
+      ]
+    },
+    {
+      "name": "Sevan Ohanians",
+      "office": "Los Angeles",
+      "color": "#E8B44A",
+      "events30": 20,
+      "career": 876,
+      "recent": [
+        {
+          "name": "Grammy Museum - HYBE America Reception",
+          "meta": "AUG 12"
         },
         {
-          "name": "Benson Boone- LA Live",
+          "name": "Grammy Museum Event - 8/11/26 - PP",
           "meta": "AUG 11"
         },
         {
-          "name": "TVA Televerse 2026",
-          "meta": "AUG 11"
+          "name": "Grammy Museum Event - 8/9/26 - GA",
+          "meta": "AUG 09"
         }
       ]
     },
@@ -1340,7 +1361,7 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 19,
       "career": 490,
       "recent": [
         {
@@ -1354,27 +1375,6 @@
         {
           "name": "BMW iX3 Ride and Drive-San Francisco",
           "meta": "AUG 02"
-        }
-      ]
-    },
-    {
-      "name": "Sevan Ohanians",
-      "office": "Los Angeles",
-      "color": "#E8B44A",
-      "events30": 19,
-      "career": 876,
-      "recent": [
-        {
-          "name": "Grammy Museum Event - 8/11/26 - PP",
-          "meta": "AUG 11"
-        },
-        {
-          "name": "Grammy Museum Event - 8/9/26 - GA",
-          "meta": "AUG 09"
-        },
-        {
-          "name": "Grammy Museum - 8/8/26 Event",
-          "meta": "AUG 08"
         }
       ]
     },
@@ -1606,6 +1606,8 @@
   "ticker": [
     "<b>Nike SCI Kick Around </b> · Pecan Park",
     "<b>Guitar Center-Summer School Tour-CO</b> · Guitar Center-CO",
+    "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
+    "<b>Swisher Production Premiere</b> · American Legion Post 43",
     "<b>7.17 Emerald x Elena</b> · Multiple Venues",
     "<b>ABC News Utah</b> · ABC7/KGO",
     "<b>Monster Jam</b> · Crypto.com Arena",
@@ -1618,12 +1620,10 @@
     "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV",
     "<b>Breakthrough Experiential Featuring Dasha</b> · Austin TX",
     "<b>Open AI-IL</b> · Hyatt Regency-Schaumburg IL",
+    "<b>Grammy Museum - HYBE America Reception</b> · Grammy Museum",
     "<b>TGA TN 8.7</b> · Harmony Senior Services",
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
-    "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41",
-    "<b>Guitar Center-Summer School Tour-Chicago</b> · Guitar Center-Chicago",
-    "<b>LA Live Events 8.3-8.9</b> · LA Live",
-    "<b>Apple San Diego Comic Con Activation</b> · TBD"
+    "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41"
   ],
   "linkedin": [
     {
