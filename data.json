@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T00:01:15.961Z",
-  "commit": "50e7fb8",
+  "generatedAt": "2026-08-12T02:46:33.226Z",
+  "commit": "c3c5151",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -832,6 +832,27 @@
   "todayPosts": [
     {
       "rem": "Jessica Hernandez",
+      "venue": "Harbor Freight ",
+      "client": "Protos Security",
+      "job": "Protos Harbor Freight LV ",
+      "city": ""
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": " GTC Trilith Cinemas-ATL",
+      "client": "Amazon",
+      "job": "ShowSouth - Amazon AP ATL",
+      "city": ""
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "JW Marriott L.A. LIVE",
+      "client": "Television Academy",
+      "job": "TVA Televerse 2026",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Jessica Hernandez",
       "venue": "Carvana Operations ",
       "client": "Protos Security",
       "job": "Protos Carvana LV",
@@ -843,13 +864,6 @@
       "client": "Nike",
       "job": "Nike x HO26 Project Galaxy Inspiration Shoot",
       "city": "Brooklyn"
-    },
-    {
-      "rem": "Patrick J McKillop",
-      "venue": "Sprouts- Holladay",
-      "client": "Protos Security",
-      "job": "Protos Sprouts",
-      "city": ""
     },
     {
       "rem": "Justin McKillop",
