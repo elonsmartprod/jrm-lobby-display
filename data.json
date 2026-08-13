@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-13T22:04:31.664Z",
-  "commit": "12709c4",
+  "generatedAt": "2026-08-13T23:04:51.404Z",
+  "commit": "79d65d8",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 158,
     "guards30": 712,
     "citiesYTD": 101,
-    "upcoming30": 92,
+    "upcoming30": 93,
     "perDay": 6.888888888888889
   },
   "heatPoints": [
@@ -1503,15 +1503,6 @@
       "upcoming": false
     },
     {
-      "client": "NALC",
-      "title": "NALC 74th Annual Convention",
-      "venue": "Los Angeles Convention Center · Los Angeles",
-      "badges": [
-        "Convention"
-      ],
-      "upcoming": false
-    },
-    {
       "client": "Unknown",
       "title": "BET X 2026",
       "venue": "The Beehive · Los Angeles",
@@ -1582,6 +1573,15 @@
         "Convention"
       ],
       "upcoming": true
+    },
+    {
+      "client": "NALC",
+      "title": "NALC 74th Annual Convention",
+      "venue": "Los Angeles Convention Center · Los Angeles",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": false
     },
     {
       "client": "Dick Clark Productions",
