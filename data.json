@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-13T16:13:06.975Z",
-  "commit": "ab88665",
+  "generatedAt": "2026-08-13T17:15:08.266Z",
+  "commit": "cfdba7f",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 158,
     "guards30": 712,
     "citiesYTD": 101,
-    "upcoming30": 86,
+    "upcoming30": 90,
     "perDay": 6.888888888888889
   },
   "heatPoints": [
@@ -1439,7 +1439,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 15,
-      "career": 272,
+      "career": 276,
       "recent": [
         {
           "name": "8.10 Emerald Executive Dinner",
