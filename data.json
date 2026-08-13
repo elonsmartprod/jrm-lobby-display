@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-13T02:49:08.200Z",
-  "commit": "7227d60",
+  "generatedAt": "2026-08-13T05:07:33.189Z",
+  "commit": "f01acaa",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 158,
     "guards30": 712,
     "citiesYTD": 101,
-    "upcoming30": 85,
+    "upcoming30": 86,
     "perDay": 6.919642857142857
   },
   "heatPoints": [
@@ -1376,7 +1376,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 20,
-      "career": 876,
+      "career": 877,
       "recent": [
         {
           "name": "HBO - Lanterns - Premiere + Reception Event",
