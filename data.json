@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T23:59:45.278Z",
-  "commit": "3d3d996",
+  "generatedAt": "2026-08-13T02:49:08.200Z",
+  "commit": "7227d60",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1546,
-    "events30": 160,
-    "guards30": 748,
+    "eventsYTD": 1550,
+    "events30": 158,
+    "guards30": 712,
     "citiesYTD": 101,
-    "upcoming30": 89,
-    "perDay": 6.901785714285714
+    "upcoming30": 85,
+    "perDay": 6.919642857142857
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 888,
+      "ev": 891,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08445945945945946,
+      "w": 0.08417508417508418,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 143,
-      "w": 0.16103603603603603,
+      "ev": 144,
+      "w": 0.16161616161616163,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 96,
-      "w": 0.10810810810810811,
+      "w": 0.10774410774410774,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 38,
-      "w": 0.04279279279279279,
+      "w": 0.04264870931537598,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 104,
-      "w": 0.11711711711711711,
+      "w": 0.11672278338945005,
       "hq": true
     },
     {
@@ -260,16 +260,16 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 54,
-      "w": 0.060810810810810814,
+      "w": 0.06060606060606061,
       "hq": false
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.3181769954324,
-      "lat": 34.062236104047194,
-      "count": 452
+      "lon": -118.3182084651289,
+      "lat": 34.06241377351913,
+      "count": 455
     },
     {
       "name": "CA",
@@ -285,9 +285,9 @@
     },
     {
       "name": "New York, NY",
-      "lon": -73.989130134691,
-      "lat": 40.74441309283264,
-      "count": 77
+      "lon": -73.9888413377928,
+      "lat": 40.74454449571495,
+      "count": 78
     },
     {
       "name": "San Francisco, CA",
@@ -831,17 +831,24 @@
   ],
   "todayPosts": [
     {
+      "rem": "Justin McKillop",
+      "venue": "Walter Hill First Baptist Church",
+      "client": "Legacy Homeschool Resource Center",
+      "job": "Legacy Homeschool Resource Center",
+      "city": ""
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "JRM Office ",
+      "client": "WB Production UK",
+      "job": "WB Production Sec LV",
+      "city": "Las Vegas"
+    },
+    {
       "rem": "Jessica Hernandez",
       "venue": "Harbor Freight ",
       "client": "Protos Security",
       "job": "Protos Harbor Freight LV ",
-      "city": ""
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": " GTC Trilith Cinemas-ATL",
-      "client": "Amazon",
-      "job": "ShowSouth - Amazon AP ATL",
       "city": ""
     },
     {
@@ -1351,16 +1358,16 @@
       "career": 2324,
       "recent": [
         {
+          "name": "TVA Hall of Fame",
+          "meta": "AUG 13"
+        },
+        {
           "name": "JOHN CANDY – Los Angeles – Tastemaker Panel / Reception ",
           "meta": "AUG 12"
         },
         {
           "name": "Swisher Production Premiere",
           "meta": "AUG 12"
-        },
-        {
-          "name": "JURY DUTY – Los Angeles – Writer’s Peer Group Screening/Reception",
-          "meta": "AUG 11"
         }
       ]
     },
@@ -1372,16 +1379,16 @@
       "career": 876,
       "recent": [
         {
+          "name": "HBO - Lanterns - Premiere + Reception Event",
+          "meta": "AUG 13"
+        },
+        {
           "name": "Grammy Museum - HYBE America Reception",
           "meta": "AUG 12"
         },
         {
           "name": "Grammy Museum Event - 8/11/26 - PP",
           "meta": "AUG 11"
-        },
-        {
-          "name": "Grammy Museum Event - 8/9/26 - GA",
-          "meta": "AUG 09"
         }
       ]
     },
@@ -1389,7 +1396,7 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 19,
+      "events30": 18,
       "career": 490,
       "recent": [
         {
@@ -1410,9 +1417,13 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 17,
+      "events30": 16,
       "career": 321,
       "recent": [
+        {
+          "name": "8.13 Eater Dinner Party",
+          "meta": "AUG 13"
+        },
         {
           "name": "Nike x HO26 Project Galaxy Inspiration Shoot",
           "meta": "AUG 09"
@@ -1420,10 +1431,6 @@
         {
           "name": "Nike x FA27 US Open Tennis AJFC Campaign Photoshoot",
           "meta": "AUG 02"
-        },
-        {
-          "name": "AAS x Astor Pl Plaza",
-          "meta": "JUL 30"
         }
       ]
     },
@@ -1637,13 +1644,11 @@
     "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
     "<b>Swisher Production Premiere</b> · American Legion Post 43",
     "<b>7.17 Emerald x Elena</b> · Multiple Venues",
-    "<b>ABC News Utah</b> · ABC7/KGO",
     "<b>Monster Jam</b> · Crypto.com Arena",
     "<b>NALC 74th Annual Convention</b> · Los Angeles Convention Center",
     "<b>Nike x FA26 NFL Rivalries Photo Shoot - INDY</b> · Indianapolis",
     "<b>Tires S3 8.7</b> · Charleston Music Hall",
     "<b>Los Angeles Sparks vs New York Liberty</b> · Crypto.com Arena",
-    "<b>7.14 Nike x World Cup Watch Party</b> · The Ground",
     "<b>JURY DUTY – Los Angeles – Writer’s Peer Group Screening/Reception</b> · San Vincente Bungalows West Hollywood",
     "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV",
     "<b>Breakthrough Experiential Featuring Dasha</b> · Austin TX",
@@ -1651,7 +1656,9 @@
     "<b>Grammy Museum - HYBE America Reception</b> · Grammy Museum",
     "<b>TGA TN 8.7</b> · Harmony Senior Services",
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
-    "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41"
+    "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41",
+    "<b>Guitar Center-Summer School Tour-Chicago</b> · Guitar Center-Chicago",
+    "<b>LA Live Events 8.3-8.9</b> · LA Live"
   ],
   "linkedin": [
     {
