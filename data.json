@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T18:08:24.494Z",
-  "commit": "314bb9e",
+  "generatedAt": "2026-08-14T19:15:38.944Z",
+  "commit": "497c772",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -1532,20 +1532,20 @@
       "upcoming": false
     },
     {
-      "client": "The Recording Academy",
-      "title": "Grammys 2026",
-      "venue": "Crypto.com Arena · Los Angeles",
-      "badges": [
-        "Awards Show"
-      ],
-      "upcoming": false
-    },
-    {
       "client": "Belles: 24 Windward LLC ",
       "title": "Belles Beach House",
       "venue": "Belles Beach House · Los Angeles",
       "badges": [
         "Other"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "The Recording Academy",
+      "title": "Grammys 2026",
+      "venue": "Crypto.com Arena · Los Angeles",
+      "badges": [
+        "Awards Show"
       ],
       "upcoming": false
     },
