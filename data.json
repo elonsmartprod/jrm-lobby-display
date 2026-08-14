@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T00:00:41.729Z",
-  "commit": "4bdb50a",
+  "generatedAt": "2026-08-14T02:47:18.792Z",
+  "commit": "08c04da",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1558,
-    "events30": 162,
-    "guards30": 742,
+    "eventsYTD": 1557,
+    "events30": 161,
+    "guards30": 741,
     "citiesYTD": 101,
-    "upcoming30": 86,
-    "perDay": 6.924444444444444
+    "upcoming30": 87,
+    "perDay": 6.92
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 898,
+      "ev": 897,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08351893095768374,
+      "w": 0.08361204013377926,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 144,
-      "w": 0.1603563474387528,
+      "w": 0.1605351170568562,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 96,
-      "w": 0.10690423162583519,
+      "w": 0.10702341137123746,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 38,
-      "w": 0.042316258351893093,
+      "w": 0.042363433667781496,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 104,
-      "w": 0.11581291759465479,
+      "w": 0.11594202898550725,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 54,
-      "w": 0.060133630289532294,
+      "w": 0.06020066889632107,
       "hq": false
     }
   ],
@@ -281,7 +281,7 @@
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 83
+      "count": 82
     },
     {
       "name": "New York, NY",
@@ -871,13 +871,6 @@
       "client": "Protos Security",
       "job": "Protos Carvana LV",
       "city": ""
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "Brooklyn NY",
-      "client": "Nike",
-      "job": "Nike x HO26 Project Galaxy Inspiration Shoot",
-      "city": "Brooklyn"
     },
     {
       "rem": "Justin McKillop",
