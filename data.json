@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T23:38:39.002Z",
-  "commit": "03c394d",
+  "generatedAt": "2026-08-15T01:51:25.054Z",
+  "commit": "f4d989e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1558,
-    "events30": 162,
-    "guards30": 743,
+    "eventsYTD": 1569,
+    "events30": 164,
+    "guards30": 758,
     "citiesYTD": 101,
-    "upcoming30": 93,
-    "perDay": 6.893805309734513
+    "upcoming30": 86,
+    "perDay": 6.942477876106195
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 898,
+      "ev": 905,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08351893095768374,
+      "w": 0.08287292817679558,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 144,
-      "w": 0.1603563474387528,
+      "ev": 145,
+      "w": 0.16022099447513813,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 96,
-      "w": 0.10690423162583519,
+      "w": 0.10607734806629834,
       "hq": false
     },
     {
@@ -244,23 +244,23 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 38,
-      "w": 0.042316258351893093,
+      "w": 0.041988950276243095,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 104,
-      "w": 0.11581291759465479,
+      "ev": 105,
+      "w": 0.11602209944751381,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 54,
-      "w": 0.060133630289532294,
+      "ev": 56,
+      "w": 0.061878453038674036,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3182084651289,
       "lat": 34.06241377351914,
-      "count": 459
+      "count": 464
     },
     {
       "name": "CA",
@@ -285,9 +285,9 @@
     },
     {
       "name": "New York, NY",
-      "lon": -73.9888413377928,
-      "lat": 40.74454449571495,
-      "count": 78
+      "lon": -73.98931127992952,
+      "lat": 40.744422102182554,
+      "count": 79
     },
     {
       "name": "San Francisco, CA",
@@ -299,7 +299,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 71
+      "count": 72
     },
     {
       "name": "Las Vegas, NV",
@@ -317,7 +317,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.40086844605668,
       "lat": 34.068454553929,
-      "count": 32
+      "count": 33
     },
     {
       "name": "Culver City, CA",
@@ -831,24 +831,24 @@
   ],
   "todayPosts": [
     {
+      "rem": "Chris Estrada",
+      "venue": "Palisades Recreation Center",
+      "client": "Event Eleven",
+      "job": "Palisades Village Re Opening",
+      "city": ""
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "Palace of Fine Arts San Francisco",
+      "client": "Automotive Events, INC",
+      "job": "8.14 Genesis World Premier",
+      "city": "San Francisco"
+    },
+    {
       "rem": "Justin McKillop",
       "venue": "Walter Hill First Baptist Church",
       "client": "Legacy Homeschool Resource Center",
       "job": "Legacy Homeschool Resource Center",
-      "city": ""
-    },
-    {
-      "rem": "Jessica Hernandez",
-      "venue": "JRM Office ",
-      "client": "WB Production UK",
-      "job": "WB Production Sec LV",
-      "city": "Las Vegas"
-    },
-    {
-      "rem": "Jessica Hernandez",
-      "venue": "Harbor Freight ",
-      "client": "Protos Security",
-      "job": "Protos Harbor Freight LV ",
       "city": ""
     },
     {
@@ -913,13 +913,6 @@
       "client": "Linux Foundation",
       "job": "KubeCon SLC 2026 - Consulting",
       "city": "Salt Lake City"
-    },
-    {
-      "rem": "Patrick J McKillop",
-      "venue": "TJMAXX",
-      "client": "Protos Security",
-      "job": "Protos TJMAX 6/22",
-      "city": ""
     },
     {
       "rem": "Dani Sanchez",
@@ -1347,19 +1340,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 48,
+      "events30": 47,
       "career": 2324,
       "recent": [
         {
-          "name": "SPIDER-NOIR – Los Angeles – Tastemaker Clips & Convo / Reception ",
-          "meta": "AUG 14"
-        },
-        {
-          "name": "Palisades Village Re Opening",
-          "meta": "AUG 14"
-        },
-        {
           "name": "KCON",
+          "meta": "AUG 15"
+        },
+        {
+          "name": "KCON- LA Live",
+          "meta": "AUG 15"
+        },
+        {
+          "name": "SPIDER-NOIR – Los Angeles – Tastemaker Clips & Convo / Reception ",
           "meta": "AUG 14"
         }
       ]
@@ -1368,20 +1361,20 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 23,
       "career": 878,
       "recent": [
         {
+          "name": "Grammy Museum Event - 8/15/26 - GA",
+          "meta": "AUG 15"
+        },
+        {
+          "name": "HBO - 2026 Televerse Event",
+          "meta": "AUG 15"
+        },
+        {
           "name": "HBO - Hacks - Deborah Vance & Friends Live",
           "meta": "AUG 14"
-        },
-        {
-          "name": "Grammy Museum Event - 8/14/26 - PP",
-          "meta": "AUG 14"
-        },
-        {
-          "name": "HBO - Lanterns - Premiere + Reception Event",
-          "meta": "AUG 13"
         }
       ]
     },
@@ -1389,9 +1382,13 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 17,
+      "events30": 16,
       "career": 491,
       "recent": [
+        {
+          "name": "Nike x HO26 Tatum 5 Photoshoot",
+          "meta": "AUG 15"
+        },
         {
           "name": "ShowSouth - Amazon AP ATL",
           "meta": "AUG 11"
@@ -1399,10 +1396,6 @@
         {
           "name": "Nike DSG x Ronald Acuna Jr Cleat Launch-Georgia",
           "meta": "AUG 03"
-        },
-        {
-          "name": "BMW iX3 Ride and Drive-San Francisco",
-          "meta": "AUG 02"
         }
       ]
     },
@@ -1431,9 +1424,13 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 15,
+      "events30": 14,
       "career": 322,
       "recent": [
+        {
+          "name": "8.15 Emerald Drop-NYC",
+          "meta": "AUG 15"
+        },
         {
           "name": "8.13 Eater Dinner Party",
           "meta": "AUG 13"
@@ -1441,10 +1438,6 @@
         {
           "name": "Nike x HO26 Project Galaxy Inspiration Shoot",
           "meta": "AUG 09"
-        },
-        {
-          "name": "Nike x FA27 US Open Tennis AJFC Campaign Photoshoot",
-          "meta": "AUG 02"
         }
       ]
     }
@@ -1532,15 +1525,6 @@
       "upcoming": false
     },
     {
-      "client": "Belles: 24 Windward LLC ",
-      "title": "Belles Beach House",
-      "venue": "Belles Beach House · Los Angeles",
-      "badges": [
-        "Other"
-      ],
-      "upcoming": false
-    },
-    {
       "client": "The Recording Academy",
       "title": "Grammys 2026",
       "venue": "Crypto.com Arena · Los Angeles",
@@ -1604,15 +1588,6 @@
       "upcoming": false
     },
     {
-      "client": "Élephante: The Pelican, LLC",
-      "title": "Elephante Santa Monica",
-      "venue": "Elephante · Santa Monica",
-      "badges": [
-        "Other"
-      ],
-      "upcoming": false
-    },
-    {
       "client": "Symbiotic Event Services",
       "title": "LA Comic Con",
       "venue": "Los Angeles Convention Center · Los Angeles",
@@ -1629,11 +1604,30 @@
         "Convention"
       ],
       "upcoming": false
+    },
+    {
+      "client": "Fashion Nova",
+      "title": "Fashion Nova - Santa Fe Springs",
+      "venue": "Fashion Nova Distribution Center · Santa Fe Springs",
+      "badges": [
+        "Apts-Condos-Office Bldg"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Amazon",
+      "title": "Amazon Ignite",
+      "venue": "Aria  · Las Vegas",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": false
     }
   ],
   "ticker": [
     "<b>Nike SCI Kick Around </b> · Pecan Park",
     "<b>Guitar Center-Summer School Tour-CO</b> · Guitar Center-CO",
+    "<b>8.15 Emerald Drop-NYC</b> · The Highline",
     "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
     "<b>Swisher Production Premiere</b> · American Legion Post 43",
     "<b>7.17 Emerald x Elena</b> · Multiple Venues",
@@ -1648,7 +1642,6 @@
     "<b>TGA TN 8.7</b> · Harmony Senior Services",
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
     "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41",
-    "<b>Guitar Center-Summer School Tour-Chicago</b> · Guitar Center-Chicago",
     "<b>LA Live Events 8.3-8.9</b> · LA Live",
     "<b>Apple San Diego Comic Con Activation</b> · TBD",
     "<b>Dr Nader Milkhail Private Event</b> · 3084 Taylor Way Costa Mesa Ca 92626"
