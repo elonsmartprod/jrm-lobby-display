@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-16T18:48:26.866Z",
-  "commit": "d46db69",
+  "generatedAt": "2026-08-16T19:35:32.849Z",
+  "commit": "a1e9bfd",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1573,
-    "events30": 162,
-    "guards30": 741,
-    "citiesYTD": 101,
+    "eventsYTD": 1574,
+    "events30": 163,
+    "guards30": 745,
+    "citiesYTD": 102,
     "upcoming30": 84,
-    "perDay": 6.899122807017544
+    "perDay": 6.9035087719298245
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 909,
+      "ev": 910,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08250825082508251,
+      "w": 0.08241758241758242,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 145,
-      "w": 0.15951595159515952,
+      "w": 0.15934065934065933,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 96,
-      "w": 0.10561056105610561,
+      "w": 0.1054945054945055,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 38,
-      "w": 0.041804180418041806,
+      "w": 0.041758241758241756,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 105,
-      "w": 0.11551155115511551,
+      "w": 0.11538461538461539,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 56,
-      "w": 0.061606160616061605,
+      "w": 0.06153846153846154,
       "hq": false
     }
   ],
@@ -845,6 +845,13 @@
       "city": "Los Angeles"
     },
     {
+      "rem": "Chris Estrada",
+      "venue": "SoFi Stadium Inglewood",
+      "client": "Live Nation",
+      "job": "Karol G LA Concert ",
+      "city": "Inglewood"
+    },
+    {
       "rem": "Mathias Gibson",
       "venue": "Palace of Fine Arts San Francisco",
       "client": "Automotive Events, INC",
@@ -1347,8 +1354,8 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 49,
-      "career": 2324,
+      "events30": 50,
+      "career": 2325,
       "recent": [
         {
           "name": "KCON- LA Live",
@@ -1643,6 +1650,7 @@
     "<b>JURY DUTY – Los Angeles – Writer’s Peer Group Screening/Reception</b> · San Vincente Bungalows West Hollywood",
     "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV",
     "<b>Breakthrough Experiential Featuring Dasha</b> · Austin TX",
+    "<b>Karol G LA Concert </b> · SoFi Stadium Inglewood",
     "<b>Grammy Museum - HYBE America Reception</b> · Grammy Museum",
     "<b>TGA TN 8.7</b> · Harmony Senior Services",
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
@@ -1650,8 +1658,7 @@
     "<b>LA Live Events 8.3-8.9</b> · LA Live",
     "<b>Apple San Diego Comic Con Activation</b> · TBD",
     "<b>Dr Nader Milkhail Private Event</b> · 3084 Taylor Way Costa Mesa Ca 92626",
-    "<b>AAS x Astor Pl Plaza</b> · Astor Pl Plaza",
-    "<b>KCON</b> · Crypto.com Arena"
+    "<b>AAS x Astor Pl Plaza</b> · Astor Pl Plaza"
   ],
   "linkedin": [
     {
