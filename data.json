@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-15T23:35:23.953Z",
-  "commit": "3efe483",
+  "generatedAt": "2026-08-16T01:58:47.956Z",
+  "commit": "36bcb36",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1569,
-    "events30": 164,
-    "guards30": 758,
+    "eventsYTD": 1573,
+    "events30": 162,
+    "guards30": 741,
     "citiesYTD": 101,
-    "upcoming30": 86,
-    "perDay": 6.9118942731277535
+    "upcoming30": 84,
+    "perDay": 6.929515418502203
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 905,
+      "ev": 909,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08287292817679558,
+      "w": 0.08250825082508251,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 145,
-      "w": 0.16022099447513813,
+      "w": 0.15951595159515952,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 96,
-      "w": 0.10607734806629834,
+      "w": 0.10561056105610561,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 38,
-      "w": 0.041988950276243095,
+      "w": 0.041804180418041806,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 105,
-      "w": 0.11602209944751381,
+      "w": 0.11551155115511551,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 56,
-      "w": 0.061878453038674036,
+      "w": 0.061606160616061605,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3182084651289,
       "lat": 34.06241377351914,
-      "count": 464
+      "count": 468
     },
     {
       "name": "CA",
@@ -831,11 +831,18 @@
   ],
   "todayPosts": [
     {
-      "rem": "Chris Estrada",
-      "venue": "Palisades Recreation Center",
-      "client": "Event Eleven",
-      "job": "Palisades Village Re Opening",
+      "rem": "Sean McKillop",
+      "venue": "M3 Studios",
+      "client": "Nike",
+      "job": "Nike x HO26 Tatum 5 Photoshoot",
       "city": ""
+    },
+    {
+      "rem": "Mivonta Fulwood",
+      "venue": "NYA Studios West",
+      "client": "HBO",
+      "job": "HBO - FYC Phase 2 Event",
+      "city": "Los Angeles"
     },
     {
       "rem": "Mathias Gibson",
@@ -1340,20 +1347,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 47,
+      "events30": 49,
       "career": 2324,
       "recent": [
         {
-          "name": "KCON",
-          "meta": "AUG 15"
-        },
-        {
           "name": "KCON- LA Live",
-          "meta": "AUG 15"
+          "meta": "AUG 16"
         },
         {
-          "name": "SPIDER-NOIR – Los Angeles – Tastemaker Clips & Convo / Reception ",
-          "meta": "AUG 14"
+          "name": "Amazon John Candy I Like me Televise EP",
+          "meta": "AUG 16"
+        },
+        {
+          "name": "KCON",
+          "meta": "AUG 16"
         }
       ]
     },
@@ -1382,7 +1389,7 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 16,
+      "events30": 15,
       "career": 491,
       "recent": [
         {
@@ -1396,27 +1403,6 @@
         {
           "name": "Nike DSG x Ronald Acuna Jr Cleat Launch-Georgia",
           "meta": "AUG 03"
-        }
-      ]
-    },
-    {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
-      "color": "#E8B44A",
-      "events30": 16,
-      "career": 278,
-      "recent": [
-        {
-          "name": "8.14 Genesis World Premier",
-          "meta": "AUG 14"
-        },
-        {
-          "name": "8.10 Emerald Executive Dinner",
-          "meta": "AUG 10"
-        },
-        {
-          "name": "8.10 Disney Coverage",
-          "meta": "AUG 10"
         }
       ]
     },
@@ -1438,6 +1424,27 @@
         {
           "name": "Nike x HO26 Project Galaxy Inspiration Shoot",
           "meta": "AUG 09"
+        }
+      ]
+    },
+    {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 13,
+      "career": 278,
+      "recent": [
+        {
+          "name": "8.14 Genesis World Premier",
+          "meta": "AUG 14"
+        },
+        {
+          "name": "8.10 Emerald Executive Dinner",
+          "meta": "AUG 10"
+        },
+        {
+          "name": "8.10 Disney Coverage",
+          "meta": "AUG 10"
         }
       ]
     }
@@ -1625,12 +1632,10 @@
     }
   ],
   "ticker": [
-    "<b>Nike SCI Kick Around </b> · Pecan Park",
     "<b>Guitar Center-Summer School Tour-CO</b> · Guitar Center-CO",
     "<b>8.15 Emerald Drop-NYC</b> · The Highline",
     "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
     "<b>Swisher Production Premiere</b> · American Legion Post 43",
-    "<b>7.17 Emerald x Elena</b> · Multiple Venues",
     "<b>Monster Jam</b> · Crypto.com Arena",
     "<b>Nike x FA26 NFL Rivalries Photo Shoot - INDY</b> · Indianapolis",
     "<b>Tires S3 8.7</b> · Charleston Music Hall",
@@ -1644,7 +1649,9 @@
     "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41",
     "<b>LA Live Events 8.3-8.9</b> · LA Live",
     "<b>Apple San Diego Comic Con Activation</b> · TBD",
-    "<b>Dr Nader Milkhail Private Event</b> · 3084 Taylor Way Costa Mesa Ca 92626"
+    "<b>Dr Nader Milkhail Private Event</b> · 3084 Taylor Way Costa Mesa Ca 92626",
+    "<b>AAS x Astor Pl Plaza</b> · Astor Pl Plaza",
+    "<b>KCON</b> · Crypto.com Arena"
   ],
   "linkedin": [
     {
