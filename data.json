@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T13:07:39.865Z",
-  "commit": "c4855da",
+  "generatedAt": "2026-08-17T13:54:29.492Z",
+  "commit": "3162eee",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -273,9 +273,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.14797993500537,
-      "lat": 35.510987519830344,
-      "count": 93
+      "lon": -119.19407771692765,
+      "lat": 35.54092347774558,
+      "count": 94
     },
     {
       "name": "North Hollywood, CA",
@@ -428,6 +428,12 @@
       "count": 4
     },
     {
+      "name": "NV",
+      "lon": -115.17446477552474,
+      "lat": 36.139097690992,
+      "count": 4
+    },
+    {
       "name": "Denver, CO",
       "lon": -104.970397377045,
       "lat": 39.708691521729,
@@ -560,6 +566,12 @@
       "count": 2
     },
     {
+      "name": "FL",
+      "lon": -80.2215038655325,
+      "lat": 25.820675897756,
+      "count": 2
+    },
+    {
       "name": "Little Elm, TX",
       "lon": -96.8792593,
       "lat": 33.17833330000001,
@@ -611,18 +623,6 @@
       "name": "Redondo Beach, CA",
       "lon": -118.3895713,
       "lat": 33.8375968,
-      "count": 1
-    },
-    {
-      "name": "Tuscon, AZ",
-      "lon": -111.052318061403,
-      "lat": 32.214073026448,
-      "count": 1
-    },
-    {
-      "name": "Redmond, WA",
-      "lon": -122.096240808996,
-      "lat": 47.660582319296,
       "count": 1
     }
   ],
