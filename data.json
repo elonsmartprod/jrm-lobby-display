@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T18:58:48.035Z",
-  "commit": "221e1d5",
+  "generatedAt": "2026-08-17T19:43:51.603Z",
+  "commit": "6732f6e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 162,
     "guards30": 706,
     "citiesYTD": 102,
-    "upcoming30": 83,
+    "upcoming30": 84,
     "perDay": 6.88646288209607
   },
   "heatPoints": [
@@ -1327,7 +1327,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 47,
-      "career": 2325,
+      "career": 2326,
       "recent": [
         {
           "name": "THE BOYS – Los Angeles – Emmy Nominee Tastemaker Reception ",
