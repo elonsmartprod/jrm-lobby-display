@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T04:05:40.742Z",
-  "commit": "bc988b1",
+  "generatedAt": "2026-08-17T04:59:28.603Z",
+  "commit": "df896ab",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1576,
-    "events30": 161,
-    "guards30": 704,
+    "eventsYTD": 1577,
+    "events30": 162,
+    "guards30": 706,
     "citiesYTD": 102,
     "upcoming30": 81,
-    "perDay": 6.912280701754386
+    "perDay": 6.916666666666667
   },
   "heatPoints": [
     {
@@ -1389,9 +1389,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 14,
-      "career": 278,
+      "events30": 15,
+      "career": 279,
       "recent": [
+        {
+          "name": "8.17-8.20 Genesis of SB Coverage",
+          "meta": "AUG 17"
+        },
         {
           "name": "8.17 Emerald EPxPebble Beach",
           "meta": "AUG 17"
@@ -1399,10 +1403,6 @@
         {
           "name": "8.14 Genesis World Premier",
           "meta": "AUG 14"
-        },
-        {
-          "name": "8.10 Emerald Executive Dinner",
-          "meta": "AUG 10"
         }
       ]
     },
