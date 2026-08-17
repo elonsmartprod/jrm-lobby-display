@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-16T23:34:55.885Z",
-  "commit": "1ca9727",
+  "generatedAt": "2026-08-17T01:56:15.798Z",
+  "commit": "0eee36a",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1571,
-    "events30": 160,
-    "guards30": 730,
+    "eventsYTD": 1576,
+    "events30": 161,
+    "guards30": 704,
     "citiesYTD": 102,
-    "upcoming30": 85,
-    "perDay": 6.890350877192983
+    "upcoming30": 81,
+    "perDay": 6.912280701754386
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 907,
+      "ev": 909,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08269018743109151,
+      "w": 0.08250825082508251,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 145,
-      "w": 0.15986769570011025,
+      "w": 0.15951595159515952,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 96,
-      "w": 0.10584343991179714,
+      "w": 0.10561056105610561,
       "hq": false
     },
     {
@@ -244,23 +244,23 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 38,
-      "w": 0.04189636163175303,
+      "w": 0.041804180418041806,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 105,
-      "w": 0.11576626240352811,
+      "ev": 106,
+      "w": 0.11661166116611661,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 56,
-      "w": 0.06174200661521499,
+      "ev": 57,
+      "w": 0.0627062706270627,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3182084651289,
       "lat": 34.06241377351914,
-      "count": 465
+      "count": 466
     },
     {
       "name": "CA",
@@ -299,7 +299,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 72
+      "count": 73
     },
     {
       "name": "Las Vegas, NV",
@@ -831,27 +831,6 @@
   ],
   "todayPosts": [
     {
-      "rem": "Sean McKillop",
-      "venue": "M3 Studios",
-      "client": "Nike",
-      "job": "Nike x HO26 Tatum 5 Photoshoot",
-      "city": ""
-    },
-    {
-      "rem": "Mivonta Fulwood",
-      "venue": "NYA Studios West",
-      "client": "HBO",
-      "job": "HBO - FYC Phase 2 Event",
-      "city": "Los Angeles"
-    },
-    {
-      "rem": "Chris Estrada",
-      "venue": "SoFi Stadium Inglewood",
-      "client": "Live Nation",
-      "job": "Karol G LA Concert ",
-      "city": "Inglewood"
-    },
-    {
       "rem": "Mathias Gibson",
       "venue": "Palace of Fine Arts San Francisco",
       "client": "Automotive Events, INC",
@@ -871,13 +850,6 @@
       "client": "Protos Security",
       "job": "Protos DoorDash",
       "city": ""
-    },
-    {
-      "rem": "Chris Estrada",
-      "venue": "JW Marriott L.A. LIVE",
-      "client": "Television Academy",
-      "job": "TVA Televerse 2026",
-      "city": "Los Angeles"
     },
     {
       "rem": "Jessica Hernandez",
@@ -1358,15 +1330,15 @@
       "career": 2325,
       "recent": [
         {
+          "name": "THE BOYS – Los Angeles – Emmy Nominee Tastemaker Reception ",
+          "meta": "AUG 17"
+        },
+        {
           "name": "KCON- LA Live",
           "meta": "AUG 16"
         },
         {
           "name": "Amazon John Candy I Like me Televise EP",
-          "meta": "AUG 16"
-        },
-        {
-          "name": "KCON",
           "meta": "AUG 16"
         }
       ]
@@ -1375,9 +1347,13 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 24,
       "career": 878,
       "recent": [
+        {
+          "name": "Grammy Museum Event - 8/17/26 - PP",
+          "meta": "AUG 17"
+        },
         {
           "name": "Grammy Museum Event - 8/15/26 - GA",
           "meta": "AUG 15"
@@ -1385,10 +1361,6 @@
         {
           "name": "HBO - 2026 Televerse Event",
           "meta": "AUG 15"
-        },
-        {
-          "name": "HBO - Hacks - Deborah Vance & Friends Live",
-          "meta": "AUG 14"
         }
       ]
     },
@@ -1396,9 +1368,13 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 15,
+      "events30": 16,
       "career": 491,
       "recent": [
+        {
+          "name": "BMW iX3 Ride and Drive-Chino Hills",
+          "meta": "AUG 17"
+        },
         {
           "name": "Nike x HO26 Tatum 5 Photoshoot",
           "meta": "AUG 15"
@@ -1406,10 +1382,27 @@
         {
           "name": "ShowSouth - Amazon AP ATL",
           "meta": "AUG 11"
+        }
+      ]
+    },
+    {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 14,
+      "career": 278,
+      "recent": [
+        {
+          "name": "8.17 Emerald EPxPebble Beach",
+          "meta": "AUG 17"
         },
         {
-          "name": "Nike DSG x Ronald Acuna Jr Cleat Launch-Georgia",
-          "meta": "AUG 03"
+          "name": "8.14 Genesis World Premier",
+          "meta": "AUG 14"
+        },
+        {
+          "name": "8.10 Emerald Executive Dinner",
+          "meta": "AUG 10"
         }
       ]
     },
@@ -1417,7 +1410,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 14,
+      "events30": 13,
       "career": 322,
       "recent": [
         {
@@ -1431,27 +1424,6 @@
         {
           "name": "Nike x HO26 Project Galaxy Inspiration Shoot",
           "meta": "AUG 09"
-        }
-      ]
-    },
-    {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
-      "color": "#E8B44A",
-      "events30": 13,
-      "career": 278,
-      "recent": [
-        {
-          "name": "8.14 Genesis World Premier",
-          "meta": "AUG 14"
-        },
-        {
-          "name": "8.10 Emerald Executive Dinner",
-          "meta": "AUG 10"
-        },
-        {
-          "name": "8.10 Disney Coverage",
-          "meta": "AUG 10"
         }
       ]
     }
