@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-18T14:53:54.332Z",
-  "commit": "7360819",
+  "generatedAt": "2026-08-18T15:47:38.677Z",
+  "commit": "5de621c",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1585,
-    "events30": 165,
-    "guards30": 699,
+    "eventsYTD": 1586,
+    "events30": 166,
+    "guards30": 700,
     "citiesYTD": 102,
     "upcoming30": 80,
-    "perDay": 6.891304347826087
+    "perDay": 6.895652173913043
   },
   "heatPoints": [
     {
@@ -243,8 +243,8 @@
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 39,
-      "w": 0.04276315789473684,
+      "ev": 40,
+      "w": 0.043859649122807015,
       "hq": false
     },
     {
