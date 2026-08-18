@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-18T20:42:16.784Z",
-  "commit": "99ae8e0",
+  "generatedAt": "2026-08-18T21:40:11.412Z",
+  "commit": "1f9f4ae",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1586,
-    "events30": 166,
-    "guards30": 700,
+    "eventsYTD": 1587,
+    "events30": 167,
+    "guards30": 701,
     "citiesYTD": 102,
     "upcoming30": 86,
-    "perDay": 6.895652173913043
+    "perDay": 6.9
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 912,
+      "ev": 913,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08223684210526316,
+      "w": 0.08214676889375684,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 146,
-      "w": 0.1600877192982456,
+      "w": 0.15991237677984665,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 97,
-      "w": 0.10635964912280702,
+      "w": 0.10624315443592552,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.043859649122807015,
+      "w": 0.04381161007667032,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 106,
-      "w": 0.1162280701754386,
+      "w": 0.11610076670317634,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 58,
-      "w": 0.06359649122807018,
+      "w": 0.06352683461117196,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3182084651289,
       "lat": 34.06241377351914,
-      "count": 468
+      "count": 469
     },
     {
       "name": "CA",
@@ -992,6 +992,13 @@
       "city": "Los Angeles"
     },
     {
+      "rem": "Eric Frederick",
+      "venue": "Long Beach Aquarium",
+      "client": "Long Beach Aquarium",
+      "job": "Long Beach Aquarium",
+      "city": "Long Beach"
+    },
+    {
       "rem": "Dani Sanchez",
       "venue": "Warner Music Warehouse ",
       "client": "Dennis Mukweso",
@@ -1368,8 +1375,8 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 24,
-      "career": 879,
+      "events30": 25,
+      "career": 880,
       "recent": [
         {
           "name": "Grammy Museum Event - 8/18/26 - GA",
@@ -1380,7 +1387,7 @@
           "meta": "AUG 17"
         },
         {
-          "name": "Grammy Museum Event - 8/15/26 - GA",
+          "name": "Bar Avoja - Justin Howard’s Birthday Party",
           "meta": "AUG 15"
         }
       ]
