@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-17T23:38:44.781Z",
-  "commit": "36306d0",
+  "generatedAt": "2026-08-18T01:52:09.630Z",
+  "commit": "2cf99fd",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1577,
-    "events30": 162,
-    "guards30": 706,
+    "eventsYTD": 1585,
+    "events30": 165,
+    "guards30": 699,
     "citiesYTD": 102,
-    "upcoming30": 85,
-    "perDay": 6.88646288209607
+    "upcoming30": 80,
+    "perDay": 6.921397379912664
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 909,
+      "ev": 912,
       "w": 1,
       "hq": true
     },
@@ -220,31 +220,31 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08250825082508251,
+      "w": 0.08223684210526316,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 145,
-      "w": 0.15951595159515952,
+      "ev": 146,
+      "w": 0.1600877192982456,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 96,
-      "w": 0.10561056105610561,
+      "ev": 97,
+      "w": 0.10635964912280702,
       "hq": false
     },
     {
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 38,
-      "w": 0.041804180418041806,
+      "ev": 39,
+      "w": 0.04276315789473684,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 106,
-      "w": 0.11661166116611661,
+      "w": 0.1162280701754386,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 57,
-      "w": 0.0627062706270627,
+      "ev": 58,
+      "w": 0.06359649122807018,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.3182084651289,
       "lat": 34.06241377351914,
-      "count": 466
+      "count": 468
     },
     {
       "name": "CA",
@@ -305,7 +305,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.16193700781558,
       "lat": 36.11230155033209,
-      "count": 63
+      "count": 64
     },
     {
       "name": "Hollywood, CA",
@@ -357,9 +357,9 @@
     },
     {
       "name": "Salt Lake City, UT",
-      "lon": -111.90004345055044,
-      "lat": 40.75082211438023,
-      "count": 11
+      "lon": -111.9005131454954,
+      "lat": 40.752630442942205,
+      "count": 12
     },
     {
       "name": "Century City, CA",
@@ -416,6 +416,12 @@
       "count": 4
     },
     {
+      "name": "Houston, TX",
+      "lon": -95.36136619999999,
+      "lat": 29.75116055,
+      "count": 4
+    },
+    {
       "name": "Atlanta, GA",
       "lon": -84.36799646666667,
       "lat": 33.79154066666666,
@@ -461,12 +467,6 @@
       "name": "Universal City, CA",
       "lon": -118.352547,
       "lat": 34.1371163,
-      "count": 3
-    },
-    {
-      "name": "Houston, TX",
-      "lon": -95.36136619999999,
-      "lat": 29.75116055,
       "count": 3
     },
     {
@@ -830,6 +830,27 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Mathias Gibson",
+      "venue": "Various",
+      "client": "Emerald Americas LLC",
+      "job": "8.17 Emerald EPxPebble Beach",
+      "city": ""
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Fairview Green River",
+      "client": "Czarnowski ",
+      "job": "BMW iX3 Ride and Drive-Chino Hills",
+      "city": ""
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "Genesis of San Bruno",
+      "client": "Automotive Events, INC",
+      "job": "8.17-8.20 Genesis of SB Coverage",
+      "city": ""
+    },
     {
       "rem": "Mathias Gibson",
       "venue": "Palace of Fine Arts San Francisco",
@@ -1330,15 +1351,15 @@
       "career": 2326,
       "recent": [
         {
+          "name": "Prime x NBA Shoot LA",
+          "meta": "AUG 18"
+        },
+        {
           "name": "THE BOYS – Los Angeles – Emmy Nominee Tastemaker Reception ",
           "meta": "AUG 17"
         },
         {
           "name": "KCON- LA Live",
-          "meta": "AUG 16"
-        },
-        {
-          "name": "Amazon John Candy I Like me Televise EP",
           "meta": "AUG 16"
         }
       ]
@@ -1351,37 +1372,16 @@
       "career": 878,
       "recent": [
         {
+          "name": "Grammy Museum Event - 8/18/26 - GA",
+          "meta": "AUG 18"
+        },
+        {
           "name": "Grammy Museum Event - 8/17/26 - PP",
           "meta": "AUG 17"
         },
         {
           "name": "Grammy Museum Event - 8/15/26 - GA",
           "meta": "AUG 15"
-        },
-        {
-          "name": "HBO - 2026 Televerse Event",
-          "meta": "AUG 15"
-        }
-      ]
-    },
-    {
-      "name": "Sean McKillop",
-      "office": "National Ops",
-      "color": "#E8B44A",
-      "events30": 16,
-      "career": 492,
-      "recent": [
-        {
-          "name": "BMW iX3 Ride and Drive-Chino Hills",
-          "meta": "AUG 17"
-        },
-        {
-          "name": "Nike x HO26 Tatum 5 Photoshoot",
-          "meta": "AUG 15"
-        },
-        {
-          "name": "ShowSouth - Amazon AP ATL",
-          "meta": "AUG 11"
         }
       ]
     },
@@ -1407,12 +1407,37 @@
       ]
     },
     {
+      "name": "Sean McKillop",
+      "office": "National Ops",
+      "color": "#E8B44A",
+      "events30": 14,
+      "career": 492,
+      "recent": [
+        {
+          "name": "BMW iX3 Ride and Drive-Chino Hills",
+          "meta": "AUG 17"
+        },
+        {
+          "name": "Nike x HO26 Tatum 5 Photoshoot",
+          "meta": "AUG 15"
+        },
+        {
+          "name": "ShowSouth - Amazon AP ATL",
+          "meta": "AUG 11"
+        }
+      ]
+    },
+    {
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
       "events30": 13,
-      "career": 323,
+      "career": 324,
       "recent": [
+        {
+          "name": "Map 360 x JRM 8/18",
+          "meta": "AUG 18"
+        },
         {
           "name": "8.15 Emerald Drop-NYC",
           "meta": "AUG 15"
@@ -1420,10 +1445,6 @@
         {
           "name": "8.13 Eater Dinner Party",
           "meta": "AUG 13"
-        },
-        {
-          "name": "Nike x HO26 Project Galaxy Inspiration Shoot",
-          "meta": "AUG 09"
         }
       ]
     }
@@ -1611,14 +1632,13 @@
     }
   ],
   "ticker": [
-    "<b>Guitar Center-Summer School Tour-CO</b> · Guitar Center-CO",
     "<b>8.15 Emerald Drop-NYC</b> · The Highline",
     "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
     "<b>Swisher Production Premiere</b> · American Legion Post 43",
-    "<b>Monster Jam</b> · Crypto.com Arena",
     "<b>Nike x FA26 NFL Rivalries Photo Shoot - INDY</b> · Indianapolis",
     "<b>Tires S3 8.7</b> · Charleston Music Hall",
     "<b>Los Angeles Sparks vs New York Liberty</b> · Crypto.com Arena",
+    "<b>ACM Honors 2026</b> · The Pinnacle",
     "<b>JURY DUTY – Los Angeles – Writer’s Peer Group Screening/Reception</b> · San Vincente Bungalows West Hollywood",
     "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV",
     "<b>Breakthrough Experiential Featuring Dasha</b> · Austin TX",
@@ -1630,7 +1650,8 @@
     "<b>LA Live Events 8.3-8.9</b> · LA Live",
     "<b>Apple San Diego Comic Con Activation</b> · TBD",
     "<b>Dr Nader Milkhail Private Event</b> · 3084 Taylor Way Costa Mesa Ca 92626",
-    "<b>AAS x Astor Pl Plaza</b> · Astor Pl Plaza"
+    "<b>AAS x Astor Pl Plaza</b> · Astor Pl Plaza",
+    "<b>KCON</b> · Crypto.com Arena"
   ],
   "linkedin": [
     {
