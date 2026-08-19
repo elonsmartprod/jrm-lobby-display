@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T19:41:37.531Z",
-  "commit": "607cb2f",
+  "generatedAt": "2026-08-19T20:46:48.508Z",
+  "commit": "46ff24e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 168,
     "guards30": 705,
     "citiesYTD": 102,
-    "upcoming30": 89,
+    "upcoming30": 91,
     "perDay": 6.883116883116883
   },
   "heatPoints": [
@@ -1390,7 +1390,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 47,
-      "career": 2328,
+      "career": 2329,
       "recent": [
         {
           "name": "Prime x NBA Shoot LA",
