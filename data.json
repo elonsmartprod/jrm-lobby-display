@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-18T23:38:59.493Z",
-  "commit": "42933c7",
+  "generatedAt": "2026-08-19T01:54:32.537Z",
+  "commit": "481e9f4",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1587,
-    "events30": 167,
-    "guards30": 701,
+    "eventsYTD": 1590,
+    "events30": 168,
+    "guards30": 705,
     "citiesYTD": 102,
-    "upcoming30": 87,
-    "perDay": 6.9
+    "upcoming30": 86,
+    "perDay": 6.913043478260869
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 913,
+      "ev": 916,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08214676889375684,
+      "w": 0.08187772925764192,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 146,
-      "w": 0.15991237677984665,
+      "w": 0.15938864628820962,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 97,
-      "w": 0.10624315443592552,
+      "w": 0.10589519650655022,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.04381161007667032,
+      "w": 0.043668122270742356,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 106,
-      "w": 0.11610076670317634,
+      "w": 0.11572052401746726,
       "hq": true
     },
     {
@@ -260,22 +260,22 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 58,
-      "w": 0.06352683461117196,
+      "w": 0.06331877729257641,
       "hq": false
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.3182084651289,
-      "lat": 34.06241377351914,
-      "count": 469
+      "lon": -118.319165713685,
+      "lat": 34.06131202419648,
+      "count": 470
     },
     {
       "name": "CA",
-      "lon": -119.19407771692765,
-      "lat": 35.54092347774558,
-      "count": 94
+      "lon": -119.18147594778218,
+      "lat": 35.52088601884727,
+      "count": 95
     },
     {
       "name": "North Hollywood, CA",
@@ -299,7 +299,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 73
+      "count": 74
     },
     {
       "name": "Las Vegas, NV",
@@ -830,6 +830,34 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Justin McKillop",
+      "venue": "The Pinnacle",
+      "client": "Academy of Country Music ",
+      "job": "ACM Honors 2026",
+      "city": ""
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "Sony Pictures Studios",
+      "client": "Amazon Studios",
+      "job": "Prime x NBA Shoot LA",
+      "city": ""
+    },
+    {
+      "rem": "Ryan McKillop",
+      "venue": "Houston Hilton Americas ",
+      "client": "Care Net",
+      "job": "Care Net National Conference ",
+      "city": "Houston"
+    },
+    {
+      "rem": "Patrick J McKillop",
+      "venue": "Protos - SLC",
+      "client": "Protos Security",
+      "job": "Protos Coach #2",
+      "city": "Salt Lake City"
+    },
     {
       "rem": "Mathias Gibson",
       "venue": "Various",
@@ -1375,9 +1403,13 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 25,
+      "events30": 26,
       "career": 880,
       "recent": [
+        {
+          "name": "LA Jazz Festival",
+          "meta": "AUG 19"
+        },
         {
           "name": "Grammy Museum Event - 8/18/26 - GA",
           "meta": "AUG 18"
@@ -1385,10 +1417,6 @@
         {
           "name": "Grammy Museum Event - 8/17/26 - PP",
           "meta": "AUG 17"
-        },
-        {
-          "name": "Bar Avoja - Justin Howard’s Birthday Party",
-          "meta": "AUG 15"
         }
       ]
     },
@@ -1414,10 +1442,31 @@
       ]
     },
     {
+      "name": "Seanie Wolf",
+      "office": "Los Angeles",
+      "color": "#E8B44A",
+      "events30": 14,
+      "career": 34,
+      "recent": [
+        {
+          "name": "It Ends Screening",
+          "meta": "AUG 19"
+        },
+        {
+          "name": "Ross House Event",
+          "meta": "AUG 19"
+        },
+        {
+          "name": "Lion Premier ",
+          "meta": "AUG 18"
+        }
+      ]
+    },
+    {
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 14,
+      "events30": 13,
       "career": 492,
       "recent": [
         {
@@ -1431,27 +1480,6 @@
         {
           "name": "ShowSouth - Amazon AP ATL",
           "meta": "AUG 11"
-        }
-      ]
-    },
-    {
-      "name": "Tony D’Gracia",
-      "office": "New York",
-      "color": "#E8B44A",
-      "events30": 13,
-      "career": 326,
-      "recent": [
-        {
-          "name": "Map 360 x JRM 8/18",
-          "meta": "AUG 18"
-        },
-        {
-          "name": "8.15 Emerald Drop-NYC",
-          "meta": "AUG 15"
-        },
-        {
-          "name": "8.13 Eater Dinner Party",
-          "meta": "AUG 13"
         }
       ]
     }
