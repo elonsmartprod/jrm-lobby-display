@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T18:54:43.066Z",
-  "commit": "e7ded8f",
+  "generatedAt": "2026-08-19T19:41:37.531Z",
+  "commit": "607cb2f",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 168,
     "guards30": 705,
     "citiesYTD": 102,
-    "upcoming30": 87,
+    "upcoming30": 89,
     "perDay": 6.883116883116883
   },
   "heatPoints": [
@@ -1390,7 +1390,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 47,
-      "career": 2327,
+      "career": 2328,
       "recent": [
         {
           "name": "Prime x NBA Shoot LA",
@@ -1474,7 +1474,7 @@
       "office": "National Ops",
       "color": "#E8B44A",
       "events30": 13,
-      "career": 492,
+      "career": 493,
       "recent": [
         {
           "name": "BMW iX3 Ride and Drive-Chino Hills",
