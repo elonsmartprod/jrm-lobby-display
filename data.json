@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-20T17:47:01.718Z",
-  "commit": "6d19096",
+  "generatedAt": "2026-08-20T19:01:14.584Z",
+  "commit": "81c1e2e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -1492,18 +1492,18 @@
       "upcoming": false
     },
     {
-      "client": "NBA Entertainment",
-      "title": "NBA All Star Fan Fest",
-      "venue": "Los Angeles Convention Center · Los Angeles",
+      "client": "Doyle Security Services Inc.",
+      "title": "Doyle x LinkedIn San Francisco",
+      "venue": "San Francisco · San Francisco",
       "badges": [
         "Other"
       ],
       "upcoming": false
     },
     {
-      "client": "Doyle Security Services Inc.",
-      "title": "Doyle x LinkedIn San Francisco",
-      "venue": "San Francisco · San Francisco",
+      "client": "NBA Entertainment",
+      "title": "NBA All Star Fan Fest",
+      "venue": "Los Angeles Convention Center · Los Angeles",
       "badges": [
         "Other"
       ],
