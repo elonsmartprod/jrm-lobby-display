@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T23:38:54.246Z",
-  "commit": "cc566f8",
+  "generatedAt": "2026-08-20T01:53:09.448Z",
+  "commit": "1bfefa8",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1590,
-    "events30": 168,
-    "guards30": 705,
+    "eventsYTD": 1604,
+    "events30": 176,
+    "guards30": 709,
     "citiesYTD": 102,
-    "upcoming30": 91,
-    "perDay": 6.883116883116883
+    "upcoming30": 78,
+    "perDay": 6.9437229437229435
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 916,
+      "ev": 925,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08187772925764192,
+      "w": 0.08108108108108109,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 146,
-      "w": 0.15938864628820962,
+      "ev": 149,
+      "w": 0.16108108108108107,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 97,
-      "w": 0.10589519650655022,
+      "w": 0.10486486486486486,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.043668122270742356,
+      "w": 0.043243243243243246,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 106,
-      "w": 0.11572052401746726,
+      "w": 0.11459459459459459,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 58,
-      "w": 0.06331877729257641,
+      "w": 0.0627027027027027,
       "hq": false
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.319165713685,
       "lat": 34.06131202419648,
-      "count": 470
+      "count": 473
     },
     {
       "name": "CA",
-      "lon": -119.18147594778218,
-      "lat": 35.52088601884727,
-      "count": 95
+      "lon": -119.17051298286698,
+      "lat": 35.500404129212775,
+      "count": 97
     },
     {
       "name": "North Hollywood, CA",
@@ -285,9 +285,15 @@
     },
     {
       "name": "New York, NY",
-      "lon": -73.98931127992952,
-      "lat": 40.744422102182554,
-      "count": 79
+      "lon": -73.98904629707405,
+      "lat": 40.74489979260678,
+      "count": 80
+    },
+    {
+      "name": "West Hollywood, CA",
+      "lon": -118.37872393201118,
+      "lat": 34.09037004485807,
+      "count": 75
     },
     {
       "name": "San Francisco, CA",
@@ -296,16 +302,10 @@
       "count": 74
     },
     {
-      "name": "West Hollywood, CA",
-      "lon": -118.37872393201118,
-      "lat": 34.09037004485807,
-      "count": 74
-    },
-    {
       "name": "Las Vegas, NV",
       "lon": -115.16193700781558,
       "lat": 36.11230155033209,
-      "count": 64
+      "count": 65
     },
     {
       "name": "Hollywood, CA",
@@ -317,7 +317,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.40086844605668,
       "lat": 34.068454553929,
-      "count": 33
+      "count": 35
     },
     {
       "name": "Culver City, CA",
@@ -410,6 +410,12 @@
       "count": 4
     },
     {
+      "name": "Long Beach, CA",
+      "lon": -118.19101813187,
+      "lat": 33.76556901741066,
+      "count": 4
+    },
+    {
       "name": "Malibu, CA",
       "lon": -118.81201097499999,
       "lat": 34.0479904,
@@ -452,12 +458,6 @@
       "count": 3
     },
     {
-      "name": "Long Beach, CA",
-      "lon": -118.19101813187,
-      "lat": 33.76556901741066,
-      "count": 3
-    },
-    {
       "name": "Philadelphia, PA",
       "lon": -75.16586395737566,
       "lat": 39.977081246135,
@@ -485,6 +485,12 @@
       "name": "VA",
       "lon": -77.91118441348333,
       "lat": 38.40360231315133,
+      "count": 3
+    },
+    {
+      "name": "NY",
+      "lon": -74.799428989965,
+      "lat": 41.62788082906333,
       "count": 3
     },
     {
@@ -557,12 +563,6 @@
       "name": "Kansas City, MO",
       "lon": -94.5854524574685,
       "lat": 39.09234505527,
-      "count": 2
-    },
-    {
-      "name": "NY",
-      "lon": -75.20490330553599,
-      "lat": 42.08112675835399,
       "count": 2
     },
     {
@@ -831,39 +831,11 @@
   ],
   "todayPosts": [
     {
-      "rem": "Justin McKillop",
-      "venue": "The Pinnacle",
-      "client": "Academy of Country Music ",
-      "job": "ACM Honors 2026",
-      "city": ""
-    },
-    {
-      "rem": "Chris Estrada",
-      "venue": "Sony Pictures Studios",
-      "client": "Amazon Studios",
-      "job": "Prime x NBA Shoot LA",
-      "city": ""
-    },
-    {
       "rem": "Ryan McKillop",
       "venue": "Houston Hilton Americas ",
       "client": "Care Net",
       "job": "Care Net National Conference ",
       "city": "Houston"
-    },
-    {
-      "rem": "Patrick J McKillop",
-      "venue": "Protos - SLC",
-      "client": "Protos Security",
-      "job": "Protos Coach #2",
-      "city": "Salt Lake City"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Various",
-      "client": "Emerald Americas LLC",
-      "job": "8.17 Emerald EPxPebble Beach",
-      "city": ""
     },
     {
       "rem": "Sean McKillop",
@@ -1393,16 +1365,16 @@
       "career": 2329,
       "recent": [
         {
+          "name": "Los Angeles Sparks vs Atlanta Dream",
+          "meta": "AUG 20"
+        },
+        {
+          "name": "Harold and Carole 26th Annual Celebrity Dinner ",
+          "meta": "AUG 20"
+        },
+        {
           "name": "Prime x NBA Shoot LA",
           "meta": "AUG 18"
-        },
-        {
-          "name": "THE BOYS – Los Angeles – Emmy Nominee Tastemaker Reception ",
-          "meta": "AUG 17"
-        },
-        {
-          "name": "KCON- LA Live",
-          "meta": "AUG 16"
         }
       ]
     },
@@ -1414,37 +1386,16 @@
       "career": 880,
       "recent": [
         {
+          "name": "Grammy Museum Event - 8/20/26 - PP",
+          "meta": "AUG 20"
+        },
+        {
           "name": "LA Jazz Festival",
           "meta": "AUG 19"
         },
         {
           "name": "Grammy Museum Event - 8/18/26 - GA",
           "meta": "AUG 18"
-        },
-        {
-          "name": "Grammy Museum Event - 8/17/26 - PP",
-          "meta": "AUG 17"
-        }
-      ]
-    },
-    {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
-      "color": "#E8B44A",
-      "events30": 15,
-      "career": 280,
-      "recent": [
-        {
-          "name": "8.17-8.20 Genesis of SB Coverage",
-          "meta": "AUG 17"
-        },
-        {
-          "name": "8.17 Emerald EPxPebble Beach",
-          "meta": "AUG 17"
-        },
-        {
-          "name": "8.14 Genesis World Premier",
-          "meta": "AUG 14"
         }
       ]
     },
@@ -1452,41 +1403,62 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 14,
+      "events30": 17,
       "career": 34,
       "recent": [
         {
-          "name": "It Ends Screening",
-          "meta": "AUG 19"
+          "name": "Barnsdall Event ",
+          "meta": "AUG 20"
         },
         {
-          "name": "Ross House Event",
-          "meta": "AUG 19"
+          "name": "Bite Catering",
+          "meta": "AUG 20"
         },
         {
-          "name": "Lion Premier ",
-          "meta": "AUG 18"
+          "name": "Jamie Foxx Press Junket EP",
+          "meta": "AUG 20"
         }
       ]
     },
     {
-      "name": "Sean McKillop",
-      "office": "National Ops",
+      "name": "Mathias Gibson",
+      "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 13,
-      "career": 493,
+      "events30": 16,
+      "career": 280,
       "recent": [
         {
-          "name": "BMW iX3 Ride and Drive-Chino Hills",
+          "name": "8.20 AI Dev Tool Dinner",
+          "meta": "AUG 20"
+        },
+        {
+          "name": "8.17-8.20 Genesis of SB Coverage",
           "meta": "AUG 17"
         },
         {
-          "name": "Nike x HO26 Tatum 5 Photoshoot",
-          "meta": "AUG 15"
+          "name": "8.17 Emerald EPxPebble Beach",
+          "meta": "AUG 17"
+        }
+      ]
+    },
+    {
+      "name": "Tony D’Gracia",
+      "office": "New York",
+      "color": "#E8B44A",
+      "events30": 14,
+      "career": 327,
+      "recent": [
+        {
+          "name": "IHEART COMIX-NY",
+          "meta": "AUG 20"
         },
         {
-          "name": "ShowSouth - Amazon AP ATL",
-          "meta": "AUG 11"
+          "name": "DGA Screening - NY",
+          "meta": "AUG 20"
+        },
+        {
+          "name": "AAS x Astor Pl 8.20",
+          "meta": "AUG 20"
         }
       ]
     }
@@ -1674,9 +1646,12 @@
     }
   ],
   "ticker": [
+    "<b>Beverly Hilton Harold &amp; Carole Pump Foundation Gala</b> · Beverly Hilton Hotel",
+    "<b>Grammy Museum Event - 8/20/26 - PP</b> · Grammy Museum",
     "<b>8.15 Emerald Drop-NYC</b> · The Highline",
     "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
     "<b>Swisher Production Premiere</b> · American Legion Post 43",
+    "<b>BJJ 10</b> · UFC Apex",
     "<b>Nike x FA26 NFL Rivalries Photo Shoot - INDY</b> · Indianapolis",
     "<b>Tires S3 8.7</b> · Charleston Music Hall",
     "<b>Los Angeles Sparks vs New York Liberty</b> · Crypto.com Arena",
@@ -1685,15 +1660,12 @@
     "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV",
     "<b>Breakthrough Experiential Featuring Dasha</b> · Austin TX",
     "<b>Karol G LA Concert </b> · SoFi Stadium Inglewood",
+    "<b>Barnsdall Event </b> · Barnsdall Art Park",
     "<b>Grammy Museum - HYBE America Reception</b> · Grammy Museum",
     "<b>TGA TN 8.7</b> · Harmony Senior Services",
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
-    "<b>Super Troopers 3 Press Tour-Seattle</b> · Block 41",
     "<b>LA Live Events 8.3-8.9</b> · LA Live",
-    "<b>Apple San Diego Comic Con Activation</b> · TBD",
-    "<b>Dr Nader Milkhail Private Event</b> · 3084 Taylor Way Costa Mesa Ca 92626",
-    "<b>AAS x Astor Pl Plaza</b> · Astor Pl Plaza",
-    "<b>KCON</b> · Crypto.com Arena"
+    "<b>Apple San Diego Comic Con Activation</b> · TBD"
   ],
   "linkedin": [
     {
