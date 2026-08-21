@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21T17:46:56.277Z",
-  "commit": "ee1ed55",
+  "generatedAt": "2026-08-21T18:57:47.949Z",
+  "commit": "eb02034",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1609,
+    "eventsYTD": 1610,
     "events30": 172,
     "guards30": 688,
     "citiesYTD": 102,
-    "upcoming30": 74,
-    "perDay": 6.905579399141631
+    "upcoming30": 78,
+    "perDay": 6.909871244635193
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 929,
+      "ev": 930,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08073196986006459,
+      "w": 0.08064516129032258,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 149,
-      "w": 0.1603875134553283,
+      "w": 0.16021505376344086,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 97,
-      "w": 0.10441334768568353,
+      "w": 0.1043010752688172,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.04305705059203445,
+      "w": 0.043010752688172046,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 106,
-      "w": 0.11410118406889128,
+      "w": 0.11397849462365592,
       "hq": true
     },
     {
@@ -260,16 +260,16 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 58,
-      "w": 0.062432723358449946,
+      "w": 0.06236559139784946,
       "hq": false
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.319165713685,
-      "lat": 34.06131202419648,
-      "count": 474
+      "lon": -118.31974241029414,
+      "lat": 34.06165868875224,
+      "count": 475
     },
     {
       "name": "CA",
@@ -1355,7 +1355,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 43,
-      "career": 2329,
+      "career": 2332,
       "recent": [
         {
           "name": "Ricardo Montaner- LA Live",
