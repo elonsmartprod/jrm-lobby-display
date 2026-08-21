@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-20T23:42:13.718Z",
-  "commit": "51aa9e8",
+  "generatedAt": "2026-08-21T01:58:44.271Z",
+  "commit": "5fb0d23",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1605,
-    "events30": 177,
-    "guards30": 711,
+    "eventsYTD": 1609,
+    "events30": 172,
+    "guards30": 688,
     "citiesYTD": 102,
-    "upcoming30": 78,
-    "perDay": 6.918103448275862
+    "upcoming30": 74,
+    "perDay": 6.935344827586207
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 926,
+      "ev": 929,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08099352051835854,
+      "w": 0.08073196986006459,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 149,
-      "w": 0.16090712742980562,
+      "w": 0.1603875134553283,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 97,
-      "w": 0.10475161987041037,
+      "w": 0.10441334768568353,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.04319654427645788,
+      "w": 0.04305705059203445,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 106,
-      "w": 0.11447084233261338,
+      "w": 0.11410118406889128,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 58,
-      "w": 0.06263498920086392,
+      "w": 0.062432723358449946,
       "hq": false
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.319165713685,
       "lat": 34.06131202419648,
-      "count": 473
+      "count": 474
     },
     {
       "name": "CA",
       "lon": -119.17051298286698,
       "lat": 35.500404129212775,
-      "count": 97
+      "count": 98
     },
     {
       "name": "North Hollywood, CA",
@@ -311,13 +311,13 @@
       "name": "Hollywood, CA",
       "lon": -118.33277580612615,
       "lat": 34.097870581608326,
-      "count": 45
+      "count": 46
     },
     {
       "name": "Beverly Hills, CA",
       "lon": -118.40086844605668,
       "lat": 34.068454553929,
-      "count": 35
+      "count": 36
     },
     {
       "name": "Culver City, CA",
@@ -831,25 +831,18 @@
   ],
   "todayPosts": [
     {
+      "rem": "Tony D’Gracia",
+      "venue": "Arlene's Grocery",
+      "client": "IHeartComix",
+      "job": "IHEART COMIX-NY",
+      "city": ""
+    },
+    {
       "rem": "Ryan McKillop",
       "venue": "Houston Hilton Americas ",
       "client": "Care Net",
       "job": "Care Net National Conference ",
       "city": "Houston"
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Fairview Green River",
-      "client": "Czarnowski ",
-      "job": "BMW iX3 Ride and Drive-Chino Hills",
-      "city": ""
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Genesis of San Bruno",
-      "client": "Automotive Events, INC",
-      "job": "8.17-8.20 Genesis of SB Coverage",
-      "city": ""
     },
     {
       "rem": "Mathias Gibson",
@@ -1361,9 +1354,13 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 47,
+      "events30": 43,
       "career": 2329,
       "recent": [
+        {
+          "name": "Ricardo Montaner- LA Live",
+          "meta": "AUG 21"
+        },
         {
           "name": "Los Angeles Sparks vs Atlanta Dream",
           "meta": "AUG 20"
@@ -1371,10 +1368,6 @@
         {
           "name": "Harold and Carole 26th Annual Celebrity Dinner ",
           "meta": "AUG 20"
-        },
-        {
-          "name": "Prime x NBA Shoot LA",
-          "meta": "AUG 18"
         }
       ]
     },
@@ -1382,7 +1375,7 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 26,
+      "events30": 24,
       "career": 880,
       "recent": [
         {
@@ -1407,15 +1400,15 @@
       "career": 35,
       "recent": [
         {
+          "name": "Gina Wade Nebula Reception",
+          "meta": "AUG 21"
+        },
+        {
           "name": "Barnsdall Event ",
           "meta": "AUG 20"
         },
         {
           "name": "Bite Catering",
-          "meta": "AUG 20"
-        },
-        {
-          "name": "Hulu The Girls ",
           "meta": "AUG 20"
         }
       ]
@@ -1424,19 +1417,19 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 16,
+      "events30": 17,
       "career": 280,
       "recent": [
+        {
+          "name": "8.21-8.22 Karol G Coverage ",
+          "meta": "AUG 21"
+        },
         {
           "name": "8.20 AI Dev Tool Dinner",
           "meta": "AUG 20"
         },
         {
           "name": "8.17-8.20 Genesis of SB Coverage",
-          "meta": "AUG 17"
-        },
-        {
-          "name": "8.17 Emerald EPxPebble Beach",
           "meta": "AUG 17"
         }
       ]
@@ -1618,6 +1611,15 @@
       "upcoming": false
     },
     {
+      "client": "Nike",
+      "title": "Mamba League Invitational 2026",
+      "venue": "LA Live · Los Angeles",
+      "badges": [
+        "Sports Event"
+      ],
+      "upcoming": false
+    },
+    {
       "client": "AutoDesk",
       "title": "Autodesk - TechX - Seattle, WA",
       "venue": "",
@@ -1632,15 +1634,6 @@
       "venue": "Fashion Nova Distribution Center · Santa Fe Springs",
       "badges": [
         "Apts-Condos-Office Bldg"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Amazon",
-      "title": "Amazon Ignite",
-      "venue": "Aria  · Las Vegas",
-      "badges": [
-        "Convention"
       ],
       "upcoming": false
     }
@@ -1665,7 +1658,7 @@
     "<b>TGA TN 8.7</b> · Harmony Senior Services",
     "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
     "<b>LA Live Events 8.3-8.9</b> · LA Live",
-    "<b>Apple San Diego Comic Con Activation</b> · TBD"
+    "<b>AAS x Astor Pl Plaza</b> · Astor Pl Plaza"
   ],
   "linkedin": [
     {
