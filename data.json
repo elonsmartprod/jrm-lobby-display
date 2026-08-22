@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21T23:40:49.009Z",
-  "commit": "a03312b",
+  "generatedAt": "2026-08-22T01:51:38.729Z",
+  "commit": "7238397",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1610,
+    "eventsYTD": 1620,
     "events30": 172,
-    "guards30": 688,
+    "guards30": 724,
     "citiesYTD": 102,
-    "upcoming30": 79,
-    "perDay": 6.909871244635193
+    "upcoming30": 73,
+    "perDay": 6.952789699570816
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 930,
+      "ev": 937,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08064516129032258,
+      "w": 0.08004268943436499,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 149,
-      "w": 0.16021505376344086,
+      "w": 0.15901814300960512,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 97,
-      "w": 0.1043010752688172,
+      "w": 0.10352187833511206,
       "hq": false
     },
     {
@@ -244,15 +244,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.043010752688172046,
+      "w": 0.042689434364994665,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 106,
-      "w": 0.11397849462365592,
+      "ev": 109,
+      "w": 0.11632870864461047,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 58,
-      "w": 0.06236559139784946,
+      "w": 0.061899679829242264,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 475
+      "count": 478
     },
     {
       "name": "CA",
@@ -281,7 +281,7 @@
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 82
+      "count": 83
     },
     {
       "name": "New York, NY",
@@ -317,7 +317,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.40086844605668,
       "lat": 34.068454553929,
-      "count": 36
+      "count": 37
     },
     {
       "name": "Culver City, CA",
@@ -345,9 +345,9 @@
     },
     {
       "name": "Santa Monica, CA",
-      "lon": -118.48273099122325,
-      "lat": 34.01786263865675,
-      "count": 14
+      "lon": -118.4854448929786,
+      "lat": 34.01745831092539,
+      "count": 15
     },
     {
       "name": "UT",
@@ -362,6 +362,12 @@
       "count": 12
     },
     {
+      "name": "Chicago, IL",
+      "lon": -87.6471605464009,
+      "lat": 41.883719777886114,
+      "count": 10
+    },
+    {
       "name": "Century City, CA",
       "lon": -118.41705353333334,
       "lat": 34.0562655,
@@ -371,12 +377,6 @@
       "name": "Miami, FL",
       "lon": -80.15913806977244,
       "lat": 25.800135794700115,
-      "count": 9
-    },
-    {
-      "name": "Chicago, IL",
-      "lon": -87.64697127165462,
-      "lat": 41.88380197493463,
       "count": 9
     },
     {
@@ -524,6 +524,18 @@
       "count": 2
     },
     {
+      "name": "SC",
+      "lon": -80.54829694674899,
+      "lat": 33.428787808144506,
+      "count": 2
+    },
+    {
+      "name": "Inglewood, CA",
+      "lon": -118.34024435,
+      "lat": 33.955612900000006,
+      "count": 2
+    },
+    {
       "name": "Boston, MA",
       "lon": -71.07852689999999,
       "lat": 42.3494563,
@@ -611,18 +623,6 @@
       "name": "Antioch, TN",
       "lon": -86.6149649,
       "lat": 36.0534411,
-      "count": 1
-    },
-    {
-      "name": "SC",
-      "lon": -79.935981816273,
-      "lat": 32.78896777074,
-      "count": 1
-    },
-    {
-      "name": "Redondo Beach, CA",
-      "lon": -118.3895713,
-      "lat": 33.8375968,
       "count": 1
     }
   ],
@@ -831,25 +831,18 @@
   ],
   "todayPosts": [
     {
+      "rem": "Mathias Gibson",
+      "venue": "San Francisco Bay Area Stadium",
+      "client": "Live Nation",
+      "job": "8.21-8.22 Karol G Coverage ",
+      "city": ""
+    },
+    {
       "rem": "Tony D’Gracia",
       "venue": "Arlene's Grocery",
       "client": "IHeartComix",
       "job": "IHEART COMIX-NY",
       "city": ""
-    },
-    {
-      "rem": "Ryan McKillop",
-      "venue": "Houston Hilton Americas ",
-      "client": "Care Net",
-      "job": "Care Net National Conference ",
-      "city": "Houston"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Palace of Fine Arts San Francisco",
-      "client": "Automotive Events, INC",
-      "job": "8.14 Genesis World Premier",
-      "city": "San Francisco"
     },
     {
       "rem": "Justin McKillop",
@@ -873,13 +866,6 @@
       "city": ""
     },
     {
-      "rem": "Justin McKillop",
-      "venue": "Harmony Senior Services",
-      "client": "The Guard Alliance",
-      "job": "TGA TN 8.7",
-      "city": ""
-    },
-    {
       "rem": "Sevan Ohanians",
       "venue": "BOBO Thai",
       "client": "TTFB CA LLC DBA: Yabi Kitchen",
@@ -891,13 +877,6 @@
       "venue": "Lowes- Clinton",
       "client": "Protos Security",
       "job": "Protos Lowes 7/24",
-      "city": ""
-    },
-    {
-      "rem": "Chris Estrada",
-      "venue": "TBD",
-      "client": "Unknown",
-      "job": "Indie feature Salsa Sangre",
       "city": ""
     },
     {
@@ -913,13 +892,6 @@
       "client": "Linux Foundation",
       "job": "KubeCon SLC 2026 - Consulting",
       "city": "Salt Lake City"
-    },
-    {
-      "rem": "Patrick J McKillop",
-      "venue": "TJMAXX",
-      "client": "Protos Security",
-      "job": "Protos TJMAX 6/22",
-      "city": ""
     },
     {
       "rem": "Dani Sanchez",
@@ -1354,20 +1326,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 43,
+      "events30": 41,
       "career": 2332,
       "recent": [
         {
+          "name": "Los Angeles Sparks vs Connecticut Sun",
+          "meta": "AUG 22"
+        },
+        {
+          "name": "90s Corridos Tour- LA Live",
+          "meta": "AUG 22"
+        },
+        {
           "name": "Ricardo Montaner- LA Live",
           "meta": "AUG 21"
-        },
-        {
-          "name": "Los Angeles Sparks vs Atlanta Dream",
-          "meta": "AUG 20"
-        },
-        {
-          "name": "Harold and Carole 26th Annual Celebrity Dinner ",
-          "meta": "AUG 20"
         }
       ]
     },
@@ -1375,20 +1347,20 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 24,
+      "events30": 25,
       "career": 880,
       "recent": [
         {
+          "name": "LA Jazz Festival - Kia Forum",
+          "meta": "AUG 22"
+        },
+        {
+          "name": "Gradient x Vita Coco Pop-Up",
+          "meta": "AUG 22"
+        },
+        {
           "name": "Grammy Museum Event - 8/20/26 - PP",
           "meta": "AUG 20"
-        },
-        {
-          "name": "LA Jazz Festival",
-          "meta": "AUG 19"
-        },
-        {
-          "name": "Grammy Museum Event - 8/18/26 - GA",
-          "meta": "AUG 18"
         }
       ]
     },
@@ -1396,7 +1368,7 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 18,
+      "events30": 17,
       "career": 35,
       "recent": [
         {
@@ -1417,8 +1389,8 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 17,
-      "career": 280,
+      "events30": 16,
+      "career": 281,
       "recent": [
         {
           "name": "8.21-8.22 Karol G Coverage ",
@@ -1641,9 +1613,11 @@
   "ticker": [
     "<b>Beverly Hilton Harold &amp; Carole Pump Foundation Gala</b> · Beverly Hilton Hotel",
     "<b>Grammy Museum Event - 8/20/26 - PP</b> · Grammy Museum",
+    "<b>Ludlow Grey Pop Up-Chicago</b> · Kavi Gupta Gallery",
     "<b>8.15 Emerald Drop-NYC</b> · The Highline",
     "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
     "<b>Swisher Production Premiere</b> · American Legion Post 43",
+    "<b>Beverly Hilton Shenassa Bat Mitzvah</b> · Beverly Hilton Hotel",
     "<b>BJJ 10</b> · UFC Apex",
     "<b>Nike x FA26 NFL Rivalries Photo Shoot - INDY</b> · Indianapolis",
     "<b>Tires S3 8.7</b> · Charleston Music Hall",
@@ -1656,9 +1630,7 @@
     "<b>Barnsdall Event </b> · Barnsdall Art Park",
     "<b>Grammy Museum - HYBE America Reception</b> · Grammy Museum",
     "<b>TGA TN 8.7</b> · Harmony Senior Services",
-    "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum",
-    "<b>LA Live Events 8.3-8.9</b> · LA Live",
-    "<b>AAS x Astor Pl Plaza</b> · Astor Pl Plaza"
+    "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum"
   ],
   "linkedin": [
     {
