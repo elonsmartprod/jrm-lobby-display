@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T14:40:26.071Z",
-  "commit": "510b9f6",
+  "generatedAt": "2026-08-22T15:36:32.169Z",
+  "commit": "d622ca6",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1620,
-    "events30": 172,
-    "guards30": 724,
+    "eventsYTD": 1621,
+    "events30": 173,
+    "guards30": 725,
     "citiesYTD": 102,
     "upcoming30": 73,
-    "perDay": 6.923076923076923
+    "perDay": 6.927350427350428
   },
   "heatPoints": [
     {
@@ -259,8 +259,8 @@
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 58,
-      "w": 0.061899679829242264,
+      "ev": 59,
+      "w": 0.06296691568836713,
       "hq": false
     }
   ],
@@ -835,6 +835,13 @@
       "venue": "San Francisco Bay Area Stadium",
       "client": "Live Nation",
       "job": "8.21-8.22 Karol G Coverage ",
+      "city": ""
+    },
+    {
+      "rem": "Kyle Crowther",
+      "venue": "Target ",
+      "client": "Protos Security",
+      "job": "Protos AZ 8.21.26",
       "city": ""
     },
     {
