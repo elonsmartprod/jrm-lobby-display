@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T23:36:40.961Z",
-  "commit": "7b86397",
+  "generatedAt": "2026-08-23T02:01:06.822Z",
+  "commit": "cf32bdd",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1621,
-    "events30": 173,
-    "guards30": 725,
+    "eventsYTD": 1623,
+    "events30": 170,
+    "guards30": 712,
     "citiesYTD": 102,
     "upcoming30": 74,
-    "perDay": 6.927350427350428
+    "perDay": 6.935897435897436
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 937,
+      "ev": 938,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08004268943436499,
+      "w": 0.07995735607675906,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 149,
-      "w": 0.15901814300960512,
+      "w": 0.15884861407249468,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 97,
-      "w": 0.10352187833511206,
+      "ev": 98,
+      "w": 0.1044776119402985,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.042689434364994665,
+      "w": 0.042643923240938165,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 109,
-      "w": 0.11632870864461047,
+      "w": 0.1162046908315565,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 59,
-      "w": 0.06296691568836713,
+      "w": 0.0628997867803838,
       "hq": false
     }
   ],
@@ -317,7 +317,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.40086844605668,
       "lat": 34.068454553929,
-      "count": 37
+      "count": 38
     },
     {
       "name": "Culver City, CA",
@@ -831,11 +831,18 @@
   ],
   "todayPosts": [
     {
-      "rem": "Mathias Gibson",
-      "venue": "San Francisco Bay Area Stadium",
-      "client": "Live Nation",
-      "job": "8.21-8.22 Karol G Coverage ",
-      "city": ""
+      "rem": "Sean McKillop",
+      "venue": "Kavi Gupta Gallery",
+      "client": "Ludlow Grey",
+      "job": "Ludlow Grey Pop Up-Chicago",
+      "city": "Chicago"
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Indianapolis",
+      "client": "Nike",
+      "job": "Nike x CC1 Photoshoot",
+      "city": "Indianapolis"
     },
     {
       "rem": "Kyle Crowther",
@@ -1354,7 +1361,7 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 25,
+      "events30": 24,
       "career": 880,
       "recent": [
         {
@@ -1375,7 +1382,7 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 17,
+      "events30": 16,
       "career": 35,
       "recent": [
         {
@@ -1414,23 +1421,23 @@
       ]
     },
     {
-      "name": "Tony D’Gracia",
-      "office": "New York",
+      "name": "Sean McKillop",
+      "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 14,
-      "career": 328,
+      "events30": 12,
+      "career": 493,
       "recent": [
         {
-          "name": "IHEART COMIX-NY",
-          "meta": "AUG 20"
+          "name": "Ludlow Grey Pop Up-Chicago",
+          "meta": "AUG 22"
         },
         {
-          "name": "DGA Screening - NY",
-          "meta": "AUG 20"
+          "name": "Nike DSG x Back to Sport Weekend – University of South Carolina",
+          "meta": "AUG 22"
         },
         {
-          "name": "AAS x Astor Pl 8.20",
-          "meta": "AUG 20"
+          "name": "Nike x CC1 Photoshoot",
+          "meta": "AUG 22"
         }
       ]
     }
@@ -1637,7 +1644,7 @@
     "<b>Barnsdall Event </b> · Barnsdall Art Park",
     "<b>Grammy Museum - HYBE America Reception</b> · Grammy Museum",
     "<b>TGA TN 8.7</b> · Harmony Senior Services",
-    "<b>GRAMMY MUSEUM - DreamSphere</b> · Grammy Museum"
+    "<b>LA Live Events 8.3-8.9</b> · LA Live"
   ],
   "linkedin": [
     {
