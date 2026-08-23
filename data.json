@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T20:41:27.333Z",
-  "commit": "28fc1ef",
+  "generatedAt": "2026-08-23T21:37:17.909Z",
+  "commit": "c0621a5",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1623,
-    "events30": 170,
+    "eventsYTD": 1624,
+    "events30": 171,
     "guards30": 712,
     "citiesYTD": 102,
     "upcoming30": 74,
-    "perDay": 6.906382978723404
+    "perDay": 6.910638297872341
   },
   "heatPoints": [
     {
@@ -235,8 +235,8 @@
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 98,
-      "w": 0.1044776119402985,
+      "ev": 99,
+      "w": 0.10554371002132196,
       "hq": false
     },
     {
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 478
+      "count": 479
     },
     {
       "name": "CA",
@@ -1632,6 +1632,7 @@
     "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
     "<b>Swisher Production Premiere</b> · American Legion Post 43",
     "<b>Beverly Hilton Shenassa Bat Mitzvah</b> · Beverly Hilton Hotel",
+    "<b>LA Events 8.10-8.16</b> · LA Live",
     "<b>BJJ 10</b> · UFC Apex",
     "<b>Nike x FA26 NFL Rivalries Photo Shoot - INDY</b> · Indianapolis",
     "<b>Tires S3 8.7</b> · Charleston Music Hall",
@@ -1643,8 +1644,7 @@
     "<b>Karol G LA Concert </b> · SoFi Stadium Inglewood",
     "<b>Barnsdall Event </b> · Barnsdall Art Park",
     "<b>Grammy Museum - HYBE America Reception</b> · Grammy Museum",
-    "<b>TGA TN 8.7</b> · Harmony Senior Services",
-    "<b>LA Live Events 8.3-8.9</b> · LA Live"
+    "<b>TGA TN 8.7</b> · Harmony Senior Services"
   ],
   "linkedin": [
     {
