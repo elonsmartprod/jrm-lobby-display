@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T20:49:57.249Z",
-  "commit": "93cd3c4",
+  "generatedAt": "2026-08-24T21:45:46.235Z",
+  "commit": "3353516",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 168,
     "guards30": 666,
     "citiesYTD": 106,
-    "upcoming30": 73,
+    "upcoming30": 76,
     "perDay": 6.898305084745763
   },
   "heatPoints": [
@@ -1327,7 +1327,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 37,
-      "career": 2333,
+      "career": 2335,
       "recent": [
         {
           "name": "Los Angeles Sparks vs Atlanta Dream",
