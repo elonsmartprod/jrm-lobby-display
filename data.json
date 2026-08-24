@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T23:36:50.108Z",
-  "commit": "50d7449",
+  "generatedAt": "2026-08-24T01:59:01.970Z",
+  "commit": "94e5800",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1619,
-    "events30": 166,
-    "guards30": 687,
-    "citiesYTD": 102,
-    "upcoming30": 74,
-    "perDay": 6.889361702127659
+    "eventsYTD": 1627,
+    "events30": 167,
+    "guards30": 666,
+    "citiesYTD": 106,
+    "upcoming30": 69,
+    "perDay": 6.923404255319149
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 933,
+      "ev": 935,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08038585209003216,
+      "w": 0.08021390374331551,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 149,
-      "w": 0.15969989281886388,
+      "ev": 150,
+      "w": 0.16042780748663102,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 99,
-      "w": 0.10610932475884244,
+      "w": 0.10588235294117647,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.04287245444801715,
+      "w": 0.0427807486631016,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 109,
-      "w": 0.11682743837084673,
+      "w": 0.11657754010695187,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 59,
-      "w": 0.0632368703108253,
+      "ev": 64,
+      "w": 0.06844919786096257,
       "hq": false
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 474
+      "count": 476
     },
     {
       "name": "CA",
-      "lon": -119.17051298286698,
-      "lat": 35.500404129212775,
-      "count": 98
+      "lon": -119.15085058130936,
+      "lat": 35.48054459249731,
+      "count": 99
     },
     {
       "name": "North Hollywood, CA",
@@ -831,11 +831,11 @@
   ],
   "todayPosts": [
     {
-      "rem": "Sean McKillop",
-      "venue": "Kavi Gupta Gallery",
-      "client": "Ludlow Grey",
-      "job": "Ludlow Grey Pop Up-Chicago",
-      "city": "Chicago"
+      "rem": "Ryan McKillop",
+      "venue": "Dallas, TX",
+      "client": "Élephante SFS LLC",
+      "job": "Elephante Dallas ",
+      "city": "Dallas"
     },
     {
       "rem": "Sean McKillop",
@@ -849,13 +849,6 @@
       "venue": "Target ",
       "client": "Protos Security",
       "job": "Protos AZ 8.21.26",
-      "city": ""
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "Arlene's Grocery",
-      "client": "IHeartComix",
-      "job": "IHEART COMIX-NY",
       "city": ""
     },
     {
@@ -884,13 +877,6 @@
       "venue": "BOBO Thai",
       "client": "TTFB CA LLC DBA: Yabi Kitchen",
       "job": "BOBO Thai & Shann Shann - TTFB",
-      "city": ""
-    },
-    {
-      "rem": "Patrick J McKillop",
-      "venue": "Lowes- Clinton",
-      "client": "Protos Security",
-      "job": "Protos Lowes 7/24",
       "city": ""
     },
     {
@@ -1340,20 +1326,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 36,
+      "events30": 37,
       "career": 2332,
       "recent": [
         {
+          "name": "Los Angeles Sparks vs Atlanta Dream",
+          "meta": "AUG 24"
+        },
+        {
+          "name": "Los Angele Sparks vs Atlanta Dream- LA Live",
+          "meta": "AUG 24"
+        },
+        {
           "name": "Los Angeles Sparks vs Connecticut Sun",
           "meta": "AUG 22"
-        },
-        {
-          "name": "90s Corridos Tour- LA Live",
-          "meta": "AUG 22"
-        },
-        {
-          "name": "Ricardo Montaner- LA Live",
-          "meta": "AUG 21"
         }
       ]
     },
@@ -1361,7 +1347,7 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 24,
+      "events30": 23,
       "career": 880,
       "recent": [
         {
@@ -1403,7 +1389,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 16,
+      "events30": 14,
       "career": 281,
       "recent": [
         {
@@ -1637,14 +1623,14 @@
     "<b>Nike x FA26 NFL Rivalries Photo Shoot - INDY</b> · Indianapolis",
     "<b>Tires S3 8.7</b> · Charleston Music Hall",
     "<b>Los Angeles Sparks vs New York Liberty</b> · Crypto.com Arena",
+    "<b>HCA - Eastvale, CA Campus</b> · Heart Christian Academy- Eastvale",
     "<b>ACM Honors 2026</b> · The Pinnacle",
     "<b>JURY DUTY – Los Angeles – Writer’s Peer Group Screening/Reception</b> · San Vincente Bungalows West Hollywood",
     "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV",
     "<b>Breakthrough Experiential Featuring Dasha</b> · Austin TX",
     "<b>Karol G LA Concert </b> · SoFi Stadium Inglewood",
     "<b>Barnsdall Event </b> · Barnsdall Art Park",
-    "<b>Grammy Museum - HYBE America Reception</b> · Grammy Museum",
-    "<b>TGA TN 8.7</b> · Harmony Senior Services"
+    "<b>Grammy Museum - HYBE America Reception</b> · Grammy Museum"
   ],
   "linkedin": [
     {
