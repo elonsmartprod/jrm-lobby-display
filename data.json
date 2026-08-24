@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T14:05:18.383Z",
-  "commit": "764e038",
+  "generatedAt": "2026-08-24T15:02:15.799Z",
+  "commit": "fbeb50b",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -892,6 +892,13 @@
       "client": "Linux Foundation",
       "job": "KubeCon SLC 2026 - Consulting",
       "city": "Salt Lake City"
+    },
+    {
+      "rem": "Patrick J McKillop",
+      "venue": "TJMAXX",
+      "client": "Protos Security",
+      "job": "Protos TJMAX 6/22",
+      "city": ""
     },
     {
       "rem": "Dani Sanchez",
