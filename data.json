@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T22:46:58.376Z",
-  "commit": "1c1ae48",
+  "generatedAt": "2026-08-25T23:39:56.973Z",
+  "commit": "9a0b6d0",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 178,
     "guards30": 676,
     "citiesYTD": 110,
-    "upcoming30": 71,
+    "upcoming30": 72,
     "perDay": 6.924050632911392
   },
   "heatPoints": [
@@ -1383,7 +1383,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 22,
-      "career": 880,
+      "career": 881,
       "recent": [
         {
           "name": "LA Jazz Festival - Kia Forum",
