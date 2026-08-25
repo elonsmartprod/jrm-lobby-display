@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T20:47:33.340Z",
-  "commit": "55270fd",
+  "generatedAt": "2026-08-25T21:45:47.541Z",
+  "commit": "3c193e2",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 178,
     "guards30": 676,
     "citiesYTD": 110,
-    "upcoming30": 70,
+    "upcoming30": 71,
     "perDay": 6.924050632911392
   },
   "heatPoints": [
@@ -1425,7 +1425,7 @@
       "office": "Tennessee",
       "color": "#E8B44A",
       "events30": 16,
-      "career": 292,
+      "career": 293,
       "recent": [
         {
           "name": "HCA - Boise, ID Campus",
