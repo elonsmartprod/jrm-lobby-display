@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T23:37:48.247Z",
-  "commit": "3d4d594",
+  "generatedAt": "2026-08-25T01:53:43.756Z",
+  "commit": "43fb350",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1628,
-    "events30": 168,
-    "guards30": 666,
-    "citiesYTD": 106,
-    "upcoming30": 76,
-    "perDay": 6.898305084745763
+    "eventsYTD": 1641,
+    "events30": 178,
+    "guards30": 676,
+    "citiesYTD": 110,
+    "upcoming30": 64,
+    "perDay": 6.953389830508475
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 935,
+      "ev": 937,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08021390374331551,
+      "w": 0.08004268943436499,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 150,
-      "w": 0.16042780748663102,
+      "ev": 151,
+      "w": 0.16115261472785486,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 100,
-      "w": 0.10695187165775401,
+      "w": 0.10672358591248667,
       "hq": false
     },
     {
@@ -244,23 +244,23 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.0427807486631016,
+      "w": 0.042689434364994665,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 109,
-      "w": 0.11657754010695187,
+      "ev": 112,
+      "w": 0.11953041622198506,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 64,
-      "w": 0.06844919786096257,
+      "ev": 69,
+      "w": 0.0736392742796158,
       "hq": false
     }
   ],
@@ -269,19 +269,19 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 476
+      "count": 478
     },
     {
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 111
+      "count": 112
     },
     {
       "name": "CA",
-      "lon": -119.14086331801043,
-      "lat": 35.461057410849975,
-      "count": 100
+      "lon": -119.0902437694138,
+      "lat": 35.39394288444034,
+      "count": 102
     },
     {
       "name": "North Hollywood, CA",
@@ -305,7 +305,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.16193700781558,
       "lat": 36.11230155033209,
-      "count": 65
+      "count": 66
     },
     {
       "name": "Hollywood, CA",
@@ -404,6 +404,12 @@
       "count": 5
     },
     {
+      "name": "TN",
+      "lon": -86.8490758767316,
+      "lat": 36.184805188053,
+      "count": 5
+    },
+    {
       "name": "Malibu, CA",
       "lon": -118.81201097499999,
       "lat": 34.0479904,
@@ -414,12 +420,6 @@
       "lon": -74.4727936146592,
       "lat": 41.276653737724004,
       "count": 5
-    },
-    {
-      "name": "TN",
-      "lon": -86.77010835338851,
-      "lat": 36.162018124698996,
-      "count": 4
     },
     {
       "name": "Long Beach, CA",
@@ -830,6 +830,41 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Justin McKillop",
+      "venue": "Calvary Chapel Chino Valley",
+      "client": "Heart Christian Academy",
+      "job": "HCA - Chino, CA Campus",
+      "city": ""
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Heart Christian Academy- Eastvale",
+      "client": "Heart Christian Academy",
+      "job": "HCA - Eastvale, CA Campus",
+      "city": "Eastvale"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Heart Christian Academy  - Clovis/Fresno",
+      "client": "Heart Christian Academy",
+      "job": "HCA - Clovis/Fresno, CA Campus",
+      "city": "Fresno"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Heart Christian Academy - Murfreesboro, TN Campus",
+      "client": "Heart Christian Academy",
+      "job": "Heart Christian Academy - Murfreesboro, TN Campus",
+      "city": "Murfreesboro"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Heart Christian Academy",
+      "client": "Heart Christian Academy",
+      "job": "HCA - San Juan Capistrano, CA Campus",
+      "city": "San Juan Capistrano"
+    },
     {
       "rem": "Ryan McKillop",
       "venue": "Dallas, TX",
@@ -1326,9 +1361,13 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 37,
+      "events30": 38,
       "career": 2335,
       "recent": [
+        {
+          "name": "MAMAMOO",
+          "meta": "AUG 25"
+        },
         {
           "name": "Los Angeles Sparks vs Atlanta Dream",
           "meta": "AUG 24"
@@ -1336,10 +1375,6 @@
         {
           "name": "Los Angele Sparks vs Atlanta Dream- LA Live",
           "meta": "AUG 24"
-        },
-        {
-          "name": "Los Angeles Sparks vs Connecticut Sun",
-          "meta": "AUG 22"
         }
       ]
     },
@@ -1347,7 +1382,7 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 22,
       "career": 880,
       "recent": [
         {
@@ -1386,23 +1421,23 @@
       ]
     },
     {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
+      "name": "Justin McKillop",
+      "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 14,
-      "career": 281,
+      "events30": 16,
+      "career": 292,
       "recent": [
         {
-          "name": "8.21-8.22 Karol G Coverage ",
-          "meta": "AUG 21"
+          "name": "HCA - Boise, ID Campus",
+          "meta": "AUG 25"
         },
         {
-          "name": "8.20 AI Dev Tool Dinner",
-          "meta": "AUG 20"
+          "name": "HCA - Fullerton, CA Campus",
+          "meta": "AUG 25"
         },
         {
-          "name": "8.17-8.20 Genesis of SB Coverage",
-          "meta": "AUG 17"
+          "name": "HCA - San Marcos, CA Campus",
+          "meta": "AUG 25"
         }
       ]
     },
@@ -1410,20 +1445,20 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 12,
+      "events30": 15,
       "career": 493,
       "recent": [
         {
-          "name": "Ludlow Grey Pop Up-Chicago",
-          "meta": "AUG 22"
+          "name": "Cinashow - Amazon AP - TX",
+          "meta": "AUG 25"
         },
         {
-          "name": "Nike DSG x Back to Sport Weekend – University of South Carolina",
-          "meta": "AUG 22"
+          "name": "BMW iX3 Ride and Drive-San Diego",
+          "meta": "AUG 25"
         },
         {
-          "name": "Nike x CC1 Photoshoot",
-          "meta": "AUG 22"
+          "name": "Amazon - Drawn Together - Miami",
+          "meta": "AUG 25"
         }
       ]
     }
@@ -1617,20 +1652,20 @@
     "<b>8.15 Emerald Drop-NYC</b> · The Highline",
     "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
     "<b>Swisher Production Premiere</b> · American Legion Post 43",
+    "<b>Cinashow - Amazon AP - TX</b> · Marriott Dallas Allen Hotel &amp; Convention Center",
     "<b>Beverly Hilton Shenassa Bat Mitzvah</b> · Beverly Hilton Hotel",
+    "<b>DWCS 73</b> · UFC Apex",
     "<b>LA Events 8.10-8.16</b> · LA Live",
     "<b>BJJ 10</b> · UFC Apex",
     "<b>Nike x FA26 NFL Rivalries Photo Shoot - INDY</b> · Indianapolis",
     "<b>Tires S3 8.7</b> · Charleston Music Hall",
     "<b>Los Angeles Sparks vs New York Liberty</b> · Crypto.com Arena",
     "<b>HCA - Eastvale, CA Campus</b> · Heart Christian Academy- Eastvale",
+    "<b>8.25 Emerald OPL003 San Diego</b> · Bahia Resort",
     "<b>ACM Honors 2026</b> · The Pinnacle",
     "<b>JURY DUTY – Los Angeles – Writer’s Peer Group Screening/Reception</b> · San Vincente Bungalows West Hollywood",
     "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV",
-    "<b>Breakthrough Experiential Featuring Dasha</b> · Austin TX",
-    "<b>Karol G LA Concert </b> · SoFi Stadium Inglewood",
-    "<b>Barnsdall Event </b> · Barnsdall Art Park",
-    "<b>Grammy Museum - HYBE America Reception</b> · Grammy Museum"
+    "<b>Breakthrough Experiential Featuring Dasha</b> · Austin TX"
   ],
   "linkedin": [
     {
