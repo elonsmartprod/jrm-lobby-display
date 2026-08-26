@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T01:59:34.969Z",
-  "commit": "4bee34b",
+  "generatedAt": "2026-08-26T03:19:57.761Z",
+  "commit": "f16e9c6",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1645,
-    "events30": 176,
+    "eventsYTD": 1646,
+    "events30": 177,
     "guards30": 673,
     "citiesYTD": 110,
     "upcoming30": 69,
-    "perDay": 6.940928270042194
+    "perDay": 6.9451476793248945
   },
   "heatPoints": [
     {
@@ -235,8 +235,8 @@
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 100,
-      "w": 0.10660980810234541,
+      "ev": 101,
+      "w": 0.10767590618336886,
       "hq": false
     },
     {
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 479
+      "count": 480
     },
     {
       "name": "New York, NY",
