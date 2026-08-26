@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T03:19:57.761Z",
-  "commit": "f16e9c6",
+  "generatedAt": "2026-08-26T04:57:23.477Z",
+  "commit": "45eb26b",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -887,6 +887,13 @@
       "city": "San Marcos"
     },
     {
+      "rem": "Sean McKillop",
+      "venue": "Black Mountain Ranch Park",
+      "client": "Czarnowski ",
+      "job": "BMW iX3 Ride and Drive-San Diego",
+      "city": ""
+    },
+    {
       "rem": "Justin McKillop",
       "venue": "Calvary Chapel Chino Valley",
       "client": "Heart Christian Academy",
@@ -1495,12 +1502,12 @@
           "meta": "AUG 25"
         },
         {
-          "name": "BMW iX3 Ride and Drive-San Diego",
+          "name": "Amazon - Drawn Together - Miami",
           "meta": "AUG 25"
         },
         {
-          "name": "Amazon - Drawn Together - Miami",
-          "meta": "AUG 25"
+          "name": "BMW iX3 Ride and Drive-San Diego",
+          "meta": "AUG 24"
         }
       ]
     }
