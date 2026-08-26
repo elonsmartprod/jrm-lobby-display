@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T11:47:04.598Z",
-  "commit": "acf50be",
+  "generatedAt": "2026-08-26T13:17:44.344Z",
+  "commit": "c50e43e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -204,7 +204,7 @@
     "guards30": 673,
     "citiesYTD": 110,
     "upcoming30": 79,
-    "perDay": 6.9451476793248945
+    "perDay": 6.915966386554622
   },
   "heatPoints": [
     {
