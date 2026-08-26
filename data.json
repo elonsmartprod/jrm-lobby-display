@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T23:39:56.973Z",
-  "commit": "9a0b6d0",
+  "generatedAt": "2026-08-26T01:59:34.969Z",
+  "commit": "4bee34b",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1641,
-    "events30": 178,
-    "guards30": 676,
+    "eventsYTD": 1645,
+    "events30": 176,
+    "guards30": 673,
     "citiesYTD": 110,
-    "upcoming30": 72,
-    "perDay": 6.924050632911392
+    "upcoming30": 69,
+    "perDay": 6.940928270042194
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 937,
+      "ev": 938,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.08004268943436499,
+      "w": 0.07995735607675906,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 151,
-      "w": 0.16115261472785486,
+      "w": 0.16098081023454158,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 100,
-      "w": 0.10672358591248667,
+      "w": 0.10660980810234541,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.042689434364994665,
+      "w": 0.042643923240938165,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 112,
-      "w": 0.11953041622198506,
+      "w": 0.11940298507462686,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 69,
-      "w": 0.0736392742796158,
+      "ev": 71,
+      "w": 0.07569296375266525,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 478
+      "count": 479
     },
     {
       "name": "New York, NY",
@@ -290,16 +290,16 @@
       "count": 83
     },
     {
+      "name": "San Francisco, CA",
+      "lon": -122.42072640483462,
+      "lat": 37.78456864025394,
+      "count": 75
+    },
+    {
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
       "count": 75
-    },
-    {
-      "name": "San Francisco, CA",
-      "lon": -122.42072640483462,
-      "lat": 37.78456864025394,
-      "count": 74
     },
     {
       "name": "Las Vegas, NV",
@@ -831,6 +831,62 @@
   ],
   "todayPosts": [
     {
+      "rem": "Mathias Gibson",
+      "venue": "Bahia Resort",
+      "client": "Emerald Americas LLC",
+      "job": "8.25 Emerald OPL003 San Diego",
+      "city": ""
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Marriott Dallas Allen Hotel & Convention Center",
+      "client": "Amazon",
+      "job": "Cinashow - Amazon AP - TX",
+      "city": ""
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Front Porch Farms",
+      "client": "Paramount",
+      "job": "Paramount UA Activation - Charlotte, TN",
+      "city": ""
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Heart Christian Academy - Boise",
+      "client": "Heart Christian Academy",
+      "job": "HCA - Boise, ID Campus",
+      "city": "Boise"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Heart Christian Academy - Carlsbad",
+      "client": "Heart Christian Academy",
+      "job": "HCA - Carlsbad, CA Campus",
+      "city": "Carlsbad"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Heart Christian Academy - Fullerton",
+      "client": "Heart Christian Academy",
+      "job": "HCA - Fullerton, CA Campus",
+      "city": "Fullerton"
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Miami, FL",
+      "client": "Amazon",
+      "job": "Amazon - Drawn Together - Miami",
+      "city": "Miami"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Heart Christian Academy- San Marcos",
+      "client": "Heart Christian Academy",
+      "job": "HCA - San Marcos, CA Campus",
+      "city": "San Marcos"
+    },
+    {
       "rem": "Justin McKillop",
       "venue": "Calvary Chapel Chino Valley",
       "client": "Heart Christian Academy",
@@ -871,20 +927,6 @@
       "client": "Élephante SFS LLC",
       "job": "Elephante Dallas ",
       "city": "Dallas"
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Indianapolis",
-      "client": "Nike",
-      "job": "Nike x CC1 Photoshoot",
-      "city": "Indianapolis"
-    },
-    {
-      "rem": "Kyle Crowther",
-      "venue": "Target ",
-      "client": "Protos Security",
-      "job": "Protos AZ 8.21.26",
-      "city": ""
     },
     {
       "rem": "Justin McKillop",
@@ -1361,7 +1403,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 38,
+      "events30": 37,
       "career": 2335,
       "recent": [
         {
@@ -1382,9 +1424,13 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 23,
       "career": 881,
       "recent": [
+        {
+          "name": "Grammy Museum - Entravision Pop-Up Event",
+          "meta": "AUG 26"
+        },
         {
           "name": "LA Jazz Festival - Kia Forum",
           "meta": "AUG 22"
@@ -1392,10 +1438,27 @@
         {
           "name": "Gradient x Vita Coco Pop-Up",
           "meta": "AUG 22"
+        }
+      ]
+    },
+    {
+      "name": "Justin McKillop",
+      "office": "Tennessee",
+      "color": "#E8B44A",
+      "events30": 17,
+      "career": 293,
+      "recent": [
+        {
+          "name": "CNN TN 8.26",
+          "meta": "AUG 26"
         },
         {
-          "name": "Grammy Museum Event - 8/20/26 - PP",
-          "meta": "AUG 20"
+          "name": "HCA - Boise, ID Campus",
+          "meta": "AUG 25"
+        },
+        {
+          "name": "HCA - Fullerton, CA Campus",
+          "meta": "AUG 25"
         }
       ]
     },
@@ -1421,31 +1484,10 @@
       ]
     },
     {
-      "name": "Justin McKillop",
-      "office": "Tennessee",
-      "color": "#E8B44A",
-      "events30": 16,
-      "career": 293,
-      "recent": [
-        {
-          "name": "HCA - Boise, ID Campus",
-          "meta": "AUG 25"
-        },
-        {
-          "name": "HCA - Fullerton, CA Campus",
-          "meta": "AUG 25"
-        },
-        {
-          "name": "HCA - San Marcos, CA Campus",
-          "meta": "AUG 25"
-        }
-      ]
-    },
-    {
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 15,
+      "events30": 13,
       "career": 493,
       "recent": [
         {
@@ -1651,13 +1693,13 @@
     "<b>Ludlow Grey Pop Up-Chicago</b> · Kavi Gupta Gallery",
     "<b>8.15 Emerald Drop-NYC</b> · The Highline",
     "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
+    "<b>Karol G - SEATTLE 8.26</b> · Lumen Field",
     "<b>Swisher Production Premiere</b> · American Legion Post 43",
     "<b>Cinashow - Amazon AP - TX</b> · Marriott Dallas Allen Hotel &amp; Convention Center",
     "<b>Beverly Hilton Shenassa Bat Mitzvah</b> · Beverly Hilton Hotel",
     "<b>DWCS 73</b> · UFC Apex",
     "<b>LA Events 8.10-8.16</b> · LA Live",
     "<b>BJJ 10</b> · UFC Apex",
-    "<b>Nike x FA26 NFL Rivalries Photo Shoot - INDY</b> · Indianapolis",
     "<b>Tires S3 8.7</b> · Charleston Music Hall",
     "<b>Los Angeles Sparks vs New York Liberty</b> · Crypto.com Arena",
     "<b>HCA - Eastvale, CA Campus</b> · Heart Christian Academy- Eastvale",
