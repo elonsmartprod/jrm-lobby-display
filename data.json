@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T23:36:05.715Z",
-  "commit": "8230712",
+  "generatedAt": "2026-08-27T09:52:32.331Z",
+  "commit": "c302d1a",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1646,
-    "events30": 177,
-    "guards30": 673,
+    "eventsYTD": 1652,
+    "events30": 179,
+    "guards30": 669,
     "citiesYTD": 110,
-    "upcoming30": 80,
-    "perDay": 6.915966386554622
+    "upcoming30": 76,
+    "perDay": 6.9411764705882355
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 938,
+      "ev": 942,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.07995735607675906,
+      "w": 0.07961783439490445,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 151,
-      "w": 0.16098081023454158,
+      "w": 0.1602972399150743,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 101,
-      "w": 0.10767590618336886,
+      "w": 0.10721868365180467,
       "hq": false
     },
     {
@@ -244,15 +244,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.042643923240938165,
+      "w": 0.04246284501061571,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 112,
-      "w": 0.11940298507462686,
+      "ev": 113,
+      "w": 0.11995753715498939,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 71,
-      "w": 0.07569296375266525,
+      "w": 0.07537154989384288,
       "hq": false
     }
   ],
@@ -281,7 +281,7 @@
       "name": "CA",
       "lon": -119.0902437694138,
       "lat": 35.39394288444034,
-      "count": 102
+      "count": 103
     },
     {
       "name": "North Hollywood, CA",
@@ -290,15 +290,15 @@
       "count": 83
     },
     {
-      "name": "San Francisco, CA",
-      "lon": -122.42072640483462,
-      "lat": 37.78456864025394,
-      "count": 75
-    },
-    {
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
+      "count": 76
+    },
+    {
+      "name": "San Francisco, CA",
+      "lon": -122.42072640483462,
+      "lat": 37.78456864025394,
       "count": 75
     },
     {
@@ -323,7 +323,7 @@
       "name": "Culver City, CA",
       "lon": -118.39045209121825,
       "lat": 34.0242194781745,
-      "count": 31
+      "count": 32
     },
     {
       "name": "Hollywood Hills, CA",
@@ -835,20 +835,6 @@
       "venue": "Bahia Resort",
       "client": "Emerald Americas LLC",
       "job": "8.25 Emerald OPL003 San Diego",
-      "city": ""
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Marriott Dallas Allen Hotel & Convention Center",
-      "client": "Amazon",
-      "job": "Cinashow - Amazon AP - TX",
-      "city": ""
-    },
-    {
-      "rem": "Justin McKillop",
-      "venue": "Front Porch Farms",
-      "client": "Paramount",
-      "job": "Paramount UA Activation - Charlotte, TN",
       "city": ""
     },
     {
@@ -1414,16 +1400,16 @@
       "career": 2335,
       "recent": [
         {
+          "name": "Amazon Love Hypothesis EP",
+          "meta": "AUG 27"
+        },
+        {
+          "name": "Amazon The Runner Premiere ",
+          "meta": "AUG 27"
+        },
+        {
           "name": "MAMAMOO",
           "meta": "AUG 25"
-        },
-        {
-          "name": "Los Angeles Sparks vs Atlanta Dream",
-          "meta": "AUG 24"
-        },
-        {
-          "name": "Los Angele Sparks vs Atlanta Dream- LA Live",
-          "meta": "AUG 24"
         }
       ]
     },
@@ -1470,33 +1456,16 @@
       ]
     },
     {
-      "name": "Seanie Wolf",
-      "office": "Los Angeles",
-      "color": "#E8B44A",
-      "events30": 16,
-      "career": 35,
-      "recent": [
-        {
-          "name": "Gina Wade Nebula Reception",
-          "meta": "AUG 21"
-        },
-        {
-          "name": "Barnsdall Event ",
-          "meta": "AUG 20"
-        },
-        {
-          "name": "Bite Catering",
-          "meta": "AUG 20"
-        }
-      ]
-    },
-    {
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 13,
+      "events30": 14,
       "career": 493,
       "recent": [
+        {
+          "name": "Ja x South Carolina Homecoming",
+          "meta": "AUG 27"
+        },
         {
           "name": "Cinashow - Amazon AP - TX",
           "meta": "AUG 25"
@@ -1504,10 +1473,27 @@
         {
           "name": "Amazon - Drawn Together - Miami",
           "meta": "AUG 25"
+        }
+      ]
+    },
+    {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 14,
+      "career": 283,
+      "recent": [
+        {
+          "name": "8.27 Emerald x a16z Insiders VIP DInner",
+          "meta": "AUG 27"
         },
         {
-          "name": "BMW iX3 Ride and Drive-San Diego",
-          "meta": "AUG 24"
+          "name": "8.26 Jack's Restraunt",
+          "meta": "AUG 26"
+        },
+        {
+          "name": "8.25 Emerald OPL003 San Diego",
+          "meta": "AUG 25"
         }
       ]
     }
@@ -1698,6 +1684,7 @@
     "<b>Beverly Hilton Harold &amp; Carole Pump Foundation Gala</b> · Beverly Hilton Hotel",
     "<b>Grammy Museum Event - 8/20/26 - PP</b> · Grammy Museum",
     "<b>Ludlow Grey Pop Up-Chicago</b> · Kavi Gupta Gallery",
+    "<b>Amazon Love Hypothesis EP</b> · Culver Theater",
     "<b>8.15 Emerald Drop-NYC</b> · The Highline",
     "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
     "<b>Karol G - SEATTLE 8.26</b> · Lumen Field",
@@ -1708,7 +1695,6 @@
     "<b>LA Events 8.10-8.16</b> · LA Live",
     "<b>BJJ 10</b> · UFC Apex",
     "<b>Tires S3 8.7</b> · Charleston Music Hall",
-    "<b>Los Angeles Sparks vs New York Liberty</b> · Crypto.com Arena",
     "<b>HCA - Eastvale, CA Campus</b> · Heart Christian Academy- Eastvale",
     "<b>8.25 Emerald OPL003 San Diego</b> · Bahia Resort",
     "<b>ACM Honors 2026</b> · The Pinnacle",
