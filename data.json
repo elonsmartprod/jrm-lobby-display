@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-27T20:32:33.492Z",
-  "commit": "44cfa3e",
+  "generatedAt": "2026-08-28T05:25:57.620Z",
+  "commit": "7d76b30",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1652,
-    "events30": 179,
-    "guards30": 669,
+    "eventsYTD": 1654,
+    "events30": 177,
+    "guards30": 677,
     "citiesYTD": 110,
-    "upcoming30": 83,
-    "perDay": 6.912133891213389
+    "upcoming30": 84,
+    "perDay": 6.920502092050209
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 942,
+      "ev": 944,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.07961783439490445,
+      "w": 0.07944915254237288,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 151,
-      "w": 0.1602972399150743,
+      "w": 0.15995762711864406,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 101,
-      "w": 0.10721868365180467,
+      "w": 0.10699152542372882,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.04246284501061571,
+      "w": 0.0423728813559322,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 113,
-      "w": 0.11995753715498939,
+      "w": 0.11970338983050847,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 71,
-      "w": 0.07537154989384288,
+      "w": 0.07521186440677965,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 480
+      "count": 482
     },
     {
       "name": "New York, NY",
@@ -699,11 +699,6 @@
       "since": 2025
     },
     {
-      "name": "Fashion Nova Corporate Office",
-      "office": "Los Angeles",
-      "since": 2025
-    },
-    {
       "name": "Fear of God Buildings",
       "office": "Los Angeles",
       "since": 2025
@@ -831,6 +826,13 @@
   ],
   "todayPosts": [
     {
+      "rem": "Sean McKillop",
+      "venue": "Sumter, SC",
+      "client": "Nike",
+      "job": "Ja x South Carolina Homecoming",
+      "city": ""
+    },
+    {
       "rem": "Mathias Gibson",
       "venue": "Bahia Resort",
       "client": "Emerald Americas LLC",
@@ -871,13 +873,6 @@
       "client": "Heart Christian Academy",
       "job": "HCA - San Marcos, CA Campus",
       "city": "San Marcos"
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Black Mountain Ranch Park",
-      "client": "Czarnowski ",
-      "job": "BMW iX3 Ride and Drive-San Diego",
-      "city": ""
     },
     {
       "rem": "Justin McKillop",
@@ -1396,20 +1391,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 37,
+      "events30": 38,
       "career": 2335,
       "recent": [
         {
+          "name": "BMW Commercial Shoot The Row",
+          "meta": "AUG 28"
+        },
+        {
+          "name": "Los Angeles Sparks vs Washington Mystics",
+          "meta": "AUG 28"
+        },
+        {
           "name": "Amazon Love Hypothesis EP",
           "meta": "AUG 27"
-        },
-        {
-          "name": "Amazon The Runner Premiere ",
-          "meta": "AUG 27"
-        },
-        {
-          "name": "MAMAMOO",
-          "meta": "AUG 25"
         }
       ]
     },
@@ -1477,23 +1472,23 @@
       ]
     },
     {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
+      "name": "Seanie Wolf",
+      "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 14,
-      "career": 283,
+      "career": 35,
       "recent": [
         {
-          "name": "8.27 Emerald x a16z Insiders VIP DInner",
-          "meta": "AUG 27"
+          "name": "Gina Wade Nebula Reception",
+          "meta": "AUG 21"
         },
         {
-          "name": "8.26 Jack's Restraunt",
-          "meta": "AUG 26"
+          "name": "Barnsdall Event ",
+          "meta": "AUG 20"
         },
         {
-          "name": "8.25 Emerald OPL003 San Diego",
-          "meta": "AUG 25"
+          "name": "Bite Catering",
+          "meta": "AUG 20"
         }
       ]
     }
@@ -1644,6 +1639,15 @@
       "upcoming": false
     },
     {
+      "client": "Fashion Nova",
+      "title": "Fashion Nova",
+      "venue": "Fashion Nova Corporate Office · Beverly Hills",
+      "badges": [
+        "Apts-Condos-Office Bldg"
+      ],
+      "upcoming": false
+    },
+    {
       "client": "Symbiotic Event Services",
       "title": "LA Comic Con",
       "venue": "Los Angeles Convention Center · Los Angeles",
@@ -1667,15 +1671,6 @@
       "venue": "",
       "badges": [
         "Convention"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Fashion Nova",
-      "title": "Fashion Nova - Santa Fe Springs",
-      "venue": "Fashion Nova Distribution Center · Santa Fe Springs",
-      "badges": [
-        "Apts-Condos-Office Bldg"
       ],
       "upcoming": false
     }
