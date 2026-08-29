@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-28T18:45:11.969Z",
-  "commit": "8927ee8",
+  "generatedAt": "2026-08-29T02:13:19.856Z",
+  "commit": "c4cefcd",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1654,
-    "events30": 177,
-    "guards30": 677,
+    "eventsYTD": 1659,
+    "events30": 179,
+    "guards30": 683,
     "citiesYTD": 110,
-    "upcoming30": 86,
-    "perDay": 6.891666666666667
+    "upcoming30": 83,
+    "perDay": 6.9125
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 944,
+      "ev": 946,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.07944915254237288,
+      "w": 0.07928118393234672,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 151,
-      "w": 0.15995762711864406,
+      "ev": 152,
+      "w": 0.160676532769556,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 101,
-      "w": 0.10699152542372882,
+      "w": 0.10676532769556026,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.0423728813559322,
+      "w": 0.042283298097251586,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 113,
-      "w": 0.11970338983050847,
+      "w": 0.11945031712473574,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 71,
-      "w": 0.07521186440677965,
+      "ev": 72,
+      "w": 0.07610993657505286,
       "hq": false
     }
   ],
@@ -293,7 +293,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 76
+      "count": 77
     },
     {
       "name": "San Francisco, CA",
@@ -317,7 +317,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.40086844605668,
       "lat": 34.068454553929,
-      "count": 38
+      "count": 39
     },
     {
       "name": "Culver City, CA",
@@ -398,6 +398,12 @@
       "count": 7
     },
     {
+      "name": "NY",
+      "lon": -74.4727936146592,
+      "lat": 41.276653737724004,
+      "count": 6
+    },
+    {
       "name": "Thermal, CA",
       "lon": -116.2023098,
       "lat": 33.6485353,
@@ -413,12 +419,6 @@
       "name": "Malibu, CA",
       "lon": -118.81201097499999,
       "lat": 34.0479904,
-      "count": 5
-    },
-    {
-      "name": "NY",
-      "lon": -74.4727936146592,
-      "lat": 41.276653737724004,
       "count": 5
     },
     {
@@ -833,13 +833,6 @@
       "city": ""
     },
     {
-      "rem": "Mathias Gibson",
-      "venue": "Bahia Resort",
-      "client": "Emerald Americas LLC",
-      "job": "8.25 Emerald OPL003 San Diego",
-      "city": ""
-    },
-    {
       "rem": "Justin McKillop",
       "venue": "Heart Christian Academy - Boise",
       "client": "Heart Christian Academy",
@@ -859,13 +852,6 @@
       "client": "Heart Christian Academy",
       "job": "HCA - Fullerton, CA Campus",
       "city": "Fullerton"
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Miami, FL",
-      "client": "Amazon",
-      "job": "Amazon - Drawn Together - Miami",
-      "city": "Miami"
     },
     {
       "rem": "Justin McKillop",
@@ -928,13 +914,6 @@
       "venue": "DoorDash Office",
       "client": "Protos Security",
       "job": "Protos DoorDash",
-      "city": ""
-    },
-    {
-      "rem": "Jessica Hernandez",
-      "venue": "Carvana Operations ",
-      "client": "Protos Security",
-      "job": "Protos Carvana LV",
       "city": ""
     },
     {
@@ -1392,7 +1371,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 38,
-      "career": 2335,
+      "career": 2336,
       "recent": [
         {
           "name": "BMW Commercial Shoot The Row",
@@ -1412,7 +1391,7 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 22,
       "career": 881,
       "recent": [
         {
@@ -1694,8 +1673,8 @@
     "<b>8.25 Emerald OPL003 San Diego</b> · Bahia Resort",
     "<b>ACM Honors 2026</b> · The Pinnacle",
     "<b>JURY DUTY – Los Angeles – Writer’s Peer Group Screening/Reception</b> · San Vincente Bungalows West Hollywood",
-    "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV",
-    "<b>Breakthrough Experiential Featuring Dasha</b> · Austin TX"
+    "<b>8.29 Brunch in the Loop</b> · Private Address",
+    "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV"
   ],
   "linkedin": [
     {
