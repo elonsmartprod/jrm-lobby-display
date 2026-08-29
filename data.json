@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T09:06:14.388Z",
-  "commit": "df0dc60",
+  "generatedAt": "2026-08-29T14:30:15.594Z",
+  "commit": "3a33310",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1661,
-    "events30": 181,
-    "guards30": 784,
+    "eventsYTD": 1662,
+    "events30": 182,
+    "guards30": 785,
     "citiesYTD": 110,
     "upcoming30": 82,
-    "perDay": 6.920833333333333
+    "perDay": 6.8962655601659755
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 948,
+      "ev": 949,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.07911392405063292,
+      "w": 0.07903055848261328,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 152,
-      "w": 0.16033755274261605,
+      "w": 0.1601685985247629,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 101,
-      "w": 0.10654008438818566,
+      "w": 0.10642781875658588,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.04219409282700422,
+      "w": 0.04214963119072708,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 113,
-      "w": 0.11919831223628692,
+      "w": 0.11907270811380401,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 72,
-      "w": 0.0759493670886076,
+      "w": 0.07586933614330875,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 484
+      "count": 485
     },
     {
       "name": "New York, NY",
@@ -917,6 +917,13 @@
       "city": "Los Angeles"
     },
     {
+      "rem": "Sevan Ohanians",
+      "venue": "Grammy Museum",
+      "client": "Grammy Museum",
+      "job": "GRAMMY MUSEUM - GA",
+      "city": "Los Angeles"
+    },
+    {
       "rem": "Justin McKillop",
       "venue": "Walter Hill First Baptist Church",
       "client": "Legacy Homeschool Resource Center",
@@ -1405,8 +1412,8 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 24,
-      "career": 882,
+      "events30": 25,
+      "career": 883,
       "recent": [
         {
           "name": "Grammy Museum - Entravision Pop-Up Event",
