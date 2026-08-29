@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T02:13:19.856Z",
-  "commit": "c4cefcd",
+  "generatedAt": "2026-08-29T09:06:14.388Z",
+  "commit": "df0dc60",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1659,
-    "events30": 179,
-    "guards30": 683,
+    "eventsYTD": 1661,
+    "events30": 181,
+    "guards30": 784,
     "citiesYTD": 110,
-    "upcoming30": 83,
-    "perDay": 6.9125
+    "upcoming30": 82,
+    "perDay": 6.920833333333333
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 946,
+      "ev": 948,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.07928118393234672,
+      "w": 0.07911392405063292,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 152,
-      "w": 0.160676532769556,
+      "w": 0.16033755274261605,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 101,
-      "w": 0.10676532769556026,
+      "w": 0.10654008438818566,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.042283298097251586,
+      "w": 0.04219409282700422,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 113,
-      "w": 0.11945031712473574,
+      "w": 0.11919831223628692,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 72,
-      "w": 0.07610993657505286,
+      "w": 0.0759493670886076,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 482
+      "count": 484
     },
     {
       "name": "New York, NY",
@@ -903,6 +903,20 @@
       "city": "Dallas"
     },
     {
+      "rem": "Sevan Ohanians",
+      "venue": "Grammy Museum",
+      "client": "Grammy Museum",
+      "job": "GRAMMY MUSEUM - Private Events",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Sevan Ohanians",
+      "venue": "Grammy Museum",
+      "client": "Grammy Museum",
+      "job": "GRAMMY MUSEUM - Public Programs",
+      "city": "Los Angeles"
+    },
+    {
       "rem": "Justin McKillop",
       "venue": "Walter Hill First Baptist Church",
       "client": "Legacy Homeschool Resource Center",
@@ -1391,20 +1405,20 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 22,
-      "career": 881,
+      "events30": 24,
+      "career": 882,
       "recent": [
         {
           "name": "Grammy Museum - Entravision Pop-Up Event",
           "meta": "AUG 26"
         },
         {
-          "name": "LA Jazz Festival - Kia Forum",
-          "meta": "AUG 22"
+          "name": "GRAMMY MUSEUM - Private Events",
+          "meta": "AUG 23"
         },
         {
-          "name": "Gradient x Vita Coco Pop-Up",
-          "meta": "AUG 22"
+          "name": "GRAMMY MUSEUM - Public Programs",
+          "meta": "AUG 23"
         }
       ]
     },
@@ -1660,6 +1674,7 @@
     "<b>Ludlow Grey Pop Up-Chicago</b> · Kavi Gupta Gallery",
     "<b>Amazon Love Hypothesis EP</b> · Culver Theater",
     "<b>8.15 Emerald Drop-NYC</b> · The Highline",
+    "<b>GRAMMY MUSEUM - Private Events</b> · Grammy Museum",
     "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
     "<b>Karol G - SEATTLE 8.26</b> · Lumen Field",
     "<b>Swisher Production Premiere</b> · American Legion Post 43",
@@ -1668,13 +1683,12 @@
     "<b>DWCS 73</b> · UFC Apex",
     "<b>LA Events 8.10-8.16</b> · LA Live",
     "<b>BJJ 10</b> · UFC Apex",
+    "<b>GRAMMY MUSEUM - Public Programs</b> · Grammy Museum",
     "<b>Tires S3 8.7</b> · Charleston Music Hall",
     "<b>HCA - Eastvale, CA Campus</b> · Heart Christian Academy- Eastvale",
     "<b>8.25 Emerald OPL003 San Diego</b> · Bahia Resort",
     "<b>ACM Honors 2026</b> · The Pinnacle",
-    "<b>JURY DUTY – Los Angeles – Writer’s Peer Group Screening/Reception</b> · San Vincente Bungalows West Hollywood",
-    "<b>8.29 Brunch in the Loop</b> · Private Address",
-    "<b>AEG Golden Boy Boxing LV 2026</b> · Theater at Virgin Hotel-JRM NV"
+    "<b>JURY DUTY – Los Angeles – Writer’s Peer Group Screening/Reception</b> · San Vincente Bungalows West Hollywood"
   ],
   "linkedin": [
     {
