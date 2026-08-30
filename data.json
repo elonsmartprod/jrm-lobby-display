@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-29T21:46:04.359Z",
-  "commit": "b400f67",
+  "generatedAt": "2026-08-30T00:22:24.537Z",
+  "commit": "c4d6b5d",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1662,
-    "events30": 182,
-    "guards30": 785,
+    "eventsYTD": 1664,
+    "events30": 181,
+    "guards30": 784,
     "citiesYTD": 110,
-    "upcoming30": 82,
-    "perDay": 6.8962655601659755
+    "upcoming30": 83,
+    "perDay": 6.904564315352697
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 949,
+      "ev": 951,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.07903055848261328,
+      "w": 0.07886435331230283,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 152,
-      "w": 0.1601685985247629,
+      "w": 0.1598317560462671,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 101,
-      "w": 0.10642781875658588,
+      "w": 0.10620399579390116,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.04214963119072708,
+      "w": 0.04206098843322818,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 113,
-      "w": 0.11907270811380401,
+      "w": 0.11882229232386961,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 72,
-      "w": 0.07586933614330875,
+      "w": 0.07570977917981073,
       "hq": false
     }
   ],
@@ -279,9 +279,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.0902437694138,
-      "lat": 35.39394288444034,
-      "count": 103
+      "lon": -119.0817776568401,
+      "lat": 35.37772361806365,
+      "count": 104
     },
     {
       "name": "North Hollywood, CA",
@@ -317,7 +317,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.40086844605668,
       "lat": 34.068454553929,
-      "count": 39
+      "count": 40
     },
     {
       "name": "Culver City, CA",
@@ -826,11 +826,11 @@
   ],
   "todayPosts": [
     {
-      "rem": "Sean McKillop",
-      "venue": "Sumter, SC",
-      "client": "Nike",
-      "job": "Ja x South Carolina Homecoming",
-      "city": ""
+      "rem": "Mivonta Fulwood",
+      "venue": "Four Seasons Beverly Hills",
+      "client": "WB Theatrical",
+      "job": "Practical Magic 2 - Overnight Asset Protection",
+      "city": "West Hollywood"
     },
     {
       "rem": "Justin McKillop",
@@ -1391,9 +1391,13 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 38,
+      "events30": 39,
       "career": 2336,
       "recent": [
+        {
+          "name": "Shapiro Memorial",
+          "meta": "AUG 30"
+        },
         {
           "name": "BMW Commercial Shoot The Row",
           "meta": "AUG 28"
@@ -1401,10 +1405,6 @@
         {
           "name": "Los Angeles Sparks vs Washington Mystics",
           "meta": "AUG 28"
-        },
-        {
-          "name": "Amazon Love Hypothesis EP",
-          "meta": "AUG 27"
         }
       ]
     },
@@ -1451,27 +1451,6 @@
       ]
     },
     {
-      "name": "Sean McKillop",
-      "office": "National Ops",
-      "color": "#E8B44A",
-      "events30": 14,
-      "career": 493,
-      "recent": [
-        {
-          "name": "Ja x South Carolina Homecoming",
-          "meta": "AUG 27"
-        },
-        {
-          "name": "Cinashow - Amazon AP - TX",
-          "meta": "AUG 25"
-        },
-        {
-          "name": "Amazon - Drawn Together - Miami",
-          "meta": "AUG 25"
-        }
-      ]
-    },
-    {
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
@@ -1489,6 +1468,27 @@
         {
           "name": "Bite Catering",
           "meta": "AUG 20"
+        }
+      ]
+    },
+    {
+      "name": "Sean McKillop",
+      "office": "National Ops",
+      "color": "#E8B44A",
+      "events30": 13,
+      "career": 493,
+      "recent": [
+        {
+          "name": "Ja x South Carolina Homecoming",
+          "meta": "AUG 27"
+        },
+        {
+          "name": "Cinashow - Amazon AP - TX",
+          "meta": "AUG 25"
+        },
+        {
+          "name": "Amazon - Drawn Together - Miami",
+          "meta": "AUG 25"
         }
       ]
     }
