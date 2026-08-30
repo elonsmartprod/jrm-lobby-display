@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T21:08:52.632Z",
-  "commit": "9b7651d",
+  "generatedAt": "2026-08-30T23:31:54.859Z",
+  "commit": "627a41e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1664,
-    "events30": 181,
+    "eventsYTD": 1665,
+    "events30": 182,
     "guards30": 784,
     "citiesYTD": 110,
     "upcoming30": 104,
-    "perDay": 6.87603305785124
+    "perDay": 6.880165289256198
   },
   "heatPoints": [
     {
@@ -259,8 +259,8 @@
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 72,
-      "w": 0.07570977917981073,
+      "ev": 73,
+      "w": 0.07676130389064142,
       "hq": false
     }
   ],
@@ -938,6 +938,13 @@
       "city": ""
     },
     {
+      "rem": "Justin McKillop",
+      "venue": "First Cumberland Presbyterian Church",
+      "client": "Fusion Homeschooling",
+      "job": "Fusion Homeschooling",
+      "city": "Murfreesboro"
+    },
+    {
       "rem": "Sevan Ohanians",
       "venue": "BOBO Thai",
       "client": "TTFB CA LLC DBA: Yabi Kitchen",
@@ -1433,7 +1440,7 @@
       "name": "Justin McKillop",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 17,
+      "events30": 18,
       "career": 293,
       "recent": [
         {
