@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T23:31:54.859Z",
-  "commit": "627a41e",
+  "generatedAt": "2026-08-31T05:39:11.942Z",
+  "commit": "fbae666",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1665,
-    "events30": 182,
-    "guards30": 784,
+    "eventsYTD": 1671,
+    "events30": 184,
+    "guards30": 885,
     "citiesYTD": 110,
-    "upcoming30": 104,
-    "perDay": 6.880165289256198
+    "upcoming30": 98,
+    "perDay": 6.904958677685951
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 951,
+      "ev": 955,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.07886435331230283,
+      "w": 0.07853403141361257,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 152,
-      "w": 0.1598317560462671,
+      "ev": 153,
+      "w": 0.16020942408376965,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 101,
-      "w": 0.10620399579390116,
+      "w": 0.10575916230366492,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.04206098843322818,
+      "w": 0.041884816753926704,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 113,
-      "w": 0.11882229232386961,
+      "w": 0.11832460732984293,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 73,
-      "w": 0.07676130389064142,
+      "w": 0.07643979057591622,
       "hq": false
     }
   ],
@@ -269,19 +269,19 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 485
+      "count": 487
     },
     {
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 112
+      "count": 113
     },
     {
       "name": "CA",
       "lon": -119.0817776568401,
       "lat": 35.37772361806365,
-      "count": 104
+      "count": 105
     },
     {
       "name": "North Hollywood, CA",
@@ -299,7 +299,7 @@
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 75
+      "count": 76
     },
     {
       "name": "Las Vegas, NV",
@@ -825,13 +825,6 @@
     }
   ],
   "todayPosts": [
-    {
-      "rem": "Mivonta Fulwood",
-      "venue": "Four Seasons Beverly Hills",
-      "client": "WB Theatrical",
-      "job": "Practical Magic 2 - Overnight Asset Protection",
-      "city": "West Hollywood"
-    },
     {
       "rem": "Justin McKillop",
       "venue": "Heart Christian Academy - Boise",
@@ -1398,19 +1391,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 39,
+      "events30": 40,
       "career": 2356,
       "recent": [
+        {
+          "name": "Shaprio Memorial ",
+          "meta": "AUG 31"
+        },
         {
           "name": "Shapiro Memorial",
           "meta": "AUG 30"
         },
         {
           "name": "BMW Commercial Shoot The Row",
-          "meta": "AUG 28"
-        },
-        {
-          "name": "Los Angeles Sparks vs Washington Mystics",
           "meta": "AUG 28"
         }
       ]
@@ -1419,19 +1412,19 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 25,
+      "events30": 24,
       "career": 883,
       "recent": [
+        {
+          "name": "78th Emmys Governors Gala ",
+          "meta": "AUG 31"
+        },
         {
           "name": "Grammy Museum - Entravision Pop-Up Event",
           "meta": "AUG 26"
         },
         {
           "name": "GRAMMY MUSEUM - Private Events",
-          "meta": "AUG 23"
-        },
-        {
-          "name": "GRAMMY MUSEUM - Public Programs",
           "meta": "AUG 23"
         }
       ]
@@ -1458,6 +1451,27 @@
       ]
     },
     {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 14,
+      "career": 283,
+      "recent": [
+        {
+          "name": "8.31 Jack's Restaurant",
+          "meta": "AUG 31"
+        },
+        {
+          "name": "8.29 Brunch in the Loop",
+          "meta": "AUG 29"
+        },
+        {
+          "name": "8.26 Jack's Restraunt",
+          "meta": "AUG 26"
+        }
+      ]
+    },
+    {
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
@@ -1475,27 +1489,6 @@
         {
           "name": "Bite Catering",
           "meta": "AUG 20"
-        }
-      ]
-    },
-    {
-      "name": "Sean McKillop",
-      "office": "National Ops",
-      "color": "#E8B44A",
-      "events30": 13,
-      "career": 493,
-      "recent": [
-        {
-          "name": "Ja x South Carolina Homecoming",
-          "meta": "AUG 27"
-        },
-        {
-          "name": "Cinashow - Amazon AP - TX",
-          "meta": "AUG 25"
-        },
-        {
-          "name": "Amazon - Drawn Together - Miami",
-          "meta": "AUG 25"
         }
       ]
     }
