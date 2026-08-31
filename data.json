@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T13:55:33.354Z",
-  "commit": "5e8c62f",
+  "generatedAt": "2026-08-31T20:07:51.886Z",
+  "commit": "c005e5b",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1671,
-    "events30": 184,
-    "guards30": 885,
+    "eventsYTD": 1672,
+    "events30": 185,
+    "guards30": 886,
     "citiesYTD": 110,
-    "upcoming30": 98,
-    "perDay": 6.8765432098765435
+    "upcoming30": 100,
+    "perDay": 6.8806584362139915
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 955,
+      "ev": 954,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.07853403141361257,
+      "w": 0.07861635220125786,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 153,
-      "w": 0.16020942408376965,
+      "w": 0.16037735849056603,
       "hq": false
     },
     {
@@ -236,15 +236,15 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 101,
-      "w": 0.10575916230366492,
+      "w": 0.10587002096436059,
       "hq": false
     },
     {
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 40,
-      "w": 0.041884816753926704,
+      "ev": 41,
+      "w": 0.0429769392033543,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 113,
-      "w": 0.11832460732984293,
+      "w": 0.11844863731656184,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 73,
-      "w": 0.07643979057591622,
+      "w": 0.07651991614255765,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 487
+      "count": 486
     },
     {
       "name": "New York, NY",
@@ -279,9 +279,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.0817776568401,
-      "lat": 35.37772361806365,
-      "count": 105
+      "lon": -119.07309676716531,
+      "lat": 35.361132339093864,
+      "count": 106
     },
     {
       "name": "North Hollywood, CA",
@@ -350,15 +350,15 @@
       "count": 15
     },
     {
-      "name": "UT",
-      "lon": -111.87681250419418,
-      "lat": 40.66516903823827,
-      "count": 12
-    },
-    {
       "name": "Salt Lake City, UT",
       "lon": -111.9005131454954,
       "lat": 40.752630442942205,
+      "count": 13
+    },
+    {
+      "name": "UT",
+      "lon": -111.87681250419418,
+      "lat": 40.66516903823827,
       "count": 12
     },
     {
@@ -458,6 +458,12 @@
       "count": 3
     },
     {
+      "name": "WA",
+      "lon": -122.02643791509333,
+      "lat": 47.53468454939267,
+      "count": 3
+    },
+    {
       "name": "Pasadena, CA",
       "lon": -104.6818294011085,
       "lat": 36.2730293705965,
@@ -539,12 +545,6 @@
       "name": "Boston, MA",
       "lon": -71.07852689999999,
       "lat": 42.3494563,
-      "count": 2
-    },
-    {
-      "name": "WA",
-      "lon": -121.87317233226949,
-      "lat": 47.502285807781504,
       "count": 2
     },
     {
@@ -825,6 +825,13 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Mathias Gibson",
+      "venue": "Various",
+      "client": "Emerald Americas LLC",
+      "job": "8.30-9.4 Emerald Driver",
+      "city": ""
+    },
     {
       "rem": "Justin McKillop",
       "venue": "Heart Christian Academy - Boise",
@@ -1434,7 +1441,7 @@
       "office": "Tennessee",
       "color": "#E8B44A",
       "events30": 18,
-      "career": 293,
+      "career": 294,
       "recent": [
         {
           "name": "CNN TN 8.26",
@@ -1454,20 +1461,20 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 14,
-      "career": 283,
+      "events30": 15,
+      "career": 284,
       "recent": [
         {
           "name": "8.31 Jack's Restaurant",
           "meta": "AUG 31"
         },
         {
-          "name": "8.29 Brunch in the Loop",
-          "meta": "AUG 29"
+          "name": "8.30-9.4 Emerald Driver",
+          "meta": "AUG 30"
         },
         {
-          "name": "8.26 Jack's Restraunt",
-          "meta": "AUG 26"
+          "name": "8.29 Brunch in the Loop",
+          "meta": "AUG 29"
         }
       ]
     },
@@ -1476,7 +1483,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 14,
-      "career": 38,
+      "career": 39,
       "recent": [
         {
           "name": "Gina Wade Nebula Reception",
