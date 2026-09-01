@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T05:13:15.627Z",
-  "commit": "d3df7c2",
+  "generatedAt": "2026-09-01T10:10:06.562Z",
+  "commit": "4d65121",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 192,
     "guards30": 927,
     "citiesYTD": 110,
-    "upcoming30": 103,
+    "upcoming30": 104,
     "perDay": 6.917695473251029
   },
   "heatPoints": [
@@ -836,7 +836,7 @@
       "rem": "Ryan McKillop",
       "venue": "Dallas, TX",
       "client": "Amazon",
-      "job": "Neagley - Maria Sten tour",
+      "job": "Neagley - Maria Sten tour - TX",
       "city": "Dallas"
     },
     {
@@ -1469,7 +1469,7 @@
       "office": "Tennessee",
       "color": "#E8B44A",
       "events30": 18,
-      "career": 296,
+      "career": 297,
       "recent": [
         {
           "name": "CNN TN 8.26",
