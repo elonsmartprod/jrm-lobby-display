@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T23:52:49.278Z",
-  "commit": "2a907f9",
+  "generatedAt": "2026-09-01T05:13:15.627Z",
+  "commit": "d3df7c2",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1672,
-    "events30": 185,
-    "guards30": 886,
+    "eventsYTD": 1681,
+    "events30": 192,
+    "guards30": 927,
     "citiesYTD": 110,
-    "upcoming30": 104,
-    "perDay": 6.8806584362139915
+    "upcoming30": 103,
+    "perDay": 6.917695473251029
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 954,
+      "ev": 958,
       "w": 1,
       "hq": true
     },
@@ -220,23 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 75,
-      "w": 0.07861635220125786,
+      "w": 0.07828810020876827,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 153,
-      "w": 0.16037735849056603,
+      "ev": 154,
+      "w": 0.16075156576200417,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 101,
-      "w": 0.10587002096436059,
+      "ev": 102,
+      "w": 0.10647181628392484,
       "hq": false
     },
     {
@@ -244,15 +244,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 41,
-      "w": 0.0429769392033543,
+      "w": 0.04279749478079332,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 113,
-      "w": 0.11844863731656184,
+      "ev": 114,
+      "w": 0.11899791231732777,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 73,
-      "w": 0.07651991614255765,
+      "w": 0.07620041753653445,
       "hq": false
     }
   ],
@@ -269,19 +269,19 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 486
+      "count": 488
     },
     {
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 113
+      "count": 114
     },
     {
       "name": "CA",
-      "lon": -119.07309676716531,
-      "lat": 35.361132339093864,
-      "count": 106
+      "lon": -119.05727627447331,
+      "lat": 35.32794289644271,
+      "count": 108
     },
     {
       "name": "North Hollywood, CA",
@@ -290,22 +290,22 @@
       "count": 83
     },
     {
+      "name": "San Francisco, CA",
+      "lon": -122.42072640483462,
+      "lat": 37.78456864025394,
+      "count": 77
+    },
+    {
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
       "count": 77
     },
     {
-      "name": "San Francisco, CA",
-      "lon": -122.42072640483462,
-      "lat": 37.78456864025394,
-      "count": 76
-    },
-    {
       "name": "Las Vegas, NV",
       "lon": -115.16193700781558,
       "lat": 36.11230155033209,
-      "count": 66
+      "count": 67
     },
     {
       "name": "Hollywood, CA",
@@ -825,6 +825,34 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Miguel Ruezga",
+      "venue": "Multiple locations",
+      "client": "Nike",
+      "job": "Nike HO26 Core Photoshoot",
+      "city": ""
+    },
+    {
+      "rem": "Ryan McKillop",
+      "venue": "Dallas, TX",
+      "client": "Amazon",
+      "job": "Neagley - Maria Sten tour",
+      "city": "Dallas"
+    },
+    {
+      "rem": "Sevan Ohanians",
+      "venue": "Los Angeles Convention Center",
+      "client": "Sequoia Productions Inc.",
+      "job": "78th Emmys Governors Gala ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "48 Wall Street",
+      "client": "48 Wall Street Events",
+      "job": "48 Wall St - Filming 8.31",
+      "city": "New York"
+    },
     {
       "rem": "Mathias Gibson",
       "venue": "Various",
@@ -1398,20 +1426,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 40,
+      "events30": 44,
       "career": 2356,
       "recent": [
         {
-          "name": "Shaprio Memorial ",
-          "meta": "AUG 31"
+          "name": "The Runner Alo Fitness Creator Event ",
+          "meta": "SEP 01"
         },
         {
-          "name": "Shapiro Memorial",
-          "meta": "AUG 30"
+          "name": "J Cole- LA Live",
+          "meta": "SEP 01"
         },
         {
-          "name": "BMW Commercial Shoot The Row",
-          "meta": "AUG 28"
+          "name": "J Cole",
+          "meta": "SEP 01"
         }
       ]
     },
@@ -1461,9 +1489,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 15,
+      "events30": 16,
       "career": 284,
       "recent": [
+        {
+          "name": "9.1 Jack's Restaurant",
+          "meta": "SEP 01"
+        },
         {
           "name": "8.31 Jack's Restaurant",
           "meta": "AUG 31"
@@ -1471,10 +1503,6 @@
         {
           "name": "8.30-9.4 Emerald Driver",
           "meta": "AUG 30"
-        },
-        {
-          "name": "8.29 Brunch in the Loop",
-          "meta": "AUG 29"
         }
       ]
     },
@@ -1698,11 +1726,11 @@
     "<b>LA Events 8.10-8.16</b> · LA Live",
     "<b>BJJ 10</b> · UFC Apex",
     "<b>GRAMMY MUSEUM - Public Programs</b> · Grammy Museum",
+    "<b>The Runner Alo Fitness Creator Event </b> · Alo HQ",
     "<b>Tires S3 8.7</b> · Charleston Music Hall",
     "<b>HCA - Eastvale, CA Campus</b> · Heart Christian Academy- Eastvale",
     "<b>8.25 Emerald OPL003 San Diego</b> · Bahia Resort",
-    "<b>ACM Honors 2026</b> · The Pinnacle",
-    "<b>JURY DUTY – Los Angeles – Writer’s Peer Group Screening/Reception</b> · San Vincente Bungalows West Hollywood"
+    "<b>ACM Honors 2026</b> · The Pinnacle"
   ],
   "linkedin": [
     {
