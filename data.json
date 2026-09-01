@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T18:33:20.116Z",
-  "commit": "3b6029c",
+  "generatedAt": "2026-09-01T21:48:42.139Z",
+  "commit": "657942b",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 192,
     "guards30": 924,
     "citiesYTD": 110,
-    "upcoming30": 109,
+    "upcoming30": 115,
     "perDay": 6.889344262295082
   },
   "heatPoints": [
@@ -1427,7 +1427,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 44,
-      "career": 2357,
+      "career": 2359,
       "recent": [
         {
           "name": "The Runner Alo Fitness Creator Event ",
@@ -1511,7 +1511,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 14,
-      "career": 39,
+      "career": 40,
       "recent": [
         {
           "name": "Gina Wade Nebula Reception",
