@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T14:55:50.514Z",
-  "commit": "63cbfbf",
+  "generatedAt": "2026-09-01T18:33:20.116Z",
+  "commit": "3b6029c",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -201,9 +201,9 @@
   "metrics": {
     "eventsYTD": 1681,
     "events30": 192,
-    "guards30": 927,
+    "guards30": 924,
     "citiesYTD": 110,
-    "upcoming30": 104,
+    "upcoming30": 109,
     "perDay": 6.889344262295082
   },
   "heatPoints": [
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 75,
-      "w": 0.07828810020876827,
+      "ev": 76,
+      "w": 0.07933194154488518,
       "hq": false
     },
     {
@@ -243,8 +243,8 @@
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 41,
-      "w": 0.04279749478079332,
+      "ev": 40,
+      "w": 0.04175365344467641,
       "hq": false
     },
     {
@@ -350,15 +350,15 @@
       "count": 15
     },
     {
-      "name": "Salt Lake City, UT",
-      "lon": -111.9005131454954,
-      "lat": 40.752630442942205,
-      "count": 13
-    },
-    {
       "name": "UT",
       "lon": -111.87681250419418,
       "lat": 40.66516903823827,
+      "count": 12
+    },
+    {
+      "name": "Salt Lake City, UT",
+      "lon": -111.9005131454954,
+      "lat": 40.752630442942205,
       "count": 12
     },
     {
@@ -1427,7 +1427,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 44,
-      "career": 2356,
+      "career": 2357,
       "recent": [
         {
           "name": "The Runner Alo Fitness Creator Event ",
@@ -1469,7 +1469,7 @@
       "office": "Tennessee",
       "color": "#E8B44A",
       "events30": 18,
-      "career": 297,
+      "career": 300,
       "recent": [
         {
           "name": "CNN TN 8.26",
