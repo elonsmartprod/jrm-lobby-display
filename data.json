@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-01T21:48:42.139Z",
-  "commit": "657942b",
+  "generatedAt": "2026-09-02T00:16:59.275Z",
+  "commit": "96dbeee",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1681,
-    "events30": 192,
-    "guards30": 924,
+    "eventsYTD": 1686,
+    "events30": 191,
+    "guards30": 845,
     "citiesYTD": 110,
-    "upcoming30": 115,
-    "perDay": 6.889344262295082
+    "upcoming30": 112,
+    "perDay": 6.909836065573771
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 958,
+      "ev": 959,
       "w": 1,
       "hq": true
     },
@@ -220,23 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 76,
-      "w": 0.07933194154488518,
+      "w": 0.07924921793534932,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 154,
-      "w": 0.16075156576200417,
+      "ev": 155,
+      "w": 0.1616266944734098,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 102,
-      "w": 0.10647181628392484,
+      "ev": 103,
+      "w": 0.10740354535974973,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.04175365344467641,
+      "w": 0.04171011470281543,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.11899791231732777,
+      "w": 0.11887382690302398,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 73,
-      "w": 0.07620041753653445,
+      "ev": 75,
+      "w": 0.07820646506777894,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 488
+      "count": 489
     },
     {
       "name": "New York, NY",
@@ -536,6 +536,12 @@
       "count": 2
     },
     {
+      "name": "Murfreesboro, TN",
+      "lon": -86.41499830000001,
+      "lat": 35.856430450000005,
+      "count": 2
+    },
+    {
       "name": "Inglewood, CA",
       "lon": -118.34024435,
       "lat": 33.955612900000006,
@@ -563,6 +569,12 @@
       "name": "Los Feliz, CA",
       "lon": -118.3004219,
       "lat": 34.118407,
+      "count": 2
+    },
+    {
+      "name": "TX",
+      "lon": -97.1459470115135,
+      "lat": 29.6426267340375,
       "count": 2
     },
     {
@@ -612,18 +624,6 @@
       "lon": -112.2522333232735,
       "lat": 33.440952975132504,
       "count": 2
-    },
-    {
-      "name": "Cambridge, MA",
-      "lon": -71.10128619999999,
-      "lat": 42.36362159999999,
-      "count": 1
-    },
-    {
-      "name": "Gilbert, AZ",
-      "lon": -111.7428009,
-      "lat": 33.3099412,
-      "count": 1
     }
   ],
   "intlPoints": [
@@ -825,6 +825,20 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Sean McKillop",
+      "venue": "Baltimore, Maryland",
+      "client": "Anduril Industries",
+      "job": "Anduril_Baltimore",
+      "city": "Baltimore"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "60 Pine Street NYC",
+      "client": "FIDI Hospitality",
+      "job": "FiDi Mezzanine Event  - Film shoot ",
+      "city": "New York"
+    },
     {
       "rem": "Miguel Ruezga",
       "venue": "Multiple locations",
@@ -1426,7 +1440,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 44,
+      "events30": 43,
       "career": 2359,
       "recent": [
         {
@@ -1447,7 +1461,7 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 24,
+      "events30": 23,
       "career": 883,
       "recent": [
         {
@@ -1468,20 +1482,20 @@
       "name": "Justin McKillop",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 18,
+      "events30": 20,
       "career": 300,
       "recent": [
         {
+          "name": "Amazon x Neagley Maria Sten Tour",
+          "meta": "SEP 02"
+        },
+        {
+          "name": "Tennessee Farmers Cooperative Dinner - WFF",
+          "meta": "SEP 02"
+        },
+        {
           "name": "CNN TN 8.26",
           "meta": "AUG 26"
-        },
-        {
-          "name": "HCA - Boise, ID Campus",
-          "meta": "AUG 25"
-        },
-        {
-          "name": "HCA - Fullerton, CA Campus",
-          "meta": "AUG 25"
         }
       ]
     },
