@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T19:51:47.092Z",
-  "commit": "1c92bdb",
+  "generatedAt": "2026-09-03T22:36:29.674Z",
+  "commit": "ef36aec",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 195,
     "guards30": 870,
     "citiesYTD": 110,
-    "upcoming30": 121,
+    "upcoming30": 122,
     "perDay": 6.873983739837398
   },
   "heatPoints": [
@@ -1511,7 +1511,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 14,
-      "career": 40,
+      "career": 41,
       "recent": [
         {
           "name": "Gina Wade Nebula Reception",
