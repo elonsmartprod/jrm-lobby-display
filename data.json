@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-02T21:51:29.107Z",
-  "commit": "7d3d592",
+  "generatedAt": "2026-09-03T00:18:24.973Z",
+  "commit": "a6b0f4a",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1687,
-    "events30": 192,
-    "guards30": 846,
+    "eventsYTD": 1691,
+    "events30": 195,
+    "guards30": 870,
     "citiesYTD": 110,
     "upcoming30": 117,
-    "perDay": 6.885714285714286
+    "perDay": 6.90204081632653
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 959,
+      "ev": 962,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 76,
-      "w": 0.07924921793534932,
+      "w": 0.079002079002079,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 155,
-      "w": 0.1616266944734098,
+      "w": 0.16112266112266113,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 103,
-      "w": 0.10740354535974973,
+      "ev": 104,
+      "w": 0.10810810810810811,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.04171011470281543,
+      "w": 0.04158004158004158,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.11887382690302398,
+      "w": 0.11850311850311851,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 75,
-      "w": 0.07820646506777894,
+      "w": 0.07796257796257797,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 489
+      "count": 490
     },
     {
       "name": "New York, NY",
@@ -279,9 +279,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.05727627447331,
-      "lat": 35.32794289644271,
-      "count": 108
+      "lon": -119.04868751934139,
+      "lat": 35.31161375139732,
+      "count": 109
     },
     {
       "name": "North Hollywood, CA",
@@ -365,7 +365,7 @@
       "name": "Chicago, IL",
       "lon": -87.6471605464009,
       "lat": 41.883719777886114,
-      "count": 10
+      "count": 11
     },
     {
       "name": "Century City, CA",
@@ -826,32 +826,18 @@
   ],
   "todayPosts": [
     {
-      "rem": "Sean McKillop",
-      "venue": "Baltimore, Maryland",
-      "client": "Anduril Industries",
-      "job": "Anduril_Baltimore",
-      "city": "Baltimore"
+      "rem": "Justin McKillop",
+      "venue": "Atlanta",
+      "client": "Amazon",
+      "job": "Amazon x Neagley Maria Sten Tour",
+      "city": "Atlanta"
     },
     {
       "rem": "Tony D’Gracia",
-      "venue": "60 Pine Street NYC",
-      "client": "FIDI Hospitality",
-      "job": "FiDi Mezzanine Event  - Film shoot ",
-      "city": "New York"
-    },
-    {
-      "rem": "Miguel Ruezga",
-      "venue": "Multiple locations",
+      "venue": "Washington D.C.",
       "client": "Nike",
-      "job": "Nike HO26 Core Photoshoot",
-      "city": ""
-    },
-    {
-      "rem": "Ryan McKillop",
-      "venue": "Dallas, TX",
-      "client": "Amazon",
-      "job": "Neagley - Maria Sten tour - TX",
-      "city": "Dallas"
+      "job": "Nike x AJ Dybantsa Video Shoot",
+      "city": "Washington DC"
     },
     {
       "rem": "Sevan Ohanians",
@@ -1440,19 +1426,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 43,
+      "events30": 45,
       "career": 2359,
       "recent": [
         {
+          "name": "Emmy's Toast",
+          "meta": "SEP 03"
+        },
+        {
+          "name": "Amazon NBA Emirates Cup Shoot",
+          "meta": "SEP 03"
+        },
+        {
           "name": "The Runner Alo Fitness Creator Event ",
-          "meta": "SEP 01"
-        },
-        {
-          "name": "J Cole- LA Live",
-          "meta": "SEP 01"
-        },
-        {
-          "name": "J Cole",
           "meta": "SEP 01"
         }
       ]
@@ -1482,7 +1468,7 @@
       "name": "Justin McKillop",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 20,
+      "events30": 19,
       "career": 300,
       "recent": [
         {
