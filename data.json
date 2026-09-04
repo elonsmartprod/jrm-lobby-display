@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T22:36:29.674Z",
-  "commit": "ef36aec",
+  "generatedAt": "2026-09-04T01:00:26.915Z",
+  "commit": "abbafe7",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1691,
-    "events30": 195,
-    "guards30": 870,
+    "eventsYTD": 1696,
+    "events30": 196,
+    "guards30": 875,
     "citiesYTD": 110,
-    "upcoming30": 122,
-    "perDay": 6.873983739837398
+    "upcoming30": 117,
+    "perDay": 6.894308943089431
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 962,
+      "ev": 966,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 76,
-      "w": 0.079002079002079,
+      "ev": 77,
+      "w": 0.07971014492753623,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 155,
-      "w": 0.16112266112266113,
+      "w": 0.16045548654244307,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 104,
-      "w": 0.10810810810810811,
+      "w": 0.10766045548654245,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.04158004158004158,
+      "w": 0.041407867494824016,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.11850311850311851,
+      "w": 0.11801242236024845,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 75,
-      "w": 0.07796257796257797,
+      "w": 0.07763975155279502,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 490
+      "count": 491
     },
     {
       "name": "New York, NY",
@@ -281,7 +281,7 @@
       "name": "CA",
       "lon": -119.04868751934139,
       "lat": 35.31161375139732,
-      "count": 109
+      "count": 110
     },
     {
       "name": "North Hollywood, CA",
@@ -410,6 +410,12 @@
       "count": 5
     },
     {
+      "name": "NV",
+      "lon": -115.1573685736088,
+      "lat": 36.1149175129514,
+      "count": 5
+    },
+    {
       "name": "TN",
       "lon": -86.8490758767316,
       "lat": 36.184805188053,
@@ -443,12 +449,6 @@
       "name": "Indio, CA",
       "lon": -116.228001825,
       "lat": 33.71127635,
-      "count": 4
-    },
-    {
-      "name": "NV",
-      "lon": -115.17446477552474,
-      "lat": 36.139097690992,
       "count": 4
     },
     {
@@ -826,18 +826,18 @@
   ],
   "todayPosts": [
     {
-      "rem": "Justin McKillop",
-      "venue": "Atlanta",
-      "client": "Amazon",
-      "job": "Amazon x Neagley Maria Sten Tour",
-      "city": "Atlanta"
+      "rem": "Miguel Ruezga",
+      "venue": " 4437 W Slauson Ave, Windsor Hills, CA 90043",
+      "client": "Unknown",
+      "job": "Windsor Hill Event",
+      "city": ""
     },
     {
-      "rem": "Tony D’Gracia",
-      "venue": "Washington D.C.",
-      "client": "Nike",
-      "job": "Nike x AJ Dybantsa Video Shoot",
-      "city": "Washington DC"
+      "rem": "Chris Estrada",
+      "venue": "UCLA",
+      "client": "Amazon Studios",
+      "job": "Amazon NBA Emirates Cup Shoot",
+      "city": "Los Angeles"
     },
     {
       "rem": "Sevan Ohanians",
@@ -852,13 +852,6 @@
       "client": "48 Wall Street Events",
       "job": "48 Wall St - Filming 8.31",
       "city": "New York"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Various",
-      "client": "Emerald Americas LLC",
-      "job": "8.30-9.4 Emerald Driver",
-      "city": ""
     },
     {
       "rem": "Justin McKillop",
@@ -1426,7 +1419,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 45,
+      "events30": 44,
       "career": 2359,
       "recent": [
         {
@@ -1447,7 +1440,7 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 22,
       "career": 883,
       "recent": [
         {
@@ -1510,20 +1503,20 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 14,
+      "events30": 15,
       "career": 41,
       "recent": [
         {
+          "name": "Chad Powers S2 Catfish Food Truck",
+          "meta": "SEP 04"
+        },
+        {
+          "name": "Chad Powers Social Media Stunt",
+          "meta": "SEP 04"
+        },
+        {
           "name": "Gina Wade Nebula Reception",
           "meta": "AUG 21"
-        },
-        {
-          "name": "Barnsdall Event ",
-          "meta": "AUG 20"
-        },
-        {
-          "name": "Bite Catering",
-          "meta": "AUG 20"
         }
       ]
     }
@@ -1717,6 +1710,7 @@
     "<b>Amazon Love Hypothesis EP</b> · Culver Theater",
     "<b>8.15 Emerald Drop-NYC</b> · The Highline",
     "<b>GRAMMY MUSEUM - Private Events</b> · Grammy Museum",
+    "<b>HBO Documentaries Emmy Pre-Reception</b> · Hotel Figueroa - La Casita",
     "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
     "<b>Karol G - SEATTLE 8.26</b> · Lumen Field",
     "<b>Swisher Production Premiere</b> · American Legion Post 43",
@@ -1724,13 +1718,12 @@
     "<b>Beverly Hilton Shenassa Bat Mitzvah</b> · Beverly Hilton Hotel",
     "<b>DWCS 73</b> · UFC Apex",
     "<b>LA Events 8.10-8.16</b> · LA Live",
+    "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
+    "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE",
     "<b>BJJ 10</b> · UFC Apex",
     "<b>GRAMMY MUSEUM - Public Programs</b> · Grammy Museum",
     "<b>The Runner Alo Fitness Creator Event </b> · Alo HQ",
-    "<b>Tires S3 8.7</b> · Charleston Music Hall",
-    "<b>HCA - Eastvale, CA Campus</b> · Heart Christian Academy- Eastvale",
-    "<b>8.25 Emerald OPL003 San Diego</b> · Bahia Resort",
-    "<b>ACM Honors 2026</b> · The Pinnacle"
+    "<b>Tires S3 8.7</b> · Charleston Music Hall"
   ],
   "linkedin": [
     {
