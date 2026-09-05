@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T22:22:18.040Z",
-  "commit": "19138a2",
+  "generatedAt": "2026-09-05T00:59:01.604Z",
+  "commit": "7bf4638",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1696,
-    "events30": 196,
-    "guards30": 875,
+    "eventsYTD": 1702,
+    "events30": 199,
+    "guards30": 927,
     "citiesYTD": 110,
-    "upcoming30": 120,
-    "perDay": 6.866396761133603
+    "upcoming30": 115,
+    "perDay": 6.890688259109312
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 966,
+      "ev": 969,
       "w": 1,
       "hq": true
     },
@@ -219,24 +219,24 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 77,
-      "w": 0.07971014492753623,
+      "ev": 78,
+      "w": 0.0804953560371517,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 155,
-      "w": 0.16045548654244307,
+      "ev": 156,
+      "w": 0.1609907120743034,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 104,
-      "w": 0.10766045548654245,
+      "ev": 105,
+      "w": 0.10835913312693499,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.041407867494824016,
+      "w": 0.0412796697626419,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.11801242236024845,
+      "w": 0.11764705882352941,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 75,
-      "w": 0.07763975155279502,
+      "w": 0.07739938080495357,
       "hq": false
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 491
+      "count": 493
     },
     {
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 114
+      "count": 115
     },
     {
       "name": "CA",
@@ -303,9 +303,9 @@
     },
     {
       "name": "Las Vegas, NV",
-      "lon": -115.16193700781558,
-      "lat": 36.11230155033209,
-      "count": 67
+      "lon": -115.16164536834533,
+      "lat": 36.113182004665475,
+      "count": 68
     },
     {
       "name": "Hollywood, CA",
@@ -317,7 +317,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.40086844605668,
       "lat": 34.068454553929,
-      "count": 40
+      "count": 41
     },
     {
       "name": "Culver City, CA",
@@ -494,6 +494,12 @@
       "count": 3
     },
     {
+      "name": "TX",
+      "lon": -100.26713297812601,
+      "lat": 30.352688882635665,
+      "count": 3
+    },
+    {
       "name": "VA",
       "lon": -77.91118441348333,
       "lat": 38.40360231315133,
@@ -569,12 +575,6 @@
       "name": "Los Feliz, CA",
       "lon": -118.3004219,
       "lat": 34.118407,
-      "count": 2
-    },
-    {
-      "name": "TX",
-      "lon": -97.1459470115135,
-      "lat": 29.6426267340375,
       "count": 2
     },
     {
@@ -833,25 +833,11 @@
       "city": ""
     },
     {
-      "rem": "Chris Estrada",
-      "venue": "UCLA",
-      "client": "Amazon Studios",
-      "job": "Amazon NBA Emirates Cup Shoot",
-      "city": "Los Angeles"
-    },
-    {
       "rem": "Sevan Ohanians",
       "venue": "Los Angeles Convention Center",
       "client": "Sequoia Productions Inc.",
       "job": "78th Emmys Governors Gala ",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "48 Wall Street",
-      "client": "48 Wall Street Events",
-      "job": "48 Wall St - Filming 8.31",
-      "city": "New York"
     },
     {
       "rem": "Justin McKillop",
@@ -1419,20 +1405,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 44,
+      "events30": 45,
       "career": 2359,
       "recent": [
         {
+          "name": "Creative Art Emmys 2026",
+          "meta": "SEP 05"
+        },
+        {
+          "name": "Apple Eugene Levy EP Creative Arts Emmys",
+          "meta": "SEP 05"
+        },
+        {
           "name": "Emmy's Toast",
           "meta": "SEP 03"
-        },
-        {
-          "name": "Amazon NBA Emirates Cup Shoot",
-          "meta": "SEP 03"
-        },
-        {
-          "name": "The Runner Alo Fitness Creator Event ",
-          "meta": "SEP 01"
         }
       ]
     },
