@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-05T22:59:05.171Z",
-  "commit": "e69d59f",
+  "generatedAt": "2026-09-06T01:00:26.875Z",
+  "commit": "79eb3be",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1702,
-    "events30": 199,
-    "guards30": 927,
+    "eventsYTD": 1705,
+    "events30": 194,
+    "guards30": 906,
     "citiesYTD": 110,
-    "upcoming30": 116,
-    "perDay": 6.862903225806452
+    "upcoming30": 114,
+    "perDay": 6.875
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 969,
+      "ev": 971,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 78,
-      "w": 0.0804953560371517,
+      "w": 0.08032955715756952,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 156,
-      "w": 0.1609907120743034,
+      "ev": 157,
+      "w": 0.16168898043254376,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 105,
-      "w": 0.10835913312693499,
+      "w": 0.10813594232749743,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 40,
-      "w": 0.0412796697626419,
+      "w": 0.0411946446961895,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.11764705882352941,
+      "w": 0.11740473738414006,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 75,
-      "w": 0.07739938080495357,
+      "w": 0.07723995880535531,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 493
+      "count": 494
     },
     {
       "name": "New York, NY",
@@ -317,7 +317,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.40086844605668,
       "lat": 34.068454553929,
-      "count": 41
+      "count": 42
     },
     {
       "name": "Culver City, CA",
@@ -380,15 +380,15 @@
       "count": 9
     },
     {
+      "name": "Brooklyn, NY",
+      "lon": -73.969295725,
+      "lat": 40.702515874999996,
+      "count": 9
+    },
+    {
       "name": "Seattle, WA",
       "lon": -122.330826425,
       "lat": 47.6140752375,
-      "count": 8
-    },
-    {
-      "name": "Brooklyn, NY",
-      "lon": -73.97153746666666,
-      "lat": 40.69991893333333,
       "count": 8
     },
     {
@@ -826,11 +826,32 @@
   ],
   "todayPosts": [
     {
-      "rem": "Miguel Ruezga",
-      "venue": " 4437 W Slauson Ave, Windsor Hills, CA 90043",
-      "client": "Unknown",
-      "job": "Windsor Hill Event",
+      "rem": "Andrew Eyster",
+      "venue": "Sun Bowl Stadium",
+      "client": "Live Nation",
+      "job": "Karol G - El Paso 9.5",
       "city": ""
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "Las Vegas Convention Center",
+      "client": "Grimoire Academy",
+      "job": "Grimoire Gothic Market ",
+      "city": "Las Vegas"
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "Peacock Theater",
+      "client": "Television Academy",
+      "job": "Creative Art Emmys 2026",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "Starrett-Lehigh",
+      "client": "SPACE Productions",
+      "job": "Brand Assembly Fall 2026",
+      "city": "New York"
     },
     {
       "rem": "Sevan Ohanians",
@@ -1405,7 +1426,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 45,
+      "events30": 42,
       "career": 2359,
       "recent": [
         {
@@ -1426,7 +1447,7 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 21,
       "career": 883,
       "recent": [
         {
@@ -1447,7 +1468,7 @@
       "name": "Justin McKillop",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 19,
+      "events30": 18,
       "career": 300,
       "recent": [
         {
@@ -1486,23 +1507,23 @@
       ]
     },
     {
-      "name": "Seanie Wolf",
-      "office": "Los Angeles",
+      "name": "Tony D’Gracia",
+      "office": "New York",
       "color": "#E8B44A",
       "events30": 15,
-      "career": 41,
+      "career": 347,
       "recent": [
         {
-          "name": "Chad Powers S2 Catfish Food Truck",
-          "meta": "SEP 04"
+          "name": "AAS x NYFW Party",
+          "meta": "SEP 06"
         },
         {
-          "name": "Chad Powers Social Media Stunt",
-          "meta": "SEP 04"
+          "name": "Brand Assembly Fall 2026",
+          "meta": "SEP 05"
         },
         {
-          "name": "Gina Wade Nebula Reception",
-          "meta": "AUG 21"
+          "name": "Nike x AJ Dybantsa Video Shoot",
+          "meta": "SEP 02"
         }
       ]
     }
@@ -1709,7 +1730,7 @@
     "<b>BJJ 10</b> · UFC Apex",
     "<b>GRAMMY MUSEUM - Public Programs</b> · Grammy Museum",
     "<b>The Runner Alo Fitness Creator Event </b> · Alo HQ",
-    "<b>Tires S3 8.7</b> · Charleston Music Hall"
+    "<b>HCA - Eastvale, CA Campus</b> · Heart Christian Academy- Eastvale"
   ],
   "linkedin": [
     {
