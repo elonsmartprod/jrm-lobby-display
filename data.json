@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T16:29:04.556Z",
-  "commit": "a1cd172",
+  "generatedAt": "2026-09-07T20:35:56.992Z",
+  "commit": "dfe198e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1712,
-    "events30": 193,
+    "eventsYTD": 1713,
+    "events30": 194,
     "guards30": 1034,
     "citiesYTD": 110,
-    "upcoming30": 111,
-    "perDay": 6.848
+    "upcoming30": 114,
+    "perDay": 6.852
   },
   "heatPoints": [
     {
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 78,
-      "w": 0.08,
+      "ev": 79,
+      "w": 0.08102564102564103,
       "hq": false
     },
     {
@@ -279,9 +279,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.04868751934139,
-      "lat": 35.31161375139732,
-      "count": 110
+      "lon": -119.0694793489808,
+      "lat": 35.31207771379497,
+      "count": 113
     },
     {
       "name": "North Hollywood, CA",
@@ -305,7 +305,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.16164536834533,
       "lat": 36.113182004665475,
-      "count": 68
+      "count": 69
     },
     {
       "name": "Hollywood, CA",
@@ -398,6 +398,12 @@
       "count": 7
     },
     {
+      "name": "NV",
+      "lon": -115.15551961584235,
+      "lat": 36.123639224714665,
+      "count": 6
+    },
+    {
       "name": "NY",
       "lon": -74.4727936146592,
       "lat": 41.276653737724004,
@@ -407,12 +413,6 @@
       "name": "Thermal, CA",
       "lon": -116.2023098,
       "lat": 33.6485353,
-      "count": 5
-    },
-    {
-      "name": "NV",
-      "lon": -115.1573685736088,
-      "lat": 36.1149175129514,
       "count": 5
     },
     {
