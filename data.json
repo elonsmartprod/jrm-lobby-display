@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T23:31:31.134Z",
-  "commit": "0e8a3d5",
+  "generatedAt": "2026-09-08T04:40:33.398Z",
+  "commit": "54956db",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1713,
-    "events30": 194,
-    "guards30": 1034,
+    "eventsYTD": 1719,
+    "events30": 195,
+    "guards30": 1016,
     "citiesYTD": 110,
-    "upcoming30": 114,
-    "perDay": 6.852
+    "upcoming30": 111,
+    "perDay": 6.876
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 975,
+      "ev": 977,
       "w": 1,
       "hq": true
     },
@@ -220,23 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 79,
-      "w": 0.08102564102564103,
+      "w": 0.08085977482088025,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 158,
-      "w": 0.16205128205128205,
+      "ev": 159,
+      "w": 0.16274309109518936,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 105,
-      "w": 0.1076923076923077,
+      "ev": 107,
+      "w": 0.10951893551688843,
       "hq": false
     },
     {
@@ -244,23 +244,23 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 41,
-      "w": 0.04205128205128205,
+      "w": 0.04196519959058342,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 114,
-      "w": 0.11692307692307692,
+      "ev": 113,
+      "w": 0.11566018423746162,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 76,
-      "w": 0.07794871794871795,
+      "ev": 77,
+      "w": 0.07881269191402251,
       "hq": false
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 498
+      "count": 499
     },
     {
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 116
+      "count": 117
     },
     {
       "name": "CA",
@@ -290,22 +290,22 @@
       "count": 83
     },
     {
+      "name": "West Hollywood, CA",
+      "lon": -118.37872393201118,
+      "lat": 34.09037004485807,
+      "count": 78
+    },
+    {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
       "count": 77
     },
     {
-      "name": "West Hollywood, CA",
-      "lon": -118.37872393201118,
-      "lat": 34.09037004485807,
-      "count": 77
-    },
-    {
       "name": "Las Vegas, NV",
       "lon": -115.16164536834533,
       "lat": 36.113182004665475,
-      "count": 69
+      "count": 71
     },
     {
       "name": "Hollywood, CA",
@@ -825,6 +825,41 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Kyle Crowther",
+      "venue": "Desert Diamond Arena",
+      "client": "Rex Group",
+      "job": "UFC AZ 9.12.26",
+      "city": ""
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "Peacock Theater",
+      "client": "Constantinople St. Productions Inc.",
+      "job": "78th Primetime Emmys 2026",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Seanie Wolf",
+      "venue": "Los Angeles Convention Center",
+      "client": "YOUNGS Experience Marketing",
+      "job": "Alibaba CoCreate",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "NYLUX Events",
+      "client": "Cuartro Cuartros Communication",
+      "job": "Cuatro Cuatros x JRM ",
+      "city": "New York"
+    },
+    {
+      "rem": "Patrick J McKillop",
+      "venue": "Salt Palace Convention Center",
+      "client": "World Molecular imaging society",
+      "job": "WMIS 2026 Convention SP",
+      "city": "Salt Lake City"
+    },
     {
       "rem": "Tony D’Gracia",
       "venue": "The Weylin",
@@ -1419,7 +1454,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 42,
+      "events30": 41,
       "career": 2360,
       "recent": [
         {
@@ -1440,7 +1475,7 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 20,
+      "events30": 19,
       "career": 883,
       "recent": [
         {
@@ -1461,9 +1496,13 @@
       "name": "Justin McKillop",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 18,
+      "events30": 19,
       "career": 300,
       "recent": [
+        {
+          "name": "Autodesk University 2026 (Security Consulting) - Las Vegas, NV",
+          "meta": "SEP 08"
+        },
         {
           "name": "Amazon x Neagley Maria Sten Tour",
           "meta": "SEP 02"
@@ -1471,10 +1510,27 @@
         {
           "name": "Tennessee Farmers Cooperative Dinner - WFF",
           "meta": "SEP 02"
+        }
+      ]
+    },
+    {
+      "name": "Seanie Wolf",
+      "office": "Los Angeles",
+      "color": "#E8B44A",
+      "events30": 17,
+      "career": 41,
+      "recent": [
+        {
+          "name": "Searchlight Wild Horse Nine EP",
+          "meta": "SEP 08"
         },
         {
-          "name": "CNN TN 8.26",
-          "meta": "AUG 26"
+          "name": "Alibaba CoCreate",
+          "meta": "SEP 07"
+        },
+        {
+          "name": "Chad Powers S2 Catfish Food Truck",
+          "meta": "SEP 04"
         }
       ]
     },
@@ -1486,37 +1542,16 @@
       "career": 347,
       "recent": [
         {
+          "name": "Zuffa Boxing Press Conference 9.8",
+          "meta": "SEP 08"
+        },
+        {
           "name": "Cuatro Cuatros x JRM ",
           "meta": "SEP 07"
         },
         {
           "name": "AAS x NYFW Party",
           "meta": "SEP 06"
-        },
-        {
-          "name": "Brand Assembly Fall 2026",
-          "meta": "SEP 05"
-        }
-      ]
-    },
-    {
-      "name": "Seanie Wolf",
-      "office": "Los Angeles",
-      "color": "#E8B44A",
-      "events30": 16,
-      "career": 41,
-      "recent": [
-        {
-          "name": "Alibaba CoCreate",
-          "meta": "SEP 07"
-        },
-        {
-          "name": "Chad Powers S2 Catfish Food Truck",
-          "meta": "SEP 04"
-        },
-        {
-          "name": "Chad Powers Social Media Stunt",
-          "meta": "SEP 04"
         }
       ]
     }
