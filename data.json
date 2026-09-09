@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-08T21:52:58.452Z",
-  "commit": "339e416",
+  "generatedAt": "2026-09-09T00:17:40.183Z",
+  "commit": "ed1a071",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1720,
-    "events30": 196,
-    "guards30": 1017,
+    "eventsYTD": 1723,
+    "events30": 194,
+    "guards30": 991,
     "citiesYTD": 110,
-    "upcoming30": 111,
-    "perDay": 6.852589641434263
+    "upcoming30": 110,
+    "perDay": 6.864541832669323
   },
   "heatPoints": [
     {
@@ -227,16 +227,16 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 159,
-      "w": 0.16274309109518936,
+      "ev": 160,
+      "w": 0.16376663254861823,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 107,
-      "w": 0.10951893551688843,
+      "ev": 108,
+      "w": 0.1105424769703173,
       "hq": false
     },
     {
@@ -259,8 +259,8 @@
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 77,
-      "w": 0.07881269191402251,
+      "ev": 78,
+      "w": 0.07983623336745138,
       "hq": false
     }
   ],
@@ -281,7 +281,7 @@
       "name": "CA",
       "lon": -119.0694793489808,
       "lat": 35.31207771379497,
-      "count": 113
+      "count": 114
     },
     {
       "name": "North Hollywood, CA",
@@ -398,15 +398,15 @@
       "count": 7
     },
     {
+      "name": "NY",
+      "lon": -74.39427756699166,
+      "lat": 41.18672408942083,
+      "count": 7
+    },
+    {
       "name": "NV",
       "lon": -115.15551961584235,
       "lat": 36.123639224714665,
-      "count": 6
-    },
-    {
-      "name": "NY",
-      "lon": -74.4727936146592,
-      "lat": 41.276653737724004,
       "count": 6
     },
     {
@@ -826,6 +826,20 @@
   ],
   "todayPosts": [
     {
+      "rem": "Ryan McKillop",
+      "venue": "Austin TX",
+      "client": "Nike",
+      "job": "Skims Pop-up at UT Austin",
+      "city": "Austin"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "The Venetian Las Vegas",
+      "client": "AutoDesk",
+      "job": "Autodesk University 2026 (Security Consulting) - Las Vegas, NV",
+      "city": "Las Vegas"
+    },
+    {
       "rem": "Kyle Crowther",
       "venue": "Desert Diamond Arena",
       "client": "Rex Group",
@@ -1048,13 +1062,6 @@
       "client": "The Aster LA",
       "job": "The Aster LA  Hotel",
       "city": "Hollywood"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "Long Island Aquarium",
-      "client": "Long Island Aquarium",
-      "job": "LI Aquarium Parking - Summer 2026",
-      "city": "Riverhead"
     },
     {
       "rem": "Patrick J McKillop",
@@ -1454,7 +1461,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 41,
+      "events30": 40,
       "career": 2360,
       "recent": [
         {
@@ -1468,6 +1475,27 @@
         {
           "name": "J Cole",
           "meta": "SEP 07"
+        }
+      ]
+    },
+    {
+      "name": "Justin McKillop",
+      "office": "Tennessee",
+      "color": "#E8B44A",
+      "events30": 20,
+      "career": 300,
+      "recent": [
+        {
+          "name": "Autodesk - AU 2026 - Las Vegas, NV",
+          "meta": "SEP 09"
+        },
+        {
+          "name": "Autodesk University 2026 (Security Consulting) - Las Vegas, NV",
+          "meta": "SEP 08"
+        },
+        {
+          "name": "Amazon x Neagley Maria Sten Tour",
+          "meta": "SEP 02"
         }
       ]
     },
@@ -1493,23 +1521,23 @@
       ]
     },
     {
-      "name": "Justin McKillop",
-      "office": "Tennessee",
+      "name": "Tony D’Gracia",
+      "office": "New York",
       "color": "#E8B44A",
-      "events30": 19,
-      "career": 300,
+      "events30": 17,
+      "career": 347,
       "recent": [
         {
-          "name": "Autodesk University 2026 (Security Consulting) - Las Vegas, NV",
+          "name": "Overnight x Waverly",
+          "meta": "SEP 09"
+        },
+        {
+          "name": "Zuffa Boxing Press Conference 9.8",
           "meta": "SEP 08"
         },
         {
-          "name": "Amazon x Neagley Maria Sten Tour",
-          "meta": "SEP 02"
-        },
-        {
-          "name": "Tennessee Farmers Cooperative Dinner - WFF",
-          "meta": "SEP 02"
+          "name": "Cuatro Cuatros x JRM ",
+          "meta": "SEP 07"
         }
       ]
     },
@@ -1531,27 +1559,6 @@
         {
           "name": "Chad Powers S2 Catfish Food Truck",
           "meta": "SEP 04"
-        }
-      ]
-    },
-    {
-      "name": "Tony D’Gracia",
-      "office": "New York",
-      "color": "#E8B44A",
-      "events30": 16,
-      "career": 347,
-      "recent": [
-        {
-          "name": "Zuffa Boxing Press Conference 9.8",
-          "meta": "SEP 08"
-        },
-        {
-          "name": "Cuatro Cuatros x JRM ",
-          "meta": "SEP 07"
-        },
-        {
-          "name": "AAS x NYFW Party",
-          "meta": "SEP 06"
         }
       ]
     }
@@ -1752,13 +1759,13 @@
     "<b>Cinashow - Amazon AP - TX</b> · Marriott Dallas Allen Hotel &amp; Convention Center",
     "<b>Beverly Hilton Shenassa Bat Mitzvah</b> · Beverly Hilton Hotel",
     "<b>DWCS 73</b> · UFC Apex",
-    "<b>LA Events 8.10-8.16</b> · LA Live",
     "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
     "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE",
     "<b>BJJ 10</b> · UFC Apex",
     "<b>GRAMMY MUSEUM - Public Programs</b> · Grammy Museum",
     "<b>The Runner Alo Fitness Creator Event </b> · Alo HQ",
-    "<b>Alibaba CoCreate</b> · Los Angeles Convention Center"
+    "<b>Alibaba CoCreate</b> · Los Angeles Convention Center",
+    "<b>HCA - Eastvale, CA Campus</b> · Heart Christian Academy- Eastvale"
   ],
   "linkedin": [
     {
