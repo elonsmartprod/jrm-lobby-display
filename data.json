@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T00:17:00.887Z",
-  "commit": "5dce44c",
+  "generatedAt": "2026-09-10T04:54:03.261Z",
+  "commit": "95fe4ff",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1727,
-    "events30": 189,
-    "guards30": 934,
+    "eventsYTD": 1728,
+    "events30": 190,
+    "guards30": 935,
     "citiesYTD": 110,
     "upcoming30": 107,
-    "perDay": 6.853174603174603
+    "perDay": 6.857142857142857
   },
   "heatPoints": [
     {
@@ -251,8 +251,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 113,
-      "w": 0.11566018423746162,
+      "ev": 114,
+      "w": 0.11668372569089049,
       "hq": true
     },
     {
