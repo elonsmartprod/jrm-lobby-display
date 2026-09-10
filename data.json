@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-09T21:43:32.892Z",
-  "commit": "7e8e03b",
+  "generatedAt": "2026-09-10T00:17:00.887Z",
+  "commit": "5dce44c",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1720,
-    "events30": 191,
-    "guards30": 971,
+    "eventsYTD": 1727,
+    "events30": 189,
+    "guards30": 934,
     "citiesYTD": 110,
-    "upcoming30": 113,
-    "perDay": 6.825396825396825
+    "upcoming30": 107,
+    "perDay": 6.853174603174603
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 973,
+      "ev": 977,
       "w": 1,
       "hq": true
     },
@@ -220,23 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 79,
-      "w": 0.08119218910585817,
+      "w": 0.08085977482088025,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 160,
-      "w": 0.1644398766700925,
+      "ev": 161,
+      "w": 0.1647901740020471,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 109,
-      "w": 0.11202466598150052,
+      "ev": 110,
+      "w": 0.11258955987717502,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 41,
-      "w": 0.0421377183967112,
+      "w": 0.04196519959058342,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 113,
-      "w": 0.11613566289825282,
+      "w": 0.11566018423746162,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 78,
-      "w": 0.08016443987667009,
+      "w": 0.07983623336745138,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 495
+      "count": 496
     },
     {
       "name": "New York, NY",
@@ -279,9 +279,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.0694793489808,
-      "lat": 35.31207771379497,
-      "count": 114
+      "lon": -119.06035603052082,
+      "lat": 35.29706483473775,
+      "count": 116
     },
     {
       "name": "North Hollywood, CA",
@@ -311,7 +311,7 @@
       "name": "Hollywood, CA",
       "lon": -118.33277580612615,
       "lat": 34.097870581608326,
-      "count": 46
+      "count": 47
     },
     {
       "name": "Beverly Hills, CA",
@@ -392,15 +392,15 @@
       "count": 8
     },
     {
+      "name": "NY",
+      "lon": -74.33852688269872,
+      "lat": 41.12039758926442,
+      "count": 8
+    },
+    {
       "name": "San Diego, CA",
       "lon": -117.17105989752933,
       "lat": 32.742518380958835,
-      "count": 7
-    },
-    {
-      "name": "NY",
-      "lon": -74.39427756699166,
-      "lat": 41.18672408942083,
       "count": 7
     },
     {
@@ -821,6 +821,20 @@
   ],
   "todayPosts": [
     {
+      "rem": "Justin McKillop",
+      "venue": "100 Thieves",
+      "client": "AutoDesk",
+      "job": "Autodesk - AU 2026 - Las Vegas, NV",
+      "city": ""
+    },
+    {
+      "rem": "Ryan McKillop",
+      "venue": "Hilton Austin",
+      "client": "Nike",
+      "job": "Hilton Austin equipment watch ",
+      "city": ""
+    },
+    {
       "rem": "Ryan McKillop",
       "venue": "Austin TX",
       "client": "Nike",
@@ -854,13 +868,6 @@
       "client": "YOUNGS Experience Marketing",
       "job": "Alibaba CoCreate",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "NYLUX Events",
-      "client": "Cuartro Cuartros Communication",
-      "job": "Cuatro Cuatros x JRM ",
-      "city": "New York"
     },
     {
       "rem": "Patrick J McKillop",
@@ -1449,7 +1456,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 36,
+      "events30": 33,
       "career": 2360,
       "recent": [
         {
@@ -1491,7 +1498,7 @@
       "name": "Sevan Ohanians",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 19,
+      "events30": 18,
       "career": 883,
       "recent": [
         {
@@ -1512,9 +1519,13 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 17,
+      "events30": 18,
       "career": 347,
       "recent": [
+        {
+          "name": "Mazarine x Prada Pop-up",
+          "meta": "SEP 10"
+        },
         {
           "name": "Overnight x Waverly",
           "meta": "SEP 09"
@@ -1522,10 +1533,6 @@
         {
           "name": "Zuffa Boxing Press Conference 9.8",
           "meta": "SEP 08"
-        },
-        {
-          "name": "Cuatro Cuatros x JRM ",
-          "meta": "SEP 07"
         }
       ]
     },
@@ -1533,9 +1540,13 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 17,
+      "events30": 18,
       "career": 41,
       "recent": [
+        {
+          "name": "Access Hollywood Wrap Party",
+          "meta": "SEP 10"
+        },
         {
           "name": "Searchlight Wild Horse Nine EP",
           "meta": "SEP 08"
@@ -1543,10 +1554,6 @@
         {
           "name": "Alibaba CoCreate",
           "meta": "SEP 07"
-        },
-        {
-          "name": "Chad Powers S2 Catfish Food Truck",
-          "meta": "SEP 04"
         }
       ]
     }
