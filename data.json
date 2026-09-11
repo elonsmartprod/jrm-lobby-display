@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T21:40:07.881Z",
-  "commit": "7ecfce1",
+  "generatedAt": "2026-09-11T00:12:39.869Z",
+  "commit": "1167a39",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1728,
-    "events30": 190,
-    "guards30": 935,
+    "eventsYTD": 1735,
+    "events30": 192,
+    "guards30": 925,
     "citiesYTD": 110,
-    "upcoming30": 109,
-    "perDay": 6.830039525691699
+    "upcoming30": 104,
+    "perDay": 6.857707509881423
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 977,
+      "ev": 979,
       "w": 1,
       "hq": true
     },
@@ -220,23 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 79,
-      "w": 0.08085977482088025,
+      "w": 0.08069458631256383,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 161,
-      "w": 0.1647901740020471,
+      "ev": 163,
+      "w": 0.16649642492339123,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 110,
-      "w": 0.11258955987717502,
+      "ev": 113,
+      "w": 0.11542390194075587,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 41,
-      "w": 0.04196519959058342,
+      "w": 0.04187946884576098,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.11668372569089049,
+      "w": 0.11644535240040858,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 78,
-      "w": 0.07983623336745138,
+      "w": 0.07967313585291114,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 496
+      "count": 498
     },
     {
       "name": "New York, NY",
@@ -380,6 +380,12 @@
       "count": 9
     },
     {
+      "name": "NY",
+      "lon": -74.29449784133787,
+      "lat": 41.07255366738225,
+      "count": 9
+    },
+    {
       "name": "Brooklyn, NY",
       "lon": -73.969295725,
       "lat": 40.702515874999996,
@@ -389,12 +395,6 @@
       "name": "Seattle, WA",
       "lon": -122.330826425,
       "lat": 47.6140752375,
-      "count": 8
-    },
-    {
-      "name": "NY",
-      "lon": -74.33852688269872,
-      "lat": 41.12039758926442,
       "count": 8
     },
     {
@@ -821,6 +821,20 @@
   ],
   "todayPosts": [
     {
+      "rem": "Tony D’Gracia",
+      "venue": "45 Grand",
+      "client": "Mazarine New York",
+      "job": "Mazarine x Prada Pop-up",
+      "city": ""
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Windy City Ninjas ",
+      "client": "Amazon",
+      "job": "Influencer Boxing Class Chicago IL",
+      "city": ""
+    },
+    {
       "rem": "Justin McKillop",
       "venue": "100 Thieves",
       "client": "AutoDesk",
@@ -875,13 +889,6 @@
       "client": "World Molecular imaging society",
       "job": "WMIS 2026 Convention SP",
       "city": "Salt Lake City"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "The Weylin",
-      "client": "Another A Story",
-      "job": "AAS x NYFW Party",
-      "city": "Brooklyn"
     },
     {
       "rem": "Mivonta Fulwood",
@@ -1460,16 +1467,37 @@
       "career": 2360,
       "recent": [
         {
+          "name": "All In Summit Networking Dinner",
+          "meta": "SEP 11"
+        },
+        {
+          "name": "AIS 2026 Network",
+          "meta": "SEP 11"
+        },
+        {
           "name": "J Cole- LA Live",
           "meta": "SEP 07"
+        }
+      ]
+    },
+    {
+      "name": "Tony D’Gracia",
+      "office": "New York",
+      "color": "#E8B44A",
+      "events30": 20,
+      "career": 347,
+      "recent": [
+        {
+          "name": "COC-Runway Show and After Party-9.11",
+          "meta": "SEP 11"
         },
         {
-          "name": "78th Primetime Emmys 2026",
-          "meta": "SEP 07"
+          "name": "350 PAX - NYC 9.11",
+          "meta": "SEP 11"
         },
         {
-          "name": "J Cole",
-          "meta": "SEP 07"
+          "name": "Mazarine x Prada Pop-up",
+          "meta": "SEP 10"
         }
       ]
     },
@@ -1477,7 +1505,7 @@
       "name": "Justin McKillop",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 20,
+      "events30": 19,
       "career": 300,
       "recent": [
         {
@@ -1491,48 +1519,6 @@
         {
           "name": "Amazon x Neagley Maria Sten Tour",
           "meta": "SEP 02"
-        }
-      ]
-    },
-    {
-      "name": "Sevan Ohanians",
-      "office": "Los Angeles",
-      "color": "#E8B44A",
-      "events30": 18,
-      "career": 884,
-      "recent": [
-        {
-          "name": "78th Emmys Governors Gala ",
-          "meta": "AUG 31"
-        },
-        {
-          "name": "Grammy Museum - Entravision Pop-Up Event",
-          "meta": "AUG 26"
-        },
-        {
-          "name": "GRAMMY MUSEUM - Private Events",
-          "meta": "AUG 23"
-        }
-      ]
-    },
-    {
-      "name": "Tony D’Gracia",
-      "office": "New York",
-      "color": "#E8B44A",
-      "events30": 18,
-      "career": 347,
-      "recent": [
-        {
-          "name": "Mazarine x Prada Pop-up",
-          "meta": "SEP 10"
-        },
-        {
-          "name": "Overnight x Waverly",
-          "meta": "SEP 09"
-        },
-        {
-          "name": "Zuffa Boxing Press Conference 9.8",
-          "meta": "SEP 08"
         }
       ]
     },
@@ -1554,6 +1540,27 @@
         {
           "name": "Alibaba CoCreate",
           "meta": "SEP 07"
+        }
+      ]
+    },
+    {
+      "name": "Sevan Ohanians",
+      "office": "Los Angeles",
+      "color": "#E8B44A",
+      "events30": 17,
+      "career": 884,
+      "recent": [
+        {
+          "name": "78th Emmys Governors Gala ",
+          "meta": "AUG 31"
+        },
+        {
+          "name": "Grammy Museum - Entravision Pop-Up Event",
+          "meta": "AUG 26"
+        },
+        {
+          "name": "GRAMMY MUSEUM - Private Events",
+          "meta": "AUG 23"
         }
       ]
     }
@@ -1628,15 +1635,6 @@
       "venue": "Magic Box · Los Angeles",
       "badges": [
         "Product Activation"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "",
-      "title": "AutoDesk 2025",
-      "venue": "Music City Center · Nashville",
-      "badges": [
-        "Convention"
       ],
       "upcoming": false
     },
@@ -1738,6 +1736,15 @@
         "Convention"
       ],
       "upcoming": false
+    },
+    {
+      "client": "Fashion Nova",
+      "title": "Fashion Nova - Santa Fe Springs",
+      "venue": "Fashion Nova Distribution Center · Santa Fe Springs",
+      "badges": [
+        "Apts-Condos-Office Bldg"
+      ],
+      "upcoming": false
     }
   ],
   "ticker": [
@@ -1748,19 +1755,19 @@
     "<b>8.15 Emerald Drop-NYC</b> · The Highline",
     "<b>GRAMMY MUSEUM - Private Events</b> · Grammy Museum",
     "<b>HBO Documentaries Emmy Pre-Reception</b> · Hotel Figueroa - La Casita",
-    "<b>JOHN CANDY – Los Angeles – Tastemaker Panel / Reception </b> · Ross Residence",
     "<b>Karol G - SEATTLE 8.26</b> · Lumen Field",
-    "<b>Swisher Production Premiere</b> · American Legion Post 43",
     "<b>Cinashow - Amazon AP - TX</b> · Marriott Dallas Allen Hotel &amp; Convention Center",
     "<b>Beverly Hilton Shenassa Bat Mitzvah</b> · Beverly Hilton Hotel",
     "<b>DWCS 73</b> · UFC Apex",
     "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
     "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE",
     "<b>BJJ 10</b> · UFC Apex",
+    "<b>All In Summit Networking Dinner</b> · The ROW DTLA",
     "<b>GRAMMY MUSEUM - Public Programs</b> · Grammy Museum",
     "<b>The Runner Alo Fitness Creator Event </b> · Alo HQ",
     "<b>Alibaba CoCreate</b> · Los Angeles Convention Center",
-    "<b>HCA - Eastvale, CA Campus</b> · Heart Christian Academy- Eastvale"
+    "<b>HCA - Eastvale, CA Campus</b> · Heart Christian Academy- Eastvale",
+    "<b>8.25 Emerald OPL003 San Diego</b> · Bahia Resort"
   ],
   "linkedin": [
     {
