@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-11T21:44:50.543Z",
-  "commit": "67bc6c0",
+  "generatedAt": "2026-09-12T00:20:16.135Z",
+  "commit": "9b8d6bb",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1736,
-    "events30": 193,
-    "guards30": 927,
-    "citiesYTD": 110,
-    "upcoming30": 106,
-    "perDay": 6.834645669291339
+    "eventsYTD": 1749,
+    "events30": 202,
+    "guards30": 974,
+    "citiesYTD": 111,
+    "upcoming30": 96,
+    "perDay": 6.8858267716535435
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 979,
+      "ev": 983,
       "w": 1,
       "hq": true
     },
@@ -219,24 +219,24 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 79,
-      "w": 0.08069458631256383,
+      "ev": 80,
+      "w": 0.08138351983723296,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 164,
-      "w": 0.1675178753830439,
+      "ev": 166,
+      "w": 0.1688708036622584,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 113,
-      "w": 0.11542390194075587,
+      "ev": 115,
+      "w": 0.11698880976602238,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 41,
-      "w": 0.04187946884576098,
+      "w": 0.04170905391658189,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.11644535240040858,
+      "w": 0.11597151576805696,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 78,
-      "w": 0.07967313585291114,
+      "ev": 79,
+      "w": 0.08036622583926754,
       "hq": false
     }
   ],
@@ -269,19 +269,19 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 498
+      "count": 502
     },
     {
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 117
+      "count": 118
     },
     {
       "name": "CA",
-      "lon": -119.06035603052082,
-      "lat": 35.29706483473775,
-      "count": 116
+      "lon": -119.0963188366087,
+      "lat": 35.32511991111229,
+      "count": 117
     },
     {
       "name": "North Hollywood, CA",
@@ -305,7 +305,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.16164536834533,
       "lat": 36.113182004665475,
-      "count": 71
+      "count": 73
     },
     {
       "name": "Hollywood, CA",
@@ -506,6 +506,12 @@
       "count": 3
     },
     {
+      "name": "Little Elm, TX",
+      "lon": -96.8792593,
+      "lat": 33.17833330000001,
+      "count": 3
+    },
+    {
       "name": "Washington DC, DC",
       "lon": -77.04713597427,
       "lat": 38.927391158228,
@@ -599,12 +605,6 @@
       "name": "FL",
       "lon": -80.2215038655325,
       "lat": 25.820675897756,
-      "count": 2
-    },
-    {
-      "name": "Little Elm, TX",
-      "lon": -96.8792593,
-      "lat": 33.17833330000001,
       "count": 2
     },
     {
@@ -821,17 +821,31 @@
   ],
   "todayPosts": [
     {
+      "rem": "Ryan McKillop",
+      "venue": "Austin TX",
+      "client": "Nike",
+      "job": "Archetypes Pop Up ",
+      "city": "Austin"
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "The ROW DTLA",
+      "client": "Unknown",
+      "job": "AIS 2026 Network",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "NYC",
+      "client": "Care of Chan",
+      "job": "COC-Runway Show and After Party-9.11",
+      "city": "New York"
+    },
+    {
       "rem": "Tony D’Gracia",
       "venue": "45 Grand",
       "client": "Mazarine New York",
       "job": "Mazarine x Prada Pop-up",
-      "city": ""
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Windy City Ninjas ",
-      "client": "Amazon",
-      "job": "Influencer Boxing Class Chicago IL",
       "city": ""
     },
     {
@@ -840,20 +854,6 @@
       "client": "AutoDesk",
       "job": "Autodesk - AU 2026 - Las Vegas, NV",
       "city": ""
-    },
-    {
-      "rem": "Ryan McKillop",
-      "venue": "Hilton Austin",
-      "client": "Nike",
-      "job": "Hilton Austin equipment watch ",
-      "city": ""
-    },
-    {
-      "rem": "Ryan McKillop",
-      "venue": "Austin TX",
-      "client": "Nike",
-      "job": "Skims Pop-up at UT Austin",
-      "city": "Austin"
     },
     {
       "rem": "Justin McKillop",
@@ -875,20 +875,6 @@
       "client": "Constantinople St. Productions Inc.",
       "job": "78th Primetime Emmys 2026",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Seanie Wolf",
-      "venue": "Los Angeles Convention Center",
-      "client": "YOUNGS Experience Marketing",
-      "job": "Alibaba CoCreate",
-      "city": "Los Angeles"
-    },
-    {
-      "rem": "Patrick J McKillop",
-      "venue": "Salt Palace Convention Center",
-      "client": "World Molecular imaging society",
-      "job": "WMIS 2026 Convention SP",
-      "city": "Salt Lake City"
     },
     {
       "rem": "Mivonta Fulwood",
@@ -1043,13 +1029,6 @@
       "client": "Taylor Lefebvre",
       "job": "Santa Monica Collection ",
       "city": "Santa Monica"
-    },
-    {
-      "rem": "Eric Frederick",
-      "venue": "Barnsdall Art Park",
-      "client": "Barnsdall Art Park Foundation",
-      "job": "Barnsdall Wine Tasting",
-      "city": "Los Angeles"
     },
     {
       "rem": "Tony D’Gracia",
@@ -1463,20 +1442,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 33,
+      "events30": 35,
       "career": 2360,
       "recent": [
         {
-          "name": "All In Summit Networking Dinner",
-          "meta": "SEP 11"
+          "name": "BAIT The Actor Awards Nom Comm Screening",
+          "meta": "SEP 12"
         },
         {
-          "name": "AIS 2026 Network",
-          "meta": "SEP 11"
+          "name": "Journey- LA Live",
+          "meta": "SEP 12"
         },
         {
-          "name": "J Cole- LA Live",
-          "meta": "SEP 07"
+          "name": "Journey",
+          "meta": "SEP 12"
         }
       ]
     },
@@ -1484,19 +1463,19 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 21,
+      "events30": 22,
       "career": 349,
       "recent": [
         {
+          "name": "48 Wall St Event 9.12",
+          "meta": "SEP 12"
+        },
+        {
+          "name": "Karol G - Boston",
+          "meta": "SEP 12"
+        },
+        {
           "name": "COC-Runway Show and After Party-9.11",
-          "meta": "SEP 11"
-        },
-        {
-          "name": "Nike x Laced & Lacquered",
-          "meta": "SEP 11"
-        },
-        {
-          "name": "350 PAX - NYC 9.11",
           "meta": "SEP 11"
         }
       ]
@@ -1505,9 +1484,13 @@
       "name": "Justin McKillop",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 19,
+      "events30": 20,
       "career": 300,
       "recent": [
+        {
+          "name": "Green Hills Park Festival",
+          "meta": "SEP 12"
+        },
         {
           "name": "Autodesk - AU 2026 - Las Vegas, NV",
           "meta": "SEP 09"
@@ -1515,10 +1498,27 @@
         {
           "name": "Autodesk University 2026 (Security Consulting) - Las Vegas, NV",
           "meta": "SEP 08"
+        }
+      ]
+    },
+    {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 17,
+      "career": 290,
+      "recent": [
+        {
+          "name": "9.12 Disney Sports Clinic",
+          "meta": "SEP 12"
         },
         {
-          "name": "Amazon x Neagley Maria Sten Tour",
-          "meta": "SEP 02"
+          "name": "9.12 ABC Coverage ",
+          "meta": "SEP 12"
+        },
+        {
+          "name": "9.10 Infra Investment Team Dinner",
+          "meta": "SEP 10"
         }
       ]
     },
@@ -1526,7 +1526,7 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 18,
+      "events30": 17,
       "career": 41,
       "recent": [
         {
@@ -1540,27 +1540,6 @@
         {
           "name": "Alibaba CoCreate",
           "meta": "SEP 07"
-        }
-      ]
-    },
-    {
-      "name": "Sevan Ohanians",
-      "office": "Los Angeles",
-      "color": "#E8B44A",
-      "events30": 17,
-      "career": 884,
-      "recent": [
-        {
-          "name": "78th Emmys Governors Gala ",
-          "meta": "AUG 31"
-        },
-        {
-          "name": "Grammy Museum - Entravision Pop-Up Event",
-          "meta": "AUG 26"
-        },
-        {
-          "name": "GRAMMY MUSEUM - Private Events",
-          "meta": "AUG 23"
         }
       ]
     }
@@ -1755,19 +1734,19 @@
     "<b>8.15 Emerald Drop-NYC</b> · The Highline",
     "<b>GRAMMY MUSEUM - Private Events</b> · Grammy Museum",
     "<b>HBO Documentaries Emmy Pre-Reception</b> · Hotel Figueroa - La Casita",
+    "<b>Green Hills Park Festival</b> · Nashville, TN",
     "<b>Karol G - SEATTLE 8.26</b> · Lumen Field",
     "<b>Cinashow - Amazon AP - TX</b> · Marriott Dallas Allen Hotel &amp; Convention Center",
     "<b>Beverly Hilton Shenassa Bat Mitzvah</b> · Beverly Hilton Hotel",
+    "<b>Zuffa Boxing</b> · T mobile Arena",
     "<b>DWCS 73</b> · UFC Apex",
+    "<b>9.12 Disney Sports Clinic</b> · Ira Jenkins Community Center",
     "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
     "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE",
     "<b>BJJ 10</b> · UFC Apex",
     "<b>All In Summit Networking Dinner</b> · The ROW DTLA",
     "<b>GRAMMY MUSEUM - Public Programs</b> · Grammy Museum",
-    "<b>The Runner Alo Fitness Creator Event </b> · Alo HQ",
-    "<b>Alibaba CoCreate</b> · Los Angeles Convention Center",
-    "<b>HCA - Eastvale, CA Campus</b> · Heart Christian Academy- Eastvale",
-    "<b>8.25 Emerald OPL003 San Diego</b> · Bahia Resort"
+    "<b>The Runner Alo Fitness Creator Event </b> · Alo HQ"
   ],
   "linkedin": [
     {
