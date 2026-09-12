@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T00:20:16.135Z",
-  "commit": "9b8d6bb",
+  "generatedAt": "2026-09-12T05:49:50.282Z",
+  "commit": "1c18411",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -1663,6 +1663,15 @@
       "upcoming": false
     },
     {
+      "client": "Fashion Nova",
+      "title": "Fashion Nova",
+      "venue": "Fashion Nova Corporate Office · Beverly Hills",
+      "badges": [
+        "Apts-Condos-Office Bldg"
+      ],
+      "upcoming": false
+    },
+    {
       "client": "INVNT",
       "title": "INVNT x Samsung SF",
       "venue": "Palace of Fine Arts San Francisco · San Francisco",
@@ -1677,15 +1686,6 @@
       "venue": "Delta Center · Salt Lake City",
       "badges": [
         "Other"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Fashion Nova",
-      "title": "Fashion Nova",
-      "venue": "Fashion Nova Corporate Office · Beverly Hills",
-      "badges": [
-        "Apts-Condos-Office Bldg"
       ],
       "upcoming": false
     },
