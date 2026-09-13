@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-13T16:20:21.461Z",
-  "commit": "aaeed6e",
+  "generatedAt": "2026-09-13T19:28:44.736Z",
+  "commit": "cb13936",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1754,
-    "events30": 198,
-    "guards30": 907,
+    "eventsYTD": 1756,
+    "events30": 200,
+    "guards30": 909,
     "citiesYTD": 111,
     "upcoming30": 104,
-    "perDay": 6.8515625
+    "perDay": 6.859375
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 986,
+      "ev": 987,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 80,
-      "w": 0.08113590263691683,
+      "w": 0.08105369807497467,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 166,
-      "w": 0.16835699797160245,
+      "w": 0.16818642350557245,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 115,
-      "w": 0.11663286004056796,
+      "ev": 116,
+      "w": 0.11752786220871327,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 41,
-      "w": 0.04158215010141988,
+      "w": 0.04154002026342452,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.11561866125760649,
+      "w": 0.11550151975683891,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 80,
-      "w": 0.08113590263691683,
+      "w": 0.08105369807497467,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 503
+      "count": 505
     },
     {
       "name": "New York, NY",
@@ -1421,8 +1421,8 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 31,
-      "career": 2360,
+      "events30": 32,
+      "career": 2361,
       "recent": [
         {
           "name": "BAIT The Actor Awards Nom Comm Screening",
