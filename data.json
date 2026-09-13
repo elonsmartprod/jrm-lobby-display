@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T22:20:15.987Z",
-  "commit": "191e69d",
+  "generatedAt": "2026-09-13T01:02:50.410Z",
+  "commit": "70a5564",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1748,
-    "events30": 201,
-    "guards30": 964,
+    "eventsYTD": 1754,
+    "events30": 198,
+    "guards30": 907,
     "citiesYTD": 111,
-    "upcoming30": 109,
-    "perDay": 6.854901960784313
+    "upcoming30": 104,
+    "perDay": 6.87843137254902
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 983,
+      "ev": 986,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 80,
-      "w": 0.08138351983723296,
+      "w": 0.08113590263691683,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 165,
-      "w": 0.167853509664293,
+      "ev": 166,
+      "w": 0.16835699797160245,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 115,
-      "w": 0.11698880976602238,
+      "w": 0.11663286004056796,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 41,
-      "w": 0.04170905391658189,
+      "w": 0.04158215010141988,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.11597151576805696,
+      "w": 0.11561866125760649,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 79,
-      "w": 0.08036622583926754,
+      "ev": 80,
+      "w": 0.08113590263691683,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31974241029414,
       "lat": 34.06165868875224,
-      "count": 502
+      "count": 503
     },
     {
       "name": "New York, NY",
@@ -293,7 +293,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 78
+      "count": 80
     },
     {
       "name": "San Francisco, CA",
@@ -305,7 +305,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.16164536834533,
       "lat": 36.113182004665475,
-      "count": 73
+      "count": 74
     },
     {
       "name": "Hollywood, CA",
@@ -822,10 +822,17 @@
   "todayPosts": [
     {
       "rem": "Ryan McKillop",
-      "venue": "Austin TX",
-      "client": "Nike",
-      "job": "Archetypes Pop Up ",
-      "city": "Austin"
+      "venue": "Little Elm Park",
+      "client": "The Ironman Group",
+      "job": "IRONMAN Little Elm Overnight ",
+      "city": "Little Elm"
+    },
+    {
+      "rem": "Alejandra Ruezga",
+      "venue": "LA Live",
+      "client": "Sleeping Elephant Productions Inc",
+      "job": "E! Emmy's Coverage",
+      "city": "Los Angeles"
     },
     {
       "rem": "Chris Estrada",
@@ -833,13 +840,6 @@
       "client": "Unknown",
       "job": "AIS 2026 Network",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "NYC",
-      "client": "Care of Chan",
-      "job": "COC-Runway Show and After Party-9.11",
-      "city": "New York"
     },
     {
       "rem": "Tony D’Gracia",
@@ -882,13 +882,6 @@
       "client": "HBO",
       "job": "HBO - DTF St. Louis - 2026 Emmy Awards : Close Protection (DH)",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "Starrett-Lehigh",
-      "client": "SPACE Productions",
-      "job": "Brand Assembly Fall 2026",
-      "city": "New York"
     },
     {
       "rem": "Sevan Ohanians",
@@ -996,13 +989,6 @@
       "city": ""
     },
     {
-      "rem": "Jessica Hernandez",
-      "venue": "DoorDash Office",
-      "client": "Protos Security",
-      "job": "Protos DoorDash",
-      "city": ""
-    },
-    {
       "rem": "Justin McKillop",
       "venue": "First Cumberland Presbyterian Church",
       "client": "Fusion Homeschooling",
@@ -1029,13 +1015,6 @@
       "client": "Taylor Lefebvre",
       "job": "Santa Monica Collection ",
       "city": "Santa Monica"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "2397 Montauk Highway Bridgehampton NY",
-      "client": "Vivrelle",
-      "job": "Vivrelle Bridgehampton 2026",
-      "city": "Bridgehampton"
     },
     {
       "rem": "Chris Estrada",
@@ -1442,7 +1421,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 35,
+      "events30": 31,
       "career": 2360,
       "recent": [
         {
@@ -1463,9 +1442,13 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 21,
+      "events30": 22,
       "career": 350,
       "recent": [
+        {
+          "name": "NVE x Fasano",
+          "meta": "SEP 13"
+        },
         {
           "name": "48 Wall St Event 9.12",
           "meta": "SEP 12"
@@ -1473,10 +1456,6 @@
         {
           "name": "Karol G - Boston",
           "meta": "SEP 12"
-        },
-        {
-          "name": "COC-Runway Show and After Party-9.11",
-          "meta": "SEP 11"
         }
       ]
     },
@@ -1484,9 +1463,13 @@
       "name": "Justin McKillop",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 20,
+      "events30": 21,
       "career": 301,
       "recent": [
+        {
+          "name": "AU26 - HP Overnight Booth Coverage",
+          "meta": "SEP 13"
+        },
         {
           "name": "Green Hills Park Festival",
           "meta": "SEP 12"
@@ -1494,10 +1477,6 @@
         {
           "name": "Autodesk - AU 2026 - Las Vegas, NV",
           "meta": "SEP 09"
-        },
-        {
-          "name": "Autodesk University 2026 (Security Consulting) - Las Vegas, NV",
-          "meta": "SEP 08"
         }
       ]
     },
@@ -1509,16 +1488,16 @@
       "career": 290,
       "recent": [
         {
+          "name": "Pickwick Vintage SF September",
+          "meta": "SEP 13"
+        },
+        {
           "name": "9.12 Disney Sports Clinic",
           "meta": "SEP 12"
         },
         {
           "name": "9.12 ABC Coverage ",
           "meta": "SEP 12"
-        },
-        {
-          "name": "9.10 Infra Investment Team Dinner",
-          "meta": "SEP 10"
         }
       ]
     },
@@ -1530,16 +1509,16 @@
       "career": 41,
       "recent": [
         {
+          "name": "ASLA 2026",
+          "meta": "SEP 13"
+        },
+        {
+          "name": "FX/Vanity Fair",
+          "meta": "SEP 13"
+        },
+        {
           "name": "Access Hollywood Wrap Party",
           "meta": "SEP 10"
-        },
-        {
-          "name": "Searchlight Wild Horse Nine EP",
-          "meta": "SEP 08"
-        },
-        {
-          "name": "Alibaba CoCreate",
-          "meta": "SEP 07"
         }
       ]
     }
@@ -1741,12 +1720,12 @@
     "<b>Zuffa Boxing</b> · T mobile Arena",
     "<b>DWCS 73</b> · UFC Apex",
     "<b>9.12 Disney Sports Clinic</b> · Ira Jenkins Community Center",
+    "<b>ASLA 2026</b> · Los Angeles Convention Center",
     "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
     "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE",
     "<b>BJJ 10</b> · UFC Apex",
     "<b>All In Summit Networking Dinner</b> · The ROW DTLA",
-    "<b>GRAMMY MUSEUM - Public Programs</b> · Grammy Museum",
-    "<b>The Runner Alo Fitness Creator Event </b> · Alo HQ"
+    "<b>GRAMMY MUSEUM - Public Programs</b> · Grammy Museum"
   ],
   "linkedin": [
     {
