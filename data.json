@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T14:06:17.128Z",
-  "commit": "5ab81e4",
+  "generatedAt": "2026-09-14T19:24:12.535Z",
+  "commit": "5e2fedf",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1766,
-    "events30": 198,
-    "guards30": 955,
+    "eventsYTD": 1767,
+    "events30": 199,
+    "guards30": 956,
     "citiesYTD": 112,
-    "upcoming30": 95,
-    "perDay": 6.871595330739299
+    "upcoming30": 96,
+    "perDay": 6.875486381322958
   },
   "heatPoints": [
     {
@@ -243,8 +243,8 @@
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 41,
-      "w": 0.041289023162134945,
+      "ev": 42,
+      "w": 0.04229607250755287,
       "hq": false
     },
     {
@@ -351,9 +351,9 @@
     },
     {
       "name": "Salt Lake City, UT",
-      "lon": -111.9005131454954,
-      "lat": 40.752630442942205,
-      "count": 13
+      "lon": -111.89970169590491,
+      "lat": 40.75403498449291,
+      "count": 14
     },
     {
       "name": "UT",
@@ -1697,6 +1697,7 @@
     "<b>Grammy Museum Event - 8/20/26 - PP</b> · Grammy Museum",
     "<b>Ludlow Grey Pop Up-Chicago</b> · Kavi Gupta Gallery",
     "<b>Amazon Love Hypothesis EP</b> · Culver Theater",
+    "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
     "<b>GRAMMY MUSEUM - Private Events</b> · Grammy Museum",
     "<b>HBO Documentaries Emmy Pre-Reception</b> · Hotel Figueroa - La Casita",
     "<b>Green Hills Park Festival</b> · Nashville, TN",
@@ -1710,8 +1711,7 @@
     "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
     "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE",
     "<b>BJJ 10</b> · UFC Apex",
-    "<b>All In Summit Networking Dinner</b> · The ROW DTLA",
-    "<b>GRAMMY MUSEUM - Public Programs</b> · Grammy Museum"
+    "<b>All In Summit Networking Dinner</b> · The ROW DTLA"
   ],
   "linkedin": [
     {
