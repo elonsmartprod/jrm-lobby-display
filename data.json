@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T01:08:03.192Z",
-  "commit": "d0632f2",
+  "generatedAt": "2026-09-14T06:20:42.640Z",
+  "commit": "78efeab",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1765,
-    "events30": 197,
-    "guards30": 905,
+    "eventsYTD": 1766,
+    "events30": 198,
+    "guards30": 955,
     "citiesYTD": 112,
     "upcoming30": 95,
-    "perDay": 6.89453125
+    "perDay": 6.8984375
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 992,
+      "ev": 993,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 80,
-      "w": 0.08064516129032258,
+      "w": 0.08056394763343404,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 168,
-      "w": 0.1693548387096774,
+      "w": 0.1691842900302115,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 117,
-      "w": 0.11794354838709678,
+      "w": 0.11782477341389729,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 41,
-      "w": 0.04133064516129032,
+      "w": 0.041289023162134945,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.11491935483870967,
+      "w": 0.1148036253776435,
       "hq": true
     },
     {
@@ -260,16 +260,16 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 81,
-      "w": 0.08165322580645161,
+      "w": 0.08157099697885196,
       "hq": false
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.31974241029414,
-      "lat": 34.06165868875224,
-      "count": 507
+      "lon": -118.32019279151126,
+      "lat": 34.060689827055064,
+      "count": 508
     },
     {
       "name": "New York, NY",
@@ -1488,22 +1488,22 @@
       ]
     },
     {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
+      "name": "Seanie Wolf",
+      "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 17,
-      "career": 290,
+      "career": 42,
       "recent": [
         {
-          "name": "Pickwick Vintage SF September",
+          "name": "ASLA 2026",
           "meta": "SEP 13"
         },
         {
-          "name": "9.12 Disney Sports Clinic",
-          "meta": "SEP 12"
+          "name": "FX/Vanity Fair",
+          "meta": "SEP 13"
         },
         {
-          "name": "9.12 ABC Coverage ",
+          "name": "Optimist Studio Youngs Group Event",
           "meta": "SEP 12"
         }
       ]
@@ -1692,6 +1692,7 @@
     }
   ],
   "ticker": [
+    "<b>Optimist Studio Youngs Group Event</b> · Optimist Studios",
     "<b>Beverly Hilton Harold &amp; Carole Pump Foundation Gala</b> · Beverly Hilton Hotel",
     "<b>Grammy Museum Event - 8/20/26 - PP</b> · Grammy Museum",
     "<b>Ludlow Grey Pop Up-Chicago</b> · Kavi Gupta Gallery",
@@ -1710,8 +1711,7 @@
     "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE",
     "<b>BJJ 10</b> · UFC Apex",
     "<b>All In Summit Networking Dinner</b> · The ROW DTLA",
-    "<b>GRAMMY MUSEUM - Public Programs</b> · Grammy Museum",
-    "<b>The Runner Alo Fitness Creator Event </b> · Alo HQ"
+    "<b>GRAMMY MUSEUM - Public Programs</b> · Grammy Museum"
   ],
   "linkedin": [
     {
