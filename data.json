@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T07:47:34.161Z",
-  "commit": "0ea6aa1",
+  "generatedAt": "2026-09-15T13:35:56.854Z",
+  "commit": "441fad1",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1773,
-    "events30": 202,
+    "eventsYTD": 1775,
+    "events30": 204,
     "guards30": 942,
     "citiesYTD": 112,
     "upcoming30": 95,
-    "perDay": 6.898832684824903
+    "perDay": 6.87984496124031
   },
   "heatPoints": [
     {
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 80,
-      "w": 0.08056394763343404,
+      "ev": 82,
+      "w": 0.08257804632426989,
       "hq": false
     },
     {
@@ -305,7 +305,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.16164536834533,
       "lat": 36.113182004665475,
-      "count": 75
+      "count": 76
     },
     {
       "name": "Hollywood, CA",
