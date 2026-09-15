@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-14T23:09:29.633Z",
-  "commit": "0f8e7ad",
+  "generatedAt": "2026-09-15T01:30:15.669Z",
+  "commit": "0db86ab",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1767,
-    "events30": 199,
-    "guards30": 956,
+    "eventsYTD": 1773,
+    "events30": 202,
+    "guards30": 942,
     "citiesYTD": 112,
-    "upcoming30": 99,
-    "perDay": 6.875486381322958
+    "upcoming30": 95,
+    "perDay": 6.898832684824903
   },
   "heatPoints": [
     {
@@ -227,8 +227,8 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 168,
-      "w": 0.1691842900302115,
+      "ev": 170,
+      "w": 0.17119838872104734,
       "hq": false
     },
     {
@@ -259,8 +259,8 @@
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 81,
-      "w": 0.08157099697885196,
+      "ev": 83,
+      "w": 0.08358509566968782,
       "hq": false
     }
   ],
@@ -275,13 +275,13 @@
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 117
+      "count": 118
     },
     {
       "name": "CA",
       "lon": -119.0963188366087,
       "lat": 35.32511991111229,
-      "count": 117
+      "count": 118
     },
     {
       "name": "North Hollywood, CA",
@@ -305,7 +305,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.16164536834533,
       "lat": 36.113182004665475,
-      "count": 74
+      "count": 75
     },
     {
       "name": "Hollywood, CA",
@@ -821,6 +821,48 @@
   ],
   "todayPosts": [
     {
+      "rem": "Ryan McKillop",
+      "venue": "Lubbock, TX",
+      "client": "Rex Group",
+      "job": "Power Slap Lubbock",
+      "city": ""
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "Halo Twenty Eight",
+      "client": "Emerald Americas LLC",
+      "job": "Emerald Americas NYC 9.14",
+      "city": ""
+    },
+    {
+      "rem": "Miguel Ruezga",
+      "venue": "The Port of Long Beach ",
+      "client": "Bluecore Energy",
+      "job": "Bluecore Energy, Summit 2026 ",
+      "city": ""
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "UCLA",
+      "client": "Amazon Studios",
+      "job": "NBA Emirates Cup Shoot",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "NYC",
+      "client": "Ramsay Fairs LLC",
+      "job": "Affordable Art Fair-Fall 2026 -NYC",
+      "city": "New York"
+    },
+    {
+      "rem": "Kyle Crowther",
+      "venue": "Phoenix AZ",
+      "client": "Czarnowski ",
+      "job": "BMW iX3 Ride and Drive-Phoenix",
+      "city": "Phoenix"
+    },
+    {
       "rem": "Justin McKillop",
       "venue": "The Venetian Las Vegas",
       "client": "HP",
@@ -860,13 +902,6 @@
       "venue": "Peacock Theater",
       "client": "Constantinople St. Productions Inc.",
       "job": "78th Primetime Emmys 2026",
-      "city": "Los Angeles"
-    },
-    {
-      "rem": "Mivonta Fulwood",
-      "venue": "Peacock Theater",
-      "client": "HBO",
-      "job": "HBO - DTF St. Louis - 2026 Emmy Awards : Close Protection (DH)",
       "city": "Los Angeles"
     },
     {
@@ -1407,7 +1442,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 34,
+      "events30": 32,
       "career": 2361,
       "recent": [
         {
@@ -1428,20 +1463,20 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 23,
-      "career": 350,
+      "events30": 25,
+      "career": 351,
       "recent": [
+        {
+          "name": "9.15 Emerald Americas EP-NY",
+          "meta": "SEP 15"
+        },
+        {
+          "name": "Zuffa Boxing Press Conference 9.8",
+          "meta": "SEP 15"
+        },
         {
           "name": "Emerald Americas NYC 9.14",
           "meta": "SEP 14"
-        },
-        {
-          "name": "Affordable Art Fair-Fall 2026 -NYC",
-          "meta": "SEP 14"
-        },
-        {
-          "name": "NVE x Fasano",
-          "meta": "SEP 13"
         }
       ]
     },
@@ -1449,20 +1484,41 @@
       "name": "Justin McKillop",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 18,
+      "events30": 20,
       "career": 302,
       "recent": [
         {
+          "name": "HOTB Premiere ",
+          "meta": "SEP 15"
+        },
+        {
+          "name": "Guitar Pull Event - Nashville, TN",
+          "meta": "SEP 15"
+        },
+        {
           "name": "AU26 - HP Overnight Booth Coverage",
+          "meta": "SEP 13"
+        }
+      ]
+    },
+    {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 18,
+      "career": 294,
+      "recent": [
+        {
+          "name": "9.15 Emerald VIP Dinner",
+          "meta": "SEP 15"
+        },
+        {
+          "name": "Pickwick Vintage SF September",
           "meta": "SEP 13"
         },
         {
-          "name": "Green Hills Park Festival",
+          "name": "9.12 Disney Sports Clinic",
           "meta": "SEP 12"
-        },
-        {
-          "name": "Autodesk - AU 2026 - Las Vegas, NV",
-          "meta": "SEP 09"
         }
       ]
     },
@@ -1483,27 +1539,6 @@
         },
         {
           "name": "Chad Powers S2 Food Truck",
-          "meta": "SEP 12"
-        }
-      ]
-    },
-    {
-      "name": "Seanie Wolf",
-      "office": "Los Angeles",
-      "color": "#E8B44A",
-      "events30": 17,
-      "career": 42,
-      "recent": [
-        {
-          "name": "ASLA 2026",
-          "meta": "SEP 13"
-        },
-        {
-          "name": "FX/Vanity Fair",
-          "meta": "SEP 13"
-        },
-        {
-          "name": "Optimist Studio Youngs Group Event",
           "meta": "SEP 12"
         }
       ]
