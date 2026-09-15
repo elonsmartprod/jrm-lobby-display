@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T18:13:57.531Z",
-  "commit": "e9b52b9",
+  "generatedAt": "2026-09-15T21:25:17.119Z",
+  "commit": "e6690ff",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 202,
     "guards30": 942,
     "citiesYTD": 112,
-    "upcoming30": 97,
+    "upcoming30": 98,
     "perDay": 6.872093023255814
   },
   "heatPoints": [
@@ -1506,7 +1506,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 18,
-      "career": 294,
+      "career": 295,
       "recent": [
         {
           "name": "9.15 Emerald VIP Dinner",
