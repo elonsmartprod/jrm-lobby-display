@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-16T17:00:21.053Z",
-  "commit": "cd696ae",
+  "generatedAt": "2026-09-16T20:09:59.797Z",
+  "commit": "a28c202",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1788,
-    "events30": 211,
-    "guards30": 1588,
+    "eventsYTD": 1789,
+    "events30": 212,
+    "guards30": 1591,
     "citiesYTD": 112,
-    "upcoming30": 90,
-    "perDay": 6.903474903474904
+    "upcoming30": 91,
+    "perDay": 6.9073359073359075
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 995,
+      "ev": 996,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 82,
-      "w": 0.08241206030150754,
+      "w": 0.0823293172690763,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 172,
-      "w": 0.1728643216080402,
+      "w": 0.17269076305220885,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 115,
-      "w": 0.11557788944723618,
+      "w": 0.11546184738955824,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 42,
-      "w": 0.04221105527638191,
+      "w": 0.04216867469879518,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.11457286432160804,
+      "w": 0.1144578313253012,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 93,
-      "w": 0.09346733668341708,
+      "w": 0.09337349397590361,
       "hq": false
     }
   ],
@@ -311,7 +311,7 @@
       "name": "Hollywood, CA",
       "lon": -118.33277580612615,
       "lat": 34.097870581608326,
-      "count": 47
+      "count": 48
     },
     {
       "name": "Beverly Hills, CA",
@@ -1414,8 +1414,8 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 33,
-      "career": 2361,
+      "events30": 34,
+      "career": 2363,
       "recent": [
         {
           "name": "LE SSERAFIM TOUR",
