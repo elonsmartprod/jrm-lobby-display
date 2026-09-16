@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-16T00:23:37.141Z",
-  "commit": "43b9f29",
+  "generatedAt": "2026-09-16T06:04:35.937Z",
+  "commit": "6506266",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1787,
-    "events30": 210,
-    "guards30": 1587,
+    "eventsYTD": 1788,
+    "events30": 211,
+    "guards30": 1588,
     "citiesYTD": 112,
-    "upcoming30": 84,
-    "perDay": 6.926356589147287
+    "upcoming30": 85,
+    "perDay": 6.930232558139535
   },
   "heatPoints": [
     {
@@ -227,8 +227,8 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 171,
-      "w": 0.17185929648241205,
+      "ev": 172,
+      "w": 0.1728643216080402,
       "hq": false
     },
     {
@@ -275,7 +275,7 @@
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 119
+      "count": 120
     },
     {
       "name": "CA",
@@ -1435,8 +1435,8 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 26,
-      "career": 351,
+      "events30": 27,
+      "career": 352,
       "recent": [
         {
           "name": "48 Wall St. Event 9.16",
@@ -1478,7 +1478,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 17,
-      "career": 295,
+      "career": 296,
       "recent": [
         {
           "name": "9.16 GPT-6 Community Gathering",
