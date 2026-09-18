@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18T16:26:44.068Z",
-  "commit": "0f7a8d8",
+  "generatedAt": "2026-09-18T19:38:52.127Z",
+  "commit": "1126968",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 216,
     "guards30": 1720,
     "citiesYTD": 114,
-    "upcoming30": 94,
+    "upcoming30": 98,
     "perDay": 6.915708812260537
   },
   "heatPoints": [
@@ -1415,7 +1415,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 35,
-      "career": 2369,
+      "career": 2370,
       "recent": [
         {
           "name": "Eater Off Menu",
@@ -1478,7 +1478,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 19,
-      "career": 297,
+      "career": 300,
       "recent": [
         {
           "name": "9.18 Early Stage 5",
