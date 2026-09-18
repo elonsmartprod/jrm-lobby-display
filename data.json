@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T21:29:40.389Z",
-  "commit": "4cc469c",
+  "generatedAt": "2026-09-18T00:22:08.052Z",
+  "commit": "e4617f9",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1798,
-    "events30": 212,
-    "guards30": 1723,
-    "citiesYTD": 112,
-    "upcoming30": 96,
-    "perDay": 6.915384615384616
+    "eventsYTD": 1805,
+    "events30": 216,
+    "guards30": 1720,
+    "citiesYTD": 114,
+    "upcoming30": 94,
+    "perDay": 6.9423076923076925
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1000,
+      "ev": 1004,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 82,
-      "w": 0.082,
+      "w": 0.08167330677290836,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 174,
-      "w": 0.174,
+      "w": 0.17330677290836655,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 116,
-      "w": 0.116,
+      "ev": 117,
+      "w": 0.11653386454183266,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 42,
-      "w": 0.042,
+      "w": 0.04183266932270916,
       "hq": false
     },
     {
@@ -252,24 +252,24 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.114,
+      "w": 0.11354581673306773,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 94,
-      "w": 0.094,
+      "ev": 95,
+      "w": 0.0946215139442231,
       "hq": false
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.32019279151126,
-      "lat": 34.060689827055064,
-      "count": 513
+      "lon": -118.31906887884708,
+      "lat": 34.06122062502219,
+      "count": 516
     },
     {
       "name": "New York, NY",
@@ -821,18 +821,39 @@
   ],
   "todayPosts": [
     {
-      "rem": "Tony D’Gracia",
-      "venue": "NYC",
-      "client": "Emerald Americas LLC",
-      "job": "9.15 Emerald Americas EP-NY",
-      "city": "New York"
+      "rem": "Sevan Ohanians",
+      "venue": "Orange County Fairgrounds ",
+      "client": "Bonnier LLC.",
+      "job": "2026 Sand Sports Super Show",
+      "city": ""
     },
     {
-      "rem": "Ryan McKillop",
-      "venue": "Lubbock, TX",
-      "client": "Rex Group",
-      "job": "Power Slap Lubbock",
+      "rem": "Tony D’Gracia",
+      "venue": "MetLife Stadium",
+      "client": "Live Nation",
+      "job": "Karol G - NJ",
       "city": ""
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "Various",
+      "client": "Emerald Americas LLC",
+      "job": "9.17-9.18 BUG026",
+      "city": ""
+    },
+    {
+      "rem": "Sevan Ohanians",
+      "venue": "Peacock Theater",
+      "client": "GunPowder",
+      "job": "VMA's 2026 Main Show ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "Crypto.com Arena",
+      "client": "UFC",
+      "job": "UFC Los Angeles Coverage",
+      "city": "Los Angeles"
     },
     {
       "rem": "Tony D’Gracia",
@@ -840,13 +861,6 @@
       "client": "Ramsay Fairs LLC",
       "job": "Affordable Art Fair-Fall 2026 -NYC",
       "city": "New York"
-    },
-    {
-      "rem": "Justin McKillop",
-      "venue": "The Venetian Las Vegas",
-      "client": "HP",
-      "job": "AU26 - HP Overnight Booth Coverage",
-      "city": "Las Vegas"
     },
     {
       "rem": "Seanie Wolf",
@@ -1400,19 +1414,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 34,
-      "career": 2368,
+      "events30": 35,
+      "career": 2369,
       "recent": [
+        {
+          "name": "Eater Off Menu",
+          "meta": "SEP 18"
+        },
         {
           "name": "UFC Los Angeles Coverage",
           "meta": "SEP 17"
         },
         {
           "name": "LE SSERAFIM TOUR",
-          "meta": "SEP 16"
-        },
-        {
-          "name": "LE SSERAFIM TOUR- LA Live",
           "meta": "SEP 16"
         }
       ]
@@ -1442,9 +1456,13 @@
       "name": "Justin McKillop",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 19,
+      "events30": 20,
       "career": 304,
       "recent": [
+        {
+          "name": "Porchfest 2026",
+          "meta": "SEP 18"
+        },
         {
           "name": "HOTB Premiere ",
           "meta": "SEP 15"
@@ -1452,10 +1470,6 @@
         {
           "name": "Guitar Pull Event - Nashville, TN",
           "meta": "SEP 15"
-        },
-        {
-          "name": "AU26 - HP Overnight Booth Coverage",
-          "meta": "SEP 13"
         }
       ]
     },
@@ -1463,9 +1477,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 18,
+      "events30": 19,
       "career": 297,
       "recent": [
+        {
+          "name": "9.18 Early Stage 5",
+          "meta": "SEP 18"
+        },
         {
           "name": "9.17-9.18 BUG026",
           "meta": "SEP 17"
@@ -1473,30 +1491,26 @@
         {
           "name": "9.16 GPT-6 Community Gathering",
           "meta": "SEP 16"
-        },
-        {
-          "name": "9.15 Emerald VIP Dinner",
-          "meta": "SEP 15"
         }
       ]
     },
     {
-      "name": "Seanie Wolf",
-      "office": "Los Angeles",
+      "name": "Ryan McKillop",
+      "office": "Texas",
       "color": "#E8B44A",
-      "events30": 15,
-      "career": 43,
+      "events30": 16,
+      "career": 456,
       "recent": [
         {
-          "name": "ASLA 2026",
-          "meta": "SEP 13"
+          "name": "CCHC armed coverage ",
+          "meta": "SEP 18"
         },
         {
-          "name": "FX/Vanity Fair",
-          "meta": "SEP 13"
+          "name": "Power Slap Lubbock",
+          "meta": "SEP 14"
         },
         {
-          "name": "Optimist Studio Youngs Group Event",
+          "name": "IRONMAN Overnight ",
           "meta": "SEP 12"
         }
       ]
