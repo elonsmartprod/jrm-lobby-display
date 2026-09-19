@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18T22:36:10.388Z",
-  "commit": "ce50db0",
+  "generatedAt": "2026-09-19T01:12:22.683Z",
+  "commit": "8b1f0d4",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1805,
-    "events30": 216,
-    "guards30": 1720,
+    "eventsYTD": 1813,
+    "events30": 209,
+    "guards30": 1735,
     "citiesYTD": 114,
-    "upcoming30": 99,
-    "perDay": 6.915708812260537
+    "upcoming30": 95,
+    "perDay": 6.946360153256705
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1004,
+      "ev": 1011,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 82,
-      "w": 0.08167330677290836,
+      "w": 0.08110781404549951,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 174,
-      "w": 0.17330677290836655,
+      "w": 0.17210682492581603,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 117,
-      "w": 0.11653386454183266,
+      "w": 0.11572700296735905,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 42,
-      "w": 0.04183266932270916,
+      "w": 0.04154302670623145,
       "hq": false
     },
     {
@@ -252,24 +252,24 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.11354581673306773,
+      "w": 0.11275964391691394,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 95,
-      "w": 0.0946215139442231,
+      "ev": 96,
+      "w": 0.09495548961424333,
       "hq": false
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.31906887884708,
-      "lat": 34.06122062502219,
-      "count": 516
+      "lon": -118.31838694171337,
+      "lat": 34.06098262879185,
+      "count": 520
     },
     {
       "name": "New York, NY",
@@ -279,9 +279,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.07321763893566,
-      "lat": 35.29201126947365,
-      "count": 120
+      "lon": -119.06410794677605,
+      "lat": 35.2781128911785,
+      "count": 121
     },
     {
       "name": "North Hollywood, CA",
@@ -311,7 +311,7 @@
       "name": "Hollywood, CA",
       "lon": -118.33277580612615,
       "lat": 34.097870581608326,
-      "count": 48
+      "count": 49
     },
     {
       "name": "Beverly Hills, CA",
@@ -341,7 +341,7 @@
       "name": "Nashville, TN",
       "lon": -86.72942341700772,
       "lat": 36.10218930443827,
-      "count": 15
+      "count": 16
     },
     {
       "name": "Santa Monica, CA",
@@ -821,24 +821,31 @@
   ],
   "todayPosts": [
     {
+      "rem": "Justin McKillop",
+      "venue": "West Haven",
+      "client": "Westhaven Foundation",
+      "job": "Porchfest 2026",
+      "city": "Franklin"
+    },
+    {
+      "rem": "Seanie Wolf",
+      "venue": "Homeboy Industries ",
+      "client": "Boom box LA",
+      "job": "Homeboy Industries 5k Coverage",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Ryan McKillop",
+      "venue": "Hunters Glen Baptist Church ",
+      "client": "Chinese Christian Herald Crusades",
+      "job": "CCHC armed coverage ",
+      "city": "Plano"
+    },
+    {
       "rem": "Sevan Ohanians",
       "venue": "Orange County Fairgrounds ",
       "client": "Bonnier LLC.",
       "job": "2026 Sand Sports Super Show",
-      "city": ""
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "MetLife Stadium",
-      "client": "Live Nation",
-      "job": "Karol G - NJ",
-      "city": ""
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Various",
-      "client": "Emerald Americas LLC",
-      "job": "9.17-9.18 BUG026",
       "city": ""
     },
     {
@@ -861,27 +868,6 @@
       "client": "Ramsay Fairs LLC",
       "job": "Affordable Art Fair-Fall 2026 -NYC",
       "city": "New York"
-    },
-    {
-      "rem": "Seanie Wolf",
-      "venue": "Los Angeles Convention Center",
-      "client": "American Society of Landscape Architects",
-      "job": "ASLA 2026",
-      "city": "Los Angeles"
-    },
-    {
-      "rem": "Justin McKillop",
-      "venue": "100 Thieves",
-      "client": "AutoDesk",
-      "job": "Autodesk - AU 2026 - Las Vegas, NV",
-      "city": ""
-    },
-    {
-      "rem": "Justin McKillop",
-      "venue": "The Venetian Las Vegas",
-      "client": "AutoDesk",
-      "job": "Autodesk University 2026 (Security Consulting) - Las Vegas, NV",
-      "city": "Las Vegas"
     },
     {
       "rem": "Justin McKillop",
@@ -1050,13 +1036,6 @@
       "client": "Crypto.com Arena",
       "job": "Sparks Tunnel Suites",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Eric Frederick",
-      "venue": "Long Beach Aquarium",
-      "client": "Long Beach Aquarium",
-      "job": "Long Beach Aquarium",
-      "city": "Long Beach"
     },
     {
       "rem": "Dani Sanchez",
@@ -1414,20 +1393,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 35,
-      "career": 2370,
+      "events30": 37,
+      "career": 2374,
       "recent": [
         {
-          "name": "Eater Off Menu",
-          "meta": "SEP 18"
+          "name": "UFC 331",
+          "meta": "SEP 19"
         },
         {
-          "name": "UFC Los Angeles Coverage",
-          "meta": "SEP 17"
+          "name": "UFC 331- LA Live",
+          "meta": "SEP 19"
         },
         {
-          "name": "LE SSERAFIM TOUR",
-          "meta": "SEP 16"
+          "name": "A Current Affair Pickwick Vintage",
+          "meta": "SEP 19"
         }
       ]
     },
@@ -1435,7 +1414,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 28,
+      "events30": 25,
       "career": 353,
       "recent": [
         {
@@ -1456,19 +1435,19 @@
       "name": "Justin McKillop",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 20,
+      "events30": 21,
       "career": 304,
       "recent": [
+        {
+          "name": "Margarita Festival ",
+          "meta": "SEP 19"
+        },
         {
           "name": "Porchfest 2026",
           "meta": "SEP 18"
         },
         {
           "name": "HOTB Premiere ",
-          "meta": "SEP 15"
-        },
-        {
-          "name": "Guitar Pull Event - Nashville, TN",
           "meta": "SEP 15"
         }
       ]
@@ -1477,7 +1456,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 19,
+      "events30": 18,
       "career": 300,
       "recent": [
         {
@@ -1701,8 +1680,6 @@
   "ticker": [
     "<b>Optimist Studio Youngs Group Event</b> · Optimist Studios",
     "<b>Open AI - Idaho </b> · Courtyard by Marriott Boise west ",
-    "<b>Beverly Hilton Harold &amp; Carole Pump Foundation Gala</b> · Beverly Hilton Hotel",
-    "<b>Grammy Museum Event - 8/20/26 - PP</b> · Grammy Museum",
     "<b>Ludlow Grey Pop Up-Chicago</b> · Kavi Gupta Gallery",
     "<b>Amazon Love Hypothesis EP</b> · Culver Theater",
     "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
@@ -1718,7 +1695,9 @@
     "<b>9.12 Disney Sports Clinic</b> · Ira Jenkins Community Center",
     "<b>ASLA 2026</b> · Los Angeles Convention Center",
     "<b>9.17-9.18 BUG026</b> · Various",
-    "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort "
+    "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
+    "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE",
+    "<b>All In Summit Networking Dinner</b> · The ROW DTLA"
   ],
   "linkedin": [
     {
