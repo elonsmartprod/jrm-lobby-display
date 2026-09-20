@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-19T23:09:07.220Z",
-  "commit": "8bb2c95",
+  "generatedAt": "2026-09-20T01:11:57.640Z",
+  "commit": "cf7ecb8",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1813,
-    "events30": 209,
-    "guards30": 1735,
+    "eventsYTD": 1818,
+    "events30": 210,
+    "guards30": 1755,
     "citiesYTD": 114,
-    "upcoming30": 99,
-    "perDay": 6.919847328244275
+    "upcoming30": 94,
+    "perDay": 6.938931297709924
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1011,
+      "ev": 1013,
       "w": 1,
       "hq": true
     },
@@ -220,23 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 82,
-      "w": 0.08110781404549951,
+      "w": 0.08094768015794669,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 174,
-      "w": 0.17210682492581603,
+      "ev": 175,
+      "w": 0.1727541954590326,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 117,
-      "w": 0.11572700296735905,
+      "ev": 118,
+      "w": 0.11648568608094768,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 42,
-      "w": 0.04154302670623145,
+      "w": 0.04146100691016782,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 114,
-      "w": 0.11275964391691394,
+      "w": 0.1125370187561698,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 96,
-      "w": 0.09495548961424333,
+      "w": 0.0947680157946693,
       "hq": false
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.31838694171337,
       "lat": 34.06098262879185,
-      "count": 520
+      "count": 521
     },
     {
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 121
+      "count": 122
     },
     {
       "name": "CA",
@@ -317,7 +317,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.40086844605668,
       "lat": 34.068454553929,
-      "count": 42
+      "count": 43
     },
     {
       "name": "Culver City, CA",
@@ -428,15 +428,15 @@
       "count": 5
     },
     {
-      "name": "Long Beach, CA",
-      "lon": -118.19101813187,
-      "lat": 33.76556901741066,
-      "count": 4
-    },
-    {
       "name": "Houston, TX",
       "lon": -95.36136619999999,
       "lat": 29.75116055,
+      "count": 5
+    },
+    {
+      "name": "Long Beach, CA",
+      "lon": -118.19101813187,
+      "lat": 33.76556901741066,
       "count": 4
     },
     {
@@ -821,25 +821,11 @@
   ],
   "todayPosts": [
     {
-      "rem": "Justin McKillop",
-      "venue": "West Haven",
-      "client": "Westhaven Foundation",
-      "job": "Porchfest 2026",
-      "city": "Franklin"
-    },
-    {
-      "rem": "Seanie Wolf",
-      "venue": "Homeboy Industries ",
-      "client": "Boom box LA",
-      "job": "Homeboy Industries 5k Coverage",
-      "city": "Los Angeles"
-    },
-    {
-      "rem": "Ryan McKillop",
-      "venue": "Hunters Glen Baptist Church ",
-      "client": "Chinese Christian Herald Crusades",
-      "job": "CCHC armed coverage ",
-      "city": "Plano"
+      "rem": "Chris Estrada",
+      "venue": "860 S Los Angeles St, 11th Floor, Los Angeles CA 90014",
+      "client": "Pickwick Vintage",
+      "job": "A Current Affair Pickwick Vintage",
+      "city": ""
     },
     {
       "rem": "Sevan Ohanians",
@@ -853,13 +839,6 @@
       "venue": "Peacock Theater",
       "client": "GunPowder",
       "job": "VMA's 2026 Main Show ",
-      "city": "Los Angeles"
-    },
-    {
-      "rem": "Chris Estrada",
-      "venue": "Crypto.com Arena",
-      "client": "UFC",
-      "job": "UFC Los Angeles Coverage",
       "city": "Los Angeles"
     },
     {
@@ -1393,19 +1372,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 37,
+      "events30": 38,
       "career": 2374,
       "recent": [
+        {
+          "name": "Los Angeles Sparks vs Portland Fire",
+          "meta": "SEP 20"
+        },
         {
           "name": "UFC 331",
           "meta": "SEP 19"
         },
         {
           "name": "UFC 331- LA Live",
-          "meta": "SEP 19"
-        },
-        {
-          "name": "A Current Affair Pickwick Vintage",
           "meta": "SEP 19"
         }
       ]
@@ -1414,9 +1393,13 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 25,
+      "events30": 26,
       "career": 355,
       "recent": [
+        {
+          "name": "48 Wall St. Event 9.20",
+          "meta": "SEP 20"
+        },
         {
           "name": "Karol G - NJ",
           "meta": "SEP 17"
@@ -1424,10 +1407,6 @@
         {
           "name": "48 Wall St. Event 9.17",
           "meta": "SEP 17"
-        },
-        {
-          "name": "48 Wall St. Event 9.16",
-          "meta": "SEP 16"
         }
       ]
     },
@@ -1460,16 +1439,16 @@
       "career": 300,
       "recent": [
         {
+          "name": "9.20-9.25 BKV",
+          "meta": "SEP 20"
+        },
+        {
           "name": "9.18 Early Stage 5",
           "meta": "SEP 18"
         },
         {
           "name": "9.17-9.18 BUG026",
           "meta": "SEP 17"
-        },
-        {
-          "name": "9.16 GPT-6 Community Gathering",
-          "meta": "SEP 16"
         }
       ]
     },
@@ -1477,9 +1456,13 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 16,
+      "events30": 17,
       "career": 456,
       "recent": [
+        {
+          "name": "Victory Fund Houston Brunch ",
+          "meta": "SEP 20"
+        },
         {
           "name": "CCHC armed coverage ",
           "meta": "SEP 18"
@@ -1487,10 +1470,6 @@
         {
           "name": "Power Slap Lubbock",
           "meta": "SEP 14"
-        },
-        {
-          "name": "IRONMAN Overnight ",
-          "meta": "SEP 12"
         }
       ]
     }
