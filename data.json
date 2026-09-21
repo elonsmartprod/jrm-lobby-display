@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T19:30:59.237Z",
-  "commit": "6089564",
+  "generatedAt": "2026-09-21T23:19:16.590Z",
+  "commit": "ee68db4",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1820,
-    "events30": 202,
-    "guards30": 1788,
+    "eventsYTD": 1824,
+    "events30": 206,
+    "guards30": 1826,
     "citiesYTD": 114,
-    "upcoming30": 94,
-    "perDay": 6.893939393939394
+    "upcoming30": 96,
+    "perDay": 6.909090909090909
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1012,
+      "ev": 1015,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 83,
-      "w": 0.08201581027667984,
+      "w": 0.08177339901477833,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 175,
-      "w": 0.17292490118577075,
+      "ev": 176,
+      "w": 0.17339901477832512,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 119,
-      "w": 0.11758893280632411,
+      "w": 0.11724137931034483,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 42,
-      "w": 0.041501976284584984,
+      "w": 0.041379310344827586,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 115,
-      "w": 0.11363636363636363,
+      "w": 0.11330049261083744,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 96,
-      "w": 0.09486166007905138,
+      "w": 0.09458128078817735,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31838694171337,
       "lat": 34.06098262879185,
-      "count": 520
+      "count": 523
     },
     {
       "name": "CA",
@@ -1379,19 +1379,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 35,
-      "career": 2375,
+      "events30": 38,
+      "career": 2379,
       "recent": [
         {
           "name": "Los Angeles Sparks vs Portland Fire",
           "meta": "SEP 20"
         },
         {
-          "name": "UFC 331",
+          "name": "UFC Fight Night",
           "meta": "SEP 19"
         },
         {
-          "name": "UFC 331- LA Live",
+          "name": "UFC 331",
           "meta": "SEP 19"
         }
       ]
@@ -1400,20 +1400,20 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 26,
-      "career": 356,
+      "events30": 27,
+      "career": 357,
       "recent": [
         {
           "name": "Persistent Systems UNGA Panel & Reception",
           "meta": "SEP 21"
         },
         {
-          "name": "48 Wall St. Event 9.21",
+          "name": "Family Movement - NYC",
           "meta": "SEP 21"
         },
         {
-          "name": "48 Wall St. Event 9.20",
-          "meta": "SEP 20"
+          "name": "48 Wall St. Event 9.21",
+          "meta": "SEP 21"
         }
       ]
     },
@@ -1664,6 +1664,7 @@
     }
   ],
   "ticker": [
+    "<b>UFC CWI </b> · Crypto.com Arena",
     "<b>Optimist Studio Youngs Group Event</b> · Optimist Studios",
     "<b>Open AI - Idaho </b> · Courtyard by Marriott Boise west ",
     "<b>Amazon Love Hypothesis EP</b> · Culver Theater",
@@ -1672,6 +1673,7 @@
     "<b>HBO Documentaries Emmy Pre-Reception</b> · Hotel Figueroa - La Casita",
     "<b>Green Hills Park Festival</b> · Nashville, TN",
     "<b>Karol G - SEATTLE 8.26</b> · Lumen Field",
+    "<b>UFC Press Conference</b> · Crypto.com Arena",
     "<b>Cinashow - Amazon AP - TX</b> · Marriott Dallas Allen Hotel &amp; Convention Center",
     "<b>Zuffa Boxing</b> · T mobile Arena",
     "<b>9.17 - Eater Dinner Party</b> · Alfies",
@@ -1681,9 +1683,7 @@
     "<b>9.17-9.18 BUG026</b> · Various",
     "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
     "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE",
-    "<b>All In Summit Networking Dinner</b> · The ROW DTLA",
-    "<b>GRAMMY MUSEUM - Public Programs</b> · Grammy Museum",
-    "<b>The Runner Alo Fitness Creator Event </b> · Alo HQ"
+    "<b>All In Summit Networking Dinner</b> · The ROW DTLA"
   ],
   "linkedin": [
     {
