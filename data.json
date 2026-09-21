@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T14:12:51.875Z",
-  "commit": "d84335e",
+  "generatedAt": "2026-09-21T19:30:59.237Z",
+  "commit": "6089564",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1821,
-    "events30": 203,
-    "guards30": 1803,
+    "eventsYTD": 1820,
+    "events30": 202,
+    "guards30": 1788,
     "citiesYTD": 114,
-    "upcoming30": 90,
-    "perDay": 6.8977272727272725
+    "upcoming30": 94,
+    "perDay": 6.893939393939394
   },
   "heatPoints": [
     {
@@ -219,16 +219,16 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 82,
-      "w": 0.08102766798418973,
+      "ev": 83,
+      "w": 0.08201581027667984,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 177,
-      "w": 0.17490118577075098,
+      "ev": 175,
+      "w": 0.17292490118577075,
       "hq": false
     },
     {
@@ -272,16 +272,16 @@
       "count": 520
     },
     {
+      "name": "CA",
+      "lon": -119.19701518288981,
+      "lat": 35.38011149592488,
+      "count": 128
+    },
+    {
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 123
-    },
-    {
-      "name": "CA",
-      "lon": -119.06410794677605,
-      "lat": 35.2781128911785,
-      "count": 121
+      "count": 122
     },
     {
       "name": "North Hollywood, CA",
@@ -356,6 +356,12 @@
       "count": 14
     },
     {
+      "name": "NY",
+      "lon": -74.20703571774901,
+      "lat": 40.97642358765554,
+      "count": 12
+    },
+    {
       "name": "UT",
       "lon": -111.87681250419418,
       "lat": 40.66516903823827,
@@ -366,12 +372,6 @@
       "lon": -87.6471605464009,
       "lat": 41.883719777886114,
       "count": 11
-    },
-    {
-      "name": "NY",
-      "lon": -74.26288325835246,
-      "lat": 41.032005464602875,
-      "count": 10
     },
     {
       "name": "Century City, CA",
@@ -398,27 +398,27 @@
       "count": 8
     },
     {
+      "name": "NV",
+      "lon": -115.16273518755638,
+      "lat": 36.119938096915504,
+      "count": 8
+    },
+    {
       "name": "San Diego, CA",
       "lon": -117.17105989752933,
       "lat": 32.742518380958835,
       "count": 7
     },
     {
-      "name": "NV",
-      "lon": -115.15551961584235,
-      "lat": 36.123639224714665,
+      "name": "TN",
+      "lon": -86.83502949346617,
+      "lat": 36.176296056377666,
       "count": 6
     },
     {
       "name": "Thermal, CA",
       "lon": -116.2023098,
       "lat": 33.6485353,
-      "count": 5
-    },
-    {
-      "name": "TN",
-      "lon": -86.8490758767316,
-      "lat": 36.184805188053,
       "count": 5
     },
     {
@@ -449,6 +449,12 @@
       "name": "Indio, CA",
       "lon": -116.228001825,
       "lat": 33.71127635,
+      "count": 4
+    },
+    {
+      "name": "TX",
+      "lon": -99.8236799021775,
+      "lat": 30.1222906712675,
       "count": 4
     },
     {
@@ -494,12 +500,6 @@
       "count": 3
     },
     {
-      "name": "TX",
-      "lon": -100.26713297812601,
-      "lat": 30.352688882635665,
-      "count": 3
-    },
-    {
       "name": "VA",
       "lon": -77.91118441348333,
       "lat": 38.40360231315133,
@@ -509,6 +509,12 @@
       "name": "Washington DC, DC",
       "lon": -77.04713597427,
       "lat": 38.927391158228,
+      "count": 3
+    },
+    {
+      "name": "FL",
+      "lon": -80.24201824009367,
+      "lat": 25.835491672862332,
       "count": 3
     },
     {
@@ -533,6 +539,12 @@
       "name": "Baltimore, MD",
       "lon": -76.62387985000001,
       "lat": 39.3050409,
+      "count": 2
+    },
+    {
+      "name": "DC",
+      "lon": -77.0691547444865,
+      "lat": 38.947662518637,
       "count": 2
     },
     {
@@ -566,6 +578,12 @@
       "count": 2
     },
     {
+      "name": "MA",
+      "lon": -71.1149614505275,
+      "lat": 42.359147313630004,
+      "count": 2
+    },
+    {
       "name": "Anaheim, CA",
       "lon": -117.9196541,
       "lat": 33.8001266,
@@ -590,39 +608,21 @@
       "count": 2
     },
     {
+      "name": "MO",
+      "lon": -90.352623988003,
+      "lat": 38.6715167585955,
+      "count": 2
+    },
+    {
+      "name": "IL",
+      "lon": -87.776477664353,
+      "lat": 41.964613104555,
+      "count": 2
+    },
+    {
       "name": "Kansas City, MO",
       "lon": -94.5854524574685,
       "lat": 39.09234505527,
-      "count": 2
-    },
-    {
-      "name": "FL",
-      "lon": -80.2215038655325,
-      "lat": 25.820675897756,
-      "count": 2
-    },
-    {
-      "name": "Little Elm, TX",
-      "lon": -96.8792593,
-      "lat": 33.17833330000001,
-      "count": 2
-    },
-    {
-      "name": "Austin, TX",
-      "lon": -97.719098684263,
-      "lat": 30.28564236639,
-      "count": 2
-    },
-    {
-      "name": "Costa Mesa, CA",
-      "lon": -117.9026252,
-      "lat": 33.6662566,
-      "count": 2
-    },
-    {
-      "name": "Riverhead, NY",
-      "lon": -72.6563066,
-      "lat": 40.9183512,
       "count": 2
     }
   ],
@@ -833,6 +833,13 @@
       "client": "The Beverly Hilton",
       "job": "Beverly Hilton - Yom Kippur ",
       "city": "Beverly Hills"
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "Palms Hotel and Casino ",
+      "client": "Palms Hotel and Casino",
+      "job": "Palms Hotel and Casino ",
+      "city": ""
     },
     {
       "rem": "Sevan Ohanians",
@@ -1373,7 +1380,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 35,
-      "career": 2374,
+      "career": 2375,
       "recent": [
         {
           "name": "Los Angeles Sparks vs Portland Fire",
@@ -1393,7 +1400,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 28,
+      "events30": 26,
       "career": 356,
       "recent": [
         {
@@ -1415,7 +1422,7 @@
       "office": "Tennessee",
       "color": "#E8B44A",
       "events30": 21,
-      "career": 304,
+      "career": 305,
       "recent": [
         {
           "name": "Margarita Festival ",
@@ -1436,7 +1443,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 18,
-      "career": 300,
+      "career": 302,
       "recent": [
         {
           "name": "9.20-9.25 BKV",
