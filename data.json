@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T23:19:16.590Z",
-  "commit": "ee68db4",
+  "generatedAt": "2026-09-22T05:00:00.432Z",
+  "commit": "04a2662",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1824,
-    "events30": 206,
-    "guards30": 1826,
+    "eventsYTD": 1832,
+    "events30": 208,
+    "guards30": 1779,
     "citiesYTD": 114,
-    "upcoming30": 96,
-    "perDay": 6.909090909090909
+    "upcoming30": 89,
+    "perDay": 6.9393939393939394
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1015,
+      "ev": 1018,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 83,
-      "w": 0.08177339901477833,
+      "w": 0.08153241650294696,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 176,
-      "w": 0.17339901477832512,
+      "ev": 178,
+      "w": 0.17485265225933203,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 119,
-      "w": 0.11724137931034483,
+      "w": 0.1168958742632613,
       "hq": false
     },
     {
@@ -244,15 +244,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 42,
-      "w": 0.041379310344827586,
+      "w": 0.0412573673870334,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 115,
-      "w": 0.11330049261083744,
+      "ev": 116,
+      "w": 0.11394891944990176,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 96,
-      "w": 0.09458128078817735,
+      "w": 0.09430255402750491,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31838694171337,
       "lat": 34.06098262879185,
-      "count": 523
+      "count": 525
     },
     {
       "name": "CA",
@@ -281,7 +281,7 @@
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 122
+      "count": 123
     },
     {
       "name": "North Hollywood, CA",
@@ -299,13 +299,13 @@
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 77
+      "count": 78
     },
     {
       "name": "Las Vegas, NV",
       "lon": -115.16164536834533,
       "lat": 36.113182004665475,
-      "count": 76
+      "count": 77
     },
     {
       "name": "Hollywood, CA",
@@ -323,7 +323,7 @@
       "name": "Culver City, CA",
       "lon": -118.39045209121825,
       "lat": 34.0242194781745,
-      "count": 32
+      "count": 33
     },
     {
       "name": "Hollywood Hills, CA",
@@ -821,18 +821,32 @@
   ],
   "todayPosts": [
     {
+      "rem": "Ryan McKillop",
+      "venue": "Dallas, TX",
+      "client": "Czarnowski ",
+      "job": "BMW iX3 Ride and Drive-Dallas",
+      "city": "Dallas"
+    },
+    {
+      "rem": "Sevan Ohanians",
+      "venue": "Peacock Theater",
+      "client": "Paramount",
+      "job": "VMA's 2026 Red Carpet",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "NYC",
+      "client": "Emerald Americas LLC",
+      "job": "Family Movement - NYC",
+      "city": "New York"
+    },
+    {
       "rem": "Mathias Gibson",
       "venue": "Vina Rosa Resort ",
       "client": "Doyle Security Services Inc.",
       "job": "9.20-9.25 BKV",
       "city": ""
-    },
-    {
-      "rem": "Alejandra Ruezga",
-      "venue": "Beverly Hilton Hotel",
-      "client": "The Beverly Hilton",
-      "job": "Beverly Hilton - Yom Kippur ",
-      "city": "Beverly Hills"
     },
     {
       "rem": "Jessica Hernandez",
@@ -847,13 +861,6 @@
       "client": "GunPowder",
       "job": "VMA's 2026 Main Show ",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "NYC",
-      "client": "Ramsay Fairs LLC",
-      "job": "Affordable Art Fair-Fall 2026 -NYC",
-      "city": "New York"
     },
     {
       "rem": "Justin McKillop",
@@ -1379,20 +1386,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 38,
+      "events30": 40,
       "career": 2379,
       "recent": [
         {
-          "name": "Los Angeles Sparks vs Portland Fire",
-          "meta": "SEP 20"
+          "name": "Love Hypothesis - Screening and Talent Intro ",
+          "meta": "SEP 22"
         },
         {
-          "name": "UFC Fight Night",
-          "meta": "SEP 19"
+          "name": "Los Angeles Kings vs Utah Mammoth- LA Live",
+          "meta": "SEP 22"
         },
         {
-          "name": "UFC 331",
-          "meta": "SEP 19"
+          "name": "Los Angeles Kings vs Utah Mammoth",
+          "meta": "SEP 22"
         }
       ]
     },
@@ -1400,19 +1407,19 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 27,
+      "events30": 29,
       "career": 357,
       "recent": [
         {
+          "name": "Yes Chef Food Fest -NY",
+          "meta": "SEP 22"
+        },
+        {
+          "name": "48 Wall St. Event 9.22",
+          "meta": "SEP 22"
+        },
+        {
           "name": "Persistent Systems UNGA Panel & Reception",
-          "meta": "SEP 21"
-        },
-        {
-          "name": "Family Movement - NYC",
-          "meta": "SEP 21"
-        },
-        {
-          "name": "48 Wall St. Event 9.21",
           "meta": "SEP 21"
         }
       ]
@@ -1442,9 +1449,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 18,
+      "events30": 19,
       "career": 302,
       "recent": [
+        {
+          "name": "9.22 Jack’s Restraunt ",
+          "meta": "SEP 22"
+        },
         {
           "name": "9.20-9.25 BKV",
           "meta": "SEP 20"
@@ -1452,10 +1463,6 @@
         {
           "name": "9.18 Early Stage 5",
           "meta": "SEP 18"
-        },
-        {
-          "name": "9.17-9.18 BUG026",
-          "meta": "SEP 17"
         }
       ]
     },
@@ -1463,7 +1470,7 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 17,
+      "events30": 16,
       "career": 456,
       "recent": [
         {
@@ -1664,12 +1671,12 @@
     }
   ],
   "ticker": [
+    "<b>DWCS 77</b> · UFC Apex",
     "<b>UFC CWI </b> · Crypto.com Arena",
     "<b>Optimist Studio Youngs Group Event</b> · Optimist Studios",
     "<b>Open AI - Idaho </b> · Courtyard by Marriott Boise west ",
     "<b>Amazon Love Hypothesis EP</b> · Culver Theater",
     "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
-    "<b>GRAMMY MUSEUM - Private Events</b> · Grammy Museum",
     "<b>HBO Documentaries Emmy Pre-Reception</b> · Hotel Figueroa - La Casita",
     "<b>Green Hills Park Festival</b> · Nashville, TN",
     "<b>Karol G - SEATTLE 8.26</b> · Lumen Field",
@@ -1677,13 +1684,13 @@
     "<b>Cinashow - Amazon AP - TX</b> · Marriott Dallas Allen Hotel &amp; Convention Center",
     "<b>Zuffa Boxing</b> · T mobile Arena",
     "<b>9.17 - Eater Dinner Party</b> · Alfies",
+    "<b>Open AI - 9.22</b> · Bayberry Gardens",
     "<b>DWCS 73</b> · UFC Apex",
     "<b>9.12 Disney Sports Clinic</b> · Ira Jenkins Community Center",
     "<b>ASLA 2026</b> · Los Angeles Convention Center",
     "<b>9.17-9.18 BUG026</b> · Various",
     "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
-    "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE",
-    "<b>All In Summit Networking Dinner</b> · The ROW DTLA"
+    "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE"
   ],
   "linkedin": [
     {
