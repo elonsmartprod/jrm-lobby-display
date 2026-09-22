@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T14:56:48.812Z",
-  "commit": "92b6c76",
+  "generatedAt": "2026-09-22T18:56:51.540Z",
+  "commit": "6ec4dce",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1832,
-    "events30": 208,
+    "eventsYTD": 1833,
+    "events30": 209,
     "guards30": 1779,
     "citiesYTD": 114,
     "upcoming30": 89,
-    "perDay": 6.913207547169812
+    "perDay": 6.916981132075471
   },
   "heatPoints": [
     {
@@ -235,8 +235,8 @@
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 119,
-      "w": 0.1168958742632613,
+      "ev": 120,
+      "w": 0.11787819253438114,
       "hq": false
     },
     {
@@ -1470,8 +1470,8 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 16,
-      "career": 456,
+      "events30": 17,
+      "career": 457,
       "recent": [
         {
           "name": "BMW iX3 Ride and Drive-Dallas",
