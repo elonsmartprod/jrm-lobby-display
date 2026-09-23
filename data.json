@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-22T22:12:13.077Z",
-  "commit": "c99210a",
+  "generatedAt": "2026-09-23T00:36:23.289Z",
+  "commit": "bd4b8ac",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1833,
-    "events30": 209,
-    "guards30": 1779,
+    "eventsYTD": 1839,
+    "events30": 206,
+    "guards30": 1775,
     "citiesYTD": 114,
-    "upcoming30": 96,
-    "perDay": 6.916981132075471
+    "upcoming30": 99,
+    "perDay": 6.939622641509434
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1018,
+      "ev": 1022,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 83,
-      "w": 0.08153241650294696,
+      "w": 0.0812133072407045,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 178,
-      "w": 0.17485265225933203,
+      "w": 0.17416829745596868,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 120,
-      "w": 0.11787819253438114,
+      "w": 0.11741682974559686,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 42,
-      "w": 0.0412573673870334,
+      "w": 0.0410958904109589,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 116,
-      "w": 0.11394891944990176,
+      "w": 0.11350293542074363,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 96,
-      "w": 0.09430255402750491,
+      "w": 0.09393346379647749,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31838694171337,
       "lat": 34.06098262879185,
-      "count": 525
+      "count": 526
     },
     {
       "name": "CA",
@@ -293,13 +293,13 @@
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 80
+      "count": 82
     },
     {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 78
+      "count": 79
     },
     {
       "name": "Las Vegas, NV",
@@ -347,7 +347,7 @@
       "name": "Santa Monica, CA",
       "lon": -118.4854448929786,
       "lat": 34.01745831092539,
-      "count": 15
+      "count": 16
     },
     {
       "name": "Salt Lake City, UT",
@@ -821,11 +821,11 @@
   ],
   "todayPosts": [
     {
-      "rem": "Ryan McKillop",
-      "venue": "Dallas, TX",
-      "client": "Czarnowski ",
-      "job": "BMW iX3 Ride and Drive-Dallas",
-      "city": "Dallas"
+      "rem": "Tony D’Gracia",
+      "venue": "Citi Field-NYC",
+      "client": "Symbiotic Event Services",
+      "job": "Yes Chef Food Fest -NY",
+      "city": ""
     },
     {
       "rem": "Sevan Ohanians",
@@ -1387,18 +1387,18 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 40,
-      "career": 2379,
+      "career": 2381,
       "recent": [
+        {
+          "name": "Beyond Fest ",
+          "meta": "SEP 23"
+        },
         {
           "name": "Love Hypothesis - Screening and Talent Intro ",
           "meta": "SEP 22"
         },
         {
           "name": "Los Angeles Kings vs Utah Mammoth- LA Live",
-          "meta": "SEP 22"
-        },
-        {
-          "name": "Los Angeles Kings vs Utah Mammoth",
           "meta": "SEP 22"
         }
       ]
@@ -1407,8 +1407,8 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 29,
-      "career": 357,
+      "events30": 28,
+      "career": 361,
       "recent": [
         {
           "name": "Yes Chef Food Fest -NY",
@@ -1425,10 +1425,31 @@
       ]
     },
     {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 21,
+      "career": 303,
+      "recent": [
+        {
+          "name": "9.23 Outliers Fest",
+          "meta": "SEP 23"
+        },
+        {
+          "name": "9.23-9.26 Emerald Driver",
+          "meta": "SEP 23"
+        },
+        {
+          "name": "9.22 Jack’s Restraunt ",
+          "meta": "SEP 22"
+        }
+      ]
+    },
+    {
       "name": "Justin McKillop",
       "office": "Tennessee",
       "color": "#E8B44A",
-      "events30": 21,
+      "events30": 16,
       "career": 305,
       "recent": [
         {
@@ -1446,31 +1467,10 @@
       ]
     },
     {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
-      "color": "#E8B44A",
-      "events30": 19,
-      "career": 303,
-      "recent": [
-        {
-          "name": "9.22 Jack’s Restraunt ",
-          "meta": "SEP 22"
-        },
-        {
-          "name": "9.20-9.25 BKV",
-          "meta": "SEP 20"
-        },
-        {
-          "name": "9.18 Early Stage 5",
-          "meta": "SEP 18"
-        }
-      ]
-    },
-    {
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 17,
+      "events30": 16,
       "career": 457,
       "recent": [
         {
