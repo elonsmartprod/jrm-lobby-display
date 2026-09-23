@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T20:25:09.055Z",
-  "commit": "a2b8c50",
+  "generatedAt": "2026-09-23T23:44:23.907Z",
+  "commit": "293e35c",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1842,
-    "events30": 209,
+    "eventsYTD": 1843,
+    "events30": 210,
     "guards30": 1778,
     "citiesYTD": 114,
-    "upcoming30": 111,
-    "perDay": 6.924812030075188
+    "upcoming30": 112,
+    "perDay": 6.928571428571429
   },
   "heatPoints": [
     {
@@ -235,8 +235,8 @@
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 120,
-      "w": 0.11741682974559686,
+      "ev": 121,
+      "w": 0.11839530332681017,
       "hq": false
     },
     {
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31838694171337,
       "lat": 34.06098262879185,
-      "count": 526
+      "count": 527
     },
     {
       "name": "CA",
@@ -1429,7 +1429,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 22,
-      "career": 311,
+      "career": 312,
       "recent": [
         {
           "name": "9.23 Outliers Fest",
@@ -1442,6 +1442,27 @@
         {
           "name": "9.23-9.24 COMMIT 2026",
           "meta": "SEP 23"
+        }
+      ]
+    },
+    {
+      "name": "Ryan McKillop",
+      "office": "Texas",
+      "color": "#E8B44A",
+      "events30": 17,
+      "career": 458,
+      "recent": [
+        {
+          "name": "BMW iX3 Ride and Drive-Dallas",
+          "meta": "SEP 21"
+        },
+        {
+          "name": "Victory Fund Houston Brunch ",
+          "meta": "SEP 20"
+        },
+        {
+          "name": "CCHC armed coverage ",
+          "meta": "SEP 18"
         }
       ]
     },
@@ -1463,27 +1484,6 @@
         {
           "name": "HOTB Premiere ",
           "meta": "SEP 15"
-        }
-      ]
-    },
-    {
-      "name": "Ryan McKillop",
-      "office": "Texas",
-      "color": "#E8B44A",
-      "events30": 16,
-      "career": 457,
-      "recent": [
-        {
-          "name": "BMW iX3 Ride and Drive-Dallas",
-          "meta": "SEP 21"
-        },
-        {
-          "name": "Victory Fund Houston Brunch ",
-          "meta": "SEP 20"
-        },
-        {
-          "name": "CCHC armed coverage ",
-          "meta": "SEP 18"
         }
       ]
     }
