@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T00:36:23.289Z",
-  "commit": "bd4b8ac",
+  "generatedAt": "2026-09-23T06:00:36.338Z",
+  "commit": "1a81d8e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1839,
-    "events30": 206,
-    "guards30": 1775,
+    "eventsYTD": 1841,
+    "events30": 208,
+    "guards30": 1777,
     "citiesYTD": 114,
-    "upcoming30": 99,
-    "perDay": 6.939622641509434
+    "upcoming30": 101,
+    "perDay": 6.947169811320754
   },
   "heatPoints": [
     {
@@ -251,16 +251,16 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 116,
-      "w": 0.11350293542074363,
+      "ev": 117,
+      "w": 0.11448140900195694,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 96,
-      "w": 0.09393346379647749,
+      "ev": 97,
+      "w": 0.0949119373776908,
       "hq": false
     }
   ],
@@ -1408,7 +1408,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 28,
-      "career": 361,
+      "career": 362,
       "recent": [
         {
           "name": "Yes Chef Food Fest -NY",
@@ -1675,6 +1675,7 @@
     "<b>UFC CWI </b> · Crypto.com Arena",
     "<b>Optimist Studio Youngs Group Event</b> · Optimist Studios",
     "<b>Open AI - Idaho </b> · Courtyard by Marriott Boise west ",
+    "<b>9.22 Emerald Americas AZ </b> · Four Seasons Scottsdale",
     "<b>Amazon Love Hypothesis EP</b> · Culver Theater",
     "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
     "<b>HBO Documentaries Emmy Pre-Reception</b> · Hotel Figueroa - La Casita",
@@ -1689,8 +1690,7 @@
     "<b>9.12 Disney Sports Clinic</b> · Ira Jenkins Community Center",
     "<b>ASLA 2026</b> · Los Angeles Convention Center",
     "<b>9.17-9.18 BUG026</b> · Various",
-    "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
-    "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE"
+    "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort "
   ],
   "linkedin": [
     {
