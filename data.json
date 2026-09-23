@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T11:41:06.068Z",
-  "commit": "a79f772",
+  "generatedAt": "2026-09-23T17:04:25.830Z",
+  "commit": "b28336d",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1841,
-    "events30": 208,
-    "guards30": 1777,
+    "eventsYTD": 1842,
+    "events30": 209,
+    "guards30": 1779,
     "citiesYTD": 114,
-    "upcoming30": 101,
-    "perDay": 6.947169811320754
+    "upcoming30": 104,
+    "perDay": 6.924812030075188
   },
   "heatPoints": [
     {
@@ -1428,8 +1428,8 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 21,
-      "career": 303,
+      "events30": 22,
+      "career": 306,
       "recent": [
         {
           "name": "9.23 Outliers Fest",
@@ -1440,8 +1440,8 @@
           "meta": "SEP 23"
         },
         {
-          "name": "9.22 Jack’s Restraunt ",
-          "meta": "SEP 22"
+          "name": "9.23-9.24 COMMIT 2026",
+          "meta": "SEP 23"
         }
       ]
     },
