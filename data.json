@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T17:04:25.830Z",
-  "commit": "b28336d",
+  "generatedAt": "2026-09-23T20:25:09.055Z",
+  "commit": "a2b8c50",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -201,9 +201,9 @@
   "metrics": {
     "eventsYTD": 1842,
     "events30": 209,
-    "guards30": 1779,
+    "guards30": 1778,
     "citiesYTD": 114,
-    "upcoming30": 104,
+    "upcoming30": 111,
     "perDay": 6.924812030075188
   },
   "heatPoints": [
@@ -219,16 +219,16 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 83,
-      "w": 0.0812133072407045,
+      "ev": 84,
+      "w": 0.0821917808219178,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 178,
-      "w": 0.17416829745596868,
+      "ev": 177,
+      "w": 0.17318982387475537,
       "hq": false
     },
     {
@@ -281,7 +281,7 @@
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 123
+      "count": 122
     },
     {
       "name": "North Hollywood, CA",
@@ -1387,7 +1387,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 40,
-      "career": 2381,
+      "career": 2382,
       "recent": [
         {
           "name": "Beyond Fest ",
@@ -1407,19 +1407,19 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 28,
-      "career": 362,
+      "events30": 27,
+      "career": 363,
       "recent": [
         {
           "name": "Yes Chef Food Fest -NY",
           "meta": "SEP 22"
         },
         {
-          "name": "48 Wall St. Event 9.22",
-          "meta": "SEP 22"
+          "name": "Persistent Systems UNGA Panel & Reception",
+          "meta": "SEP 21"
         },
         {
-          "name": "Persistent Systems UNGA Panel & Reception",
+          "name": "Family Movement - NYC",
           "meta": "SEP 21"
         }
       ]
@@ -1429,7 +1429,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 22,
-      "career": 306,
+      "career": 311,
       "recent": [
         {
           "name": "9.23 Outliers Fest",
