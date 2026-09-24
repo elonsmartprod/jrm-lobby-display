@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T23:44:23.907Z",
-  "commit": "293e35c",
+  "generatedAt": "2026-09-24T04:55:00.622Z",
+  "commit": "da04c94",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1843,
-    "events30": 210,
-    "guards30": 1778,
+    "eventsYTD": 1853,
+    "events30": 208,
+    "guards30": 1794,
     "citiesYTD": 114,
-    "upcoming30": 112,
-    "perDay": 6.928571428571429
+    "upcoming30": 108,
+    "perDay": 6.966165413533835
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1022,
+      "ev": 1028,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 84,
-      "w": 0.0821917808219178,
+      "w": 0.08171206225680934,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 177,
-      "w": 0.17318982387475537,
+      "ev": 178,
+      "w": 0.17315175097276264,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 121,
-      "w": 0.11839530332681017,
+      "w": 0.11770428015564202,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 42,
-      "w": 0.0410958904109589,
+      "w": 0.04085603112840467,
       "hq": false
     },
     {
@@ -252,24 +252,24 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 117,
-      "w": 0.11448140900195694,
+      "w": 0.11381322957198443,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 97,
-      "w": 0.0949119373776908,
+      "ev": 98,
+      "w": 0.09533073929961089,
       "hq": false
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.31838694171337,
-      "lat": 34.06098262879185,
-      "count": 527
+      "lon": -118.31859980673924,
+      "lat": 34.06097253565175,
+      "count": 530
     },
     {
       "name": "CA",
@@ -293,25 +293,25 @@
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 82
+      "count": 83
     },
     {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 79
+      "count": 80
     },
     {
       "name": "Las Vegas, NV",
       "lon": -115.16164536834533,
       "lat": 36.113182004665475,
-      "count": 77
+      "count": 78
     },
     {
       "name": "Hollywood, CA",
       "lon": -118.33277580612615,
       "lat": 34.097870581608326,
-      "count": 49
+      "count": 50
     },
     {
       "name": "Beverly Hills, CA",
@@ -323,7 +323,7 @@
       "name": "Culver City, CA",
       "lon": -118.39045209121825,
       "lat": 34.0242194781745,
-      "count": 33
+      "count": 34
     },
     {
       "name": "Hollywood Hills, CA",
@@ -820,6 +820,34 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Mathias Gibson",
+      "venue": "Various",
+      "client": "Emerald Americas LLC",
+      "job": "9.23-9.26 Emerald Driver",
+      "city": ""
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "Park James Hotel",
+      "client": "Emerald Americas LLC",
+      "job": "9.23-9.24 COMMIT 2026",
+      "city": "Menlo Park"
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "SVN West",
+      "client": "Lally Events",
+      "job": "9.23 Outliers Fest",
+      "city": "San Francisco"
+    },
+    {
+      "rem": "Mivonta Fulwood",
+      "venue": "Pacific Design Center",
+      "client": "NVE Experience",
+      "job": "NVE Runners Race",
+      "city": "West Hollywood"
+    },
     {
       "rem": "Tony D’Gracia",
       "venue": "Citi Field-NYC",
@@ -1386,20 +1414,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 40,
-      "career": 2382,
+      "events30": 43,
+      "career": 2385,
       "recent": [
         {
-          "name": "Beyond Fest ",
-          "meta": "SEP 23"
+          "name": "Los Angeles Sparks vs Golden State Valkyries",
+          "meta": "SEP 24"
         },
         {
-          "name": "Love Hypothesis - Screening and Talent Intro ",
-          "meta": "SEP 22"
+          "name": "Amazon The Greatest LA awards Press Critics Screening",
+          "meta": "SEP 24"
         },
         {
-          "name": "Los Angeles Kings vs Utah Mammoth- LA Live",
-          "meta": "SEP 22"
+          "name": "SAG Nom Com + Q&A",
+          "meta": "SEP 24"
         }
       ]
     },
@@ -1411,15 +1439,15 @@
       "career": 363,
       "recent": [
         {
+          "name": "Mazarine NY Pop Up 9.24",
+          "meta": "SEP 24"
+        },
+        {
           "name": "Yes Chef Food Fest -NY",
           "meta": "SEP 22"
         },
         {
           "name": "Persistent Systems UNGA Panel & Reception",
-          "meta": "SEP 21"
-        },
-        {
-          "name": "Family Movement - NYC",
           "meta": "SEP 21"
         }
       ]
@@ -1432,15 +1460,15 @@
       "career": 312,
       "recent": [
         {
+          "name": "9.24 Jacks",
+          "meta": "SEP 24"
+        },
+        {
           "name": "9.23 Outliers Fest",
           "meta": "SEP 23"
         },
         {
           "name": "9.23-9.26 Emerald Driver",
-          "meta": "SEP 23"
-        },
-        {
-          "name": "9.23-9.24 COMMIT 2026",
           "meta": "SEP 23"
         }
       ]
@@ -1467,23 +1495,23 @@
       ]
     },
     {
-      "name": "Justin McKillop",
-      "office": "Tennessee",
+      "name": "Mivonta Fulwood",
+      "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 16,
-      "career": 305,
+      "events30": 14,
+      "career": 50,
       "recent": [
         {
-          "name": "Margarita Festival ",
+          "name": "Runners Race",
+          "meta": "SEP 23"
+        },
+        {
+          "name": "NVE Runners Race",
+          "meta": "SEP 23"
+        },
+        {
+          "name": "Beauty Con",
           "meta": "SEP 19"
-        },
-        {
-          "name": "Porchfest 2026",
-          "meta": "SEP 18"
-        },
-        {
-          "name": "HOTB Premiere ",
-          "meta": "SEP 15"
         }
       ]
     }
@@ -1634,15 +1662,6 @@
       "upcoming": false
     },
     {
-      "client": "Symbiotic Event Services",
-      "title": "LA Comic Con",
-      "venue": "Los Angeles Convention Center · Los Angeles",
-      "badges": [
-        "Convention"
-      ],
-      "upcoming": false
-    },
-    {
       "client": "Nike",
       "title": "Mamba League Invitational 2026",
       "venue": "LA Live · Los Angeles",
@@ -1668,6 +1687,15 @@
         "Apts-Condos-Office Bldg"
       ],
       "upcoming": false
+    },
+    {
+      "client": "Amazon",
+      "title": "Amazon Ignite",
+      "venue": "Aria  · Las Vegas",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": false
     }
   ],
   "ticker": [
@@ -1676,21 +1704,21 @@
     "<b>Optimist Studio Youngs Group Event</b> · Optimist Studios",
     "<b>Open AI - Idaho </b> · Courtyard by Marriott Boise west ",
     "<b>9.22 Emerald Americas AZ </b> · Four Seasons Scottsdale",
+    "<b>BJJ 11</b> · UFC Apex",
     "<b>Amazon Love Hypothesis EP</b> · Culver Theater",
     "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
     "<b>HBO Documentaries Emmy Pre-Reception</b> · Hotel Figueroa - La Casita",
     "<b>Green Hills Park Festival</b> · Nashville, TN",
     "<b>Karol G - SEATTLE 8.26</b> · Lumen Field",
     "<b>UFC Press Conference</b> · Crypto.com Arena",
-    "<b>Cinashow - Amazon AP - TX</b> · Marriott Dallas Allen Hotel &amp; Convention Center",
     "<b>Zuffa Boxing</b> · T mobile Arena",
     "<b>9.17 - Eater Dinner Party</b> · Alfies",
     "<b>Open AI - 9.22</b> · Bayberry Gardens",
-    "<b>DWCS 73</b> · UFC Apex",
     "<b>9.12 Disney Sports Clinic</b> · Ira Jenkins Community Center",
     "<b>ASLA 2026</b> · Los Angeles Convention Center",
     "<b>9.17-9.18 BUG026</b> · Various",
-    "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort "
+    "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
+    "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE"
   ],
   "linkedin": [
     {
