@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T19:12:34.959Z",
-  "commit": "7948e2a",
+  "generatedAt": "2026-09-24T22:26:50.027Z",
+  "commit": "051e479",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 208,
     "guards30": 1794,
     "citiesYTD": 114,
-    "upcoming30": 115,
+    "upcoming30": 118,
     "perDay": 6.940074906367041
   },
   "heatPoints": [
@@ -1415,7 +1415,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 43,
-      "career": 2386,
+      "career": 2388,
       "recent": [
         {
           "name": "Los Angeles Sparks vs Golden State Valkyries",
@@ -1457,7 +1457,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 22,
-      "career": 312,
+      "career": 313,
       "recent": [
         {
           "name": "9.24 Jacks",
