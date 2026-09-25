@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-24T22:26:50.027Z",
-  "commit": "051e479",
+  "generatedAt": "2026-09-25T01:33:09.659Z",
+  "commit": "1a4456a",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1853,
-    "events30": 208,
-    "guards30": 1794,
+    "eventsYTD": 1861,
+    "events30": 211,
+    "guards30": 1826,
     "citiesYTD": 114,
-    "upcoming30": 118,
-    "perDay": 6.940074906367041
+    "upcoming30": 112,
+    "perDay": 6.9700374531835205
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1028,
+      "ev": 1032,
       "w": 1,
       "hq": true
     },
@@ -220,23 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 84,
-      "w": 0.08171206225680934,
+      "w": 0.08139534883720931,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 178,
-      "w": 0.17315175097276264,
+      "ev": 181,
+      "w": 0.1753875968992248,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 121,
-      "w": 0.11770428015564202,
+      "ev": 122,
+      "w": 0.1182170542635659,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 42,
-      "w": 0.04085603112840467,
+      "w": 0.040697674418604654,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 117,
-      "w": 0.11381322957198443,
+      "w": 0.11337209302325581,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 98,
-      "w": 0.09533073929961089,
+      "w": 0.09496124031007752,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31859980673924,
       "lat": 34.06097253565175,
-      "count": 530
+      "count": 532
     },
     {
       "name": "CA",
@@ -281,13 +281,13 @@
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 122
+      "count": 123
     },
     {
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 83
+      "count": 84
     },
     {
       "name": "West Hollywood, CA",
@@ -335,7 +335,7 @@
       "name": "Dallas, TX",
       "lon": -96.80460389999998,
       "lat": 32.80861900000001,
-      "count": 16
+      "count": 17
     },
     {
       "name": "Nashville, TN",
@@ -464,6 +464,12 @@
       "count": 3
     },
     {
+      "name": "Burbank, CA",
+      "lon": -118.3120395,
+      "lat": 34.1818707,
+      "count": 3
+    },
+    {
       "name": "WA",
       "lon": -122.02643791509333,
       "lat": 47.53468454939267,
@@ -527,12 +533,6 @@
       "name": "Park City, UT",
       "lon": -111.496941233666,
       "lat": 40.656708990783,
-      "count": 2
-    },
-    {
-      "name": "Burbank, CA",
-      "lon": -118.3120395,
-      "lat": 34.1818707,
       "count": 2
     },
     {
@@ -821,25 +821,18 @@
   ],
   "todayPosts": [
     {
+      "rem": "Tony D’Gracia",
+      "venue": "NYC",
+      "client": "Mazarine New York",
+      "job": "Mazarine NY Pop Up 9.24",
+      "city": "New York"
+    },
+    {
       "rem": "Mathias Gibson",
       "venue": "Various",
       "client": "Emerald Americas LLC",
       "job": "9.23-9.26 Emerald Driver",
       "city": ""
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Park James Hotel",
-      "client": "Emerald Americas LLC",
-      "job": "9.23-9.24 COMMIT 2026",
-      "city": "Menlo Park"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "SVN West",
-      "client": "Lally Events",
-      "job": "9.23 Outliers Fest",
-      "city": "San Francisco"
     },
     {
       "rem": "Mivonta Fulwood",
@@ -861,13 +854,6 @@
       "client": "Paramount",
       "job": "VMA's 2026 Red Carpet",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "NYC",
-      "client": "Emerald Americas LLC",
-      "job": "Family Movement - NYC",
-      "city": "New York"
     },
     {
       "rem": "Mathias Gibson",
@@ -1414,20 +1400,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 43,
-      "career": 2388,
+      "events30": 46,
+      "career": 2389,
       "recent": [
         {
-          "name": "Los Angeles Sparks vs Golden State Valkyries",
-          "meta": "SEP 24"
+          "name": "Yandel",
+          "meta": "SEP 25"
         },
         {
-          "name": "Amazon The Greatest LA awards Press Critics Screening",
-          "meta": "SEP 24"
+          "name": "Yandel- LA Live",
+          "meta": "SEP 25"
         },
         {
-          "name": "SAG Nom Com + Q&A",
-          "meta": "SEP 24"
+          "name": "Opening weekend ",
+          "meta": "SEP 25"
         }
       ]
     },
@@ -1435,20 +1421,20 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 27,
+      "events30": 30,
       "career": 363,
       "recent": [
         {
-          "name": "Mazarine NY Pop Up 9.24",
-          "meta": "SEP 24"
+          "name": "TRA- 9.25",
+          "meta": "SEP 25"
         },
         {
-          "name": "Yes Chef Food Fest -NY",
-          "meta": "SEP 22"
+          "name": "IHC x NJ",
+          "meta": "SEP 25"
         },
         {
-          "name": "Persistent Systems UNGA Panel & Reception",
-          "meta": "SEP 21"
+          "name": "Open AI - EDU NYC 9.25",
+          "meta": "SEP 25"
         }
       ]
     },
@@ -1456,7 +1442,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 20,
       "career": 313,
       "recent": [
         {
@@ -1477,9 +1463,13 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 17,
+      "events30": 18,
       "career": 458,
       "recent": [
+        {
+          "name": "MHH 9/25",
+          "meta": "SEP 25"
+        },
         {
           "name": "BMW iX3 Ride and Drive-Dallas",
           "meta": "SEP 21"
@@ -1487,10 +1477,6 @@
         {
           "name": "Victory Fund Houston Brunch ",
           "meta": "SEP 20"
-        },
-        {
-          "name": "CCHC armed coverage ",
-          "meta": "SEP 18"
         }
       ]
     },
@@ -1709,7 +1695,6 @@
     "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
     "<b>HBO Documentaries Emmy Pre-Reception</b> · Hotel Figueroa - La Casita",
     "<b>Green Hills Park Festival</b> · Nashville, TN",
-    "<b>Karol G - SEATTLE 8.26</b> · Lumen Field",
     "<b>UFC Press Conference</b> · Crypto.com Arena",
     "<b>Zuffa Boxing</b> · T mobile Arena",
     "<b>9.17 - Eater Dinner Party</b> · Alfies",
@@ -1718,7 +1703,8 @@
     "<b>ASLA 2026</b> · Los Angeles Convention Center",
     "<b>9.17-9.18 BUG026</b> · Various",
     "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
-    "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE"
+    "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE",
+    "<b>All In Summit Networking Dinner</b> · The ROW DTLA"
   ],
   "linkedin": [
     {
