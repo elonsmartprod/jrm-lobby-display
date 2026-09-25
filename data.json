@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T18:39:03.011Z",
-  "commit": "53964b8",
+  "generatedAt": "2026-09-25T22:23:23.191Z",
+  "commit": "0331b99",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1862,
-    "events30": 212,
-    "guards30": 1826,
+    "eventsYTD": 1860,
+    "events30": 210,
+    "guards30": 1816,
     "citiesYTD": 114,
-    "upcoming30": 113,
-    "perDay": 6.947761194029851
+    "upcoming30": 119,
+    "perDay": 6.940298507462686
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1032,
+      "ev": 1030,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 85,
-      "w": 0.08236434108527131,
+      "w": 0.0825242718446602,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 181,
-      "w": 0.1753875968992248,
+      "w": 0.17572815533980582,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 122,
-      "w": 0.1182170542635659,
+      "w": 0.11844660194174757,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 42,
-      "w": 0.040697674418604654,
+      "w": 0.040776699029126215,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 117,
-      "w": 0.11337209302325581,
+      "w": 0.11359223300970873,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 98,
-      "w": 0.09496124031007752,
+      "w": 0.09514563106796116,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31859980673924,
       "lat": 34.06097253565175,
-      "count": 532
+      "count": 530
     },
     {
       "name": "CA",
@@ -1400,7 +1400,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 46,
+      "events30": 44,
       "career": 2389,
       "recent": [
         {
@@ -1485,7 +1485,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 14,
-      "career": 50,
+      "career": 53,
       "recent": [
         {
           "name": "Runners Race",
