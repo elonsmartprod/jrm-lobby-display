@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T22:23:23.191Z",
-  "commit": "0331b99",
+  "generatedAt": "2026-09-26T01:36:32.896Z",
+  "commit": "e9df82f",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1860,
-    "events30": 210,
-    "guards30": 1816,
+    "eventsYTD": 1872,
+    "events30": 217,
+    "guards30": 1873,
     "citiesYTD": 114,
-    "upcoming30": 119,
-    "perDay": 6.940298507462686
+    "upcoming30": 109,
+    "perDay": 6.985074626865671
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1030,
+      "ev": 1038,
       "w": 1,
       "hq": true
     },
@@ -219,24 +219,24 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 85,
-      "w": 0.0825242718446602,
+      "ev": 86,
+      "w": 0.08285163776493257,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 181,
-      "w": 0.17572815533980582,
+      "ev": 182,
+      "w": 0.17533718689788053,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 122,
-      "w": 0.11844660194174757,
+      "ev": 123,
+      "w": 0.11849710982658959,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 42,
-      "w": 0.040776699029126215,
+      "w": 0.04046242774566474,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 117,
-      "w": 0.11359223300970873,
+      "w": 0.11271676300578035,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 98,
-      "w": 0.09514563106796116,
+      "w": 0.09441233140655106,
       "hq": false
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.31859980673924,
       "lat": 34.06097253565175,
-      "count": 530
+      "count": 532
     },
     {
       "name": "CA",
       "lon": -119.19701518288981,
       "lat": 35.38011149592488,
-      "count": 128
+      "count": 129
     },
     {
       "name": "New York, NY",
@@ -296,16 +296,16 @@
       "count": 83
     },
     {
+      "name": "Las Vegas, NV",
+      "lon": -115.16164536834533,
+      "lat": 36.113182004665475,
+      "count": 80
+    },
+    {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
       "count": 80
-    },
-    {
-      "name": "Las Vegas, NV",
-      "lon": -115.16164536834533,
-      "lat": 36.113182004665475,
-      "count": 79
     },
     {
       "name": "Hollywood, CA",
@@ -329,7 +329,7 @@
       "name": "Hollywood Hills, CA",
       "lon": -118.3377778,
       "lat": 34.1077778,
-      "count": 25
+      "count": 26
     },
     {
       "name": "Dallas, TX",
@@ -338,15 +338,15 @@
       "count": 17
     },
     {
-      "name": "Nashville, TN",
-      "lon": -86.72942341700772,
-      "lat": 36.10218930443827,
-      "count": 16
-    },
-    {
       "name": "Santa Monica, CA",
       "lon": -118.4854448929786,
       "lat": 34.01745831092539,
+      "count": 17
+    },
+    {
+      "name": "Nashville, TN",
+      "lon": -86.72942341700772,
+      "lat": 36.10218930443827,
       "count": 16
     },
     {
@@ -377,7 +377,7 @@
       "name": "Century City, CA",
       "lon": -118.41705353333334,
       "lat": 34.0562655,
-      "count": 9
+      "count": 10
     },
     {
       "name": "Miami, FL",
@@ -416,6 +416,12 @@
       "count": 6
     },
     {
+      "name": "Houston, TX",
+      "lon": -95.36001309999999,
+      "lat": 29.751439433333335,
+      "count": 6
+    },
+    {
       "name": "Thermal, CA",
       "lon": -116.2023098,
       "lat": 33.6485353,
@@ -428,10 +434,10 @@
       "count": 5
     },
     {
-      "name": "Houston, TX",
-      "lon": -95.36136619999999,
-      "lat": 29.75116055,
-      "count": 5
+      "name": "Burbank, CA",
+      "lon": -118.3120395,
+      "lat": 34.1818707,
+      "count": 4
     },
     {
       "name": "Long Beach, CA",
@@ -458,15 +464,15 @@
       "count": 4
     },
     {
+      "name": "Santa Barbara, CA",
+      "lon": -119.7067795,
+      "lat": 34.4389,
+      "count": 4
+    },
+    {
       "name": "Denver, CO",
       "lon": -104.970397377045,
       "lat": 39.708691521729,
-      "count": 3
-    },
-    {
-      "name": "Burbank, CA",
-      "lon": -118.3120395,
-      "lat": 34.1818707,
       "count": 3
     },
     {
@@ -491,12 +497,6 @@
       "name": "Universal City, CA",
       "lon": -118.352547,
       "lat": 34.1371163,
-      "count": 3
-    },
-    {
-      "name": "Santa Barbara, CA",
-      "lon": -119.7067795,
-      "lat": 34.4389,
       "count": 3
     },
     {
@@ -854,13 +854,6 @@
       "client": "Paramount",
       "job": "VMA's 2026 Red Carpet",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Vina Rosa Resort ",
-      "client": "Doyle Security Services Inc.",
-      "job": "9.20-9.25 BKV",
-      "city": ""
     },
     {
       "rem": "Jessica Hernandez",
@@ -1400,20 +1393,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 44,
+      "events30": 48,
       "career": 2389,
       "recent": [
         {
-          "name": "Yandel",
-          "meta": "SEP 25"
+          "name": "Los Angeles Kings vs Anaheim Ducks- LA Live",
+          "meta": "SEP 26"
         },
         {
-          "name": "Yandel- LA Live",
-          "meta": "SEP 25"
+          "name": "Amazon Mann On The Run SBIFF",
+          "meta": "SEP 26"
         },
         {
-          "name": "Opening weekend ",
-          "meta": "SEP 25"
+          "name": "Opening Weekend Q&A's ",
+          "meta": "SEP 26"
         }
       ]
     },
@@ -1421,19 +1414,19 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 30,
+      "events30": 31,
       "career": 363,
       "recent": [
+        {
+          "name": "Nike x SP27 Vomero 19 Photoshoot",
+          "meta": "SEP 26"
+        },
         {
           "name": "TRA- 9.25",
           "meta": "SEP 25"
         },
         {
           "name": "IHC x NJ",
-          "meta": "SEP 25"
-        },
-        {
-          "name": "Open AI - EDU NYC 9.25",
           "meta": "SEP 25"
         }
       ]
@@ -1442,19 +1435,19 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 20,
+      "events30": 21,
       "career": 313,
       "recent": [
+        {
+          "name": "9.26 Cover Ups",
+          "meta": "SEP 26"
+        },
         {
           "name": "9.24 Jacks",
           "meta": "SEP 24"
         },
         {
           "name": "9.23 Outliers Fest",
-          "meta": "SEP 23"
-        },
-        {
-          "name": "9.23-9.26 Emerald Driver",
           "meta": "SEP 23"
         }
       ]
@@ -1463,9 +1456,13 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 18,
+      "events30": 19,
       "career": 458,
       "recent": [
+        {
+          "name": "Untitled Art Show Houston 2026",
+          "meta": "SEP 26"
+        },
         {
           "name": "MHH 9/25",
           "meta": "SEP 25"
@@ -1473,31 +1470,27 @@
         {
           "name": "BMW iX3 Ride and Drive-Dallas",
           "meta": "SEP 21"
-        },
-        {
-          "name": "Victory Fund Houston Brunch ",
-          "meta": "SEP 20"
         }
       ]
     },
     {
-      "name": "Mivonta Fulwood",
+      "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 14,
-      "career": 53,
+      "events30": 13,
+      "career": 47,
       "recent": [
         {
-          "name": "Runners Race",
-          "meta": "SEP 23"
+          "name": "Gina Wade Trial Lawyers for Justice Conference & Reception",
+          "meta": "SEP 26"
         },
         {
-          "name": "NVE Runners Race",
-          "meta": "SEP 23"
+          "name": "Bite Catering Event",
+          "meta": "SEP 26"
         },
         {
-          "name": "Beauty Con",
-          "meta": "SEP 19"
+          "name": "Gina Wade S.W.A.T Premiere Post Reception",
+          "meta": "SEP 24"
         }
       ]
     }
@@ -1612,6 +1605,15 @@
       "upcoming": false
     },
     {
+      "client": "AutoDesk",
+      "title": "Autodesk - AU 2026 - Las Vegas, NV",
+      "venue": "100 Thieves",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": false
+    },
+    {
       "client": "Dick Clark Productions",
       "title": "Golden Globes 2026",
       "venue": "Beverly Hilton Hotel · Beverly Hills",
@@ -1673,15 +1675,6 @@
         "Apts-Condos-Office Bldg"
       ],
       "upcoming": false
-    },
-    {
-      "client": "Amazon",
-      "title": "Amazon Ignite",
-      "venue": "Aria  · Las Vegas",
-      "badges": [
-        "Convention"
-      ],
-      "upcoming": false
     }
   ],
   "ticker": [
@@ -1691,7 +1684,6 @@
     "<b>Open AI - Idaho </b> · Courtyard by Marriott Boise west ",
     "<b>9.22 Emerald Americas AZ </b> · Four Seasons Scottsdale",
     "<b>BJJ 11</b> · UFC Apex",
-    "<b>Amazon Love Hypothesis EP</b> · Culver Theater",
     "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
     "<b>HBO Documentaries Emmy Pre-Reception</b> · Hotel Figueroa - La Casita",
     "<b>Green Hills Park Festival</b> · Nashville, TN",
@@ -1704,7 +1696,8 @@
     "<b>9.17-9.18 BUG026</b> · Various",
     "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
     "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE",
-    "<b>All In Summit Networking Dinner</b> · The ROW DTLA"
+    "<b>All In Summit Networking Dinner</b> · The ROW DTLA",
+    "<b>UFC Fight Night</b> · Crypto.com Arena"
   ],
   "linkedin": [
     {
