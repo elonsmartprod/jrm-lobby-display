@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T13:07:52.671Z",
-  "commit": "7462485",
+  "generatedAt": "2026-09-26T17:12:17.644Z",
+  "commit": "bf103b3",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 217,
     "guards30": 1873,
     "citiesYTD": 114,
-    "upcoming30": 112,
+    "upcoming30": 116,
     "perDay": 6.95910780669145
   },
   "heatPoints": [
@@ -1394,7 +1394,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 48,
-      "career": 2390,
+      "career": 2393,
       "recent": [
         {
           "name": "Los Angeles Kings vs Anaheim Ducks- LA Live",
@@ -1478,7 +1478,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 13,
-      "career": 48,
+      "career": 49,
       "recent": [
         {
           "name": "Gina Wade Trial Lawyers for Justice Conference & Reception",
