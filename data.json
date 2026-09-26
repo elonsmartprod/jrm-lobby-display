@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T17:12:17.644Z",
-  "commit": "bf103b3",
+  "generatedAt": "2026-09-26T19:53:54.953Z",
+  "commit": "61a4fcf",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 217,
     "guards30": 1873,
     "citiesYTD": 114,
-    "upcoming30": 116,
+    "upcoming30": 118,
     "perDay": 6.95910780669145
   },
   "heatPoints": [
@@ -1436,7 +1436,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 21,
-      "career": 313,
+      "career": 314,
       "recent": [
         {
           "name": "9.26 Cover Ups",
