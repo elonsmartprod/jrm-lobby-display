@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-27T18:28:07.523Z",
-  "commit": "d082209",
+  "generatedAt": "2026-09-27T22:14:13.801Z",
+  "commit": "2183b8d",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 221,
     "guards30": 1877,
     "citiesYTD": 115,
-    "upcoming30": 114,
+    "upcoming30": 115,
     "perDay": 6.955555555555556
   },
   "heatPoints": [
@@ -1436,7 +1436,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 22,
-      "career": 314,
+      "career": 315,
       "recent": [
         {
           "name": "9.27 Deviants",
