@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T22:54:13.338Z",
-  "commit": "51ff2c3",
+  "generatedAt": "2026-09-27T01:29:41.880Z",
+  "commit": "0b6c3c5",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1872,
-    "events30": 217,
-    "guards30": 1873,
-    "citiesYTD": 114,
-    "upcoming30": 118,
-    "perDay": 6.95910780669145
+    "eventsYTD": 1878,
+    "events30": 221,
+    "guards30": 1877,
+    "citiesYTD": 115,
+    "upcoming30": 114,
+    "perDay": 6.981412639405204
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1038,
+      "ev": 1041,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 86,
-      "w": 0.08285163776493257,
+      "w": 0.08261287223823247,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 182,
-      "w": 0.17533718689788053,
+      "w": 0.17483189241114314,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 123,
-      "w": 0.11849710982658959,
+      "ev": 124,
+      "w": 0.11911623439000961,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 42,
-      "w": 0.04046242774566474,
+      "w": 0.040345821325648415,
       "hq": false
     },
     {
@@ -252,24 +252,24 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 117,
-      "w": 0.11271676300578035,
+      "w": 0.11239193083573487,
       "hq": true
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 98,
-      "w": 0.09441233140655106,
+      "ev": 99,
+      "w": 0.09510086455331412,
       "hq": false
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.31859980673924,
-      "lat": 34.06097253565175,
-      "count": 532
+      "lon": -118.31868341840536,
+      "lat": 34.061174425216976,
+      "count": 534
     },
     {
       "name": "CA",
@@ -296,15 +296,15 @@
       "count": 83
     },
     {
-      "name": "Las Vegas, NV",
-      "lon": -115.16164536834533,
-      "lat": 36.113182004665475,
-      "count": 80
-    },
-    {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
+      "count": 81
+    },
+    {
+      "name": "Las Vegas, NV",
+      "lon": -115.16164536834533,
+      "lat": 36.113182004665475,
       "count": 80
     },
     {
@@ -821,25 +821,25 @@
   ],
   "todayPosts": [
     {
+      "rem": "Seanie Wolf",
+      "venue": "American Legion Post 43",
+      "client": "Gina Wade Creative",
+      "job": "Gina Wade Trial Lawyers for Justice Conference & Reception",
+      "city": "Hollywood Hills"
+    },
+    {
+      "rem": "Ryan McKillop",
+      "venue": "George R. Brown Convention Center ",
+      "client": "Informa Markets Art LLC/Untitled Art",
+      "job": "Untitled Art Show Houston 2026",
+      "city": "Houston"
+    },
+    {
       "rem": "Tony D’Gracia",
       "venue": "NYC",
-      "client": "Mazarine New York",
-      "job": "Mazarine NY Pop Up 9.24",
+      "client": "Nike",
+      "job": "Nike x SP27 Vomero 19 Photoshoot",
       "city": "New York"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Various",
-      "client": "Emerald Americas LLC",
-      "job": "9.23-9.26 Emerald Driver",
-      "city": ""
-    },
-    {
-      "rem": "Mivonta Fulwood",
-      "venue": "Pacific Design Center",
-      "client": "NVE Experience",
-      "job": "NVE Runners Race",
-      "city": "West Hollywood"
     },
     {
       "rem": "Tony D’Gracia",
@@ -1393,7 +1393,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 48,
+      "events30": 46,
       "career": 2393,
       "recent": [
         {
@@ -1435,9 +1435,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 21,
+      "events30": 22,
       "career": 314,
       "recent": [
+        {
+          "name": "9.27 Deviants",
+          "meta": "SEP 27"
+        },
         {
           "name": "9.26 Cover Ups",
           "meta": "SEP 26"
@@ -1445,10 +1449,6 @@
         {
           "name": "9.24 Jacks",
           "meta": "SEP 24"
-        },
-        {
-          "name": "9.23 Outliers Fest",
-          "meta": "SEP 23"
         }
       ]
     },
@@ -1456,9 +1456,13 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 19,
+      "events30": 20,
       "career": 458,
       "recent": [
+        {
+          "name": "Karol G- Houston",
+          "meta": "SEP 27"
+        },
         {
           "name": "Untitled Art Show Houston 2026",
           "meta": "SEP 26"
@@ -1466,31 +1470,27 @@
         {
           "name": "MHH 9/25",
           "meta": "SEP 25"
-        },
-        {
-          "name": "BMW iX3 Ride and Drive-Dallas",
-          "meta": "SEP 21"
         }
       ]
     },
     {
-      "name": "Seanie Wolf",
+      "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 13,
-      "career": 49,
+      "events30": 14,
+      "career": 54,
       "recent": [
         {
-          "name": "Gina Wade Trial Lawyers for Justice Conference & Reception",
-          "meta": "SEP 26"
+          "name": "VMA's 2026 Post Party",
+          "meta": "SEP 27"
         },
         {
-          "name": "Bite Catering Event",
-          "meta": "SEP 26"
+          "name": "Runners Race",
+          "meta": "SEP 23"
         },
         {
-          "name": "Gina Wade S.W.A.T Premiere Post Reception",
-          "meta": "SEP 24"
+          "name": "NVE Runners Race",
+          "meta": "SEP 23"
         }
       ]
     }
@@ -1683,6 +1683,7 @@
     "<b>Optimist Studio Youngs Group Event</b> · Optimist Studios",
     "<b>Open AI - Idaho </b> · Courtyard by Marriott Boise west ",
     "<b>9.22 Emerald Americas AZ </b> · Four Seasons Scottsdale",
+    "<b>VMA&#39;s 2026 Post Party</b> · Hotel Figueroa",
     "<b>BJJ 11</b> · UFC Apex",
     "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
     "<b>HBO Documentaries Emmy Pre-Reception</b> · Hotel Figueroa - La Casita",
@@ -1696,8 +1697,7 @@
     "<b>9.17-9.18 BUG026</b> · Various",
     "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
     "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE",
-    "<b>All In Summit Networking Dinner</b> · The ROW DTLA",
-    "<b>UFC Fight Night</b> · Crypto.com Arena"
+    "<b>All In Summit Networking Dinner</b> · The ROW DTLA"
   ],
   "linkedin": [
     {
