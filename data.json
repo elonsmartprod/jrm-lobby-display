@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-28T15:31:15.447Z",
-  "commit": "57724b6",
+  "generatedAt": "2026-09-28T22:04:00.723Z",
+  "commit": "4ded33a",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1890,
-    "events30": 228,
-    "guards30": 1904,
+    "eventsYTD": 1892,
+    "events30": 230,
+    "guards30": 1906,
     "citiesYTD": 115,
-    "upcoming30": 112,
-    "perDay": 6.974169741697417
+    "upcoming30": 116,
+    "perDay": 6.981549815498155
   },
   "heatPoints": [
     {
@@ -219,16 +219,16 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 86,
-      "w": 0.08213944603629417,
+      "ev": 87,
+      "w": 0.0830945558739255,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 184,
-      "w": 0.17574021012416427,
+      "ev": 185,
+      "w": 0.1766953199617956,
       "hq": false
     },
     {
@@ -273,9 +273,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.19701518288981,
-      "lat": 35.38011149592488,
-      "count": 129
+      "lon": -119.22834180924922,
+      "lat": 35.40717671471798,
+      "count": 130
     },
     {
       "name": "New York, NY",
@@ -305,7 +305,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.16164536834533,
       "lat": 36.113182004665475,
-      "count": 80
+      "count": 81
     },
     {
       "name": "Hollywood, CA",
@@ -386,6 +386,12 @@
       "count": 9
     },
     {
+      "name": "NV",
+      "lon": -115.15744024032011,
+      "lat": 36.13327441923822,
+      "count": 9
+    },
+    {
       "name": "Brooklyn, NY",
       "lon": -73.969295725,
       "lat": 40.702515874999996,
@@ -398,15 +404,15 @@
       "count": 8
     },
     {
-      "name": "NV",
-      "lon": -115.16273518755638,
-      "lat": 36.119938096915504,
-      "count": 8
-    },
-    {
       "name": "San Diego, CA",
       "lon": -117.17105989752933,
       "lat": 32.742518380958835,
+      "count": 7
+    },
+    {
+      "name": "TN",
+      "lon": -86.83572642567685,
+      "lat": 36.12416037684429,
       "count": 7
     },
     {
@@ -414,12 +420,6 @@
       "lon": -95.36001309999999,
       "lat": 29.751439433333335,
       "count": 7
-    },
-    {
-      "name": "TN",
-      "lon": -86.83502949346617,
-      "lat": 36.176296056377666,
-      "count": 6
     },
     {
       "name": "Thermal, CA",
@@ -432,6 +432,18 @@
       "lon": -118.81201097499999,
       "lat": 34.0479904,
       "count": 5
+    },
+    {
+      "name": "TX",
+      "lon": -100.2328456470006,
+      "lat": 30.814732497710004,
+      "count": 5
+    },
+    {
+      "name": "AZ",
+      "lon": -112.15407398003775,
+      "lat": 33.53576455069325,
+      "count": 4
     },
     {
       "name": "Burbank, CA",
@@ -455,12 +467,6 @@
       "name": "Indio, CA",
       "lon": -116.228001825,
       "lat": 33.71127635,
-      "count": 4
-    },
-    {
-      "name": "TX",
-      "lon": -99.8236799021775,
-      "lat": 30.1222906712675,
       "count": 4
     },
     {
@@ -521,12 +527,6 @@
       "name": "FL",
       "lon": -80.24201824009367,
       "lat": 25.835491672862332,
-      "count": 3
-    },
-    {
-      "name": "AZ",
-      "lon": -112.25423218941734,
-      "lat": 33.470773396389326,
       "count": 3
     },
     {
@@ -1428,8 +1428,8 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 32,
-      "career": 369,
+      "events30": 33,
+      "career": 370,
       "recent": [
         {
           "name": "ECNY 2026",
@@ -1474,7 +1474,7 @@
       "career": 459,
       "recent": [
         {
-          "name": "Film Shoot Austin",
+          "name": "Film Shoot Austin - Bucatini",
           "meta": "SEP 28"
         },
         {
