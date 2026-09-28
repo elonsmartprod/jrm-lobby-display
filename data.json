@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-28T00:50:48.864Z",
-  "commit": "6995a5c",
+  "generatedAt": "2026-09-28T06:57:27.482Z",
+  "commit": "4fc6d86",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1889,
-    "events30": 227,
+    "eventsYTD": 1890,
+    "events30": 228,
     "guards30": 1904,
     "citiesYTD": 115,
-    "upcoming30": 107,
-    "perDay": 6.996296296296296
+    "upcoming30": 108,
+    "perDay": 7
   },
   "heatPoints": [
     {
@@ -235,8 +235,8 @@
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 125,
-      "w": 0.11938872970391595,
+      "ev": 126,
+      "w": 0.12034383954154727,
       "hq": false
     },
     {
@@ -1429,7 +1429,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 32,
-      "career": 364,
+      "career": 365,
       "recent": [
         {
           "name": "ECNY 2026",
@@ -1470,9 +1470,13 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 21,
-      "career": 458,
+      "events30": 22,
+      "career": 459,
       "recent": [
+        {
+          "name": "Film Shoot Austin",
+          "meta": "SEP 28"
+        },
         {
           "name": "Overnight security - Hilton Houston ",
           "meta": "SEP 28"
@@ -1480,10 +1484,6 @@
         {
           "name": "Karol G- Houston",
           "meta": "SEP 27"
-        },
-        {
-          "name": "Untitled Art Show Houston 2026",
-          "meta": "SEP 26"
         }
       ]
     },
