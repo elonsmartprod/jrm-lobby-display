@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T15:55:28.230Z",
-  "commit": "d17a8db",
+  "generatedAt": "2026-09-29T20:49:41.688Z",
+  "commit": "15cafcf",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1901,
-    "events30": 236,
-    "guards30": 1937,
+    "eventsYTD": 1902,
+    "events30": 237,
+    "guards30": 1939,
     "citiesYTD": 115,
-    "upcoming30": 111,
-    "perDay": 6.988970588235294
+    "upcoming30": 115,
+    "perDay": 6.992647058823529
   },
   "heatPoints": [
     {
@@ -251,8 +251,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 117,
-      "w": 0.11142857142857143,
+      "ev": 118,
+      "w": 0.11238095238095239,
       "hq": true
     },
     {
@@ -1436,7 +1436,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 51,
-      "career": 2394,
+      "career": 2395,
       "recent": [
         {
           "name": "WB AP Screening Q&A",
@@ -1478,7 +1478,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 23,
-      "career": 315,
+      "career": 316,
       "recent": [
         {
           "name": "PayPal Dev Day San Francisco",
