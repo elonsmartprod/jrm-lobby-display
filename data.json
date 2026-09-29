@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-28T22:04:00.723Z",
-  "commit": "4ded33a",
+  "generatedAt": "2026-09-29T02:00:02.263Z",
+  "commit": "8aab1c9",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1892,
-    "events30": 230,
-    "guards30": 1906,
+    "eventsYTD": 1901,
+    "events30": 236,
+    "guards30": 1937,
     "citiesYTD": 115,
-    "upcoming30": 116,
-    "perDay": 6.981549815498155
+    "upcoming30": 110,
+    "perDay": 7.014760147601476
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1047,
+      "ev": 1050,
       "w": 1,
       "hq": true
     },
@@ -220,31 +220,31 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 87,
-      "w": 0.0830945558739255,
+      "w": 0.08285714285714285,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 185,
-      "w": 0.1766953199617956,
+      "ev": 187,
+      "w": 0.17809523809523808,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 126,
-      "w": 0.12034383954154727,
+      "ev": 127,
+      "w": 0.12095238095238095,
       "hq": false
     },
     {
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 42,
-      "w": 0.04011461318051576,
+      "ev": 43,
+      "w": 0.040952380952380955,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 117,
-      "w": 0.11174785100286533,
+      "w": 0.11142857142857143,
       "hq": true
     },
     {
@@ -260,7 +260,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 99,
-      "w": 0.09455587392550144,
+      "w": 0.09428571428571429,
       "hq": false
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.31901321748748,
       "lat": 34.06119319401375,
-      "count": 537
+      "count": 539
     },
     {
       "name": "CA",
@@ -281,7 +281,7 @@
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 123
+      "count": 125
     },
     {
       "name": "North Hollywood, CA",
@@ -290,22 +290,22 @@
       "count": 84
     },
     {
+      "name": "San Francisco, CA",
+      "lon": -122.42072640483462,
+      "lat": 37.78456864025394,
+      "count": 83
+    },
+    {
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
       "count": 83
     },
     {
-      "name": "San Francisco, CA",
-      "lon": -122.42072640483462,
-      "lat": 37.78456864025394,
-      "count": 82
-    },
-    {
       "name": "Las Vegas, NV",
       "lon": -115.16164536834533,
       "lat": 36.113182004665475,
-      "count": 81
+      "count": 82
     },
     {
       "name": "Hollywood, CA",
@@ -315,9 +315,9 @@
     },
     {
       "name": "Beverly Hills, CA",
-      "lon": -118.401310731451,
-      "lat": 34.0685529585361,
-      "count": 44
+      "lon": -118.40003911041002,
+      "lat": 34.068436398669185,
+      "count": 45
     },
     {
       "name": "Culver City, CA",
@@ -353,7 +353,7 @@
       "name": "Salt Lake City, UT",
       "lon": -111.89970169590491,
       "lat": 40.75403498449291,
-      "count": 14
+      "count": 15
     },
     {
       "name": "NY",
@@ -820,6 +820,34 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Ryan McKillop",
+      "venue": "Austin TX",
+      "client": "Recess Films",
+      "job": "Film Shoot Austin - Bucatini",
+      "city": "Austin"
+    },
+    {
+      "rem": "Ryan McKillop",
+      "venue": "Houston Hilton Americas ",
+      "client": "Meetings & Incentives Worldwide",
+      "job": "Overnight security - Hilton Houston ",
+      "city": "Houston"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "NYC",
+      "client": "OBE (On Board Experiential)",
+      "job": "ECNY 2026",
+      "city": "New York"
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "The Mint San Francisco",
+      "client": "Sunshine Minting Inc.",
+      "job": "9.28-9.30 Striking SF",
+      "city": "San Francisco"
+    },
     {
       "rem": "Miguel Ruezga",
       "venue": "Milk Studios",
@@ -1408,18 +1436,18 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 51,
-      "career": 2393,
+      "career": 2394,
       "recent": [
+        {
+          "name": "WB AP Screening Q&A",
+          "meta": "SEP 29"
+        },
         {
           "name": "Amazon Man on The Run LA AMPAS",
           "meta": "SEP 28"
         },
         {
           "name": "Worlds Collide Tour- LA Live",
-          "meta": "SEP 28"
-        },
-        {
-          "name": "Worlds Collide Tour",
           "meta": "SEP 28"
         }
       ]
@@ -1428,20 +1456,20 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 33,
+      "events30": 35,
       "career": 370,
       "recent": [
         {
+          "name": "48 Wall St. Event 9.29",
+          "meta": "SEP 29"
+        },
+        {
+          "name": "HM Fashion NYC 9.29",
+          "meta": "SEP 29"
+        },
+        {
           "name": "ECNY 2026",
           "meta": "SEP 28"
-        },
-        {
-          "name": "Emerald Americas-NYC 9.27",
-          "meta": "SEP 27"
-        },
-        {
-          "name": "Nike x SP27 Vomero 19 Photoshoot",
-          "meta": "SEP 26"
         }
       ]
     },
@@ -1453,16 +1481,16 @@
       "career": 315,
       "recent": [
         {
+          "name": "PayPal Dev Day San Francisco",
+          "meta": "SEP 29"
+        },
+        {
           "name": "9.28-9.30 Striking SF",
           "meta": "SEP 28"
         },
         {
           "name": "9.28 Rosewood Coverage",
           "meta": "SEP 28"
-        },
-        {
-          "name": "9.27 Deviants",
-          "meta": "SEP 27"
         }
       ]
     },
@@ -1470,9 +1498,13 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 23,
       "career": 459,
       "recent": [
+        {
+          "name": "IRONMAN Waco",
+          "meta": "SEP 29"
+        },
         {
           "name": "Film Shoot Austin - Bucatini",
           "meta": "SEP 28"
@@ -1480,10 +1512,6 @@
         {
           "name": "Overnight security - Hilton Houston ",
           "meta": "SEP 28"
-        },
-        {
-          "name": "Karol G- Houston",
-          "meta": "SEP 27"
         }
       ]
     },
@@ -1491,20 +1519,20 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 13,
+      "events30": 15,
       "career": 51,
       "recent": [
         {
+          "name": "WB Theatrical ~ Digger ~ SAG Nom Comm Screening + Q&A",
+          "meta": "SEP 29"
+        },
+        {
+          "name": "Digger Screening AP",
+          "meta": "SEP 29"
+        },
+        {
           "name": "Gina Wade Trial Lawyers for Justice Conference & Reception",
           "meta": "SEP 26"
-        },
-        {
-          "name": "Bite Catering Event",
-          "meta": "SEP 26"
-        },
-        {
-          "name": "Gina Wade S.W.A.T Premiere Post Reception",
-          "meta": "SEP 24"
         }
       ]
     }
