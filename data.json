@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T20:49:41.688Z",
-  "commit": "15cafcf",
+  "generatedAt": "2026-09-30T00:29:37.334Z",
+  "commit": "c3787e2",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1902,
-    "events30": 237,
-    "guards30": 1939,
+    "eventsYTD": 1911,
+    "events30": 239,
+    "guards30": -501448,
     "citiesYTD": 115,
-    "upcoming30": 115,
-    "perDay": 6.992647058823529
+    "upcoming30": 111,
+    "perDay": 7.025735294117647
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1050,
+      "ev": 1054,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 87,
-      "w": 0.08285714285714285,
+      "w": 0.0825426944971537,
+      "hq": false
+    },
+    {
+      "name": "Tennessee",
+      "lon": -86.78,
+      "lat": 36.16,
+      "ev": 101,
+      "w": 0.09582542694497154,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 187,
-      "w": 0.17809523809523808,
+      "ev": 188,
+      "w": 0.17836812144212524,
       "hq": false
     },
     {
@@ -236,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 127,
-      "w": 0.12095238095238095,
+      "w": 0.1204933586337761,
       "hq": false
     },
     {
@@ -244,24 +252,16 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 43,
-      "w": 0.040952380952380955,
+      "w": 0.04079696394686907,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 118,
-      "w": 0.11238095238095239,
+      "ev": 119,
+      "w": 0.11290322580645161,
       "hq": true
-    },
-    {
-      "name": "Tennessee",
-      "lon": -86.78,
-      "lat": 36.16,
-      "ev": 99,
-      "w": 0.09428571428571429,
-      "hq": false
     }
   ],
   "venuePoints": [
@@ -269,19 +269,19 @@
       "name": "Los Angeles, CA",
       "lon": -118.31901321748748,
       "lat": 34.06119319401375,
-      "count": 539
+      "count": 541
     },
     {
       "name": "CA",
-      "lon": -119.22834180924922,
-      "lat": 35.40717671471798,
-      "count": 130
+      "lon": -119.21930022055449,
+      "lat": 35.393849475315015,
+      "count": 132
     },
     {
       "name": "New York, NY",
       "lon": -73.98936102257494,
       "lat": 40.74439173649011,
-      "count": 125
+      "count": 126
     },
     {
       "name": "North Hollywood, CA",
@@ -317,7 +317,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.40003911041002,
       "lat": 34.068436398669185,
-      "count": 45
+      "count": 46
     },
     {
       "name": "Culver City, CA",
@@ -338,16 +338,16 @@
       "count": 17
     },
     {
+      "name": "Nashville, TN",
+      "lon": -86.73392427844473,
+      "lat": 36.104358079160875,
+      "count": 17
+    },
+    {
       "name": "Santa Monica, CA",
       "lon": -118.4854448929786,
       "lat": 34.01745831092539,
       "count": 17
-    },
-    {
-      "name": "Nashville, TN",
-      "lon": -86.72942341700772,
-      "lat": 36.10218930443827,
-      "count": 16
     },
     {
       "name": "Salt Lake City, UT",
@@ -822,10 +822,31 @@
   "todayPosts": [
     {
       "rem": "Ryan McKillop",
-      "venue": "Austin TX",
-      "client": "Recess Films",
-      "job": "Film Shoot Austin - Bucatini",
-      "city": "Austin"
+      "venue": "Waco, TX",
+      "client": "The Ironman Group",
+      "job": "IRONMAN Waco",
+      "city": ""
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "Starrett-Lehigh",
+      "client": "H&M Fashion USA",
+      "job": "HM Fashion NYC 9.29",
+      "city": "New York"
+    },
+    {
+      "rem": "Patrick J McKillop",
+      "venue": "Salt Palace Convention Center",
+      "client": "Wearemci",
+      "job": "SEG 2026",
+      "city": "Salt Lake City"
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "SVN West",
+      "client": "Red Chair Events",
+      "job": "PayPal Dev Day San Francisco",
+      "city": "San Francisco"
     },
     {
       "rem": "Ryan McKillop",
@@ -847,13 +868,6 @@
       "client": "Sunshine Minting Inc.",
       "job": "9.28-9.30 Striking SF",
       "city": "San Francisco"
-    },
-    {
-      "rem": "Miguel Ruezga",
-      "venue": "Milk Studios",
-      "client": "Nike",
-      "job": "HO27 Training WIP",
-      "city": "Los Angeles"
     },
     {
       "rem": "Tony D’Gracia",
@@ -884,32 +898,11 @@
       "city": "New York"
     },
     {
-      "rem": "Tony D’Gracia",
-      "venue": "Citi Field-NYC",
-      "client": "Symbiotic Event Services",
-      "job": "Yes Chef Food Fest -NY",
-      "city": ""
-    },
-    {
-      "rem": "Sevan Ohanians",
-      "venue": "Peacock Theater",
-      "client": "Paramount",
-      "job": "VMA's 2026 Red Carpet",
-      "city": "Los Angeles"
-    },
-    {
       "rem": "Jessica Hernandez",
       "venue": "Palms Hotel and Casino ",
       "client": "Palms Hotel and Casino",
       "job": "Palms Hotel and Casino ",
       "city": ""
-    },
-    {
-      "rem": "Sevan Ohanians",
-      "venue": "Peacock Theater",
-      "client": "GunPowder",
-      "job": "VMA's 2026 Main Show ",
-      "city": "Los Angeles"
     },
     {
       "rem": "Justin McKillop",
@@ -1435,8 +1428,8 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 51,
-      "career": 2395,
+      "events30": 50,
+      "career": 2396,
       "recent": [
         {
           "name": "WB AP Screening Q&A",
@@ -1460,16 +1453,16 @@
       "career": 370,
       "recent": [
         {
+          "name": "Zuffa Boxing Press Conference 9.8",
+          "meta": "SEP 30"
+        },
+        {
           "name": "48 Wall St. Event 9.29",
           "meta": "SEP 29"
         },
         {
           "name": "HM Fashion NYC 9.29",
           "meta": "SEP 29"
-        },
-        {
-          "name": "ECNY 2026",
-          "meta": "SEP 28"
         }
       ]
     },
@@ -1481,15 +1474,15 @@
       "career": 316,
       "recent": [
         {
+          "name": "9.30 Google Deep Minds",
+          "meta": "SEP 30"
+        },
+        {
           "name": "PayPal Dev Day San Francisco",
           "meta": "SEP 29"
         },
         {
           "name": "9.28-9.30 Striking SF",
-          "meta": "SEP 28"
-        },
-        {
-          "name": "9.28 Rosewood Coverage",
           "meta": "SEP 28"
         }
       ]
@@ -1498,7 +1491,7 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 21,
       "career": 459,
       "recent": [
         {
@@ -1720,6 +1713,7 @@
     }
   ],
   "ticker": [
+    "<b>Nike x NA F27 Sales Conference</b> · Nashville, TN",
     "<b>DWCS 77</b> · UFC Apex",
     "<b>UFC CWI </b> · Crypto.com Arena",
     "<b>Optimist Studio Youngs Group Event</b> · Optimist Studios",
@@ -1738,8 +1732,7 @@
     "<b>9.12 Disney Sports Clinic</b> · Ira Jenkins Community Center",
     "<b>ASLA 2026</b> · Los Angeles Convention Center",
     "<b>9.17-9.18 BUG026</b> · Various",
-    "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort ",
-    "<b>78th Emmy Member Celebration</b> · JW Marriott L.A. LIVE"
+    "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort "
   ],
   "linkedin": [
     {
