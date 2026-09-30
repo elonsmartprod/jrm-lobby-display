@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T19:23:20.381Z",
-  "commit": "663a3ef",
+  "generatedAt": "2026-09-30T23:53:03.417Z",
+  "commit": "907a43b",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -201,9 +201,9 @@
   "metrics": {
     "eventsYTD": 1911,
     "events30": 239,
-    "guards30": -501448,
+    "guards30": -501445,
     "citiesYTD": 115,
-    "upcoming30": 111,
+    "upcoming30": 115,
     "perDay": 7
   },
   "heatPoints": [
@@ -267,9 +267,9 @@
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.31901321748748,
-      "lat": 34.06119319401375,
-      "count": 541
+      "lon": -118.3196840644991,
+      "lat": 34.061427257248226,
+      "count": 540
     },
     {
       "name": "CA",
@@ -287,7 +287,7 @@
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 84
+      "count": 85
     },
     {
       "name": "San Francisco, CA",
@@ -1429,7 +1429,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 50,
-      "career": 2396,
+      "career": 2397,
       "recent": [
         {
           "name": "WB AP Screening Q&A",
