@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T05:59:06.517Z",
-  "commit": "cff6bb0",
+  "generatedAt": "2026-10-01T13:20:27.681Z",
+  "commit": "2384006",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,8 +203,8 @@
     "events30": 242,
     "guards30": -501454,
     "citiesYTD": 116,
-    "upcoming30": 107,
-    "perDay": 7.0366300366300365
+    "upcoming30": 115,
+    "perDay": 7.010948905109489
   },
   "heatPoints": [
     {
@@ -1450,7 +1450,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 34,
-      "career": 370,
+      "career": 377,
       "recent": [
         {
           "name": "Zuffa Boxing Press Conference 9.8",
