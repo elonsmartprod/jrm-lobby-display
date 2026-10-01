@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T23:53:03.417Z",
-  "commit": "907a43b",
+  "generatedAt": "2026-10-01T05:59:06.517Z",
+  "commit": "cff6bb0",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1911,
-    "events30": 239,
-    "guards30": -501445,
-    "citiesYTD": 115,
-    "upcoming30": 115,
-    "perDay": 7
+    "eventsYTD": 1921,
+    "events30": 242,
+    "guards30": -501454,
+    "citiesYTD": 116,
+    "upcoming30": 107,
+    "perDay": 7.0366300366300365
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1053,
+      "ev": 1062,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 87,
-      "w": 0.08262108262108261,
+      "w": 0.08192090395480225,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 101,
-      "w": 0.09591642924976258,
+      "w": 0.0951035781544256,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 188,
-      "w": 0.1785375118708452,
+      "w": 0.17702448210922786,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 128,
-      "w": 0.12155745489078823,
+      "w": 0.12052730696798493,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 43,
-      "w": 0.04083570750237417,
+      "w": 0.04048964218455744,
       "hq": false
     },
     {
@@ -260,22 +260,22 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 119,
-      "w": 0.11301044634377967,
+      "w": 0.1120527306967985,
       "hq": true
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.3196840644991,
-      "lat": 34.061427257248226,
-      "count": 540
+      "lon": -118.32086868647973,
+      "lat": 34.06084998006026,
+      "count": 545
     },
     {
       "name": "CA",
-      "lon": -119.21930022055449,
-      "lat": 35.393849475315015,
-      "count": 132
+      "lon": -119.24236790971445,
+      "lat": 35.404479862017126,
+      "count": 134
     },
     {
       "name": "New York, NY",
@@ -287,7 +287,7 @@
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 85
+      "count": 86
     },
     {
       "name": "San Francisco, CA",
@@ -311,7 +311,7 @@
       "name": "Hollywood, CA",
       "lon": -118.33277580612615,
       "lat": 34.097870581608326,
-      "count": 50
+      "count": 51
     },
     {
       "name": "Beverly Hills, CA",
@@ -821,6 +821,20 @@
   ],
   "todayPosts": [
     {
+      "rem": "Mivonta Fulwood",
+      "venue": "Los Angeles Convention Center",
+      "client": "Toyota",
+      "job": "Toyota - 2026 ComplexCon Booth Coverage",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Nashville, TN",
+      "client": "Nike",
+      "job": "Nike x NA F27 Sales Conference",
+      "city": "Nashville"
+    },
+    {
       "rem": "Ryan McKillop",
       "venue": "Waco, TX",
       "client": "The Ironman Group",
@@ -849,25 +863,11 @@
       "city": "San Francisco"
     },
     {
-      "rem": "Ryan McKillop",
-      "venue": "Houston Hilton Americas ",
-      "client": "Meetings & Incentives Worldwide",
-      "job": "Overnight security - Hilton Houston ",
-      "city": "Houston"
-    },
-    {
       "rem": "Tony D’Gracia",
       "venue": "NYC",
       "client": "OBE (On Board Experiential)",
       "job": "ECNY 2026",
       "city": "New York"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "The Mint San Francisco",
-      "client": "Sunshine Minting Inc.",
-      "job": "9.28-9.30 Striking SF",
-      "city": "San Francisco"
     },
     {
       "rem": "Tony D’Gracia",
@@ -1428,20 +1428,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 50,
+      "events30": 49,
       "career": 2397,
       "recent": [
         {
+          "name": "Stuber Private Event",
+          "meta": "OCT 01"
+        },
+        {
+          "name": "TVA Cut the Story Prime Cuts",
+          "meta": "OCT 01"
+        },
+        {
           "name": "WB AP Screening Q&A",
           "meta": "SEP 29"
-        },
-        {
-          "name": "Amazon Man on The Run LA AMPAS",
-          "meta": "SEP 28"
-        },
-        {
-          "name": "Worlds Collide Tour- LA Live",
-          "meta": "SEP 28"
         }
       ]
     },
@@ -1449,7 +1449,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 35,
+      "events30": 34,
       "career": 370,
       "recent": [
         {
@@ -1474,16 +1474,16 @@
       "career": 316,
       "recent": [
         {
+          "name": "10.1 SIS Anti Piracy",
+          "meta": "OCT 01"
+        },
+        {
           "name": "9.30 Google Deep Minds",
           "meta": "SEP 30"
         },
         {
           "name": "PayPal Dev Day San Francisco",
           "meta": "SEP 29"
-        },
-        {
-          "name": "9.28-9.30 Striking SF",
-          "meta": "SEP 28"
         }
       ]
     },
@@ -1512,20 +1512,20 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 15,
+      "events30": 17,
       "career": 51,
       "recent": [
         {
+          "name": "Disney Coven Academy EP",
+          "meta": "OCT 01"
+        },
+        {
+          "name": "Gina Wade Sony \"Klara and the Sun\" Pre-Reception & Screening",
+          "meta": "OCT 01"
+        },
+        {
           "name": "WB Theatrical ~ Digger ~ SAG Nom Comm Screening + Q&A",
           "meta": "SEP 29"
-        },
-        {
-          "name": "Digger Screening AP",
-          "meta": "SEP 29"
-        },
-        {
-          "name": "Gina Wade Trial Lawyers for Justice Conference & Reception",
-          "meta": "SEP 26"
         }
       ]
     }
@@ -1622,6 +1622,15 @@
       "upcoming": false
     },
     {
+      "client": "AutoDesk",
+      "title": "Autodesk OTC 2027 - San Diego, CA",
+      "venue": "Marriott Marquis San Diego Marina · San Diego",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": true
+    },
+    {
       "client": "Linux Foundation",
       "title": "KubeCon SLC",
       "venue": "Salt Palace Convention Center · Salt Lake City",
@@ -1701,15 +1710,6 @@
         "Convention"
       ],
       "upcoming": false
-    },
-    {
-      "client": "Fashion Nova",
-      "title": "Fashion Nova - Santa Fe Springs",
-      "venue": "Fashion Nova Distribution Center · Santa Fe Springs",
-      "badges": [
-        "Apts-Condos-Office Bldg"
-      ],
-      "upcoming": false
     }
   ],
   "ticker": [
@@ -1724,6 +1724,7 @@
     "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
     "<b>HBO Documentaries Emmy Pre-Reception</b> · Hotel Figueroa - La Casita",
     "<b>Green Hills Park Festival</b> · Nashville, TN",
+    "<b>Kassi Rooftop</b> · Kassi Rooftop",
     "<b>Emerald Americas-NYC 9.27</b> · NYC",
     "<b>UFC Press Conference</b> · Crypto.com Arena",
     "<b>Zuffa Boxing</b> · T mobile Arena",
@@ -1731,8 +1732,7 @@
     "<b>Open AI - 9.22</b> · Bayberry Gardens",
     "<b>9.12 Disney Sports Clinic</b> · Ira Jenkins Community Center",
     "<b>ASLA 2026</b> · Los Angeles Convention Center",
-    "<b>9.17-9.18 BUG026</b> · Various",
-    "<b>OpenAI Las Vegas </b> · Green Valley Hotel &amp; Resort "
+    "<b>9.17-9.18 BUG026</b> · Various"
   ],
   "linkedin": [
     {
