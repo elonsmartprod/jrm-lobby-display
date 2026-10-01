@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T13:20:27.681Z",
-  "commit": "2384006",
+  "generatedAt": "2026-10-01T19:33:39.444Z",
+  "commit": "8791c85",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1921,
-    "events30": 242,
-    "guards30": -501454,
+    "eventsYTD": 1920,
+    "events30": 241,
+    "guards30": -501463,
     "citiesYTD": 116,
-    "upcoming30": 115,
-    "perDay": 7.010948905109489
+    "upcoming30": 119,
+    "perDay": 7.007299270072993
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1062,
+      "ev": 1061,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 87,
-      "w": 0.08192090395480225,
+      "w": 0.08199811498586239,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 101,
-      "w": 0.0951035781544256,
+      "w": 0.09519321394910461,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 188,
-      "w": 0.17702448210922786,
+      "w": 0.177191328934967,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 128,
-      "w": 0.12052730696798493,
+      "w": 0.12064090480678605,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 43,
-      "w": 0.04048964218455744,
+      "w": 0.04052780395852969,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 119,
-      "w": 0.1120527306967985,
+      "w": 0.11215834118755891,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.32086868647973,
       "lat": 34.06084998006026,
-      "count": 545
+      "count": 544
     },
     {
       "name": "CA",
@@ -1429,7 +1429,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 49,
-      "career": 2397,
+      "career": 2399,
       "recent": [
         {
           "name": "Stuber Private Event",
@@ -1512,8 +1512,8 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 17,
-      "career": 51,
+      "events30": 16,
+      "career": 52,
       "recent": [
         {
           "name": "Disney Coven Academy EP",
@@ -1524,7 +1524,7 @@
           "meta": "OCT 01"
         },
         {
-          "name": "WB Theatrical ~ Digger ~ SAG Nom Comm Screening + Q&A",
+          "name": "Digger Screening AP",
           "meta": "SEP 29"
         }
       ]
