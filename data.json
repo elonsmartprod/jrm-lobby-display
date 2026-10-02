@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T18:26:42.343Z",
-  "commit": "f852687",
+  "generatedAt": "2026-10-02T22:59:34.487Z",
+  "commit": "19e3f76",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1930,
-    "events30": 245,
-    "guards30": -501452,
+    "eventsYTD": 1929,
+    "events30": 244,
+    "guards30": -501455,
     "citiesYTD": 116,
-    "upcoming30": 114,
-    "perDay": 7.0181818181818185
+    "upcoming30": 121,
+    "perDay": 7.014545454545455
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1066,
+      "ev": 1065,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 87,
-      "w": 0.08161350844277673,
+      "w": 0.08169014084507042,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 102,
-      "w": 0.09568480300187618,
+      "w": 0.09577464788732394,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 188,
-      "w": 0.17636022514071295,
+      "w": 0.17652582159624414,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 128,
-      "w": 0.1200750469043152,
+      "w": 0.12018779342723004,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 43,
-      "w": 0.040337711069418386,
+      "w": 0.04037558685446009,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 121,
-      "w": 0.11350844277673545,
+      "w": 0.1136150234741784,
       "hq": true
     }
   ],
@@ -287,7 +287,7 @@
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 86
+      "count": 85
     },
     {
       "name": "San Francisco, CA",
@@ -729,17 +729,7 @@
       "since": 2023
     },
     {
-      "name": "Next on Lex",
-      "office": "Los Angeles",
-      "since": 2022
-    },
-    {
       "name": "NINE THOUSAND ONE APARTMENTS",
-      "office": "Los Angeles",
-      "since": 2025
-    },
-    {
-      "name": "Park East Apartments",
       "office": "Los Angeles",
       "since": 2025
     },
@@ -769,11 +759,6 @@
       "since": 2024
     },
     {
-      "name": "South Park Studios",
-      "office": "Los Angeles",
-      "since": 2023
-    },
-    {
       "name": "St Regis Condominiums",
       "office": "Los Angeles",
       "since": 2021
@@ -792,16 +777,6 @@
       "name": "Verdosa- Apartments DTLA ",
       "office": "Los Angeles",
       "since": 2025
-    },
-    {
-      "name": "Vernon City Hall",
-      "office": "Los Angeles",
-      "since": 2021
-    },
-    {
-      "name": "Vernon Power Plant",
-      "office": "Los Angeles",
-      "since": 2021
     },
     {
       "name": "Vinz on Fairfax",
@@ -1242,13 +1217,6 @@
     },
     {
       "rem": "Dani Sanchez",
-      "venue": "Park East Apartments",
-      "client": "Starlina McKinny",
-      "job": "PARK EAST APARTMENTS",
-      "city": "Los Angeles"
-    },
-    {
-      "rem": "Dani Sanchez",
       "venue": "Sentral -Apartment",
       "client": "Angeline Barragan",
       "job": "Sentral- Extra Coverage ",
@@ -1347,13 +1315,6 @@
     },
     {
       "rem": "Dani Sanchez",
-      "venue": "South Park Studios",
-      "client": "South Park Studios",
-      "job": "South Park Studios",
-      "city": "Culver City"
-    },
-    {
-      "rem": "Dani Sanchez",
       "venue": "Residence at West Edge",
       "client": "",
       "job": "Residence at West Edge  ",
@@ -1379,13 +1340,6 @@
       "client": "Tilt Downtown LA Partners LLC",
       "job": "Eighty-Two LA Arcade/Bar",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Dani Sanchez",
-      "venue": "Next on Lex",
-      "client": "Next on Lex and Brio",
-      "job": "Next on Lex and Brio",
-      "city": "Glendale"
     },
     {
       "rem": "Dani Sanchez",
@@ -1450,7 +1404,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 50,
-      "career": 2402,
+      "career": 2403,
       "recent": [
         {
           "name": "Los Parras LA Live",
@@ -1492,7 +1446,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 24,
-      "career": 316,
+      "career": 317,
       "recent": [
         {
           "name": "10.2 Jack’s",
