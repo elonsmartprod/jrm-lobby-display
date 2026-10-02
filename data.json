@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T23:54:24.561Z",
-  "commit": "878b16a",
+  "generatedAt": "2026-10-02T05:41:18.246Z",
+  "commit": "7a4c9ba",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1920,
-    "events30": 241,
-    "guards30": -501463,
+    "eventsYTD": 1930,
+    "events30": 245,
+    "guards30": -501452,
     "citiesYTD": 116,
-    "upcoming30": 121,
-    "perDay": 7.007299270072993
+    "upcoming30": 111,
+    "perDay": 7.043795620437956
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1061,
+      "ev": 1066,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 87,
-      "w": 0.08199811498586239,
+      "w": 0.08161350844277673,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 101,
-      "w": 0.09519321394910461,
+      "ev": 102,
+      "w": 0.09568480300187618,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 188,
-      "w": 0.177191328934967,
+      "w": 0.17636022514071295,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 128,
-      "w": 0.12064090480678605,
+      "w": 0.1200750469043152,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 43,
-      "w": 0.04052780395852969,
+      "w": 0.040337711069418386,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 119,
-      "w": 0.11215834118755891,
+      "ev": 121,
+      "w": 0.11350844277673545,
       "hq": true
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.32086868647973,
       "lat": 34.06084998006026,
-      "count": 544
+      "count": 547
     },
     {
       "name": "CA",
-      "lon": -119.24236790971445,
-      "lat": 35.404479862017126,
-      "count": 134
+      "lon": -119.27476351627189,
+      "lat": 35.42900985970042,
+      "count": 136
     },
     {
       "name": "New York, NY",
@@ -293,7 +293,7 @@
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 83
+      "count": 84
     },
     {
       "name": "West Hollywood, CA",
@@ -590,6 +590,12 @@
       "count": 2
     },
     {
+      "name": "NJ",
+      "lon": -74.517283219342,
+      "lat": 40.400550618842004,
+      "count": 2
+    },
+    {
       "name": "Henderson, NV",
       "lon": -115.08555035,
       "lat": 36.04779575,
@@ -617,12 +623,6 @@
       "name": "IL",
       "lon": -87.776477664353,
       "lat": 41.964613104555,
-      "count": 2
-    },
-    {
-      "name": "Kansas City, MO",
-      "lon": -94.5854524574685,
-      "lat": 39.09234505527,
       "count": 2
     }
   ],
@@ -821,6 +821,27 @@
   ],
   "todayPosts": [
     {
+      "rem": "Sevan Ohanians",
+      "venue": "Los Angeles Convention Center",
+      "client": "Say Ok LLC",
+      "job": "Say Ok LLC - 2026 Vans Complexcon Booth Coverage",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Sevan Ohanians",
+      "venue": "Los Angeles Convention Center",
+      "client": "Nook Agency Americas",
+      "job": "Bitcoin + Nook Agency - 2026 ComplexCon Booth Coverage\n",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Mivonta Fulwood",
+      "venue": "Los Angeles Convention Center",
+      "client": "RMD Group",
+      "job": "BRABUS - 2026 Complexcon Booth Coverage ",
+      "city": "Los Angeles"
+    },
+    {
       "rem": "Mivonta Fulwood",
       "venue": "Los Angeles Convention Center",
       "client": "Toyota",
@@ -840,13 +861,6 @@
       "client": "The Ironman Group",
       "job": "IRONMAN Waco",
       "city": ""
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "Starrett-Lehigh",
-      "client": "H&M Fashion USA",
-      "job": "HM Fashion NYC 9.29",
-      "city": "New York"
     },
     {
       "rem": "Patrick J McKillop",
@@ -1428,9 +1442,13 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 49,
+      "events30": 50,
       "career": 2400,
       "recent": [
+        {
+          "name": "Los Parras LA Live",
+          "meta": "OCT 02"
+        },
         {
           "name": "Stuber Private Event",
           "meta": "OCT 01"
@@ -1438,10 +1456,6 @@
         {
           "name": "TVA Cut the Story Prime Cuts",
           "meta": "OCT 01"
-        },
-        {
-          "name": "WB AP Screening Q&A",
-          "meta": "SEP 29"
         }
       ]
     },
@@ -1449,7 +1463,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 34,
+      "events30": 33,
       "career": 377,
       "recent": [
         {
@@ -1470,20 +1484,20 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 24,
       "career": 316,
       "recent": [
         {
+          "name": "10.2 Jack’s",
+          "meta": "OCT 02"
+        },
+        {
+          "name": "10.2 Anti Piracy-Tenzing",
+          "meta": "OCT 02"
+        },
+        {
           "name": "10.1 SIS Anti Piracy",
           "meta": "OCT 01"
-        },
-        {
-          "name": "9.30 Google Deep Minds",
-          "meta": "SEP 30"
-        },
-        {
-          "name": "PayPal Dev Day San Francisco",
-          "meta": "SEP 29"
         }
       ]
     },
@@ -1719,6 +1733,7 @@
     "<b>Optimist Studio Youngs Group Event</b> · Optimist Studios",
     "<b>Open AI - Idaho </b> · Courtyard by Marriott Boise west ",
     "<b>9.22 Emerald Americas AZ </b> · Four Seasons Scottsdale",
+    "<b>Los Parras LA Live</b> · LA Live",
     "<b>VMA&#39;s 2026 Post Party</b> · Hotel Figueroa",
     "<b>BJJ 11</b> · UFC Apex",
     "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
@@ -1731,8 +1746,7 @@
     "<b>9.17 - Eater Dinner Party</b> · Alfies",
     "<b>Open AI - 9.22</b> · Bayberry Gardens",
     "<b>9.12 Disney Sports Clinic</b> · Ira Jenkins Community Center",
-    "<b>ASLA 2026</b> · Los Angeles Convention Center",
-    "<b>9.17-9.18 BUG026</b> · Various"
+    "<b>ASLA 2026</b> · Los Angeles Convention Center"
   ],
   "linkedin": [
     {
