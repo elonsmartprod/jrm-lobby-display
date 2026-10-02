@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T12:39:39.995Z",
-  "commit": "f8c75a5",
+  "generatedAt": "2026-10-02T18:26:42.343Z",
+  "commit": "f852687",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 245,
     "guards30": -501452,
     "citiesYTD": 116,
-    "upcoming30": 111,
+    "upcoming30": 114,
     "perDay": 7.0181818181818185
   },
   "heatPoints": [
@@ -1395,6 +1395,13 @@
       "city": "Los Angeles"
     },
     {
+      "rem": "Sevan Ohanians",
+      "venue": "Warwick",
+      "client": "Sunset Wilcox LLC dba Warwick",
+      "job": "Warwick (900925)",
+      "city": "Hollywood"
+    },
+    {
       "rem": "Dani Sanchez",
       "venue": "Jardine Apartments",
       "client": "Jardine Apartments",
@@ -1443,7 +1450,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 50,
-      "career": 2400,
+      "career": 2402,
       "recent": [
         {
           "name": "Los Parras LA Live",
