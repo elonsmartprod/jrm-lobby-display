@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T22:59:34.487Z",
-  "commit": "19e3f76",
+  "generatedAt": "2026-10-03T02:00:54.979Z",
+  "commit": "2290678",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1929,
-    "events30": 244,
-    "guards30": -501455,
+    "eventsYTD": 1951,
+    "events30": 262,
+    "guards30": -501388,
     "citiesYTD": 116,
-    "upcoming30": 121,
-    "perDay": 7.014545454545455
+    "upcoming30": 101,
+    "perDay": 7.094545454545455
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1065,
+      "ev": 1083,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 87,
-      "w": 0.08169014084507042,
+      "w": 0.08033240997229917,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 102,
-      "w": 0.09577464788732394,
+      "w": 0.09418282548476455,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 188,
-      "w": 0.17652582159624414,
+      "ev": 191,
+      "w": 0.17636195752539244,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 128,
-      "w": 0.12018779342723004,
+      "w": 0.11819021237303785,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 43,
-      "w": 0.04037558685446009,
+      "w": 0.03970452446906741,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 121,
-      "w": 0.1136150234741784,
+      "w": 0.11172668513388735,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.32086868647973,
       "lat": 34.06084998006026,
-      "count": 547
+      "count": 562
     },
     {
       "name": "CA",
@@ -287,13 +287,13 @@
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 85
+      "count": 86
     },
     {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 84
+      "count": 85
     },
     {
       "name": "West Hollywood, CA",
@@ -357,9 +357,9 @@
     },
     {
       "name": "NY",
-      "lon": -74.20703571774901,
-      "lat": 40.97642358765554,
-      "count": 12
+      "lon": -73.90445953925763,
+      "lat": 40.97728594005308,
+      "count": 14
     },
     {
       "name": "UT",
@@ -530,6 +530,12 @@
       "count": 3
     },
     {
+      "name": "Costa Mesa, CA",
+      "lon": -117.9026252,
+      "lat": 33.6662566,
+      "count": 3
+    },
+    {
       "name": "Park City, UT",
       "lon": -111.496941233666,
       "lat": 40.656708990783,
@@ -617,12 +623,6 @@
       "name": "MO",
       "lon": -90.352623988003,
       "lat": 38.6715167585955,
-      "count": 2
-    },
-    {
-      "name": "IL",
-      "lon": -87.776477664353,
-      "lat": 41.964613104555,
       "count": 2
     }
   ],
@@ -796,6 +796,41 @@
   ],
   "todayPosts": [
     {
+      "rem": "Kyle Crowther",
+      "venue": "Hard Rock Stadium",
+      "client": "Live Nation",
+      "job": "Karol G - Miami",
+      "city": ""
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Fort Lee Historic Park, Palisades Interstate Park Commission ",
+      "client": "IHeartComix",
+      "job": "IHC x NJ 10.2",
+      "city": ""
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Chicago, IL",
+      "client": "SE Productions",
+      "job": "Sumo + Sushi - CHI 2026",
+      "city": "Chicago"
+    },
+    {
+      "rem": "Mivonta Fulwood",
+      "venue": "Los Angeles Convention Center",
+      "client": "Mimi Choi",
+      "job": "BBC Ice Cream - 2026 ComplexCon Booth Coverage",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Mivonta Fulwood",
+      "venue": "Los Angeles Convention Center",
+      "client": "Ray-Ban",
+      "job": "Ray-Ban : 2026 ComplexCon Booth Coverage",
+      "city": "Los Angeles"
+    },
+    {
       "rem": "Sevan Ohanians",
       "venue": "Los Angeles Convention Center",
       "client": "Say Ok LLC",
@@ -845,24 +880,10 @@
       "city": "Salt Lake City"
     },
     {
-      "rem": "Mathias Gibson",
-      "venue": "SVN West",
-      "client": "Red Chair Events",
-      "job": "PayPal Dev Day San Francisco",
-      "city": "San Francisco"
-    },
-    {
       "rem": "Tony D’Gracia",
       "venue": "NYC",
       "client": "OBE (On Board Experiential)",
       "job": "ECNY 2026",
-      "city": "New York"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "NYC",
-      "client": "Emerald Americas LLC",
-      "job": "Emerald Americas-NYC 9.27",
       "city": "New York"
     },
     {
@@ -1403,20 +1424,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 50,
+      "events30": 53,
       "career": 2403,
       "recent": [
         {
-          "name": "Los Parras LA Live",
-          "meta": "OCT 02"
+          "name": "Complexcon 2026",
+          "meta": "OCT 03"
         },
         {
-          "name": "Stuber Private Event",
-          "meta": "OCT 01"
+          "name": "Music Video Shoot The ROW",
+          "meta": "OCT 03"
         },
         {
-          "name": "TVA Cut the Story Prime Cuts",
-          "meta": "OCT 01"
+          "name": "Complexcon Concerts Crypto Interior ",
+          "meta": "OCT 03"
         }
       ]
     },
@@ -1424,20 +1445,20 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 33,
+      "events30": 36,
       "career": 377,
       "recent": [
         {
-          "name": "Zuffa Boxing Press Conference 9.8",
-          "meta": "SEP 30"
+          "name": "SIS AP - Being Huemann 10.3",
+          "meta": "OCT 03"
         },
         {
-          "name": "48 Wall St. Event 9.29",
-          "meta": "SEP 29"
+          "name": "Culture Con 2026",
+          "meta": "OCT 03"
         },
         {
-          "name": "HM Fashion NYC 9.29",
-          "meta": "SEP 29"
+          "name": "SIS AP Detail- Tenzing 10.3",
+          "meta": "OCT 03"
         }
       ]
     },
@@ -1445,9 +1466,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 24,
+      "events30": 25,
       "career": 317,
       "recent": [
+        {
+          "name": "10.3 Bolo",
+          "meta": "OCT 03"
+        },
         {
           "name": "10.2 Jack’s",
           "meta": "OCT 02"
@@ -1455,10 +1480,27 @@
         {
           "name": "10.2 Anti Piracy-Tenzing",
           "meta": "OCT 02"
+        }
+      ]
+    },
+    {
+      "name": "Mivonta Fulwood",
+      "office": "Los Angeles",
+      "color": "#E8B44A",
+      "events30": 23,
+      "career": 62,
+      "recent": [
+        {
+          "name": "Three Times Louder - 2026 ComplexCon Booth Coverage",
+          "meta": "OCT 03"
         },
         {
-          "name": "10.1 SIS Anti Piracy",
-          "meta": "OCT 01"
+          "name": "God Speed - 2026 ComplexCon Booth Coverage",
+          "meta": "OCT 03"
+        },
+        {
+          "name": "Culture Kings - 2026 Complexcon Booth Coverage ",
+          "meta": "OCT 03"
         }
       ]
     },
@@ -1480,27 +1522,6 @@
         {
           "name": "Overnight security - Hilton Houston ",
           "meta": "SEP 28"
-        }
-      ]
-    },
-    {
-      "name": "Seanie Wolf",
-      "office": "Los Angeles",
-      "color": "#E8B44A",
-      "events30": 16,
-      "career": 52,
-      "recent": [
-        {
-          "name": "Disney Coven Academy EP",
-          "meta": "OCT 01"
-        },
-        {
-          "name": "Gina Wade Sony \"Klara and the Sun\" Pre-Reception & Screening",
-          "meta": "OCT 01"
-        },
-        {
-          "name": "Digger Screening AP",
-          "meta": "SEP 29"
         }
       ]
     }
@@ -1633,20 +1654,20 @@
       "upcoming": false
     },
     {
-      "client": "Dick Clark Productions",
-      "title": "Golden Globes 2026",
-      "venue": "Beverly Hilton Hotel · Beverly Hills",
-      "badges": [
-        "Awards Show"
-      ],
-      "upcoming": false
-    },
-    {
       "client": "Fashion Nova",
       "title": "Fashion Nova",
       "venue": "Fashion Nova Corporate Office · Beverly Hills",
       "badges": [
         "Apts-Condos-Office Bldg"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Dick Clark Productions",
+      "title": "Golden Globes 2026",
+      "venue": "Beverly Hilton Hotel · Beverly Hills",
+      "badges": [
+        "Awards Show"
       ],
       "upcoming": false
     },
