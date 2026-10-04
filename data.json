@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-03T21:19:21.814Z",
-  "commit": "1632970",
+  "generatedAt": "2026-10-04T00:40:22.865Z",
+  "commit": "ed4c71b",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1953,
-    "events30": 264,
-    "guards30": -501388,
-    "citiesYTD": 116,
-    "upcoming30": 101,
-    "perDay": 7.076086956521739
+    "eventsYTD": 1962,
+    "events30": 268,
+    "guards30": -501349,
+    "citiesYTD": 117,
+    "upcoming30": 92,
+    "perDay": 7.108695652173913
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1085,
+      "ev": 1088,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 87,
-      "w": 0.08018433179723503,
+      "ev": 88,
+      "w": 0.08088235294117647,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 102,
-      "w": 0.09400921658986175,
+      "w": 0.09375,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 191,
-      "w": 0.17603686635944701,
+      "ev": 193,
+      "w": 0.17738970588235295,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 128,
-      "w": 0.11797235023041475,
+      "w": 0.11764705882352941,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 43,
-      "w": 0.03963133640552995,
+      "w": 0.03952205882352941,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 121,
-      "w": 0.11152073732718894,
+      "ev": 122,
+      "w": 0.11213235294117647,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.32086868647973,
       "lat": 34.06084998006026,
-      "count": 564
+      "count": 566
     },
     {
       "name": "CA",
@@ -279,15 +279,15 @@
     },
     {
       "name": "New York, NY",
-      "lon": -73.98936102257494,
-      "lat": 40.74439173649011,
-      "count": 126
+      "lon": -73.98905116978915,
+      "lat": 40.74480586066078,
+      "count": 127
     },
     {
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 86
+      "count": 87
     },
     {
       "name": "San Francisco, CA",
@@ -296,16 +296,16 @@
       "count": 85
     },
     {
+      "name": "Las Vegas, NV",
+      "lon": -115.16164536834533,
+      "lat": 36.113182004665475,
+      "count": 83
+    },
+    {
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
       "count": 83
-    },
-    {
-      "name": "Las Vegas, NV",
-      "lon": -115.16164536834533,
-      "lat": 36.113182004665475,
-      "count": 82
     },
     {
       "name": "Hollywood, CA",
@@ -796,18 +796,88 @@
   ],
   "todayPosts": [
     {
-      "rem": "Kyle Crowther",
-      "venue": "Hard Rock Stadium",
-      "client": "Live Nation",
-      "job": "Karol G - Miami",
-      "city": ""
+      "rem": "Tony D’Gracia",
+      "venue": "Naval Yards (Brooklyn)",
+      "client": "1Park9",
+      "job": "Culture Con 2026",
+      "city": "Brooklyn"
     },
     {
-      "rem": "Sean McKillop",
-      "venue": "Fort Lee Historic Park, Palisades Interstate Park Commission ",
-      "client": "IHeartComix",
-      "job": "IHC x NJ 10.2",
-      "city": ""
+      "rem": "Sevan Ohanians",
+      "venue": "OC Fair & Event Center",
+      "client": "Bonnier LLC.",
+      "job": "Off Road Expo OC Fair",
+      "city": "Costa Mesa"
+    },
+    {
+      "rem": "Sevan Ohanians",
+      "venue": "Los Angeles Convention Center",
+      "client": "Stratoscope Consulting",
+      "job": "Complexcon 2026",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "Crypto.com Arena",
+      "client": "Crypto.com Arena",
+      "job": "Complexcon Concerts Crypto Interior ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Mivonta Fulwood",
+      "venue": "Los Angeles Convention Center",
+      "client": "League Twenty Two",
+      "job": "God Speed - 2026 ComplexCon Booth Coverage",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Mivonta Fulwood",
+      "venue": "Los Angeles Convention Center",
+      "client": "VMG Agency",
+      "job": "C4 - 2026 ComplexCon Booth Coverage",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Mivonta Fulwood",
+      "venue": "Los Angeles Convention Center",
+      "client": "Civic Entertainment Group",
+      "job": "ESPN - 2026 Complexcon Booth Coverage ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Mivonta Fulwood",
+      "venue": "Los Angeles Convention Center",
+      "client": "Meta",
+      "job": "META - 2026 ComplexCon Booth Coverage ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Mivonta Fulwood",
+      "venue": "Los Angeles Convention Center",
+      "client": "The Realest",
+      "job": "The REALEST - 2026 ComplexCon Booth Coverage ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Mivonta Fulwood",
+      "venue": "Los Angeles Convention Center",
+      "client": "Just Don",
+      "job": "JUST DON - 2026 ComplexCon Booth Coverage ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Mivonta Fulwood",
+      "venue": "Los Angeles Convention Center",
+      "client": "Chase",
+      "job": "CHASE FREEDOM - 2026 ComplexCon Booth Coverage ",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Mivonta Fulwood",
+      "venue": "Los Angeles Convention Center",
+      "client": "HMDD",
+      "job": "HMDD - 2026 ComplexCon Booth D-18 Coverage",
+      "city": "Los Angeles"
     },
     {
       "rem": "Sean McKillop",
@@ -871,13 +941,6 @@
       "client": "The Ironman Group",
       "job": "IRONMAN Waco",
       "city": ""
-    },
-    {
-      "rem": "Patrick J McKillop",
-      "venue": "Salt Palace Convention Center",
-      "client": "Wearemci",
-      "job": "SEG 2026",
-      "city": "Salt Lake City"
     },
     {
       "rem": "Tony D’Gracia",
@@ -1424,19 +1487,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 53,
+      "events30": 55,
       "career": 2403,
       "recent": [
         {
           "name": "Complexcon 2026",
-          "meta": "OCT 03"
+          "meta": "OCT 04"
         },
         {
-          "name": "Music Video Shoot The ROW",
-          "meta": "OCT 03"
+          "name": "Complexcon 2026 LA Live",
+          "meta": "OCT 04"
         },
         {
-          "name": "Complexcon Concerts Crypto Interior ",
+          "name": "Complexcon 2026",
           "meta": "OCT 03"
         }
       ]
@@ -1445,19 +1508,40 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 36,
+      "events30": 38,
       "career": 377,
       "recent": [
         {
+          "name": "Project Hail Mary - AMPAS Tastemaker Screening Q +A Reception",
+          "meta": "OCT 04"
+        },
+        {
+          "name": "BAFTA NY Tea Party",
+          "meta": "OCT 04"
+        },
+        {
           "name": "SIS AP - Being Huemann 10.3",
           "meta": "OCT 03"
+        }
+      ]
+    },
+    {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 27,
+      "career": 317,
+      "recent": [
+        {
+          "name": "Pickwick Vintage October SF",
+          "meta": "OCT 04"
         },
         {
-          "name": "Culture Con 2026",
-          "meta": "OCT 03"
+          "name": "10.4 Tenzing",
+          "meta": "OCT 04"
         },
         {
-          "name": "SIS AP Detail- Tenzing 10.3",
+          "name": "10.3 Bolo",
           "meta": "OCT 03"
         }
       ]
@@ -1466,7 +1550,7 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 25,
+      "events30": 24,
       "career": 64,
       "recent": [
         {
@@ -1480,27 +1564,6 @@
         {
           "name": "Culture Kings - 2026 Complexcon Booth Coverage ",
           "meta": "OCT 03"
-        }
-      ]
-    },
-    {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
-      "color": "#E8B44A",
-      "events30": 25,
-      "career": 317,
-      "recent": [
-        {
-          "name": "10.3 Bolo",
-          "meta": "OCT 03"
-        },
-        {
-          "name": "10.2 Jack’s",
-          "meta": "OCT 02"
-        },
-        {
-          "name": "10.2 Anti Piracy-Tenzing",
-          "meta": "OCT 02"
         }
       ]
     },
@@ -1709,6 +1772,7 @@
     }
   ],
   "ticker": [
+    "<b>EP for Marshals Cast Members (Paramount)</b> · Allegiant Stadium",
     "<b>Nike x NA F27 Sales Conference</b> · Nashville, TN",
     "<b>DWCS 77</b> · UFC Apex",
     "<b>UFC CWI </b> · Crypto.com Arena",
@@ -1719,7 +1783,6 @@
     "<b>VMA&#39;s 2026 Post Party</b> · Hotel Figueroa",
     "<b>BJJ 11</b> · UFC Apex",
     "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
-    "<b>HBO Documentaries Emmy Pre-Reception</b> · Hotel Figueroa - La Casita",
     "<b>Green Hills Park Festival</b> · Nashville, TN",
     "<b>Kassi Rooftop</b> · Kassi Rooftop",
     "<b>Emerald Americas-NYC 9.27</b> · NYC",
