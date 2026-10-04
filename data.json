@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-04T13:13:23.727Z",
-  "commit": "6836919",
+  "generatedAt": "2026-10-04T17:36:59.270Z",
+  "commit": "cea83cc",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1962,
-    "events30": 268,
-    "guards30": -501349,
+    "eventsYTD": 1963,
+    "events30": 269,
+    "guards30": -501347,
     "citiesYTD": 117,
-    "upcoming30": 92,
-    "perDay": 7.0830324909747295
+    "upcoming30": 94,
+    "perDay": 7.086642599277979
   },
   "heatPoints": [
     {
@@ -259,8 +259,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 122,
-      "w": 0.11213235294117647,
+      "ev": 123,
+      "w": 0.1130514705882353,
       "hq": true
     }
   ],
@@ -1509,7 +1509,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 38,
-      "career": 377,
+      "career": 378,
       "recent": [
         {
           "name": "Project Hail Mary - AMPAS Tastemaker Screening Q +A Reception",
