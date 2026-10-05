@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T00:58:06.660Z",
-  "commit": "4c10767",
+  "generatedAt": "2026-10-05T07:05:30.922Z",
+  "commit": "5fb9f8a",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1978,
-    "events30": 278,
-    "guards30": -501354,
+    "eventsYTD": 1979,
+    "events30": 279,
+    "guards30": -501353,
     "citiesYTD": 117,
-    "upcoming30": 85,
-    "perDay": 7.140794223826715
+    "upcoming30": 89,
+    "perDay": 7.144404332129964
   },
   "heatPoints": [
     {
@@ -259,8 +259,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 124,
-      "w": 0.1132420091324201,
+      "ev": 125,
+      "w": 0.1141552511415525,
       "hq": true
     }
   ],
@@ -631,7 +631,7 @@
       "name": "Western Europe",
       "lon": 5,
       "lat": 48,
-      "ev": 4
+      "ev": 5
     },
     {
       "name": "India",
@@ -1404,7 +1404,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 40,
-      "career": 380,
+      "career": 381,
       "recent": [
         {
           "name": "TRA x AMMP",
