@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T16:04:06.616Z",
-  "commit": "84153e0",
+  "generatedAt": "2026-10-05T22:40:09.125Z",
+  "commit": "ca4ac90",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -201,9 +201,9 @@
   "metrics": {
     "eventsYTD": 1977,
     "events30": 277,
-    "guards30": -501362,
+    "guards30": -501372,
     "citiesYTD": 117,
-    "upcoming30": 93,
+    "upcoming30": 103,
     "perDay": 7.111510791366906
   },
   "heatPoints": [
@@ -235,16 +235,16 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 196,
-      "w": 0.1794871794871795,
+      "ev": 195,
+      "w": 0.17857142857142858,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 128,
-      "w": 0.11721611721611722,
+      "ev": 129,
+      "w": 0.11813186813186813,
       "hq": false
     },
     {
@@ -269,19 +269,19 @@
       "name": "Los Angeles, CA",
       "lon": -118.32086868647973,
       "lat": 34.06084998006026,
-      "count": 565
+      "count": 566
     },
     {
       "name": "CA",
-      "lon": -119.27476351627189,
-      "lat": 35.42900985970042,
-      "count": 136
+      "lon": -119.25624146888859,
+      "lat": 35.40195059033549,
+      "count": 139
     },
     {
       "name": "New York, NY",
       "lon": -73.98908701712716,
       "lat": 40.7445676726461,
-      "count": 129
+      "count": 128
     },
     {
       "name": "North Hollywood, CA",
@@ -350,16 +350,16 @@
       "count": 17
     },
     {
+      "name": "NY",
+      "lon": -73.91490417142707,
+      "lat": 40.950034803997795,
+      "count": 16
+    },
+    {
       "name": "Salt Lake City, UT",
       "lon": -111.89970169590491,
       "lat": 40.75403498449291,
       "count": 15
-    },
-    {
-      "name": "NY",
-      "lon": -73.90445953925763,
-      "lat": 40.97728594005308,
-      "count": 14
     },
     {
       "name": "UT",
@@ -1383,7 +1383,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 53,
-      "career": 2403,
+      "career": 2410,
       "recent": [
         {
           "name": "Amazon Man on the Run",
@@ -1403,8 +1403,8 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 40,
-      "career": 381,
+      "events30": 39,
+      "career": 382,
       "recent": [
         {
           "name": "TRA x AMMP",
@@ -1446,7 +1446,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 24,
-      "career": 64,
+      "career": 66,
       "recent": [
         {
           "name": "Three Times Louder - 2026 ComplexCon Booth Coverage",
@@ -1466,8 +1466,8 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 22,
-      "career": 461,
+      "events30": 23,
+      "career": 462,
       "recent": [
         {
           "name": "IRONMAN Waco",
@@ -1478,7 +1478,7 @@
           "meta": "SEP 28"
         },
         {
-          "name": "Overnight security - Hilton Houston ",
+          "name": "LA Live Events 9.28-10.4",
           "meta": "SEP 28"
         }
       ]
