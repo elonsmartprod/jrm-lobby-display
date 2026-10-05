@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T07:05:30.922Z",
-  "commit": "5fb9f8a",
+  "generatedAt": "2026-10-05T16:04:06.616Z",
+  "commit": "84153e0",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1979,
-    "events30": 279,
-    "guards30": -501353,
+    "eventsYTD": 1977,
+    "events30": 277,
+    "guards30": -501362,
     "citiesYTD": 117,
-    "upcoming30": 89,
-    "perDay": 7.144404332129964
+    "upcoming30": 93,
+    "perDay": 7.111510791366906
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1095,
+      "ev": 1092,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 89,
-      "w": 0.08127853881278539,
+      "w": 0.0815018315018315,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 102,
-      "w": 0.09315068493150686,
+      "w": 0.09340659340659341,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 196,
-      "w": 0.17899543378995433,
+      "w": 0.1794871794871795,
       "hq": false
     },
     {
@@ -244,15 +244,15 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 128,
-      "w": 0.11689497716894977,
+      "w": 0.11721611721611722,
       "hq": false
     },
     {
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 43,
-      "w": 0.039269406392694065,
+      "ev": 44,
+      "w": 0.040293040293040296,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 125,
-      "w": 0.1141552511415525,
+      "w": 0.11446886446886446,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.32086868647973,
       "lat": 34.06084998006026,
-      "count": 568
+      "count": 565
     },
     {
       "name": "CA",
@@ -365,7 +365,7 @@
       "name": "UT",
       "lon": -111.87681250419418,
       "lat": 40.66516903823827,
-      "count": 12
+      "count": 13
     },
     {
       "name": "Century City, CA",
@@ -1382,7 +1382,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 56,
+      "events30": 53,
       "career": 2403,
       "recent": [
         {
@@ -1467,7 +1467,7 @@
       "office": "Texas",
       "color": "#E8B44A",
       "events30": 22,
-      "career": 460,
+      "career": 461,
       "recent": [
         {
           "name": "IRONMAN Waco",
