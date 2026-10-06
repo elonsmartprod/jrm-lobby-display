@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-05T22:40:09.125Z",
-  "commit": "ca4ac90",
+  "generatedAt": "2026-10-06T03:01:05.355Z",
+  "commit": "c405179",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1977,
-    "events30": 277,
-    "guards30": -501372,
-    "citiesYTD": 117,
-    "upcoming30": 103,
-    "perDay": 7.111510791366906
+    "eventsYTD": 1987,
+    "events30": 283,
+    "guards30": -501328,
+    "citiesYTD": 118,
+    "upcoming30": 123,
+    "perDay": 7.14748201438849
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1092,
+      "ev": 1097,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 89,
-      "w": 0.0815018315018315,
+      "w": 0.08113035551504102,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 102,
-      "w": 0.09340659340659341,
+      "w": 0.09298085688240657,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 195,
-      "w": 0.17857142857142858,
+      "ev": 198,
+      "w": 0.1804922515952598,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 129,
-      "w": 0.11813186813186813,
+      "w": 0.11759343664539654,
       "hq": false
     },
     {
@@ -252,36 +252,36 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 44,
-      "w": 0.040293040293040296,
+      "w": 0.040109389243391066,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 125,
-      "w": 0.11446886446886446,
+      "ev": 126,
+      "w": 0.11485870556061988,
       "hq": true
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.32086868647973,
-      "lat": 34.06084998006026,
-      "count": 566
+      "lon": -118.32183661504527,
+      "lat": 34.06085527636749,
+      "count": 570
     },
     {
       "name": "CA",
-      "lon": -119.25624146888859,
-      "lat": 35.40195059033549,
-      "count": 139
+      "lon": -119.24798491489202,
+      "lat": 35.388715606155216,
+      "count": 140
     },
     {
       "name": "New York, NY",
       "lon": -73.98908701712716,
       "lat": 40.7445676726461,
-      "count": 128
+      "count": 129
     },
     {
       "name": "North Hollywood, CA",
@@ -299,7 +299,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.16164536834533,
       "lat": 36.113182004665475,
-      "count": 83
+      "count": 84
     },
     {
       "name": "West Hollywood, CA",
@@ -631,7 +631,7 @@
       "name": "Western Europe",
       "lon": 5,
       "lat": 48,
-      "ev": 5
+      "ev": 6
     },
     {
       "name": "India",
@@ -797,38 +797,52 @@
   "todayPosts": [
     {
       "rem": "Sean McKillop",
-      "venue": "Prague Congress Centre",
-      "client": "Linux Foundation",
-      "job": "OSS Prague 2026",
+      "venue": "Emerald Bay State Park Lookout",
+      "client": "Czarnowski ",
+      "job": "10.5-Mini Untamed Lake Tahoe",
       "city": ""
     },
     {
-      "rem": "Sevan Ohanians",
-      "venue": "Los Angeles Convention Center",
-      "client": "Say Ok LLC",
-      "job": "Say Ok LLC - 2026 Vans Complexcon Booth Coverage",
-      "city": "Los Angeles"
+      "rem": "Dilsia Lopez Cross",
+      "venue": "D Hotel Fremont Street",
+      "client": "Rex Group",
+      "job": "PowerSlap Hotel Coverage",
+      "city": ""
     },
     {
-      "rem": "Sevan Ohanians",
-      "venue": "Los Angeles Convention Center",
-      "client": "Nook Agency Americas",
-      "job": "Bitcoin + Nook Agency - 2026 ComplexCon Booth Coverage\n",
-      "city": "Los Angeles"
+      "rem": "Miguel Ruezga",
+      "venue": "5711 Buckingham Pkwy, Culver City, CA 90230",
+      "client": "Nike",
+      "job": "HO26 Rui Triangle Photoshoot",
+      "city": ""
     },
     {
-      "rem": "Mivonta Fulwood",
-      "venue": "Los Angeles Convention Center",
-      "client": "RMD Group",
-      "job": "BRABUS - 2026 Complexcon Booth Coverage ",
-      "city": "Los Angeles"
+      "rem": "Mathias Gibson",
+      "venue": "Treehouse Silicone Valley Hotel ",
+      "client": "1540 Productions",
+      "job": "10.5-10.7 Treehouse Silicone Valley ",
+      "city": ""
     },
     {
-      "rem": "Mivonta Fulwood",
-      "venue": "Los Angeles Convention Center",
-      "client": "Toyota",
-      "job": "Toyota - 2026 ComplexCon Booth Coverage",
-      "city": "Los Angeles"
+      "rem": "Alejandra Ruezga",
+      "venue": "Beverly Hilton Hotel",
+      "client": "The Beverly Hilton",
+      "job": "Beverly Hilton Coverage",
+      "city": "Beverly Hills"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "TRA Office NYC",
+      "client": "The Recording Academy",
+      "job": "TRA x AMMP",
+      "city": "New York"
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "The Mint San Francisco",
+      "client": "1540 Productions",
+      "job": "10.5 CZI Biohub",
+      "city": "San Francisco"
     },
     {
       "rem": "Justin McKillop",
@@ -1382,20 +1396,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 53,
-      "career": 2410,
+      "events30": 56,
+      "career": 2436,
       "recent": [
         {
-          "name": "Amazon Man on the Run",
-          "meta": "OCT 05"
+          "name": "Florida Panthers vs Los Angeles Kings",
+          "meta": "OCT 06"
         },
         {
-          "name": "Amazon The Greatest The Actor Awards Nom Comm",
-          "meta": "OCT 05"
+          "name": "Amazon I Play Rocky FYC ",
+          "meta": "OCT 06"
         },
         {
-          "name": "Amazon I play rocky ",
-          "meta": "OCT 05"
+          "name": "Florida Panthers vs Los Angeles Kings LA Live",
+          "meta": "OCT 06"
         }
       ]
     },
@@ -1403,20 +1417,20 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 39,
+      "events30": 41,
       "career": 382,
       "recent": [
         {
-          "name": "TRA x AMMP",
-          "meta": "OCT 05"
+          "name": "AAS x Retail Activation",
+          "meta": "OCT 06"
         },
         {
-          "name": "PROJECT HAIL MARY – All-Guild Screening, Q&A",
-          "meta": "OCT 05"
+          "name": "SIS AP Detail - Tenzing 10.6",
+          "meta": "OCT 06"
         },
         {
-          "name": "10.5- COC Dinner Party",
-          "meta": "OCT 05"
+          "name": "YOUR MOTHER YOUR MOTHER YOUR MOTHER – Tastemaker Screening + Q&A + Reception ",
+          "meta": "OCT 06"
         }
       ]
     },
@@ -1424,7 +1438,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 30,
+      "events30": 29,
       "career": 317,
       "recent": [
         {
@@ -1446,18 +1460,18 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 24,
-      "career": 66,
+      "career": 68,
       "recent": [
+        {
+          "name": "Bar Avoja- Paramount Dinner",
+          "meta": "OCT 06"
+        },
         {
           "name": "Three Times Louder - 2026 ComplexCon Booth Coverage",
           "meta": "OCT 03"
         },
         {
           "name": "God Speed - 2026 ComplexCon Booth Coverage",
-          "meta": "OCT 03"
-        },
-        {
-          "name": "Culture Kings - 2026 Complexcon Booth Coverage ",
           "meta": "OCT 03"
         }
       ]
@@ -1684,9 +1698,9 @@
     "<b>UFC Press Conference</b> · Crypto.com Arena",
     "<b>Zuffa Boxing</b> · T mobile Arena",
     "<b>9.17 - Eater Dinner Party</b> · Alfies",
+    "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
-    "<b>Open AI - 9.22</b> · Bayberry Gardens",
-    "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel "
+    "<b>Open AI - 9.22</b> · Bayberry Gardens"
   ],
   "linkedin": [
     {
