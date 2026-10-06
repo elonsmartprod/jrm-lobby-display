@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T10:22:07.148Z",
-  "commit": "1174bd0",
+  "generatedAt": "2026-10-06T17:14:02.998Z",
+  "commit": "af6ca1c",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1987,
-    "events30": 283,
-    "guards30": -501328,
+    "eventsYTD": 1985,
+    "events30": 281,
+    "guards30": -501350,
     "citiesYTD": 118,
-    "upcoming30": 123,
-    "perDay": 7.14748201438849
+    "upcoming30": 124,
+    "perDay": 7.114695340501792
   },
   "heatPoints": [
     {
@@ -235,8 +235,8 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 198,
-      "w": 0.1804922515952598,
+      "ev": 197,
+      "w": 0.17958067456700091,
       "hq": false
     },
     {
@@ -293,7 +293,7 @@
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 87
+      "count": 86
     },
     {
       "name": "Las Vegas, NV",
@@ -596,12 +596,6 @@
       "count": 2
     },
     {
-      "name": "NJ",
-      "lon": -74.517283219342,
-      "lat": 40.400550618842004,
-      "count": 2
-    },
-    {
       "name": "Henderson, NV",
       "lon": -115.08555035,
       "lat": 36.04779575,
@@ -623,6 +617,12 @@
       "name": "MO",
       "lon": -90.352623988003,
       "lat": 38.6715167585955,
+      "count": 2
+    },
+    {
+      "name": "IL",
+      "lon": -87.776477664353,
+      "lat": 41.964613104555,
       "count": 2
     }
   ],
@@ -1417,7 +1417,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 41,
+      "events30": 40,
       "career": 382,
       "recent": [
         {
@@ -1438,7 +1438,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 29,
+      "events30": 28,
       "career": 317,
       "recent": [
         {
