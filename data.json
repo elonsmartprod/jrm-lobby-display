@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T17:14:02.998Z",
-  "commit": "af6ca1c",
+  "generatedAt": "2026-10-06T21:39:34.188Z",
+  "commit": "f7e73ab",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1985,
-    "events30": 281,
+    "eventsYTD": 1986,
+    "events30": 282,
     "guards30": -501350,
     "citiesYTD": 118,
-    "upcoming30": 124,
-    "perDay": 7.114695340501792
+    "upcoming30": 131,
+    "perDay": 7.118279569892473
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1097,
+      "ev": 1098,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 89,
-      "w": 0.08113035551504102,
+      "w": 0.08105646630236794,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 102,
-      "w": 0.09298085688240657,
+      "w": 0.09289617486338798,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 197,
-      "w": 0.17958067456700091,
+      "w": 0.17941712204007285,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 129,
-      "w": 0.11759343664539654,
+      "w": 0.11748633879781421,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 44,
-      "w": 0.040109389243391066,
+      "w": 0.04007285974499089,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 126,
-      "w": 0.11485870556061988,
+      "w": 0.11475409836065574,
       "hq": true
     }
   ],
@@ -305,7 +305,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 83
+      "count": 84
     },
     {
       "name": "Hollywood, CA",
@@ -1439,7 +1439,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 28,
-      "career": 317,
+      "career": 318,
       "recent": [
         {
           "name": "10.5 CZI Biohub",
@@ -1459,19 +1459,19 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 24,
-      "career": 68,
+      "events30": 25,
+      "career": 70,
       "recent": [
         {
           "name": "Bar Avoja- Paramount Dinner",
           "meta": "OCT 06"
         },
         {
-          "name": "Three Times Louder - 2026 ComplexCon Booth Coverage",
-          "meta": "OCT 03"
+          "name": "HBO - Dark Train Press Screening",
+          "meta": "OCT 06"
         },
         {
-          "name": "God Speed - 2026 ComplexCon Booth Coverage",
+          "name": "Three Times Louder - 2026 ComplexCon Booth Coverage",
           "meta": "OCT 03"
         }
       ]
