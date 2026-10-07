@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T01:34:31.581Z",
-  "commit": "a1e5ff0",
+  "generatedAt": "2026-10-07T08:42:56.177Z",
+  "commit": "d59f0d2",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1997,
-    "events30": 284,
+    "eventsYTD": 1998,
+    "events30": 285,
     "guards30": -501502,
     "citiesYTD": 118,
-    "upcoming30": 121,
-    "perDay": 7.157706093189964
+    "upcoming30": 133,
+    "perDay": 7.161290322580645
   },
   "heatPoints": [
     {
@@ -243,8 +243,8 @@
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 129,
-      "w": 0.11705989110707804,
+      "ev": 130,
+      "w": 0.11796733212341198,
       "hq": false
     },
     {
@@ -1376,7 +1376,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 42,
-      "career": 382,
+      "career": 393,
       "recent": [
         {
           "name": "AAS x F&F Dinner",
@@ -1438,19 +1438,19 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 22,
-      "career": 462,
+      "events30": 23,
+      "career": 463,
       "recent": [
+        {
+          "name": "Lowdown S2 Austin",
+          "meta": "OCT 07"
+        },
         {
           "name": "IRONMAN Waco",
           "meta": "SEP 29"
         },
         {
           "name": "Film Shoot Austin - Bucatini",
-          "meta": "SEP 28"
-        },
-        {
-          "name": "LA Live Events 9.28-10.4",
           "meta": "SEP 28"
         }
       ]
