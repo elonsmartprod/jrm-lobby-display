@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T16:31:57.749Z",
-  "commit": "20b9353",
+  "generatedAt": "2026-10-07T22:00:36.726Z",
+  "commit": "261e684",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1998,
-    "events30": 285,
+    "eventsYTD": 1997,
+    "events30": 284,
     "guards30": -501502,
     "citiesYTD": 118,
-    "upcoming30": 133,
-    "perDay": 7.135714285714286
+    "upcoming30": 136,
+    "perDay": 7.132142857142857
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1102,
+      "ev": 1101,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 89,
-      "w": 0.08076225045372051,
+      "w": 0.08083560399636694,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 104,
-      "w": 0.09437386569872959,
+      "w": 0.09445958219800181,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 200,
-      "w": 0.18148820326678766,
+      "w": 0.18165304268846502,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 130,
-      "w": 0.11796733212341198,
+      "w": 0.11807447774750227,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 44,
-      "w": 0.039927404718693285,
+      "w": 0.03996366939146231,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 127,
-      "w": 0.11524500907441017,
+      "w": 0.11534968210717529,
       "hq": true
     }
   ],
@@ -947,6 +947,13 @@
       "venue": "Walter Hill First Baptist Church",
       "client": "Legacy Homeschool Resource Center",
       "job": "Legacy Homeschool Resource Center",
+      "city": ""
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "DoorDash Office",
+      "client": "Protos Security",
+      "job": "Protos DoorDash",
       "city": ""
     },
     {
