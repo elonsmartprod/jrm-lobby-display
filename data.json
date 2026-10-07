@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T21:39:34.188Z",
-  "commit": "f7e73ab",
+  "generatedAt": "2026-10-07T01:34:31.581Z",
+  "commit": "a1e5ff0",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1986,
-    "events30": 282,
-    "guards30": -501350,
+    "eventsYTD": 1997,
+    "events30": 284,
+    "guards30": -501502,
     "citiesYTD": 118,
-    "upcoming30": 131,
-    "perDay": 7.118279569892473
+    "upcoming30": 121,
+    "perDay": 7.157706093189964
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1098,
+      "ev": 1102,
       "w": 1,
       "hq": true
     },
@@ -220,23 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 89,
-      "w": 0.08105646630236794,
+      "w": 0.08076225045372051,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 102,
-      "w": 0.09289617486338798,
+      "ev": 104,
+      "w": 0.09437386569872959,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 197,
-      "w": 0.17941712204007285,
+      "ev": 200,
+      "w": 0.18148820326678766,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 129,
-      "w": 0.11748633879781421,
+      "w": 0.11705989110707804,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 44,
-      "w": 0.04007285974499089,
+      "w": 0.039927404718693285,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 126,
-      "w": 0.11475409836065574,
+      "ev": 127,
+      "w": 0.11524500907441017,
       "hq": true
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.32183661504527,
       "lat": 34.06085527636749,
-      "count": 570
+      "count": 571
     },
     {
       "name": "CA",
-      "lon": -119.24798491489202,
-      "lat": 35.388715606155216,
-      "count": 140
+      "lon": -119.23915970188484,
+      "lat": 35.376573524921106,
+      "count": 141
     },
     {
       "name": "New York, NY",
@@ -287,7 +287,7 @@
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 87
+      "count": 89
     },
     {
       "name": "San Francisco, CA",
@@ -404,15 +404,15 @@
       "count": 8
     },
     {
+      "name": "TN",
+      "lon": -86.82932345916888,
+      "lat": 36.12843497415838,
+      "count": 8
+    },
+    {
       "name": "San Diego, CA",
       "lon": -117.17105989752933,
       "lat": 32.742518380958835,
-      "count": 7
-    },
-    {
-      "name": "TN",
-      "lon": -86.83572642567685,
-      "lat": 36.12416037684429,
       "count": 7
     },
     {
@@ -631,7 +631,7 @@
       "name": "Western Europe",
       "lon": 5,
       "lat": 48,
-      "ev": 6
+      "ev": 7
     },
     {
       "name": "India",
@@ -810,25 +810,11 @@
       "city": ""
     },
     {
-      "rem": "Miguel Ruezga",
-      "venue": "5711 Buckingham Pkwy, Culver City, CA 90230",
-      "client": "Nike",
-      "job": "HO26 Rui Triangle Photoshoot",
-      "city": ""
-    },
-    {
       "rem": "Mathias Gibson",
       "venue": "Treehouse Silicone Valley Hotel ",
       "client": "1540 Productions",
       "job": "10.5-10.7 Treehouse Silicone Valley ",
       "city": ""
-    },
-    {
-      "rem": "Alejandra Ruezga",
-      "venue": "Beverly Hilton Hotel",
-      "client": "The Beverly Hilton",
-      "job": "Beverly Hilton Coverage",
-      "city": "Beverly Hills"
     },
     {
       "rem": "Tony D’Gracia",
@@ -850,27 +836,6 @@
       "client": "Nike",
       "job": "Nike x NA F27 Sales Conference",
       "city": "Nashville"
-    },
-    {
-      "rem": "Ryan McKillop",
-      "venue": "Waco, TX",
-      "client": "The Ironman Group",
-      "job": "IRONMAN Waco",
-      "city": ""
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "NYC",
-      "client": "OBE (On Board Experiential)",
-      "job": "ECNY 2026",
-      "city": "New York"
-    },
-    {
-      "rem": "Ryan McKillop",
-      "venue": "George R. Brown Convention Center ",
-      "client": "Informa Markets Art LLC/Untitled Art",
-      "job": "Untitled Art Show Houston 2026",
-      "city": "Houston"
     },
     {
       "rem": "Tony D’Gracia",
@@ -1018,13 +983,6 @@
       "client": "The Aster LA",
       "job": "The Aster LA  Hotel",
       "city": "Hollywood"
-    },
-    {
-      "rem": "Patrick J McKillop",
-      "venue": "Delta Center",
-      "client": "Delta Center",
-      "job": "Delta Center Renovations",
-      "city": "Salt Lake City"
     },
     {
       "rem": "Mathias Gibson",
@@ -1396,7 +1354,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 56,
+      "events30": 54,
       "career": 2436,
       "recent": [
         {
@@ -1417,20 +1375,20 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 40,
+      "events30": 42,
       "career": 382,
       "recent": [
         {
-          "name": "AAS x Retail Activation",
-          "meta": "OCT 06"
+          "name": "AAS x F&F Dinner",
+          "meta": "OCT 07"
         },
         {
-          "name": "SIS AP Detail - Tenzing 10.6",
-          "meta": "OCT 06"
+          "name": "Amazon - Press Luncheon 10.7",
+          "meta": "OCT 07"
         },
         {
-          "name": "YOUR MOTHER YOUR MOTHER YOUR MOTHER – Tastemaker Screening + Q&A + Reception ",
-          "meta": "OCT 06"
+          "name": "LOVE OF YOUR LIFE – New York – NBR Screening Q+A",
+          "meta": "OCT 07"
         }
       ]
     },
@@ -1438,19 +1396,19 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 28,
+      "events30": 29,
       "career": 318,
       "recent": [
+        {
+          "name": "10.7 Growth Jewish New Year Dinner ",
+          "meta": "OCT 07"
+        },
         {
           "name": "10.5 CZI Biohub",
           "meta": "OCT 05"
         },
         {
           "name": "10.5-10.7 Treehouse Silicone Valley ",
-          "meta": "OCT 05"
-        },
-        {
-          "name": "10.5 Jacks",
           "meta": "OCT 05"
         }
       ]
@@ -1459,9 +1417,13 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 25,
+      "events30": 26,
       "career": 70,
       "recent": [
+        {
+          "name": "Net Zero Conference 2026",
+          "meta": "OCT 07"
+        },
         {
           "name": "Bar Avoja- Paramount Dinner",
           "meta": "OCT 06"
@@ -1469,10 +1431,6 @@
         {
           "name": "HBO - Dark Train Press Screening",
           "meta": "OCT 06"
-        },
-        {
-          "name": "Three Times Louder - 2026 ComplexCon Booth Coverage",
-          "meta": "OCT 03"
         }
       ]
     },
@@ -1480,7 +1438,7 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 22,
       "career": 462,
       "recent": [
         {
