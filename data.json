@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T16:31:09.634Z",
-  "commit": "ce9ebc2",
+  "generatedAt": "2026-10-08T22:06:28.451Z",
+  "commit": "7282450",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 293,
     "guards30": -501426,
     "citiesYTD": 118,
-    "upcoming30": 124,
+    "upcoming30": 127,
     "perDay": 7.160142348754448
   },
   "heatPoints": [
@@ -1348,7 +1348,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 56,
-      "career": 2436,
+      "career": 2437,
       "recent": [
         {
           "name": "Los Angeles Lakers vs Sacramento Kings LA Live",
@@ -1390,7 +1390,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 30,
-      "career": 318,
+      "career": 319,
       "recent": [
         {
           "name": "10.8 Jack's ",
