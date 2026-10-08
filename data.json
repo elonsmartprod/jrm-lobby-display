@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T22:00:36.726Z",
-  "commit": "261e684",
+  "generatedAt": "2026-10-08T01:58:08.823Z",
+  "commit": "78b635d",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 1997,
-    "events30": 284,
-    "guards30": -501502,
+    "eventsYTD": 2012,
+    "events30": 293,
+    "guards30": -501426,
     "citiesYTD": 118,
-    "upcoming30": 136,
-    "perDay": 7.132142857142857
+    "upcoming30": 124,
+    "perDay": 7.185714285714286
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1101,
+      "ev": 1105,
       "w": 1,
       "hq": true
     },
@@ -219,24 +219,24 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 89,
-      "w": 0.08083560399636694,
+      "ev": 90,
+      "w": 0.08144796380090498,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 104,
-      "w": 0.09445958219800181,
+      "ev": 105,
+      "w": 0.09502262443438914,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 200,
-      "w": 0.18165304268846502,
+      "ev": 205,
+      "w": 0.18552036199095023,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 130,
-      "w": 0.11807447774750227,
+      "w": 0.11764705882352941,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 44,
-      "w": 0.03996366939146231,
+      "w": 0.039819004524886875,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 127,
-      "w": 0.11534968210717529,
+      "ev": 129,
+      "w": 0.1167420814479638,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.32183661504527,
       "lat": 34.06085527636749,
-      "count": 571
+      "count": 574
     },
     {
       "name": "CA",
@@ -279,27 +279,27 @@
     },
     {
       "name": "New York, NY",
-      "lon": -73.98908701712716,
-      "lat": 40.7445676726461,
-      "count": 129
+      "lon": -73.98895695153743,
+      "lat": 40.74518111889292,
+      "count": 132
     },
     {
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 89
+      "count": 90
     },
     {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 86
+      "count": 87
     },
     {
       "name": "Las Vegas, NV",
       "lon": -115.16164536834533,
       "lat": 36.113182004665475,
-      "count": 84
+      "count": 85
     },
     {
       "name": "West Hollywood, CA",
@@ -351,9 +351,9 @@
     },
     {
       "name": "NY",
-      "lon": -73.91490417142707,
-      "lat": 40.950034803997795,
-      "count": 16
+      "lon": -73.92058874043644,
+      "lat": 40.93693193322587,
+      "count": 17
     },
     {
       "name": "Salt Lake City, UT",
@@ -368,22 +368,22 @@
       "count": 13
     },
     {
+      "name": "Chicago, IL",
+      "lon": -87.65043818176079,
+      "lat": 41.8908769600975,
+      "count": 12
+    },
+    {
       "name": "Century City, CA",
       "lon": -118.41705353333334,
       "lat": 34.0562655,
       "count": 11
     },
     {
-      "name": "Chicago, IL",
-      "lon": -87.6471605464009,
-      "lat": 41.883719777886114,
-      "count": 11
-    },
-    {
       "name": "NV",
-      "lon": -115.15583115773691,
-      "lat": 36.1368956220612,
-      "count": 10
+      "lon": -115.15734128471155,
+      "lat": 36.13052790608827,
+      "count": 11
     },
     {
       "name": "Miami, FL",
@@ -500,6 +500,12 @@
       "count": 3
     },
     {
+      "name": "Murfreesboro, TN",
+      "lon": -86.41499830000001,
+      "lat": 35.856430450000005,
+      "count": 3
+    },
+    {
       "name": "Universal City, CA",
       "lon": -118.352547,
       "lat": 34.1371163,
@@ -563,12 +569,6 @@
       "name": "SC",
       "lon": -80.54829694674899,
       "lat": 33.428787808144506,
-      "count": 2
-    },
-    {
-      "name": "Murfreesboro, TN",
-      "lon": -86.41499830000001,
-      "lat": 35.856430450000005,
       "count": 2
     },
     {
@@ -796,24 +796,17 @@
   ],
   "todayPosts": [
     {
-      "rem": "Sean McKillop",
-      "venue": "Emerald Bay State Park Lookout",
-      "client": "Czarnowski ",
-      "job": "10.5-Mini Untamed Lake Tahoe",
-      "city": ""
+      "rem": "Mivonta Fulwood",
+      "venue": "Los Angeles Convention Center",
+      "client": "Verdical Group",
+      "job": "Net Zero Conference 2026",
+      "city": "Los Angeles"
     },
     {
       "rem": "Dilsia Lopez Cross",
       "venue": "D Hotel Fremont Street",
       "client": "Rex Group",
       "job": "PowerSlap Hotel Coverage",
-      "city": ""
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Treehouse Silicone Valley Hotel ",
-      "client": "1540 Productions",
-      "job": "10.5-10.7 Treehouse Silicone Valley ",
       "city": ""
     },
     {
@@ -836,13 +829,6 @@
       "client": "Nike",
       "job": "Nike x NA F27 Sales Conference",
       "city": "Nashville"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "NYC",
-      "client": "Nike",
-      "job": "Nike x SP27 Vomero 19 Photoshoot",
-      "city": "New York"
     },
     {
       "rem": "Jessica Hernandez",
@@ -1361,19 +1347,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 54,
+      "events30": 56,
       "career": 2436,
       "recent": [
         {
+          "name": "Los Angeles Lakers vs Sacramento Kings LA Live",
+          "meta": "OCT 08"
+        },
+        {
+          "name": "Los Angeles Lakers vs Sacramento Kings",
+          "meta": "OCT 08"
+        },
+        {
           "name": "Florida Panthers vs Los Angeles Kings",
-          "meta": "OCT 06"
-        },
-        {
-          "name": "Amazon I Play Rocky FYC ",
-          "meta": "OCT 06"
-        },
-        {
-          "name": "Florida Panthers vs Los Angeles Kings LA Live",
           "meta": "OCT 06"
         }
       ]
@@ -1382,20 +1368,20 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 42,
-      "career": 393,
+      "events30": 47,
+      "career": 394,
       "recent": [
         {
-          "name": "AAS x F&F Dinner",
-          "meta": "OCT 07"
+          "name": "Conference Project-NYC",
+          "meta": "OCT 08"
         },
         {
-          "name": "Amazon - Press Luncheon 10.7",
-          "meta": "OCT 07"
+          "name": "LOVE OF YOUR LIFE – New York – All-Guild Screening + Q+A Reception",
+          "meta": "OCT 08"
         },
         {
-          "name": "LOVE OF YOUR LIFE – New York – NBR Screening Q+A",
-          "meta": "OCT 07"
+          "name": "AAS x Brand Activation",
+          "meta": "OCT 08"
         }
       ]
     },
@@ -1403,19 +1389,19 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 29,
+      "events30": 30,
       "career": 318,
       "recent": [
+        {
+          "name": "10.8 Jack's ",
+          "meta": "OCT 08"
+        },
         {
           "name": "10.7 Growth Jewish New Year Dinner ",
           "meta": "OCT 07"
         },
         {
           "name": "10.5 CZI Biohub",
-          "meta": "OCT 05"
-        },
-        {
-          "name": "10.5-10.7 Treehouse Silicone Valley ",
           "meta": "OCT 05"
         }
       ]
@@ -1428,15 +1414,15 @@
       "career": 70,
       "recent": [
         {
+          "name": "Bar Avoja - M&F Reception",
+          "meta": "OCT 08"
+        },
+        {
           "name": "Net Zero Conference 2026",
           "meta": "OCT 07"
         },
         {
           "name": "Bar Avoja- Paramount Dinner",
-          "meta": "OCT 06"
-        },
-        {
-          "name": "HBO - Dark Train Press Screening",
           "meta": "OCT 06"
         }
       ]
@@ -1445,7 +1431,7 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 21,
       "career": 463,
       "recent": [
         {
