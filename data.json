@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T02:12:33.680Z",
-  "commit": "e2ba9cd",
+  "generatedAt": "2026-10-09T09:08:55.301Z",
+  "commit": "8909d46",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2021,
-    "events30": 298,
+    "eventsYTD": 2022,
+    "events30": 299,
     "guards30": -501419,
     "citiesYTD": 118,
     "upcoming30": 120,
-    "perDay": 7.192170818505338
+    "perDay": 7.195729537366548
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1107,
+      "ev": 1108,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 91,
-      "w": 0.08220415537488708,
+      "w": 0.08212996389891697,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 106,
-      "w": 0.0957542908762421,
+      "w": 0.09566787003610108,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 208,
-      "w": 0.1878952122854562,
+      "w": 0.18772563176895307,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 130,
-      "w": 0.11743450767841011,
+      "w": 0.11732851985559567,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 45,
-      "w": 0.04065040650406504,
+      "w": 0.04061371841155235,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 129,
-      "w": 0.11653116531165311,
+      "w": 0.1164259927797834,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.32183661504527,
       "lat": 34.06085527636749,
-      "count": 575
+      "count": 576
     },
     {
       "name": "CA",
@@ -1403,8 +1403,8 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 27,
-      "career": 70,
+      "events30": 28,
+      "career": 71,
       "recent": [
         {
           "name": "100 Thieves Overnight Coverage",
