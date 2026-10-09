@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T22:06:28.451Z",
-  "commit": "7282450",
+  "generatedAt": "2026-10-09T02:12:33.680Z",
+  "commit": "e2ba9cd",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2012,
-    "events30": 293,
-    "guards30": -501426,
+    "eventsYTD": 2021,
+    "events30": 298,
+    "guards30": -501419,
     "citiesYTD": 118,
-    "upcoming30": 127,
-    "perDay": 7.160142348754448
+    "upcoming30": 120,
+    "perDay": 7.192170818505338
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1105,
+      "ev": 1107,
       "w": 1,
       "hq": true
     },
@@ -219,24 +219,24 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 90,
-      "w": 0.08144796380090498,
+      "ev": 91,
+      "w": 0.08220415537488708,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 105,
-      "w": 0.09502262443438914,
+      "ev": 106,
+      "w": 0.0957542908762421,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 205,
-      "w": 0.18552036199095023,
+      "ev": 208,
+      "w": 0.1878952122854562,
       "hq": false
     },
     {
@@ -244,15 +244,15 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 130,
-      "w": 0.11764705882352941,
+      "w": 0.11743450767841011,
       "hq": false
     },
     {
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 44,
-      "w": 0.039819004524886875,
+      "ev": 45,
+      "w": 0.04065040650406504,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 129,
-      "w": 0.1167420814479638,
+      "w": 0.11653116531165311,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.32183661504527,
       "lat": 34.06085527636749,
-      "count": 574
+      "count": 575
     },
     {
       "name": "CA",
@@ -293,13 +293,13 @@
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 87
+      "count": 88
     },
     {
       "name": "Las Vegas, NV",
-      "lon": -115.16164536834533,
+      "lon": -115.1616453683453,
       "lat": 36.113182004665475,
-      "count": 85
+      "count": 86
     },
     {
       "name": "West Hollywood, CA",
@@ -596,6 +596,12 @@
       "count": 2
     },
     {
+      "name": "NJ",
+      "lon": -74.517283219342,
+      "lat": 40.400550618842004,
+      "count": 2
+    },
+    {
       "name": "Henderson, NV",
       "lon": -115.08555035,
       "lat": 36.04779575,
@@ -617,12 +623,6 @@
       "name": "MO",
       "lon": -90.352623988003,
       "lat": 38.6715167585955,
-      "count": 2
-    },
-    {
-      "name": "IL",
-      "lon": -87.776477664353,
-      "lat": 41.964613104555,
       "count": 2
     }
   ],
@@ -796,11 +796,11 @@
   ],
   "todayPosts": [
     {
-      "rem": "Mivonta Fulwood",
-      "venue": "Los Angeles Convention Center",
-      "client": "Verdical Group",
-      "job": "Net Zero Conference 2026",
-      "city": "Los Angeles"
+      "rem": "Sean McKillop",
+      "venue": "Emagine Royal Oak",
+      "client": "Amazon",
+      "job": "Amazon - The Greatest Screening - Detroit",
+      "city": ""
     },
     {
       "rem": "Dilsia Lopez Cross",
@@ -815,13 +815,6 @@
       "client": "The Recording Academy",
       "job": "TRA x AMMP",
       "city": "New York"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "The Mint San Francisco",
-      "client": "1540 Productions",
-      "job": "10.5 CZI Biohub",
-      "city": "San Francisco"
     },
     {
       "rem": "Justin McKillop",
@@ -1347,9 +1340,13 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 56,
+      "events30": 57,
       "career": 2437,
       "recent": [
+        {
+          "name": "Los Horóscopos de Durango LA live",
+          "meta": "OCT 09"
+        },
         {
           "name": "Los Angeles Lakers vs Sacramento Kings LA Live",
           "meta": "OCT 08"
@@ -1357,10 +1354,6 @@
         {
           "name": "Los Angeles Lakers vs Sacramento Kings",
           "meta": "OCT 08"
-        },
-        {
-          "name": "Florida Panthers vs Los Angeles Kings",
-          "meta": "OCT 06"
         }
       ]
     },
@@ -1368,20 +1361,20 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 47,
-      "career": 394,
+      "events30": 48,
+      "career": 395,
       "recent": [
         {
-          "name": "Conference Project-NYC",
-          "meta": "OCT 08"
+          "name": "Native x Peanut",
+          "meta": "OCT 09"
         },
         {
-          "name": "LOVE OF YOUR LIFE – New York – All-Guild Screening + Q+A Reception",
-          "meta": "OCT 08"
+          "name": "IHC x NJ",
+          "meta": "OCT 09"
         },
         {
-          "name": "AAS x Brand Activation",
-          "meta": "OCT 08"
+          "name": "SIS AP Detail- Being Huemann 10.9",
+          "meta": "OCT 09"
         }
       ]
     },
@@ -1389,9 +1382,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 30,
+      "events30": 31,
       "career": 319,
       "recent": [
+        {
+          "name": "10.9 Amazon EP",
+          "meta": "OCT 09"
+        },
         {
           "name": "10.8 Jack's ",
           "meta": "OCT 08"
@@ -1399,10 +1396,6 @@
         {
           "name": "10.7 Growth Jewish New Year Dinner ",
           "meta": "OCT 07"
-        },
-        {
-          "name": "10.5 CZI Biohub",
-          "meta": "OCT 05"
         }
       ]
     },
@@ -1410,9 +1403,13 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 26,
+      "events30": 27,
       "career": 70,
       "recent": [
+        {
+          "name": "100 Thieves Overnight Coverage",
+          "meta": "OCT 09"
+        },
         {
           "name": "Bar Avoja - M&F Reception",
           "meta": "OCT 08"
@@ -1420,10 +1417,6 @@
         {
           "name": "Net Zero Conference 2026",
           "meta": "OCT 07"
-        },
-        {
-          "name": "Bar Avoja- Paramount Dinner",
-          "meta": "OCT 06"
         }
       ]
     },
@@ -1431,7 +1424,7 @@
       "name": "Ryan McKillop",
       "office": "Texas",
       "color": "#E8B44A",
-      "events30": 21,
+      "events30": 20,
       "career": 463,
       "recent": [
         {
@@ -1642,6 +1635,7 @@
     "<b>Los Parras LA Live</b> · LA Live",
     "<b>VMA&#39;s 2026 Post Party</b> · Hotel Figueroa",
     "<b>BJJ 11</b> · UFC Apex",
+    "<b>Native x Peanut</b> · NYC",
     "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
     "<b>Green Hills Park Festival</b> · Nashville, TN",
     "<b>Kassi Rooftop</b> · Kassi Rooftop",
@@ -1650,8 +1644,7 @@
     "<b>Zuffa Boxing</b> · T mobile Arena",
     "<b>9.17 - Eater Dinner Party</b> · Alfies",
     "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
-    "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
-    "<b>Open AI - 9.22</b> · Bayberry Gardens"
+    "<b>10.5 CZI Biohub</b> · The Mint San Francisco"
   ],
   "linkedin": [
     {
