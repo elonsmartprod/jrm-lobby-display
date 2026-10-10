@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T20:59:17.578Z",
-  "commit": "7247c61",
+  "generatedAt": "2026-10-10T00:54:21.258Z",
+  "commit": "8cdec2d",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2019,
-    "events30": 296,
-    "guards30": -501419,
+    "eventsYTD": 2038,
+    "events30": 305,
+    "guards30": -501392,
     "citiesYTD": 118,
-    "upcoming30": 123,
-    "perDay": 7.159574468085107
+    "upcoming30": 106,
+    "perDay": 7.226950354609929
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1108,
+      "ev": 1118,
       "w": 1,
       "hq": true
     },
@@ -219,32 +219,32 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 91,
-      "w": 0.08212996389891697,
+      "ev": 92,
+      "w": 0.08228980322003578,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 105,
-      "w": 0.09476534296028881,
+      "ev": 107,
+      "w": 0.09570661896243292,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 207,
-      "w": 0.18682310469314078,
+      "ev": 209,
+      "w": 0.18694096601073346,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 130,
-      "w": 0.11732851985559567,
+      "ev": 131,
+      "w": 0.11717352415026834,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 45,
-      "w": 0.04061371841155235,
+      "w": 0.04025044722719141,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 129,
-      "w": 0.1164259927797834,
+      "ev": 130,
+      "w": 0.11627906976744186,
       "hq": true
     }
   ],
@@ -269,37 +269,37 @@
       "name": "Los Angeles, CA",
       "lon": -118.32183661504527,
       "lat": 34.06085527636749,
-      "count": 576
+      "count": 579
     },
     {
       "name": "CA",
-      "lon": -119.23915970188484,
-      "lat": 35.376573524921106,
-      "count": 141
+      "lon": -119.23098651702017,
+      "lat": 35.36462377329801,
+      "count": 145
     },
     {
       "name": "New York, NY",
       "lon": -73.98895695153743,
       "lat": 40.74518111889292,
-      "count": 132
+      "count": 133
     },
     {
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 90
+      "count": 92
     },
     {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 87
+      "count": 88
     },
     {
       "name": "Las Vegas, NV",
       "lon": -115.1616453683453,
       "lat": 36.113182004665475,
-      "count": 86
+      "count": 87
     },
     {
       "name": "West Hollywood, CA",
@@ -317,7 +317,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.39966827620918,
       "lat": 34.06835699044675,
-      "count": 48
+      "count": 49
     },
     {
       "name": "Culver City, CA",
@@ -335,7 +335,7 @@
       "name": "Dallas, TX",
       "lon": -96.80460389999998,
       "lat": 32.80861900000001,
-      "count": 17
+      "count": 18
     },
     {
       "name": "Nashville, TN",
@@ -631,7 +631,7 @@
       "name": "Western Europe",
       "lon": 5,
       "lat": 48,
-      "ev": 7
+      "ev": 8
     },
     {
       "name": "India",
@@ -796,17 +796,24 @@
   ],
   "todayPosts": [
     {
-      "rem": "Sean McKillop",
-      "venue": "Emagine Royal Oak",
-      "client": "Amazon",
-      "job": "Amazon - The Greatest Screening - Detroit",
+      "rem": "Tony D’Gracia",
+      "venue": "Camden, NJ",
+      "client": "Idlewild Ventures, LLC",
+      "job": "IHC x NJ",
       "city": ""
     },
     {
-      "rem": "Dilsia Lopez Cross",
-      "venue": "D Hotel Fremont Street",
-      "client": "Rex Group",
-      "job": "PowerSlap Hotel Coverage",
+      "rem": "Mivonta Fulwood",
+      "venue": "Mentryville Park",
+      "client": "100 Thieves",
+      "job": "100 Thieves Overnight Coverage",
+      "city": ""
+    },
+    {
+      "rem": "Patrick J McKillop",
+      "venue": "Little America Hotel ",
+      "client": "Emerald Americas LLC",
+      "job": "Emerald SMC 004",
       "city": ""
     },
     {
@@ -815,13 +822,6 @@
       "client": "The Recording Academy",
       "job": "TRA x AMMP",
       "city": "New York"
-    },
-    {
-      "rem": "Justin McKillop",
-      "venue": "Nashville, TN",
-      "client": "Nike",
-      "job": "Nike x NA F27 Sales Conference",
-      "city": "Nashville"
     },
     {
       "rem": "Jessica Hernandez",
@@ -1340,20 +1340,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 57,
+      "events30": 59,
       "career": 2437,
       "recent": [
         {
-          "name": "Los Horóscopos de Durango LA live",
-          "meta": "OCT 09"
+          "name": "Elefante LA Live",
+          "meta": "OCT 10"
         },
         {
-          "name": "Los Angeles Lakers vs Sacramento Kings LA Live",
-          "meta": "OCT 08"
+          "name": "FYC Love of your life ",
+          "meta": "OCT 10"
         },
         {
-          "name": "Los Angeles Lakers vs Sacramento Kings",
-          "meta": "OCT 08"
+          "name": "Jungle",
+          "meta": "OCT 10"
         }
       ]
     },
@@ -1361,19 +1361,19 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 47,
-      "career": 396,
+      "events30": 48,
+      "career": 397,
       "recent": [
         {
+          "name": "Ole Henriksen Pop Up NYC 10/10",
+          "meta": "OCT 10"
+        },
+        {
+          "name": "48 Wall St. - 10.10",
+          "meta": "OCT 10"
+        },
+        {
           "name": "Native x Peanut",
-          "meta": "OCT 09"
-        },
-        {
-          "name": "IHC x NJ",
-          "meta": "OCT 09"
-        },
-        {
-          "name": "SIS AP Detail- Being Huemann 10.9",
           "meta": "OCT 09"
         }
       ]
@@ -1382,20 +1382,20 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 30,
+      "events30": 31,
       "career": 320,
       "recent": [
         {
+          "name": "10.10 Emerald Driver",
+          "meta": "OCT 10"
+        },
+        {
+          "name": "10.10 Jack's",
+          "meta": "OCT 10"
+        },
+        {
           "name": "10.9 Amazon EP",
           "meta": "OCT 09"
-        },
-        {
-          "name": "10.8 Jack's ",
-          "meta": "OCT 08"
-        },
-        {
-          "name": "10.7 Growth Jewish New Year Dinner ",
-          "meta": "OCT 07"
         }
       ]
     },
@@ -1403,20 +1403,20 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 28,
+      "events30": 30,
       "career": 71,
       "recent": [
         {
+          "name": "Bar Avoja - DB Birthday Party",
+          "meta": "OCT 10"
+        },
+        {
+          "name": "HBO - I Love LA : Season 2 Wrap Party",
+          "meta": "OCT 10"
+        },
+        {
           "name": "100 Thieves Overnight Coverage",
           "meta": "OCT 09"
-        },
-        {
-          "name": "Bar Avoja - M&F Reception",
-          "meta": "OCT 08"
-        },
-        {
-          "name": "Net Zero Conference 2026",
-          "meta": "OCT 07"
         }
       ]
     },
@@ -1428,16 +1428,16 @@
       "career": 463,
       "recent": [
         {
+          "name": "MHH 10/10",
+          "meta": "OCT 10"
+        },
+        {
           "name": "Lowdown S2 Austin",
           "meta": "OCT 07"
         },
         {
           "name": "IRONMAN Waco",
           "meta": "SEP 29"
-        },
-        {
-          "name": "Film Shoot Austin - Bucatini",
-          "meta": "SEP 28"
         }
       ]
     }
