@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-10T22:35:16.205Z",
-  "commit": "1320eaa",
+  "generatedAt": "2026-10-11T01:56:17.671Z",
+  "commit": "b312c92",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2034,
-    "events30": 301,
-    "guards30": -501412,
+    "eventsYTD": 2039,
+    "events30": 300,
+    "guards30": -501407,
     "citiesYTD": 118,
-    "upcoming30": 106,
-    "perDay": 7.187279151943463
+    "upcoming30": 103,
+    "perDay": 7.204946996466431
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1114,
+      "ev": 1117,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 92,
-      "w": 0.08258527827648116,
+      "w": 0.08236347358997315,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 107,
-      "w": 0.09605026929982047,
+      "w": 0.09579230080572963,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 209,
-      "w": 0.18761220825852784,
+      "ev": 211,
+      "w": 0.18889883616830797,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 131,
-      "w": 0.11759425493716337,
+      "w": 0.11727842435094002,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 45,
-      "w": 0.04039497307001795,
+      "w": 0.04028648164726947,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 130,
-      "w": 0.11669658886894076,
+      "w": 0.11638316920322292,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.32183661504527,
       "lat": 34.06085527636749,
-      "count": 575
+      "count": 576
     },
     {
       "name": "CA",
@@ -281,13 +281,13 @@
       "name": "New York, NY",
       "lon": -73.98895695153743,
       "lat": 40.74518111889292,
-      "count": 133
+      "count": 135
     },
     {
       "name": "North Hollywood, CA",
       "lon": -118.3740440272265,
       "lat": 34.1544377437855,
-      "count": 92
+      "count": 94
     },
     {
       "name": "San Francisco, CA",
@@ -796,24 +796,31 @@
   ],
   "todayPosts": [
     {
+      "rem": "Andy Sanders",
+      "venue": " 4437 W Slauson Ave, Windsor Hills, CA 90043",
+      "client": "*TEST* Client Name",
+      "job": "TCP TEST",
+      "city": ""
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "Four Seasons-SF",
+      "client": "Emerald Americas LLC",
+      "job": "10.10 Emerald Driver",
+      "city": ""
+    },
+    {
+      "rem": "Alejandra Ruezga",
+      "venue": "Beverly Hilton Hotel",
+      "client": "CAIS Group",
+      "job": "CAIS Summit 2026",
+      "city": "Beverly Hills"
+    },
+    {
       "rem": "Tony D’Gracia",
       "venue": "Camden, NJ",
       "client": "Idlewild Ventures, LLC",
       "job": "IHC x NJ",
-      "city": ""
-    },
-    {
-      "rem": "Mivonta Fulwood",
-      "venue": "Mentryville Park",
-      "client": "100 Thieves",
-      "job": "100 Thieves Overnight Coverage",
-      "city": ""
-    },
-    {
-      "rem": "Patrick J McKillop",
-      "venue": "Little America Hotel ",
-      "client": "Emerald Americas LLC",
-      "job": "Emerald SMC 004",
       "city": ""
     },
     {
@@ -1340,7 +1347,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 55,
+      "events30": 53,
       "career": 2437,
       "recent": [
         {
@@ -1365,16 +1372,16 @@
       "career": 397,
       "recent": [
         {
+          "name": "Nike x Kids & Family Watch Party",
+          "meta": "OCT 11"
+        },
+        {
+          "name": "One Fine Day Bridal Market-NYC",
+          "meta": "OCT 11"
+        },
+        {
           "name": "Ole Henriksen Pop Up NYC 10/10",
           "meta": "OCT 10"
-        },
-        {
-          "name": "48 Wall St. - 10.10",
-          "meta": "OCT 10"
-        },
-        {
-          "name": "Native x Peanut",
-          "meta": "OCT 09"
         }
       ]
     },
@@ -1421,23 +1428,23 @@
       ]
     },
     {
-      "name": "Ryan McKillop",
-      "office": "Texas",
+      "name": "Alejandra Ruezga",
+      "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 20,
-      "career": 463,
+      "events30": 19,
+      "career": 305,
       "recent": [
         {
-          "name": "MHH 10/10",
+          "name": "TVA Screening Room Your Mother ",
+          "meta": "OCT 11"
+        },
+        {
+          "name": "TVA Screening",
+          "meta": "OCT 11"
+        },
+        {
+          "name": "CAIS Summit 2026",
           "meta": "OCT 10"
-        },
-        {
-          "name": "Lowdown S2 Austin",
-          "meta": "OCT 07"
-        },
-        {
-          "name": "IRONMAN Waco",
-          "meta": "SEP 29"
         }
       ]
     }
