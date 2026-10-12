@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-11T20:19:51.597Z",
-  "commit": "aa7f736",
+  "generatedAt": "2026-10-12T00:35:06.380Z",
+  "commit": "6f1d549",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2039,
-    "events30": 300,
-    "guards30": -501407,
+    "eventsYTD": 2044,
+    "events30": 292,
+    "guards30": -501411,
     "citiesYTD": 118,
-    "upcoming30": 103,
-    "perDay": 7.179577464788732
+    "upcoming30": 99,
+    "perDay": 7.197183098591549
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1117,
+      "ev": 1119,
       "w": 1,
       "hq": true
     },
@@ -220,23 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 92,
-      "w": 0.08236347358997315,
+      "w": 0.08221626452189455,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 107,
-      "w": 0.09579230080572963,
+      "ev": 108,
+      "w": 0.09651474530831099,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 211,
-      "w": 0.18889883616830797,
+      "ev": 212,
+      "w": 0.18945487042001788,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 131,
-      "w": 0.11727842435094002,
+      "w": 0.11706881143878463,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 45,
-      "w": 0.04028648164726947,
+      "w": 0.040214477211796246,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 130,
-      "w": 0.11638316920322292,
+      "w": 0.1161751563896336,
       "hq": true
     }
   ],
@@ -269,19 +269,19 @@
       "name": "Los Angeles, CA",
       "lon": -118.32183661504527,
       "lat": 34.06085527636749,
-      "count": 576
+      "count": 577
     },
     {
       "name": "CA",
-      "lon": -119.23098651702017,
-      "lat": 35.36462377329801,
-      "count": 145
+      "lon": -119.22267698223305,
+      "lat": 35.352337291122176,
+      "count": 146
     },
     {
       "name": "New York, NY",
       "lon": -73.98895695153743,
       "lat": 40.74518111889292,
-      "count": 135
+      "count": 136
     },
     {
       "name": "North Hollywood, CA",
@@ -293,7 +293,7 @@
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 88
+      "count": 89
     },
     {
       "name": "Las Vegas, NV",
@@ -341,7 +341,7 @@
       "name": "Nashville, TN",
       "lon": -86.73392427844473,
       "lat": 36.104358079160875,
-      "count": 17
+      "count": 18
     },
     {
       "name": "Santa Monica, CA",
@@ -796,6 +796,13 @@
   ],
   "todayPosts": [
     {
+      "rem": "Tony D’Gracia",
+      "venue": "Starrett-Lehigh",
+      "client": "One Fine Collective",
+      "job": "One Fine Day Bridal Market-NYC",
+      "city": "New York"
+    },
+    {
       "rem": "Andy Sanders",
       "venue": " 4437 W Slauson Ave, Windsor Hills, CA 90043",
       "client": "*TEST* Client Name",
@@ -807,20 +814,6 @@
       "venue": "Four Seasons-SF",
       "client": "Emerald Americas LLC",
       "job": "10.10 Emerald Driver",
-      "city": ""
-    },
-    {
-      "rem": "Alejandra Ruezga",
-      "venue": "Beverly Hilton Hotel",
-      "client": "CAIS Group",
-      "job": "CAIS Summit 2026",
-      "city": "Beverly Hills"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "Camden, NJ",
-      "client": "Idlewild Ventures, LLC",
-      "job": "IHC x NJ",
       "city": ""
     },
     {
@@ -1347,7 +1340,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 53,
+      "events30": 51,
       "career": 2437,
       "recent": [
         {
@@ -1368,9 +1361,13 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 48,
+      "events30": 47,
       "career": 397,
       "recent": [
+        {
+          "name": "Melange de Blanc Bridal Market-NYC",
+          "meta": "OCT 12"
+        },
         {
           "name": "Nike x Kids & Family Watch Party",
           "meta": "OCT 11"
@@ -1378,31 +1375,6 @@
         {
           "name": "One Fine Day Bridal Market-NYC",
           "meta": "OCT 11"
-        },
-        {
-          "name": "Ole Henriksen Pop Up NYC 10/10",
-          "meta": "OCT 10"
-        }
-      ]
-    },
-    {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
-      "color": "#E8B44A",
-      "events30": 31,
-      "career": 320,
-      "recent": [
-        {
-          "name": "10.10 Emerald Driver",
-          "meta": "OCT 10"
-        },
-        {
-          "name": "10.10 Jack's",
-          "meta": "OCT 10"
-        },
-        {
-          "name": "10.9 Amazon EP",
-          "meta": "OCT 09"
         }
       ]
     },
@@ -1428,6 +1400,27 @@
       ]
     },
     {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 30,
+      "career": 320,
+      "recent": [
+        {
+          "name": "10.15 Vercel Ship",
+          "meta": "OCT 12"
+        },
+        {
+          "name": "10.10 Emerald Driver",
+          "meta": "OCT 10"
+        },
+        {
+          "name": "10.10 Jack's",
+          "meta": "OCT 10"
+        }
+      ]
+    },
+    {
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
@@ -1435,16 +1428,16 @@
       "career": 305,
       "recent": [
         {
+          "name": "Pilot Set Watch",
+          "meta": "OCT 12"
+        },
+        {
           "name": "TVA Screening Room Your Mother ",
           "meta": "OCT 11"
         },
         {
           "name": "TVA Screening",
           "meta": "OCT 11"
-        },
-        {
-          "name": "CAIS Summit 2026",
-          "meta": "OCT 10"
         }
       ]
     }
@@ -1636,22 +1629,22 @@
     "<b>Nike x NA F27 Sales Conference</b> · Nashville, TN",
     "<b>DWCS 77</b> · UFC Apex",
     "<b>UFC CWI </b> · Crypto.com Arena",
-    "<b>Optimist Studio Youngs Group Event</b> · Optimist Studios",
     "<b>Open AI - Idaho </b> · Courtyard by Marriott Boise west ",
     "<b>9.22 Emerald Americas AZ </b> · Four Seasons Scottsdale",
     "<b>VMA&#39;s 2026 Post Party</b> · Hotel Figueroa",
     "<b>BJJ 11</b> · UFC Apex",
     "<b>Native x Peanut</b> · NYC",
     "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
-    "<b>Green Hills Park Festival</b> · Nashville, TN",
     "<b>Kassi Rooftop</b> · Kassi Rooftop",
     "<b>Emerald Americas-NYC 9.27</b> · NYC",
     "<b>UFC Press Conference</b> · Crypto.com Arena",
-    "<b>Zuffa Boxing</b> · T mobile Arena",
     "<b>9.17 - Eater Dinner Party</b> · Alfies",
     "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
-    "<b>Open AI - 9.22</b> · Bayberry Gardens"
+    "<b>Open AI - 9.22</b> · Bayberry Gardens",
+    "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
+    "<b>ASLA 2026</b> · Los Angeles Convention Center",
+    "<b>9.17-9.18 BUG026</b> · Various"
   ],
   "linkedin": [
     {
