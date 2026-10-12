@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-12T07:24:00.054Z",
-  "commit": "3890540",
+  "generatedAt": "2026-10-12T17:58:14.063Z",
+  "commit": "177c55a",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,8 +203,8 @@
     "events30": 294,
     "guards30": -501410,
     "citiesYTD": 118,
-    "upcoming30": 100,
-    "perDay": 7.204225352112676
+    "upcoming30": 102,
+    "perDay": 7.178947368421053
   },
   "heatPoints": [
     {
@@ -1411,7 +1411,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 30,
-      "career": 321,
+      "career": 322,
       "recent": [
         {
           "name": "10.15 Vercel Ship",
