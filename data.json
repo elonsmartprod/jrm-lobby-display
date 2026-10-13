@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-13T16:01:46.731Z",
-  "commit": "9097d85",
+  "generatedAt": "2026-10-13T21:17:52.040Z",
+  "commit": "3e1b29d",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2059,
-    "events30": 300,
+    "eventsYTD": 2058,
+    "events30": 299,
     "guards30": -501359,
     "citiesYTD": 118,
-    "upcoming30": 100,
-    "perDay": 7.199300699300699
+    "upcoming30": 107,
+    "perDay": 7.195804195804196
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1123,
+      "ev": 1122,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 92,
-      "w": 0.0819234194122885,
+      "w": 0.08199643493761141,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 110,
-      "w": 0.09795191451469279,
+      "w": 0.09803921568627451,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 218,
-      "w": 0.19412288512911843,
+      "w": 0.19429590017825313,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 131,
-      "w": 0.11665182546749778,
+      "w": 0.11675579322638147,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 45,
-      "w": 0.04007123775601069,
+      "w": 0.040106951871657755,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 132,
-      "w": 0.11754229741763135,
+      "w": 0.11764705882352941,
       "hq": true
     }
   ],
@@ -275,7 +275,7 @@
       "name": "CA",
       "lon": -119.23033299635924,
       "lat": 35.342421038561675,
-      "count": 151
+      "count": 150
     },
     {
       "name": "New York, NY",
@@ -838,6 +838,13 @@
       "city": "Beverly Hills"
     },
     {
+      "rem": "Ryan McKillop",
+      "venue": "Mata Hari House ",
+      "client": "Mata Hari House",
+      "job": "MHH 10/10-10/17",
+      "city": "Dallas"
+    },
+    {
       "rem": "Tony D’Gracia",
       "venue": "TRA Office NYC",
       "client": "The Recording Academy",
@@ -1362,7 +1369,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 55,
-      "career": 2442,
+      "career": 2445,
       "recent": [
         {
           "name": "Edmonton Oilers vs Los Angeles Kings LA Live",
@@ -1404,7 +1411,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 31,
-      "career": 72,
+      "career": 76,
       "recent": [
         {
           "name": "Clayface - Content Creation and Screening Event",
@@ -1564,15 +1571,6 @@
       "upcoming": true
     },
     {
-      "client": "Linux Foundation",
-      "title": "KubeCon SLC",
-      "venue": "Salt Palace Convention Center · Salt Lake City",
-      "badges": [
-        "Convention"
-      ],
-      "upcoming": true
-    },
-    {
       "client": "NALC",
       "title": "NALC 74th Annual Convention",
       "venue": "Los Angeles Convention Center · Los Angeles",
@@ -1641,6 +1639,15 @@
       "venue": "LA Live · Los Angeles",
       "badges": [
         "Sports Event"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "AutoDesk",
+      "title": "Autodesk - TechX - Seattle, WA",
+      "venue": "",
+      "badges": [
+        "Convention"
       ],
       "upcoming": false
     }
