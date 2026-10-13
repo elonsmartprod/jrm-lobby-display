@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-12T17:58:14.063Z",
-  "commit": "177c55a",
+  "generatedAt": "2026-10-13T00:43:39.852Z",
+  "commit": "8bc85ff",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2046,
-    "events30": 294,
-    "guards30": -501410,
+    "eventsYTD": 2057,
+    "events30": 298,
+    "guards30": -501362,
     "citiesYTD": 118,
-    "upcoming30": 102,
-    "perDay": 7.178947368421053
+    "upcoming30": 100,
+    "perDay": 7.217543859649123
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1120,
+      "ev": 1123,
       "w": 1,
       "hq": true
     },
@@ -220,23 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 92,
-      "w": 0.08214285714285714,
+      "w": 0.0819234194122885,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 109,
-      "w": 0.09732142857142857,
+      "ev": 110,
+      "w": 0.09795191451469279,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 212,
-      "w": 0.18928571428571428,
+      "ev": 216,
+      "w": 0.1923419412288513,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 131,
-      "w": 0.11696428571428572,
+      "w": 0.11665182546749778,
       "hq": false
     },
     {
@@ -252,36 +252,36 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 45,
-      "w": 0.04017857142857143,
+      "w": 0.04007123775601069,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 130,
-      "w": 0.11607142857142858,
+      "ev": 132,
+      "w": 0.11754229741763135,
       "hq": true
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.32183661504527,
-      "lat": 34.06085527636749,
+      "lon": -118.32066867950297,
+      "lat": 34.06142811959514,
       "count": 577
     },
     {
       "name": "CA",
-      "lon": -119.22267698223305,
-      "lat": 35.352337291122176,
-      "count": 146
+      "lon": -119.23033299635924,
+      "lat": 35.342421038561675,
+      "count": 151
     },
     {
       "name": "New York, NY",
       "lon": -73.98895695153743,
       "lat": 40.74518111889292,
-      "count": 136
+      "count": 137
     },
     {
       "name": "North Hollywood, CA",
@@ -299,7 +299,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.1616453683453,
       "lat": 36.113182004665475,
-      "count": 87
+      "count": 88
     },
     {
       "name": "West Hollywood, CA",
@@ -311,7 +311,7 @@
       "name": "Hollywood, CA",
       "lon": -118.33277580612615,
       "lat": 34.097870581608326,
-      "count": 52
+      "count": 53
     },
     {
       "name": "Beverly Hills, CA",
@@ -329,7 +329,13 @@
       "name": "Hollywood Hills, CA",
       "lon": -118.3377778,
       "lat": 34.1077778,
-      "count": 26
+      "count": 27
+    },
+    {
+      "name": "Nashville, TN",
+      "lon": -86.7359313267715,
+      "lat": 36.106639968622005,
+      "count": 19
     },
     {
       "name": "Dallas, TX",
@@ -338,21 +344,15 @@
       "count": 18
     },
     {
-      "name": "Nashville, TN",
-      "lon": -86.73392427844473,
-      "lat": 36.104358079160875,
+      "name": "NY",
+      "lon": -73.92374360629978,
+      "lat": 40.926271709618696,
       "count": 18
     },
     {
       "name": "Santa Monica, CA",
       "lon": -118.4854448929786,
       "lat": 34.01745831092539,
-      "count": 17
-    },
-    {
-      "name": "NY",
-      "lon": -73.92058874043644,
-      "lat": 40.93693193322587,
       "count": 17
     },
     {
@@ -363,9 +363,9 @@
     },
     {
       "name": "UT",
-      "lon": -111.87681250419418,
-      "lat": 40.66516903823827,
-      "count": 13
+      "lon": -111.8780083356106,
+      "lat": 40.67293991997084,
+      "count": 14
     },
     {
       "name": "Chicago, IL",
@@ -392,6 +392,12 @@
       "count": 9
     },
     {
+      "name": "TN",
+      "lon": -86.81583619169267,
+      "lat": 36.063989766245,
+      "count": 9
+    },
+    {
       "name": "Brooklyn, NY",
       "lon": -73.969295725,
       "lat": 40.702515874999996,
@@ -401,12 +407,6 @@
       "name": "Seattle, WA",
       "lon": -122.330826425,
       "lat": 47.6140752375,
-      "count": 8
-    },
-    {
-      "name": "TN",
-      "lon": -86.82932345916888,
-      "lat": 36.12843497415838,
       "count": 8
     },
     {
@@ -422,6 +422,18 @@
       "count": 7
     },
     {
+      "name": "TX",
+      "lon": -99.81219499032966,
+      "lat": 30.733153450250338,
+      "count": 6
+    },
+    {
+      "name": "AZ",
+      "lon": -111.91006371392879,
+      "lat": 33.2978327097572,
+      "count": 5
+    },
+    {
       "name": "Thermal, CA",
       "lon": -116.2023098,
       "lat": 33.6485353,
@@ -432,18 +444,6 @@
       "lon": -118.81201097499999,
       "lat": 34.0479904,
       "count": 5
-    },
-    {
-      "name": "TX",
-      "lon": -100.2328456470006,
-      "lat": 30.814732497710004,
-      "count": 5
-    },
-    {
-      "name": "AZ",
-      "lon": -112.15407398003775,
-      "lat": 33.53576455069325,
-      "count": 4
     },
     {
       "name": "Burbank, CA",
@@ -631,7 +631,7 @@
       "name": "Western Europe",
       "lon": 5,
       "lat": 48,
-      "ev": 8
+      "ev": 9
     },
     {
       "name": "India",
@@ -796,18 +796,32 @@
   ],
   "todayPosts": [
     {
+      "rem": "Alejandra Ruezga",
+      "venue": "2100 S Victoria Ave, Los Angeles, CA 90016",
+      "client": "Unknown",
+      "job": "Pilot Set Watch",
+      "city": ""
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "Starrett-Lehigh",
+      "client": "Melange de Blanc",
+      "job": "Melange de Blanc Bridal Market-NYC",
+      "city": "New York"
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "Palace of Fine Arts San Francisco",
+      "client": "Invisible North",
+      "job": "10.15 Vercel Ship",
+      "city": "San Francisco"
+    },
+    {
       "rem": "Tony D’Gracia",
       "venue": "Starrett-Lehigh",
       "client": "One Fine Collective",
       "job": "One Fine Day Bridal Market-NYC",
       "city": "New York"
-    },
-    {
-      "rem": "Andy Sanders",
-      "venue": " 4437 W Slauson Ave, Windsor Hills, CA 90043",
-      "client": "*TEST* Client Name",
-      "job": "TCP TEST",
-      "city": ""
     },
     {
       "rem": "Mathias Gibson",
@@ -817,11 +831,11 @@
       "city": ""
     },
     {
-      "rem": "Kyle Crowther",
-      "venue": "Brookdale Senior Living ",
-      "client": "Polaris Risk",
-      "job": "JRM AZ x Polaris",
-      "city": ""
+      "rem": "Alejandra Ruezga",
+      "venue": "Beverly Hilton Hotel",
+      "client": "CAIS Group",
+      "job": "CAIS Summit 2026",
+      "city": "Beverly Hills"
     },
     {
       "rem": "Tony D’Gracia",
@@ -1347,20 +1361,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 51,
-      "career": 2437,
+      "events30": 55,
+      "career": 2442,
       "recent": [
         {
-          "name": "Elefante LA Live",
-          "meta": "OCT 10"
+          "name": "Edmonton Oilers vs Los Angeles Kings LA Live",
+          "meta": "OCT 13"
         },
         {
-          "name": "FYC Love of your life ",
-          "meta": "OCT 10"
+          "name": "Amazon The Boys Actor Awards Nom Comm",
+          "meta": "OCT 13"
         },
         {
-          "name": "Jungle",
-          "meta": "OCT 10"
+          "name": "Love of your Life ",
+          "meta": "OCT 13"
         }
       ]
     },
@@ -1368,20 +1382,20 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 47,
+      "events30": 50,
       "career": 399,
       "recent": [
         {
-          "name": "Melange de Blanc Bridal Market-NYC",
-          "meta": "OCT 12"
+          "name": "JRM x Empire Protection NYC",
+          "meta": "OCT 13"
         },
         {
-          "name": "Nike x Kids & Family Watch Party",
-          "meta": "OCT 11"
+          "name": "JRM x AdobeOpus",
+          "meta": "OCT 13"
         },
         {
-          "name": "One Fine Day Bridal Market-NYC",
-          "meta": "OCT 11"
+          "name": "Empire Protection - NYC",
+          "meta": "OCT 13"
         }
       ]
     },
@@ -1410,8 +1424,8 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 30,
-      "career": 322,
+      "events30": 29,
+      "career": 324,
       "recent": [
         {
           "name": "10.15 Vercel Ship",
@@ -1613,20 +1627,20 @@
       "upcoming": false
     },
     {
+      "client": "GunPowder",
+      "title": "VMA's 2026 Main Show ",
+      "venue": "Peacock Theater · Los Angeles",
+      "badges": [
+        "Awards Show"
+      ],
+      "upcoming": false
+    },
+    {
       "client": "Nike",
       "title": "Mamba League Invitational 2026",
       "venue": "LA Live · Los Angeles",
       "badges": [
         "Sports Event"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "AutoDesk",
-      "title": "Autodesk - TechX - Seattle, WA",
-      "venue": "",
-      "badges": [
-        "Convention"
       ],
       "upcoming": false
     }
@@ -1642,7 +1656,6 @@
     "<b>BJJ 11</b> · UFC Apex",
     "<b>Native x Peanut</b> · NYC",
     "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
-    "<b>Kassi Rooftop</b> · Kassi Rooftop",
     "<b>Emerald Americas-NYC 9.27</b> · NYC",
     "<b>UFC Press Conference</b> · Crypto.com Arena",
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
@@ -1651,7 +1664,8 @@
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
     "<b>Open AI - 9.22</b> · Bayberry Gardens",
     "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
-    "<b>ASLA 2026</b> · Los Angeles Convention Center"
+    "<b>9.17-9.18 BUG026</b> · Various",
+    "<b>POWERSLAP NV</b> · The Chelsea"
   ],
   "linkedin": [
     {
