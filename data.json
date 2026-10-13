@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-13T00:43:39.852Z",
-  "commit": "8bc85ff",
+  "generatedAt": "2026-10-13T07:45:01.513Z",
+  "commit": "e01ad14",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2057,
-    "events30": 298,
-    "guards30": -501362,
+    "eventsYTD": 2059,
+    "events30": 300,
+    "guards30": -501359,
     "citiesYTD": 118,
     "upcoming30": 100,
-    "perDay": 7.217543859649123
+    "perDay": 7.224561403508772
   },
   "heatPoints": [
     {
@@ -235,8 +235,8 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 216,
-      "w": 0.1923419412288513,
+      "ev": 218,
+      "w": 0.19412288512911843,
       "hq": false
     },
     {
@@ -1382,19 +1382,19 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 50,
-      "career": 399,
+      "events30": 52,
+      "career": 401,
       "recent": [
+        {
+          "name": "A24 AP-NYC 10.13",
+          "meta": "OCT 13"
+        },
         {
           "name": "JRM x Empire Protection NYC",
           "meta": "OCT 13"
         },
         {
           "name": "JRM x AdobeOpus",
-          "meta": "OCT 13"
-        },
-        {
-          "name": "Empire Protection - NYC",
           "meta": "OCT 13"
         }
       ]
@@ -1652,6 +1652,7 @@
     "<b>UFC CWI </b> · Crypto.com Arena",
     "<b>Open AI - Idaho </b> · Courtyard by Marriott Boise west ",
     "<b>9.22 Emerald Americas AZ </b> · Four Seasons Scottsdale",
+    "<b>A24 AP-NYC 10.13</b> · NYC",
     "<b>VMA&#39;s 2026 Post Party</b> · Hotel Figueroa",
     "<b>BJJ 11</b> · UFC Apex",
     "<b>Native x Peanut</b> · NYC",
@@ -1664,8 +1665,7 @@
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
     "<b>Open AI - 9.22</b> · Bayberry Gardens",
     "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
-    "<b>9.17-9.18 BUG026</b> · Various",
-    "<b>POWERSLAP NV</b> · The Chelsea"
+    "<b>9.17-9.18 BUG026</b> · Various"
   ],
   "linkedin": [
     {
