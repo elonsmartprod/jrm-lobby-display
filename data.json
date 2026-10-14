@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-13T21:17:52.040Z",
-  "commit": "3e1b29d",
+  "generatedAt": "2026-10-14T00:24:07.219Z",
+  "commit": "2646ee7",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2058,
+    "eventsYTD": 2069,
     "events30": 299,
-    "guards30": -501359,
+    "guards30": -501333,
     "citiesYTD": 118,
-    "upcoming30": 107,
-    "perDay": 7.195804195804196
+    "upcoming30": 102,
+    "perDay": 7.234265734265734
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1122,
+      "ev": 1129,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 92,
-      "w": 0.08199643493761141,
+      "w": 0.08148804251550044,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 110,
-      "w": 0.09803921568627451,
+      "w": 0.09743135518157661,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 218,
-      "w": 0.19429590017825313,
+      "ev": 220,
+      "w": 0.19486271036315322,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 131,
-      "w": 0.11675579322638147,
+      "w": 0.11603188662533215,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 45,
-      "w": 0.040106951871657755,
+      "w": 0.03985828166519043,
       "hq": false
     },
     {
@@ -260,34 +260,34 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 132,
-      "w": 0.11764705882352941,
+      "w": 0.11691762621789194,
       "hq": true
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.32066867950297,
-      "lat": 34.06142811959514,
-      "count": 577
+      "lon": -118.32098419042988,
+      "lat": 34.06158660713672,
+      "count": 579
     },
     {
       "name": "CA",
-      "lon": -119.23033299635924,
-      "lat": 35.342421038561675,
-      "count": 150
+      "lon": -119.2232151488866,
+      "lat": 35.33141485555767,
+      "count": 152
     },
     {
       "name": "New York, NY",
       "lon": -73.98895695153743,
       "lat": 40.74518111889292,
-      "count": 137
+      "count": 138
     },
     {
       "name": "North Hollywood, CA",
-      "lon": -118.3740440272265,
-      "lat": 34.1544377437855,
-      "count": 94
+      "lon": -118.36944295148434,
+      "lat": 34.159013862523665,
+      "count": 96
     },
     {
       "name": "San Francisco, CA",
@@ -305,7 +305,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 84
+      "count": 85
     },
     {
       "name": "Hollywood, CA",
@@ -329,7 +329,7 @@
       "name": "Hollywood Hills, CA",
       "lon": -118.3377778,
       "lat": 34.1077778,
-      "count": 27
+      "count": 28
     },
     {
       "name": "Nashville, TN",
@@ -796,6 +796,27 @@
   ],
   "todayPosts": [
     {
+      "rem": "Sean McKillop",
+      "venue": "Alamo Drafthouse",
+      "client": "Amazon",
+      "job": "Amazon - The Greatest-CHI 10.13",
+      "city": "Austin"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "NYC",
+      "client": "Empire Protection",
+      "job": "Empire Protection - NYC",
+      "city": "New York"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "NYC",
+      "client": "Empire Protection",
+      "job": "JRM x Empire Protection NYC",
+      "city": "New York"
+    },
+    {
       "rem": "Alejandra Ruezga",
       "venue": "2100 S Victoria Ave, Los Angeles, CA 90016",
       "client": "Unknown",
@@ -822,13 +843,6 @@
       "client": "One Fine Collective",
       "job": "One Fine Day Bridal Market-NYC",
       "city": "New York"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Four Seasons-SF",
-      "client": "Emerald Americas LLC",
-      "job": "10.10 Emerald Driver",
-      "city": ""
     },
     {
       "rem": "Alejandra Ruezga",
@@ -1046,13 +1060,6 @@
       "client": "Lori Tamboline",
       "job": "Century woods H.O.A.",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "NYLUX Events",
-      "client": "Vivrelle",
-      "job": "Vivrelle Showroom 44 E 32nd St",
-      "city": "New York"
     },
     {
       "rem": "Sevan Ohanians",
@@ -1369,19 +1376,19 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 55,
-      "career": 2445,
+      "career": 2446,
       "recent": [
         {
-          "name": "Edmonton Oilers vs Los Angeles Kings LA Live",
-          "meta": "OCT 13"
+          "name": "Amazon Ali G Premiere",
+          "meta": "OCT 14"
         },
         {
-          "name": "Amazon The Boys Actor Awards Nom Comm",
-          "meta": "OCT 13"
+          "name": "Amazon LOYL ",
+          "meta": "OCT 14"
         },
         {
-          "name": "Love of your Life ",
-          "meta": "OCT 13"
+          "name": "Amazon Big Sky Miley Cyrus EP",
+          "meta": "OCT 14"
         }
       ]
     },
@@ -1393,15 +1400,15 @@
       "career": 401,
       "recent": [
         {
+          "name": "AAS x Great American Pop Up",
+          "meta": "OCT 14"
+        },
+        {
+          "name": "48 Wall St. - 10.14",
+          "meta": "OCT 14"
+        },
+        {
           "name": "A24 AP-NYC 10.13",
-          "meta": "OCT 13"
-        },
-        {
-          "name": "JRM x Empire Protection NYC",
-          "meta": "OCT 13"
-        },
-        {
-          "name": "JRM x AdobeOpus",
           "meta": "OCT 13"
         }
       ]
@@ -1414,15 +1421,15 @@
       "career": 76,
       "recent": [
         {
+          "name": "HBO Parmesan Premiere and Reception",
+          "meta": "OCT 14"
+        },
+        {
           "name": "Clayface - Content Creation and Screening Event",
           "meta": "OCT 11"
         },
         {
           "name": "Bar Avoja - DB Birthday Party",
-          "meta": "OCT 10"
-        },
-        {
-          "name": "HBO - I Love LA : Season 2 Wrap Party",
           "meta": "OCT 10"
         }
       ]
@@ -1431,19 +1438,19 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 29,
+      "events30": 30,
       "career": 324,
       "recent": [
+        {
+          "name": "10.14 Infra Cybersecurity Mixer",
+          "meta": "OCT 14"
+        },
         {
           "name": "10.15 Vercel Ship",
           "meta": "OCT 12"
         },
         {
           "name": "10.10 Emerald Driver",
-          "meta": "OCT 10"
-        },
-        {
-          "name": "10.10 Jack's",
           "meta": "OCT 10"
         }
       ]
@@ -1452,19 +1459,19 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 19,
-      "career": 305,
+      "events30": 20,
+      "career": 306,
       "recent": [
+        {
+          "name": "TVA 2026 Engineering Science and Technology Emmy Awards",
+          "meta": "OCT 14"
+        },
         {
           "name": "Pilot Set Watch",
           "meta": "OCT 12"
         },
         {
           "name": "TVA Screening Room Your Mother ",
-          "meta": "OCT 11"
-        },
-        {
-          "name": "TVA Screening",
           "meta": "OCT 11"
         }
       ]
@@ -1663,7 +1670,7 @@
     "<b>VMA&#39;s 2026 Post Party</b> · Hotel Figueroa",
     "<b>BJJ 11</b> · UFC Apex",
     "<b>Native x Peanut</b> · NYC",
-    "<b>Protos Sephora Farmington</b> · Protos - Sephora SLC",
+    "<b>TVA 2026 Engineering Science and Technology Emmy Awards</b> · Saban Media Center [TVA]",
     "<b>Emerald Americas-NYC 9.27</b> · NYC",
     "<b>UFC Press Conference</b> · Crypto.com Arena",
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
