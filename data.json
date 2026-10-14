@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-14T00:24:07.219Z",
-  "commit": "2646ee7",
+  "generatedAt": "2026-10-14T06:11:04.182Z",
+  "commit": "5093bda",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -1011,6 +1011,13 @@
       "client": "The Aster LA",
       "job": "The Aster LA  Hotel",
       "city": "Hollywood"
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "Long Island Aquarium",
+      "client": "Long Island Aquarium",
+      "job": "LI Aquarium Parking - Summer 2026",
+      "city": "Riverhead"
     },
     {
       "rem": "Mathias Gibson",
