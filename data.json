@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-16T21:12:20.288Z",
-  "commit": "2a0d6b4",
+  "generatedAt": "2026-10-16T23:37:50.492Z",
+  "commit": "da430d5",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 294,
     "guards30": -501953,
     "citiesYTD": 119,
-    "upcoming30": 110,
+    "upcoming30": 112,
     "perDay": 7.2145328719723185
   },
   "heatPoints": [
@@ -1404,7 +1404,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 29,
-      "career": 324,
+      "career": 326,
       "recent": [
         {
           "name": "JRM x Empire Protection SF",
