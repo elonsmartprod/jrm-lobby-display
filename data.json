@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-15T22:21:55.609Z",
-  "commit": "456a4ca",
+  "generatedAt": "2026-10-16T01:23:37.132Z",
+  "commit": "c16e561",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2075,
-    "events30": 299,
-    "guards30": -501342,
+    "eventsYTD": 2084,
+    "events30": 293,
+    "guards30": -501953,
     "citiesYTD": 119,
-    "upcoming30": 110,
-    "perDay": 7.204861111111111
+    "upcoming30": 106,
+    "perDay": 7.236111111111111
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1130,
+      "ev": 1137,
       "w": 1,
       "hq": true
     },
@@ -220,23 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 92,
-      "w": 0.08141592920353982,
+      "w": 0.08091468777484609,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 110,
-      "w": 0.09734513274336283,
+      "ev": 111,
+      "w": 0.09762532981530343,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 220,
-      "w": 0.19469026548672566,
+      "ev": 221,
+      "w": 0.1943711521547933,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 133,
-      "w": 0.11769911504424779,
+      "w": 0.1169744942832014,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 45,
-      "w": 0.03982300884955752,
+      "w": 0.0395778364116095,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 134,
-      "w": 0.11858407079646018,
+      "w": 0.11785400175901495,
       "hq": true
     }
   ],
@@ -269,19 +269,19 @@
       "name": "Los Angeles, CA",
       "lon": -118.32098419042988,
       "lat": 34.06158660713672,
-      "count": 580
+      "count": 583
     },
     {
       "name": "CA",
-      "lon": -119.2232151488866,
-      "lat": 35.33141485555767,
-      "count": 152
+      "lon": -119.21563475433689,
+      "lat": 35.320952682456124,
+      "count": 154
     },
     {
       "name": "New York, NY",
       "lon": -73.98895695153743,
       "lat": 40.74518111889292,
-      "count": 138
+      "count": 139
     },
     {
       "name": "North Hollywood, CA",
@@ -305,7 +305,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
-      "count": 86
+      "count": 87
     },
     {
       "name": "Hollywood, CA",
@@ -422,16 +422,16 @@
       "count": 7
     },
     {
+      "name": "AZ",
+      "lon": -113.57334437930568,
+      "lat": 33.969868917089336,
+      "count": 6
+    },
+    {
       "name": "TX",
       "lon": -99.81219499032966,
       "lat": 30.733153450250338,
       "count": 6
-    },
-    {
-      "name": "AZ",
-      "lon": -111.91006371392879,
-      "lat": 33.2978327097572,
-      "count": 5
     },
     {
       "name": "Thermal, CA",
@@ -796,31 +796,17 @@
   ],
   "todayPosts": [
     {
+      "rem": "Mathias Gibson",
+      "venue": "San Francisco",
+      "client": "Empire Protection",
+      "job": "JRM x Empire Protection SF",
+      "city": "San Francisco"
+    },
+    {
       "rem": "Tony D’Gracia",
       "venue": "NYC",
       "client": "Another A Story",
       "job": "AAS x Great American Pop Up",
-      "city": "New York"
-    },
-    {
-      "rem": "Seanie Wolf",
-      "venue": "The London West Hollywood at Beverly Hills",
-      "client": "Disney - Hulu",
-      "job": "All's Fair Press Junket EP",
-      "city": "West Hollywood"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "NYC",
-      "client": "Empire Protection",
-      "job": "Empire Protection - NYC",
-      "city": "New York"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "NYC",
-      "client": "Empire Protection",
-      "job": "JRM x Empire Protection NYC",
       "city": "New York"
     },
     {
@@ -831,39 +817,11 @@
       "city": ""
     },
     {
-      "rem": "Tony D’Gracia",
-      "venue": "Starrett-Lehigh",
-      "client": "Melange de Blanc",
-      "job": "Melange de Blanc Bridal Market-NYC",
-      "city": "New York"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Palace of Fine Arts San Francisco",
-      "client": "Invisible North",
-      "job": "10.15 Vercel Ship",
-      "city": "San Francisco"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "Starrett-Lehigh",
-      "client": "One Fine Collective",
-      "job": "One Fine Day Bridal Market-NYC",
-      "city": "New York"
-    },
-    {
       "rem": "Ryan McKillop",
       "venue": "Mata Hari House ",
       "client": "Mata Hari House",
       "job": "MHH 10/10-10/17",
       "city": "Dallas"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "TRA Office NYC",
-      "client": "The Recording Academy",
-      "job": "TRA x AMMP",
-      "city": "New York"
     },
     {
       "rem": "Jessica Hernandez",
@@ -1382,20 +1340,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 56,
+      "events30": 58,
       "career": 2446,
       "recent": [
         {
-          "name": "LOYL LA All Guild Screening",
-          "meta": "OCT 15"
+          "name": "Indie Wire Screening ",
+          "meta": "OCT 16"
         },
         {
-          "name": "Amazon Ali G Premiere",
-          "meta": "OCT 14"
+          "name": "Los Angeles Lakers vs Denver Nuggets",
+          "meta": "OCT 16"
         },
         {
-          "name": "Amazon LOYL ",
-          "meta": "OCT 14"
+          "name": "Los Angeles Lakers vs Denver Nuggets LA Live",
+          "meta": "OCT 16"
         }
       ]
     },
@@ -1404,8 +1362,12 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 51,
-      "career": 401,
+      "career": 405,
       "recent": [
+        {
+          "name": "48 Wall St. - 10.16",
+          "meta": "OCT 16"
+        },
         {
           "name": "AAS x Great American Pop Up",
           "meta": "OCT 14"
@@ -1413,10 +1375,6 @@
         {
           "name": "48 Wall St. - 10.14",
           "meta": "OCT 14"
-        },
-        {
-          "name": "A24 AP-NYC 10.13",
-          "meta": "OCT 13"
         }
       ]
     },
@@ -1445,7 +1403,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 30,
+      "events30": 29,
       "career": 324,
       "recent": [
         {
@@ -1671,7 +1629,6 @@
     "<b>Nike x NA F27 Sales Conference</b> · Nashville, TN",
     "<b>DWCS 77</b> · UFC Apex",
     "<b>UFC CWI </b> · Crypto.com Arena",
-    "<b>Open AI - Idaho </b> · Courtyard by Marriott Boise west ",
     "<b>9.22 Emerald Americas AZ </b> · Four Seasons Scottsdale",
     "<b>A24 AP-NYC 10.13</b> · NYC",
     "<b>VMA&#39;s 2026 Post Party</b> · Hotel Figueroa",
@@ -1686,7 +1643,8 @@
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
     "<b>Open AI - 9.22</b> · Bayberry Gardens",
     "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
-    "<b>9.17-9.18 BUG026</b> · Various"
+    "<b>9.17-9.18 BUG026</b> · Various",
+    "<b>POWERSLAP NV</b> · The Chelsea"
   ],
   "linkedin": [
     {
