@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-17T13:45:05.021Z",
-  "commit": "c14dcb6",
+  "generatedAt": "2026-10-17T17:13:28.240Z",
+  "commit": "5d8b09b",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2095,
-    "events30": 296,
-    "guards30": -501986,
+    "eventsYTD": 2091,
+    "events30": 292,
+    "guards30": -502006,
     "citiesYTD": 119,
     "upcoming30": 104,
-    "perDay": 7.224137931034483
+    "perDay": 7.210344827586207
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1143,
+      "ev": 1139,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 93,
-      "w": 0.08136482939632546,
+      "w": 0.08165057067603161,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 112,
-      "w": 0.09798775153105861,
+      "w": 0.09833187006145742,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 221,
-      "w": 0.19335083114610674,
+      "w": 0.19402985074626866,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 133,
-      "w": 0.1163604549431321,
+      "w": 0.11676909569798069,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 45,
-      "w": 0.03937007874015748,
+      "w": 0.03950834064969271,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 134,
-      "w": 0.11723534558180228,
+      "w": 0.11764705882352941,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.32098419042987,
       "lat": 34.06158660713672,
-      "count": 587
+      "count": 583
     },
     {
       "name": "CA",
@@ -1354,7 +1354,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 61,
+      "events30": 57,
       "career": 2446,
       "recent": [
         {
@@ -1656,9 +1656,9 @@
     "<b>Open AI - 9.22</b> · Bayberry Gardens",
     "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
     "<b>POWERSLAP NV</b> · The Chelsea",
-    "<b>Los Horóscopos de Durango LA live</b> · LA Live",
     "<b>Guitar Center - John Otto x Snares</b> · Guitar Center-Nashville",
-    "<b>UFC Fight Night</b> · Crypto.com Arena"
+    "<b>UFC Fight Night</b> · Crypto.com Arena",
+    "<b>Boston Bruins vs Los Angeles Kings</b> · Crypto.com Arena"
   ],
   "linkedin": [
     {
