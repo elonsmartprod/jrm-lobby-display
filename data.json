@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-16T23:37:50.492Z",
-  "commit": "da430d5",
+  "generatedAt": "2026-10-17T04:30:59.182Z",
+  "commit": "0c81310",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2085,
-    "events30": 294,
-    "guards30": -501953,
+    "eventsYTD": 2095,
+    "events30": 296,
+    "guards30": -501986,
     "citiesYTD": 119,
-    "upcoming30": 112,
-    "perDay": 7.2145328719723185
+    "upcoming30": 104,
+    "perDay": 7.249134948096886
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1137,
+      "ev": 1143,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 93,
-      "w": 0.08179419525065963,
+      "w": 0.08136482939632546,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 111,
-      "w": 0.09762532981530343,
+      "ev": 112,
+      "w": 0.09798775153105861,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 221,
-      "w": 0.1943711521547933,
+      "w": 0.19335083114610674,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 133,
-      "w": 0.1169744942832014,
+      "w": 0.1163604549431321,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 45,
-      "w": 0.0395778364116095,
+      "w": 0.03937007874015748,
       "hq": false
     },
     {
@@ -260,28 +260,28 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 134,
-      "w": 0.11785400175901495,
+      "w": 0.11723534558180228,
       "hq": true
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.32098419042988,
+      "lon": -118.32098419042987,
       "lat": 34.06158660713672,
-      "count": 583
+      "count": 587
     },
     {
       "name": "CA",
-      "lon": -119.21563475433689,
-      "lat": 35.320952682456124,
-      "count": 154
+      "lon": -119.20809747398354,
+      "lat": 35.31115469765269,
+      "count": 156
     },
     {
       "name": "New York, NY",
       "lon": -73.98895695153743,
       "lat": 40.74518111889292,
-      "count": 139
+      "count": 140
     },
     {
       "name": "North Hollywood, CA",
@@ -536,6 +536,12 @@
       "count": 3
     },
     {
+      "name": "MO",
+      "lon": -91.73057834389833,
+      "lat": 38.79731819694734,
+      "count": 3
+    },
+    {
       "name": "IL",
       "lon": -87.73224138146468,
       "lat": 41.95319012996033,
@@ -617,12 +623,6 @@
       "name": "Los Feliz, CA",
       "lon": -118.3004219,
       "lat": 34.118407,
-      "count": 2
-    },
-    {
-      "name": "Buda, TX",
-      "lon": -97.8275718,
-      "lat": 30.0854113,
       "count": 2
     }
   ],
@@ -796,11 +796,25 @@
   ],
   "todayPosts": [
     {
-      "rem": "Mathias Gibson",
-      "venue": "San Francisco",
-      "client": "Empire Protection",
-      "job": "JRM x Empire Protection SF",
-      "city": "San Francisco"
+      "rem": "Kyle Crowther",
+      "venue": "San Jose Convention Center",
+      "client": "Linux Foundation",
+      "job": "LF MGR SJ",
+      "city": ""
+    },
+    {
+      "rem": "Seanie Wolf",
+      "venue": "The Hills at Hilton Los Angeles/Universal City",
+      "client": "Activate Entertainment",
+      "job": "MapleStory Fest 2026",
+      "city": ""
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "Best Buy Rainbow",
+      "client": "Protos Security",
+      "job": "Protos Armed Best Buy ",
+      "city": ""
     },
     {
       "rem": "Tony D’Gracia",
@@ -1340,20 +1354,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 58,
+      "events30": 61,
       "career": 2446,
       "recent": [
         {
-          "name": "Indie Wire Screening ",
-          "meta": "OCT 16"
+          "name": "Boston Bruins vs Los Angeles Kings",
+          "meta": "OCT 17"
         },
         {
-          "name": "Los Angeles Lakers vs Denver Nuggets",
-          "meta": "OCT 16"
+          "name": "Children's Hospital LA Gala 2026",
+          "meta": "OCT 17"
         },
         {
-          "name": "Los Angeles Lakers vs Denver Nuggets LA Live",
-          "meta": "OCT 16"
+          "name": "Boston Bruins vs Los Angeles Kings LA Live",
+          "meta": "OCT 17"
         }
       ]
     },
@@ -1361,7 +1375,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 51,
+      "events30": 49,
       "career": 405,
       "recent": [
         {
@@ -1382,7 +1396,7 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 31,
+      "events30": 30,
       "career": 77,
       "recent": [
         {
@@ -1407,16 +1421,16 @@
       "career": 326,
       "recent": [
         {
+          "name": "10.17 Emerald Driver",
+          "meta": "OCT 17"
+        },
+        {
           "name": "JRM x Empire Protection SF",
           "meta": "OCT 15"
         },
         {
           "name": "10.14 Infra Cybersecurity Mixer",
           "meta": "OCT 14"
-        },
-        {
-          "name": "10.15 Vercel Ship",
-          "meta": "OCT 12"
         }
       ]
     },
@@ -1636,15 +1650,15 @@
     "<b>Native x Peanut</b> · NYC",
     "<b>TVA 2026 Engineering Science and Technology Emmy Awards</b> · Saban Media Center [TVA]",
     "<b>Emerald Americas-NYC 9.27</b> · NYC",
-    "<b>UFC Press Conference</b> · Crypto.com Arena",
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
-    "<b>9.17 - Eater Dinner Party</b> · Alfies",
     "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
     "<b>Open AI - 9.22</b> · Bayberry Gardens",
     "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
-    "<b>9.17-9.18 BUG026</b> · Various",
-    "<b>POWERSLAP NV</b> · The Chelsea"
+    "<b>POWERSLAP NV</b> · The Chelsea",
+    "<b>Los Horóscopos de Durango LA live</b> · LA Live",
+    "<b>Guitar Center - John Otto x Snares</b> · Guitar Center-Nashville",
+    "<b>UFC Fight Night</b> · Crypto.com Arena"
   ],
   "linkedin": [
     {
