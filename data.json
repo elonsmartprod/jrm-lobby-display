@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-17T22:21:48.913Z",
-  "commit": "f7843a2",
+  "generatedAt": "2026-10-18T01:05:32.926Z",
+  "commit": "9ae7841",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2091,
+    "eventsYTD": 2099,
     "events30": 292,
-    "guards30": -502006,
+    "guards30": -501955,
     "citiesYTD": 119,
-    "upcoming30": 104,
-    "perDay": 7.210344827586207
+    "upcoming30": 97,
+    "perDay": 7.2379310344827585
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1139,
+      "ev": 1147,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 93,
-      "w": 0.08165057067603161,
+      "w": 0.08108108108108109,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 112,
-      "w": 0.09833187006145742,
+      "w": 0.0976460331299041,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 221,
-      "w": 0.19402985074626866,
+      "w": 0.1926765475152572,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 133,
-      "w": 0.11676909569798069,
+      "w": 0.11595466434176112,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 45,
-      "w": 0.03950834064969271,
+      "w": 0.03923278116826504,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 134,
-      "w": 0.11764705882352941,
+      "w": 0.11682650392327812,
       "hq": true
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.32098419042987,
       "lat": 34.06158660713672,
-      "count": 583
+      "count": 585
     },
     {
       "name": "CA",
-      "lon": -119.20809747398354,
-      "lat": 35.31115469765269,
-      "count": 156
+      "lon": -119.2008472495947,
+      "lat": 35.300804102294975,
+      "count": 159
     },
     {
       "name": "New York, NY",
@@ -290,6 +290,12 @@
       "count": 96
     },
     {
+      "name": "West Hollywood, CA",
+      "lon": -118.37872393201118,
+      "lat": 34.09037004485807,
+      "count": 90
+    },
+    {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
@@ -300,12 +306,6 @@
       "lon": -115.1616453683453,
       "lat": 36.113182004665475,
       "count": 88
-    },
-    {
-      "name": "West Hollywood, CA",
-      "lon": -118.37872393201118,
-      "lat": 34.09037004485807,
-      "count": 87
     },
     {
       "name": "Hollywood, CA",
@@ -797,16 +797,16 @@
   "todayPosts": [
     {
       "rem": "Kyle Crowther",
-      "venue": "San Jose Convention Center",
-      "client": "Linux Foundation",
-      "job": "LF MGR SJ",
+      "venue": "Arrowhead Stadium",
+      "client": "Amazon",
+      "job": "New Heights Tailgate Support - KC",
       "city": ""
     },
     {
-      "rem": "Seanie Wolf",
-      "venue": "The Hills at Hilton Los Angeles/Universal City",
-      "client": "Activate Entertainment",
-      "job": "MapleStory Fest 2026",
+      "rem": "Kyle Crowther",
+      "venue": "San Jose Convention Center",
+      "client": "Linux Foundation",
+      "job": "LF MGR SJ",
       "city": ""
     },
     {
@@ -1354,20 +1354,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 57,
+      "events30": 61,
       "career": 2446,
       "recent": [
         {
-          "name": "Boston Bruins vs Los Angeles Kings",
-          "meta": "OCT 17"
+          "name": "Amazon Ride or Die ",
+          "meta": "OCT 18"
         },
         {
-          "name": "Children's Hospital LA Gala 2026",
-          "meta": "OCT 17"
+          "name": "Kacey Musgraves",
+          "meta": "OCT 18"
         },
         {
-          "name": "Boston Bruins vs Los Angeles Kings LA Live",
-          "meta": "OCT 17"
+          "name": "PHM FYC All Guild ",
+          "meta": "OCT 18"
         }
       ]
     },
@@ -1417,7 +1417,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 29,
+      "events30": 28,
       "career": 326,
       "recent": [
         {
@@ -1642,12 +1642,14 @@
     "<b>EP for Marshals Cast Members (Paramount)</b> · Allegiant Stadium",
     "<b>Nike x NA F27 Sales Conference</b> · Nashville, TN",
     "<b>DWCS 77</b> · UFC Apex",
-    "<b>UFC CWI </b> · Crypto.com Arena",
     "<b>9.22 Emerald Americas AZ </b> · Four Seasons Scottsdale",
     "<b>A24 AP-NYC 10.13</b> · NYC",
+    "<b>Amazon Ride or Die </b> · Pacific Design Center",
+    "<b>Ugly Betty Reunion EP</b> · Edition - West Hollywood",
     "<b>VMA&#39;s 2026 Post Party</b> · Hotel Figueroa",
     "<b>BJJ 11</b> · UFC Apex",
     "<b>Native x Peanut</b> · NYC",
+    "<b>Kacey Musgraves</b> · Crypto.com Arena",
     "<b>TVA 2026 Engineering Science and Technology Emmy Awards</b> · Saban Media Center [TVA]",
     "<b>Emerald Americas-NYC 9.27</b> · NYC",
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
@@ -1656,9 +1658,7 @@
     "<b>Open AI - 9.22</b> · Bayberry Gardens",
     "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
     "<b>POWERSLAP NV</b> · The Chelsea",
-    "<b>Guitar Center - John Otto x Snares</b> · Guitar Center-Nashville",
-    "<b>UFC Fight Night</b> · Crypto.com Arena",
-    "<b>Boston Bruins vs Los Angeles Kings</b> · Crypto.com Arena"
+    "<b>Guitar Center - John Otto x Snares</b> · Guitar Center-Nashville"
   ],
   "linkedin": [
     {
