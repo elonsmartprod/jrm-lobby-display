@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-18T23:15:37.339Z",
-  "commit": "39cef76",
+  "generatedAt": "2026-10-19T01:21:27.732Z",
+  "commit": "3151a38",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2099,
-    "events30": 292,
-    "guards30": -501955,
+    "eventsYTD": 2104,
+    "events30": 290,
+    "guards30": -501988,
     "citiesYTD": 119,
-    "upcoming30": 97,
-    "perDay": 7.213058419243986
+    "upcoming30": 92,
+    "perDay": 7.230240549828179
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1147,
+      "ev": 1150,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 93,
-      "w": 0.08108108108108109,
+      "w": 0.0808695652173913,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 112,
-      "w": 0.0976460331299041,
+      "w": 0.09739130434782609,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 221,
-      "w": 0.1926765475152572,
+      "w": 0.19217391304347825,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 133,
-      "w": 0.11595466434176112,
+      "w": 0.11565217391304349,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 45,
-      "w": 0.03923278116826504,
+      "w": 0.0391304347826087,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 134,
-      "w": 0.11682650392327812,
+      "ev": 135,
+      "w": 0.11739130434782609,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.32098419042987,
       "lat": 34.06158660713672,
-      "count": 585
+      "count": 587
     },
     {
       "name": "CA",
@@ -290,16 +290,16 @@
       "count": 96
     },
     {
+      "name": "San Francisco, CA",
+      "lon": -122.42072640483462,
+      "lat": 37.78456864025394,
+      "count": 90
+    },
+    {
       "name": "West Hollywood, CA",
       "lon": -118.37872393201118,
       "lat": 34.09037004485807,
       "count": 90
-    },
-    {
-      "name": "San Francisco, CA",
-      "lon": -122.42072640483462,
-      "lat": 37.78456864025394,
-      "count": 89
     },
     {
       "name": "Las Vegas, NV",
@@ -631,7 +631,7 @@
       "name": "Western Europe",
       "lon": 5,
       "lat": 48,
-      "ev": 9
+      "ev": 10
     },
     {
       "name": "India",
@@ -817,25 +817,11 @@
       "city": ""
     },
     {
-      "rem": "Tony D’Gracia",
-      "venue": "NYC",
-      "client": "Another A Story",
-      "job": "AAS x Great American Pop Up",
-      "city": "New York"
-    },
-    {
       "rem": "Alejandra Ruezga",
       "venue": "2100 S Victoria Ave, Los Angeles, CA 90016",
       "client": "Unknown",
       "job": "Pilot Set Watch",
       "city": ""
-    },
-    {
-      "rem": "Ryan McKillop",
-      "venue": "Mata Hari House ",
-      "client": "Mata Hari House",
-      "job": "MHH 10/10-10/17",
-      "city": "Dallas"
     },
     {
       "rem": "Jessica Hernandez",
@@ -1354,19 +1340,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 61,
+      "events30": 59,
       "career": 2446,
       "recent": [
         {
-          "name": "Amazon Ride or Die ",
-          "meta": "OCT 18"
-        },
-        {
           "name": "Kacey Musgraves",
-          "meta": "OCT 18"
+          "meta": "OCT 19"
         },
         {
-          "name": "PHM FYC All Guild ",
+          "name": "Kacey Musgraves LA Live",
+          "meta": "OCT 19"
+        },
+        {
+          "name": "Amazon Ride or Die ",
           "meta": "OCT 18"
         }
       ]
@@ -1396,7 +1382,7 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 30,
+      "events30": 29,
       "career": 77,
       "recent": [
         {
@@ -1417,9 +1403,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 28,
+      "events30": 29,
       "career": 326,
       "recent": [
+        {
+          "name": "10.19 Jack's",
+          "meta": "OCT 19"
+        },
         {
           "name": "10.17 Emerald Driver",
           "meta": "OCT 17"
@@ -1427,10 +1417,6 @@
         {
           "name": "JRM x Empire Protection SF",
           "meta": "OCT 15"
-        },
-        {
-          "name": "10.14 Infra Cybersecurity Mixer",
-          "meta": "OCT 14"
         }
       ]
     },
