@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T15:39:13.355Z",
-  "commit": "d29f262",
+  "generatedAt": "2026-10-19T21:05:48.796Z",
+  "commit": "b26a4a9",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2104,
-    "events30": 290,
-    "guards30": -501988,
+    "eventsYTD": 2106,
+    "events30": 292,
+    "guards30": -501986,
     "citiesYTD": 119,
-    "upcoming30": 93,
-    "perDay": 7.205479452054795
+    "upcoming30": 96,
+    "perDay": 7.212328767123288
   },
   "heatPoints": [
     {
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 93,
-      "w": 0.0808695652173913,
+      "ev": 94,
+      "w": 0.0817391304347826,
       "hq": false
     },
     {
@@ -267,15 +267,15 @@
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.32098419042987,
-      "lat": 34.06158660713672,
-      "count": 587
+      "lon": -118.32153244546475,
+      "lat": 34.06180318494483,
+      "count": 588
     },
     {
       "name": "CA",
-      "lon": -119.2008472495947,
-      "lat": 35.300804102294975,
-      "count": 159
+      "lon": -119.18011704845351,
+      "lat": 35.26858491478521,
+      "count": 162
     },
     {
       "name": "New York, NY",
@@ -332,6 +332,12 @@
       "count": 28
     },
     {
+      "name": "NY",
+      "lon": -73.93009856804012,
+      "lat": 40.90627710036205,
+      "count": 20
+    },
+    {
       "name": "Nashville, TN",
       "lon": -86.7359313267715,
       "lat": 36.106639968622005,
@@ -341,12 +347,6 @@
       "name": "Dallas, TX",
       "lon": -96.80460389999998,
       "lat": 32.80861900000001,
-      "count": 18
-    },
-    {
-      "name": "NY",
-      "lon": -73.92374360629978,
-      "lat": 40.926271709618696,
       "count": 18
     },
     {
@@ -374,15 +374,15 @@
       "count": 12
     },
     {
+      "name": "NV",
+      "lon": -115.16438886799627,
+      "lat": 36.13605256384008,
+      "count": 12
+    },
+    {
       "name": "Century City, CA",
       "lon": -118.41705353333334,
       "lat": 34.0562655,
-      "count": 11
-    },
-    {
-      "name": "NV",
-      "lon": -115.15734128471155,
-      "lat": 36.13052790608827,
       "count": 11
     },
     {
@@ -1340,8 +1340,8 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 59,
-      "career": 2446,
+      "events30": 57,
+      "career": 2444,
       "recent": [
         {
           "name": "Kacey Musgraves",
@@ -1362,7 +1362,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 49,
-      "career": 405,
+      "career": 406,
       "recent": [
         {
           "name": "48 Wall St. - 10.16",
@@ -1375,6 +1375,27 @@
         {
           "name": "48 Wall St. - 10.14",
           "meta": "OCT 14"
+        }
+      ]
+    },
+    {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 30,
+      "career": 328,
+      "recent": [
+        {
+          "name": "10.19 Jack's",
+          "meta": "OCT 19"
+        },
+        {
+          "name": "10.17 Emerald Driver",
+          "meta": "OCT 17"
+        },
+        {
+          "name": "JRM x Empire Protection SF",
+          "meta": "OCT 15"
         }
       ]
     },
@@ -1400,44 +1421,23 @@
       ]
     },
     {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
-      "color": "#E8B44A",
-      "events30": 29,
-      "career": 327,
-      "recent": [
-        {
-          "name": "10.19 Jack's",
-          "meta": "OCT 19"
-        },
-        {
-          "name": "10.17 Emerald Driver",
-          "meta": "OCT 17"
-        },
-        {
-          "name": "JRM x Empire Protection SF",
-          "meta": "OCT 15"
-        }
-      ]
-    },
-    {
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 20,
-      "career": 308,
+      "events30": 22,
+      "career": 310,
       "recent": [
+        {
+          "name": "Pickwick Vintage LA October",
+          "meta": "OCT 17"
+        },
+        {
+          "name": "Indie Wire Screening ",
+          "meta": "OCT 16"
+        },
         {
           "name": "TVA 2026 Engineering Science and Technology Emmy Awards",
           "meta": "OCT 14"
-        },
-        {
-          "name": "Pilot Set Watch",
-          "meta": "OCT 12"
-        },
-        {
-          "name": "TVA Screening Room Your Mother ",
-          "meta": "OCT 11"
         }
       ]
     }
@@ -1637,14 +1637,14 @@
     "<b>Native x Peanut</b> · NYC",
     "<b>Kacey Musgraves</b> · Crypto.com Arena",
     "<b>TVA 2026 Engineering Science and Technology Emmy Awards</b> · Saban Media Center [TVA]",
+    "<b>10.13-10.18 Vercel Car Coverage</b> · Motoring Coffee",
     "<b>Emerald Americas-NYC 9.27</b> · NYC",
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
     "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
     "<b>Open AI - 9.22</b> · Bayberry Gardens",
     "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
-    "<b>POWERSLAP NV</b> · The Chelsea",
-    "<b>Guitar Center - John Otto x Snares</b> · Guitar Center-Nashville"
+    "<b>POWERSLAP NV</b> · The Chelsea"
   ],
   "linkedin": [
     {
