@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T21:05:48.796Z",
-  "commit": "b26a4a9",
+  "generatedAt": "2026-10-20T00:22:50.182Z",
+  "commit": "d165987",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2106,
-    "events30": 292,
-    "guards30": -501986,
-    "citiesYTD": 119,
+    "eventsYTD": 2113,
+    "events30": 294,
+    "guards30": -502011,
+    "citiesYTD": 120,
     "upcoming30": 96,
-    "perDay": 7.212328767123288
+    "perDay": 7.236301369863014
   },
   "heatPoints": [
     {
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 94,
-      "w": 0.0817391304347826,
+      "ev": 95,
+      "w": 0.08260869565217391,
       "hq": false
     },
     {
@@ -235,16 +235,16 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 221,
-      "w": 0.19217391304347825,
+      "ev": 222,
+      "w": 0.19304347826086957,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 133,
-      "w": 0.11565217391304349,
+      "ev": 134,
+      "w": 0.11652173913043479,
       "hq": false
     },
     {
@@ -259,8 +259,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 135,
-      "w": 0.11739130434782609,
+      "ev": 136,
+      "w": 0.11826086956521739,
       "hq": true
     }
   ],
@@ -273,15 +273,15 @@
     },
     {
       "name": "CA",
-      "lon": -119.18011704845351,
-      "lat": 35.26858491478521,
-      "count": 162
+      "lon": -119.20494651189031,
+      "lat": 35.28669356250443,
+      "count": 163
     },
     {
       "name": "New York, NY",
       "lon": -73.98895695153743,
       "lat": 40.74518111889292,
-      "count": 140
+      "count": 141
     },
     {
       "name": "North Hollywood, CA",
@@ -293,7 +293,7 @@
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 90
+      "count": 91
     },
     {
       "name": "West Hollywood, CA",
@@ -305,7 +305,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.1616453683453,
       "lat": 36.113182004665475,
-      "count": 88
+      "count": 89
     },
     {
       "name": "Hollywood, CA",
@@ -631,7 +631,7 @@
       "name": "Western Europe",
       "lon": 5,
       "lat": 48,
-      "ev": 10
+      "ev": 11
     },
     {
       "name": "India",
@@ -795,13 +795,6 @@
     }
   ],
   "todayPosts": [
-    {
-      "rem": "Kyle Crowther",
-      "venue": "Arrowhead Stadium",
-      "client": "Amazon",
-      "job": "New Heights Tailgate Support - KC",
-      "city": ""
-    },
     {
       "rem": "Kyle Crowther",
       "venue": "San Jose Convention Center",
@@ -1340,8 +1333,8 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 57,
-      "career": 2444,
+      "events30": 56,
+      "career": 2446,
       "recent": [
         {
           "name": "Kacey Musgraves",
@@ -1365,15 +1358,15 @@
       "career": 406,
       "recent": [
         {
+          "name": "48 Wall St- 10.20",
+          "meta": "OCT 20"
+        },
+        {
           "name": "48 Wall St. - 10.16",
           "meta": "OCT 16"
         },
         {
           "name": "AAS x Great American Pop Up",
-          "meta": "OCT 14"
-        },
-        {
-          "name": "48 Wall St. - 10.14",
           "meta": "OCT 14"
         }
       ]
@@ -1382,20 +1375,20 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 30,
+      "events30": 32,
       "career": 328,
       "recent": [
         {
-          "name": "10.19 Jack's",
-          "meta": "OCT 19"
+          "name": "10.20  Aviva Executive Dinner",
+          "meta": "OCT 20"
         },
         {
-          "name": "10.17 Emerald Driver",
-          "meta": "OCT 17"
+          "name": "10.20-10.24 Silicone Valley Open",
+          "meta": "OCT 20"
         },
         {
-          "name": "JRM x Empire Protection SF",
-          "meta": "OCT 15"
+          "name": "10.20 Jack's",
+          "meta": "OCT 20"
         }
       ]
     },
@@ -1424,7 +1417,7 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 21,
       "career": 310,
       "recent": [
         {
