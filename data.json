@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T04:52:35.877Z",
-  "commit": "be9ab88",
+  "generatedAt": "2026-10-21T10:12:32.462Z",
+  "commit": "e0ef33b",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 295,
     "guards30": -502074,
     "citiesYTD": 120,
-    "upcoming30": 99,
+    "upcoming30": 100,
     "perDay": 7.238907849829351
   },
   "heatPoints": [
@@ -1369,7 +1369,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 48,
-      "career": 408,
+      "career": 409,
       "recent": [
         {
           "name": "The Spoils - 2026",
