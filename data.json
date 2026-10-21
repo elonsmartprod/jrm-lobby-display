@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-20T23:55:02.794Z",
-  "commit": "11ecf75",
+  "generatedAt": "2026-10-21T04:52:35.877Z",
+  "commit": "be9ab88",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2114,
+    "eventsYTD": 2121,
     "events30": 295,
-    "guards30": -502008,
+    "guards30": -502074,
     "citiesYTD": 120,
-    "upcoming30": 104,
-    "perDay": 7.215017064846417
+    "upcoming30": 99,
+    "perDay": 7.238907849829351
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1151,
+      "ev": 1155,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 95,
-      "w": 0.08253692441355343,
+      "ev": 96,
+      "w": 0.08311688311688312,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 112,
-      "w": 0.09730668983492616,
+      "w": 0.09696969696969697,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 222,
-      "w": 0.19287576020851432,
+      "ev": 224,
+      "w": 0.19393939393939394,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 134,
-      "w": 0.11642050390964379,
+      "w": 0.11601731601731602,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 45,
-      "w": 0.03909643788010426,
+      "w": 0.03896103896103896,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 136,
-      "w": 0.11815812337098175,
+      "w": 0.11774891774891776,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.32143421027185,
       "lat": 34.06182230475585,
-      "count": 589
+      "count": 591
     },
     {
       "name": "CA",
@@ -281,7 +281,7 @@
       "name": "New York, NY",
       "lon": -73.98895695153743,
       "lat": 40.74518111889292,
-      "count": 141
+      "count": 143
     },
     {
       "name": "North Hollywood, CA",
@@ -290,16 +290,16 @@
       "count": 96
     },
     {
+      "name": "West Hollywood, CA",
+      "lon": -118.37853106126049,
+      "lat": 34.09040786705444,
+      "count": 92
+    },
+    {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
       "count": 91
-    },
-    {
-      "name": "West Hollywood, CA",
-      "lon": -118.37872393201118,
-      "lat": 34.09037004485807,
-      "count": 90
     },
     {
       "name": "Las Vegas, NV",
@@ -446,6 +446,12 @@
       "count": 5
     },
     {
+      "name": "FL",
+      "lon": -81.17952868431021,
+      "lat": 26.620002662931,
+      "count": 5
+    },
+    {
       "name": "Burbank, CA",
       "lon": -118.3120395,
       "lat": 34.1818707,
@@ -473,12 +479,6 @@
       "name": "Santa Barbara, CA",
       "lon": -119.7067795,
       "lat": 34.4389,
-      "count": 4
-    },
-    {
-      "name": "FL",
-      "lon": -80.86087827133976,
-      "lat": 26.29028131546975,
       "count": 4
     },
     {
@@ -795,6 +795,20 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Ryan McKillop",
+      "venue": "Houston, TX",
+      "client": "Nike",
+      "job": "Houston Community Tailgate ",
+      "city": "Houston"
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "Squash Zone Redwood City",
+      "client": "Squash Engine",
+      "job": "10.20-10.24 Silicone Valley Open",
+      "city": "Redwood City"
+    },
     {
       "rem": "Kyle Crowther",
       "venue": "San Jose Convention Center",
@@ -1333,20 +1347,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 56,
+      "events30": 60,
       "career": 2446,
       "recent": [
         {
-          "name": "Kacey Musgraves",
-          "meta": "OCT 19"
+          "name": "Golden State Warriors vs Los Angeles Lakers LA Live",
+          "meta": "OCT 21"
         },
         {
-          "name": "Kacey Musgraves LA Live",
-          "meta": "OCT 19"
+          "name": "The Greatest The Actor awards Nom Comm ",
+          "meta": "OCT 21"
         },
         {
-          "name": "Amazon Ride or Die ",
-          "meta": "OCT 18"
+          "name": "Golden State Warriors vs Los Angeles Lakers",
+          "meta": "OCT 21"
         }
       ]
     },
@@ -1354,20 +1368,20 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 49,
+      "events30": 48,
       "career": 408,
       "recent": [
         {
+          "name": "The Spoils - 2026",
+          "meta": "OCT 21"
+        },
+        {
+          "name": "48 Wall St - 10.21",
+          "meta": "OCT 21"
+        },
+        {
           "name": "48 Wall St- 10.20",
           "meta": "OCT 20"
-        },
-        {
-          "name": "48 Wall St. - 10.16",
-          "meta": "OCT 16"
-        },
-        {
-          "name": "AAS x Great American Pop Up",
-          "meta": "OCT 14"
         }
       ]
     },
