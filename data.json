@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T15:17:55.540Z",
-  "commit": "6304f9d",
+  "generatedAt": "2026-10-21T20:11:23.105Z",
+  "commit": "846226a",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2121,
-    "events30": 295,
-    "guards30": -502074,
-    "citiesYTD": 120,
-    "upcoming30": 100,
-    "perDay": 7.214285714285714
+    "eventsYTD": 2123,
+    "events30": 297,
+    "guards30": -502075,
+    "citiesYTD": 121,
+    "upcoming30": 108,
+    "perDay": 7.22108843537415
   },
   "heatPoints": [
     {
@@ -235,32 +235,32 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 224,
-      "w": 0.19393939393939394,
+      "ev": 223,
+      "w": 0.19307359307359306,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 134,
-      "w": 0.11601731601731602,
+      "ev": 135,
+      "w": 0.11688311688311688,
       "hq": false
     },
     {
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 45,
-      "w": 0.03896103896103896,
+      "ev": 46,
+      "w": 0.03982683982683983,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 136,
-      "w": 0.11774891774891776,
+      "ev": 137,
+      "w": 0.11861471861471862,
       "hq": true
     }
   ],
@@ -410,15 +410,15 @@
       "count": 8
     },
     {
-      "name": "San Diego, CA",
-      "lon": -117.17105989752933,
-      "lat": 32.742518380958835,
-      "count": 7
-    },
-    {
       "name": "Houston, TX",
       "lon": -95.36001309999999,
       "lat": 29.751439433333335,
+      "count": 8
+    },
+    {
+      "name": "San Diego, CA",
+      "lon": -117.17105989752933,
+      "lat": 32.742518380958835,
       "count": 7
     },
     {
@@ -631,7 +631,7 @@
       "name": "Western Europe",
       "lon": 5,
       "lat": 48,
-      "ev": 11
+      "ev": 12
     },
     {
       "name": "India",
@@ -1348,7 +1348,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 60,
-      "career": 2446,
+      "career": 2448,
       "recent": [
         {
           "name": "Golden State Warriors vs Los Angeles Lakers LA Live",
@@ -1368,8 +1368,8 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 48,
-      "career": 409,
+      "events30": 47,
+      "career": 410,
       "recent": [
         {
           "name": "The Spoils - 2026",
@@ -1390,7 +1390,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 32,
-      "career": 329,
+      "career": 330,
       "recent": [
         {
           "name": "10.20  Aviva Executive Dinner",
@@ -1411,7 +1411,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 29,
-      "career": 77,
+      "career": 78,
       "recent": [
         {
           "name": "HBO Parmesan Premiere and Reception",
@@ -1432,7 +1432,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 21,
-      "career": 310,
+      "career": 312,
       "recent": [
         {
           "name": "Pickwick Vintage LA October",
