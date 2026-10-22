@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-22T15:20:15.101Z",
-  "commit": "6e53a63",
+  "generatedAt": "2026-10-22T20:09:13.448Z",
+  "commit": "c2b2467",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 296,
     "guards30": -502140,
     "citiesYTD": 121,
-    "upcoming30": 106,
+    "upcoming30": 109,
     "perDay": 7.213559322033898
   },
   "heatPoints": [
@@ -1355,7 +1355,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 57,
-      "career": 2455,
+      "career": 2456,
       "recent": [
         {
           "name": "Gala of the starts ",
