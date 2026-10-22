@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T23:23:07.335Z",
-  "commit": "1f9e30e",
+  "generatedAt": "2026-10-22T04:51:58.756Z",
+  "commit": "961793e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2123,
-    "events30": 297,
-    "guards30": -502075,
+    "eventsYTD": 2132,
+    "events30": 300,
+    "guards30": -502120,
     "citiesYTD": 121,
-    "upcoming30": 114,
-    "perDay": 7.22108843537415
+    "upcoming30": 106,
+    "perDay": 7.2517006802721085
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1155,
+      "ev": 1160,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 96,
-      "w": 0.08311688311688312,
+      "w": 0.08275862068965517,
       "hq": false
     },
     {
@@ -228,23 +228,23 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 112,
-      "w": 0.09696969696969697,
+      "w": 0.09655172413793103,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 223,
-      "w": 0.19307359307359306,
+      "ev": 224,
+      "w": 0.19310344827586207,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 135,
-      "w": 0.11688311688311688,
+      "ev": 136,
+      "w": 0.11724137931034483,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.03982683982683983,
+      "w": 0.039655172413793106,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 137,
-      "w": 0.11861471861471862,
+      "ev": 139,
+      "w": 0.11982758620689656,
       "hq": true
     }
   ],
@@ -269,31 +269,31 @@
       "name": "Los Angeles, CA",
       "lon": -118.32143421027185,
       "lat": 34.06182230475585,
-      "count": 591
+      "count": 593
     },
     {
       "name": "CA",
       "lon": -119.20494651189031,
       "lat": 35.28669356250443,
-      "count": 163
+      "count": 164
     },
     {
       "name": "New York, NY",
       "lon": -73.98895695153743,
       "lat": 40.74518111889292,
-      "count": 143
+      "count": 144
     },
     {
       "name": "North Hollywood, CA",
       "lon": -118.36944295148434,
       "lat": 34.159013862523665,
-      "count": 96
+      "count": 97
     },
     {
       "name": "West Hollywood, CA",
       "lon": -118.37853106126049,
       "lat": 34.09040786705444,
-      "count": 92
+      "count": 93
     },
     {
       "name": "San Francisco, CA",
@@ -317,7 +317,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.39966827620918,
       "lat": 34.06835699044675,
-      "count": 49
+      "count": 50
     },
     {
       "name": "Culver City, CA",
@@ -796,11 +796,18 @@
   ],
   "todayPosts": [
     {
-      "rem": "Ryan McKillop",
-      "venue": "Houston, TX",
-      "client": "Nike",
-      "job": "Houston Community Tailgate ",
-      "city": "Houston"
+      "rem": "Tony D’Gracia",
+      "venue": "Starrett-Lehigh",
+      "client": "SPACE Productions",
+      "job": "The Spoils - 2026",
+      "city": "New York"
+    },
+    {
+      "rem": "Patrick J McKillop",
+      "venue": "Lowe's Protos",
+      "client": "Protos Security",
+      "job": "Protos Lowes Ogden ",
+      "city": "Orem"
     },
     {
       "rem": "Mathias Gibson",
@@ -1347,20 +1354,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 60,
+      "events30": 61,
       "career": 2455,
       "recent": [
         {
-          "name": "Golden State Warriors vs Los Angeles Lakers LA Live",
-          "meta": "OCT 21"
+          "name": "Gala of the starts ",
+          "meta": "OCT 22"
         },
         {
-          "name": "The Greatest The Actor awards Nom Comm ",
-          "meta": "OCT 21"
+          "name": "The Greatest LA All Guild Amazon",
+          "meta": "OCT 22"
         },
         {
-          "name": "Golden State Warriors vs Los Angeles Lakers",
-          "meta": "OCT 21"
+          "name": "Umamusume LA Live",
+          "meta": "OCT 22"
         }
       ]
     },
@@ -1372,16 +1379,16 @@
       "career": 410,
       "recent": [
         {
+          "name": "48 Wall St. - 10.22",
+          "meta": "OCT 22"
+        },
+        {
           "name": "The Spoils - 2026",
           "meta": "OCT 21"
         },
         {
           "name": "48 Wall St - 10.21",
           "meta": "OCT 21"
-        },
-        {
-          "name": "48 Wall St- 10.20",
-          "meta": "OCT 20"
         }
       ]
     },
@@ -1389,7 +1396,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 32,
+      "events30": 31,
       "career": 330,
       "recent": [
         {
@@ -1410,9 +1417,13 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 29,
+      "events30": 30,
       "career": 78,
       "recent": [
+        {
+          "name": "Verzuz Case vs Carl Thomas",
+          "meta": "OCT 22"
+        },
         {
           "name": "HBO Parmesan Premiere and Reception",
           "meta": "OCT 14"
@@ -1420,10 +1431,6 @@
         {
           "name": "Bar Avoja NBC Universal Event",
           "meta": "OCT 13"
-        },
-        {
-          "name": "Clayface - Content Creation and Screening Event",
-          "meta": "OCT 11"
         }
       ]
     },
@@ -1431,9 +1438,13 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 21,
+      "events30": 22,
       "career": 312,
       "recent": [
+        {
+          "name": "The power of TV",
+          "meta": "OCT 22"
+        },
         {
           "name": "Pickwick Vintage LA October",
           "meta": "OCT 17"
@@ -1441,10 +1452,6 @@
         {
           "name": "Indie Wire Screening ",
           "meta": "OCT 16"
-        },
-        {
-          "name": "TVA 2026 Engineering Science and Technology Emmy Awards",
-          "meta": "OCT 14"
         }
       ]
     }
@@ -1634,7 +1641,6 @@
   "ticker": [
     "<b>EP for Marshals Cast Members (Paramount)</b> · Allegiant Stadium",
     "<b>Nike x NA F27 Sales Conference</b> · Nashville, TN",
-    "<b>DWCS 77</b> · UFC Apex",
     "<b>9.22 Emerald Americas AZ </b> · Four Seasons Scottsdale",
     "<b>A24 AP-NYC 10.13</b> · NYC",
     "<b>Amazon Ride or Die </b> · Pacific Design Center",
@@ -1649,9 +1655,10 @@
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
     "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
-    "<b>Open AI - 9.22</b> · Bayberry Gardens",
     "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
-    "<b>POWERSLAP NV</b> · The Chelsea"
+    "<b>POWERSLAP NV</b> · The Chelsea",
+    "<b>Golden State Warriors vs Los Angeles Lakers LA Live</b> · LA Live",
+    "<b>Guitar Center - John Otto x Snares</b> · Guitar Center-Nashville"
   ],
   "linkedin": [
     {
