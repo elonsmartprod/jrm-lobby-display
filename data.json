@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-22T23:24:53.117Z",
-  "commit": "f79431b",
+  "generatedAt": "2026-10-23T04:54:11.484Z",
+  "commit": "1d32a5e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2128,
-    "events30": 296,
-    "guards30": -502140,
-    "citiesYTD": 121,
-    "upcoming30": 137,
-    "perDay": 7.213559322033898
+    "eventsYTD": 2140,
+    "events30": 299,
+    "guards30": -502096,
+    "citiesYTD": 122,
+    "upcoming30": 127,
+    "perDay": 7.254237288135593
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1156,
+      "ev": 1164,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 96,
-      "w": 0.08304498269896193,
+      "ev": 97,
+      "w": 0.08333333333333333,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 112,
-      "w": 0.09688581314878893,
+      "w": 0.09621993127147767,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 224,
-      "w": 0.19377162629757785,
+      "ev": 225,
+      "w": 0.19329896907216496,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 136,
-      "w": 0.11764705882352941,
+      "w": 0.11683848797250859,
       "hq": false
     },
     {
@@ -252,30 +252,30 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.039792387543252594,
+      "w": 0.03951890034364261,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 139,
-      "w": 0.12024221453287197,
+      "ev": 140,
+      "w": 0.12027491408934708,
       "hq": true
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.32143421027185,
-      "lat": 34.06182230475585,
-      "count": 589
+      "lon": -118.10642210471639,
+      "lat": 34.10623667005357,
+      "count": 592
     },
     {
       "name": "CA",
       "lon": -119.20494651189031,
       "lat": 35.28669356250443,
-      "count": 164
+      "count": 165
     },
     {
       "name": "New York, NY",
@@ -293,19 +293,19 @@
       "name": "West Hollywood, CA",
       "lon": -118.37853106126049,
       "lat": 34.09040786705444,
-      "count": 93
+      "count": 94
     },
     {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 91
+      "count": 92
     },
     {
       "name": "Las Vegas, NV",
       "lon": -115.1616453683453,
       "lat": 36.113182004665475,
-      "count": 89
+      "count": 90
     },
     {
       "name": "Hollywood, CA",
@@ -386,6 +386,12 @@
       "count": 11
     },
     {
+      "name": "Brooklyn, NY",
+      "lon": -73.969295725,
+      "lat": 40.702515874999996,
+      "count": 10
+    },
+    {
       "name": "Miami, FL",
       "lon": -80.15913806977244,
       "lat": 25.800135794700115,
@@ -395,12 +401,6 @@
       "name": "TN",
       "lon": -86.81583619169267,
       "lat": 36.063989766245,
-      "count": 9
-    },
-    {
-      "name": "Brooklyn, NY",
-      "lon": -73.969295725,
-      "lat": 40.702515874999996,
       "count": 9
     },
     {
@@ -434,6 +434,12 @@
       "count": 6
     },
     {
+      "name": "FL",
+      "lon": -81.00976270702084,
+      "lat": 26.673396883477334,
+      "count": 6
+    },
+    {
       "name": "Thermal, CA",
       "lon": -116.2023098,
       "lat": 33.6485353,
@@ -443,12 +449,6 @@
       "name": "Malibu, CA",
       "lon": -118.81201097499999,
       "lat": 34.0479904,
-      "count": 5
-    },
-    {
-      "name": "FL",
-      "lon": -81.17952868431021,
-      "lat": 26.620002662931,
       "count": 5
     },
     {
@@ -795,6 +795,20 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Sean McKillop",
+      "venue": "Charleston, SC",
+      "client": "HudsonGray Inc.",
+      "job": "BravoFest 2026",
+      "city": ""
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Missoula, Montana",
+      "client": "Nike",
+      "job": "Nike ACG Tiger Fly Photoshoot Montana",
+      "city": ""
+    },
     {
       "rem": "Tony D’Gracia",
       "venue": "Starrett-Lehigh",
@@ -1354,19 +1368,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 57,
+      "events30": 58,
       "career": 2490,
       "recent": [
         {
+          "name": "Los Angeles Clippers vs Los Angeles Lakers",
+          "meta": "OCT 23"
+        },
+        {
+          "name": "Los Angeles Clippers vs Los Angeles Lakers LA Live",
+          "meta": "OCT 23"
+        },
+        {
           "name": "Gala of the starts ",
-          "meta": "OCT 22"
-        },
-        {
-          "name": "The Greatest LA All Guild Amazon",
-          "meta": "OCT 22"
-        },
-        {
-          "name": "Umamusume LA Live",
           "meta": "OCT 22"
         }
       ]
@@ -1375,19 +1389,19 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 47,
+      "events30": 48,
       "career": 410,
       "recent": [
+        {
+          "name": "Sumo and Sushi NYC 2026",
+          "meta": "OCT 23"
+        },
         {
           "name": "48 Wall St. - 10.22",
           "meta": "OCT 22"
         },
         {
           "name": "The Spoils - 2026",
-          "meta": "OCT 21"
-        },
-        {
-          "name": "48 Wall St - 10.21",
           "meta": "OCT 21"
         }
       ]
@@ -1396,19 +1410,19 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 31,
+      "events30": 29,
       "career": 330,
       "recent": [
+        {
+          "name": "10.23 Cal Hack 2026",
+          "meta": "OCT 23"
+        },
         {
           "name": "10.20  Aviva Executive Dinner",
           "meta": "OCT 20"
         },
         {
           "name": "10.20-10.24 Silicone Valley Open",
-          "meta": "OCT 20"
-        },
-        {
-          "name": "10.20 Jack's",
           "meta": "OCT 20"
         }
       ]
@@ -1417,7 +1431,7 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 30,
+      "events30": 28,
       "career": 78,
       "recent": [
         {
@@ -1641,7 +1655,6 @@
   "ticker": [
     "<b>EP for Marshals Cast Members (Paramount)</b> · Allegiant Stadium",
     "<b>Nike x NA F27 Sales Conference</b> · Nashville, TN",
-    "<b>9.22 Emerald Americas AZ </b> · Four Seasons Scottsdale",
     "<b>A24 AP-NYC 10.13</b> · NYC",
     "<b>Amazon Ride or Die </b> · Pacific Design Center",
     "<b>Ugly Betty Reunion EP</b> · Edition - West Hollywood",
@@ -1652,6 +1665,7 @@
     "<b>TVA 2026 Engineering Science and Technology Emmy Awards</b> · Saban Media Center [TVA]",
     "<b>10.13-10.18 Vercel Car Coverage</b> · Motoring Coffee",
     "<b>Emerald Americas-NYC 9.27</b> · NYC",
+    "<b>Los Angeles Clippers vs Los Angeles Lakers</b> · Crypto.com Arena",
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
     "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
