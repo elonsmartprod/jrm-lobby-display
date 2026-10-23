@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T15:07:07.259Z",
-  "commit": "aab4d39",
+  "generatedAt": "2026-10-23T19:20:16.590Z",
+  "commit": "329b609",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2138,
-    "events30": 297,
-    "guards30": -502098,
+    "eventsYTD": 2137,
+    "events30": 296,
+    "guards30": -502101,
     "citiesYTD": 122,
-    "upcoming30": 127,
-    "perDay": 7.222972972972973
+    "upcoming30": 130,
+    "perDay": 7.219594594594595
   },
   "heatPoints": [
     {
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 97,
-      "w": 0.08333333333333333,
+      "ev": 98,
+      "w": 0.08419243986254296,
       "hq": false
     },
     {
@@ -259,8 +259,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 138,
-      "w": 0.11855670103092783,
+      "ev": 136,
+      "w": 0.11683848797250859,
       "hq": true
     }
   ],
@@ -631,7 +631,7 @@
       "name": "Western Europe",
       "lon": 5,
       "lat": 48,
-      "ev": 10
+      "ev": 7
     },
     {
       "name": "India",
@@ -807,6 +807,20 @@
       "venue": "Missoula, Montana",
       "client": "Nike",
       "job": "Nike ACG Tiger Fly Photoshoot Montana",
+      "city": ""
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Charleston, SC",
+      "client": "NBC Universal",
+      "job": "Bravo Fan Fest-Ancillary Events",
+      "city": ""
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "Lowes N Lv ",
+      "client": "Protos Security",
+      "job": "Armed Protos Lowes",
       "city": ""
     },
     {
@@ -1411,7 +1425,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 29,
-      "career": 330,
+      "career": 331,
       "recent": [
         {
           "name": "10.23 Cal Hack 2026",
