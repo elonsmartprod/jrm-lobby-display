@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-24T16:36:49.845Z",
-  "commit": "8df594d",
+  "generatedAt": "2026-10-24T19:30:18.285Z",
+  "commit": "6cc11f6",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2145,
-    "events30": 295,
-    "guards30": -502106,
+    "eventsYTD": 2146,
+    "events30": 296,
+    "guards30": -502105,
     "citiesYTD": 122,
     "upcoming30": 128,
-    "perDay": 7.222222222222222
+    "perDay": 7.225589225589226
   },
   "heatPoints": [
     {
@@ -235,8 +235,8 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 226,
-      "w": 0.19332763045337895,
+      "ev": 227,
+      "w": 0.1941830624465355,
       "hq": false
     },
     {
@@ -1417,9 +1417,13 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 48,
-      "career": 410,
+      "events30": 49,
+      "career": 411,
       "recent": [
+        {
+          "name": "Artistry Museum - 10.24",
+          "meta": "OCT 24"
+        },
         {
           "name": "Amazon The Greatest Philly NYC",
           "meta": "OCT 24"
@@ -1427,10 +1431,6 @@
         {
           "name": "Sumo and Sushi NYC 2026",
           "meta": "OCT 23"
-        },
-        {
-          "name": "48 Wall St. - 10.22",
-          "meta": "OCT 22"
         }
       ]
     },
