@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T16:25:18.665Z",
-  "commit": "c36ba7a",
+  "generatedAt": "2026-10-25T19:39:29.418Z",
+  "commit": "6456dec",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2155,
-    "events30": 298,
+    "eventsYTD": 2156,
+    "events30": 299,
     "guards30": -502108,
     "citiesYTD": 122,
     "upcoming30": 120,
-    "perDay": 7.231543624161074
+    "perDay": 7.23489932885906
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1174,
+      "ev": 1175,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 100,
-      "w": 0.08517887563884156,
+      "w": 0.0851063829787234,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 113,
-      "w": 0.09625212947189098,
+      "w": 0.09617021276595744,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 227,
-      "w": 0.19335604770017037,
+      "w": 0.19319148936170213,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 137,
-      "w": 0.11669505962521294,
+      "w": 0.11659574468085106,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.039182282793867124,
+      "w": 0.03914893617021276,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 136,
-      "w": 0.11584327086882454,
+      "w": 0.11574468085106383,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.10642210471639,
       "lat": 34.10623667005357,
-      "count": 595
+      "count": 596
     },
     {
       "name": "CA",
@@ -1445,9 +1445,13 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 28,
-      "career": 78,
+      "events30": 29,
+      "career": 79,
       "recent": [
+        {
+          "name": "Mother Wolf Shaffer Lee Wedding",
+          "meta": "OCT 24"
+        },
         {
           "name": "Verzuz Case vs Carl Thomas",
           "meta": "OCT 22"
@@ -1455,10 +1459,6 @@
         {
           "name": "HBO Parmesan Premiere and Reception",
           "meta": "OCT 14"
-        },
-        {
-          "name": "Bar Avoja NBC Universal Event",
-          "meta": "OCT 13"
         }
       ]
     },
@@ -1671,6 +1671,7 @@
     "<b>Nike x NA F27 Sales Conference</b> · Nashville, TN",
     "<b>A24 AP-NYC 10.13</b> · NYC",
     "<b>Amazon Ride or Die </b> · Pacific Design Center",
+    "<b>Mother Wolf Shaffer Lee Wedding</b> · Mother Wolf Hollywood",
     "<b>Ugly Betty Reunion EP</b> · Edition - West Hollywood",
     "<b>VMA&#39;s 2026 Post Party</b> · Hotel Figueroa",
     "<b>Native x Peanut</b> · NYC",
@@ -1685,8 +1686,7 @@
     "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
     "<b>POWERSLAP NV</b> · The Chelsea",
     "<b>Golden State Warriors vs Los Angeles Lakers LA Live</b> · LA Live",
-    "<b>Guitar Center - John Otto x Snares</b> · Guitar Center-Nashville",
-    "<b>10.19 Jack&#39;s</b> · Jack&#39;s Restaurant"
+    "<b>Guitar Center - John Otto x Snares</b> · Guitar Center-Nashville"
   ],
   "linkedin": [
     {
