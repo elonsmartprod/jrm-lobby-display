@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-24T22:30:34.250Z",
-  "commit": "51bc60d",
+  "generatedAt": "2026-10-25T01:12:40.194Z",
+  "commit": "4bc0fb1",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2146,
-    "events30": 296,
-    "guards30": -502105,
+    "eventsYTD": 2154,
+    "events30": 297,
+    "guards30": -502110,
     "citiesYTD": 122,
-    "upcoming30": 128,
-    "perDay": 7.225589225589226
+    "upcoming30": 120,
+    "perDay": 7.252525252525253
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1169,
+      "ev": 1174,
       "w": 1,
       "hq": true
     },
@@ -219,16 +219,16 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 99,
-      "w": 0.08468776732249786,
+      "ev": 100,
+      "w": 0.08517887563884156,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 112,
-      "w": 0.09580838323353294,
+      "ev": 113,
+      "w": 0.09625212947189098,
       "hq": false
     },
     {
@@ -236,15 +236,15 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 227,
-      "w": 0.1941830624465355,
+      "w": 0.19335604770017037,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 136,
-      "w": 0.11633875106929,
+      "ev": 137,
+      "w": 0.11669505962521294,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.03934987168520103,
+      "w": 0.039182282793867124,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 136,
-      "w": 0.11633875106929,
+      "w": 0.11584327086882454,
       "hq": true
     }
   ],
@@ -293,19 +293,19 @@
       "name": "West Hollywood, CA",
       "lon": -118.37853106126049,
       "lat": 34.09040786705444,
-      "count": 94
+      "count": 95
+    },
+    {
+      "name": "Las Vegas, NV",
+      "lon": -115.1616453683453,
+      "lat": 36.113182004665475,
+      "count": 92
     },
     {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
       "count": 92
-    },
-    {
-      "name": "Las Vegas, NV",
-      "lon": -115.1616453683453,
-      "lat": 36.113182004665475,
-      "count": 91
     },
     {
       "name": "Hollywood, CA",
@@ -317,13 +317,13 @@
       "name": "Beverly Hills, CA",
       "lon": -118.39966827620918,
       "lat": 34.06835699044675,
-      "count": 50
+      "count": 51
     },
     {
       "name": "Culver City, CA",
       "lon": -118.39045209121825,
       "lat": 34.0242194781745,
-      "count": 35
+      "count": 36
     },
     {
       "name": "Hollywood Hills, CA",
@@ -796,6 +796,13 @@
   ],
   "todayPosts": [
     {
+      "rem": "Tony D’Gracia",
+      "venue": "Philadelphia, PA",
+      "client": "Amazon",
+      "job": "Amazon The Greatest Philly NYC",
+      "city": ""
+    },
+    {
       "rem": "Sean McKillop",
       "venue": "Jupiter Country Club",
       "client": "Nike",
@@ -810,25 +817,11 @@
       "city": "Brooklyn"
     },
     {
-      "rem": "Seanie Wolf",
-      "venue": "The Music Center",
-      "client": "Gloria Molina Grand Park",
-      "job": "The Music Center GAAAA Event",
-      "city": "Los Angeles"
-    },
-    {
       "rem": "Mathias Gibson",
       "venue": "Palace of Fine Arts San Francisco",
       "client": "Cal Hack Foundation",
       "job": "10.23 Cal Hack 2026",
       "city": "San Francisco"
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Charleston, SC",
-      "client": "HudsonGray Inc.",
-      "job": "BravoFest 2026",
-      "city": ""
     },
     {
       "rem": "Sean McKillop",
@@ -857,13 +850,6 @@
       "client": "Protos Security",
       "job": "Protos Lowes Ogden ",
       "city": "Orem"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Squash Zone Redwood City",
-      "client": "Squash Engine",
-      "job": "10.20-10.24 Silicone Valley Open",
-      "city": "Redwood City"
     },
     {
       "rem": "Jessica Hernandez",
@@ -1396,20 +1382,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 56,
+      "events30": 57,
       "career": 2494,
       "recent": [
         {
-          "name": "Reincarnation LA Live",
-          "meta": "OCT 24"
+          "name": "Amazon I Play Rocky Press Social Mixer",
+          "meta": "OCT 25"
         },
         {
-          "name": "Weezer",
-          "meta": "OCT 24"
+          "name": "amazon i play rocky LA ",
+          "meta": "OCT 25"
         },
         {
-          "name": "Los Angeles Clippers vs Los Angeles Lakers",
-          "meta": "OCT 23"
+          "name": "Amazon I play Rocky BAFTA LA Official",
+          "meta": "OCT 25"
         }
       ]
     },
@@ -1417,7 +1403,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 49,
+      "events30": 46,
       "career": 411,
       "recent": [
         {
@@ -1484,16 +1470,16 @@
       "career": 312,
       "recent": [
         {
+          "name": "Beverly Hilton Private Event",
+          "meta": "OCT 25"
+        },
+        {
           "name": "TVA Kids in the Spotlight Screening",
           "meta": "OCT 24"
         },
         {
           "name": "The power of TV",
           "meta": "OCT 22"
-        },
-        {
-          "name": "Pickwick Vintage LA October",
-          "meta": "OCT 17"
         }
       ]
     }
