@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T11:34:52.664Z",
-  "commit": "5f6f4fa",
+  "generatedAt": "2026-10-25T16:25:18.665Z",
+  "commit": "c36ba7a",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2154,
-    "events30": 297,
-    "guards30": -502110,
+    "eventsYTD": 2155,
+    "events30": 298,
+    "guards30": -502108,
     "citiesYTD": 122,
     "upcoming30": 120,
-    "perDay": 7.252525252525253
+    "perDay": 7.231543624161074
   },
   "heatPoints": [
     {
@@ -275,7 +275,7 @@
       "name": "CA",
       "lon": -119.20494651189031,
       "lat": 35.28669356250443,
-      "count": 166
+      "count": 167
     },
     {
       "name": "New York, NY",
@@ -1424,9 +1424,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 29,
-      "career": 331,
+      "events30": 30,
+      "career": 332,
       "recent": [
+        {
+          "name": "10.25-10.29 Emerald Driver",
+          "meta": "OCT 25"
+        },
         {
           "name": "10.24 UNDSCVRD Night Market",
           "meta": "OCT 24"
@@ -1434,10 +1438,6 @@
         {
           "name": "10.23 Cal Hack 2026",
           "meta": "OCT 23"
-        },
-        {
-          "name": "10.20  Aviva Executive Dinner",
-          "meta": "OCT 20"
         }
       ]
     },
