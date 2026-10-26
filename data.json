@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T22:35:11.399Z",
-  "commit": "db7c083",
+  "generatedAt": "2026-10-26T01:13:09.119Z",
+  "commit": "991b840",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2156,
-    "events30": 299,
-    "guards30": -502108,
+    "eventsYTD": 2161,
+    "events30": 292,
+    "guards30": -502151,
     "citiesYTD": 122,
-    "upcoming30": 120,
-    "perDay": 7.23489932885906
+    "upcoming30": 115,
+    "perDay": 7.251677852348993
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1175,
+      "ev": 1178,
       "w": 1,
       "hq": true
     },
@@ -220,23 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 100,
-      "w": 0.0851063829787234,
+      "w": 0.08488964346349745,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 113,
-      "w": 0.09617021276595744,
+      "ev": 114,
+      "w": 0.0967741935483871,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 227,
-      "w": 0.19319148936170213,
+      "ev": 228,
+      "w": 0.1935483870967742,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 137,
-      "w": 0.11659574468085106,
+      "w": 0.11629881154499151,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.03914893617021276,
+      "w": 0.03904923599320883,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 136,
-      "w": 0.11574468085106383,
+      "w": 0.11544991511035653,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.10642210471639,
       "lat": 34.10623667005357,
-      "count": 596
+      "count": 597
     },
     {
       "name": "CA",
@@ -281,7 +281,7 @@
       "name": "New York, NY",
       "lon": -73.98895695153743,
       "lat": 40.74518111889292,
-      "count": 144
+      "count": 145
     },
     {
       "name": "North Hollywood, CA",
@@ -293,7 +293,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37853106126049,
       "lat": 34.09040786705444,
-      "count": 95
+      "count": 96
     },
     {
       "name": "Las Vegas, NV",
@@ -323,7 +323,7 @@
       "name": "Culver City, CA",
       "lon": -118.39045209121825,
       "lat": 34.0242194781745,
-      "count": 36
+      "count": 37
     },
     {
       "name": "Hollywood Hills, CA",
@@ -423,9 +423,9 @@
     },
     {
       "name": "AZ",
-      "lon": -113.57334437930568,
-      "lat": 33.969868917089336,
-      "count": 6
+      "lon": -113.19809011670016,
+      "lat": 33.720080142397286,
+      "count": 7
     },
     {
       "name": "TX",
@@ -796,6 +796,27 @@
   ],
   "todayPosts": [
     {
+      "rem": "Ryan McKillop",
+      "venue": "Austin TX",
+      "client": "Go For Locations LLC",
+      "job": "Go For Locations - Zoox - Austin ",
+      "city": "Austin"
+    },
+    {
+      "rem": "Alejandra Ruezga",
+      "venue": "Beverly Hilton Hotel",
+      "client": "The Beverly Hilton",
+      "job": "Beverly Hilton Private Event",
+      "city": "Beverly Hills"
+    },
+    {
+      "rem": "Justin McKillop",
+      "venue": "Gaylord Opryland Resort",
+      "client": "Amazon",
+      "job": "Amazon Reshape 2026 (Nashville, TN)",
+      "city": "Nashville"
+    },
+    {
       "rem": "Tony D’Gracia",
       "venue": "Philadelphia, PA",
       "client": "Amazon",
@@ -807,27 +828,6 @@
       "venue": "Jupiter Country Club",
       "client": "Nike",
       "job": "SPSU27 Men's & Women's Golf VC Refresh - Photoshoot",
-      "city": ""
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "Duggal Greenhouse at Brooklyn Navy Yard",
-      "client": "SE Productions",
-      "job": "Sumo and Sushi NYC 2026",
-      "city": "Brooklyn"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Palace of Fine Arts San Francisco",
-      "client": "Cal Hack Foundation",
-      "job": "10.23 Cal Hack 2026",
-      "city": "San Francisco"
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Charleston, SC",
-      "client": "NBC Universal",
-      "job": "Bravo Fan Fest-Ancillary Events",
       "city": ""
     },
     {
@@ -1382,19 +1382,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 57,
+      "events30": 54,
       "career": 2494,
       "recent": [
         {
+          "name": "Amazon I play Rocky PGA LA Official",
+          "meta": "OCT 26"
+        },
+        {
+          "name": "Amazon I play Rocky LA ",
+          "meta": "OCT 26"
+        },
+        {
           "name": "Amazon I Play Rocky Press Social Mixer",
-          "meta": "OCT 25"
-        },
-        {
-          "name": "amazon i play rocky LA ",
-          "meta": "OCT 25"
-        },
-        {
-          "name": "Amazon I play Rocky BAFTA LA Official",
           "meta": "OCT 25"
         }
       ]
@@ -1407,37 +1407,16 @@
       "career": 411,
       "recent": [
         {
+          "name": "48 Wall St. - 10.26",
+          "meta": "OCT 26"
+        },
+        {
           "name": "Artistry Museum - 10.24",
           "meta": "OCT 24"
         },
         {
           "name": "Amazon The Greatest Philly NYC",
           "meta": "OCT 24"
-        },
-        {
-          "name": "Sumo and Sushi NYC 2026",
-          "meta": "OCT 23"
-        }
-      ]
-    },
-    {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
-      "color": "#E8B44A",
-      "events30": 30,
-      "career": 332,
-      "recent": [
-        {
-          "name": "10.25-10.29 Emerald Driver",
-          "meta": "OCT 25"
-        },
-        {
-          "name": "10.24 UNDSCVRD Night Market",
-          "meta": "OCT 24"
-        },
-        {
-          "name": "10.23 Cal Hack 2026",
-          "meta": "OCT 23"
         }
       ]
     },
@@ -1459,6 +1438,27 @@
         {
           "name": "HBO Parmesan Premiere and Reception",
           "meta": "OCT 14"
+        }
+      ]
+    },
+    {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 29,
+      "career": 332,
+      "recent": [
+        {
+          "name": "10.25-10.29 Emerald Driver",
+          "meta": "OCT 25"
+        },
+        {
+          "name": "10.24 UNDSCVRD Night Market",
+          "meta": "OCT 24"
+        },
+        {
+          "name": "10.23 Cal Hack 2026",
+          "meta": "OCT 23"
         }
       ]
     },
