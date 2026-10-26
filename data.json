@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-26T14:18:08.606Z",
-  "commit": "b5ca801",
+  "generatedAt": "2026-10-26T20:30:49.403Z",
+  "commit": "f008fe3",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2161,
-    "events30": 292,
-    "guards30": -502151,
+    "eventsYTD": 2162,
+    "events30": 293,
+    "guards30": -502150,
     "citiesYTD": 122,
-    "upcoming30": 121,
-    "perDay": 7.2274247491638794
+    "upcoming30": 126,
+    "perDay": 7.230769230769231
   },
   "heatPoints": [
     {
@@ -227,8 +227,8 @@
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 114,
-      "w": 0.0967741935483871,
+      "ev": 115,
+      "w": 0.09762308998302208,
       "hq": false
     },
     {
@@ -273,9 +273,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.20494651189031,
-      "lat": 35.28669356250443,
-      "count": 167
+      "lon": -119.2017793323598,
+      "lat": 35.26598528207857,
+      "count": 172
     },
     {
       "name": "New York, NY",
@@ -333,9 +333,9 @@
     },
     {
       "name": "NY",
-      "lon": -73.93009856804012,
-      "lat": 40.90627710036205,
-      "count": 20
+      "lon": -73.91575458462282,
+      "lat": 40.90136751202674,
+      "count": 21
     },
     {
       "name": "Nashville, TN",
@@ -368,15 +368,15 @@
       "count": 14
     },
     {
+      "name": "NV",
+      "lon": -115.16922739631924,
+      "lat": 36.1439870588713,
+      "count": 13
+    },
+    {
       "name": "Chicago, IL",
       "lon": -87.65043818176079,
       "lat": 41.8908769600975,
-      "count": 12
-    },
-    {
-      "name": "NV",
-      "lon": -115.16438886799627,
-      "lat": 36.13605256384008,
       "count": 12
     },
     {
@@ -404,6 +404,12 @@
       "count": 9
     },
     {
+      "name": "AZ",
+      "lon": -113.19809011670016,
+      "lat": 33.720080142397286,
+      "count": 8
+    },
+    {
       "name": "Seattle, WA",
       "lon": -122.330826425,
       "lat": 47.6140752375,
@@ -419,12 +425,6 @@
       "name": "San Diego, CA",
       "lon": -117.17105989752933,
       "lat": 32.742518380958835,
-      "count": 7
-    },
-    {
-      "name": "AZ",
-      "lon": -113.19809011670016,
-      "lat": 33.720080142397286,
       "count": 7
     },
     {
@@ -1446,7 +1446,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 29,
-      "career": 332,
+      "career": 334,
       "recent": [
         {
           "name": "10.25-10.29 Emerald Driver",
@@ -1467,7 +1467,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 23,
-      "career": 312,
+      "career": 313,
       "recent": [
         {
           "name": "Beverly Hilton Private Event",
