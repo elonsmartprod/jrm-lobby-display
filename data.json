@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T18:44:02.473Z",
-  "commit": "f3364bb",
+  "generatedAt": "2026-10-27T22:58:02.414Z",
+  "commit": "89e32f5",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2175,
-    "events30": 300,
-    "guards30": -502114,
+    "eventsYTD": 2178,
+    "events30": 303,
+    "guards30": -502111,
     "citiesYTD": 122,
-    "upcoming30": 127,
-    "perDay": 7.25
+    "upcoming30": 141,
+    "perDay": 7.26
   },
   "heatPoints": [
     {
@@ -227,8 +227,8 @@
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 115,
-      "w": 0.09712837837837837,
+      "ev": 116,
+      "w": 0.09797297297297297,
       "hq": false
     },
     {
@@ -296,15 +296,15 @@
       "count": 96
     },
     {
-      "name": "Las Vegas, NV",
-      "lon": -115.1616453683453,
-      "lat": 36.113182004665475,
-      "count": 92
-    },
-    {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
+      "count": 94
+    },
+    {
+      "name": "Las Vegas, NV",
+      "lon": -115.1616453683453,
+      "lat": 36.113182004665475,
       "count": 92
     },
     {
@@ -653,6 +653,11 @@
     }
   ],
   "fixedAccounts": [
+    {
+      "name": "Amazon GYR-1",
+      "office": "Tennessee",
+      "since": 2026
+    },
     {
       "name": "Aston at Gateway",
       "office": "Los Angeles",
@@ -1279,6 +1284,13 @@
       "city": "Los Angeles"
     },
     {
+      "rem": "Sevan Ohanians",
+      "venue": "The Roosevelt Hotel",
+      "client": "Dennis Mukweso",
+      "job": "Roosevelt Hotel Guard",
+      "city": "Hollywood"
+    },
+    {
       "rem": "Dani Sanchez",
       "venue": "Santal Thousand Oaks",
       "client": "",
@@ -1400,32 +1412,11 @@
       ]
     },
     {
-      "name": "Mivonta Fulwood",
-      "office": "Los Angeles",
-      "color": "#E8B44A",
-      "events30": 30,
-      "career": 82,
-      "recent": [
-        {
-          "name": "Mother Wolf Shaffer Lee Wedding",
-          "meta": "OCT 24"
-        },
-        {
-          "name": "Gravitas Halloween Haunt ",
-          "meta": "OCT 24"
-        },
-        {
-          "name": "Verzuz Case vs Carl Thomas",
-          "meta": "OCT 22"
-        }
-      ]
-    },
-    {
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 30,
-      "career": 335,
+      "events30": 32,
+      "career": 342,
       "recent": [
         {
           "name": "10.27 Growth CMO Dinner",
@@ -1438,6 +1429,27 @@
         {
           "name": "10.24 UNDSCVRD Night Market",
           "meta": "OCT 24"
+        }
+      ]
+    },
+    {
+      "name": "Mivonta Fulwood",
+      "office": "Los Angeles",
+      "color": "#E8B44A",
+      "events30": 30,
+      "career": 85,
+      "recent": [
+        {
+          "name": "Mother Wolf Shaffer Lee Wedding",
+          "meta": "OCT 24"
+        },
+        {
+          "name": "Gravitas Halloween Haunt ",
+          "meta": "OCT 24"
+        },
+        {
+          "name": "Verzuz Case vs Carl Thomas",
+          "meta": "OCT 22"
         }
       ]
     },
@@ -1657,6 +1669,7 @@
     "<b>TVA 2026 Engineering Science and Technology Emmy Awards</b> · Saban Media Center [TVA]",
     "<b>LA Live Events 10.19-10.25</b> · LA Live",
     "<b>10.13-10.18 Vercel Car Coverage</b> · Motoring Coffee",
+    "<b>11.23 Jacks</b> · Jack&#39;s Restaurant",
     "<b>Los Angeles Clippers vs Los Angeles Lakers</b> · Crypto.com Arena",
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
     "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
@@ -1664,8 +1677,7 @@
     "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
     "<b>EMEA Amazon Embedded Mgr </b> · London, UK",
     "<b>POWERSLAP NV</b> · The Chelsea",
-    "<b>Golden State Warriors vs Los Angeles Lakers LA Live</b> · LA Live",
-    "<b>Guitar Center - John Otto x Snares</b> · Guitar Center-Nashville"
+    "<b>Golden State Warriors vs Los Angeles Lakers LA Live</b> · LA Live"
   ],
   "linkedin": [
     {
