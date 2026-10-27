@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T00:28:01.484Z",
-  "commit": "c30eeaa",
+  "generatedAt": "2026-10-27T06:19:05.049Z",
+  "commit": "58e733c",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2171,
-    "events30": 296,
+    "eventsYTD": 2172,
+    "events30": 297,
     "guards30": -502116,
     "citiesYTD": 122,
-    "upcoming30": 122,
-    "perDay": 7.260869565217392
+    "upcoming30": 126,
+    "perDay": 7.264214046822742
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1182,
+      "ev": 1183,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 100,
-      "w": 0.08460236886632826,
+      "w": 0.08453085376162299,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 115,
-      "w": 0.09729272419627749,
+      "w": 0.09721048182586645,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 229,
-      "w": 0.19373942470389172,
+      "w": 0.19357565511411665,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 137,
-      "w": 0.11590524534686972,
+      "w": 0.1158072696534235,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.038917089678511,
+      "w": 0.03888419273034658,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 137,
-      "w": 0.11590524534686972,
+      "w": 0.1158072696534235,
       "hq": true
     }
   ],
@@ -317,7 +317,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.39966827620918,
       "lat": 34.06835699044675,
-      "count": 51
+      "count": 52
     },
     {
       "name": "Culver City, CA",
@@ -1355,7 +1355,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 58,
-      "career": 2494,
+      "career": 2496,
       "recent": [
         {
           "name": "Portland Trail Blazers vs Los Angeles Lakers",
@@ -1417,20 +1417,20 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 28,
-      "career": 79,
+      "events30": 29,
+      "career": 81,
       "recent": [
         {
           "name": "Mother Wolf Shaffer Lee Wedding",
           "meta": "OCT 24"
         },
         {
-          "name": "Verzuz Case vs Carl Thomas",
-          "meta": "OCT 22"
+          "name": "Gravitas Halloween Haunt ",
+          "meta": "OCT 24"
         },
         {
-          "name": "HBO Parmesan Premiere and Reception",
-          "meta": "OCT 14"
+          "name": "Verzuz Case vs Carl Thomas",
+          "meta": "OCT 22"
         }
       ]
     },
@@ -1439,7 +1439,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 23,
-      "career": 316,
+      "career": 317,
       "recent": [
         {
           "name": "Beverly Hilton Private Event",
