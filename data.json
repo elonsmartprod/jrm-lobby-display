@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T13:14:23.105Z",
-  "commit": "713c943",
+  "generatedAt": "2026-10-27T18:44:02.473Z",
+  "commit": "f3364bb",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2172,
-    "events30": 297,
-    "guards30": -502116,
+    "eventsYTD": 2175,
+    "events30": 300,
+    "guards30": -502114,
     "citiesYTD": 122,
-    "upcoming30": 126,
-    "perDay": 7.24
+    "upcoming30": 127,
+    "perDay": 7.25
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1183,
+      "ev": 1184,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 100,
-      "w": 0.08453085376162299,
+      "ev": 101,
+      "w": 0.08530405405405406,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 115,
-      "w": 0.09721048182586645,
+      "w": 0.09712837837837837,
       "hq": false
     },
     {
@@ -236,15 +236,15 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 229,
-      "w": 0.19357565511411665,
+      "w": 0.19341216216216217,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 137,
-      "w": 0.1158072696534235,
+      "ev": 138,
+      "w": 0.11655405405405406,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.03888419273034658,
+      "w": 0.03885135135135135,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 137,
-      "w": 0.1158072696534235,
+      "w": 0.11570945945945946,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.10642210471639,
       "lat": 34.10623667005357,
-      "count": 599
+      "count": 600
     },
     {
       "name": "CA",
@@ -631,7 +631,7 @@
       "name": "Western Europe",
       "lon": 5,
       "lat": 48,
-      "ev": 7
+      "ev": 8
     },
     {
       "name": "India",
@@ -808,6 +808,13 @@
       "client": "Go For Locations LLC",
       "job": "Go For Locations - Zoox - Austin ",
       "city": "Austin"
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "London, UK",
+      "client": "Amazon Studios",
+      "job": "EMEA Amazon Embedded Mgr ",
+      "city": "London"
     },
     {
       "rem": "Justin McKillop",
@@ -1393,32 +1400,11 @@
       ]
     },
     {
-      "name": "Mathias Gibson",
-      "office": "Northern California",
-      "color": "#E8B44A",
-      "events30": 30,
-      "career": 334,
-      "recent": [
-        {
-          "name": "10.27 Growth CMO Dinner",
-          "meta": "OCT 27"
-        },
-        {
-          "name": "10.25-10.29 Emerald Driver",
-          "meta": "OCT 25"
-        },
-        {
-          "name": "10.24 UNDSCVRD Night Market",
-          "meta": "OCT 24"
-        }
-      ]
-    },
-    {
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 29,
-      "career": 81,
+      "events30": 30,
+      "career": 82,
       "recent": [
         {
           "name": "Mother Wolf Shaffer Lee Wedding",
@@ -1431,6 +1417,27 @@
         {
           "name": "Verzuz Case vs Carl Thomas",
           "meta": "OCT 22"
+        }
+      ]
+    },
+    {
+      "name": "Mathias Gibson",
+      "office": "Northern California",
+      "color": "#E8B44A",
+      "events30": 30,
+      "career": 335,
+      "recent": [
+        {
+          "name": "10.27 Growth CMO Dinner",
+          "meta": "OCT 27"
+        },
+        {
+          "name": "10.25-10.29 Emerald Driver",
+          "meta": "OCT 25"
+        },
+        {
+          "name": "10.24 UNDSCVRD Night Market",
+          "meta": "OCT 24"
         }
       ]
     },
@@ -1648,17 +1655,17 @@
     "<b>Native x Peanut</b> · NYC",
     "<b>Kacey Musgraves</b> · Crypto.com Arena",
     "<b>TVA 2026 Engineering Science and Technology Emmy Awards</b> · Saban Media Center [TVA]",
+    "<b>LA Live Events 10.19-10.25</b> · LA Live",
     "<b>10.13-10.18 Vercel Car Coverage</b> · Motoring Coffee",
     "<b>Los Angeles Clippers vs Los Angeles Lakers</b> · Crypto.com Arena",
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
     "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
     "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
+    "<b>EMEA Amazon Embedded Mgr </b> · London, UK",
     "<b>POWERSLAP NV</b> · The Chelsea",
     "<b>Golden State Warriors vs Los Angeles Lakers LA Live</b> · LA Live",
-    "<b>Guitar Center - John Otto x Snares</b> · Guitar Center-Nashville",
-    "<b>10.19 Jack&#39;s</b> · Jack&#39;s Restaurant",
-    "<b>Boston Bruins vs Los Angeles Kings</b> · Crypto.com Arena"
+    "<b>Guitar Center - John Otto x Snares</b> · Guitar Center-Nashville"
   ],
   "linkedin": [
     {
