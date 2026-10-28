@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T22:58:02.414Z",
-  "commit": "89e32f5",
+  "generatedAt": "2026-10-28T02:18:08.658Z",
+  "commit": "ba21171",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2178,
-    "events30": 303,
-    "guards30": -502111,
+    "eventsYTD": 2187,
+    "events30": 301,
+    "guards30": -502085,
     "citiesYTD": 122,
-    "upcoming30": 141,
-    "perDay": 7.26
+    "upcoming30": 132,
+    "perDay": 7.29
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1184,
+      "ev": 1190,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 101,
-      "w": 0.08530405405405406,
+      "w": 0.08487394957983194,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 116,
-      "w": 0.09797297297297297,
+      "w": 0.09747899159663866,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 229,
-      "w": 0.19341216216216217,
+      "w": 0.19243697478991598,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 138,
-      "w": 0.11655405405405406,
+      "w": 0.11596638655462185,
       "hq": false
     },
     {
@@ -252,30 +252,30 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.03885135135135135,
+      "w": 0.03865546218487395,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 137,
-      "w": 0.11570945945945946,
+      "ev": 138,
+      "w": 0.11596638655462185,
       "hq": true
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.10642210471639,
-      "lat": 34.10623667005357,
-      "count": 600
+      "lon": -118.10775880020358,
+      "lat": 34.10560033818749,
+      "count": 605
     },
     {
       "name": "CA",
       "lon": -119.2017793323598,
       "lat": 35.26598528207857,
-      "count": 173
+      "count": 174
     },
     {
       "name": "New York, NY",
@@ -287,7 +287,7 @@
       "name": "North Hollywood, CA",
       "lon": -118.36944295148434,
       "lat": 34.159013862523665,
-      "count": 98
+      "count": 99
     },
     {
       "name": "West Hollywood, CA",
@@ -299,7 +299,7 @@
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 94
+      "count": 95
     },
     {
       "name": "Las Vegas, NV",
@@ -800,6 +800,13 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Kyle Crowther",
+      "venue": "Amazon GYR-1",
+      "client": "Protos Security",
+      "job": "Protos Amazon AZ",
+      "city": ""
+    },
     {
       "rem": "Seanie Wolf",
       "venue": "Warner Music Group Building",
@@ -1373,20 +1380,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 58,
+      "events30": 57,
       "career": 2496,
       "recent": [
         {
-          "name": "Portland Trail Blazers vs Los Angeles Lakers",
-          "meta": "OCT 27"
+          "name": "YG Concert LA Live",
+          "meta": "OCT 28"
         },
         {
-          "name": "Amazon I Play Rocky All Guild Actor Awards Nom Comm",
-          "meta": "OCT 27"
+          "name": "YG Concert",
+          "meta": "OCT 28"
         },
         {
-          "name": "Portland Trail Blazers vs Los Angeles Lakers LA Live",
-          "meta": "OCT 27"
+          "name": "YG Crypto Interior Coverage ",
+          "meta": "OCT 28"
         }
       ]
     },
@@ -1394,7 +1401,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 46,
+      "events30": 45,
       "career": 411,
       "recent": [
         {
@@ -1419,16 +1426,16 @@
       "career": 342,
       "recent": [
         {
+          "name": "10.28 Jack's",
+          "meta": "OCT 28"
+        },
+        {
+          "name": "10.28 Growth CRO Dinner",
+          "meta": "OCT 28"
+        },
+        {
           "name": "10.27 Growth CMO Dinner",
           "meta": "OCT 27"
-        },
-        {
-          "name": "10.25-10.29 Emerald Driver",
-          "meta": "OCT 25"
-        },
-        {
-          "name": "10.24 UNDSCVRD Night Market",
-          "meta": "OCT 24"
         }
       ]
     },
@@ -1457,20 +1464,20 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 25,
       "career": 317,
       "recent": [
         {
+          "name": "2026 SkinnyDipped Wafers Launch College Tour Production",
+          "meta": "OCT 28"
+        },
+        {
+          "name": "TVA All Academy Mixer Ghostly Gathering",
+          "meta": "OCT 28"
+        },
+        {
           "name": "Beverly Hilton Private Event",
           "meta": "OCT 25"
-        },
-        {
-          "name": "TVA Kids in the Spotlight Screening",
-          "meta": "OCT 24"
-        },
-        {
-          "name": "The power of TV",
-          "meta": "OCT 22"
         }
       ]
     }
