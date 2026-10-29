@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T16:09:14.984Z",
-  "commit": "785061a",
+  "generatedAt": "2026-10-29T21:09:06.614Z",
+  "commit": "aaf23f2",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2193,
-    "events30": 300,
-    "guards30": -502073,
+    "eventsYTD": 2191,
+    "events30": 298,
+    "guards30": -502075,
     "citiesYTD": 122,
-    "upcoming30": 130,
-    "perDay": 7.26158940397351
+    "upcoming30": 134,
+    "perDay": 7.254966887417218
   },
   "heatPoints": [
     {
@@ -290,16 +290,16 @@
       "count": 100
     },
     {
-      "name": "San Francisco, CA",
-      "lon": -122.42072640483462,
-      "lat": 37.78456864025394,
-      "count": 96
-    },
-    {
       "name": "West Hollywood, CA",
       "lon": -118.37853106126049,
       "lat": 34.09040786705444,
       "count": 96
+    },
+    {
+      "name": "San Francisco, CA",
+      "lon": -122.42072640483462,
+      "lat": 37.78456864025394,
+      "count": 94
     },
     {
       "name": "Las Vegas, NV",
@@ -1379,7 +1379,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 55,
-      "career": 2498,
+      "career": 2500,
       "recent": [
         {
           "name": "FashionNova Halloween Party",
@@ -1400,7 +1400,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 45,
-      "career": 412,
+      "career": 413,
       "recent": [
         {
           "name": "48 Wall St. - 10.29",
@@ -1420,7 +1420,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 33,
+      "events30": 31,
       "career": 345,
       "recent": [
         {
@@ -1674,7 +1674,6 @@
     "<b>TVA 2026 Engineering Science and Technology Emmy Awards</b> · Saban Media Center [TVA]",
     "<b>LA Live Events 10.19-10.25</b> · LA Live",
     "<b>10.13-10.18 Vercel Car Coverage</b> · Motoring Coffee",
-    "<b>11.23 Jacks</b> · Jack&#39;s Restaurant",
     "<b>FashionNova Halloween Party</b> · Fashion Nova Corporate Office",
     "<b>Los Angeles Clippers vs Los Angeles Lakers</b> · Crypto.com Arena",
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
@@ -1682,7 +1681,8 @@
     "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
     "<b>Carvana </b> · Carvana LV",
-    "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel "
+    "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
+    "<b>EMEA Amazon Embedded Mgr </b> · London, UK"
   ],
   "linkedin": [
     {
