@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T21:40:20.144Z",
-  "commit": "02ef9d1",
+  "generatedAt": "2026-10-29T01:49:09.318Z",
+  "commit": "b8f2491",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2182,
-    "events30": 296,
-    "guards30": -502110,
+    "eventsYTD": 2193,
+    "events30": 300,
+    "guards30": -502073,
     "citiesYTD": 122,
-    "upcoming30": 137,
-    "perDay": 7.249169435215947
+    "upcoming30": 130,
+    "perDay": 7.285714285714286
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1185,
+      "ev": 1190,
       "w": 1,
       "hq": true
     },
@@ -219,24 +219,24 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 101,
-      "w": 0.08523206751054853,
+      "ev": 103,
+      "w": 0.0865546218487395,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 116,
-      "w": 0.09789029535864979,
+      "ev": 117,
+      "w": 0.09831932773109243,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 229,
-      "w": 0.19324894514767932,
+      "ev": 231,
+      "w": 0.19411764705882353,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 138,
-      "w": 0.11645569620253164,
+      "w": 0.11596638655462185,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.038818565400843885,
+      "w": 0.03865546218487395,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 138,
-      "w": 0.11645569620253164,
+      "w": 0.11596638655462185,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.10775880020358,
       "lat": 34.10560033818749,
-      "count": 600
+      "count": 602
     },
     {
       "name": "CA",
@@ -281,13 +281,19 @@
       "name": "New York, NY",
       "lon": -73.98876579512175,
       "lat": 40.745483127001584,
-      "count": 146
+      "count": 147
     },
     {
       "name": "North Hollywood, CA",
       "lon": -118.36944295148434,
       "lat": 34.159013862523665,
-      "count": 99
+      "count": 100
+    },
+    {
+      "name": "San Francisco, CA",
+      "lon": -122.42072640483462,
+      "lat": 37.78456864025394,
+      "count": 96
     },
     {
       "name": "West Hollywood, CA",
@@ -296,28 +302,22 @@
       "count": 96
     },
     {
-      "name": "San Francisco, CA",
-      "lon": -122.42072640483462,
-      "lat": 37.78456864025394,
-      "count": 95
-    },
-    {
       "name": "Las Vegas, NV",
       "lon": -115.1616453683453,
       "lat": 36.113182004665475,
-      "count": 92
+      "count": 93
+    },
+    {
+      "name": "Beverly Hills, CA",
+      "lon": -118.39822037034695,
+      "lat": 34.06817784502777,
+      "count": 54
     },
     {
       "name": "Hollywood, CA",
       "lon": -118.33277580612615,
       "lat": 34.097870581608326,
       "count": 53
-    },
-    {
-      "name": "Beverly Hills, CA",
-      "lon": -118.39966827620918,
-      "lat": 34.06835699044675,
-      "count": 52
     },
     {
       "name": "Culver City, CA",
@@ -333,9 +333,9 @@
     },
     {
       "name": "NY",
-      "lon": -73.91997761068572,
-      "lat": 40.89319086330671,
-      "count": 22
+      "lon": -73.92276702088496,
+      "lat": 40.883909117559945,
+      "count": 23
     },
     {
       "name": "Nashville, TN",
@@ -744,6 +744,11 @@
       "since": 2025
     },
     {
+      "name": "Randstad Phoenix AZ",
+      "office": "Tennessee",
+      "since": 2026
+    },
+    {
       "name": "Residence at West Edge",
       "office": "Los Angeles",
       "since": 2023
@@ -801,6 +806,20 @@
   ],
   "todayPosts": [
     {
+      "rem": "Sean McKillop",
+      "venue": "Savannah",
+      "client": "Amazon Studios",
+      "job": "SCAD Savannah Film Festival 2026",
+      "city": ""
+    },
+    {
+      "rem": "Seanie Wolf",
+      "venue": "Los Angeles Convention Center",
+      "client": "Comikaze Entertainment Inc.",
+      "job": "Comic Con LA - 2026",
+      "city": "Los Angeles"
+    },
+    {
       "rem": "Kyle Crowther",
       "venue": "Amazon GYR-1",
       "client": "Protos Security",
@@ -813,13 +832,6 @@
       "client": "Warner Music Group",
       "job": "WMG Event ",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Ryan McKillop",
-      "venue": "Austin TX",
-      "client": "Go For Locations LLC",
-      "job": "Go For Locations - Zoox - Austin ",
-      "city": "Austin"
     },
     {
       "rem": "Sean McKillop",
@@ -836,13 +848,6 @@
       "city": "Nashville"
     },
     {
-      "rem": "Jessica Hernandez",
-      "venue": "Lowes N Lv ",
-      "client": "Protos Security",
-      "job": "Armed Protos Lowes",
-      "city": ""
-    },
-    {
       "rem": "Patrick J McKillop",
       "venue": "Lowe's Protos",
       "client": "Protos Security",
@@ -854,13 +859,6 @@
       "venue": "Best Buy Rainbow",
       "client": "Protos Security",
       "job": "Protos Armed Best Buy ",
-      "city": ""
-    },
-    {
-      "rem": "Alejandra Ruezga",
-      "venue": "2100 S Victoria Ave, Los Angeles, CA 90016",
-      "client": "Unknown",
-      "job": "Pilot Set Watch",
       "city": ""
     },
     {
@@ -1380,20 +1378,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 52,
-      "career": 2497,
+      "events30": 55,
+      "career": 2498,
       "recent": [
         {
-          "name": "YG Concert LA Live",
-          "meta": "OCT 28"
+          "name": "FashionNova Halloween Party",
+          "meta": "OCT 29"
         },
         {
-          "name": "YG Concert",
-          "meta": "OCT 28"
+          "name": "Ottawa Senators vs Los Angeles Kings",
+          "meta": "OCT 29"
         },
         {
-          "name": "YG Crypto Interior Coverage ",
-          "meta": "OCT 28"
+          "name": "Ottawa Senators vs Los Angeles Kings LA Live",
+          "meta": "OCT 29"
         }
       ]
     },
@@ -1405,16 +1403,16 @@
       "career": 411,
       "recent": [
         {
+          "name": "48 Wall St. - 10.29",
+          "meta": "OCT 29"
+        },
+        {
+          "name": "Guitar Center - Beat Lab x Akai",
+          "meta": "OCT 29"
+        },
+        {
           "name": "Brami Salt the Water Premiere ",
           "meta": "OCT 27"
-        },
-        {
-          "name": "48 Wall St. - 10.26",
-          "meta": "OCT 26"
-        },
-        {
-          "name": "Artistry Museum - 10.24",
-          "meta": "OCT 24"
         }
       ]
     },
@@ -1422,9 +1420,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 32,
+      "events30": 33,
       "career": 345,
       "recent": [
+        {
+          "name": "10.29 Jack's ",
+          "meta": "OCT 29"
+        },
         {
           "name": "10.28 Jack's",
           "meta": "OCT 28"
@@ -1432,10 +1434,6 @@
         {
           "name": "10.28 Growth CRO Dinner",
           "meta": "OCT 28"
-        },
-        {
-          "name": "10.27 Growth CMO Dinner",
-          "meta": "OCT 27"
         }
       ]
     },
@@ -1464,9 +1462,13 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 25,
+      "events30": 26,
       "career": 318,
       "recent": [
+        {
+          "name": "TVA State Hearing ",
+          "meta": "OCT 29"
+        },
         {
           "name": "2026 SkinnyDipped Wafers Launch College Tour Production",
           "meta": "OCT 28"
@@ -1474,10 +1476,6 @@
         {
           "name": "TVA All Academy Mixer Ghostly Gathering",
           "meta": "OCT 28"
-        },
-        {
-          "name": "Beverly Hilton Private Event",
-          "meta": "OCT 25"
         }
       ]
     }
@@ -1677,14 +1675,14 @@
     "<b>LA Live Events 10.19-10.25</b> · LA Live",
     "<b>10.13-10.18 Vercel Car Coverage</b> · Motoring Coffee",
     "<b>11.23 Jacks</b> · Jack&#39;s Restaurant",
+    "<b>FashionNova Halloween Party</b> · Fashion Nova Corporate Office",
     "<b>Los Angeles Clippers vs Los Angeles Lakers</b> · Crypto.com Arena",
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
+    "<b>Ottawa Senators vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
-    "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
-    "<b>EMEA Amazon Embedded Mgr </b> · London, UK",
-    "<b>POWERSLAP NV</b> · The Chelsea",
-    "<b>Guitar Center - John Otto x Snares</b> · Guitar Center-Nashville"
+    "<b>Carvana </b> · Carvana LV",
+    "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel "
   ],
   "linkedin": [
     {
