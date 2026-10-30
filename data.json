@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T14:12:38.757Z",
-  "commit": "7451f65",
+  "generatedAt": "2026-10-30T19:25:13.595Z",
+  "commit": "4363426",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2195,
-    "events30": 296,
-    "guards30": -502082,
+    "eventsYTD": 2197,
+    "events30": 298,
+    "guards30": -502081,
     "citiesYTD": 122,
     "upcoming30": 131,
-    "perDay": 7.244224422442244
+    "perDay": 7.250825082508251
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1193,
+      "ev": 1194,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 103,
-      "w": 0.08633696563285834,
+      "ev": 104,
+      "w": 0.08710217755443886,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 117,
-      "w": 0.0980720871751886,
+      "w": 0.09798994974874371,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 232,
-      "w": 0.1944677284157586,
+      "w": 0.19430485762144054,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 138,
-      "w": 0.11567476948868399,
+      "w": 0.11557788944723618,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.038558256496227995,
+      "w": 0.038525963149078725,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 138,
-      "w": 0.11567476948868399,
+      "w": 0.11557788944723618,
       "hq": true
     }
   ],
@@ -275,7 +275,7 @@
       "name": "CA",
       "lon": -119.2017793323598,
       "lat": 35.26598528207857,
-      "count": 174
+      "count": 175
     },
     {
       "name": "New York, NY",
@@ -296,16 +296,16 @@
       "count": 97
     },
     {
+      "name": "Las Vegas, NV",
+      "lon": -115.16222541517563,
+      "lat": 36.114472131987874,
+      "count": 94
+    },
+    {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
       "count": 94
-    },
-    {
-      "name": "Las Vegas, NV",
-      "lon": -115.1616453683453,
-      "lat": 36.113182004665475,
-      "count": 93
     },
     {
       "name": "Beverly Hills, CA",
@@ -832,6 +832,13 @@
       "client": "Protos Security",
       "job": "Protos Amazon AZ",
       "city": ""
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "Palace Station Hotel and Casino",
+      "client": "Rex Group",
+      "job": "UFC Hotel FN 27",
+      "city": "Las Vegas"
     },
     {
       "rem": "Sean McKillop",
