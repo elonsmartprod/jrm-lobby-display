@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T23:49:53.013Z",
-  "commit": "184fbb9",
+  "generatedAt": "2026-10-31T05:46:14.787Z",
+  "commit": "41605c9",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2197,
-    "events30": 298,
-    "guards30": -502081,
+    "eventsYTD": 2203,
+    "events30": 295,
+    "guards30": -502030,
     "citiesYTD": 122,
-    "upcoming30": 131,
-    "perDay": 7.250825082508251
+    "upcoming30": 126,
+    "perDay": 7.270627062706271
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1194,
+      "ev": 1197,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 104,
-      "w": 0.08710217755443886,
+      "ev": 105,
+      "w": 0.08771929824561403,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 117,
-      "w": 0.09798994974874371,
+      "w": 0.09774436090225563,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 232,
-      "w": 0.19430485762144054,
+      "w": 0.19381787802840433,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 138,
-      "w": 0.11557788944723618,
+      "w": 0.11528822055137844,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.038525963149078725,
+      "w": 0.03842940685045948,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 138,
-      "w": 0.11557788944723618,
+      "w": 0.11528822055137844,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.10775880020358,
       "lat": 34.10560033818749,
-      "count": 602
+      "count": 605
     },
     {
       "name": "CA",
@@ -296,16 +296,16 @@
       "count": 97
     },
     {
-      "name": "Las Vegas, NV",
-      "lon": -115.16222541517563,
-      "lat": 36.114472131987874,
-      "count": 94
-    },
-    {
       "name": "San Francisco, CA",
       "lon": -122.42072640483462,
       "lat": 37.78456864025394,
-      "count": 94
+      "count": 96
+    },
+    {
+      "name": "Las Vegas, NV",
+      "lon": -115.16222541517563,
+      "lat": 36.114472131987874,
+      "count": 95
     },
     {
       "name": "Beverly Hills, CA",
@@ -654,11 +654,6 @@
   ],
   "fixedAccounts": [
     {
-      "name": "Amazon GYR-1",
-      "office": "Tennessee",
-      "since": 2026
-    },
-    {
       "name": "Aston at Gateway",
       "office": "Los Angeles",
       "since": 2023
@@ -806,6 +801,13 @@
   ],
   "todayPosts": [
     {
+      "rem": "Sevan Ohanians",
+      "venue": "Harris Theater",
+      "client": "Paramount",
+      "job": "2026 Soul Train Awards ",
+      "city": ""
+    },
+    {
       "rem": "Jessica Hernandez",
       "venue": "Carvana LV",
       "client": "Catamount Constructors",
@@ -827,32 +829,11 @@
       "city": "Los Angeles"
     },
     {
-      "rem": "Kyle Crowther",
-      "venue": "Amazon GYR-1",
-      "client": "Protos Security",
-      "job": "Protos Amazon AZ",
-      "city": ""
-    },
-    {
-      "rem": "Jessica Hernandez",
-      "venue": "Palace Station Hotel and Casino",
-      "client": "Rex Group",
-      "job": "UFC Hotel FN 27",
-      "city": "Las Vegas"
-    },
-    {
       "rem": "Sean McKillop",
       "venue": "London, UK",
       "client": "Amazon Studios",
       "job": "EMEA Amazon Embedded Mgr ",
       "city": "London"
-    },
-    {
-      "rem": "Justin McKillop",
-      "venue": "Gaylord Opryland Resort",
-      "client": "Amazon",
-      "job": "Amazon Reshape 2026 (Nashville, TN)",
-      "city": "Nashville"
     },
     {
       "rem": "Patrick J McKillop",
@@ -1389,16 +1370,16 @@
       "career": 2500,
       "recent": [
         {
+          "name": "Buffalo Sabres vs Los Angeles Kings",
+          "meta": "OCT 31"
+        },
+        {
+          "name": "Buffalo Sabres vs Los Angeles Kings LA Live",
+          "meta": "OCT 31"
+        },
+        {
           "name": "Amazon How to Rob a Bank AP",
           "meta": "OCT 30"
-        },
-        {
-          "name": "Amazon I Play Rocky AP",
-          "meta": "OCT 30"
-        },
-        {
-          "name": "FashionNova Halloween Party",
-          "meta": "OCT 29"
         }
       ]
     },
@@ -1427,20 +1408,20 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 30,
-      "career": 345,
+      "events30": 31,
+      "career": 346,
       "recent": [
+        {
+          "name": "10.31 R&B and Ribs",
+          "meta": "OCT 31"
+        },
+        {
+          "name": "10.31 Bollywood",
+          "meta": "OCT 31"
+        },
         {
           "name": "10.29 Jack's ",
           "meta": "OCT 29"
-        },
-        {
-          "name": "10.28 Jack's",
-          "meta": "OCT 28"
-        },
-        {
-          "name": "10.28 Growth CRO Dinner",
-          "meta": "OCT 28"
         }
       ]
     },
@@ -1448,7 +1429,7 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 29,
+      "events30": 28,
       "career": 85,
       "recent": [
         {
@@ -1469,7 +1450,7 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 22,
       "career": 318,
       "recent": [
         {
