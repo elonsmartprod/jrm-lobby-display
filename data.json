@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T21:38:19.672Z",
-  "commit": "24f7420",
+  "generatedAt": "2026-11-01T01:13:01.805Z",
+  "commit": "f200ba7",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2203,
-    "events30": 295,
-    "guards30": -502030,
+    "eventsYTD": 2214,
+    "events30": 297,
+    "guards30": 1319,
     "citiesYTD": 122,
-    "upcoming30": 126,
-    "perDay": 7.246710526315789
+    "upcoming30": 116,
+    "perDay": 7.282894736842105
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1197,
+      "ev": 1204,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 105,
-      "w": 0.08771929824561403,
+      "w": 0.0872093023255814,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 117,
-      "w": 0.09774436090225563,
+      "w": 0.09717607973421927,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 232,
-      "w": 0.19381787802840433,
+      "ev": 233,
+      "w": 0.19352159468438537,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 138,
-      "w": 0.11528822055137844,
+      "w": 0.11461794019933555,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.03842940685045948,
+      "w": 0.03820598006644518,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 138,
-      "w": 0.11528822055137844,
+      "ev": 139,
+      "w": 0.11544850498338871,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.10775880020358,
       "lat": 34.10560033818749,
-      "count": 605
+      "count": 607
     },
     {
       "name": "CA",
@@ -293,7 +293,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37853106126049,
       "lat": 34.09040786705444,
-      "count": 97
+      "count": 98
     },
     {
       "name": "San Francisco, CA",
@@ -311,13 +311,13 @@
       "name": "Beverly Hills, CA",
       "lon": -118.39822037034695,
       "lat": 34.06817784502777,
-      "count": 54
+      "count": 55
     },
     {
       "name": "Hollywood, CA",
       "lon": -118.33277580612615,
       "lat": 34.097870581608326,
-      "count": 53
+      "count": 54
     },
     {
       "name": "Culver City, CA",
@@ -801,6 +801,13 @@
   ],
   "todayPosts": [
     {
+      "rem": "Seanie Wolf",
+      "venue": "The Music Center",
+      "client": "Gloria Molina Grand Park",
+      "job": "The Music Center Noche De La Frenda Event",
+      "city": "Los Angeles"
+    },
+    {
       "rem": "Sevan Ohanians",
       "venue": "Harris Theater",
       "client": "Paramount",
@@ -841,13 +848,6 @@
       "client": "Protos Security",
       "job": "Protos Lowes Ogden ",
       "city": "Orem"
-    },
-    {
-      "rem": "Jessica Hernandez",
-      "venue": "Best Buy Rainbow",
-      "client": "Protos Security",
-      "job": "Protos Armed Best Buy ",
-      "city": ""
     },
     {
       "rem": "Jessica Hernandez",
@@ -969,13 +969,6 @@
       "city": ""
     },
     {
-      "rem": "Sean McKillop",
-      "venue": "Salt Palace Convention Center",
-      "client": "Linux Foundation",
-      "job": "KubeCon SLC 2026 - Consulting",
-      "city": "Salt Lake City"
-    },
-    {
       "rem": "Dani Sanchez",
       "venue": "Santa Monica Collection ",
       "client": "Taylor Lefebvre",
@@ -988,13 +981,6 @@
       "client": "The Aster LA",
       "job": "The Aster LA  Hotel",
       "city": "Hollywood"
-    },
-    {
-      "rem": "Tony D’Gracia",
-      "venue": "Long Island Aquarium",
-      "client": "Long Island Aquarium",
-      "job": "LI Aquarium Parking - Summer 2026",
-      "city": "Riverhead"
     },
     {
       "rem": "Mathias Gibson",
@@ -1366,20 +1352,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 57,
+      "events30": 59,
       "career": 2500,
       "recent": [
         {
+          "name": "Los Angeles Lakers vs Toronto Raptors",
+          "meta": "NOV 01"
+        },
+        {
+          "name": "Los Angeles Lakers vs Toronto Raptors LA Live",
+          "meta": "NOV 01"
+        },
+        {
           "name": "Buffalo Sabres vs Los Angeles Kings",
           "meta": "OCT 31"
-        },
-        {
-          "name": "Buffalo Sabres vs Los Angeles Kings LA Live",
-          "meta": "OCT 31"
-        },
-        {
-          "name": "Amazon How to Rob a Bank AP",
-          "meta": "OCT 30"
         }
       ]
     },
@@ -1387,19 +1373,19 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 46,
+      "events30": 47,
       "career": 413,
       "recent": [
+        {
+          "name": "NYC Marathon - Map360 11.1",
+          "meta": "NOV 01"
+        },
         {
           "name": "48 Wall St. - 10.30",
           "meta": "OCT 30"
         },
         {
           "name": "48 Wall St. - 10.29",
-          "meta": "OCT 29"
-        },
-        {
-          "name": "Guitar Center - Beat Lab x Akai",
           "meta": "OCT 29"
         }
       ]
@@ -1412,16 +1398,16 @@
       "career": 346,
       "recent": [
         {
+          "name": "GMA Coverage ",
+          "meta": "NOV 01"
+        },
+        {
+          "name": "Pickwick Vintage SF November",
+          "meta": "NOV 01"
+        },
+        {
           "name": "10.31 R&B and Ribs",
           "meta": "OCT 31"
-        },
-        {
-          "name": "10.31 Bollywood",
-          "meta": "OCT 31"
-        },
-        {
-          "name": "10.29 Jack's ",
-          "meta": "OCT 29"
         }
       ]
     },
@@ -1429,9 +1415,13 @@
       "name": "Mivonta Fulwood",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 28,
+      "events30": 27,
       "career": 85,
       "recent": [
+        {
+          "name": "HBO DTF St. Louis FYC Event",
+          "meta": "NOV 01"
+        },
         {
           "name": "Mother Wolf Shaffer Lee Wedding",
           "meta": "OCT 24"
@@ -1439,10 +1429,6 @@
         {
           "name": "Gravitas Halloween Haunt ",
           "meta": "OCT 24"
-        },
-        {
-          "name": "Verzuz Case vs Carl Thomas",
-          "meta": "OCT 22"
         }
       ]
     },
@@ -1450,19 +1436,19 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 23,
       "career": 318,
       "recent": [
+        {
+          "name": "Beverly Hilton Private Event",
+          "meta": "NOV 01"
+        },
         {
           "name": "TVA State Hearing ",
           "meta": "OCT 29"
         },
         {
           "name": "2026 SkinnyDipped Wafers Launch College Tour Production",
-          "meta": "OCT 28"
-        },
-        {
-          "name": "TVA All Academy Mixer Ghostly Gathering",
           "meta": "OCT 28"
         }
       ]
@@ -1652,7 +1638,7 @@
   ],
   "ticker": [
     "<b>EP for Marshals Cast Members (Paramount)</b> · Allegiant Stadium",
-    "<b>Nike x NA F27 Sales Conference</b> · Nashville, TN",
+    "<b>HBO DTF St. Louis FYC Event</b> · Linwood Dunn Theater",
     "<b>A24 AP-NYC 10.13</b> · NYC",
     "<b>Amazon Ride or Die </b> · Pacific Design Center",
     "<b>Mother Wolf Shaffer Lee Wedding</b> · Mother Wolf Hollywood",
