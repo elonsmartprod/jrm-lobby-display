@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T15:59:11.975Z",
-  "commit": "cf41f39",
+  "generatedAt": "2026-11-02T23:33:43.385Z",
+  "commit": "52d31fc",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2223,
-    "events30": 281,
+    "eventsYTD": 2224,
+    "events30": 282,
     "guards30": 1271,
     "citiesYTD": 122,
-    "upcoming30": 108,
-    "perDay": 7.264705882352941
+    "upcoming30": 123,
+    "perDay": 7.26797385620915
   },
   "heatPoints": [
     {
@@ -227,8 +227,8 @@
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 117,
-      "w": 0.09661436829066887,
+      "ev": 115,
+      "w": 0.09496284062758051,
       "hq": false
     },
     {
@@ -273,9 +273,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.18599084227911,
-      "lat": 35.24591935242604,
-      "count": 176
+      "lon": -119.16419187263278,
+      "lat": 35.21733909154116,
+      "count": 179
     },
     {
       "name": "New York, NY",
@@ -333,9 +333,9 @@
     },
     {
       "name": "NY",
-      "lon": -73.92276702088496,
-      "lat": 40.883909117559945,
-      "count": 23
+      "lon": -73.9257261844407,
+      "lat": 40.878174631575824,
+      "count": 24
     },
     {
       "name": "Nashville, TN",
@@ -362,16 +362,16 @@
       "count": 15
     },
     {
+      "name": "NV",
+      "lon": -115.16632670459435,
+      "lat": 36.15003113441543,
+      "count": 14
+    },
+    {
       "name": "UT",
       "lon": -111.8780083356106,
       "lat": 40.67293991997084,
       "count": 14
-    },
-    {
-      "name": "NV",
-      "lon": -115.16922739631924,
-      "lat": 36.1439870588713,
-      "count": 13
     },
     {
       "name": "Century City, CA",
@@ -392,6 +392,12 @@
       "count": 11
     },
     {
+      "name": "AZ",
+      "lon": -112.98177748907767,
+      "lat": 33.66395187535266,
+      "count": 10
+    },
+    {
       "name": "Miami, FL",
       "lon": -80.15913806977244,
       "lat": 25.800135794700115,
@@ -402,12 +408,6 @@
       "lon": -86.81583619169267,
       "lat": 36.063989766245,
       "count": 9
-    },
-    {
-      "name": "AZ",
-      "lon": -113.19809011670016,
-      "lat": 33.720080142397286,
-      "count": 8
     },
     {
       "name": "Seattle, WA",
@@ -740,7 +740,7 @@
     },
     {
       "name": "Randstad Phoenix AZ",
-      "office": "Tennessee",
+      "office": "Arizona",
       "since": 2026
     },
     {
@@ -857,11 +857,25 @@
       "city": "London"
     },
     {
+      "rem": "Jessica Hernandez",
+      "venue": "Lowes N Lv ",
+      "client": "Protos Security",
+      "job": "Armed Protos Lowes",
+      "city": ""
+    },
+    {
       "rem": "Patrick J McKillop",
       "venue": "Lowe's Protos",
       "client": "Protos Security",
       "job": "Protos Lowes Ogden ",
       "city": "Orem"
+    },
+    {
+      "rem": "Kyle Crowther",
+      "venue": "FISK Univeristy",
+      "client": "FISK University PD",
+      "job": "FISK University range training",
+      "city": ""
     },
     {
       "rem": "Jessica Hernandez",
@@ -1409,7 +1423,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 30,
-      "career": 346,
+      "career": 348,
       "recent": [
         {
           "name": "GMA Coverage ",
@@ -1430,7 +1444,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 23,
-      "career": 318,
+      "career": 322,
       "recent": [
         {
           "name": "Wrangler Photoshoot",
