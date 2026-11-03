@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T23:33:43.385Z",
-  "commit": "52d31fc",
+  "generatedAt": "2026-11-03T06:51:36.525Z",
+  "commit": "09968b1",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2224,
-    "events30": 282,
-    "guards30": 1271,
-    "citiesYTD": 122,
-    "upcoming30": 123,
-    "perDay": 7.26797385620915
+    "eventsYTD": 2228,
+    "events30": 277,
+    "guards30": 1236,
+    "citiesYTD": 123,
+    "upcoming30": 126,
+    "perDay": 7.281045751633987
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1211,
+      "ev": 1212,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 105,
-      "w": 0.08670520231213873,
+      "w": 0.08663366336633663,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 115,
-      "w": 0.09496284062758051,
+      "w": 0.09488448844884488,
       "hq": false
     },
     {
@@ -236,15 +236,15 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 233,
-      "w": 0.19240297274979357,
+      "w": 0.19224422442244224,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 138,
-      "w": 0.11395540875309662,
+      "ev": 139,
+      "w": 0.11468646864686469,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.037985136251032205,
+      "w": 0.037953795379537955,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 141,
-      "w": 0.11643270024772914,
+      "ev": 142,
+      "w": 0.11716171617161716,
       "hq": true
     }
   ],
@@ -338,16 +338,16 @@
       "count": 24
     },
     {
+      "name": "Dallas, TX",
+      "lon": -96.80460389999998,
+      "lat": 32.80861900000001,
+      "count": 19
+    },
+    {
       "name": "Nashville, TN",
       "lon": -86.7359313267715,
       "lat": 36.106639968622005,
       "count": 19
-    },
-    {
-      "name": "Dallas, TX",
-      "lon": -96.80460389999998,
-      "lat": 32.80861900000001,
-      "count": 18
     },
     {
       "name": "Santa Monica, CA",
@@ -428,15 +428,15 @@
       "count": 7
     },
     {
+      "name": "FL",
+      "lon": -80.88400229273115,
+      "lat": 26.547747617246433,
+      "count": 7
+    },
+    {
       "name": "TX",
       "lon": -99.81219499032966,
       "lat": 30.733153450250338,
-      "count": 6
-    },
-    {
-      "name": "FL",
-      "lon": -81.00976270702084,
-      "lat": 26.673396883477334,
       "count": 6
     },
     {
@@ -802,10 +802,17 @@
   "todayPosts": [
     {
       "rem": "Sean McKillop",
-      "venue": "Philadelphia, PA",
-      "client": "Amazon Studios",
-      "job": "Amazon - I Play Rocky Press & Screening - Philly ",
+      "venue": "Liberty Station-SD",
+      "client": "Swiss Xmas INC",
+      "job": "Swiss Holiday Market-SD",
       "city": ""
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Santa Monica Pier",
+      "client": "Swiss Xmas INC",
+      "job": "Swiss Holiday Market-Santa Monica",
+      "city": "Santa Monica"
     },
     {
       "rem": "Dani Sanchez",
@@ -813,6 +820,13 @@
       "client": "Nico Azouri",
       "job": "Goodman Yard - The Whiting-Turner Contracting Company",
       "city": ""
+    },
+    {
+      "rem": "Ryan McKillop",
+      "venue": "Mata Hari House ",
+      "client": "Mata Hari House",
+      "job": "MHH November ",
+      "city": "Dallas"
     },
     {
       "rem": "Seanie Wolf",
@@ -843,25 +857,11 @@
       "city": ""
     },
     {
-      "rem": "Seanie Wolf",
-      "venue": "Los Angeles Convention Center",
-      "client": "Comikaze Entertainment Inc.",
-      "job": "Comic Con LA - 2026",
-      "city": "Los Angeles"
-    },
-    {
       "rem": "Sean McKillop",
       "venue": "London, UK",
       "client": "Amazon Studios",
       "job": "EMEA Amazon Embedded Mgr ",
       "city": "London"
-    },
-    {
-      "rem": "Jessica Hernandez",
-      "venue": "Lowes N Lv ",
-      "client": "Protos Security",
-      "job": "Armed Protos Lowes",
-      "city": ""
     },
     {
       "rem": "Patrick J McKillop",
@@ -1380,7 +1380,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 58,
+      "events30": 57,
       "career": 2500,
       "recent": [
         {
@@ -1401,7 +1401,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 45,
+      "events30": 43,
       "career": 413,
       "recent": [
         {
@@ -1422,7 +1422,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 30,
+      "events30": 28,
       "career": 348,
       "recent": [
         {
@@ -1440,10 +1440,31 @@
       ]
     },
     {
-      "name": "Alejandra Ruezga",
+      "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 23,
+      "career": 984,
+      "recent": [
+        {
+          "name": "Scrubs FYC EP",
+          "meta": "NOV 03"
+        },
+        {
+          "name": "Wild Horse Nine Duel Event",
+          "meta": "NOV 02"
+        },
+        {
+          "name": "Christmas Market 2026",
+          "meta": "NOV 01"
+        }
+      ]
+    },
+    {
+      "name": "Alejandra Ruezga",
+      "office": "Los Angeles",
+      "color": "#E8B44A",
+      "events30": 22,
       "career": 322,
       "recent": [
         {
@@ -1457,27 +1478,6 @@
         {
           "name": "TVA State Hearing ",
           "meta": "OCT 29"
-        }
-      ]
-    },
-    {
-      "name": "Seanie Wolf",
-      "office": "Los Angeles",
-      "color": "#E8B44A",
-      "events30": 22,
-      "career": 982,
-      "recent": [
-        {
-          "name": "Wild Horse Nine Duel Event",
-          "meta": "NOV 02"
-        },
-        {
-          "name": "Christmas Market 2026",
-          "meta": "NOV 01"
-        },
-        {
-          "name": "Wild Horse EP",
-          "meta": "NOV 01"
         }
       ]
     }
@@ -1610,15 +1610,6 @@
       "upcoming": false
     },
     {
-      "client": "Fashion Nova",
-      "title": "Fashion Nova",
-      "venue": "Fashion Nova Corporate Office · Beverly Hills",
-      "badges": [
-        "Apts-Condos-Office Bldg"
-      ],
-      "upcoming": false
-    },
-    {
       "client": "Dick Clark Productions",
       "title": "Golden Globes 2026",
       "venue": "Beverly Hilton Hotel · Beverly Hills",
@@ -1662,10 +1653,18 @@
         "Sports Event"
       ],
       "upcoming": false
+    },
+    {
+      "client": "AutoDesk",
+      "title": "Autodesk - TechX - Seattle, WA",
+      "venue": "",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": false
     }
   ],
   "ticker": [
-    "<b>EP for Marshals Cast Members (Paramount)</b> · Allegiant Stadium",
     "<b>HBO DTF St. Louis FYC Event</b> · Linwood Dunn Theater",
     "<b>A24 AP-NYC 10.13</b> · NYC",
     "<b>Amazon Ride or Die </b> · Pacific Design Center",
@@ -1684,7 +1683,8 @@
     "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
     "<b>Carvana </b> · Carvana LV",
-    "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel "
+    "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
+    "<b>EMEA Amazon Embedded Mgr </b> · London, UK"
   ],
   "linkedin": [
     {
