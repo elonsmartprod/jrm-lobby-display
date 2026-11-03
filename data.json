@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T15:11:22.245Z",
-  "commit": "2063cc7",
+  "generatedAt": "2026-11-03T21:01:48.991Z",
+  "commit": "f3755b0",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2228,
-    "events30": 277,
-    "guards30": 1236,
+    "eventsYTD": 2230,
+    "events30": 279,
+    "guards30": 1271,
     "citiesYTD": 123,
-    "upcoming30": 126,
-    "perDay": 7.257328990228013
+    "upcoming30": 129,
+    "perDay": 7.263843648208469
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1212,
+      "ev": 1213,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 105,
-      "w": 0.08663366336633663,
+      "w": 0.08656224237427865,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 115,
-      "w": 0.09488448844884488,
+      "w": 0.09480626545754328,
       "hq": false
     },
     {
@@ -236,15 +236,15 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 233,
-      "w": 0.19224422442244224,
+      "w": 0.19208573784006594,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 139,
-      "w": 0.11468646864686469,
+      "ev": 140,
+      "w": 0.11541632316570487,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 46,
-      "w": 0.037953795379537955,
+      "w": 0.03792250618301731,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 142,
-      "w": 0.11716171617161716,
+      "w": 0.1170651277823578,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.10775880020358,
       "lat": 34.10560033818749,
-      "count": 611
+      "count": 612
     },
     {
       "name": "CA",
@@ -323,7 +323,7 @@
       "name": "Culver City, CA",
       "lon": -118.39045209121825,
       "lat": 34.0242194781745,
-      "count": 37
+      "count": 38
     },
     {
       "name": "Hollywood Hills, CA",
@@ -1284,6 +1284,13 @@
       "city": "Los Angeles"
     },
     {
+      "rem": "Sevan Ohanians",
+      "venue": "1430",
+      "client": "1430 N Cahuenga Partners LP",
+      "job": " 1430 North Cahuenga",
+      "city": "Hollywood"
+    },
+    {
       "rem": "Dani Sanchez",
       "venue": "Residence at West Edge",
       "client": "",
@@ -1380,19 +1387,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 57,
+      "events30": 58,
       "career": 2500,
       "recent": [
+        {
+          "name": "Amazon Madden Premiere",
+          "meta": "NOV 03"
+        },
         {
           "name": "Amazon I Play Rocky Screening ",
           "meta": "NOV 02"
         },
         {
           "name": "Los Angeles Lakers vs Miami Heat LA Live",
-          "meta": "NOV 02"
-        },
-        {
-          "name": "Los Angeles Lakers vs Miami Heat",
           "meta": "NOV 02"
         }
       ]
@@ -1465,7 +1472,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 22,
-      "career": 322,
+      "career": 323,
       "recent": [
         {
           "name": "Wrangler Photoshoot",
@@ -1665,6 +1672,7 @@
     }
   ],
   "ticker": [
+    "<b>Amazon Madden Premiere</b> · Culver Theater",
     "<b>HBO DTF St. Louis FYC Event</b> · Linwood Dunn Theater",
     "<b>A24 AP-NYC 10.13</b> · NYC",
     "<b>Amazon Ride or Die </b> · Pacific Design Center",
@@ -1683,8 +1691,7 @@
     "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
     "<b>Carvana </b> · Carvana LV",
-    "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel ",
-    "<b>EMEA Amazon Embedded Mgr </b> · London, UK"
+    "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel "
   ],
   "linkedin": [
     {
