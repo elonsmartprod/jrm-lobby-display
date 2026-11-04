@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-03T21:01:48.991Z",
-  "commit": "f3755b0",
+  "generatedAt": "2026-11-04T01:24:42.110Z",
+  "commit": "345d3c5",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2230,
-    "events30": 279,
-    "guards30": 1271,
+    "eventsYTD": 2245,
+    "events30": 278,
+    "guards30": 1480,
     "citiesYTD": 123,
-    "upcoming30": 129,
-    "perDay": 7.263843648208469
+    "upcoming30": 116,
+    "perDay": 7.312703583061889
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1213,
+      "ev": 1219,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 105,
-      "w": 0.08656224237427865,
+      "ev": 108,
+      "w": 0.08859721082854799,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 115,
-      "w": 0.09480626545754328,
+      "w": 0.09433962264150944,
       "hq": false
     },
     {
@@ -236,23 +236,23 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 233,
-      "w": 0.19208573784006594,
+      "w": 0.1911402789171452,
       "hq": false
     },
     {
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 140,
-      "w": 0.11541632316570487,
+      "ev": 141,
+      "w": 0.11566858080393766,
       "hq": false
     },
     {
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 46,
-      "w": 0.03792250618301731,
+      "ev": 47,
+      "w": 0.03855619360131255,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 142,
-      "w": 0.1170651277823578,
+      "w": 0.11648892534864644,
       "hq": true
     }
   ],
@@ -269,19 +269,19 @@
       "name": "Los Angeles, CA",
       "lon": -118.10775880020358,
       "lat": 34.10560033818749,
-      "count": 612
+      "count": 614
     },
     {
       "name": "CA",
-      "lon": -119.16419187263278,
-      "lat": 35.21733909154116,
-      "count": 179
+      "lon": -119.15824488669942,
+      "lat": 35.20798806999505,
+      "count": 181
     },
     {
       "name": "New York, NY",
       "lon": -73.98876579512175,
       "lat": 40.745483127001584,
-      "count": 148
+      "count": 149
     },
     {
       "name": "North Hollywood, CA",
@@ -290,16 +290,16 @@
       "count": 100
     },
     {
+      "name": "San Francisco, CA",
+      "lon": -122.42072640483462,
+      "lat": 37.78456864025394,
+      "count": 98
+    },
+    {
       "name": "West Hollywood, CA",
       "lon": -118.37853106126049,
       "lat": 34.09040786705444,
       "count": 98
-    },
-    {
-      "name": "San Francisco, CA",
-      "lon": -122.42072640483462,
-      "lat": 37.78456864025394,
-      "count": 96
     },
     {
       "name": "Las Vegas, NV",
@@ -350,6 +350,12 @@
       "count": 19
     },
     {
+      "name": "NV",
+      "lon": -115.17768670902001,
+      "lat": 36.15522904312329,
+      "count": 17
+    },
+    {
       "name": "Santa Monica, CA",
       "lon": -118.4854448929786,
       "lat": 34.01745831092539,
@@ -359,13 +365,7 @@
       "name": "Salt Lake City, UT",
       "lon": -111.89970169590491,
       "lat": 40.75403498449291,
-      "count": 15
-    },
-    {
-      "name": "NV",
-      "lon": -115.16632670459435,
-      "lat": 36.15003113441543,
-      "count": 14
+      "count": 16
     },
     {
       "name": "UT",
@@ -800,6 +800,27 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Sean McKillop",
+      "venue": "The Shelborne Miami",
+      "client": "Amazon Studios",
+      "job": "Amazon x WIRED Festival Miami",
+      "city": ""
+    },
+    {
+      "rem": "Chris Estrada",
+      "venue": "Culver Theater",
+      "client": "Amazon Studios",
+      "job": "Amazon Madden Premiere",
+      "city": "Culver City"
+    },
+    {
+      "rem": "Anthony D'Gracia",
+      "venue": "Stereo Garden",
+      "client": "Suffolk County GOP",
+      "job": "2026 Suffolk County Election",
+      "city": "Patchogue"
+    },
     {
       "rem": "Sean McKillop",
       "venue": "Liberty Station-SD",
@@ -1387,20 +1408,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 58,
+      "events30": 59,
       "career": 2500,
       "recent": [
         {
-          "name": "Amazon Madden Premiere",
-          "meta": "NOV 03"
+          "name": "Los Angeles Kings vs San Jose Sharks",
+          "meta": "NOV 04"
         },
         {
-          "name": "Amazon I Play Rocky Screening ",
-          "meta": "NOV 02"
+          "name": "Amazon Music Alex Warren ",
+          "meta": "NOV 04"
         },
         {
-          "name": "Los Angeles Lakers vs Miami Heat LA Live",
-          "meta": "NOV 02"
+          "name": "Amazon Madden Creator Event",
+          "meta": "NOV 04"
         }
       ]
     },
@@ -1408,7 +1429,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 43,
+      "events30": 40,
       "career": 413,
       "recent": [
         {
@@ -1429,20 +1450,20 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 28,
-      "career": 348,
+      "events30": 27,
+      "career": 349,
       "recent": [
+        {
+          "name": "11.4 Jack's ",
+          "meta": "NOV 04"
+        },
+        {
+          "name": "11.4-11.5 Genesys on Tour",
+          "meta": "NOV 04"
+        },
         {
           "name": "GMA Coverage ",
           "meta": "NOV 01"
-        },
-        {
-          "name": "Pickwick Vintage SF November",
-          "meta": "NOV 01"
-        },
-        {
-          "name": "10.31 R&B and Ribs",
-          "meta": "OCT 31"
         }
       ]
     },
@@ -1471,7 +1492,7 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 20,
       "career": 323,
       "recent": [
         {
@@ -1684,14 +1705,14 @@
     "<b>LA Live Events 10.19-10.25</b> · LA Live",
     "<b>10.13-10.18 Vercel Car Coverage</b> · Motoring Coffee",
     "<b>Amazon How to Rob a Bank AP</b> · AMC Americana",
+    "<b>11.4.26 48 Wall St NY</b> · 48 Wall Street",
     "<b>FashionNova Halloween Party</b> · Fashion Nova Corporate Office",
     "<b>Los Angeles Clippers vs Los Angeles Lakers</b> · Crypto.com Arena",
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
     "<b>Ottawa Senators vs Los Angeles Kings</b> · Crypto.com Arena",
+    "<b>11.4 Rex Group NYC</b> · New York City",
     "<b>Florida Panthers vs Los Angeles Kings</b> · Crypto.com Arena",
-    "<b>10.5 CZI Biohub</b> · The Mint San Francisco",
-    "<b>Carvana </b> · Carvana LV",
-    "<b>10.5-10.7 Treehouse Silicone Valley </b> · Treehouse Silicone Valley Hotel "
+    "<b>Carvana </b> · Carvana LV"
   ],
   "linkedin": [
     {
