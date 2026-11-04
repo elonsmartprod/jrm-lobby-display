@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-04T01:24:42.110Z",
-  "commit": "345d3c5",
+  "generatedAt": "2026-11-04T09:16:57.534Z",
+  "commit": "6fde035",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2245,
-    "events30": 278,
+    "eventsYTD": 2244,
+    "events30": 277,
     "guards30": 1480,
     "citiesYTD": 123,
-    "upcoming30": 116,
-    "perDay": 7.312703583061889
+    "upcoming30": 117,
+    "perDay": 7.309446254071661
   },
   "heatPoints": [
     {
@@ -227,8 +227,8 @@
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 115,
-      "w": 0.09433962264150944,
+      "ev": 114,
+      "w": 0.09351927809680066,
       "hq": false
     },
     {
@@ -1472,7 +1472,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 23,
-      "career": 984,
+      "career": 985,
       "recent": [
         {
           "name": "Scrubs FYC EP",
