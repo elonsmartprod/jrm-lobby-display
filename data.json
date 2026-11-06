@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-06T17:59:56.682Z",
-  "commit": "79d22b5",
+  "generatedAt": "2026-11-06T23:11:31.730Z",
+  "commit": "1b7fd10",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2263,
-    "events30": 277,
+    "eventsYTD": 2262,
+    "events30": 276,
     "guards30": 1503,
     "citiesYTD": 123,
-    "upcoming30": 117,
-    "perDay": 7.3
+    "upcoming30": 118,
+    "perDay": 7.296774193548387
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1229,
+      "ev": 1228,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 111,
-      "w": 0.09031733116354759,
+      "w": 0.09039087947882736,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 114,
-      "w": 0.09275834011391375,
+      "w": 0.09283387622149837,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 234,
-      "w": 0.1903986981285598,
+      "w": 0.19055374592833876,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 141,
-      "w": 0.11472742066720912,
+      "w": 0.11482084690553745,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 47,
-      "w": 0.03824247355573637,
+      "w": 0.038273615635179156,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 142,
-      "w": 0.11554109031733116,
+      "w": 0.11563517915309446,
       "hq": true
     }
   ],
@@ -841,13 +841,6 @@
       "client": "Mata Hari House",
       "job": "MHH November ",
       "city": "Dallas"
-    },
-    {
-      "rem": "Seanie Wolf",
-      "venue": "Santa Monica",
-      "client": "Fever Productions",
-      "job": "Christmas Market 2026",
-      "city": "Santa Monica"
     },
     {
       "rem": "Sevan Ohanians",
@@ -1471,7 +1464,7 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 24,
+      "events30": 23,
       "career": 986,
       "recent": [
         {
