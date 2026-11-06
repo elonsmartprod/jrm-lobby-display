@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T22:00:51.110Z",
-  "commit": "5175e8f",
+  "generatedAt": "2026-11-06T02:29:09.378Z",
+  "commit": "5fa801e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2253,
-    "events30": 276,
-    "guards30": 1467,
+    "eventsYTD": 2263,
+    "events30": 277,
+    "guards30": 1503,
     "citiesYTD": 123,
-    "upcoming30": 118,
-    "perDay": 7.29126213592233
+    "upcoming30": 112,
+    "perDay": 7.323624595469256
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1224,
+      "ev": 1229,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 108,
-      "w": 0.08823529411764706,
+      "ev": 111,
+      "w": 0.09031733116354759,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 114,
-      "w": 0.09313725490196079,
+      "w": 0.09275834011391375,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 234,
-      "w": 0.19117647058823528,
+      "w": 0.1903986981285598,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 141,
-      "w": 0.11519607843137254,
+      "w": 0.11472742066720912,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 47,
-      "w": 0.03839869281045752,
+      "w": 0.03824247355573637,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 142,
-      "w": 0.11601307189542484,
+      "w": 0.11554109031733116,
       "hq": true
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.10775880020358,
       "lat": 34.10560033818749,
-      "count": 614
+      "count": 616
     },
     {
       "name": "CA",
-      "lon": -119.15824488669942,
-      "lat": 35.20798806999505,
-      "count": 181
+      "lon": -119.15248340272215,
+      "lat": 35.19927909882544,
+      "count": 183
     },
     {
       "name": "New York, NY",
@@ -293,19 +293,19 @@
       "name": "West Hollywood, CA",
       "lon": -118.37853106126049,
       "lat": 34.09040786705444,
-      "count": 100
+      "count": 101
     },
     {
       "name": "San Francisco, CA",
       "lon": -122.42224125590009,
       "lat": 37.785273194149944,
-      "count": 99
+      "count": 101
     },
     {
       "name": "Las Vegas, NV",
       "lon": -115.16222541517563,
       "lat": 36.114472131987874,
-      "count": 95
+      "count": 96
     },
     {
       "name": "Beverly Hills, CA",
@@ -802,24 +802,10 @@
   "todayPosts": [
     {
       "rem": "Mivonta Fulwood",
-      "venue": "Spotify LA - Mateo Campus",
-      "client": "Spotify",
-      "job": "Fresh Finds Summit",
-      "city": ""
-    },
-    {
-      "rem": "Chris Estrada",
-      "venue": "West LA College",
-      "client": "Amazon Studios",
-      "job": "Amazon Madden Creator Event",
-      "city": ""
-    },
-    {
-      "rem": "Ryan McKillop",
-      "venue": "Houston, TX",
-      "client": "Nike",
-      "job": "Nike - AfroTech Houston",
-      "city": "Houston"
+      "venue": "Pacific Design Center",
+      "client": "Best Events LA",
+      "job": "Baby 2 Baby Gala - 2026",
+      "city": "West Hollywood"
     },
     {
       "rem": "Patrick J McKillop",
@@ -827,20 +813,6 @@
       "client": "Linux Foundation",
       "job": "KubeCon SLC",
       "city": "Salt Lake City"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "SVN West",
-      "client": "Eventi Productions",
-      "job": "11.4-11.5 Genesys on Tour",
-      "city": "San Francisco"
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "The Shelborne Miami",
-      "client": "Amazon Studios",
-      "job": "Amazon x WIRED Festival Miami",
-      "city": ""
     },
     {
       "rem": "Sean McKillop",
@@ -1436,20 +1408,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 56,
-      "career": 2507,
+      "events30": 60,
+      "career": 2509,
       "recent": [
         {
-          "name": "XG World Tour LA Live",
-          "meta": "NOV 05"
+          "name": "Amazon Blade Runners AP",
+          "meta": "NOV 06"
         },
         {
-          "name": "Amazon Sterling Point FYC The Actor Awards Nom Comm ",
-          "meta": "NOV 05"
+          "name": "Los Angeles Lakers vs Portland Trail Blazers LA Live",
+          "meta": "NOV 06"
         },
         {
-          "name": "XG World Tour",
-          "meta": "NOV 05"
+          "name": "Los Angeles Lakers vs Portland Trail Blazers",
+          "meta": "NOV 06"
         }
       ]
     },
@@ -1457,7 +1429,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 38,
+      "events30": 35,
       "career": 413,
       "recent": [
         {
@@ -1478,20 +1450,20 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 29,
-      "career": 349,
+      "events30": 30,
+      "career": 350,
       "recent": [
+        {
+          "name": "11.6 Jacks",
+          "meta": "NOV 06"
+        },
+        {
+          "name": "BMF Diwali Celebration",
+          "meta": "NOV 06"
+        },
         {
           "name": "SIS AntiPiracy (2)",
           "meta": "NOV 05"
-        },
-        {
-          "name": "SIS AP Being Heumann",
-          "meta": "NOV 05"
-        },
-        {
-          "name": "11.4 Jack's ",
-          "meta": "NOV 04"
         }
       ]
     },
@@ -1499,7 +1471,7 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 25,
+      "events30": 24,
       "career": 986,
       "recent": [
         {
@@ -1520,7 +1492,7 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 21,
       "career": 325,
       "recent": [
         {
@@ -1721,6 +1693,7 @@
     }
   ],
   "ticker": [
+    "<b>Amazon Blade Runners AP</b> · The London West Hollywood at Beverly Hills",
     "<b>Amazon Madden Premiere</b> · Culver Theater",
     "<b>HBO DTF St. Louis FYC Event</b> · Linwood Dunn Theater",
     "<b>A24 AP-NYC 10.13</b> · NYC",
@@ -1736,11 +1709,10 @@
     "<b>11.4.26 48 Wall St NY</b> · 48 Wall Street",
     "<b>FashionNova Halloween Party</b> · Fashion Nova Corporate Office",
     "<b>Los Angeles Clippers vs Los Angeles Lakers</b> · Crypto.com Arena",
+    "<b>2026 Latin Grammys - LARAS</b> · MGM Grand Garden Arena",
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
     "<b>Ottawa Senators vs Los Angeles Kings</b> · Crypto.com Arena",
-    "<b>11.4 Rex Group NYC</b> · New York City",
-    "<b>Carvana </b> · Carvana LV",
-    "<b>EMEA Amazon Embedded Mgr </b> · London, UK"
+    "<b>11.4 Rex Group NYC</b> · New York City"
   ],
   "linkedin": [
     {
