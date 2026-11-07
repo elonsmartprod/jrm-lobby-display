@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T16:30:36.889Z",
-  "commit": "54f6b67",
+  "generatedAt": "2026-11-07T20:55:03.320Z",
+  "commit": "bea5bf4",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2276,
-    "events30": 275,
+    "eventsYTD": 2277,
+    "events30": 276,
     "guards30": 1476,
     "citiesYTD": 124,
     "upcoming30": 106,
-    "perDay": 7.318327974276527
+    "perDay": 7.321543408360129
   },
   "heatPoints": [
     {
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 112,
-      "w": 0.09061488673139159,
+      "ev": 113,
+      "w": 0.09142394822006472,
       "hq": false
     },
     {
@@ -305,7 +305,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.16222541517563,
       "lat": 36.114472131987874,
-      "count": 97
+      "count": 98
     },
     {
       "name": "Beverly Hills, CA",
