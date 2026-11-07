@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-06T23:11:31.730Z",
-  "commit": "1b7fd10",
+  "generatedAt": "2026-11-07T02:50:32.008Z",
+  "commit": "1575307",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2262,
-    "events30": 276,
-    "guards30": 1503,
-    "citiesYTD": 123,
-    "upcoming30": 118,
-    "perDay": 7.296774193548387
+    "eventsYTD": 2275,
+    "events30": 274,
+    "guards30": 1476,
+    "citiesYTD": 124,
+    "upcoming30": 106,
+    "perDay": 7.338709677419355
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1228,
+      "ev": 1236,
       "w": 1,
       "hq": true
     },
@@ -219,24 +219,24 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 111,
-      "w": 0.09039087947882736,
+      "ev": 112,
+      "w": 0.09061488673139159,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 114,
-      "w": 0.09283387622149837,
+      "ev": 115,
+      "w": 0.09304207119741101,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 234,
-      "w": 0.19055374592833876,
+      "ev": 235,
+      "w": 0.1901294498381877,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 141,
-      "w": 0.11482084690553745,
+      "w": 0.11407766990291263,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 47,
-      "w": 0.038273615635179156,
+      "w": 0.03802588996763754,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 142,
-      "w": 0.11563517915309446,
+      "w": 0.11488673139158576,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.10775880020358,
       "lat": 34.10560033818749,
-      "count": 616
+      "count": 620
     },
     {
       "name": "CA",
@@ -281,13 +281,13 @@
       "name": "New York, NY",
       "lon": -73.98876579512175,
       "lat": 40.745483127001584,
-      "count": 149
+      "count": 150
     },
     {
       "name": "North Hollywood, CA",
       "lon": -118.36944295148434,
       "lat": 34.159013862523665,
-      "count": 101
+      "count": 102
     },
     {
       "name": "West Hollywood, CA",
@@ -305,13 +305,13 @@
       "name": "Las Vegas, NV",
       "lon": -115.16222541517563,
       "lat": 36.114472131987874,
-      "count": 96
+      "count": 97
     },
     {
       "name": "Beverly Hills, CA",
       "lon": -118.39822037034695,
       "lat": 34.06817784502777,
-      "count": 56
+      "count": 57
     },
     {
       "name": "Hollywood, CA",
@@ -338,15 +338,15 @@
       "count": 25
     },
     {
-      "name": "Dallas, TX",
-      "lon": -96.80460389999998,
-      "lat": 32.80861900000001,
-      "count": 19
-    },
-    {
       "name": "Nashville, TN",
       "lon": -86.7359313267715,
       "lat": 36.106639968622005,
+      "count": 20
+    },
+    {
+      "name": "Dallas, TX",
+      "lon": -96.80460389999998,
+      "lat": 32.80861900000001,
       "count": 19
     },
     {
@@ -452,16 +452,16 @@
       "count": 5
     },
     {
+      "name": "Long Beach, CA",
+      "lon": -118.19101813187,
+      "lat": 33.76556901741066,
+      "count": 5
+    },
+    {
       "name": "Malibu, CA",
       "lon": -118.81201097499999,
       "lat": 34.0479904,
       "count": 5
-    },
-    {
-      "name": "Long Beach, CA",
-      "lon": -118.19101813187,
-      "lat": 33.76556901741066,
-      "count": 4
     },
     {
       "name": "Atlanta, GA",
@@ -801,6 +801,20 @@
   ],
   "todayPosts": [
     {
+      "rem": "Jessica Hernandez",
+      "venue": "MGM Grand Garden Arena",
+      "client": "The Latin Recording Academy",
+      "job": "2026 Latin Grammys - LARAS",
+      "city": "Las Vegas"
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "SVN West",
+      "client": "Bhartiya Mandal Foundation",
+      "job": "BMF Diwali Celebration",
+      "city": "San Francisco"
+    },
+    {
       "rem": "Mivonta Fulwood",
       "venue": "Pacific Design Center",
       "client": "Best Events LA",
@@ -841,13 +855,6 @@
       "client": "Mata Hari House",
       "job": "MHH November ",
       "city": "Dallas"
-    },
-    {
-      "rem": "Sevan Ohanians",
-      "venue": "Harris Theater",
-      "client": "Paramount",
-      "job": "2026 Soul Train Awards ",
-      "city": ""
     },
     {
       "rem": "Jessica Hernandez",
@@ -1401,20 +1408,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 60,
+      "events30": 62,
       "career": 2509,
       "recent": [
         {
-          "name": "Amazon Blade Runners AP",
-          "meta": "NOV 06"
+          "name": "Los Angeles Kings vs Pittsburgh Penguins",
+          "meta": "NOV 07"
         },
         {
-          "name": "Los Angeles Lakers vs Portland Trail Blazers LA Live",
-          "meta": "NOV 06"
+          "name": "Los Angeles Kings vs Pittsburgh Penguins LA Live",
+          "meta": "NOV 07"
         },
         {
-          "name": "Los Angeles Lakers vs Portland Trail Blazers",
-          "meta": "NOV 06"
+          "name": "Ability First Stroll & Roll 2026",
+          "meta": "NOV 07"
         }
       ]
     },
@@ -1422,9 +1429,13 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 35,
+      "events30": 31,
       "career": 413,
       "recent": [
+        {
+          "name": "11.7 Fete NY Event",
+          "meta": "NOV 07"
+        },
         {
           "name": "Eater Dinner Party -NYC 11.5",
           "meta": "NOV 05"
@@ -1432,10 +1443,6 @@
         {
           "name": "NYC Marathon - Map360 11.1",
           "meta": "NOV 01"
-        },
-        {
-          "name": "48 Wall St. - 10.30",
-          "meta": "OCT 30"
         }
       ]
     },
@@ -1443,7 +1450,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 30,
+      "events30": 29,
       "career": 350,
       "recent": [
         {
@@ -1464,19 +1471,19 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 24,
       "career": 986,
       "recent": [
+        {
+          "name": "Bite Catering",
+          "meta": "NOV 07"
+        },
         {
           "name": "WMG Event",
           "meta": "NOV 05"
         },
         {
           "name": "Walk of Fame Ceremony",
-          "meta": "NOV 05"
-        },
-        {
-          "name": "Gina Wade - Skydance Crew Wrap Party ",
           "meta": "NOV 05"
         }
       ]
@@ -1485,20 +1492,20 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 21,
+      "events30": 23,
       "career": 325,
       "recent": [
         {
-          "name": "TVA Peer Group Event",
-          "meta": "NOV 05"
-        },
-        {
-          "name": "Cedar Sinai Still Shoot The ROW",
-          "meta": "NOV 05"
-        },
-        {
           "name": "Beverly Hilton Private Event",
-          "meta": "NOV 04"
+          "meta": "NOV 07"
+        },
+        {
+          "name": "TVA Kids in The Spotlight Awards Show",
+          "meta": "NOV 07"
+        },
+        {
+          "name": "Pickwick Vintage The ROW November",
+          "meta": "NOV 07"
         }
       ]
     }
