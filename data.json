@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T02:50:32.008Z",
-  "commit": "1575307",
+  "generatedAt": "2026-11-07T10:15:29.104Z",
+  "commit": "fd60c4f",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2275,
-    "events30": 274,
+    "eventsYTD": 2276,
+    "events30": 275,
     "guards30": 1476,
     "citiesYTD": 124,
     "upcoming30": 106,
-    "perDay": 7.338709677419355
+    "perDay": 7.341935483870968
   },
   "heatPoints": [
     {
@@ -243,8 +243,8 @@
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 141,
-      "w": 0.11407766990291263,
+      "ev": 142,
+      "w": 0.11488673139158576,
       "hq": false
     },
     {
@@ -398,6 +398,12 @@
       "count": 10
     },
     {
+      "name": "Houston, TX",
+      "lon": -95.36001309999999,
+      "lat": 29.751439433333335,
+      "count": 9
+    },
+    {
       "name": "Miami, FL",
       "lon": -80.15913806977244,
       "lat": 25.800135794700115,
@@ -413,12 +419,6 @@
       "name": "Seattle, WA",
       "lon": -122.330826425,
       "lat": 47.6140752375,
-      "count": 8
-    },
-    {
-      "name": "Houston, TX",
-      "lon": -95.36001309999999,
-      "lat": 29.751439433333335,
       "count": 8
     },
     {
@@ -1700,6 +1700,7 @@
     "<b>Amazon Ride or Die </b> · Pacific Design Center",
     "<b>Mother Wolf Shaffer Lee Wedding</b> · Mother Wolf Hollywood",
     "<b>Ugly Betty Reunion EP</b> · Edition - West Hollywood",
+    "<b>Council Event </b> · Houston Hilton Americas ",
     "<b>Native x Peanut</b> · NYC",
     "<b>Kacey Musgraves</b> · Crypto.com Arena",
     "<b>TVA 2026 Engineering Science and Technology Emmy Awards</b> · Saban Media Center [TVA]",
@@ -1711,8 +1712,7 @@
     "<b>Los Angeles Clippers vs Los Angeles Lakers</b> · Crypto.com Arena",
     "<b>2026 Latin Grammys - LARAS</b> · MGM Grand Garden Arena",
     "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
-    "<b>Ottawa Senators vs Los Angeles Kings</b> · Crypto.com Arena",
-    "<b>11.4 Rex Group NYC</b> · New York City"
+    "<b>Ottawa Senators vs Los Angeles Kings</b> · Crypto.com Arena"
   ],
   "linkedin": [
     {
