@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T00:39:20.823Z",
-  "commit": "552ab63",
+  "generatedAt": "2026-11-08T07:24:18.212Z",
+  "commit": "7db2e50",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 272,
     "guards30": 1470,
     "citiesYTD": 124,
-    "upcoming30": 103,
+    "upcoming30": 104,
     "perDay": 7.337620578778135
   },
   "heatPoints": [
@@ -1493,7 +1493,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 25,
-      "career": 986,
+      "career": 987,
       "recent": [
         {
           "name": "Bite Catering Event",
