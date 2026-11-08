@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T07:24:18.212Z",
-  "commit": "7db2e50",
+  "generatedAt": "2026-11-08T15:15:04.440Z",
+  "commit": "ee02211",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2282,
-    "events30": 272,
-    "guards30": 1470,
+    "eventsYTD": 2283,
+    "events30": 273,
+    "guards30": 1471,
     "citiesYTD": 124,
     "upcoming30": 104,
-    "perDay": 7.337620578778135
+    "perDay": 7.3173076923076925
   },
   "heatPoints": [
     {
@@ -275,7 +275,7 @@
       "name": "CA",
       "lon": -119.15248340272215,
       "lat": 35.19927909882544,
-      "count": 184
+      "count": 185
     },
     {
       "name": "New York, NY",
@@ -1471,9 +1471,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 28,
-      "career": 350,
+      "events30": 29,
+      "career": 351,
       "recent": [
+        {
+          "name": "Emerald Driver x CD",
+          "meta": "NOV 08"
+        },
         {
           "name": "11.6 Jacks",
           "meta": "NOV 06"
@@ -1481,10 +1485,6 @@
         {
           "name": "BMF Diwali Celebration",
           "meta": "NOV 06"
-        },
-        {
-          "name": "SIS AntiPiracy (2)",
-          "meta": "NOV 05"
         }
       ]
     },
