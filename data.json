@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T23:45:14.679Z",
-  "commit": "b895cb0",
+  "generatedAt": "2026-11-09T06:36:10.286Z",
+  "commit": "f9a63ea",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2283,
-    "events30": 273,
-    "guards30": 1471,
+    "eventsYTD": 2294,
+    "events30": 266,
+    "guards30": 1476,
     "citiesYTD": 124,
-    "upcoming30": 105,
-    "perDay": 7.3173076923076925
+    "upcoming30": 94,
+    "perDay": 7.352564102564102
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1239,
+      "ev": 1244,
       "w": 1,
       "hq": true
     },
@@ -220,23 +220,23 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 113,
-      "w": 0.09120258272800645,
+      "w": 0.09083601286173633,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 115,
-      "w": 0.09281678773204197,
+      "ev": 116,
+      "w": 0.0932475884244373,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 236,
-      "w": 0.19047619047619047,
+      "ev": 237,
+      "w": 0.19051446945337622,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 142,
-      "w": 0.11460855528652139,
+      "w": 0.11414790996784566,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 47,
-      "w": 0.037933817594834544,
+      "w": 0.03778135048231511,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 143,
-      "w": 0.11541565778853914,
+      "ev": 145,
+      "w": 0.11655948553054662,
       "hq": true
     }
   ],
@@ -269,19 +269,19 @@
       "name": "Los Angeles, CA",
       "lon": -118.10775880020358,
       "lat": 34.10560033818749,
-      "count": 620
+      "count": 623
     },
     {
       "name": "CA",
       "lon": -119.15248340272215,
       "lat": 35.19927909882544,
-      "count": 185
+      "count": 186
     },
     {
       "name": "New York, NY",
       "lon": -73.98876579512175,
       "lat": 40.745483127001584,
-      "count": 150
+      "count": 152
     },
     {
       "name": "North Hollywood, CA",
@@ -290,15 +290,15 @@
       "count": 103
     },
     {
-      "name": "West Hollywood, CA",
-      "lon": -118.37853106126049,
-      "lat": 34.09040786705444,
-      "count": 101
-    },
-    {
       "name": "San Francisco, CA",
       "lon": -122.42224125590009,
       "lat": 37.785273194149944,
+      "count": 102
+    },
+    {
+      "name": "West Hollywood, CA",
+      "lon": -118.37853106126049,
+      "lat": 34.09040786705444,
       "count": 101
     },
     {
@@ -339,9 +339,9 @@
     },
     {
       "name": "Nashville, TN",
-      "lon": -86.7359313267715,
-      "lat": 36.106639968622005,
-      "count": 20
+      "lon": -86.73826841417309,
+      "lat": 36.109659581476336,
+      "count": 21
     },
     {
       "name": "Dallas, TX",
@@ -554,6 +554,12 @@
       "count": 3
     },
     {
+      "name": "Austin, TX",
+      "lon": -97.722931822842,
+      "lat": 30.284092044260003,
+      "count": 3
+    },
+    {
       "name": "Park City, UT",
       "lon": -111.496941233666,
       "lat": 40.656708990783,
@@ -617,12 +623,6 @@
       "name": "NJ",
       "lon": -74.517283219342,
       "lat": 40.400550618842004,
-      "count": 2
-    },
-    {
-      "name": "Henderson, NV",
-      "lon": -115.08555035,
-      "lat": 36.04779575,
       "count": 2
     }
   ],
@@ -801,6 +801,13 @@
   ],
   "todayPosts": [
     {
+      "rem": "Sevan Ohanians",
+      "venue": "Hollywood Palladium",
+      "client": "Minkoff Productions, Inc",
+      "job": "Ebony Power 100",
+      "city": "Hollywood"
+    },
+    {
       "rem": "Kyle Crowther",
       "venue": "JW Marriott Phoenix – Desert Ridge Resort",
       "client": "Doyle Security Services Inc.",
@@ -815,25 +822,11 @@
       "city": "Los Angeles"
     },
     {
-      "rem": "Justin McKillop",
-      "venue": "OneC1ty",
-      "client": "Nashville Scene",
-      "job": "Crafty Bastards",
-      "city": "Nashville"
-    },
-    {
       "rem": "Jessica Hernandez",
       "venue": "MGM Grand Garden Arena",
       "client": "The Latin Recording Academy",
       "job": "2026 Latin Grammys - LARAS",
       "city": "Las Vegas"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "SVN West",
-      "client": "Bhartiya Mandal Foundation",
-      "job": "BMF Diwali Celebration",
-      "city": "San Francisco"
     },
     {
       "rem": "Mivonta Fulwood",
@@ -1433,15 +1426,15 @@
       "career": 2509,
       "recent": [
         {
+          "name": "Karan Ajula LA Live",
+          "meta": "NOV 09"
+        },
+        {
+          "name": "Karan Aujla",
+          "meta": "NOV 09"
+        },
+        {
           "name": "Los Angeles Kings vs Pittsburgh Penguins",
-          "meta": "NOV 07"
-        },
-        {
-          "name": "Los Angeles Kings vs Pittsburgh Penguins LA Live",
-          "meta": "NOV 07"
-        },
-        {
-          "name": "Ability First Stroll & Roll 2026",
           "meta": "NOV 07"
         }
       ]
@@ -1450,9 +1443,13 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 29,
+      "events30": 28,
       "career": 414,
       "recent": [
+        {
+          "name": "UFC 334 Hotel Coverage ",
+          "meta": "NOV 09"
+        },
         {
           "name": "UFC Fighter Appearance - NYC 11.8",
           "meta": "NOV 08"
@@ -1460,10 +1457,6 @@
         {
           "name": "11.7 Fete NY Event",
           "meta": "NOV 07"
-        },
-        {
-          "name": "Eater Dinner Party -NYC 11.5",
-          "meta": "NOV 05"
         }
       ]
     },
@@ -1471,19 +1464,19 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 29,
+      "events30": 28,
       "career": 351,
       "recent": [
+        {
+          "name": "11.9 Jacks",
+          "meta": "NOV 09"
+        },
         {
           "name": "Emerald Driver x CD",
           "meta": "NOV 08"
         },
         {
           "name": "11.6 Jacks",
-          "meta": "NOV 06"
-        },
-        {
-          "name": "BMF Diwali Celebration",
           "meta": "NOV 06"
         }
       ]
@@ -1496,16 +1489,16 @@
       "career": 987,
       "recent": [
         {
+          "name": "The Drop Awards Screening",
+          "meta": "NOV 09"
+        },
+        {
           "name": "Bite Catering Event",
           "meta": "NOV 08"
         },
         {
           "name": "Bite Catering",
           "meta": "NOV 07"
-        },
-        {
-          "name": "WMG Event",
-          "meta": "NOV 05"
         }
       ]
     },
@@ -1513,7 +1506,7 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 24,
+      "events30": 21,
       "career": 325,
       "recent": [
         {
@@ -1731,9 +1724,9 @@
     "<b>FashionNova Halloween Party</b> · Fashion Nova Corporate Office",
     "<b>Los Angeles Clippers vs Los Angeles Lakers</b> · Crypto.com Arena",
     "<b>2026 Latin Grammys - LARAS</b> · MGM Grand Garden Arena",
-    "<b>JRM AZ x Polaris</b> · Brookdale Senior Living ",
     "<b>Ottawa Senators vs Los Angeles Kings</b> · Crypto.com Arena",
-    "<b>11.4 Rex Group NYC</b> · New York City"
+    "<b>11.4 Rex Group NYC</b> · New York City",
+    "<b>Test Job for Training</b> · Crypto.com Arena"
   ],
   "linkedin": [
     {
