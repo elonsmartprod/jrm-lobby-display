@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T17:53:01.923Z",
-  "commit": "9d98321",
+  "generatedAt": "2026-11-10T23:25:12.934Z",
+  "commit": "2209c38",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2308,
-    "events30": 273,
-    "guards30": 1462,
+    "eventsYTD": 2307,
+    "events30": 272,
+    "guards30": 1458,
     "citiesYTD": 124,
-    "upcoming30": 103,
-    "perDay": 7.350318471337579
+    "upcoming30": 118,
+    "perDay": 7.3471337579617835
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1249,
+      "ev": 1248,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 113,
-      "w": 0.09047237790232186,
+      "w": 0.09054487179487179,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 116,
-      "w": 0.09287429943955164,
+      "w": 0.09294871794871795,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 239,
-      "w": 0.19135308246597277,
+      "w": 0.19150641025641027,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 143,
-      "w": 0.11449159327461969,
+      "w": 0.11458333333333333,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 47,
-      "w": 0.03763010408326661,
+      "w": 0.03766025641025641,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 149,
-      "w": 0.11929543634907927,
+      "w": 0.11939102564102565,
       "hq": true
     }
   ],
@@ -287,7 +287,7 @@
       "name": "North Hollywood, CA",
       "lon": -118.36944295148434,
       "lat": 34.159013862523665,
-      "count": 105
+      "count": 104
     },
     {
       "name": "San Francisco, CA",
@@ -1020,6 +1020,13 @@
       "city": ""
     },
     {
+      "rem": "Jessica Hernandez",
+      "venue": "DoorDash Office",
+      "client": "Protos Security",
+      "job": "Protos DoorDash",
+      "city": ""
+    },
+    {
       "rem": "Justin McKillop",
       "venue": "First Cumberland Presbyterian Church",
       "client": "Fusion Homeschooling",
@@ -1515,7 +1522,7 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 21,
+      "events30": 20,
       "career": 328,
       "recent": [
         {
@@ -1523,12 +1530,12 @@
           "meta": "NOV 10"
         },
         {
-          "name": "TVA All Academy Mixer Jingle Mingle",
-          "meta": "NOV 09"
-        },
-        {
           "name": "TVA The Violinist Screening",
           "meta": "NOV 08"
+        },
+        {
+          "name": "Beverly Hilton Private Event",
+          "meta": "NOV 07"
         }
       ]
     }
