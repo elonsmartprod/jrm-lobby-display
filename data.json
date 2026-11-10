@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T09:54:05.013Z",
-  "commit": "adafd00",
+  "generatedAt": "2026-11-10T17:53:01.923Z",
+  "commit": "9d98321",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2307,
-    "events30": 272,
+    "eventsYTD": 2308,
+    "events30": 273,
     "guards30": 1462,
     "citiesYTD": 124,
-    "upcoming30": 101,
-    "perDay": 7.3706070287539935
+    "upcoming30": 103,
+    "perDay": 7.350318471337579
   },
   "heatPoints": [
     {
@@ -243,8 +243,8 @@
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 142,
-      "w": 0.11369095276220977,
+      "ev": 143,
+      "w": 0.11449159327461969,
       "hq": false
     },
     {
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.1077588002036,
       "lat": 34.10560033818749,
-      "count": 626
+      "count": 627
     },
     {
       "name": "CA",
@@ -1453,7 +1453,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 30,
-      "career": 352,
+      "career": 353,
       "recent": [
         {
           "name": "Emerald Drive x CD",
