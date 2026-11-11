@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T23:25:12.934Z",
-  "commit": "2209c38",
+  "generatedAt": "2026-11-11T06:27:21.054Z",
+  "commit": "f32cff8",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2307,
+    "eventsYTD": 2312,
     "events30": 272,
-    "guards30": 1458,
-    "citiesYTD": 124,
-    "upcoming30": 118,
-    "perDay": 7.3471337579617835
+    "guards30": 1423,
+    "citiesYTD": 125,
+    "upcoming30": 120,
+    "perDay": 7.3630573248407645
   },
   "heatPoints": [
     {
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 113,
-      "w": 0.09054487179487179,
+      "ev": 114,
+      "w": 0.09134615384615384,
       "hq": false
     },
     {
@@ -259,8 +259,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 149,
-      "w": 0.11939102564102565,
+      "ev": 150,
+      "w": 0.1201923076923077,
       "hq": true
     }
   ],
@@ -281,7 +281,7 @@
       "name": "New York, NY",
       "lon": -73.98876579512175,
       "lat": 40.745483127001584,
-      "count": 152
+      "count": 153
     },
     {
       "name": "North Hollywood, CA",
@@ -327,9 +327,9 @@
     },
     {
       "name": "NY",
-      "lon": -74.04198638939909,
-      "lat": 40.78773509705107,
-      "count": 30
+      "lon": -74.04057281105355,
+      "lat": 40.786551168010064,
+      "count": 31
     },
     {
       "name": "Hollywood Hills, CA",
@@ -344,15 +344,15 @@
       "count": 21
     },
     {
+      "name": "NV",
+      "lon": -115.1753541727636,
+      "lat": 36.140220736817,
+      "count": 20
+    },
+    {
       "name": "Dallas, TX",
       "lon": -96.80460389999998,
       "lat": 32.80861900000001,
-      "count": 19
-    },
-    {
-      "name": "NV",
-      "lon": -115.1754813471659,
-      "lat": 36.14161424401005,
       "count": 19
     },
     {
@@ -796,6 +796,13 @@
   ],
   "todayPosts": [
     {
+      "rem": "Mathias Gibson",
+      "venue": "Palace of Fine Arts San Francisco",
+      "client": "MicroMobility",
+      "job": "11.10-11.12 Micro Mobility",
+      "city": "San Francisco"
+    },
+    {
       "rem": "Sean McKillop",
       "venue": "Austin TX",
       "client": "Amazon Music",
@@ -815,13 +822,6 @@
       "client": "Rex Group",
       "job": "UFC 334 Hotel Coverage ",
       "city": "New York"
-    },
-    {
-      "rem": "Kyle Crowther",
-      "venue": "JW Marriott Phoenix – Desert Ridge Resort",
-      "client": "Doyle Security Services Inc.",
-      "job": "EEI Conference",
-      "city": ""
     },
     {
       "rem": "Andy Sanders",
@@ -1439,7 +1439,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 65,
-      "career": 2517,
+      "career": 2518,
       "recent": [
         {
           "name": "Amazon I Play Rocky SAG LA Screening",
@@ -1459,7 +1459,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 30,
+      "events30": 29,
       "career": 353,
       "recent": [
         {
@@ -1480,7 +1480,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 26,
+      "events30": 25,
       "career": 414,
       "recent": [
         {
@@ -1519,23 +1519,23 @@
       ]
     },
     {
-      "name": "Alejandra Ruezga",
-      "office": "Los Angeles",
+      "name": "Sean McKillop",
+      "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 20,
-      "career": 328,
+      "events30": 21,
+      "career": 544,
       "recent": [
         {
-          "name": "TVA Welcome New Member Mixer",
+          "name": "Milken Institute Future Health 2026",
+          "meta": "NOV 11"
+        },
+        {
+          "name": "Carving Block x JRM 11.10",
           "meta": "NOV 10"
         },
         {
-          "name": "TVA The Violinist Screening",
-          "meta": "NOV 08"
-        },
-        {
-          "name": "Beverly Hilton Private Event",
-          "meta": "NOV 07"
+          "name": "OpenAI Caregiver Health Jam FL",
+          "meta": "NOV 10"
         }
       ]
     }
