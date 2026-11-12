@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-12T11:18:04.625Z",
-  "commit": "032a7c0",
+  "generatedAt": "2026-11-12T19:56:59.373Z",
+  "commit": "a4294c0",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2326,
-    "events30": 273,
-    "guards30": 1457,
+    "eventsYTD": 2325,
+    "events30": 272,
+    "guards30": 1452,
     "citiesYTD": 125,
-    "upcoming30": 124,
-    "perDay": 7.3841269841269845
+    "upcoming30": 123,
+    "perDay": 7.3575949367088604
   },
   "heatPoints": [
     {
@@ -235,8 +235,8 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 241,
-      "w": 0.19187898089171976,
+      "ev": 240,
+      "w": 0.1910828025477707,
       "hq": false
     },
     {
@@ -281,7 +281,7 @@
       "name": "New York, NY",
       "lon": -73.98876579512175,
       "lat": 40.745483127001584,
-      "count": 155
+      "count": 154
     },
     {
       "name": "San Francisco, CA",
@@ -1508,7 +1508,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 22,
       "career": 415,
       "recent": [
         {
