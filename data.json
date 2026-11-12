@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T22:01:50.382Z",
-  "commit": "108ada1",
+  "generatedAt": "2026-11-12T03:02:00.873Z",
+  "commit": "aa65721",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2312,
-    "events30": 272,
-    "guards30": 1423,
+    "eventsYTD": 2326,
+    "events30": 273,
+    "guards30": 1457,
     "citiesYTD": 125,
-    "upcoming30": 131,
-    "perDay": 7.339682539682539
+    "upcoming30": 122,
+    "perDay": 7.3841269841269845
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1248,
+      "ev": 1256,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 114,
-      "w": 0.09134615384615384,
+      "ev": 115,
+      "w": 0.09156050955414012,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 116,
-      "w": 0.09294871794871795,
+      "w": 0.09235668789808917,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 239,
-      "w": 0.19150641025641027,
+      "ev": 241,
+      "w": 0.19187898089171976,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 143,
-      "w": 0.11458333333333333,
+      "w": 0.11385350318471338,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 47,
-      "w": 0.03766025641025641,
+      "w": 0.037420382165605094,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 150,
-      "w": 0.1201923076923077,
+      "w": 0.11942675159235669,
       "hq": true
     }
   ],
@@ -269,19 +269,25 @@
       "name": "Los Angeles, CA",
       "lon": -118.1077588002036,
       "lat": 34.10560033818749,
-      "count": 627
+      "count": 632
     },
     {
       "name": "CA",
-      "lon": -119.17903531362882,
-      "lat": 35.22092463995957,
-      "count": 188
+      "lon": -119.17291195729602,
+      "lat": 35.21248122237528,
+      "count": 189
     },
     {
       "name": "New York, NY",
       "lon": -73.98876579512175,
       "lat": 40.745483127001584,
-      "count": 153
+      "count": 155
+    },
+    {
+      "name": "San Francisco, CA",
+      "lon": -122.42224125590009,
+      "lat": 37.785273194149944,
+      "count": 105
     },
     {
       "name": "North Hollywood, CA",
@@ -290,22 +296,16 @@
       "count": 104
     },
     {
-      "name": "San Francisco, CA",
-      "lon": -122.42224125590009,
-      "lat": 37.785273194149944,
-      "count": 103
-    },
-    {
       "name": "West Hollywood, CA",
       "lon": -118.37853106126049,
       "lat": 34.09040786705444,
-      "count": 101
+      "count": 102
     },
     {
       "name": "Las Vegas, NV",
       "lon": -115.16222541517563,
       "lat": 36.114472131987874,
-      "count": 98
+      "count": 99
     },
     {
       "name": "Beverly Hills, CA",
@@ -327,9 +327,9 @@
     },
     {
       "name": "NY",
-      "lon": -74.04057281105355,
-      "lat": 40.786551168010064,
-      "count": 31
+      "lon": -74.0374345366135,
+      "lat": 40.78399741547796,
+      "count": 32
     },
     {
       "name": "Hollywood Hills, CA",
@@ -796,25 +796,32 @@
   ],
   "todayPosts": [
     {
+      "rem": "Anthony D'Gracia",
+      "venue": "Daylight Studios Hudson Yards",
+      "client": "Another A Story",
+      "job": "AAS 11/11-12 NYC",
+      "city": ""
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "Bellagio Hotel ",
+      "client": "Doyle Security Services Inc.",
+      "job": "Gordo y Flaca ",
+      "city": ""
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Salamander Hotel Washington DC",
+      "client": "tbg Events",
+      "job": "Milken Institute Future Health 2026",
+      "city": "Washington DC"
+    },
+    {
       "rem": "Mathias Gibson",
       "venue": "Palace of Fine Arts San Francisco",
       "client": "MicroMobility",
       "job": "11.10-11.12 Micro Mobility",
       "city": "San Francisco"
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Austin TX",
-      "client": "Amazon Music",
-      "job": "Amazon Music Presents: Parker McCollum",
-      "city": "Austin"
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Moody Center",
-      "client": "Amazon Music",
-      "job": "Amazon Music: Parker McCollum Event",
-      "city": "Austin"
     },
     {
       "rem": "Tony D’Gracia",
@@ -1438,20 +1445,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 65,
+      "events30": 68,
       "career": 2519,
       "recent": [
         {
-          "name": "Amazon I Play Rocky SAG LA Screening",
-          "meta": "NOV 10"
+          "name": "Private Event",
+          "meta": "NOV 12"
         },
         {
-          "name": "Los Angeles Kings vs Nashville Predators LA Live",
-          "meta": "NOV 10"
+          "name": "Amazon Blade Runner Premiere",
+          "meta": "NOV 12"
         },
         {
-          "name": "Los Angeles Kings vs Nashville Predators",
-          "meta": "NOV 10"
+          "name": "Los Angeles Kings vs New York Islanders LA Live",
+          "meta": "NOV 12"
         }
       ]
     },
@@ -1459,41 +1466,20 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 29,
+      "events30": 30,
       "career": 353,
       "recent": [
         {
+          "name": "11.12 Jacks",
+          "meta": "NOV 12"
+        },
+        {
+          "name": "11.12 Zones",
+          "meta": "NOV 12"
+        },
+        {
           "name": "Emerald Drive x CD",
           "meta": "NOV 10"
-        },
-        {
-          "name": "11.10-11.12 Micro Mobility",
-          "meta": "NOV 10"
-        },
-        {
-          "name": "11.9 Jacks",
-          "meta": "NOV 09"
-        }
-      ]
-    },
-    {
-      "name": "Tony D’Gracia",
-      "office": "New York",
-      "color": "#E8B44A",
-      "events30": 25,
-      "career": 414,
-      "recent": [
-        {
-          "name": "Warby Parker Cocktail Party NYC",
-          "meta": "NOV 10"
-        },
-        {
-          "name": "UFC 334 Hotel Coverage ",
-          "meta": "NOV 09"
-        },
-        {
-          "name": "UFC Fighter Appearance - NYC 11.8",
-          "meta": "NOV 08"
         }
       ]
     },
@@ -1501,7 +1487,7 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 25,
+      "events30": 24,
       "career": 988,
       "recent": [
         {
@@ -1519,37 +1505,49 @@
       ]
     },
     {
-      "name": "Sean McKillop",
-      "office": "National Ops",
+      "name": "Tony D’Gracia",
+      "office": "New York",
       "color": "#E8B44A",
-      "events30": 21,
-      "career": 544,
+      "events30": 23,
+      "career": 414,
       "recent": [
         {
-          "name": "Milken Institute Future Health 2026",
+          "name": "UFC 334 Press Conference",
+          "meta": "NOV 12"
+        },
+        {
+          "name": "JRM x OpenTable Off the Clock-NY",
+          "meta": "NOV 12"
+        },
+        {
+          "name": "Warby Parker Cocktail Party NYC",
+          "meta": "NOV 10"
+        }
+      ]
+    },
+    {
+      "name": "Jessica Hernandez",
+      "office": "JRM-Nevada",
+      "color": "#E8B44A",
+      "events30": 21,
+      "career": 342,
+      "recent": [
+        {
+          "name": "2026 Latin Grammys - TelevisaUnivision",
+          "meta": "NOV 12"
+        },
+        {
+          "name": "Gordo y Flaca ",
           "meta": "NOV 11"
         },
         {
-          "name": "Carving Block x JRM 11.10",
-          "meta": "NOV 10"
-        },
-        {
-          "name": "OpenAI Caregiver Health Jam FL",
-          "meta": "NOV 10"
+          "name": "UFC FN 11/7",
+          "meta": "NOV 07"
         }
       ]
     }
   ],
   "events": [
-    {
-      "client": "Warner Brothers",
-      "title": "Warner Brothers Multi Day Event",
-      "venue": "Warner Bros Studios · Burbank",
-      "badges": [
-        "Other"
-      ],
-      "upcoming": true
-    },
     {
       "client": "Doyle Security Services Inc.",
       "title": "Doyle x LinkedIn San Francisco",
@@ -1558,6 +1556,15 @@
         "Other"
       ],
       "upcoming": false
+    },
+    {
+      "client": "Warner Brothers",
+      "title": "Warner Brothers Multi Day Event",
+      "venue": "Warner Bros Studios · Burbank",
+      "badges": [
+        "Other"
+      ],
+      "upcoming": true
     },
     {
       "client": "Paramount",
@@ -1727,7 +1734,6 @@
     "<b>Amazon Madden Premiere</b> · Culver Theater",
     "<b>HBO DTF St. Louis FYC Event</b> · Linwood Dunn Theater",
     "<b>AAS NY 11.10.26</b> · 24 E 64th St",
-    "<b>A24 AP-NYC 10.13</b> · NYC",
     "<b>Amazon Ride or Die </b> · Pacific Design Center",
     "<b>Mother Wolf Shaffer Lee Wedding</b> · Mother Wolf Hollywood",
     "<b>Amazon I Play Rocky SAG LA Screening</b> · SAG-AFTRA",
@@ -1737,12 +1743,13 @@
     "<b>Warby Parker Cocktail Party NYC</b> · Warby Parker NYC",
     "<b>TVA 2026 Engineering Science and Technology Emmy Awards</b> · Saban Media Center [TVA]",
     "<b>LA Live Events 10.19-10.25</b> · LA Live",
-    "<b>10.13-10.18 Vercel Car Coverage</b> · Motoring Coffee",
     "<b>Amazon How to Rob a Bank AP</b> · AMC Americana",
     "<b>11.4.26 48 Wall St NY</b> · 48 Wall Street",
     "<b>FashionNova Halloween Party</b> · Fashion Nova Corporate Office",
     "<b>Los Angeles Clippers vs Los Angeles Lakers</b> · Crypto.com Arena",
-    "<b>2026 Latin Grammys - LARAS</b> · MGM Grand Garden Arena"
+    "<b>2026 Latin Grammys - LARAS</b> · MGM Grand Garden Arena",
+    "<b>11.12.26 48 Wall St NY</b> · 48 Wall Street",
+    "<b>Ottawa Senators vs Los Angeles Kings</b> · Crypto.com Arena"
   ],
   "linkedin": [
     {
