@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T16:27:54.111Z",
-  "commit": "ca529fc",
+  "generatedAt": "2026-11-13T22:39:57.358Z",
+  "commit": "357f760",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2338,
-    "events30": 274,
-    "guards30": 1412,
+    "eventsYTD": 2339,
+    "events30": 275,
+    "guards30": 1413,
     "citiesYTD": 125,
-    "upcoming30": 112,
-    "perDay": 7.375394321766562
+    "upcoming30": 117,
+    "perDay": 7.378548895899054
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1263,
+      "ev": 1264,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 115,
-      "w": 0.09105304829770387,
+      "w": 0.09098101265822785,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 117,
-      "w": 0.09263657957244656,
+      "w": 0.0925632911392405,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 242,
-      "w": 0.1916072842438638,
+      "ev": 243,
+      "w": 0.19224683544303797,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 144,
-      "w": 0.11401425178147269,
+      "w": 0.11392405063291139,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 47,
-      "w": 0.03721298495645289,
+      "w": 0.037183544303797465,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 151,
-      "w": 0.11955661124307206,
+      "w": 0.1194620253164557,
       "hq": true
     }
   ],
@@ -284,6 +284,12 @@
       "count": 155
     },
     {
+      "name": "West Hollywood, CA",
+      "lon": -118.37853106126049,
+      "lat": 34.09040786705444,
+      "count": 105
+    },
+    {
       "name": "San Francisco, CA",
       "lon": -122.42224125590009,
       "lat": 37.785273194149944,
@@ -293,12 +299,6 @@
       "name": "North Hollywood, CA",
       "lon": -118.36944295148434,
       "lat": 34.159013862523665,
-      "count": 104
-    },
-    {
-      "name": "West Hollywood, CA",
-      "lon": -118.37853106126049,
-      "lat": 34.09040786705444,
       "count": 104
     },
     {
@@ -1188,6 +1188,13 @@
       "city": "West Hollywood"
     },
     {
+      "rem": "Chris Estrada",
+      "venue": "100 Thieves",
+      "client": "Symbiotic Event Services",
+      "job": "Private Residence Armed Detail",
+      "city": ""
+    },
+    {
       "rem": "Tony D’Gracia",
       "venue": "Birdies",
       "client": "Birdies",
@@ -1432,7 +1439,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 69,
-      "career": 2519,
+      "career": 2522,
       "recent": [
         {
           "name": "Amazon Bulero Press Junket",
@@ -1473,20 +1480,20 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 23,
-      "career": 988,
+      "events30": 24,
+      "career": 989,
       "recent": [
         {
           "name": "KCA's Sloomoo Parties",
           "meta": "NOV 13"
         },
         {
-          "name": "The Drop Awards Screening",
-          "meta": "NOV 09"
+          "name": "Disney EP - Wild Horse Nine",
+          "meta": "NOV 13"
         },
         {
-          "name": "Bite Catering Event",
-          "meta": "NOV 08"
+          "name": "The Drop Awards Screening",
+          "meta": "NOV 09"
         }
       ]
     },
@@ -1495,7 +1502,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 21,
-      "career": 415,
+      "career": 416,
       "recent": [
         {
           "name": "UFC 334 CWI ",
