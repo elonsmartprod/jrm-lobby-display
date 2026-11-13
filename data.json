@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T08:01:37.703Z",
-  "commit": "baf8467",
+  "generatedAt": "2026-11-13T16:27:54.111Z",
+  "commit": "ca529fc",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2337,
-    "events30": 273,
-    "guards30": 1411,
+    "eventsYTD": 2338,
+    "events30": 274,
+    "guards30": 1412,
     "citiesYTD": 125,
     "upcoming30": 112,
-    "perDay": 7.3955696202531644
+    "perDay": 7.375394321766562
   },
   "heatPoints": [
     {
@@ -227,8 +227,8 @@
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 116,
-      "w": 0.09184481393507522,
+      "ev": 117,
+      "w": 0.09263657957244656,
       "hq": false
     },
     {
