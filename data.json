@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-14T22:27:46.701Z",
-  "commit": "658ecee",
+  "generatedAt": "2026-11-15T02:41:57.160Z",
+  "commit": "2ae7fed",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2357,
-    "events30": 287,
-    "guards30": 1465,
+    "eventsYTD": 2362,
+    "events30": 283,
+    "guards30": 1401,
     "citiesYTD": 125,
-    "upcoming30": 102,
-    "perDay": 7.411949685534591
+    "upcoming30": 100,
+    "perDay": 7.427672955974843
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1276,
+      "ev": 1278,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 116,
-      "w": 0.09090909090909091,
+      "ev": 117,
+      "w": 0.09154929577464789,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 118,
-      "w": 0.09247648902821316,
+      "w": 0.09233176838810642,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 245,
-      "w": 0.1920062695924765,
+      "w": 0.19170579029733958,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 145,
-      "w": 0.11363636363636363,
+      "w": 0.1134585289514867,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 47,
-      "w": 0.03683385579937304,
+      "w": 0.036776212832550864,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 151,
-      "w": 0.11833855799373041,
+      "ev": 152,
+      "w": 0.1189358372456964,
       "hq": true
     }
   ],
@@ -273,9 +273,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.16685653619514,
-      "lat": 35.20397635777537,
-      "count": 193
+      "lon": -119.16076203458405,
+      "lat": 35.19559784735183,
+      "count": 195
     },
     {
       "name": "New York, NY",
@@ -293,7 +293,7 @@
       "name": "North Hollywood, CA",
       "lon": -118.36944295148434,
       "lat": 34.159013862523665,
-      "count": 105
+      "count": 106
     },
     {
       "name": "San Francisco, CA",
@@ -305,7 +305,7 @@
       "name": "Las Vegas, NV",
       "lon": -115.16222541517563,
       "lat": 36.114472131987874,
-      "count": 99
+      "count": 100
     },
     {
       "name": "Beverly Hills, CA",
@@ -796,17 +796,24 @@
   ],
   "todayPosts": [
     {
+      "rem": "Tony D’Gracia",
+      "venue": "New York City",
+      "client": "MAP360",
+      "job": "Grunsgiving Pop-up- NY",
+      "city": ""
+    },
+    {
+      "rem": "Tony D’Gracia",
+      "venue": "Madison Square Garden",
+      "client": "Rex Group",
+      "job": "UFC 334 MSG 2026",
+      "city": "New York"
+    },
+    {
       "rem": "Sean McKillop",
       "venue": "Pop up store ",
       "client": "siegelmanstable",
       "job": "Pop-Up Store ",
-      "city": ""
-    },
-    {
-      "rem": "Seanie Wolf",
-      "venue": "Sloomoo Institute - Los Angeles",
-      "client": "Paramount",
-      "job": "KCA's Sloomoo Parties",
       "city": ""
     },
     {
@@ -815,13 +822,6 @@
       "client": "Inkology Tattoo Art Gallery",
       "job": "2026 NY Tattoo Convention",
       "city": "Brooklyn"
-    },
-    {
-      "rem": "Ryan McKillop",
-      "venue": "Houston, TX",
-      "client": "Nike",
-      "job": "Jordan Shoe Release - Houston ",
-      "city": "Houston"
     },
     {
       "rem": "Mivonta Fulwood",
@@ -1046,13 +1046,6 @@
       "client": "TTFB CA LLC DBA: Yabi Kitchen",
       "job": "BOBO Thai & Shann Shann - TTFB",
       "city": ""
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Salt Palace Convention Center",
-      "client": "Linux Foundation",
-      "job": "KubeCon SLC 2026 - Consulting",
-      "city": "Salt Lake City"
     },
     {
       "rem": "Dani Sanchez",
@@ -1452,7 +1445,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 76,
+      "events30": 74,
       "career": 2522,
       "recent": [
         {
@@ -1473,9 +1466,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 28,
+      "events30": 29,
       "career": 354,
       "recent": [
+        {
+          "name": "Emerald Driver x CD",
+          "meta": "NOV 15"
+        },
         {
           "name": "11.12 Jacks",
           "meta": "NOV 12"
@@ -1483,10 +1480,6 @@
         {
           "name": "11.12 Zones",
           "meta": "NOV 12"
-        },
-        {
-          "name": "Emerald Drive x CD",
-          "meta": "NOV 10"
         }
       ]
     },
@@ -1494,7 +1487,7 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 25,
+      "events30": 24,
       "career": 989,
       "recent": [
         {
@@ -1515,7 +1508,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 22,
       "career": 418,
       "recent": [
         {
@@ -1540,16 +1533,16 @@
       "career": 343,
       "recent": [
         {
+          "name": "Emerald a16 072",
+          "meta": "NOV 15"
+        },
+        {
           "name": "UFC Appearance Monaco Jack ",
           "meta": "NOV 14"
         },
         {
           "name": "2026 Latin Grammys - TelevisaUnivision",
           "meta": "NOV 12"
-        },
-        {
-          "name": "Gordo y Flaca ",
-          "meta": "NOV 11"
         }
       ]
     }
