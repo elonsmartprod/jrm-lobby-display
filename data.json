@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-16T11:25:16.446Z",
-  "commit": "825ff8d",
+  "generatedAt": "2026-11-16T22:07:34.842Z",
+  "commit": "ad30b43",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2370,
-    "events30": 282,
-    "guards30": 1380,
+    "eventsYTD": 2371,
+    "events30": 283,
+    "guards30": 1385,
     "citiesYTD": 125,
-    "upcoming30": 98,
-    "perDay": 7.429467084639499
+    "upcoming30": 102,
+    "perDay": 7.409375
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1284,
+      "ev": 1285,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 117,
-      "w": 0.0911214953271028,
+      "w": 0.09105058365758754,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 118,
-      "w": 0.09190031152647975,
+      "w": 0.09182879377431907,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 245,
-      "w": 0.19080996884735202,
+      "w": 0.19066147859922178,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 145,
-      "w": 0.11292834890965732,
+      "w": 0.11284046692607004,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 47,
-      "w": 0.03660436137071651,
+      "w": 0.036575875486381325,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 152,
-      "w": 0.11838006230529595,
+      "w": 0.11828793774319066,
       "hq": true
     }
   ],
@@ -287,7 +287,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37853106126049,
       "lat": 34.09040786705444,
-      "count": 108
+      "count": 109
     },
     {
       "name": "North Hollywood, CA",
@@ -1417,8 +1417,8 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 75,
-      "career": 2522,
+      "events30": 76,
+      "career": 2523,
       "recent": [
         {
           "name": "Amazon The Greatest and Spider Noir CAA Happy Hour",
@@ -1439,7 +1439,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 29,
-      "career": 354,
+      "career": 355,
       "recent": [
         {
           "name": "Microsoft Ignite ",
@@ -1460,7 +1460,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 25,
-      "career": 989,
+      "career": 990,
       "recent": [
         {
           "name": "Gina Wade - Press Junket",
@@ -1481,7 +1481,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 22,
-      "career": 418,
+      "career": 419,
       "recent": [
         {
           "name": "UFC 334 MSG 2026",
