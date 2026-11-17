@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-16T22:07:34.842Z",
-  "commit": "ad30b43",
+  "generatedAt": "2026-11-17T04:30:40.701Z",
+  "commit": "7bb00cd",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2371,
-    "events30": 283,
-    "guards30": 1385,
+    "eventsYTD": 2382,
+    "events30": 287,
+    "guards30": 1390,
     "citiesYTD": 125,
-    "upcoming30": 102,
-    "perDay": 7.409375
+    "upcoming30": 98,
+    "perDay": 7.44375
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1285,
+      "ev": 1292,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 117,
-      "w": 0.09105058365758754,
+      "w": 0.09055727554179567,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 118,
-      "w": 0.09182879377431907,
+      "w": 0.0913312693498452,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 245,
-      "w": 0.19066147859922178,
+      "ev": 247,
+      "w": 0.19117647058823528,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 145,
-      "w": 0.11284046692607004,
+      "w": 0.11222910216718267,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 47,
-      "w": 0.036575875486381325,
+      "w": 0.03637770897832817,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 152,
-      "w": 0.11828793774319066,
+      "ev": 154,
+      "w": 0.11919504643962849,
       "hq": true
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.1077588002036,
       "lat": 34.10560033818749,
-      "count": 637
+      "count": 640
     },
     {
       "name": "CA",
-      "lon": -119.16076203458405,
-      "lat": 35.19559784735183,
-      "count": 195
+      "lon": -119.13737409641242,
+      "lat": 35.16864892942381,
+      "count": 199
     },
     {
       "name": "New York, NY",
@@ -293,13 +293,13 @@
       "name": "North Hollywood, CA",
       "lon": -118.36944295148434,
       "lat": 34.159013862523665,
-      "count": 106
+      "count": 107
     },
     {
       "name": "San Francisco, CA",
       "lon": -122.42224125590009,
       "lat": 37.785273194149944,
-      "count": 106
+      "count": 107
     },
     {
       "name": "Las Vegas, NV",
@@ -309,9 +309,9 @@
     },
     {
       "name": "Beverly Hills, CA",
-      "lon": -118.39822037034695,
-      "lat": 34.06817784502777,
-      "count": 58
+      "lon": -118.39936255103645,
+      "lat": 34.06910797752579,
+      "count": 60
     },
     {
       "name": "Hollywood, CA",
@@ -323,13 +323,13 @@
       "name": "Culver City, CA",
       "lon": -118.39045209121825,
       "lat": 34.0242194781745,
-      "count": 39
+      "count": 40
     },
     {
       "name": "NY",
-      "lon": -74.03568307042687,
-      "lat": 40.77986219973567,
-      "count": 34
+      "lon": -74.034378981174,
+      "lat": 40.77904571600486,
+      "count": 35
     },
     {
       "name": "Hollywood Hills, CA",
@@ -393,9 +393,9 @@
     },
     {
       "name": "AZ",
-      "lon": -112.98177748907767,
-      "lat": 33.66395187535266,
-      "count": 10
+      "lon": -112.88598081000968,
+      "lat": 33.6029944992401,
+      "count": 11
     },
     {
       "name": "Houston, TX",
@@ -796,6 +796,34 @@
   ],
   "todayPosts": [
     {
+      "rem": "Miguel Ruezga",
+      "venue": "Multiple locations",
+      "client": "Nike",
+      "job": "Nike SP27 Core Direct Super Shoot",
+      "city": ""
+    },
+    {
+      "rem": "Sevan Ohanians",
+      "venue": "Warner Bros Studios",
+      "client": "Warner Brothers",
+      "job": "Warner Brothers Multi Day Event",
+      "city": "Burbank"
+    },
+    {
+      "rem": "Seanie Wolf",
+      "venue": "The Aster",
+      "client": "Gina Wade Creative",
+      "job": "Gina Wade - Press Junket",
+      "city": "Hollywood"
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "Palace of Fine Arts San Francisco",
+      "client": "NPU (NON PLUS ULTRA)",
+      "job": "Microsoft Ignite ",
+      "city": "San Francisco"
+    },
+    {
       "rem": "Mathias Gibson",
       "venue": "Four Seasons-SF",
       "client": "Emerald Americas LLC",
@@ -815,20 +843,6 @@
       "client": "Wilcox Fine Dining, LLC",
       "job": "Bar Avoja Events",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Andy Sanders",
-      "venue": "Crypto.com Arena",
-      "client": "Amazon",
-      "job": "Test Job for Training",
-      "city": "Los Angeles"
-    },
-    {
-      "rem": "Mivonta Fulwood",
-      "venue": "Pacific Design Center",
-      "client": "Best Events LA",
-      "job": "Baby 2 Baby Gala - 2026",
-      "city": "West Hollywood"
     },
     {
       "rem": "Sean McKillop",
@@ -1417,20 +1431,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 76,
-      "career": 2523,
+      "events30": 75,
+      "career": 2527,
       "recent": [
         {
-          "name": "Amazon The Greatest and Spider Noir CAA Happy Hour",
-          "meta": "NOV 16"
+          "name": "Los Angeles Lakers vs Charlotte Hornets LA ive",
+          "meta": "NOV 17"
         },
         {
-          "name": "Amazon BAIT Actor Awards Nom Comm ",
-          "meta": "NOV 16"
+          "name": "Amazon Is God Is",
+          "meta": "NOV 17"
         },
         {
-          "name": "Amazon Clashing Through the Snow ",
-          "meta": "NOV 16"
+          "name": "Amazon Rockys 50th Anniversary Screening",
+          "meta": "NOV 17"
         }
       ]
     },
@@ -1438,9 +1452,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 29,
-      "career": 355,
+      "events30": 30,
+      "career": 356,
       "recent": [
+        {
+          "name": "Dev Rev Reception",
+          "meta": "NOV 17"
+        },
         {
           "name": "Microsoft Ignite ",
           "meta": "NOV 16"
@@ -1448,10 +1466,6 @@
         {
           "name": "Emerald Driver x CD",
           "meta": "NOV 15"
-        },
-        {
-          "name": "11.12 Jacks",
-          "meta": "NOV 12"
         }
       ]
     },
@@ -1459,9 +1473,13 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 25,
+      "events30": 24,
       "career": 990,
       "recent": [
+        {
+          "name": "Rivals Tastemaker",
+          "meta": "NOV 17"
+        },
         {
           "name": "Gina Wade - Press Junket",
           "meta": "NOV 16"
@@ -1469,10 +1487,6 @@
         {
           "name": "Adults S2 Awards Screening",
           "meta": "NOV 14"
-        },
-        {
-          "name": "KCA's Sloomoo Parties",
-          "meta": "NOV 13"
         }
       ]
     },
@@ -1480,9 +1494,13 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 22,
-      "career": 419,
+      "events30": 23,
+      "career": 421,
       "recent": [
+        {
+          "name": "11/17 A24 NYC",
+          "meta": "NOV 17"
+        },
         {
           "name": "UFC 334 MSG 2026",
           "meta": "NOV 14"
@@ -1490,10 +1508,6 @@
         {
           "name": "Grunsgiving Pop-up- NY",
           "meta": "NOV 14"
-        },
-        {
-          "name": "UFC 334 CWI ",
-          "meta": "NOV 13"
         }
       ]
     },
@@ -1707,12 +1721,9 @@
     "<b>Amazon Madden Premiere</b> · Culver Theater",
     "<b>HBO DTF St. Louis FYC Event</b> · Linwood Dunn Theater",
     "<b>AAS NY 11.10.26</b> · 24 E 64th St",
-    "<b>Amazon Ride or Die </b> · Pacific Design Center",
     "<b>Mother Wolf Shaffer Lee Wedding</b> · Mother Wolf Hollywood",
     "<b>Amazon I Play Rocky SAG LA Screening</b> · SAG-AFTRA",
-    "<b>Ugly Betty Reunion EP</b> · Edition - West Hollywood",
     "<b>Council Event </b> · Houston Hilton Americas ",
-    "<b>Kacey Musgraves</b> · Crypto.com Arena",
     "<b>Warby Parker Cocktail Party NYC</b> · Warby Parker NYC",
     "<b>LA Live Events 10.19-10.25</b> · LA Live",
     "<b>Amazon The Greatest and Spider Noir CAA Happy Hour</b> · Fairmont Hotel Century City",
@@ -1721,7 +1732,10 @@
     "<b>FashionNova Halloween Party</b> · Fashion Nova Corporate Office",
     "<b>Los Angeles Clippers vs Los Angeles Lakers</b> · Crypto.com Arena",
     "<b>2026 Latin Grammys - LARAS</b> · MGM Grand Garden Arena",
-    "<b>11.12.26 48 Wall St NY</b> · 48 Wall Street"
+    "<b>11.12.26 48 Wall St NY</b> · 48 Wall Street",
+    "<b>Ottawa Senators vs Los Angeles Kings</b> · Crypto.com Arena",
+    "<b>11.4 Rex Group NYC</b> · New York City",
+    "<b>Dev Rev Reception</b> · The Mint San Francisco"
   ],
   "linkedin": [
     {
