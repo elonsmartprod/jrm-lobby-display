@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-17T14:28:11.199Z",
-  "commit": "9036cbd",
+  "generatedAt": "2026-11-17T22:54:09.941Z",
+  "commit": "5f56d82",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -201,9 +201,9 @@
   "metrics": {
     "eventsYTD": 2382,
     "events30": 287,
-    "guards30": 1390,
+    "guards30": 1391,
     "citiesYTD": 125,
-    "upcoming30": 98,
+    "upcoming30": 96,
     "perDay": 7.420560747663552
   },
   "heatPoints": [
@@ -235,8 +235,8 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 247,
-      "w": 0.19117647058823528,
+      "ev": 246,
+      "w": 0.19040247678018576,
       "hq": false
     },
     {
@@ -251,8 +251,8 @@
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 47,
-      "w": 0.03637770897832817,
+      "ev": 48,
+      "w": 0.03715170278637771,
       "hq": false
     },
     {
@@ -1432,7 +1432,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 75,
-      "career": 2527,
+      "career": 2528,
       "recent": [
         {
           "name": "Los Angeles Lakers vs Charlotte Hornets LA ive",
@@ -1494,13 +1494,9 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 22,
       "career": 421,
       "recent": [
-        {
-          "name": "11/17 A24 NYC",
-          "meta": "NOV 17"
-        },
         {
           "name": "UFC 334 MSG 2026",
           "meta": "NOV 14"
@@ -1508,6 +1504,10 @@
         {
           "name": "Grunsgiving Pop-up- NY",
           "meta": "NOV 14"
+        },
+        {
+          "name": "UFC 334 CWI ",
+          "meta": "NOV 13"
         }
       ]
     },
@@ -1516,7 +1516,7 @@
       "office": "JRM-Nevada",
       "color": "#E8B44A",
       "events30": 22,
-      "career": 343,
+      "career": 344,
       "recent": [
         {
           "name": "Emerald a16 072",
@@ -1726,6 +1726,7 @@
     "<b>Council Event </b> · Houston Hilton Americas ",
     "<b>Warby Parker Cocktail Party NYC</b> · Warby Parker NYC",
     "<b>LA Live Events 10.19-10.25</b> · LA Live",
+    "<b>Black Chamber Event 3</b> · Salt Lake City ",
     "<b>Amazon The Greatest and Spider Noir CAA Happy Hour</b> · Fairmont Hotel Century City",
     "<b>Amazon How to Rob a Bank AP</b> · AMC Americana",
     "<b>11.4.26 48 Wall St NY</b> · 48 Wall Street",
@@ -1734,8 +1735,7 @@
     "<b>2026 Latin Grammys - LARAS</b> · MGM Grand Garden Arena",
     "<b>11.12.26 48 Wall St NY</b> · 48 Wall Street",
     "<b>Ottawa Senators vs Los Angeles Kings</b> · Crypto.com Arena",
-    "<b>11.4 Rex Group NYC</b> · New York City",
-    "<b>Dev Rev Reception</b> · The Mint San Francisco"
+    "<b>11.4 Rex Group NYC</b> · New York City"
   ],
   "linkedin": [
     {
