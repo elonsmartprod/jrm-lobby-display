@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T14:02:03.447Z",
-  "commit": "29057d6",
+  "generatedAt": "2026-11-18T21:59:02.682Z",
+  "commit": "7d013f0",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2390,
-    "events30": 290,
+    "eventsYTD": 2389,
+    "events30": 289,
     "guards30": 1405,
     "citiesYTD": 125,
-    "upcoming30": 91,
-    "perDay": 7.422360248447205
+    "upcoming30": 94,
+    "perDay": 7.419254658385094
   },
   "heatPoints": [
     {
@@ -219,16 +219,16 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 118,
-      "w": 0.09104938271604938,
+      "ev": 117,
+      "w": 0.09027777777777778,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 119,
-      "w": 0.09182098765432099,
+      "ev": 118,
+      "w": 0.09104938271604938,
       "hq": false
     },
     {
@@ -243,8 +243,8 @@
       "name": "Texas",
       "lon": -96.8,
       "lat": 32.78,
-      "ev": 145,
-      "w": 0.11188271604938271,
+      "ev": 146,
+      "w": 0.11265432098765432,
       "hq": false
     },
     {
@@ -259,8 +259,8 @@
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 154,
-      "w": 0.11882716049382716,
+      "ev": 153,
+      "w": 0.11805555555555555,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.1077588002036,
       "lat": 34.10560033818749,
-      "count": 643
+      "count": 644
     },
     {
       "name": "CA",
@@ -327,9 +327,9 @@
     },
     {
       "name": "NY",
-      "lon": -74.034378981174,
-      "lat": 40.77904571600486,
-      "count": 35
+      "lon": -74.03568307042687,
+      "lat": 40.77986219973567,
+      "count": 34
     },
     {
       "name": "Hollywood Hills, CA",
@@ -554,12 +554,6 @@
       "count": 3
     },
     {
-      "name": "Austin, TX",
-      "lon": -97.722931822842,
-      "lat": 30.284092044260003,
-      "count": 3
-    },
-    {
       "name": "Park City, UT",
       "lon": -111.496941233666,
       "lat": 40.656708990783,
@@ -623,6 +617,12 @@
       "name": "NJ",
       "lon": -74.517283219342,
       "lat": 40.400550618842004,
+      "count": 2
+    },
+    {
+      "name": "Henderson, NV",
+      "lon": -115.08555035,
+      "lat": 36.04779575,
       "count": 2
     }
   ],
@@ -1446,7 +1446,7 @@
       "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 77,
-      "career": 2529,
+      "career": 2531,
       "recent": [
         {
           "name": "Amazon I Play Rocky Actor Awards Nom Comm",
@@ -1467,7 +1467,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 30,
-      "career": 356,
+      "career": 358,
       "recent": [
         {
           "name": "S&P Global",
@@ -1529,7 +1529,7 @@
       "name": "Jessica Hernandez",
       "office": "JRM-Nevada",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 21,
       "career": 344,
       "recent": [
         {
@@ -1541,8 +1541,8 @@
           "meta": "NOV 15"
         },
         {
-          "name": "UFC Appearance Monaco Jack ",
-          "meta": "NOV 14"
+          "name": "2026 Latin Grammys - TelevisaUnivision",
+          "meta": "NOV 12"
         }
       ]
     }
