@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-17T22:54:09.941Z",
-  "commit": "5f56d82",
+  "generatedAt": "2026-11-18T04:25:14.304Z",
+  "commit": "70c126c",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2382,
-    "events30": 287,
-    "guards30": 1391,
+    "eventsYTD": 2389,
+    "events30": 289,
+    "guards30": 1402,
     "citiesYTD": 125,
-    "upcoming30": 96,
-    "perDay": 7.420560747663552
+    "upcoming30": 91,
+    "perDay": 7.442367601246106
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1292,
+      "ev": 1295,
       "w": 1,
       "hq": true
     },
@@ -219,16 +219,16 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 117,
-      "w": 0.09055727554179567,
+      "ev": 118,
+      "w": 0.09111969111969112,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 118,
-      "w": 0.0913312693498452,
+      "ev": 119,
+      "w": 0.0918918918918919,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 246,
-      "w": 0.19040247678018576,
+      "w": 0.18996138996138995,
       "hq": false
     },
     {
@@ -244,15 +244,15 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 145,
-      "w": 0.11222910216718267,
+      "w": 0.11196911196911197,
       "hq": false
     },
     {
       "name": "Utah",
       "lon": -111.89,
       "lat": 40.76,
-      "ev": 48,
-      "w": 0.03715170278637771,
+      "ev": 49,
+      "w": 0.03783783783783784,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 154,
-      "w": 0.11919504643962849,
+      "w": 0.11891891891891893,
       "hq": true
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.1077588002036,
       "lat": 34.10560033818749,
-      "count": 640
+      "count": 642
     },
     {
       "name": "CA",
       "lon": -119.13737409641242,
       "lat": 35.16864892942381,
-      "count": 199
+      "count": 200
     },
     {
       "name": "New York, NY",
@@ -287,7 +287,7 @@
       "name": "West Hollywood, CA",
       "lon": -118.37853106126049,
       "lat": 34.09040786705444,
-      "count": 109
+      "count": 110
     },
     {
       "name": "North Hollywood, CA",
@@ -398,6 +398,12 @@
       "count": 11
     },
     {
+      "name": "TN",
+      "lon": -86.8111295974378,
+      "lat": 36.073406470443494,
+      "count": 10
+    },
+    {
       "name": "Houston, TX",
       "lon": -95.36001309999999,
       "lat": 29.751439433333335,
@@ -407,12 +413,6 @@
       "name": "Miami, FL",
       "lon": -80.15913806977244,
       "lat": 25.800135794700115,
-      "count": 9
-    },
-    {
-      "name": "TN",
-      "lon": -86.81583619169267,
-      "lat": 36.063989766245,
       "count": 9
     },
     {
@@ -434,16 +434,16 @@
       "count": 7
     },
     {
-      "name": "Burbank, CA",
-      "lon": -118.32569805,
-      "lat": 34.166707849999995,
-      "count": 6
-    },
-    {
       "name": "TX",
       "lon": -99.81219499032966,
       "lat": 30.733153450250338,
       "count": 6
+    },
+    {
+      "name": "Burbank, CA",
+      "lon": -118.32569805,
+      "lat": 34.166707849999995,
+      "count": 5
     },
     {
       "name": "Thermal, CA",
@@ -796,32 +796,39 @@
   ],
   "todayPosts": [
     {
+      "rem": "Sean McKillop",
+      "venue": "Nairobi",
+      "client": "Linux Foundation",
+      "job": "MCP Nairobi - 2026",
+      "city": ""
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Florida A&M University",
+      "client": "Nike",
+      "job": "Nike FAMU Pop-up",
+      "city": ""
+    },
+    {
+      "rem": "Alejandra Ruezga",
+      "venue": "Beverly Hilton Hotel",
+      "client": "The Recording Academy",
+      "job": "Recording Academy Fall Trustees Meeting",
+      "city": "Beverly Hills"
+    },
+    {
+      "rem": "Mathias Gibson",
+      "venue": "The Mint San Francisco",
+      "client": "Groundswell",
+      "job": "Dev Rev Reception",
+      "city": "San Francisco"
+    },
+    {
       "rem": "Miguel Ruezga",
       "venue": "Multiple locations",
       "client": "Nike",
       "job": "Nike SP27 Core Direct Super Shoot",
       "city": ""
-    },
-    {
-      "rem": "Sevan Ohanians",
-      "venue": "Warner Bros Studios",
-      "client": "Warner Brothers",
-      "job": "Warner Brothers Multi Day Event",
-      "city": "Burbank"
-    },
-    {
-      "rem": "Seanie Wolf",
-      "venue": "The Aster",
-      "client": "Gina Wade Creative",
-      "job": "Gina Wade - Press Junket",
-      "city": "Hollywood"
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Palace of Fine Arts San Francisco",
-      "client": "NPU (NON PLUS ULTRA)",
-      "job": "Microsoft Ignite ",
-      "city": "San Francisco"
     },
     {
       "rem": "Mathias Gibson",
@@ -1074,6 +1081,13 @@
       "client": "Crypto.com Arena",
       "job": "Sparks Tunnel Suites",
       "city": "Los Angeles"
+    },
+    {
+      "rem": "Seanie Wolf",
+      "venue": "Long Beach Aquarium",
+      "client": "Long Beach Aquarium",
+      "job": "Long Beach Aquarium",
+      "city": "Long Beach"
     },
     {
       "rem": "Dani Sanchez",
@@ -1431,20 +1445,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 75,
-      "career": 2528,
+      "events30": 77,
+      "career": 2529,
       "recent": [
         {
-          "name": "Los Angeles Lakers vs Charlotte Hornets LA ive",
-          "meta": "NOV 17"
+          "name": "Amazon I Play Rocky Actor Awards Nom Comm",
+          "meta": "NOV 18"
         },
         {
-          "name": "Amazon Is God Is",
-          "meta": "NOV 17"
+          "name": "Los Angeles Lakers vs Utah Jazz",
+          "meta": "NOV 18"
         },
         {
-          "name": "Amazon Rockys 50th Anniversary Screening",
-          "meta": "NOV 17"
+          "name": "Los Angeles Lakers vs Utah Jazz LA Live",
+          "meta": "NOV 18"
         }
       ]
     },
@@ -1456,16 +1470,16 @@
       "career": 356,
       "recent": [
         {
+          "name": "S&P Global",
+          "meta": "NOV 18"
+        },
+        {
           "name": "Dev Rev Reception",
           "meta": "NOV 17"
         },
         {
           "name": "Microsoft Ignite ",
           "meta": "NOV 16"
-        },
-        {
-          "name": "Emerald Driver x CD",
-          "meta": "NOV 15"
         }
       ]
     },
@@ -1495,7 +1509,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 22,
-      "career": 421,
+      "career": 422,
       "recent": [
         {
           "name": "UFC 334 MSG 2026",
@@ -1519,16 +1533,16 @@
       "career": 344,
       "recent": [
         {
+          "name": "Apple LVGP",
+          "meta": "NOV 18"
+        },
+        {
           "name": "Emerald a16 072",
           "meta": "NOV 15"
         },
         {
           "name": "UFC Appearance Monaco Jack ",
           "meta": "NOV 14"
-        },
-        {
-          "name": "2026 Latin Grammys - TelevisaUnivision",
-          "meta": "NOV 12"
         }
       ]
     }
@@ -1550,7 +1564,7 @@
       "badges": [
         "Other"
       ],
-      "upcoming": false
+      "upcoming": true
     },
     {
       "client": "Paramount",
@@ -1725,7 +1739,6 @@
     "<b>Amazon I Play Rocky SAG LA Screening</b> · SAG-AFTRA",
     "<b>Council Event </b> · Houston Hilton Americas ",
     "<b>Warby Parker Cocktail Party NYC</b> · Warby Parker NYC",
-    "<b>LA Live Events 10.19-10.25</b> · LA Live",
     "<b>Black Chamber Event 3</b> · Salt Lake City ",
     "<b>Amazon The Greatest and Spider Noir CAA Happy Hour</b> · Fairmont Hotel Century City",
     "<b>Amazon How to Rob a Bank AP</b> · AMC Americana",
@@ -1735,7 +1748,8 @@
     "<b>2026 Latin Grammys - LARAS</b> · MGM Grand Garden Arena",
     "<b>11.12.26 48 Wall St NY</b> · 48 Wall Street",
     "<b>Ottawa Senators vs Los Angeles Kings</b> · Crypto.com Arena",
-    "<b>11.4 Rex Group NYC</b> · New York City"
+    "<b>11.4 Rex Group NYC</b> · New York City",
+    "<b>Dev Rev Reception</b> · The Mint San Francisco"
   ],
   "linkedin": [
     {
