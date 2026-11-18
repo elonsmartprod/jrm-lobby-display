@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T04:25:14.304Z",
-  "commit": "70c126c",
+  "generatedAt": "2026-11-18T14:02:03.447Z",
+  "commit": "29057d6",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2389,
-    "events30": 289,
-    "guards30": 1402,
+    "eventsYTD": 2390,
+    "events30": 290,
+    "guards30": 1405,
     "citiesYTD": 125,
     "upcoming30": 91,
-    "perDay": 7.442367601246106
+    "perDay": 7.422360248447205
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1295,
+      "ev": 1296,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 118,
-      "w": 0.09111969111969112,
+      "w": 0.09104938271604938,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 119,
-      "w": 0.0918918918918919,
+      "w": 0.09182098765432099,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 246,
-      "w": 0.18996138996138995,
+      "w": 0.18981481481481483,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 145,
-      "w": 0.11196911196911197,
+      "w": 0.11188271604938271,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 49,
-      "w": 0.03783783783783784,
+      "w": 0.03780864197530864,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 154,
-      "w": 0.11891891891891893,
+      "w": 0.11882716049382716,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.1077588002036,
       "lat": 34.10560033818749,
-      "count": 642
+      "count": 643
     },
     {
       "name": "CA",
@@ -1487,9 +1487,13 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 24,
-      "career": 990,
+      "events30": 25,
+      "career": 991,
       "recent": [
+        {
+          "name": "Reasonable Doubt Screening - EP",
+          "meta": "NOV 18"
+        },
         {
           "name": "Rivals Tastemaker",
           "meta": "NOV 17"
@@ -1497,10 +1501,6 @@
         {
           "name": "Gina Wade - Press Junket",
           "meta": "NOV 16"
-        },
-        {
-          "name": "Adults S2 Awards Screening",
-          "meta": "NOV 14"
         }
       ]
     },
@@ -1509,7 +1509,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 22,
-      "career": 422,
+      "career": 423,
       "recent": [
         {
           "name": "UFC 334 MSG 2026",
