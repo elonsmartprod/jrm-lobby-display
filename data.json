@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T21:59:02.682Z",
-  "commit": "7d013f0",
+  "generatedAt": "2026-11-19T03:31:22.824Z",
+  "commit": "4e8146a",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2389,
-    "events30": 289,
-    "guards30": 1405,
+    "eventsYTD": 2397,
+    "events30": 290,
+    "guards30": 1415,
     "citiesYTD": 125,
-    "upcoming30": 94,
-    "perDay": 7.419254658385094
+    "upcoming30": 91,
+    "perDay": 7.444099378881988
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1296,
+      "ev": 1298,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 117,
-      "w": 0.09027777777777778,
+      "ev": 118,
+      "w": 0.09090909090909091,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 118,
-      "w": 0.09104938271604938,
+      "w": 0.09090909090909091,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 246,
-      "w": 0.18981481481481483,
+      "ev": 266,
+      "w": 0.2049306625577812,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 146,
-      "w": 0.11265432098765432,
+      "w": 0.11248073959938366,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 49,
-      "w": 0.03780864197530864,
+      "w": 0.03775038520801233,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 153,
-      "w": 0.11805555555555555,
+      "ev": 154,
+      "w": 0.11864406779661017,
       "hq": true
     }
   ],
@@ -281,7 +281,7 @@
       "name": "New York, NY",
       "lon": -73.98876579512175,
       "lat": 40.745483127001584,
-      "count": 157
+      "count": 159
     },
     {
       "name": "West Hollywood, CA",
@@ -293,13 +293,13 @@
       "name": "North Hollywood, CA",
       "lon": -118.36944295148434,
       "lat": 34.159013862523665,
-      "count": 107
+      "count": 108
     },
     {
       "name": "San Francisco, CA",
       "lon": -122.42224125590009,
       "lat": 37.785273194149944,
-      "count": 107
+      "count": 108
     },
     {
       "name": "Las Vegas, NV",
@@ -317,7 +317,7 @@
       "name": "Hollywood, CA",
       "lon": -118.33211157488566,
       "lat": 34.09791585225384,
-      "count": 57
+      "count": 58
     },
     {
       "name": "Culver City, CA",
@@ -327,9 +327,9 @@
     },
     {
       "name": "NY",
-      "lon": -74.03568307042687,
-      "lat": 40.77986219973567,
-      "count": 34
+      "lon": -74.03484820408408,
+      "lat": 40.77883963393823,
+      "count": 35
     },
     {
       "name": "Hollywood Hills, CA",
@@ -344,15 +344,15 @@
       "count": 21
     },
     {
-      "name": "Dallas, TX",
-      "lon": -96.81287502993499,
-      "lat": 32.81022255984226,
-      "count": 20
-    },
-    {
       "name": "NV",
       "lon": -115.1753541727636,
       "lat": 36.140220736817,
+      "count": 21
+    },
+    {
+      "name": "Dallas, TX",
+      "lon": -96.81287502993499,
+      "lat": 32.81022255984226,
       "count": 20
     },
     {
@@ -796,17 +796,24 @@
   ],
   "todayPosts": [
     {
+      "rem": "Jessica Hernandez",
+      "venue": "Park MGM ",
+      "client": "Apple",
+      "job": "Apple LVGP",
+      "city": ""
+    },
+    {
+      "rem": "Patrick J McKillop",
+      "venue": "Salt Lake City ",
+      "client": "Protos Security",
+      "job": "Protos Pandora ",
+      "city": "Salt Lake City"
+    },
+    {
       "rem": "Sean McKillop",
       "venue": "Nairobi",
       "client": "Linux Foundation",
       "job": "MCP Nairobi - 2026",
-      "city": ""
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Florida A&M University",
-      "client": "Nike",
-      "job": "Nike FAMU Pop-up",
       "city": ""
     },
     {
@@ -817,24 +824,10 @@
       "city": "Beverly Hills"
     },
     {
-      "rem": "Mathias Gibson",
-      "venue": "The Mint San Francisco",
-      "client": "Groundswell",
-      "job": "Dev Rev Reception",
-      "city": "San Francisco"
-    },
-    {
       "rem": "Miguel Ruezga",
       "venue": "Multiple locations",
       "client": "Nike",
       "job": "Nike SP27 Core Direct Super Shoot",
-      "city": ""
-    },
-    {
-      "rem": "Mathias Gibson",
-      "venue": "Four Seasons-SF",
-      "client": "Emerald Americas LLC",
-      "job": "Emerald Driver x CD",
       "city": ""
     },
     {
@@ -1445,9 +1438,13 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 77,
+      "events30": 78,
       "career": 2531,
       "recent": [
+        {
+          "name": "Amazon Blade Runner Music Tastemaker ",
+          "meta": "NOV 19"
+        },
         {
           "name": "Amazon I Play Rocky Actor Awards Nom Comm",
           "meta": "NOV 18"
@@ -1455,10 +1452,27 @@
         {
           "name": "Los Angeles Lakers vs Utah Jazz",
           "meta": "NOV 18"
+        }
+      ]
+    },
+    {
+      "name": "Tony D’Gracia",
+      "office": "New York",
+      "color": "#E8B44A",
+      "events30": 41,
+      "career": 495,
+      "recent": [
+        {
+          "name": "11.19 Stark Event NYC",
+          "meta": "NOV 19"
         },
         {
-          "name": "Los Angeles Lakers vs Utah Jazz LA Live",
-          "meta": "NOV 18"
+          "name": "11.19 A24 Screening",
+          "meta": "NOV 19"
+        },
+        {
+          "name": "Nike Victory Cup - NYC",
+          "meta": "NOV 19"
         }
       ]
     },
@@ -1466,9 +1480,13 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 30,
-      "career": 358,
+      "events30": 28,
+      "career": 360,
       "recent": [
+        {
+          "name": "11.19 Jack's",
+          "meta": "NOV 19"
+        },
         {
           "name": "S&P Global",
           "meta": "NOV 18"
@@ -1476,10 +1494,6 @@
         {
           "name": "Dev Rev Reception",
           "meta": "NOV 17"
-        },
-        {
-          "name": "Microsoft Ignite ",
-          "meta": "NOV 16"
         }
       ]
     },
@@ -1487,7 +1501,7 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 25,
+      "events30": 24,
       "career": 991,
       "recent": [
         {
@@ -1505,44 +1519,23 @@
       ]
     },
     {
-      "name": "Tony D’Gracia",
-      "office": "New York",
+      "name": "Sean McKillop",
+      "office": "National Ops",
       "color": "#E8B44A",
       "events30": 22,
-      "career": 423,
+      "career": 548,
       "recent": [
         {
-          "name": "UFC 334 MSG 2026",
-          "meta": "NOV 14"
+          "name": "JRM x OpenTable Off the Clock-OR",
+          "meta": "NOV 19"
         },
         {
-          "name": "Grunsgiving Pop-up- NY",
-          "meta": "NOV 14"
+          "name": "MCP Nairobi - 2026",
+          "meta": "NOV 17"
         },
         {
-          "name": "UFC 334 CWI ",
-          "meta": "NOV 13"
-        }
-      ]
-    },
-    {
-      "name": "Jessica Hernandez",
-      "office": "JRM-Nevada",
-      "color": "#E8B44A",
-      "events30": 21,
-      "career": 344,
-      "recent": [
-        {
-          "name": "Apple LVGP",
-          "meta": "NOV 18"
-        },
-        {
-          "name": "Emerald a16 072",
-          "meta": "NOV 15"
-        },
-        {
-          "name": "2026 Latin Grammys - TelevisaUnivision",
-          "meta": "NOV 12"
+          "name": "Nike FAMU Pop-up",
+          "meta": "NOV 17"
         }
       ]
     }
