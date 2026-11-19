@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-19T13:13:59.444Z",
-  "commit": "c863562",
+  "generatedAt": "2026-11-19T21:38:23.854Z",
+  "commit": "a11a21e",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2397,
-    "events30": 290,
-    "guards30": 1415,
+    "eventsYTD": 2389,
+    "events30": 282,
+    "guards30": 1383,
     "citiesYTD": 125,
-    "upcoming30": 91,
-    "perDay": 7.421052631578948
+    "upcoming30": 90,
+    "perDay": 7.396284829721362
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1298,
+      "ev": 1289,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 118,
-      "w": 0.09090909090909091,
+      "w": 0.09154383242823895,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 118,
-      "w": 0.09090909090909091,
+      "w": 0.09154383242823895,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 266,
-      "w": 0.2049306625577812,
+      "w": 0.20636152055857254,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 146,
-      "w": 0.11248073959938366,
+      "w": 0.11326609775019394,
       "hq": false
     },
     {
@@ -252,15 +252,15 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 49,
-      "w": 0.03775038520801233,
+      "w": 0.03801396431342126,
       "hq": false
     },
     {
       "name": "National Ops",
       "lon": -98.5,
       "lat": 39,
-      "ev": 154,
-      "w": 0.11864406779661017,
+      "ev": 155,
+      "w": 0.12024825446082234,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.1077588002036,
       "lat": 34.10560033818749,
-      "count": 644
+      "count": 636
     },
     {
       "name": "CA",
@@ -1438,8 +1438,8 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 78,
-      "career": 2531,
+      "events30": 70,
+      "career": 2532,
       "recent": [
         {
           "name": "Amazon Blade Runner Music Tastemaker ",
@@ -1522,7 +1522,7 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 23,
       "career": 548,
       "recent": [
         {
@@ -1723,7 +1723,6 @@
     }
   ],
   "ticker": [
-    "<b>Kids Choice Awards 2026</b> · CBS Studios Los Angeles",
     "<b>Amazon Blade Runners AP</b> · The London West Hollywood at Beverly Hills",
     "<b>Amazon Madden Premiere</b> · Culver Theater",
     "<b>HBO DTF St. Louis FYC Event</b> · Linwood Dunn Theater",
@@ -1742,7 +1741,8 @@
     "<b>11.12.26 48 Wall St NY</b> · 48 Wall Street",
     "<b>Ottawa Senators vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>11.4 Rex Group NYC</b> · New York City",
-    "<b>Dev Rev Reception</b> · The Mint San Francisco"
+    "<b>Dev Rev Reception</b> · The Mint San Francisco",
+    "<b>Test Job for Training</b> · Crypto.com Arena"
   ],
   "linkedin": [
     {
