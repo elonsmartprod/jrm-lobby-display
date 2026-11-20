@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-19T21:38:23.854Z",
-  "commit": "a11a21e",
+  "generatedAt": "2026-11-20T03:19:55.147Z",
+  "commit": "35bb721",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2389,
+    "eventsYTD": 2397,
     "events30": 282,
-    "guards30": 1383,
+    "guards30": 1400,
     "citiesYTD": 125,
-    "upcoming30": 90,
-    "perDay": 7.396284829721362
+    "upcoming30": 82,
+    "perDay": 7.421052631578948
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1289,
+      "ev": 1297,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 118,
-      "w": 0.09154383242823895,
+      "w": 0.09097918272937548,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 118,
-      "w": 0.09154383242823895,
+      "w": 0.09097918272937548,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 266,
-      "w": 0.20636152055857254,
+      "w": 0.20508866615265997,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 146,
-      "w": 0.11326609775019394,
+      "w": 0.1125674633770239,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 49,
-      "w": 0.03801396431342126,
+      "w": 0.03777949113338473,
       "hq": false
     },
     {
@@ -260,22 +260,22 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 155,
-      "w": 0.12024825446082234,
+      "w": 0.1195065535851966,
       "hq": true
     }
   ],
   "venuePoints": [
     {
       "name": "Los Angeles, CA",
-      "lon": -118.1077588002036,
-      "lat": 34.10560033818749,
-      "count": 636
+      "lon": -118.10960113723912,
+      "lat": 34.10535188975647,
+      "count": 641
     },
     {
       "name": "CA",
       "lon": -119.13737409641242,
       "lat": 35.16864892942381,
-      "count": 200
+      "count": 201
     },
     {
       "name": "New York, NY",
@@ -335,7 +335,7 @@
       "name": "Hollywood Hills, CA",
       "lon": -118.3377778,
       "lat": 34.1077778,
-      "count": 30
+      "count": 31
     },
     {
       "name": "Nashville, TN",
@@ -797,6 +797,13 @@
   "todayPosts": [
     {
       "rem": "Jessica Hernandez",
+      "venue": "Bellagio Hotel ",
+      "client": "Protos Security",
+      "job": "Protos Ferrari Bellagio Store",
+      "city": ""
+    },
+    {
+      "rem": "Jessica Hernandez",
       "venue": "Park MGM ",
       "client": "Apple",
       "job": "Apple LVGP",
@@ -814,20 +821,6 @@
       "venue": "Nairobi",
       "client": "Linux Foundation",
       "job": "MCP Nairobi - 2026",
-      "city": ""
-    },
-    {
-      "rem": "Alejandra Ruezga",
-      "venue": "Beverly Hilton Hotel",
-      "client": "The Recording Academy",
-      "job": "Recording Academy Fall Trustees Meeting",
-      "city": "Beverly Hills"
-    },
-    {
-      "rem": "Miguel Ruezga",
-      "venue": "Multiple locations",
-      "client": "Nike",
-      "job": "Nike SP27 Core Direct Super Shoot",
       "city": ""
     },
     {
@@ -1442,16 +1435,16 @@
       "career": 2532,
       "recent": [
         {
-          "name": "Amazon Blade Runner Music Tastemaker ",
-          "meta": "NOV 19"
+          "name": "Los Angeles Lakers vs Sacramento Kings LA Live",
+          "meta": "NOV 20"
         },
         {
-          "name": "Amazon I Play Rocky Actor Awards Nom Comm",
-          "meta": "NOV 18"
+          "name": "SIlver Lake Coffee Shop Pop up",
+          "meta": "NOV 20"
         },
         {
-          "name": "Los Angeles Lakers vs Utah Jazz",
-          "meta": "NOV 18"
+          "name": "Los Angeles Lakers vs Sacramento Kings ",
+          "meta": "NOV 20"
         }
       ]
     },
@@ -1459,7 +1452,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 41,
+      "events30": 39,
       "career": 495,
       "recent": [
         {
@@ -1501,9 +1494,13 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 24,
+      "events30": 25,
       "career": 991,
       "recent": [
+        {
+          "name": "Gina Wade - Band of Brothers",
+          "meta": "NOV 20"
+        },
         {
           "name": "Reasonable Doubt Screening - EP",
           "meta": "NOV 18"
@@ -1511,10 +1508,6 @@
         {
           "name": "Rivals Tastemaker",
           "meta": "NOV 17"
-        },
-        {
-          "name": "Gina Wade - Press Junket",
-          "meta": "NOV 16"
         }
       ]
     },
