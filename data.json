@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-20T12:56:44.554Z",
-  "commit": "14108ab",
+  "generatedAt": "2026-11-20T21:08:13.836Z",
+  "commit": "c005605",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2397,
-    "events30": 282,
-    "guards30": 1400,
+    "eventsYTD": 2398,
+    "events30": 283,
+    "guards30": 1405,
     "citiesYTD": 125,
-    "upcoming30": 83,
-    "perDay": 7.398148148148148
+    "upcoming30": 85,
+    "perDay": 7.401234567901234
   },
   "heatPoints": [
     {
@@ -235,8 +235,8 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 266,
-      "w": 0.20508866615265997,
+      "ev": 267,
+      "w": 0.2058596761757903,
       "hq": false
     },
     {
@@ -1452,19 +1452,19 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 39,
-      "career": 495,
+      "events30": 40,
+      "career": 496,
       "recent": [
+        {
+          "name": "11.20 I Play Rocky Philly",
+          "meta": "NOV 20"
+        },
         {
           "name": "11.19 Stark Event NYC",
           "meta": "NOV 19"
         },
         {
           "name": "11.19 A24 Screening",
-          "meta": "NOV 19"
-        },
-        {
-          "name": "Nike Victory Cup - NYC",
           "meta": "NOV 19"
         }
       ]
