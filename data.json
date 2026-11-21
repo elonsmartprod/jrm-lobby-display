@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-20T21:08:13.836Z",
-  "commit": "c005605",
+  "generatedAt": "2026-11-21T02:19:02.331Z",
+  "commit": "90f1171",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2398,
+    "eventsYTD": 2408,
     "events30": 283,
-    "guards30": 1405,
+    "guards30": 2317,
     "citiesYTD": 125,
-    "upcoming30": 85,
-    "perDay": 7.401234567901234
+    "upcoming30": 77,
+    "perDay": 7.432098765432099
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1297,
+      "ev": 1305,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 118,
-      "w": 0.09097918272937548,
+      "w": 0.09042145593869731,
       "hq": false
     },
     {
@@ -228,15 +228,15 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 118,
-      "w": 0.09097918272937548,
+      "w": 0.09042145593869731,
       "hq": false
     },
     {
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 267,
-      "w": 0.2058596761757903,
+      "ev": 269,
+      "w": 0.20613026819923372,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 146,
-      "w": 0.1125674633770239,
+      "w": 0.11187739463601533,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 49,
-      "w": 0.03777949113338473,
+      "w": 0.037547892720306515,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 155,
-      "w": 0.1195065535851966,
+      "w": 0.11877394636015326,
       "hq": true
     }
   ],
@@ -269,31 +269,31 @@
       "name": "Los Angeles, CA",
       "lon": -118.10960113723912,
       "lat": 34.10535188975647,
-      "count": 641
+      "count": 644
     },
     {
       "name": "CA",
-      "lon": -119.13737409641242,
+      "lon": -119.13737409641244,
       "lat": 35.16864892942381,
-      "count": 201
+      "count": 202
     },
     {
       "name": "New York, NY",
       "lon": -73.98876579512175,
       "lat": 40.745483127001584,
-      "count": 159
+      "count": 161
     },
     {
       "name": "West Hollywood, CA",
       "lon": -118.37853106126049,
       "lat": 34.09040786705444,
-      "count": 110
+      "count": 111
     },
     {
       "name": "North Hollywood, CA",
       "lon": -118.36944295148434,
       "lat": 34.159013862523665,
-      "count": 108
+      "count": 110
     },
     {
       "name": "San Francisco, CA",
@@ -311,7 +311,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.39936255103645,
       "lat": 34.06910797752579,
-      "count": 60
+      "count": 61
     },
     {
       "name": "Hollywood, CA",
@@ -796,6 +796,20 @@
   ],
   "todayPosts": [
     {
+      "rem": "Mivonta Fulwood",
+      "venue": "Mother Wolf Hollywood",
+      "client": "Hollywood Citizen News F&B, LLC",
+      "job": "Mother Wolf Events",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Sean McKillop",
+      "venue": "Liberty Station-SD",
+      "client": "Swiss Xmas INC",
+      "job": "Swiss Holiday Market-SD",
+      "city": ""
+    },
+    {
       "rem": "Jessica Hernandez",
       "venue": "Bellagio Hotel ",
       "client": "Protos Security",
@@ -807,20 +821,6 @@
       "venue": "Park MGM ",
       "client": "Apple",
       "job": "Apple LVGP",
-      "city": ""
-    },
-    {
-      "rem": "Patrick J McKillop",
-      "venue": "Salt Lake City ",
-      "client": "Protos Security",
-      "job": "Protos Pandora ",
-      "city": "Salt Lake City"
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Nairobi",
-      "client": "Linux Foundation",
-      "job": "MCP Nairobi - 2026",
       "city": ""
     },
     {
@@ -836,13 +836,6 @@
       "client": "Wilcox Fine Dining, LLC",
       "job": "Bar Avoja Events",
       "city": "Los Angeles"
-    },
-    {
-      "rem": "Sean McKillop",
-      "venue": "Liberty Station-SD",
-      "client": "Swiss Xmas INC",
-      "job": "Swiss Holiday Market-SD",
-      "city": ""
     },
     {
       "rem": "Sean McKillop",
@@ -1431,20 +1424,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 70,
-      "career": 2532,
+      "events30": 72,
+      "career": 2534,
       "recent": [
         {
-          "name": "Los Angeles Lakers vs Sacramento Kings LA Live",
-          "meta": "NOV 20"
+          "name": "Amazon DGA",
+          "meta": "NOV 21"
         },
         {
-          "name": "SIlver Lake Coffee Shop Pop up",
-          "meta": "NOV 20"
+          "name": "Amazon Madden FYC ",
+          "meta": "NOV 21"
         },
         {
-          "name": "Los Angeles Lakers vs Sacramento Kings ",
-          "meta": "NOV 20"
+          "name": "KATSEYE",
+          "meta": "NOV 21"
         }
       ]
     },
@@ -1452,20 +1445,20 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 40,
+      "events30": 41,
       "career": 496,
       "recent": [
         {
+          "name": "Nike NWSL Finals Watch Party - NYC",
+          "meta": "NOV 21"
+        },
+        {
+          "name": "11.21.26 48 Wall St NY",
+          "meta": "NOV 21"
+        },
+        {
           "name": "11.20 I Play Rocky Philly",
           "meta": "NOV 20"
-        },
-        {
-          "name": "11.19 Stark Event NYC",
-          "meta": "NOV 19"
-        },
-        {
-          "name": "11.19 A24 Screening",
-          "meta": "NOV 19"
         }
       ]
     },
@@ -1512,23 +1505,23 @@
       ]
     },
     {
-      "name": "Sean McKillop",
-      "office": "National Ops",
+      "name": "Alejandra Ruezga",
+      "office": "Los Angeles",
       "color": "#E8B44A",
       "events30": 23,
-      "career": 548,
+      "career": 335,
       "recent": [
         {
-          "name": "JRM x OpenTable Off the Clock-OR",
-          "meta": "NOV 19"
+          "name": "TVA Peer roup Cinematographers Fall Fling",
+          "meta": "NOV 21"
         },
         {
-          "name": "MCP Nairobi - 2026",
-          "meta": "NOV 17"
+          "name": "Beverly Hilton Wedding",
+          "meta": "NOV 21"
         },
         {
-          "name": "Nike FAMU Pop-up",
-          "meta": "NOV 17"
+          "name": "TVA Wild Horse Nine Screening",
+          "meta": "NOV 21"
         }
       ]
     }
@@ -1697,20 +1690,20 @@
       "upcoming": false
     },
     {
-      "client": "Fashion Nova",
-      "title": "Fashion Nova - Santa Fe Springs",
-      "venue": "Fashion Nova Distribution Center · Santa Fe Springs",
-      "badges": [
-        "Apts-Condos-Office Bldg"
-      ],
-      "upcoming": false
-    },
-    {
       "client": "GunPowder",
       "title": "VMA's 2026 Main Show ",
       "venue": "Peacock Theater · Los Angeles",
       "badges": [
         "Awards Show"
+      ],
+      "upcoming": false
+    },
+    {
+      "client": "Nike",
+      "title": "Mamba League Invitational 2026",
+      "venue": "LA Live · Los Angeles",
+      "badges": [
+        "Sports Event"
       ],
       "upcoming": false
     }
