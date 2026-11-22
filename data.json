@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-21T23:20:41.340Z",
-  "commit": "381a81d",
+  "generatedAt": "2026-11-22T06:53:00.048Z",
+  "commit": "16291b2",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2408,
-    "events30": 283,
-    "guards30": 2317,
+    "eventsYTD": 2412,
+    "events30": 276,
+    "guards30": 2305,
     "citiesYTD": 125,
-    "upcoming30": 77,
-    "perDay": 7.409230769230769
+    "upcoming30": 73,
+    "perDay": 7.421538461538462
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1305,
+      "ev": 1309,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 118,
-      "w": 0.09042145593869731,
+      "w": 0.09014514896867838,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 118,
-      "w": 0.09042145593869731,
+      "w": 0.09014514896867838,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 269,
-      "w": 0.20613026819923372,
+      "w": 0.2055003819709702,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 146,
-      "w": 0.11187739463601533,
+      "w": 0.11153552330022919,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 49,
-      "w": 0.037547892720306515,
+      "w": 0.0374331550802139,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 155,
-      "w": 0.11877394636015326,
+      "w": 0.11841100076394194,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.10960113723912,
       "lat": 34.10535188975647,
-      "count": 644
+      "count": 646
     },
     {
       "name": "CA",
@@ -807,20 +807,6 @@
       "venue": "Liberty Station-SD",
       "client": "Swiss Xmas INC",
       "job": "Swiss Holiday Market-SD",
-      "city": ""
-    },
-    {
-      "rem": "Jessica Hernandez",
-      "venue": "Bellagio Hotel ",
-      "client": "Protos Security",
-      "job": "Protos Ferrari Bellagio Store",
-      "city": ""
-    },
-    {
-      "rem": "Jessica Hernandez",
-      "venue": "Park MGM ",
-      "client": "Apple",
-      "job": "Apple LVGP",
       "city": ""
     },
     {
@@ -1424,20 +1410,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 72,
+      "events30": 74,
       "career": 2534,
       "recent": [
         {
-          "name": "Amazon DGA",
-          "meta": "NOV 21"
+          "name": "KATSEYE LA Live",
+          "meta": "NOV 22"
         },
         {
-          "name": "Amazon Madden FYC ",
-          "meta": "NOV 21"
+          "name": "Amazon Lord of the Rings Experience",
+          "meta": "NOV 22"
         },
         {
           "name": "KATSEYE",
-          "meta": "NOV 21"
+          "meta": "NOV 22"
         }
       ]
     },
@@ -1445,7 +1431,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 41,
+      "events30": 40,
       "career": 496,
       "recent": [
         {
@@ -1466,7 +1452,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 28,
+      "events30": 27,
       "career": 360,
       "recent": [
         {
@@ -1479,27 +1465,6 @@
         },
         {
           "name": "Dev Rev Reception",
-          "meta": "NOV 17"
-        }
-      ]
-    },
-    {
-      "name": "Seanie Wolf",
-      "office": "Los Angeles",
-      "color": "#E8B44A",
-      "events30": 25,
-      "career": 991,
-      "recent": [
-        {
-          "name": "Gina Wade - Band of Brothers",
-          "meta": "NOV 20"
-        },
-        {
-          "name": "Reasonable Doubt Screening - EP",
-          "meta": "NOV 18"
-        },
-        {
-          "name": "Rivals Tastemaker",
           "meta": "NOV 17"
         }
       ]
@@ -1522,6 +1487,27 @@
         {
           "name": "TVA Wild Horse Nine Screening",
           "meta": "NOV 21"
+        }
+      ]
+    },
+    {
+      "name": "Seanie Wolf",
+      "office": "Los Angeles",
+      "color": "#E8B44A",
+      "events30": 22,
+      "career": 991,
+      "recent": [
+        {
+          "name": "Gina Wade - Band of Brothers",
+          "meta": "NOV 20"
+        },
+        {
+          "name": "Reasonable Doubt Screening - EP",
+          "meta": "NOV 18"
+        },
+        {
+          "name": "Rivals Tastemaker",
+          "meta": "NOV 17"
         }
       ]
     }
@@ -1722,13 +1708,13 @@
     "<b>Amazon How to Rob a Bank AP</b> · AMC Americana",
     "<b>11.4.26 48 Wall St NY</b> · 48 Wall Street",
     "<b>FashionNova Halloween Party</b> · Fashion Nova Corporate Office",
-    "<b>Los Angeles Clippers vs Los Angeles Lakers</b> · Crypto.com Arena",
     "<b>2026 Latin Grammys - LARAS</b> · MGM Grand Garden Arena",
     "<b>11.12.26 48 Wall St NY</b> · 48 Wall Street",
     "<b>Ottawa Senators vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>11.4 Rex Group NYC</b> · New York City",
     "<b>Dev Rev Reception</b> · The Mint San Francisco",
-    "<b>Test Job for Training</b> · Crypto.com Arena"
+    "<b>Test Job for Training</b> · Crypto.com Arena",
+    "<b>Carvana </b> · Carvana LV"
   ],
   "linkedin": [
     {
