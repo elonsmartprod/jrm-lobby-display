@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-22T21:48:39.901Z",
-  "commit": "df711b3",
+  "generatedAt": "2026-11-23T02:48:16.862Z",
+  "commit": "a1486da",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2413,
-    "events30": 277,
-    "guards30": 2306,
+    "eventsYTD": 2419,
+    "events30": 273,
+    "guards30": 2310,
     "citiesYTD": 125,
-    "upcoming30": 73,
-    "perDay": 7.401840490797546
+    "upcoming30": 67,
+    "perDay": 7.420245398773006
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1309,
+      "ev": 1312,
       "w": 1,
       "hq": true
     },
@@ -219,8 +219,8 @@
       "name": "JRM-Nevada",
       "lon": -115.14,
       "lat": 36.17,
-      "ev": 118,
-      "w": 0.09014514896867838,
+      "ev": 119,
+      "w": 0.09070121951219512,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 118,
-      "w": 0.09014514896867838,
+      "w": 0.0899390243902439,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 269,
-      "w": 0.2055003819709702,
+      "w": 0.20503048780487804,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 146,
-      "w": 0.11153552330022919,
+      "w": 0.11128048780487805,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 50,
-      "w": 0.03819709702062643,
+      "w": 0.038109756097560975,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 155,
-      "w": 0.11841100076394194,
+      "w": 0.11814024390243902,
       "hq": true
     }
   ],
@@ -269,13 +269,13 @@
       "name": "Los Angeles, CA",
       "lon": -118.10960113723912,
       "lat": 34.10535188975647,
-      "count": 646
+      "count": 648
     },
     {
       "name": "CA",
-      "lon": -119.13737409641244,
-      "lat": 35.16864892942381,
-      "count": 202
+      "lon": -119.13351846071797,
+      "lat": 35.1615379167594,
+      "count": 203
     },
     {
       "name": "New York, NY",
@@ -299,7 +299,7 @@
       "name": "San Francisco, CA",
       "lon": -122.42224125590009,
       "lat": 37.785273194149944,
-      "count": 108
+      "count": 110
     },
     {
       "name": "Las Vegas, NV",
@@ -524,6 +524,12 @@
       "count": 3
     },
     {
+      "name": "Inglewood, CA",
+      "lon": -118.34024435,
+      "lat": 33.955612900000006,
+      "count": 3
+    },
+    {
       "name": "Woodland Hills, CA",
       "lon": -118.63578993594,
       "lat": 34.158020018066,
@@ -587,12 +593,6 @@
       "name": "SC",
       "lon": -80.54829694674899,
       "lat": 33.428787808144506,
-      "count": 2
-    },
-    {
-      "name": "Inglewood, CA",
-      "lon": -118.34024435,
-      "lat": 33.955612900000006,
       "count": 2
     },
     {
@@ -795,6 +795,20 @@
     }
   ],
   "todayPosts": [
+    {
+      "rem": "Chris Estrada",
+      "venue": "The Orpheum Theater",
+      "client": "Amazon Studios",
+      "job": "Amazon Lord of the Rings Experience",
+      "city": "Los Angeles"
+    },
+    {
+      "rem": "Patrick J McKillop",
+      "venue": "Salt Lake City ",
+      "client": "Protos Security",
+      "job": "Protos Petco ",
+      "city": "Salt Lake City"
+    },
     {
       "rem": "Mivonta Fulwood",
       "venue": "Mother Wolf Hollywood",
@@ -1410,19 +1424,19 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 74,
+      "events30": 75,
       "career": 2534,
       "recent": [
         {
+          "name": "Los Angeles Lakers vs Utah Jazz",
+          "meta": "NOV 23"
+        },
+        {
+          "name": "Los Angeles Lakers vs Utah Jazz LA Live",
+          "meta": "NOV 23"
+        },
+        {
           "name": "KATSEYE LA Live",
-          "meta": "NOV 22"
-        },
-        {
-          "name": "Amazon Lord of the Rings Experience",
-          "meta": "NOV 22"
-        },
-        {
-          "name": "KATSEYE",
           "meta": "NOV 22"
         }
       ]
@@ -1431,7 +1445,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 40,
+      "events30": 38,
       "career": 496,
       "recent": [
         {
@@ -1452,20 +1466,20 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 27,
+      "events30": 28,
       "career": 360,
       "recent": [
         {
+          "name": "Amazon Blade Runner",
+          "meta": "NOV 23"
+        },
+        {
+          "name": "11.23 Jack's",
+          "meta": "NOV 23"
+        },
+        {
           "name": "11.19 Jack's",
           "meta": "NOV 19"
-        },
-        {
-          "name": "S&P Global",
-          "meta": "NOV 18"
-        },
-        {
-          "name": "Dev Rev Reception",
-          "meta": "NOV 17"
         }
       ]
     },
@@ -1473,7 +1487,7 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 23,
+      "events30": 22,
       "career": 335,
       "recent": [
         {
@@ -1494,7 +1508,7 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 20,
       "career": 991,
       "recent": [
         {
@@ -1699,7 +1713,6 @@
     "<b>Amazon Madden Premiere</b> · Culver Theater",
     "<b>HBO DTF St. Louis FYC Event</b> · Linwood Dunn Theater",
     "<b>AAS NY 11.10.26</b> · 24 E 64th St",
-    "<b>Mother Wolf Shaffer Lee Wedding</b> · Mother Wolf Hollywood",
     "<b>Amazon I Play Rocky SAG LA Screening</b> · SAG-AFTRA",
     "<b>Council Event </b> · Houston Hilton Americas ",
     "<b>Warby Parker Cocktail Party NYC</b> · Warby Parker NYC",
@@ -1714,7 +1727,8 @@
     "<b>11.4 Rex Group NYC</b> · New York City",
     "<b>Dev Rev Reception</b> · The Mint San Francisco",
     "<b>Test Job for Training</b> · Crypto.com Arena",
-    "<b>Carvana </b> · Carvana LV"
+    "<b>Carvana </b> · Carvana LV",
+    "<b>11.20 I Play Rocky Philly</b> · AMC Fashion District Philadelphia"
   ],
   "linkedin": [
     {
