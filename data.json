@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-23T12:50:47.609Z",
-  "commit": "04c56cc",
+  "generatedAt": "2026-11-24T00:54:49.040Z",
+  "commit": "4504439",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2419,
-    "events30": 273,
-    "guards30": 2310,
+    "eventsYTD": 2421,
+    "events30": 266,
+    "guards30": 2278,
     "citiesYTD": 125,
-    "upcoming30": 67,
-    "perDay": 7.397553516819572
+    "upcoming30": 68,
+    "perDay": 7.4036697247706424
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1312,
+      "ev": 1314,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 119,
-      "w": 0.09070121951219512,
+      "w": 0.09056316590563165,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 118,
-      "w": 0.0899390243902439,
+      "w": 0.0898021308980213,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 269,
-      "w": 0.20503048780487804,
+      "w": 0.20471841704718416,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 146,
-      "w": 0.11128048780487805,
+      "w": 0.1111111111111111,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 50,
-      "w": 0.038109756097560975,
+      "w": 0.0380517503805175,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 155,
-      "w": 0.11814024390243902,
+      "w": 0.11796042617960426,
       "hq": true
     }
   ],
@@ -273,9 +273,9 @@
     },
     {
       "name": "CA",
-      "lon": -119.13351846071797,
-      "lat": 35.1615379167594,
-      "count": 203
+      "lon": -119.12739697695777,
+      "lat": 35.15379808917861,
+      "count": 205
     },
     {
       "name": "New York, NY",
@@ -338,15 +338,15 @@
       "count": 31
     },
     {
+      "name": "NV",
+      "lon": -115.17524410855185,
+      "lat": 36.13855482514557,
+      "count": 22
+    },
+    {
       "name": "Nashville, TN",
       "lon": -86.73826841417309,
       "lat": 36.109659581476336,
-      "count": 21
-    },
-    {
-      "name": "NV",
-      "lon": -115.1753541727636,
-      "lat": 36.140220736817,
       "count": 21
     },
     {
@@ -796,11 +796,18 @@
   ],
   "todayPosts": [
     {
-      "rem": "Chris Estrada",
-      "venue": "The Orpheum Theater",
-      "client": "Amazon Studios",
-      "job": "Amazon Lord of the Rings Experience",
-      "city": "Los Angeles"
+      "rem": "Mivonta Fulwood",
+      "venue": "TCL Chinese Theater",
+      "client": "WB Theatrical Innovations & Distribution ",
+      "job": "Dune Part 3 Event",
+      "city": ""
+    },
+    {
+      "rem": "Jessica Hernandez",
+      "venue": "The Forum",
+      "client": "Falcon Crest Alliance Inc",
+      "job": "AWS Falcon Crest ",
+      "city": "Inglewood"
     },
     {
       "rem": "Patrick J McKillop",
@@ -808,6 +815,13 @@
       "client": "Protos Security",
       "job": "Protos Petco ",
       "city": "Salt Lake City"
+    },
+    {
+      "rem": "Andy Sanders",
+      "venue": "*New*",
+      "client": "McK Group LLC",
+      "job": "Consulting Services",
+      "city": ""
     },
     {
       "rem": "Mivonta Fulwood",
@@ -1155,7 +1169,7 @@
     {
       "rem": "Kyle Crowther",
       "venue": "Elephante Scottsdale",
-      "client": "Élephante SFS LLC",
+      "client": "Wish You Were Here Group",
       "job": "Elephante Scottsdale",
       "city": "Scottsdale"
     },
@@ -1424,7 +1438,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 75,
+      "events30": 72,
       "career": 2534,
       "recent": [
         {
@@ -1466,7 +1480,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 28,
+      "events30": 27,
       "career": 360,
       "recent": [
         {
@@ -1487,11 +1501,11 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 21,
       "career": 335,
       "recent": [
         {
-          "name": "TVA Peer roup Cinematographers Fall Fling",
+          "name": "TVA Peer Group Cinematographers Fall Fling",
           "meta": "NOV 21"
         },
         {
@@ -1508,7 +1522,7 @@
       "name": "Seanie Wolf",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 20,
+      "events30": 19,
       "career": 991,
       "recent": [
         {
@@ -1690,20 +1704,20 @@
       "upcoming": false
     },
     {
+      "client": "Gloria Molina Grand Park",
+      "title": "The Music Center - NYELA 2026",
+      "venue": "The Music Center · Los Angeles",
+      "badges": [
+        "Holiday Event"
+      ],
+      "upcoming": true
+    },
+    {
       "client": "GunPowder",
       "title": "VMA's 2026 Main Show ",
       "venue": "Peacock Theater · Los Angeles",
       "badges": [
         "Awards Show"
-      ],
-      "upcoming": false
-    },
-    {
-      "client": "Nike",
-      "title": "Mamba League Invitational 2026",
-      "venue": "LA Live · Los Angeles",
-      "badges": [
-        "Sports Event"
       ],
       "upcoming": false
     }
