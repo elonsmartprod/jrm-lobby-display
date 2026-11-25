@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-24T21:14:10.754Z",
-  "commit": "0802f45",
+  "generatedAt": "2026-11-25T04:16:39.784Z",
+  "commit": "4ec1110",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2421,
-    "events30": 266,
-    "guards30": 2278,
+    "eventsYTD": 2425,
+    "events30": 262,
+    "guards30": 2296,
     "citiesYTD": 125,
-    "upcoming30": 74,
-    "perDay": 7.3810975609756095
+    "upcoming30": 77,
+    "perDay": 7.3932926829268295
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1314,
+      "ev": 1317,
       "w": 1,
       "hq": true
     },
@@ -220,15 +220,15 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 119,
-      "w": 0.09056316590563165,
+      "w": 0.09035687167805619,
       "hq": false
     },
     {
       "name": "Tennessee",
       "lon": -86.78,
       "lat": 36.16,
-      "ev": 118,
-      "w": 0.0898021308980213,
+      "ev": 119,
+      "w": 0.09035687167805619,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 269,
-      "w": 0.20471841704718416,
+      "w": 0.20425208807896736,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 146,
-      "w": 0.1111111111111111,
+      "w": 0.1108580106302202,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 50,
-      "w": 0.0380517503805175,
+      "w": 0.037965072133637055,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 155,
-      "w": 0.11796042617960426,
+      "w": 0.11769172361427487,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.10960113723912,
       "lat": 34.10535188975647,
-      "count": 648
+      "count": 649
     },
     {
       "name": "CA",
@@ -310,8 +310,8 @@
     {
       "name": "Beverly Hills, CA",
       "lon": -118.39936255103645,
-      "lat": 34.06910797752579,
-      "count": 61
+      "lat": 34.06910797752578,
+      "count": 62
     },
     {
       "name": "Hollywood, CA",
@@ -338,16 +338,16 @@
       "count": 31
     },
     {
+      "name": "Nashville, TN",
+      "lon": -86.74030137103777,
+      "lat": 36.111977533596374,
+      "count": 22
+    },
+    {
       "name": "NV",
       "lon": -115.17524410855185,
       "lat": 36.13855482514557,
       "count": 22
-    },
-    {
-      "name": "Nashville, TN",
-      "lon": -86.73826841417309,
-      "lat": 36.109659581476336,
-      "count": 21
     },
     {
       "name": "Dallas, TX",
@@ -464,6 +464,12 @@
       "count": 5
     },
     {
+      "name": "Inglewood, CA",
+      "lon": -118.34024435,
+      "lat": 33.955612900000006,
+      "count": 4
+    },
+    {
       "name": "Atlanta, GA",
       "lon": -84.36799646666667,
       "lat": 33.79154066666666,
@@ -521,12 +527,6 @@
       "name": "Universal City, CA",
       "lon": -118.352547,
       "lat": 34.1371163,
-      "count": 3
-    },
-    {
-      "name": "Inglewood, CA",
-      "lon": -118.34024435,
-      "lat": 33.955612900000006,
       "count": 3
     },
     {
@@ -899,13 +899,6 @@
       "client": "Protos Security",
       "job": "Protos Lowes Ogden ",
       "city": "Orem"
-    },
-    {
-      "rem": "Kyle Crowther",
-      "venue": "FISK Univeristy",
-      "client": "FISK University PD",
-      "job": "FISK University range training",
-      "city": ""
     },
     {
       "rem": "Jessica Hernandez",
@@ -1438,8 +1431,8 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 72,
-      "career": 2534,
+      "events30": 70,
+      "career": 2536,
       "recent": [
         {
           "name": "Los Angeles Lakers vs Utah Jazz",
@@ -1459,7 +1452,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 38,
+      "events30": 37,
       "career": 499,
       "recent": [
         {
@@ -1501,9 +1494,13 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 21,
-      "career": 337,
+      "events30": 22,
+      "career": 341,
       "recent": [
+        {
+          "name": "Private Event BH ",
+          "meta": "NOV 25"
+        },
         {
           "name": "TVA Peer Group Cinematographers Fall Fling",
           "meta": "NOV 21"
@@ -1511,30 +1508,26 @@
         {
           "name": "Beverly Hilton Wedding",
           "meta": "NOV 21"
-        },
-        {
-          "name": "TVA Wild Horse Nine Screening",
-          "meta": "NOV 21"
         }
       ]
     },
     {
-      "name": "Seanie Wolf",
-      "office": "Los Angeles",
+      "name": "Sean McKillop",
+      "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 19,
-      "career": 991,
+      "events30": 18,
+      "career": 548,
       "recent": [
         {
-          "name": "Gina Wade - Band of Brothers",
-          "meta": "NOV 20"
+          "name": "Swiss Holiday Market-SD",
+          "meta": "NOV 19"
         },
         {
-          "name": "Reasonable Doubt Screening - EP",
-          "meta": "NOV 18"
+          "name": "JRM x OpenTable Off the Clock-OR",
+          "meta": "NOV 19"
         },
         {
-          "name": "Rivals Tastemaker",
+          "name": "MCP Nairobi - 2026",
           "meta": "NOV 17"
         }
       ]
