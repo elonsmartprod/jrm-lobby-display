@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T14:35:12.653Z",
-  "commit": "d57b82b",
+  "generatedAt": "2026-11-25T23:39:29.541Z",
+  "commit": "55dc3cf",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 262,
     "guards30": 2296,
     "citiesYTD": 125,
-    "upcoming30": 77,
+    "upcoming30": 82,
     "perDay": 7.37082066869301
   },
   "heatPoints": [
@@ -1453,7 +1453,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 37,
-      "career": 499,
+      "career": 500,
       "recent": [
         {
           "name": "Nike NWSL Finals Watch Party - NYC",
@@ -1474,7 +1474,7 @@
       "office": "Northern California",
       "color": "#E8B44A",
       "events30": 27,
-      "career": 360,
+      "career": 362,
       "recent": [
         {
           "name": "Amazon Blade Runner",
@@ -1634,6 +1634,15 @@
       "upcoming": false
     },
     {
+      "client": "Linux Foundation",
+      "title": "KubeCon SLC",
+      "venue": "Salt Palace Convention Center · Salt Lake City",
+      "badges": [
+        "Convention"
+      ],
+      "upcoming": false
+    },
+    {
       "client": "AutoDesk",
       "title": "Autodesk OTC 2027 - San Diego, CA",
       "venue": "Marriott Marquis San Diego Marina · San Diego",
@@ -1704,15 +1713,6 @@
         "Holiday Event"
       ],
       "upcoming": true
-    },
-    {
-      "client": "GunPowder",
-      "title": "VMA's 2026 Main Show ",
-      "venue": "Peacock Theater · Los Angeles",
-      "badges": [
-        "Awards Show"
-      ],
-      "upcoming": false
     }
   ],
   "ticker": [
