@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T23:39:29.541Z",
-  "commit": "55dc3cf",
+  "generatedAt": "2026-11-26T08:23:58.452Z",
+  "commit": "deb87f8",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -200,8 +200,8 @@
   ],
   "metrics": {
     "eventsYTD": 2425,
-    "events30": 262,
-    "guards30": 2296,
+    "events30": 253,
+    "guards30": 2259,
     "citiesYTD": 125,
     "upcoming30": 82,
     "perDay": 7.37082066869301
@@ -1431,7 +1431,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 70,
+      "events30": 67,
       "career": 2536,
       "recent": [
         {
@@ -1452,7 +1452,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 37,
+      "events30": 34,
       "career": 500,
       "recent": [
         {
@@ -1473,7 +1473,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 27,
+      "events30": 26,
       "career": 362,
       "recent": [
         {
