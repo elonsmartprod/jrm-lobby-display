@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T02:12:47.821Z",
-  "commit": "f176198",
+  "generatedAt": "2026-11-27T10:55:14.228Z",
+  "commit": "2e96151",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -203,7 +203,7 @@
     "events30": 246,
     "guards30": 2210,
     "citiesYTD": 125,
-    "upcoming30": 81,
+    "upcoming30": 82,
     "perDay": 7.351515151515152
   },
   "heatPoints": [
@@ -1446,7 +1446,7 @@
       "office": "New York",
       "color": "#E8B44A",
       "events30": 35,
-      "career": 500,
+      "career": 501,
       "recent": [
         {
           "name": "11.27 A24 Q&A",
