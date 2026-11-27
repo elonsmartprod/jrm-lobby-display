@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-26T19:03:22.722Z",
-  "commit": "578664f",
+  "generatedAt": "2026-11-27T02:12:47.821Z",
+  "commit": "f176198",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,12 +199,12 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2425,
-    "events30": 253,
-    "guards30": 2259,
+    "eventsYTD": 2426,
+    "events30": 246,
+    "guards30": 2210,
     "citiesYTD": 125,
-    "upcoming30": 82,
-    "perDay": 7.348484848484849
+    "upcoming30": 81,
+    "perDay": 7.351515151515152
   },
   "heatPoints": [
     {
@@ -235,8 +235,8 @@
       "name": "New York",
       "lon": -74,
       "lat": 40.71,
-      "ev": 269,
-      "w": 0.20425208807896736,
+      "ev": 270,
+      "w": 0.20501138952164008,
       "hq": false
     },
     {
@@ -281,7 +281,7 @@
       "name": "New York, NY",
       "lon": -73.98876579512175,
       "lat": 40.745483127001584,
-      "count": 161
+      "count": 162
     },
     {
       "name": "West Hollywood, CA",
@@ -1006,13 +1006,6 @@
       "city": ""
     },
     {
-      "rem": "Jessica Hernandez",
-      "venue": "DoorDash Office",
-      "client": "Protos Security",
-      "job": "Protos DoorDash",
-      "city": ""
-    },
-    {
       "rem": "Justin McKillop",
       "venue": "First Cumberland Presbyterian Church",
       "client": "Fusion Homeschooling",
@@ -1431,7 +1424,7 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 67,
+      "events30": 65,
       "career": 2536,
       "recent": [
         {
@@ -1452,9 +1445,13 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 34,
+      "events30": 35,
       "career": 500,
       "recent": [
+        {
+          "name": "11.27 A24 Q&A",
+          "meta": "NOV 27"
+        },
         {
           "name": "Nike NWSL Finals Watch Party - NYC",
           "meta": "NOV 21"
@@ -1462,10 +1459,6 @@
         {
           "name": "11.21.26 48 Wall St NY",
           "meta": "NOV 21"
-        },
-        {
-          "name": "11.20 I Play Rocky Philly",
-          "meta": "NOV 20"
         }
       ]
     },
@@ -1473,7 +1466,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 26,
+      "events30": 24,
       "career": 362,
       "recent": [
         {
@@ -1494,7 +1487,7 @@
       "name": "Alejandra Ruezga",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 22,
+      "events30": 20,
       "career": 341,
       "recent": [
         {
@@ -1515,7 +1508,7 @@
       "name": "Sean McKillop",
       "office": "National Ops",
       "color": "#E8B44A",
-      "events30": 18,
+      "events30": 17,
       "career": 548,
       "recent": [
         {
