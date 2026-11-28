@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T19:59:21.445Z",
-  "commit": "0e794cc",
+  "generatedAt": "2026-11-28T02:43:27.478Z",
+  "commit": "be6628b",
   "callouts": [
     {
       "byline": "“If you’re the smartest person in the room, you are in the wrong room”",
@@ -199,19 +199,19 @@
     }
   ],
   "metrics": {
-    "eventsYTD": 2426,
-    "events30": 246,
-    "guards30": 2210,
+    "eventsYTD": 2430,
+    "events30": 240,
+    "guards30": 2189,
     "citiesYTD": 125,
-    "upcoming30": 89,
-    "perDay": 7.329305135951661
+    "upcoming30": 95,
+    "perDay": 7.341389728096677
   },
   "heatPoints": [
     {
       "name": "Los Angeles",
       "lon": -118.24,
       "lat": 34.05,
-      "ev": 1317,
+      "ev": 1321,
       "w": 1,
       "hq": true
     },
@@ -220,7 +220,7 @@
       "lon": -115.14,
       "lat": 36.17,
       "ev": 119,
-      "w": 0.09035687167805619,
+      "w": 0.09008327024981075,
       "hq": false
     },
     {
@@ -228,7 +228,7 @@
       "lon": -86.78,
       "lat": 36.16,
       "ev": 119,
-      "w": 0.09035687167805619,
+      "w": 0.09008327024981075,
       "hq": false
     },
     {
@@ -236,7 +236,7 @@
       "lon": -74,
       "lat": 40.71,
       "ev": 270,
-      "w": 0.20501138952164008,
+      "w": 0.2043906131718395,
       "hq": false
     },
     {
@@ -244,7 +244,7 @@
       "lon": -96.8,
       "lat": 32.78,
       "ev": 146,
-      "w": 0.1108580106302202,
+      "w": 0.1105223315669947,
       "hq": false
     },
     {
@@ -252,7 +252,7 @@
       "lon": -111.89,
       "lat": 40.76,
       "ev": 50,
-      "w": 0.037965072133637055,
+      "w": 0.03785011355034065,
       "hq": false
     },
     {
@@ -260,7 +260,7 @@
       "lon": -98.5,
       "lat": 39,
       "ev": 155,
-      "w": 0.11769172361427487,
+      "w": 0.11733535200605602,
       "hq": true
     }
   ],
@@ -269,7 +269,7 @@
       "name": "Los Angeles, CA",
       "lon": -118.10960113723912,
       "lat": 34.10535188975647,
-      "count": 649
+      "count": 652
     },
     {
       "name": "CA",
@@ -311,7 +311,7 @@
       "name": "Beverly Hills, CA",
       "lon": -118.39936255103645,
       "lat": 34.06910797752578,
-      "count": 62
+      "count": 63
     },
     {
       "name": "Hollywood, CA",
@@ -894,13 +894,6 @@
       "city": "London"
     },
     {
-      "rem": "Patrick J McKillop",
-      "venue": "Lowe's Protos",
-      "client": "Protos Security",
-      "job": "Protos Lowes Ogden ",
-      "city": "Orem"
-    },
-    {
       "rem": "Jessica Hernandez",
       "venue": "Palms Hotel and Casino ",
       "client": "Palms Hotel and Casino",
@@ -1424,20 +1417,20 @@
       "name": "Chris Estrada",
       "office": "Los Angeles",
       "color": "#E8B44A",
-      "events30": 65,
-      "career": 2543,
+      "events30": 64,
+      "career": 2548,
       "recent": [
+        {
+          "name": "Los Angeles Kings vs Anaheim Ducks LA Live",
+          "meta": "NOV 28"
+        },
+        {
+          "name": "Los Angeles Kings vs Anaheim Ducks",
+          "meta": "NOV 28"
+        },
         {
           "name": "Los Angeles Lakers vs Utah Jazz",
           "meta": "NOV 23"
-        },
-        {
-          "name": "Los Angeles Lakers vs Utah Jazz LA Live",
-          "meta": "NOV 23"
-        },
-        {
-          "name": "KATSEYE LA Live",
-          "meta": "NOV 22"
         }
       ]
     },
@@ -1445,7 +1438,7 @@
       "name": "Tony D’Gracia",
       "office": "New York",
       "color": "#E8B44A",
-      "events30": 35,
+      "events30": 33,
       "career": 501,
       "recent": [
         {
@@ -1466,7 +1459,7 @@
       "name": "Mathias Gibson",
       "office": "Northern California",
       "color": "#E8B44A",
-      "events30": 24,
+      "events30": 23,
       "career": 362,
       "recent": [
         {
@@ -1491,15 +1484,15 @@
       "career": 341,
       "recent": [
         {
+          "name": "Beverly Hilton Wedding ",
+          "meta": "NOV 28"
+        },
+        {
           "name": "Private Event BH ",
           "meta": "NOV 25"
         },
         {
           "name": "TVA Peer Group Cinematographers Fall Fling",
-          "meta": "NOV 21"
-        },
-        {
-          "name": "Beverly Hilton Wedding",
           "meta": "NOV 21"
         }
       ]
@@ -1720,15 +1713,15 @@
     "<b>Amazon The Greatest and Spider Noir CAA Happy Hour</b> · Fairmont Hotel Century City",
     "<b>Amazon How to Rob a Bank AP</b> · AMC Americana",
     "<b>11.4.26 48 Wall St NY</b> · 48 Wall Street",
-    "<b>FashionNova Halloween Party</b> · Fashion Nova Corporate Office",
     "<b>2026 Latin Grammys - LARAS</b> · MGM Grand Garden Arena",
     "<b>11.12.26 48 Wall St NY</b> · 48 Wall Street",
-    "<b>Ottawa Senators vs Los Angeles Kings</b> · Crypto.com Arena",
     "<b>11.4 Rex Group NYC</b> · New York City",
     "<b>Dev Rev Reception</b> · The Mint San Francisco",
     "<b>Test Job for Training</b> · Crypto.com Arena",
-    "<b>Carvana </b> · Carvana LV",
-    "<b>11.20 I Play Rocky Philly</b> · AMC Fashion District Philadelphia"
+    "<b>11.20 I Play Rocky Philly</b> · AMC Fashion District Philadelphia",
+    "<b>Private Event BH </b> · Beverly Hills Hotel",
+    "<b>UFC 334 CWI </b> · Madison Square Garden",
+    "<b>Amazon I Play Rocky AP</b> · The London West Hollywood at Beverly Hills"
   ],
   "linkedin": [
     {
